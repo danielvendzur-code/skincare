@@ -11,6 +11,7 @@ const Icon = ({ name }) => {
     reset: <><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/></>,
     back: <><path d="m15 18-6-6 6-6"/></>,
     send: <><path d="m4 4 17 8-17 8 3-8zM7 12h14"/></>,
+    spark: <><path d="m12 3 1.4 4.1L17.5 8.5l-4.1 1.4L12 14l-1.4-4.1-4.1-1.4 4.1-1.4z"/><path d="m18.5 14 .8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></>,
   };
   return <svg viewBox="0 0 24 24" aria-hidden="true">{paths[name]}</svg>;
 };
@@ -27,12 +28,17 @@ function OwnerPage({ brand, openAdvisor, openChat }) {
     </header>
     <section className="owner__hero">
       <div className="owner__copy">
-        <h1>{brand.headline}</h1>
-        <p>Chat odpovie na otázky a Výber starostlivosti prevedie zákazníka štyrmi jednoduchými krokmi ku konkrétnemu produktu.</p>
+        <span className="owner__eyebrow">Čo poradca robí</span>
+        <h1>Odpovie na otázky. Odporučí konkrétny produkt.</h1>
+        <p>Pracuje s ponukou {brand.name}, vysvetlí rozdiely a podľa štyroch odpovedí zúži výber na vhodnú starostlivosť.</p>
         <div className="owner__actions">
           <button className="button button--primary" onClick={openAdvisor}>Vyskúšať Výber starostlivosti <Icon name="arrow" /></button>
           <button className="button button--secondary" onClick={openChat}>Skúsiť Chat <Icon name="chat" /></button>
         </div>
+        <section className="owner-benefits" aria-label="Prínosy pre e-shop">
+          <span className="owner-benefits__label">Prínosy pre e-shop</span>
+          <div>{brand.benefits.map((benefit) => <p key={benefit}><b>✓</b>{benefit}</p>)}</div>
+        </section>
       </div>
       <div className="owner__visual" aria-hidden="true">
         <img src={brand.hero} alt="" />
@@ -44,15 +50,12 @@ function OwnerPage({ brand, openAdvisor, openChat }) {
         </div>
       </div>
     </section>
-    <section className="benefits" aria-label="Prínosy">
-      {brand.benefits.map((benefit) => <div key={benefit}><span>✓</span><b>{benefit}</b></div>)}
-    </section>
     <footer><a href="https://mojchatbot.sk" target="_blank" rel="noreferrer">mojchatbot.sk</a><span>Pripravené pre {brand.name}</span></footer>
   </main>;
 }
 
 function Chat({ brand, startAdvisor }) {
-  const [messages, setMessages] = useState([{ from: 'bot', text: brand.welcome }]);
+  const [messages, setMessages] = useState(() => [{ from: 'bot', text: `Dobrý deň. Povedzte mi, čo hľadáte alebo s čím potrebujete poradiť. Pomôžem vám zúžiť výber z ponuky ${brand.name}.` }]);
   const [value, setValue] = useState('');
   const [busy, setBusy] = useState(false);
   const initial = messages.length === 1;
@@ -71,10 +74,17 @@ function Chat({ brand, startAdvisor }) {
     } finally { setBusy(false); }
   };
   return <div className="chat-view">
-    {initial && <button className="handoff" onClick={startAdvisor}>Nájsť starostlivosť za 4 kroky <Icon name="arrow" /></button>}
+    {initial && <button className="handoff" onClick={startAdvisor}>
+      <span className="handoff__icon"><Icon name="spark" /></span>
+      <span><b>Nájsť svoju starostlivosť za 4 kroky</b><small>Typ · cieľ · rutina · textúra</small></span>
+      <Icon name="arrow" />
+    </button>}
     <div className="messages" aria-live="polite">
-      {messages.map((message, index) => <div key={index} className={`bubble bubble--${message.from}`}>{message.text}</div>)}
-      {busy && <div className="bubble bubble--bot bubble--typing">•••</div>}
+      {messages.map((message, index) => <div key={index} className={`message-row message-row--${message.from}`}>
+        {message.from === 'bot' ? <span className="chat-avatar" aria-hidden="true"><Logo brand={brand} compact /></span> : null}
+        <div className={`bubble bubble--${message.from}`}>{message.text}</div>
+      </div>)}
+      {busy && <div className="message-row message-row--bot"><span className="chat-avatar" aria-hidden="true"><Logo brand={brand} compact /></span><div className="bubble bubble--bot bubble--typing">•••</div></div>}
     </div>
     {initial && <div className="quick-chips">{brand.chips.map((chip) => <button key={chip} onClick={() => send(chip)}>{chip}</button>)}</div>}
     <form className="composer" onSubmit={(event) => { event.preventDefault(); send(value); }}>
@@ -84,10 +94,8 @@ function Chat({ brand, startAdvisor }) {
   </div>;
 }
 
-function ChoiceImage({ index }) {
-  const x = (index % 4) * 33.333;
-  const y = Math.floor(index / 4) * 33.333;
-  return <span className="choice-image" style={{ backgroundPosition: `${x}% ${y}%` }} aria-hidden="true" />;
+function ChoiceImage({ option }) {
+  return <span className="choice-image" aria-hidden="true"><img src={option.image} alt="" /></span>;
 }
 
 function Advisor({ brand, onDone }) {
@@ -112,7 +120,7 @@ function Advisor({ brand, onDone }) {
     <h2>{question.title}</h2>
     <p>{question.hint}</p>
     <div className="choice-grid">{question.options.map((option, index) => <button key={option.value} className={answers[step] === option.value ? 'is-selected' : ''} onClick={() => choose(option, index)}>
-      <ChoiceImage index={question.imageOffset + index} /><span>{option.label}</span>
+      <ChoiceImage option={option} /><span>{option.label}</span>
     </button>)}</div>
   </div>;
 }
@@ -158,8 +166,8 @@ function Widget({ brand, open, setOpen, initialMode, onModeChange }) {
     {!open && <div className="launcher-wrap"><div className="teaser"><button aria-label="Zavrieť pozvánku">×</button><b>{brand.teaserTitle}</b><span>{brand.teaser}</span></div><button className="launcher" aria-label={`Otvoriť poradcu ${brand.name}`} onClick={() => setOpen(true)}><Logo brand={brand} compact /></button></div>}
     {open && <div className="overlay" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setOpen(false); }}>
       <section className="widget" role="dialog" aria-modal="true" aria-label={`Poradca ${brand.name}`} tabIndex="-1" ref={panelRef}>
-        <header className="widget__header"><Logo brand={brand} /><span>Produktový poradca</span><div><button aria-label="Začať odznova" onClick={() => setResetKey((value) => value + 1)}><Icon name="reset" /></button><button aria-label="Zavrieť" onClick={() => setOpen(false)}><Icon name="close" /></button></div></header>
-        <div className="mode-switch" role="tablist"><button role="tab" aria-selected={mode === 'chat'} onClick={() => switchMode('chat')}>CHAT</button><button role="tab" aria-selected={mode === 'advisor'} onClick={() => switchMode('advisor')}>VÝBER STAROSTLIVOSTI</button></div>
+        <header className="widget__header"><Logo brand={brand} /><div><button aria-label="Začať odznova" onClick={() => setResetKey((value) => value + 1)}><Icon name="reset" /></button><button aria-label="Zavrieť" onClick={() => setOpen(false)}><Icon name="close" /></button></div></header>
+        <div className={`mode-switch ${mode === 'advisor' ? 'is-advisor' : ''}`} role="tablist"><span className="mode-thumb" aria-hidden="true" /><button role="tab" aria-selected={mode === 'chat'} onClick={() => switchMode('chat')}><Icon name="chat" />Chat</button><button role="tab" aria-selected={mode === 'advisor'} onClick={() => switchMode('advisor')}><Icon name="spark" />Výber starostlivosti</button></div>
         <div className="widget__body" key={`${resetKey}-${mode}`}>{mode === 'chat' ? <Chat brand={brand} startAdvisor={() => switchMode('advisor')} /> : <Advisor brand={brand} />}</div>
       </section>
     </div>}

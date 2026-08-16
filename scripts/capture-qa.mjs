@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const root = path.resolve('artifacts/screenshots');
+const baseURL = process.env.QA_BASE_URL ?? 'http://127.0.0.1:4173';
 const brands = ['mylo','ponio','two','bellcoria','biofy','anemone'];
 const viewports = [
   { name:'desktop', width:1440, height:1000 },
@@ -14,7 +15,10 @@ const browser = await chromium.launch({ channel:'msedge', headless:true });
 for (const brand of brands) {
   for (const viewport of viewports) {
     const page = await browser.newPage({ viewport:{ width:viewport.width, height:viewport.height }, deviceScaleFactor:1 });
-    await page.goto(`http://127.0.0.1:4173/ukazka/${brand}`, { waitUntil:'networkidle' });
+    const errors = [];
+    page.on('console', (message) => { if (message.type() === 'error') errors.push(`${message.text()} ${message.location().url}`.trim()); });
+    page.on('pageerror', (error) => errors.push(error.message));
+    await page.goto(`${baseURL}/ukazka/${brand}`, { waitUntil:'networkidle' });
     await page.screenshot({ path:path.join(root,`${brand}-${viewport.name}-owner.png`) });
     await page.getByRole('button',{ name:/Otvoriť poradcu/i }).click();
     await page.waitForTimeout(360);
@@ -27,6 +31,7 @@ for (const brand of brands) {
     }
     await page.locator('.result-card').waitFor();
     await page.screenshot({ path:path.join(root,`${brand}-${viewport.name}-result.png`) });
+    if (errors.length) throw new Error(`${brand} ${viewport.name}: ${errors.join(' | ')}`);
     await page.close();
     process.stdout.write(`${brand} ${viewport.name}\n`);
   }

@@ -126,6 +126,11 @@ for (const [slug, brand] of Object.entries(brands)) {
     item.remoteImage = item.image;
     item.image = `/assets/brands/${slug}/product-${index + 1}${assetExtension(item.image)}`;
   });
+  brand.questions.forEach((question, questionIndex) => {
+    question.options.forEach((option, optionIndex) => {
+      option.image = brand.products[(questionIndex * 2 + optionIndex) % brand.products.length].image;
+    });
+  });
 }
 
 export const brandOrder = Object.keys(brands);

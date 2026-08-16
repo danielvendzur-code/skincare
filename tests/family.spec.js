@@ -7,6 +7,8 @@ for (const brand of brands) {
   test(`${brand}: owner, chat, advisor and result`, async ({ page }) => {
     await page.goto(`/ukazka/${brand}`);
     await expect(page.locator('.owner h1')).toBeVisible();
+    await expect(page.locator('.owner-benefits p')).toHaveCount(3);
+    await expect(page.locator('.owner')).not.toContainText(/Starostlivosť, ktorá dáva zmysel|Starostlivosť, ktorú si pokožka zaslúži|Starostlivosť, ktorá dýcha prírodou/i);
     await expect(page.locator('body')).not.toContainText(/\bAI\b|\bdemo\b|94\s*%|confidence/i);
     expect(await page.locator('button button, a button, button a').count()).toBe(0);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
@@ -14,15 +16,24 @@ for (const brand of brands) {
 
     await page.getByRole('button', { name: /Skúsiť Chat/i }).click();
     await expect(page.locator('.widget')).toBeVisible();
+    await expect(page.locator('.widget')).not.toContainText('Produktový poradca');
     await expect(page.locator('.mode-switch')).toHaveCount(1);
+    await expect(page.locator('.mode-thumb')).toHaveCount(1);
+    await expect(page.locator('.chat-avatar')).toHaveCount(1);
+    const handoffBox = await page.locator('.handoff').boundingBox();
+    const welcomeBox = await page.locator('.bubble--bot').first().boundingBox();
+    expect(handoffBox.y).toBeLessThan(welcomeBox.y);
     await expect(page.locator('.quick-chips button')).toHaveCount(4);
     await page.locator('.quick-chips button').first().click();
     await expect(page.locator('.quick-chips')).toHaveCount(0);
     await expect(page.locator('.handoff')).toHaveCount(0);
 
     await page.locator('.mode-switch button').nth(1).click();
+    await expect(page.locator('.mode-switch')).toHaveClass(/is-advisor/);
     for (let step = 0; step < 4; step += 1) {
       await expect(page.locator('.choice-grid button')).toHaveCount(4);
+      await expect(page.locator('.choice-image img')).toHaveCount(4);
+      await expect.poll(() => page.locator('.choice-image img').evaluateAll((images) => images.every((image) => image.complete && image.naturalWidth > 0))).toBeTruthy();
       const noScroll = await page.locator('.advisor-view').evaluate((node) => node.scrollHeight <= node.clientHeight + 1);
       expect(noScroll).toBeTruthy();
       await page.locator('.choice-grid button').nth(step % 4).click();
