@@ -7,14 +7,16 @@ for (const brand of brands) {
   test(`${brand}: owner, chat, advisor and result`, async ({ page }) => {
     await page.goto(`/ukazka/${brand}`);
     await expect(page.locator('.owner h1')).toBeVisible();
-    await expect(page.locator('.owner-benefits p')).toHaveCount(3);
+    await expect(page.locator('.owner-benefits article')).toHaveCount(3);
+    await expect(page.locator('.owner')).not.toContainText('Čo poradca robí');
+    await expect(page.locator('.owner__copy > p, .workflow')).toHaveCount(0);
     await expect(page.locator('.owner')).not.toContainText(/Starostlivosť, ktorá dáva zmysel|Starostlivosť, ktorú si pokožka zaslúži|Starostlivosť, ktorá dýcha prírodou/i);
     await expect(page.locator('body')).not.toContainText(/\bAI\b|\bdemo\b|94\s*%|confidence/i);
     expect(await page.locator('button button, a button, button a').count()).toBe(0);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
     expect(overflow).toBeLessThanOrEqual(0);
 
-    await page.getByRole('button', { name: /Skúsiť Chat/i }).click();
+    await page.getByRole('button', { name: /Otvoriť Chat/i }).click();
     await expect(page.locator('.widget')).toBeVisible();
     await expect(page.locator('.widget')).not.toContainText('Produktový poradca');
     await expect(page.locator('.mode-switch')).toHaveCount(1);
@@ -34,6 +36,12 @@ for (const brand of brands) {
       await expect(page.locator('.choice-grid button')).toHaveCount(4);
       await expect(page.locator('.choice-image img')).toHaveCount(4);
       await expect.poll(() => page.locator('.choice-image img').evaluateAll((images) => images.every((image) => image.complete && image.naturalWidth > 0))).toBeTruthy();
+      const fullBleed = await page.locator('.choice-grid button').evaluateAll((buttons) => buttons.every((button) => {
+        const card = button.getBoundingClientRect();
+        const image = button.querySelector('.choice-image').getBoundingClientRect();
+        return Math.abs(card.width - image.width) <= 2 && Math.abs(card.height - image.height) <= 2;
+      }));
+      expect(fullBleed).toBeTruthy();
       const noScroll = await page.locator('.advisor-view').evaluate((node) => node.scrollHeight <= node.clientHeight + 1);
       expect(noScroll).toBeTruthy();
       await page.locator('.choice-grid button').nth(step % 4).click();
@@ -57,6 +65,18 @@ test('mobile widget is fullscreen and page is scroll locked', async ({ page }) =
   await expect(page.locator('.widget__header')).toBeVisible();
   await expect(page.locator('.mode-switch')).toBeVisible();
   expect(await page.evaluate(() => document.body.classList.contains('widget-open'))).toBeTruthy();
+});
+
+test('anemone mobile owner keeps the logo, benefits and primary action prominent', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/ukazka/anemone');
+  await expect(page.locator('.owner__primary-action')).toBeVisible();
+  await expect(page.locator('.owner-benefits article')).toHaveCount(3);
+  const logo = await page.locator('.owner__header .brand-logo').boundingBox();
+  const visual = await page.locator('.owner__visual').boundingBox();
+  expect(logo.width).toBeGreaterThanOrEqual(120);
+  expect(visual.width).toBeGreaterThanOrEqual(355);
+  expect(await page.locator('.owner').evaluate((node) => node.scrollHeight <= node.clientHeight + 1)).toBeTruthy();
 });
 
 test('360x800 advisor questions fit without scroll', async ({ page }) => {

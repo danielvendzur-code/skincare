@@ -1,7 +1,13 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { brands, brandOrder } from './brands.js';
 import './styles.css';
+
+const OWNER_BENEFITS = [
+  { title: 'Menej nerozhodných zákazníkov', detail: 'Pomoc priamo vo chvíli, keď si vyberajú.' },
+  { title: 'Viac návštev konkrétnych produktov', detail: 'Každý výber končí jasným odporúčaním.' },
+  { title: 'Menej opakovaných otázok', detail: 'Chat vysvetlí rozdiely a nasmeruje zákazníka.' },
+];
 
 const Icon = ({ name }) => {
   const paths = {
@@ -17,6 +23,7 @@ const Icon = ({ name }) => {
 };
 
 function Logo({ brand, compact = false }) {
+  if (compact && brand.slug === 'anemone') return <span className="brand-logo brand-logo--compact brand-logo--letter" role="img" aria-label={brand.name}>A</span>;
   return <img className={`brand-logo ${compact ? 'brand-logo--compact' : ''}`} src={brand.logo} alt={brand.name} />;
 }
 
@@ -28,26 +35,20 @@ function OwnerPage({ brand, openAdvisor, openChat }) {
     </header>
     <section className="owner__hero">
       <div className="owner__copy">
-        <span className="owner__eyebrow">Čo poradca robí</span>
         <h1>Odpovie na otázky. Odporučí konkrétny produkt.</h1>
-        <p>Pracuje s ponukou {brand.name}, vysvetlí rozdiely a podľa štyroch odpovedí zúži výber na vhodnú starostlivosť.</p>
-        <div className="owner__actions">
-          <button className="button button--primary" onClick={openAdvisor}>Vyskúšať Výber starostlivosti <Icon name="arrow" /></button>
-          <button className="button button--secondary" onClick={openChat}>Skúsiť Chat <Icon name="chat" /></button>
-        </div>
-        <section className="owner-benefits" aria-label="Prínosy pre e-shop">
-          <span className="owner-benefits__label">Prínosy pre e-shop</span>
-          <div>{brand.benefits.map((benefit) => <p key={benefit}><b>✓</b>{benefit}</p>)}</div>
+        <section className="owner-benefits" aria-label="Čo poradca prinesie e-shopu">
+          {OWNER_BENEFITS.map((benefit) => <article key={benefit.title}>
+            <b aria-hidden="true">✓</b>
+            <span><strong>{benefit.title}</strong><small>{benefit.detail}</small></span>
+          </article>)}
         </section>
+        <div className="owner__actions">
+          <button className="button button--primary owner__primary-action" onClick={openAdvisor}><span><b>Vyskúšať výber starostlivosti</b><small>4 otázky · konkrétny produkt</small></span><Icon name="arrow" /></button>
+          <button className="button button--secondary" onClick={openChat}>Otvoriť Chat <Icon name="chat" /></button>
+        </div>
       </div>
       <div className="owner__visual" aria-hidden="true">
         <img src={brand.hero} alt="" />
-        <div className="workflow">
-          {['Chat', 'Výber', 'Produkt'].map((item, index) => <React.Fragment key={item}>
-            <div><b>{item}</b><small>{['Odpovie na otázku', '4 jednoduché rozhodnutia', 'Konkrétny produkt'][index]}</small></div>
-            {index < 2 && <Icon name="arrow" />}
-          </React.Fragment>)}
-        </div>
       </div>
     </section>
     <footer><a href="https://mojchatbot.sk" target="_blank" rel="noreferrer">mojchatbot.sk</a><span>Pripravené pre {brand.name}</span></footer>
@@ -55,7 +56,7 @@ function OwnerPage({ brand, openAdvisor, openChat }) {
 }
 
 function Chat({ brand, startAdvisor }) {
-  const [messages, setMessages] = useState(() => [{ from: 'bot', text: `Dobrý deň. Povedzte mi, čo hľadáte alebo s čím potrebujete poradiť. Pomôžem vám zúžiť výber z ponuky ${brand.name}.` }]);
+  const [messages, setMessages] = useState(() => [{ from: 'bot', text: `Dobrý deň. Čo dnes hľadáte? Napíšte mi typ pleti, problém alebo produkt a zúžim výber z ponuky ${brand.name}.` }]);
   const [value, setValue] = useState('');
   const [busy, setBusy] = useState(false);
   const initial = messages.length === 1;
@@ -76,8 +77,8 @@ function Chat({ brand, startAdvisor }) {
   return <div className="chat-view">
     {initial && <button className="handoff" onClick={startAdvisor}>
       <span className="handoff__icon"><Icon name="spark" /></span>
-      <span><b>Nájsť svoju starostlivosť za 4 kroky</b><small>Typ · cieľ · rutina · textúra</small></span>
-      <Icon name="arrow" />
+      <span><b>Nájsť svoju starostlivosť</b><small>4 krátke otázky · konkrétny produkt</small></span>
+      <span className="handoff__arrow"><Icon name="arrow" /></span>
     </button>}
     <div className="messages" aria-live="polite">
       {messages.map((message, index) => <div key={index} className={`message-row message-row--${message.from}`}>
