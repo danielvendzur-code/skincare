@@ -160,7 +160,6 @@ function Advisor({ brand }) {
 
   if (result) {
     return <Result
-      brand={brand}
       result={result}
       restart={restart}
       back={() => { setResult(null); setStep(brand.questions.length - 1); }}
@@ -201,7 +200,7 @@ function Result({ result, restart, back }) {
       <div><h2>{product.name}</h2><b className="price">{product.price}</b><ul>{product.features.map((feature) => <li key={feature}>{feature}</li>)}</ul></div>
     </div>
     <div className="why"><b>Prečo tento produkt</b><p>{reason || product.reason}</p>{matchedTraits.length > 0 && <div className="matched-traits">{matchedTraits.map((trait) => <span key={trait}>{trait}</span>)}</div>}</div>
-    <a className="button button--primary result-cta" href={product.url} target="_blank" rel="noreferrer">Pozrieť produkt na mylo.sk <Icon name="arrow" /></a>
+    <a className="button button--primary result-cta" href={product.url} target="_blank" rel="noreferrer">Pozrieť produkt <Icon name="arrow" /></a>
     <div className="alternative"><span>Ďalšia vhodná voľba</span><a href={alternative.url} target="_blank" rel="noreferrer">{alternative.name} · {alternative.price} <Icon name="arrow" /></a></div>
     <button className="text-button" onClick={restart}>Vybrať znova</button>
   </div>;
