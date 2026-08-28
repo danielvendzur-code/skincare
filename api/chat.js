@@ -101,8 +101,16 @@ const BRANDS = {
 
 const MEDICAL_PATTERN = /diagn[oó]z|ekz[eé]m|dermatit|psori|rosace|infek|alergi|opuch|krvác|hnis|siln.{0,12}boles|vyr[aá]žk|lie[cč]i|vylie[cč]|terapi|lek[aá]r|dermatol/i;
 
+const BELL_CATALOGUE = [
+  { name:'Organický opunciový olej', aliases:/opunci/i, role:'pleťový olej', area:'tvár', texture:'olejová textúra', routine:'denná alebo večerná starostlivosť' },
+  { name:'Elixír proti vráskam s bakuchiolom', aliases:/bakuch/i, role:'pleťový elixír', area:'tvár', texture:'olejová textúra', routine:'denná starostlivosť' },
+  { name:'Pleťový čistiaci gél', aliases:/čistiac|cistiac|čistiaci g[eé]l|cistiaci gel/i, role:'čistiaci produkt', area:'tvár', texture:'gélová textúra', routine:'čistenie' },
+  { name:'Nočný elixír s vitamínom C a brusnicovým olejom', aliases:/nočn|nocn|brusnic|vitam[ií]n.{0,3}c/i, role:'pleťový elixír', area:'tvár', texture:'olejová textúra', routine:'večerná starostlivosť' },
+  { name:'Telový olej s astaxantínom', aliases:/astax|telov/i, role:'telový olej', area:'telo', texture:'olejová textúra', routine:'telová starostlivosť' }
+];
+
 function setCors(request, response) {
-  const origin = request.headers.origin || '';
+  const origin = request.headers?.origin || '';
   const allowed = origin === '' || /(^https:\/\/([a-z0-9-]+\.)?mojchatbot\.sk$)|(^https:\/\/.*\.vercel\.app$)|(^http:\/\/localhost:\d+$)|(^http:\/\/127\.0\.0\.1:\d+$)/i.test(origin);
   response.setHeader('Access-Control-Allow-Origin', allowed && origin ? origin : 'https://mojchatbot.sk');
   response.setHeader('Vary', 'Origin');
@@ -132,12 +140,61 @@ function normalizeMessages(body) {
   return legacyMessage ? [{ role: 'user', content: legacyMessage }] : [];
 }
 
-function deterministicReply(brand, latestMessage) {
+function bellcoriaComparison(latestQuery, messages) {
+  const context = messages.slice(-6).map((message) => message.content).join(' ').toLocaleLowerCase('sk');
+  const products = BELL_CATALOGUE.filter((product) => product.aliases.test(context));
+  const isFollowUp = /ktor[yý]|ktor[aá]|ktor[eé]|z nich|a ten|a t[aá]/i.test(latestQuery);
+  const comparisonAsked = /porovn|rozdiel|versus|\bvs\.?\b/i.test(latestQuery) || isFollowUp;
+
+  if (products.length >= 2 && comparisonAsked) {
+    if (/ktor.{0,8}elix/i.test(latestQuery)) {
+      const elixirs = products.filter((product) => product.role.includes('elixír'));
+      if (elixirs.length) return `Elixírovú rolu má ${elixirs.map((product) => product.name).join(' a ')}. Ostatné spomenuté produkty sú v katalógu vedené ako iný krok rutiny.`;
+    }
+    return products.slice(0, 3).map((product) => `${product.name}: ${product.role}, ${product.texture}, ${product.routine}.`).join(' ');
+  }
+
+  return null;
+}
+
+function bellcoriaDeterministicReply(latestQuery, messages) {
+  const comparison = bellcoriaComparison(latestQuery, messages);
+  if (comparison) return comparison;
+
+  if (/bakuch/i.test(latestQuery)) {
+    return 'Elixír proti vráskam s bakuchiolom je v tomto výbere pleťový elixír s bakuchiolom a olejovou textúrou. Ak chcete čistenie, patrí sem Pleťový čistiaci gél; ak chcete pleťový olej, ide o Organický opunciový olej.';
+  }
+  if (/večer|vecer|noč|nocn/i.test(latestQuery)) {
+    return 'Na večerný elixírový krok je v tomto výbere Nočný elixír s vitamínom C a brusnicovým olejom. Ak chcete namiesto elixíru pleťový olej, porovnajte ho s Organickým opunciovým olejom.';
+  }
+  if (/telo|telov|astax/i.test(latestQuery) && /tv[aá]r|ple[ťt]|face/i.test(latestQuery)) {
+    return 'Pri výbere Bellcoria držíme tvár a telo oddelene. Telový olej s astaxantínom zostáva v telovej vetve; pri tvári poradca vyberá medzi čistiacim gélom, opunciovým olejom a pleťovými elixírmi.';
+  }
+  if (/telo|telov|astax/i.test(latestQuery)) {
+    return 'Pre telovú vetvu je v tomto výbere Telový olej s astaxantínom. Pri výbere pre tvár ho poradca zámerne vylúči.';
+  }
+  if (/čist|cist|g[eé]l/i.test(latestQuery) && /olej|elix/i.test(latestQuery)) {
+    return 'Pleťový čistiaci gél je ľahký čistiaci krok. Organický opunciový olej je pleťový olej a bakuchiolový aj nočný produkt sú elixíry, teda následná olejová starostlivosť.';
+  }
+  if (/olej/i.test(latestQuery) && /elix/i.test(latestQuery)) {
+    return 'V tomto katalógu je Organický opunciový olej vedený ako pleťový olej. Elixír s bakuchiolom a Nočný elixír sú samostatná elixírová rola; všetky majú olejový formát, ale poradca ich nerozdeľuje náhodne.';
+  }
+  if (/porovn|rozdiel|versus|\bvs\.?\b/i.test(latestQuery)) {
+    return 'Napíšte názvy dvoch Bellcoria produktov. Porovnám ich iba podľa produktovej roly, oblasti, textúry a rutiny, bez zdravotných tvrdení.';
+  }
+  if (/čist|cist|g[eé]l/i.test(latestQuery)) return BRANDS.bellcoria.fallback.cleanse;
+  if (/olej|elix/i.test(latestQuery)) return BRANDS.bellcoria.fallback.oil;
+  return BRANDS.bellcoria.fallback.default;
+}
+
+function deterministicReply(brand, latestMessage, messages) {
   const query = String(latestMessage || '').toLocaleLowerCase('sk');
 
   if (MEDICAL_PATTERN.test(query)) {
     return 'S diagnózou ani liečbou vám cez produktový chatbot nepomôžem. Môžem zúžiť výber kozmetiky podľa formátu a preferencií; pri výrazných, pretrvávajúcich alebo zhoršujúcich sa ťažkostiach je vhodné obrátiť sa na lekára alebo dermatológa.';
   }
+
+  if (brand.name === 'BELLCORIA') return bellcoriaDeterministicReply(query, messages);
 
   if (/porovn|rozdiel|versus| vs\.? /.test(query)) {
     return `Môžem porovnať produkty ${brand.name} podľa ich overeného typu, textúry a úlohy v rutine. Napíšte názvy dvoch produktov, ktoré chcete porovnať, a zostanem iba pri údajoch z aktuálneho katalógu.`;
@@ -154,16 +211,20 @@ function deterministicReply(brand, latestMessage) {
 }
 
 function buildSystemPrompt(brand) {
+  const brandRules = brand.name === 'BELLCORIA'
+    ? 'Pre Bellcoria rozlišujte produktové roly: Pleťový čistiaci gél = čistenie; Organický opunciový olej = pleťový olej; bakuchiolový a nočný produkt = pleťové elixíry; Telový olej s astaxantínom držte v telovej vetve tejto ukážky.'
+    : '';
   return [
     `Ste stručný produktový poradca pre kozmetickú značku ${brand.name}.`,
     `Produkty, ktoré smiete v tomto deme odporúčať: ${brand.products.join('; ')}.`,
+    brandRules,
     'Odpovedajte prirodzenou, jednoduchou a gramaticky správnou slovenčinou, zvyčajne v 2 až 4 krátkych vetách.',
     'Nevymýšľajte produkty, ceny, dostupnosť, zloženie, certifikácie, účinky ani tvrdenia, ktoré nemáte v poskytnutom katalógovom kontexte.',
     'Nevykonávajte zdravotnú diagnózu a netvrďte, že kozmetika lieči alebo vylieči zdravotný stav.',
     'Ak používateľ opisuje výrazný, pretrvávajúci alebo zdravotný problém, jasne oddeľte kozmetický výber od zdravotnej rady a odporučte odbornú zdravotnú konzultáciu.',
     'Pri nejasnej požiadavke položte najviac jednu krátku doplňujúcu otázku alebo odporučte Výber starostlivosti.',
     'Pri porovnaní nadväzujte na predchádzajúce správy v konverzácii a porovnávajte iba produkty z povoleného zoznamu.'
-  ].join('\n');
+  ].filter(Boolean).join('\n');
 }
 
 export default async function handler(request, response) {
@@ -189,7 +250,7 @@ export default async function handler(request, response) {
   if (!latestMessage) return response.status(400).json({ error: 'Missing user message' });
 
   const fallback = () => response.status(200).json({
-    reply: deterministicReply(brand, latestMessage),
+    reply: deterministicReply(brand, latestMessage, messages),
     fallback: true
   });
 

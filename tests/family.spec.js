@@ -7,7 +7,13 @@ for (const brand of brands) {
   test(`${brand}: owner, chat, advisor and result`, async ({ page }) => {
     await page.goto(`/ukazka/${brand}`);
     await expect(page.locator('.owner h1')).toBeVisible();
-    await expect(page.locator('.owner-benefits article')).toHaveCount(3);
+    if (brand === 'bellcoria') {
+      await expect(page.locator('.bellcoria-storefront')).toBeVisible();
+      await expect(page.getByTestId('bellcoria-product')).toHaveCount(5);
+      await expect(page.locator('.bellcoria-nav')).toBeVisible();
+    } else {
+      await expect(page.locator('.owner-benefits article')).toHaveCount(3);
+    }
     await expect(page.locator('.owner')).not.toContainText('Čo poradca robí');
     await expect(page.locator('.owner__copy > p, .workflow')).toHaveCount(0);
     await expect(page.locator('.owner')).not.toContainText(/Starostlivosť, ktorá dáva zmysel|Starostlivosť, ktorú si pokožka zaslúži|Starostlivosť, ktorá dýcha prírodou/i);
@@ -102,6 +108,6 @@ test('reduced motion and deterministic API fallback', async () => {
   const css = await import('node:fs').then((fs) => fs.readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8'));
   expect(css).toContain('prefers-reduced-motion');
   let status = 0, body;
-  await handler({ method:'POST', body:{ brand:'mylo', message:'Mám suchú pleť' } }, { status(value){ status=value; return this; }, json(value){ body=value; return this; } });
+  await handler({ method:'POST', headers:{}, body:{ brand:'mylo', message:'Mám suchú pleť' } }, { setHeader(){}, status(value){ status=value; return this; }, json(value){ body=value; return this; } });
   expect(status).toBe(200); expect(body.reply).toMatch(/Mylo|štyrmi|štyri/i);
 });
