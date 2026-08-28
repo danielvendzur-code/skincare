@@ -79,7 +79,7 @@ export function AnemoneStorefront({ brand, openAdvisor, openChat }) {
       <div className="an-waters__grid"><ProductCard product={rose} /><ProductCard product={chamomile} /></div>
     </section>
 
-    <section className="an-oil an-section" id="pletove-oleje">
+    <section className="an-oil an-section an-product an-product--feature" id="pletove-oleje">
       <div className="an-oil__media"><img src={oil.image} alt={oil.name} /></div>
       <div className="an-oil__copy">
         <span>02 · Pleťové oleje</span>
