@@ -119,6 +119,11 @@ for (const viewport of [
 
     await page.locator('.mode-switch button').nth(1).click();
     await expect(page.locator('.choice-grid button')).toHaveCount(4);
+    await page.locator('.mode-switch button').nth(0).click();
+    await expect(page.locator('.message-row--user')).toHaveCount(2);
+    await expect(page.locator('.message-row--user').last()).toContainText('kvetová voda oproti oleju');
+    await page.locator('.mode-switch button').nth(1).click();
+
     expect(await page.locator('.advisor-view').evaluate((node) => node.scrollHeight <= node.clientHeight + 1)).toBeTruthy();
     await page.locator('.choice-grid button').nth(2).click();
     await page.waitForTimeout(210);
