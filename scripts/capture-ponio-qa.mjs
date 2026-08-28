@@ -11,7 +11,8 @@ const viewports = [
 ];
 
 await fs.mkdir(root, { recursive: true });
-const browser = await chromium.launch({ channel: process.env.QA_BROWSER_CHANNEL ?? 'msedge', headless: true });
+const requestedChannel = process.env.QA_BROWSER_CHANNEL?.trim();
+const browser = await chromium.launch({ ...(requestedChannel ? { channel: requestedChannel } : {}), headless: true });
 const captures = [];
 
 async function assertNoErrors(page, errors, viewport, state) {

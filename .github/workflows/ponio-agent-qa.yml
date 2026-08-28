@@ -1,0 +1,68 @@
+name: PONIO agent QA
+
+on:
+  push:
+    branches:
+      - agent/skincare-ponio-kava-parity
+    paths-ignore:
+      - artifacts/**
+
+permissions:
+  contents: write
+
+jobs:
+  ponio-qa:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Enable pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@10.15.0 --activate
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Playwright Chromium
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Build
+        run: pnpm build
+
+      - name: Run Playwright suite
+        run: pnpm test
+
+      - name: Capture PONIO QA states
+        run: |
+          pnpm dev --host 127.0.0.1 --port 4173 > /tmp/ponio-vite.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4173/ukazka/ponio > /dev/null; then
+              break
+            fi
+            sleep 1
+          done
+          curl --fail http://127.0.0.1:4173/ukazka/ponio > /dev/null
+          pnpm qa:ponio
+
+      - name: Commit verified screenshots and QA board
+        run: |
+          git add artifacts/screenshots/ponio artifacts/PONIO_QA_BOARD.html
+          if git diff --cached --quiet; then
+            echo "QA artifacts unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add verified PONIO QA screenshots"
+          git push
