@@ -35,7 +35,7 @@ export function TwoStorefront({ brand, openAdvisor, openChat }) {
         <p>Vyberte si podľa kroku rutiny, textúry a aktívnej látky. Keď váhate medzi produktmi, poradca porovná iba overené údaje z katalógu.</p>
         <div className="two-hero__actions">
           <a className="two-button two-button--dark" href="#two-products">Objaviť produkty <Arrow /></a>
-          <button className="two-button two-button--line" type="button" onClick={openAdvisor}>Vybrať starostlivosť <Arrow /></button>
+          <button className="two-button two-button--line" type="button" onClick={openAdvisor}>Vyskúšať výber starostlivosti <Arrow /></button>
         </div>
         <div className="two-chemistry" aria-label="Témy kolekcie">
           <span><b>HA⁶</b><small>hydratácia</small></span>

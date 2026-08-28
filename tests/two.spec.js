@@ -9,6 +9,10 @@ async function noOverflow(page) {
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
 }
 
+async function openAdvisor(page) {
+  await page.locator('.two-hero__actions button').click();
+}
+
 async function finishHa6Flow(page) {
   const choices = ['serum','hydration','gel','both'];
   for (const value of choices) {
@@ -52,7 +56,7 @@ test('TWO chat keeps multi-turn context and compares named products without medi
 
 test('TWO advisor uses deterministic weighted scoring, Back, Reset, alternative and external CTA', async ({ page }) => {
   await page.goto(route);
-  await page.getByRole('button', { name:/Vybrať starostlivosť/i }).first().click();
+  await openAdvisor(page);
   await finishHa6Flow(page);
   await expect(page.locator('.result-card h2')).toContainText('HA⁶ HYDRATATION BOOSTER SERUM');
   await expect(page.locator('.why')).toContainText(/hydrat|gélov|sérum/i);
@@ -89,7 +93,7 @@ for (const viewport of viewports) {
   test(`TWO advisor fits ${viewport.width}x${viewport.height} without horizontal or question scroll`, async ({ page }) => {
     await page.setViewportSize(viewport);
     await page.goto(route);
-    await page.getByRole('button', { name:/Vybrať starostlivosť/i }).first().click();
+    await openAdvisor(page);
     await expect(page.locator('.advisor-view')).toBeVisible();
     expect(await page.locator('.advisor-view').evaluate((node) => node.scrollHeight <= node.clientHeight + 1)).toBeTruthy();
     await noOverflow(page);
