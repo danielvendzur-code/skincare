@@ -223,11 +223,24 @@ function Widget({ brand, open, setOpen, initialMode, onModeChange }) {
       if (event.key === 'Escape') setOpen(false);
       if (event.key === 'Tab' && panelRef.current) {
         const items = [...panelRef.current.querySelectorAll('button:not(:disabled),a[href],input:not(:disabled)')];
-        if (!items.length) return;
+        if (!items.length) {
+          event.preventDefault();
+          panelRef.current.focus();
+          return;
+        }
         const first = items[0];
         const last = items[items.length - 1];
-        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
-        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+        const active = document.activeElement;
+        if (active === panelRef.current || !panelRef.current.contains(active)) {
+          event.preventDefault();
+          (event.shiftKey ? last : first).focus();
+        } else if (event.shiftKey && active === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && active === last) {
+          event.preventDefault();
+          first.focus();
+        }
       }
     };
 
