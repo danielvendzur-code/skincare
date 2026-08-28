@@ -45,8 +45,9 @@ test('TWO chat keeps multi-turn context and compares named products without medi
   await expect(page.locator('.bubble--bot').last()).toContainText(/olejov|gélov/i);
   await input.fill('Vylieči mi to ekzém?');
   await input.press('Enter');
-  await expect(page.locator('.bubble--bot').last()).toContainText(/diagnóz|liečb|dermatológ/i);
-  await expect(page.locator('.messages')).not.toContainText(/vylieči|garantuje/i);
+  const medicalReply = page.locator('.bubble--bot').last();
+  await expect(medicalReply).toContainText(/diagnóz|liečb|dermatológ/i);
+  await expect(medicalReply).not.toContainText(/garantuje|vylieči vám|lieči ekzém/i);
 });
 
 test('TWO advisor uses deterministic weighted scoring, Back, Reset, alternative and external CTA', async ({ page }) => {
