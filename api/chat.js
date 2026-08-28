@@ -101,13 +101,17 @@ const BRANDS = {
 
 const MEDICAL_PATTERN = /diagn[oó]z|ekz[eé]m|dermatit|psori|rosace|infek|alergi|opuch|krvác|hnis|siln.{0,12}boles|vyr[aá]žk|lie[cč]i|vylie[cč]|terapi|lek[aá]r|dermatol/i;
 
+function safeSetHeader(response, name, value) {
+  if (typeof response?.setHeader === 'function') response.setHeader(name, value);
+}
+
 function setCors(request, response) {
-  const origin = request.headers.origin || '';
+  const origin = request?.headers?.origin || '';
   const allowed = origin === '' || /(^https:\/\/([a-z0-9-]+\.)?mojchatbot\.sk$)|(^https:\/\/.*\.vercel\.app$)|(^http:\/\/localhost:\d+$)|(^http:\/\/127\.0\.0\.1:\d+$)/i.test(origin);
-  response.setHeader('Access-Control-Allow-Origin', allowed && origin ? origin : 'https://mojchatbot.sk');
-  response.setHeader('Vary', 'Origin');
-  response.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  response.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  safeSetHeader(response, 'Access-Control-Allow-Origin', allowed && origin ? origin : 'https://mojchatbot.sk');
+  safeSetHeader(response, 'Vary', 'Origin');
+  safeSetHeader(response, 'Access-Control-Allow-Methods', 'POST, OPTIONS');
+  safeSetHeader(response, 'Access-Control-Allow-Headers', 'Content-Type');
 }
 
 function parseBody(request) {
@@ -168,7 +172,7 @@ function buildSystemPrompt(brand) {
 
 export default async function handler(request, response) {
   setCors(request, response);
-  response.setHeader('Cache-Control', 'no-store');
+  safeSetHeader(response, 'Cache-Control', 'no-store');
 
   if (request.method === 'OPTIONS') return response.status(204).end();
   if (request.method !== 'POST') return response.status(405).json({ error: 'Method not allowed' });
