@@ -191,7 +191,8 @@ function Widget({ brand, open, setOpen, initialMode, onModeChange }) {
   useEffect(() => setMode(initialMode), [initialMode, open]);
   useEffect(() => {
     if (!open) return undefined;
-    returnFocusRef.current = document.activeElement;
+    const activeElement = document.activeElement;
+    returnFocusRef.current = activeElement && activeElement !== document.body && activeElement !== document.documentElement ? activeElement : null;
     scrollYRef.current = window.scrollY;
     document.body.classList.add('widget-open');
     requestAnimationFrame(() => panelRef.current?.focus());
