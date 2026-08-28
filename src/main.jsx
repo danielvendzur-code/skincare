@@ -203,7 +203,8 @@ function Widget({ brand, open, setOpen, initialMode, onModeChange }) {
         return;
       }
       if (event.key === 'Tab' && panelRef.current) {
-        const items = [...panelRef.current.querySelectorAll('button:not(:disabled),a[href],input:not(:disabled)')];
+        const items = [...panelRef.current.querySelectorAll('button:not(:disabled),a[href],input:not(:disabled)')]
+          .filter((item) => item.getClientRects().length > 0);
         if (!items.length) return;
         const first = items[0];
         const last = items[items.length - 1];
@@ -216,7 +217,11 @@ function Widget({ brand, open, setOpen, initialMode, onModeChange }) {
       document.body.classList.remove('widget-open');
       document.removeEventListener('keydown', keydown);
       window.scrollTo(0, scrollYRef.current);
-      requestAnimationFrame(() => returnFocusRef.current?.focus?.());
+      const previous = returnFocusRef.current;
+      requestAnimationFrame(() => {
+        if (previous?.isConnected && typeof previous.focus === 'function') previous.focus();
+        else document.querySelector('.launcher')?.focus();
+      });
     };
   }, [open, setOpen]);
 
