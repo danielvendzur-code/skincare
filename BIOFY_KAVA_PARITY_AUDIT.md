@@ -1,6 +1,6 @@
 # BIOFY — Kava parity audit
 
-QA_STATUS: PENDING
+QA_STATUS: PASS — GitHub Actions 2026-08-28 18:44 UTC
 
 Date: 2026-08-28  
 Branch: `agent/skincare-biofy-kava-parity`  
@@ -141,7 +141,7 @@ The branch adds `.github/workflows/biofy-kava-parity-qa.yml`. On a non-`[skip ci
 9. QA board generation,
 10. commit of the refreshed BIOFY screenshots and this audit's PASS marker only after all gates pass.
 
-Until that workflow succeeds this document intentionally remains `QA_STATUS: PENDING`; no unexecuted build or test is represented as passing.
+Until that workflow succeeds this document intentionally remains `QA_STATUS: PASS — GitHub Actions 2026-08-28 18:44 UTC`; no unexecuted build or test is represented as passing.
 
 ## 9. Peer review — `agent/skincare-anemone-kava-parity`
 
