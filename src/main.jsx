@@ -1,7 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { brands, brandOrder } from './brands.js';
+import { brands as legacyBrands, brandOrder as legacyBrandOrder } from './brands.js';
+import { biofy } from './brands/biofy/config.js';
+import { BiofyStorefront } from './brands/biofy/storefront.jsx';
 import './styles.css';
+import './brands/biofy/theme.css';
+
+const brands = { ...legacyBrands, biofy };
+const brandOrder = [...new Set([...legacyBrandOrder, 'biofy'])];
 
 const OWNER_BENEFITS = [
   { title: 'Menej nerozhodných zákazníkov', detail: 'Pomoc priamo vo chvíli, keď si vyberajú.' },
@@ -55,25 +61,42 @@ function OwnerPage({ brand, openAdvisor, openChat }) {
   </main>;
 }
 
-function Chat({ brand, startAdvisor }) {
-  const [messages, setMessages] = useState(() => [{ from: 'bot', text: `Dobrý deň. Čo dnes hľadáte? Napíšte mi typ pleti, problém alebo produkt a zúžim výber z ponuky ${brand.name}.` }]);
+function Chat({ brand, startAdvisor, messages, setMessages }) {
   const [value, setValue] = useState('');
   const [busy, setBusy] = useState(false);
   const initial = messages.length === 1;
+
   const send = async (text) => {
     const clean = text.trim();
     if (!clean || busy) return;
-    setMessages((items) => [...items, { from: 'user', text: clean }]);
-    setValue(''); setBusy(true);
+
+    const nextMessages = [...messages, { from: 'user', text: clean }];
+    setMessages(nextMessages);
+    setValue('');
+    setBusy(true);
+
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 6500);
     try {
-      const response = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ brand: brand.slug, message: clean }) });
-      if (!response.ok) throw new Error('network');
+      const history = nextMessages.map((message) => ({ role: message.from === 'bot' ? 'assistant' : 'user', content: message.text }));
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        signal: controller.signal,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ brand: brand.slug, messages: history }),
+      });
+      if (!response.ok) throw new Error(`chat-${response.status}`);
       const data = await response.json();
-      setMessages((items) => [...items, { from: 'bot', text: data.reply }]);
+      if (!data || typeof data.reply !== 'string' || !data.reply.trim()) throw new Error('chat-empty');
+      setMessages((items) => [...items, { from: 'bot', text: data.reply.trim() }]);
     } catch {
       setMessages((items) => [...items, { from: 'bot', text: brand.fallback(clean) }]);
-    } finally { setBusy(false); }
+    } finally {
+      window.clearTimeout(timeout);
+      setBusy(false);
+    }
   };
+
   return <div className="chat-view">
     {initial && <button className="handoff" onClick={startAdvisor}>
       <span className="handoff__icon"><Icon name="spark" /></span>
@@ -81,16 +104,16 @@ function Chat({ brand, startAdvisor }) {
       <span className="handoff__arrow"><Icon name="arrow" /></span>
     </button>}
     <div className="messages" aria-live="polite">
-      {messages.map((message, index) => <div key={index} className={`message-row message-row--${message.from}`}>
+      {messages.map((message, index) => <div key={`${message.from}-${index}`} className={`message-row message-row--${message.from}`}>
         {message.from === 'bot' ? <span className="chat-avatar" aria-hidden="true"><Logo brand={brand} compact /></span> : null}
         <div className={`bubble bubble--${message.from}`}>{message.text}</div>
       </div>)}
-      {busy && <div className="message-row message-row--bot"><span className="chat-avatar" aria-hidden="true"><Logo brand={brand} compact /></span><div className="bubble bubble--bot bubble--typing">•••</div></div>}
+      {busy && <div className="message-row message-row--bot"><span className="chat-avatar" aria-hidden="true"><Logo brand={brand} compact /></span><div className="bubble bubble--bot bubble--typing" aria-label="Poradca píše">•••</div></div>}
     </div>
     {initial && <div className="quick-chips">{brand.chips.map((chip) => <button key={chip} onClick={() => send(chip)}>{chip}</button>)}</div>}
     <form className="composer" onSubmit={(event) => { event.preventDefault(); send(value); }}>
-      <input aria-label="Napíšte správu" value={value} onChange={(event) => setValue(event.target.value)} placeholder="Napíšte správu…" />
-      <button aria-label="Odoslať" type="submit"><Icon name="send" /></button>
+      <input aria-label="Napíšte správu" value={value} onChange={(event) => setValue(event.target.value)} placeholder="Napíšte správu…" maxLength={700} />
+      <button aria-label="Odoslať" type="submit" disabled={busy || !value.trim()}><Icon name="send" /></button>
     </form>
   </div>;
 }
@@ -103,39 +126,74 @@ function Advisor({ brand, onDone }) {
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [result, setResult] = useState(null);
-  const choose = (option, index) => {
+  const [transitioning, setTransitioning] = useState(false);
+  const transitionRef = useRef(null);
+  const totalSteps = brand.advisorSteps ?? brand.questions?.length ?? 4;
+
+  useEffect(() => () => window.clearTimeout(transitionRef.current), []);
+
+  const question = brand.getAdvisorQuestion ? brand.getAdvisorQuestion(step, answers) : brand.questions[step];
+
+  const choose = (option) => {
+    if (transitioning) return;
     const next = [...answers.slice(0, step), option.value];
     setAnswers(next);
-    window.setTimeout(() => {
-      if (step === 3) { setResult(brand.products[Math.abs(next.join('').length) % brand.products.length]); onDone?.(); }
-      else setStep((value) => value + 1);
+    setTransitioning(true);
+    transitionRef.current = window.setTimeout(() => {
+      if (step === totalSteps - 1) {
+        const recommendation = brand.recommend
+          ? brand.recommend(next)
+          : (() => {
+              const product = brand.products[Math.abs(next.join('').length) % brand.products.length];
+              return { product, alternative: brand.products.find((item) => item.url !== product.url), reason: product.reason };
+            })();
+        setResult(recommendation);
+        onDone?.();
+      } else {
+        setStep((value) => value + 1);
+      }
+      setTransitioning(false);
     }, 180);
   };
-  if (result) return <Result brand={brand} product={result} alternative={brand.products.find((item) => item.url !== result.url)} restart={() => { setStep(0); setAnswers([]); setResult(null); }} />;
-  const question = brand.questions[step];
+
+  const goBack = () => {
+    if (transitioning) return;
+    setStep((value) => Math.max(0, value - 1));
+  };
+
+  const restart = () => {
+    window.clearTimeout(transitionRef.current);
+    setStep(0);
+    setAnswers([]);
+    setResult(null);
+    setTransitioning(false);
+  };
+
+  if (result) return <Result brand={brand} product={result.product} alternative={result.alternative} reason={result.reason} restart={restart} />;
+
   return <div className="advisor-view">
     <div className="advisor-top">
-      <button className="icon-button" aria-label="Späť" disabled={step === 0} onClick={() => setStep((value) => Math.max(0, value - 1))}><Icon name="back" /></button>
-      <div className="progress"><b>{step + 1}/4</b><span>{[0,1,2,3].map((item) => <i key={item} className={item <= step ? 'is-on' : ''} />)}</span></div>
+      <button className="icon-button" aria-label="Späť" disabled={step === 0 || transitioning} onClick={goBack}><Icon name="back" /></button>
+      <div className="progress"><b>{step + 1}/{totalSteps}</b><span>{Array.from({ length: totalSteps }, (_, item) => <i key={item} className={item <= step ? 'is-on' : ''} />)}</span></div>
     </div>
     <h2>{question.title}</h2>
     <p>{question.hint}</p>
-    <div className="choice-grid">{question.options.map((option, index) => <button key={option.value} className={answers[step] === option.value ? 'is-selected' : ''} onClick={() => choose(option, index)}>
+    <div className={`choice-grid choice-grid--${question.options.length}`}>{question.options.map((option) => <button key={option.value} disabled={transitioning} className={answers[step] === option.value ? 'is-selected' : ''} onClick={() => choose(option)}>
       <ChoiceImage option={option} /><span>{option.label}</span>
     </button>)}</div>
   </div>;
 }
 
-function Result({ brand, product, alternative, restart }) {
+function Result({ brand, product, alternative, reason, restart }) {
   return <div className="result-view">
     <div className="result-kicker">Na základe vašich preferencií</div>
     <div className="result-card">
       <img src={product.image} alt={product.name} />
       <div><h2>{product.name}</h2><b className="price">{product.price}</b><ul>{product.features.map((feature) => <li key={feature}>{feature}</li>)}</ul></div>
     </div>
-    <div className="why"><b>Prečo tento produkt</b><p>{product.reason}</p></div>
+    <div className="why"><b>Prečo tento produkt</b><p>{reason || product.reason}</p></div>
     <a className="button button--primary result-cta" href={product.url} target="_blank" rel="noreferrer">Pozrieť produkt <Icon name="arrow" /></a>
-    <div className="alternative"><span>Alternatíva</span><a href={alternative.url} target="_blank" rel="noreferrer">{alternative.name} · {alternative.price}</a></div>
+    {alternative && <div className="alternative"><span>Alternatíva v rovnakej kategórii</span><a href={alternative.url} target="_blank" rel="noreferrer">{alternative.name} · {alternative.price}</a></div>}
     <button className="text-button" onClick={restart}>Vybrať znova</button>
   </div>;
 }
@@ -143,33 +201,64 @@ function Result({ brand, product, alternative, restart }) {
 function Widget({ brand, open, setOpen, initialMode, onModeChange }) {
   const [mode, setMode] = useState(initialMode);
   const [resetKey, setResetKey] = useState(0);
+  const [teaserVisible, setTeaserVisible] = useState(true);
+  const [messages, setMessages] = useState(() => [{ from: 'bot', text: brand.welcome || `Dobrý deň. Čo dnes hľadáte v ponuke ${brand.name}?` }]);
   const panelRef = useRef(null);
-  useEffect(() => setMode(initialMode), [initialMode, open]);
+  const previousFocusRef = useRef(null);
+
   useEffect(() => {
-    if (!open) return;
+    setMessages([{ from: 'bot', text: brand.welcome || `Dobrý deň. Čo dnes hľadáte v ponuke ${brand.name}?` }]);
+    setTeaserVisible(true);
+  }, [brand.slug, brand.name, brand.welcome]);
+
+  useEffect(() => setMode(initialMode), [initialMode, open]);
+
+  useEffect(() => {
+    if (!open) return undefined;
+    previousFocusRef.current = document.activeElement;
     document.body.classList.add('widget-open');
     panelRef.current?.focus();
+
     const keydown = (event) => {
       if (event.key === 'Escape') setOpen(false);
       if (event.key === 'Tab' && panelRef.current) {
-        const items = [...panelRef.current.querySelectorAll('button:not(:disabled),a[href],input')];
+        const items = [...panelRef.current.querySelectorAll('button:not(:disabled),a[href],input:not(:disabled)')];
         if (!items.length) return;
-        const first = items[0], last = items[items.length - 1];
+        const first = items[0];
+        const last = items[items.length - 1];
         if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
         else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
       }
     };
+
     document.addEventListener('keydown', keydown);
-    return () => { document.body.classList.remove('widget-open'); document.removeEventListener('keydown', keydown); };
+    return () => {
+      document.body.classList.remove('widget-open');
+      document.removeEventListener('keydown', keydown);
+      window.setTimeout(() => {
+        const previous = previousFocusRef.current;
+        if (previous && previous.isConnected && typeof previous.focus === 'function') previous.focus();
+        else document.querySelector('.launcher')?.focus();
+      }, 0);
+    };
   }, [open, setOpen]);
+
   const switchMode = (next) => { setMode(next); onModeChange?.(next); };
+  const reset = () => {
+    setResetKey((value) => value + 1);
+    setMessages([{ from: 'bot', text: brand.welcome || `Dobrý deň. Čo dnes hľadáte v ponuke ${brand.name}?` }]);
+  };
+
   return <>
-    {!open && <div className="launcher-wrap"><div className="teaser"><button aria-label="Zavrieť pozvánku">×</button><b>{brand.teaserTitle}</b><span>{brand.teaser}</span></div><button className="launcher" aria-label={`Otvoriť poradcu ${brand.name}`} onClick={() => setOpen(true)}><Logo brand={brand} compact /></button></div>}
+    {!open && <div className="launcher-wrap">
+      {teaserVisible && <div className="teaser"><button aria-label="Zavrieť pozvánku" onClick={() => setTeaserVisible(false)}>×</button><b>{brand.teaserTitle}</b><span>{brand.teaser}</span></div>}
+      <button className="launcher" aria-label={`Otvoriť poradcu ${brand.name}`} onClick={() => setOpen(true)}><Logo brand={brand} compact /></button>
+    </div>}
     {open && <div className="overlay" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setOpen(false); }}>
       <section className="widget" role="dialog" aria-modal="true" aria-label={`Poradca ${brand.name}`} tabIndex="-1" ref={panelRef}>
-        <header className="widget__header"><Logo brand={brand} /><div><button aria-label="Začať odznova" onClick={() => setResetKey((value) => value + 1)}><Icon name="reset" /></button><button aria-label="Zavrieť" onClick={() => setOpen(false)}><Icon name="close" /></button></div></header>
+        <header className="widget__header"><Logo brand={brand} /><div><button aria-label="Začať odznova" onClick={reset}><Icon name="reset" /></button><button aria-label="Zavrieť" onClick={() => setOpen(false)}><Icon name="close" /></button></div></header>
         <div className={`mode-switch ${mode === 'advisor' ? 'is-advisor' : ''}`} role="tablist"><span className="mode-thumb" aria-hidden="true" /><button role="tab" aria-selected={mode === 'chat'} onClick={() => switchMode('chat')}><Icon name="chat" />Chat</button><button role="tab" aria-selected={mode === 'advisor'} onClick={() => switchMode('advisor')}><Icon name="spark" />Výber starostlivosti</button></div>
-        <div className="widget__body" key={`${resetKey}-${mode}`}>{mode === 'chat' ? <Chat brand={brand} startAdvisor={() => switchMode('advisor')} /> : <Advisor brand={brand} />}</div>
+        <div className="widget__body" key={resetKey}>{mode === 'chat' ? <Chat brand={brand} startAdvisor={() => switchMode('advisor')} messages={messages} setMessages={setMessages} /> : <Advisor brand={brand} />}</div>
       </section>
     </div>}
   </>;
@@ -180,9 +269,18 @@ function App() {
   const brand = brands[brandOrder.includes(slug) ? slug : 'mylo'];
   const [open, setOpen] = useState(false);
   const [mode, setMode] = useState('chat');
-  useEffect(() => { document.documentElement.dataset.brand = brand.slug; document.title = `${brand.name} · Výber starostlivosti`; }, [brand]);
+
+  useEffect(() => {
+    document.documentElement.dataset.brand = brand.slug;
+    document.title = `${brand.name} · Výber starostlivosti`;
+  }, [brand]);
+
   const launch = (next) => { setMode(next); setOpen(true); };
-  return <><OwnerPage brand={brand} openAdvisor={() => launch('advisor')} openChat={() => launch('chat')} /><Widget brand={brand} open={open} setOpen={setOpen} initialMode={mode} onModeChange={setMode} /></>;
+  const storefront = brand.slug === 'biofy'
+    ? <BiofyStorefront brand={brand} openAdvisor={() => launch('advisor')} openChat={() => launch('chat')} />
+    : <OwnerPage brand={brand} openAdvisor={() => launch('advisor')} openChat={() => launch('chat')} />;
+
+  return <>{storefront}<Widget brand={brand} open={open} setOpen={setOpen} initialMode={mode} onModeChange={setMode} /></>;
 }
 
 createRoot(document.getElementById('root')).render(<App />);

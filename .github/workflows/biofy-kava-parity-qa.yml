@@ -1,0 +1,89 @@
+name: BIOFY Kava Parity QA
+
+on:
+  push:
+    branches:
+      - agent/skincare-biofy-kava-parity
+
+permissions:
+  contents: write
+
+jobs:
+  qa:
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: agent/skincare-biofy-kava-parity
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Playwright Chromium
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Build
+        run: pnpm build
+
+      - name: Run Playwright regression suite
+        run: pnpm test
+
+      - name: Start preview server
+        run: |
+          pnpm preview --host 127.0.0.1 --port 4173 > /tmp/biofy-vite.log 2>&1 &
+          echo $! > /tmp/biofy-vite.pid
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:4173/ukazka/biofy >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/biofy-vite.log
+          exit 1
+
+      - name: Capture required viewports
+        run: node scripts/capture-biofy-qa.mjs
+
+      - name: Build QA board
+        run: |
+          python -m pip install --disable-pip-version-check pillow
+          python scripts/montage-biofy.py
+
+      - name: Mark audit as passed
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from datetime import datetime, timezone
+          path = Path('BIOFY_KAVA_PARITY_AUDIT.md')
+          text = path.read_text(encoding='utf-8')
+          stamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
+          text = text.replace('QA_STATUS: PENDING', f'QA_STATUS: PASS — GitHub Actions {stamp}')
+          path.write_text(text, encoding='utf-8')
+          PY
+
+      - name: Commit screenshots and QA result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add artifacts/screenshots/biofy-*.png artifacts/screenshots/biofy-qa-board.jpg BIOFY_KAVA_PARITY_AUDIT.md
+          if git diff --cached --quiet; then
+            echo "No QA artifact changes to commit."
+            exit 0
+          fi
+          git commit -m "Refresh BIOFY QA artifacts [skip ci]"
+          git push origin HEAD:agent/skincare-biofy-kava-parity
