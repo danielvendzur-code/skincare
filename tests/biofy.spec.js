@@ -139,7 +139,7 @@ test('BIOFY advisor Back, Reset, Escape, focus trap and same-category CTA work',
   expect(await page.evaluate(() => document.body.classList.contains('widget-open'))).toBeTruthy();
 
   await expect(page.locator('.choice-grid button')).toHaveCount(2);
-  await page.getByRole('button', { name:'Pleť' }).click();
+  await page.getByRole('button', { name:'Pleť', exact:true }).click();
   await page.waitForTimeout(230);
   await expect(page.locator('.choice-grid')).toContainText('Suchá a citlivá');
   await page.getByRole('button', { name:'Späť' }).click();
