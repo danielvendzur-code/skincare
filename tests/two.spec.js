@@ -117,6 +117,10 @@ test('TWO teaser close works and reduced motion removes meaningful animation', a
   await expect(page.locator('.teaser')).toBeVisible();
   await page.getByRole('button', { name:'Zavrieť pozvánku' }).click();
   await expect(page.locator('.teaser')).toHaveCount(0);
-  const duration = await page.locator('.launcher').evaluate((node) => getComputedStyle(node).animationDuration);
-  expect(duration).toMatch(/0\.00001s|0\.01ms|0s/);
+  const seconds = await page.locator('.launcher').evaluate((node) => {
+    const value = getComputedStyle(node).animationDuration.trim();
+    if (value.endsWith('ms')) return Number.parseFloat(value) / 1000;
+    return Number.parseFloat(value);
+  });
+  expect(seconds).toBeLessThanOrEqual(0.001);
 });
