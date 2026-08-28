@@ -44,7 +44,7 @@ export function TwoStorefront({ brand, openAdvisor, openChat }) {
         </div>
       </div>
 
-      <div className="two-hero__visual">
+      <div className="owner__visual two-hero__visual">
         <div className="two-hero__field" aria-hidden="true"><span>H</span><i>2</i><span>O</span></div>
         <article className="two-featured-product">
           <span className="two-featured-product__kicker">HYDRATATION / 01</span>
