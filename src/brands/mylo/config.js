@@ -5,6 +5,7 @@ export const myloProducts = [
     id: 'inovat',
     name: 'Hydratačné sérum INOVAŤ',
     shortName: 'INOVAŤ',
+    aliases: ['inovat', 'inovať'],
     category: 'Hydratačné sérum',
     role: 'serum',
     price: '19,00 €',
@@ -13,12 +14,13 @@ export const myloProducts = [
     features: ['ľahké hydrogélové sérum', 'niacínamid, morské riasy, prebiotiká a kyselina hyalurónová', 'MYLO ho odporúča na normálnu až mastnú pleť'],
     storefrontNote: 'Ľahký hydratačný krok pre normálnu až mastnejšiu pleť.',
     chatSummary: 'INOVAŤ je ľahké hydrogélové sérum za 19,00 €. MYLO ho odporúča na normálnu až mastnú pleť a na každodenné použitie ráno aj večer.',
-    traits: ['hydration', 'dehydrated', 'oily', 'mixed', 'light', 'serum', 'morning', 'evening', 'layering'],
+    traits: ['hydration', 'oily', 'mixed', 'light', 'serum', 'morning', 'evening', 'layering'],
   },
   {
     id: 'moissanit',
     name: 'Čistiace a odličovacie mlieko MOISSANIT',
     shortName: 'MOISSANIT',
+    aliases: ['moissanit'],
     category: 'Čistenie',
     role: 'cleanser',
     price: '20,00 €',
@@ -33,6 +35,7 @@ export const myloProducts = [
     id: 'flora',
     name: 'Pleťový olej FLÓRA',
     shortName: 'FLÓRA',
+    aliases: ['flora', 'flóra'],
     category: 'Pleťový olej',
     role: 'oil',
     price: 'od 2,50 €',
@@ -47,6 +50,7 @@ export const myloProducts = [
     id: 'kvetova-rosa',
     name: 'Pleťová voda KVETOVÁ ROSA',
     shortName: 'KVETOVÁ ROSA',
+    aliases: ['kvetova rosa', 'kvetová rosa'],
     category: 'Pleťová voda',
     role: 'toner',
     price: '22,00 €',
@@ -61,6 +65,7 @@ export const myloProducts = [
     id: 'radost',
     name: 'Ceramidový krém s vitamínmi RADOSŤ',
     shortName: 'RADOSŤ',
+    aliases: ['radost', 'radosť'],
     category: 'Pleťový krém',
     role: 'cream',
     price: '14,75 €',
@@ -227,12 +232,7 @@ function normalize(text) {
 
 function mentionedProducts(text) {
   const value = normalize(text);
-  return myloProducts.filter((product) => {
-    const aliases = [product.id, product.shortName, product.name]
-      .map(normalize)
-      .flatMap((alias) => alias.split(/\s+/).filter((part) => part.length >= 4));
-    return aliases.some((alias) => value.includes(alias));
-  });
+  return myloProducts.filter((product) => product.aliases.some((alias) => value.includes(normalize(alias))));
 }
 
 export function myloFallback(message, history = []) {
