@@ -4,19 +4,31 @@ import handler from '../api/chat.js';
 const brands = ['mylo','ponio','two','bellcoria','biofy','anemone'];
 
 for (const brand of brands) {
-  test(`${brand}: owner, chat, advisor and result`, async ({ page }) => {
+  test(`${brand}: storefront/owner, chat, advisor and result`, async ({ page }) => {
     await page.goto(`/ukazka/${brand}`);
-    await expect(page.locator('.owner h1')).toBeVisible();
-    await expect(page.locator('.owner-benefits article')).toHaveCount(3);
-    await expect(page.locator('.owner')).not.toContainText('Čo poradca robí');
-    await expect(page.locator('.owner__copy > p, .workflow')).toHaveCount(0);
-    await expect(page.locator('.owner')).not.toContainText(/Starostlivosť, ktorá dáva zmysel|Starostlivosť, ktorú si pokožka zaslúži|Starostlivosť, ktorá dýcha prírodou/i);
-    await expect(page.locator('body')).not.toContainText(/\bAI\b|\bdemo\b|94\s*%|confidence/i);
+
+    if (brand === 'mylo') {
+      await expect(page.locator('.mylo-hero h1')).toBeVisible();
+      await expect(page.locator('.mylo-product')).toHaveCount(5);
+      await expect(page.locator('.mylo-header')).toBeVisible();
+      await expect(page.locator('body')).not.toContainText(/94\s*%|confidence/i);
+    } else {
+      await expect(page.locator('.owner h1')).toBeVisible();
+      await expect(page.locator('.owner-benefits article')).toHaveCount(3);
+      await expect(page.locator('.owner')).not.toContainText('Čo poradca robí');
+      await expect(page.locator('.owner__copy > p, .workflow')).toHaveCount(0);
+      await expect(page.locator('.owner')).not.toContainText(/Starostlivosť, ktorá dáva zmysel|Starostlivosť, ktorú si pokožka zaslúži|Starostlivosť, ktorá dýcha prírodou/i);
+      await expect(page.locator('body')).not.toContainText(/\bAI\b|\bdemo\b|94\s*%|confidence/i);
+    }
+
     expect(await page.locator('button button, a button, button a').count()).toBe(0);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
     expect(overflow).toBeLessThanOrEqual(0);
 
-    await page.getByRole('button', { name: /Otvoriť Chat/i }).click();
+    const chatOpener = brand === 'mylo'
+      ? page.getByRole('button', { name: /Opýtať sa v Chate/i })
+      : page.getByRole('button', { name: /Otvoriť Chat/i });
+    await chatOpener.click();
     await expect(page.locator('.widget')).toBeVisible();
     await expect(page.locator('.widget')).not.toContainText('Produktový poradca');
     await expect(page.locator('.mode-switch')).toHaveCount(1);
@@ -58,8 +70,8 @@ for (const brand of brands) {
 test('mobile widget is fullscreen and page is scroll locked', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/ukazka/mylo');
-  await page.getByRole('button', { name: /Vyskúšať Výber/i }).click();
-  await page.waitForTimeout(350);
+  await page.getByRole('button', { name: /Nájsť starostlivosť/i }).click();
+  await page.waitForTimeout(250);
   const box = await page.locator('.widget').boundingBox();
   expect(box.x).toBe(0); expect(box.y).toBe(0); expect(box.width).toBe(390); expect(box.height).toBe(844);
   await expect(page.locator('.widget__header')).toBeVisible();
@@ -81,8 +93,8 @@ test('anemone mobile owner keeps the logo, benefits and primary action prominent
 
 test('360x800 advisor questions fit without scroll', async ({ page }) => {
   await page.setViewportSize({ width: 360, height: 800 });
-  await page.goto('/ukazka/two');
-  await page.getByRole('button', { name: /Vyskúšať Výber/i }).click();
+  await page.goto('/ukazka/mylo');
+  await page.getByRole('button', { name: /Nájsť starostlivosť/i }).click();
   expect(await page.locator('.advisor-view').evaluate((node) => node.scrollHeight <= node.clientHeight + 1)).toBeTruthy();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
 });
@@ -91,8 +103,10 @@ test('brand themes are materially differentiated', async ({ page }) => {
   const signatures = [];
   for (const brand of brands) {
     await page.goto(`/ukazka/${brand}`);
-    signatures.push(await page.locator('.owner__visual').evaluate((node) => {
-      const s = getComputedStyle(node); return `${s.borderRadius}|${s.clipPath}|${getComputedStyle(document.documentElement).getPropertyValue('--accent')}`;
+    const visual = brand === 'mylo' ? page.locator('.mylo-hero__visual') : page.locator('.owner__visual');
+    signatures.push(await visual.evaluate((node) => {
+      const s = getComputedStyle(node);
+      return `${s.borderRadius}|${s.clipPath}|${getComputedStyle(document.documentElement).getPropertyValue('--accent')}`;
     }));
   }
   expect(new Set(signatures).size).toBeGreaterThanOrEqual(5);
@@ -100,8 +114,10 @@ test('brand themes are materially differentiated', async ({ page }) => {
 
 test('reduced motion and deterministic API fallback', async () => {
   const css = await import('node:fs').then((fs) => fs.readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8'));
-  expect(css).toContain('prefers-reduced-motion');
-  let status = 0, body;
-  await handler({ method:'POST', body:{ brand:'mylo', message:'Mám suchú pleť' } }, { status(value){ status=value; return this; }, json(value){ body=value; return this; } });
-  expect(status).toBe(200); expect(body.reply).toMatch(/Mylo|štyrmi|štyri/i);
+  const myloCss = await import('node:fs').then((fs) => fs.readFileSync(new URL('../src/brands/mylo/theme.css', import.meta.url), 'utf8'));
+  expect(`${css}\n${myloCss}`).toContain('prefers-reduced-motion');
+  let status = 0; let body;
+  await handler({ method:'POST', headers:{}, body:{ brand:'mylo', message:'Mám suchú pleť' } }, { setHeader(){}, status(value){ status=value; return this; }, json(value){ body=value; return this; } });
+  expect(status).toBe(200);
+  expect(body.reply).toMatch(/MYLO|INOVAŤ|RADOSŤ|FLÓRA/i);
 });

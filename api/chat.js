@@ -4,21 +4,46 @@ const MAX_HISTORY_MESSAGES = 10;
 const MAX_MESSAGE_CHARS = 700;
 const PROVIDER_TIMEOUT_MS = 5500;
 
+const MYLO_DETAILS = [
+  {
+    id: 'inovat', aliases: ['inovat', 'inovať'], name: 'Hydratačné sérum INOVAŤ', role: 'hydratačné sérum',
+    summary: 'ľahké hydrogélové sérum za 19,00 €; MYLO ho odporúča na normálnu až mastnú pleť a na každodenné použitie ráno aj večer'
+  },
+  {
+    id: 'moissanit', aliases: ['moissanit'], name: 'Čistiace a odličovacie mlieko MOISSANIT', role: 'čistenie',
+    summary: 'čistiace a odličovacie mlieko za 20,00 € pre všetky typy pleti vrátane citlivej a aj na oči'
+  },
+  {
+    id: 'flora', aliases: ['flora', 'flóra'], name: 'Pleťový olej FLÓRA', role: 'olejové sérum',
+    summary: 'olejové sérum pre suchú a citlivú pleť; v katalógu má viac veľkostí od 2,50 € a MYLO uvádza použitie 1 až 2-krát denne'
+  },
+  {
+    id: 'kvetova-rosa', aliases: ['kvetova rosa', 'kvetová rosa', 'rosa'], name: 'Pleťová voda KVETOVÁ ROSA', role: 'tonikum',
+    summary: 'tonikum za 22,00 € na podporu hydratácie; MYLO ho odporúča aplikovať tesne pred pleťovým olejom'
+  },
+  {
+    id: 'radost', aliases: ['radost', 'radosť'], name: 'Ceramidový krém s vitamínmi RADOSŤ', role: 'pleťový krém',
+    summary: 'ceramidový krém za 14,75 €; MYLO ho opisuje cez hydratáciu a regeneráciu a uvádza použitie ráno aj večer'
+  }
+];
+
 const BRANDS = {
   mylo: {
     name: 'MYLO',
-    products: [
-      'Hydratačné sérum INOVAŤ',
-      'Čistiace a odličovacie mlieko MOISSANIT',
-      'Pleťový olej FLÓRA',
-      'Pleťová voda KVETOVÁ ROSA',
-      'Ceramidový krém s vitamínmi RADOSŤ'
-    ],
+    products: MYLO_DETAILS.map((product) => product.name),
+    context: [
+      'INOVAŤ je ľahké hydrogélové sérum na normálnu až mastnú pleť, ráno aj večer.',
+      'MOISSANIT je čistiace a odličovacie mlieko pre všetky typy pleti vrátane citlivej a oči.',
+      'FLÓRA je olejové sérum pre suchú a citlivú pleť.',
+      'KVETOVÁ ROSA je tonikum, ktoré MYLO odporúča tesne pred pleťovým olejom.',
+      'RADOSŤ je ceramidový krém, ktorý MYLO uvádza na ráno aj večer.'
+    ].join(' '),
     fallback: {
       hydration: 'Ak hľadáte hydratáciu, v aktuálnom výbere MYLO je prirodzeným smerom sérum INOVAŤ alebo krém RADOSŤ podľa toho, či chcete ľahší krok alebo krémovú starostlivosť.',
-      cleanse: 'Na jemný čistiaci krok je v tomto výbere MYLO čistiace a odličovacie mlieko MOISSANIT. Ak chcete potom doplniť ďalší krok rutiny, Výber starostlivosti ho zúži podľa textúry.',
-      oil: 'Ak preferujete olejovú textúru, v aktuálnom výbere je pleťový olej FLÓRA. Pri ľahšej textúre má väčší zmysel sérum alebo pleťová voda.',
-      default: 'Pri MYLO vieme výber zúžiť podľa typu produktu, textúry a toho, čo chcete zaradiť do rutiny. Výber starostlivosti potom odporučí konkrétny produkt z aktuálneho katalógu.'
+      cleanse: 'Na jemný čistiaci krok je v tomto výbere MYLO čistiace a odličovacie mlieko MOISSANIT. MYLO ho uvádza pre všetky typy pleti vrátane citlivej a aj na oči.',
+      oil: 'Ak preferujete olejovú textúru a máte suchú alebo citlivú pleť, v aktuálnom výbere je pleťový olej FLÓRA. KVETOVÁ ROSA je samostatný tonizačný krok tesne pred olejom.',
+      serum: 'INOVAŤ je ľahké hydrogélové sérum. Ak namiesto séra chcete krémovú textúru, porovnajte ho s ceramidovým krémom RADOSŤ.',
+      default: 'Pri MYLO vieme výber zúžiť podľa typu produktu, textúry a toho, čo chcete zaradiť do rutiny. Môžete sa opýtať na čistenie, hydratáciu, citlivú pleť, rannú či večernú rutinu alebo porovnať dva konkrétne produkty.'
     }
   },
   ponio: {
@@ -102,7 +127,7 @@ const BRANDS = {
 const MEDICAL_PATTERN = /diagn[oó]z|ekz[eé]m|dermatit|psori|rosace|infek|alergi|opuch|krvác|hnis|siln.{0,12}boles|vyr[aá]žk|lie[cč]i|vylie[cč]|terapi|lek[aá]r|dermatol/i;
 
 function setCors(request, response) {
-  const origin = request.headers.origin || '';
+  const origin = request.headers?.origin || '';
   const allowed = origin === '' || /(^https:\/\/([a-z0-9-]+\.)?mojchatbot\.sk$)|(^https:\/\/.*\.vercel\.app$)|(^http:\/\/localhost:\d+$)|(^http:\/\/127\.0\.0\.1:\d+$)/i.test(origin);
   response.setHeader('Access-Control-Allow-Origin', allowed && origin ? origin : 'https://mojchatbot.sk');
   response.setHeader('Vary', 'Origin');
@@ -132,19 +157,57 @@ function normalizeMessages(body) {
   return legacyMessage ? [{ role: 'user', content: legacyMessage }] : [];
 }
 
-function deterministicReply(brand, latestMessage) {
+function normalizeSearchText(text) {
+  return String(text || '').toLocaleLowerCase('sk').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
+function myloDeterministicReply(latestMessage, messages) {
+  const query = normalizeSearchText(latestMessage);
+  const conversation = normalizeSearchText(messages.filter((message) => message.role === 'user').slice(-6).map((message) => message.content).join(' '));
+  const mentioned = MYLO_DETAILS.filter((product) => product.aliases.some((alias) => conversation.includes(normalizeSearchText(alias))));
+
+  if (/porovn|rozdiel|versus|\bvs\b/.test(query) && mentioned.length >= 2) {
+    const [first, second] = mentioned.slice(-2);
+    return `${first.name}: ${first.summary}. ${second.name}: ${second.summary}. Nie sú automaticky zameniteľné — jeden je ${first.role}, druhý ${second.role}; vyberte podľa toho, ktorý krok rutiny chcete riešiť.`;
+  }
+
+  if (/rann|rano/.test(query)) {
+    return 'Ak chcete jednoduchú rannú rutinu iba z tohto výberu MYLO, čistiaci krok môže tvoriť MOISSANIT a potom si podľa textúry vyberte ľahké INOVAŤ alebo krém RADOSŤ. MYLO pri INOVAŤ aj RADOSŤ uvádza ranné použitie.';
+  }
+
+  if (/vecer|vecern/.test(query)) {
+    return 'Na večer sa z tohto výberu dá zostaviť krátka rutina: MOISSANIT na čistenie a potom podľa preferencie RADOSŤ alebo FLÓRA. KVETOVÁ ROSA je podľa MYLO tonikum tesne pred pleťovým olejom.';
+  }
+
+  if (/citliv/.test(query)) {
+    return 'Pri citlivej pleti sú v tomto výbere najjasnejšie katalógové zhody MOISSANIT na jemné čistenie a FLÓRA ako olejový krok pre suchú a citlivú pleť. KVETOVÚ ROSU MYLO tiež uvádza medzi vhodnými typmi pleti pre citlivú pokožku.';
+  }
+
+  if (/čist|cist|odli[cč]|mlieko/.test(query)) return BRANDS.mylo.fallback.cleanse;
+  if (/hydrat|such.{0,8}ple|dehydrat/.test(query)) return BRANDS.mylo.fallback.hydration;
+  if (/s[eé]rum|serum|inovat|inovať/.test(query)) return BRANDS.mylo.fallback.serum;
+  if (/olej|flora|flóra/.test(query)) return BRANDS.mylo.fallback.oil;
+  if (/kvetov|tonik|ple[ťt]ov.{0,8}vod/.test(query)) return MYLO_DETAILS[3].summary + '.';
+  if (/radost|radosť|ceramid|kr[eé]m/.test(query)) return MYLO_DETAILS[4].summary + '.';
+
+  return BRANDS.mylo.fallback.default;
+}
+
+function deterministicReply(brand, latestMessage, messages) {
   const query = String(latestMessage || '').toLocaleLowerCase('sk');
 
   if (MEDICAL_PATTERN.test(query)) {
     return 'S diagnózou ani liečbou vám cez produktový chatbot nepomôžem. Môžem zúžiť výber kozmetiky podľa formátu a preferencií; pri výrazných, pretrvávajúcich alebo zhoršujúcich sa ťažkostiach je vhodné obrátiť sa na lekára alebo dermatológa.';
   }
 
+  if (brand.name === 'MYLO') return myloDeterministicReply(latestMessage, messages);
+
   if (/porovn|rozdiel|versus| vs\.? /.test(query)) {
     return `Môžem porovnať produkty ${brand.name} podľa ich overeného typu, textúry a úlohy v rutine. Napíšte názvy dvoch produktov, ktoré chcete porovnať, a zostanem iba pri údajoch z aktuálneho katalógu.`;
   }
 
   if (/vlas|šamp[oó]n|sampon|tonik|olej[cč]ek/.test(query) && brand.fallback.hair) return brand.fallback.hair;
-  if (/čist|odli[cč]|gel/.test(query) && brand.fallback.cleanse) return brand.fallback.cleanse;
+  if (/čist|cist|odli[cč]|gel/.test(query) && brand.fallback.cleanse) return brand.fallback.cleanse;
   if (/hydrat|such.{0,8}ple|dehydrat/.test(query) && brand.fallback.hydration) return brand.fallback.hydration;
   if (/s[eé]rum|serum/.test(query) && brand.fallback.serum) return brand.fallback.serum;
   if (/olej|elix[ií]r/.test(query) && brand.fallback.oil) return brand.fallback.oil;
@@ -157,13 +220,14 @@ function buildSystemPrompt(brand) {
   return [
     `Ste stručný produktový poradca pre kozmetickú značku ${brand.name}.`,
     `Produkty, ktoré smiete v tomto deme odporúčať: ${brand.products.join('; ')}.`,
+    brand.context ? `Overený katalógový kontext: ${brand.context}` : '',
     'Odpovedajte prirodzenou, jednoduchou a gramaticky správnou slovenčinou, zvyčajne v 2 až 4 krátkych vetách.',
     'Nevymýšľajte produkty, ceny, dostupnosť, zloženie, certifikácie, účinky ani tvrdenia, ktoré nemáte v poskytnutom katalógovom kontexte.',
     'Nevykonávajte zdravotnú diagnózu a netvrďte, že kozmetika lieči alebo vylieči zdravotný stav.',
     'Ak používateľ opisuje výrazný, pretrvávajúci alebo zdravotný problém, jasne oddeľte kozmetický výber od zdravotnej rady a odporučte odbornú zdravotnú konzultáciu.',
     'Pri nejasnej požiadavke položte najviac jednu krátku doplňujúcu otázku alebo odporučte Výber starostlivosti.',
     'Pri porovnaní nadväzujte na predchádzajúce správy v konverzácii a porovnávajte iba produkty z povoleného zoznamu.'
-  ].join('\n');
+  ].filter(Boolean).join('\n');
 }
 
 export default async function handler(request, response) {
@@ -189,7 +253,7 @@ export default async function handler(request, response) {
   if (!latestMessage) return response.status(400).json({ error: 'Missing user message' });
 
   const fallback = () => response.status(200).json({
-    reply: deterministicReply(brand, latestMessage),
+    reply: deterministicReply(brand, latestMessage, messages),
     fallback: true
   });
 
