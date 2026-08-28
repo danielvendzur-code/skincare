@@ -111,7 +111,7 @@ export function MyloStorefront({ brand, openAdvisor, openChat }) {
       <div><img src={brand.logo} alt="MYLO" /><span>Mini ukážka produktového poradcu pre MYLO.</span></div>
       <nav aria-label="Odkazy MYLO">
         <a href="https://www.mylo.sk/obchod/" target="_blank" rel="noreferrer">Obchod</a>
-        <a href="https://www.mylo.sk/o-mylo/" target="_blank" rel="noreferrer">O Mylo</a>
+        <a href="https://www.mylo.sk/vsetko-o-nakupe/o-mylo/" target="_blank" rel="noreferrer">O Mylo</a>
         <a href="https://www.mylo.sk/blog/" target="_blank" rel="noreferrer">Blog</a>
         <a href="https://www.mylo.sk/kontakt/" target="_blank" rel="noreferrer">Kontakt</a>
       </nav>
