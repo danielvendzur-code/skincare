@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/ukazka/:brand", "destination": "/index.html" },
+    { "source": "/ukazka/:brand/", "destination": "/index.html" }
+  ],
+  "headers": [
+    { "source": "/ukazka/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" }] },
+    { "source": "/api/(.*)", "headers": [{ "key": "Cache-Control", "value": "no-store" }] }
+  ]
+}
