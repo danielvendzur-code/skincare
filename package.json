@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "playwright test"
+    "test": "playwright test",
+    "qa:ponio": "node scripts/capture-ponio-qa.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

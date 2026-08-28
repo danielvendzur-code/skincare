@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { brands, brandOrder } from './brands.js';
+import { PonioExperience } from './brands/ponio/index.jsx';
 import './styles.css';
 
 const OWNER_BENEFITS = [
@@ -181,6 +182,7 @@ function App() {
   const [open, setOpen] = useState(false);
   const [mode, setMode] = useState('chat');
   useEffect(() => { document.documentElement.dataset.brand = brand.slug; document.title = `${brand.name} · Výber starostlivosti`; }, [brand]);
+  if (brand.slug === 'ponio') return <PonioExperience />;
   const launch = (next) => { setMode(next); setOpen(true); };
   return <><OwnerPage brand={brand} openAdvisor={() => launch('advisor')} openChat={() => launch('chat')} /><Widget brand={brand} open={open} setOpen={setOpen} initialMode={mode} onModeChange={setMode} /></>;
 }

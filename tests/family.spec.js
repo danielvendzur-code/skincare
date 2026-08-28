@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 import handler from '../api/chat.js';
 
-const brands = ['mylo','ponio','two','bellcoria','biofy','anemone'];
+const brands = ['mylo','two','bellcoria','biofy','anemone'];
 
 for (const brand of brands) {
   test(`${brand}: owner, chat, advisor and result`, async ({ page }) => {
@@ -102,6 +102,6 @@ test('reduced motion and deterministic API fallback', async () => {
   const css = await import('node:fs').then((fs) => fs.readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8'));
   expect(css).toContain('prefers-reduced-motion');
   let status = 0, body;
-  await handler({ method:'POST', body:{ brand:'mylo', message:'Mám suchú pleť' } }, { status(value){ status=value; return this; }, json(value){ body=value; return this; } });
-  expect(status).toBe(200); expect(body.reply).toMatch(/Mylo|štyrmi|štyri/i);
+  await handler({ method:'POST', headers:{}, body:{ brand:'mylo', message:'Mám suchú pleť' } }, { setHeader(){}, status(value){ status=value; return this; }, json(value){ body=value; return this; } });
+  expect(status).toBe(200); expect(body.reply).toMatch(/MYLO|štyrmi|štyri/i);
 });
