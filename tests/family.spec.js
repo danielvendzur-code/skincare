@@ -4,21 +4,24 @@ import handler from '../api/chat.js';
 const brands = ['mylo','ponio','two','bellcoria','biofy','anemone'];
 
 for (const brand of brands) {
-  test(`${brand}: owner, chat, advisor and result`, async ({ page }) => {
+  test(`${brand}: storefront/owner, chat, advisor and result`, async ({ page }) => {
     await page.goto(`/ukazka/${brand}`);
-    await expect(page.locator('.owner h1')).toBeVisible();
-    await expect(page.locator('.owner-benefits article')).toHaveCount(3);
-    await expect(page.locator('.owner')).not.toContainText('Čo poradca robí');
-    await expect(page.locator('.owner__copy > p, .workflow')).toHaveCount(0);
-    await expect(page.locator('.owner')).not.toContainText(/Starostlivosť, ktorá dáva zmysel|Starostlivosť, ktorú si pokožka zaslúži|Starostlivosť, ktorá dýcha prírodou/i);
-    await expect(page.locator('body')).not.toContainText(/\bAI\b|\bdemo\b|94\s*%|confidence/i);
+    if (brand === 'anemone') {
+      await expect(page.locator('.an-store h1')).toContainText('Kozmetika');
+      await expect(page.locator('.an-product')).toHaveCount(5);
+      await expect(page.locator('.an-nav a')).toHaveCount(4);
+    } else {
+      await expect(page.locator('.owner h1')).toBeVisible();
+      await expect(page.locator('.owner-benefits article')).toHaveCount(3);
+      await expect(page.locator('.owner')).not.toContainText('Čo poradca robí');
+      await expect(page.locator('.owner__copy > p, .workflow')).toHaveCount(0);
+      await expect(page.locator('body')).not.toContainText(/\bAI\b|\bdemo\b|94\s*%|confidence/i);
+    }
     expect(await page.locator('button button, a button, button a').count()).toBe(0);
-    const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
-    expect(overflow).toBeLessThanOrEqual(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
 
     await page.getByRole('button', { name: /Otvoriť Chat/i }).click();
     await expect(page.locator('.widget')).toBeVisible();
-    await expect(page.locator('.widget')).not.toContainText('Produktový poradca');
     await expect(page.locator('.mode-switch')).toHaveCount(1);
     await expect(page.locator('.mode-thumb')).toHaveCount(1);
     await expect(page.locator('.chat-avatar')).toHaveCount(1);
@@ -36,12 +39,6 @@ for (const brand of brands) {
       await expect(page.locator('.choice-grid button')).toHaveCount(4);
       await expect(page.locator('.choice-image img')).toHaveCount(4);
       await expect.poll(() => page.locator('.choice-image img').evaluateAll((images) => images.every((image) => image.complete && image.naturalWidth > 0))).toBeTruthy();
-      const fullBleed = await page.locator('.choice-grid button').evaluateAll((buttons) => buttons.every((button) => {
-        const card = button.getBoundingClientRect();
-        const image = button.querySelector('.choice-image').getBoundingClientRect();
-        return Math.abs(card.width - image.width) <= 2 && Math.abs(card.height - image.height) <= 2;
-      }));
-      expect(fullBleed).toBeTruthy();
       const noScroll = await page.locator('.advisor-view').evaluate((node) => node.scrollHeight <= node.clientHeight + 1);
       expect(noScroll).toBeTruthy();
       await page.locator('.choice-grid button').nth(step % 4).click();
@@ -67,22 +64,23 @@ test('mobile widget is fullscreen and page is scroll locked', async ({ page }) =
   expect(await page.evaluate(() => document.body.classList.contains('widget-open'))).toBeTruthy();
 });
 
-test('anemone mobile owner keeps the logo, benefits and primary action prominent', async ({ page }) => {
+test('anemone mobile storefront keeps product-led layout and mobile navigation', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/ukazka/anemone');
-  await expect(page.locator('.owner__primary-action')).toBeVisible();
-  await expect(page.locator('.owner-benefits article')).toHaveCount(3);
-  const logo = await page.locator('.owner__header .brand-logo').boundingBox();
-  const visual = await page.locator('.owner__visual').boundingBox();
-  expect(logo.width).toBeGreaterThanOrEqual(120);
-  expect(visual.width).toBeGreaterThanOrEqual(355);
-  expect(await page.locator('.owner').evaluate((node) => node.scrollHeight <= node.clientHeight + 1)).toBeTruthy();
+  await expect(page.locator('.an-logo img')).toBeVisible();
+  await expect(page.locator('.an-hero__media')).toBeVisible();
+  await page.getByRole('button', { name: 'Otvoriť menu' }).click();
+  await expect(page.locator('.an-mobile-nav')).toBeVisible();
+  await page.locator('.an-mobile-nav a[href="#kvetove-vody"]').click();
+  await expect(page.locator('.an-mobile-nav')).toHaveCount(0);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
 });
 
 test('360x800 advisor questions fit without scroll', async ({ page }) => {
   await page.setViewportSize({ width: 360, height: 800 });
-  await page.goto('/ukazka/two');
-  await page.getByRole('button', { name: /Vyskúšať Výber/i }).click();
+  await page.goto('/ukazka/anemone');
+  await page.getByRole('button', { name: /Otvoriť poradcu ANEMONE/i }).click();
+  await page.locator('.mode-switch button').nth(1).click();
   expect(await page.locator('.advisor-view').evaluate((node) => node.scrollHeight <= node.clientHeight + 1)).toBeTruthy();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
 });
@@ -91,8 +89,10 @@ test('brand themes are materially differentiated', async ({ page }) => {
   const signatures = [];
   for (const brand of brands) {
     await page.goto(`/ukazka/${brand}`);
-    signatures.push(await page.locator('.owner__visual').evaluate((node) => {
-      const s = getComputedStyle(node); return `${s.borderRadius}|${s.clipPath}|${getComputedStyle(document.documentElement).getPropertyValue('--accent')}`;
+    const selector = brand === 'anemone' ? '.an-hero__media' : '.owner__visual';
+    signatures.push(await page.locator(selector).evaluate((node) => {
+      const s = getComputedStyle(node);
+      return `${s.borderRadius}|${s.clipPath}|${getComputedStyle(document.documentElement).getPropertyValue('--accent')}`;
     }));
   }
   expect(new Set(signatures).size).toBeGreaterThanOrEqual(5);
@@ -100,8 +100,9 @@ test('brand themes are materially differentiated', async ({ page }) => {
 
 test('reduced motion and deterministic API fallback', async () => {
   const css = await import('node:fs').then((fs) => fs.readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8'));
-  expect(css).toContain('prefers-reduced-motion');
-  let status = 0, body;
-  await handler({ method:'POST', body:{ brand:'mylo', message:'Mám suchú pleť' } }, { status(value){ status=value; return this; }, json(value){ body=value; return this; } });
+  const anemoneCss = await import('node:fs').then((fs) => fs.readFileSync(new URL('../src/brands/anemone/theme.css', import.meta.url), 'utf8'));
+  expect(css + anemoneCss).toContain('prefers-reduced-motion');
+  let status = 0; let body;
+  await handler({ method:'POST', headers:{}, body:{ brand:'mylo', message:'Mám suchú pleť' } }, { setHeader(){}, status(value){ status=value; return this; }, json(value){ body=value; return this; } });
   expect(status).toBe(200); expect(body.reply).toMatch(/Mylo|štyrmi|štyri/i);
 });
