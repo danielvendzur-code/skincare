@@ -8,7 +8,7 @@ const MenuIcon = ({ open }) => <svg viewBox="0 0 24 24" aria-hidden="true">{open
 function ProductCard({ product, featured = false }) {
   return <article className={`mylo-product ${featured ? 'mylo-product--featured' : ''}`}>
     <a className="mylo-product__image" href={product.url} target="_blank" rel="noreferrer" aria-label={`Pozrieť ${product.name} na mylo.sk`}>
-      <img src={product.image} alt={product.name} />
+      <img src={product.image} alt={product.name} loading={featured ? 'eager' : 'lazy'} />
     </a>
     <div className="mylo-product__copy">
       <span>{product.category}</span>
@@ -37,7 +37,7 @@ export function MyloStorefront({ brand, openAdvisor, openChat }) {
 
   return <main className="mylo-site owner" id="mylo-top" aria-label="MYLO — mini obchod s produktovým poradcom">
     <header className="mylo-header">
-      <button className="mylo-logo-button" type="button" onClick={() => goTo('mylo-top')} aria-label="MYLO — späť hore">
+      <button className="mylo-logo-button" type="button" onClick={() => goTo('mylo-top')} aria-label="MYLO — hore">
         <img src={brand.logo} alt="MYLO" />
       </button>
       <nav className="mylo-nav" aria-label="Hlavná navigácia MYLO">
@@ -61,7 +61,7 @@ export function MyloStorefront({ brand, openAdvisor, openChat }) {
       <div className="mylo-hero__copy">
         <span className="mylo-eyebrow">Kozmetika založená na sile rastlín</span>
         <h1 id="mylo-hero-title">Starostlivosť, ktorá ostáva jednoduchá.</h1>
-        <p>Vyberte si z pleťových produktov MYLO alebo si nechajte zúžiť výber podľa pocitu pleti, kroku rutiny a textúry.</p>
+        <p>Prejdite si pleťové produkty MYLO alebo si nechajte výber zúžiť podľa pocitu pleti, kroku rutiny a textúry, ktorá vám vyhovuje.</p>
         <div className="mylo-hero__actions">
           <button className="mylo-button mylo-button--dark" type="button" onClick={openAdvisor}>Nájsť starostlivosť <Arrow /></button>
           <button className="mylo-button mylo-button--plain" type="button" onClick={openChat}>Opýtať sa v Chate</button>
@@ -85,7 +85,7 @@ export function MyloStorefront({ brand, openAdvisor, openChat }) {
 
     <section className="mylo-products" id="mylo-products" aria-labelledby="mylo-products-title">
       <header className="mylo-section-head">
-        <div><span className="mylo-eyebrow">Pleťová starostlivosť</span><h2 id="mylo-products-title">Päť rôznych úloh v rutine.</h2></div>
+        <div><span className="mylo-eyebrow">Pleťová starostlivosť</span><h2 id="mylo-products-title">Päť produktov. Päť miest v rutine.</h2></div>
         <a href="https://www.mylo.sk/starostlivost-o-tvar/" target="_blank" rel="noreferrer">Celá kategória na mylo.sk <Arrow /></a>
       </header>
       <div className="mylo-product-grid">
@@ -95,20 +95,20 @@ export function MyloStorefront({ brand, openAdvisor, openChat }) {
 
     <section className="mylo-routine" id="mylo-routine" aria-labelledby="mylo-routine-title">
       <div className="mylo-routine__intro">
-        <span className="mylo-eyebrow">Rutina bez hádania</span>
-        <h2 id="mylo-routine-title">Najprv úloha produktu. Potom textúra.</h2>
-        <p>Poradca nevyberá podľa náhody. Každá odpoveď pridáva váhu overeným vlastnostiam produktov a výsledok vysvetlí, prečo sa zhoduje s vaším výberom.</p>
+        <span className="mylo-eyebrow">Jednoduchší výber</span>
+        <h2 id="mylo-routine-title">Najprv krok. Potom textúra.</h2>
+        <p>Štyri krátke otázky pomôžu rozlíšiť, či hľadáte čistenie, ľahšiu hydratáciu, krémový komfort alebo olejový krok. Na konci dostanete konkrétny produkt aj stručné vysvetlenie výberu.</p>
         <button className="mylo-button mylo-button--dark" type="button" onClick={openAdvisor}>Spustiť 4 otázky <Arrow /></button>
       </div>
       <div className="mylo-routine__steps">
-        <article><span>01</span><div><b>Čistenie</b><p>MOISSANIT je v tomto výbere jasný čistiaci a odličovací krok.</p><a href={myloProducts[1].url} target="_blank" rel="noreferrer">MOISSANIT <Arrow /></a></div></article>
-        <article><span>02</span><div><b>Hydratácia</b><p>INOVAŤ prináša ľahkú hydrogélovú textúru, RADOSŤ krémový formát.</p><button type="button" onClick={openChat}>Porovnať v Chate <Arrow /></button></div></article>
-        <article><span>03</span><div><b>Olejový krok</b><p>KVETOVÁ ROSA je podľa MYLO krok tesne pred pleťovým olejom; FLÓRA je pre suchú a citlivú pleť.</p><a href={myloProducts[2].url} target="_blank" rel="noreferrer">FLÓRA <Arrow /></a></div></article>
+        <article><span>01</span><div><b>Čistenie</b><p>MOISSANIT je čistiace a odličovacie mlieko pre prvý krok rutiny.</p><a href={myloProducts[1].url} target="_blank" rel="noreferrer">MOISSANIT <Arrow /></a></div></article>
+        <article><span>02</span><div><b>Hydratácia</b><p>INOVAŤ ponúka ľahkú hydrogélovú textúru, RADOSŤ krémový formát.</p><button type="button" onClick={openChat}>Porovnať v Chate <Arrow /></button></div></article>
+        <article><span>03</span><div><b>Olejový krok</b><p>KVETOVÁ ROSA môže rutinu pripraviť na následný pleťový olej; FLÓRA je olejový krok pre suchú a citlivú pleť.</p><a href={myloProducts[2].url} target="_blank" rel="noreferrer">FLÓRA <Arrow /></a></div></article>
       </div>
     </section>
 
     <footer className="mylo-footer">
-      <div><img src={brand.logo} alt="MYLO" /><span>Mini ukážka produktového poradcu pre MYLO.</span></div>
+      <div><img src={brand.logo} alt="MYLO" /><span>Objavte produkty MYLO alebo si nechajte výber zúžiť podľa svojej rutiny.</span></div>
       <nav aria-label="Odkazy MYLO">
         <a href="https://www.mylo.sk/obchod/" target="_blank" rel="noreferrer">Obchod</a>
         <a href="https://www.mylo.sk/vsetko-o-nakupe/o-mylo/" target="_blank" rel="noreferrer">O Mylo</a>
