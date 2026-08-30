@@ -22,7 +22,10 @@ for (const brand of brands) {
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
     expect(overflow).toBeLessThanOrEqual(0);
 
-    await page.getByRole('button', { name: /Otvoriť Chat/i }).click();
+    const chatTrigger = brand === 'bellcoria'
+      ? page.locator('.bellcoria-nav button').first()
+      : page.getByRole('button', { name: /Otvoriť Chat/i });
+    await chatTrigger.click();
     await expect(page.locator('.widget')).toBeVisible();
     await expect(page.locator('.widget')).not.toContainText('Produktový poradca');
     await expect(page.locator('.mode-switch')).toHaveCount(1);
