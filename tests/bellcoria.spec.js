@@ -148,12 +148,15 @@ for (const viewport of [{ width:390, height:844 }, { width:360, height:800 }]) {
     page.on('pageerror', (error) => errors.push(error.message));
     await page.goto('/ukazka/bellcoria');
 
-    const menu = page.getByRole('button', { name:'Otvoriť menu' });
+    const menu = page.locator('.bellcoria-menu-toggle');
+    await expect(menu).toHaveAccessibleName('Otvoriť menu');
     await menu.click();
     await expect(menu).toHaveAttribute('aria-expanded', 'true');
+    await expect(menu).toHaveAccessibleName('Zavrieť menu');
     await expect(page.locator('.bellcoria-nav')).toHaveClass(/is-open/);
     await page.locator('.bellcoria-nav a[href="#plet"]').click();
     await expect(menu).toHaveAttribute('aria-expanded', 'false');
+    await expect(menu).toHaveAccessibleName('Otvoriť menu');
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
 
     await page.getByRole('button', { name:/Otvoriť poradcu BELLCORIA/i }).click();
