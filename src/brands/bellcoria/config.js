@@ -74,7 +74,7 @@ export const bellcoriaQuestions = [
   {
     key: 'area',
     title: 'Kam starostlivosť vyberáte?',
-    hint: 'Oblasť drží odporúčanie v správnej časti katalógu.',
+    hint: 'Najprv vyberte, či hľadáte produkt na tvár alebo telo.',
     options: [
       option('Tvár', 'face', 'product-1.jpg', 'Pleťová starostlivosť'),
       option('Telo', 'body', 'product-5.jpg', 'Telová starostlivosť'),
@@ -85,29 +85,29 @@ export const bellcoriaQuestions = [
   {
     key: 'role',
     title: 'Aký krok hľadáte?',
-    hint: 'Rozlíšime čistenie, pleťový olej, elixír a telový olej.',
+    hint: 'Vyberte čistenie, pleťový olej, elixír alebo telový olej.',
     options: [
       option('Čistenie', 'cleanse', 'product-3.jpg', 'Prvý krok rutiny'),
       option('Pleťový olej', 'oil', 'product-1.jpg', 'Olejová pleťová starostlivosť'),
-      option('Elixír', 'elixir', 'product-2.jpg', 'Cielený pleťový krok'),
+      option('Elixír', 'elixir', 'product-2.jpg', 'Pleťový krok po čistení'),
       option('Telový olej', 'body-oil', 'product-5.jpg', 'Olej na telo')
     ]
   },
   {
     key: 'texture',
     title: 'Aká textúra vám vyhovuje?',
-    hint: 'Gél je ľahký čistiaci formát, olej zostáva olejovou starostlivosťou.',
+    hint: 'Zvoľte ľahší gélový pocit, olej alebo nechajte textúru otvorenú.',
     options: [
       option('Gél', 'gel', 'product-3.jpg', 'Ľahký čistiaci formát'),
       option('Olej', 'oil', 'product-1.jpg', 'Olejová textúra'),
       option('Čo najľahšia', 'light', 'product-3.jpg', 'Minimum olejového pocitu'),
-      option('Bez preferencie', 'any', 'hero.jpg', 'Rozhodne rutina')
+      option('Bez preferencie', 'any', 'hero.jpg', 'Rozhodne ďalšia odpoveď')
     ]
   },
   {
     key: 'routine',
     title: 'Kedy ho chcete zaradiť?',
-    hint: 'Posledný krok odlíši čistenie, dennú, večernú a telovú starostlivosť.',
+    hint: 'Vyberte čistenie, bežné denné použitie, večer alebo starostlivosť o telo.',
     options: [
       option('Pri čistení', 'cleansing', 'product-3.jpg', 'Prvý krok'),
       option('Denne', 'daily', 'product-2.jpg', 'Pravidelná rutina'),
@@ -182,14 +182,14 @@ export function recommendBellcoria(inputAnswers) {
 
   const matchedText = winner.matched.length
     ? winner.matched.join(', ')
-    : 'zvolená oblasť a dostupné produkty';
+    : 'vaše odpovede a dostupný výber';
 
   return {
     product: winner.product,
     alternative: alternativeEntry?.product ?? null,
     score: winner.score,
     matchedTraits: winner.matched,
-    reason: `Odporúčanie vychádza zo zhody: ${matchedText}.`,
+    reason: `Najlepšie sedí k tomu, čo ste zvolili: ${matchedText}.`,
     answers
   };
 }
@@ -198,13 +198,13 @@ const compact = (text) => String(text || '').toLocaleLowerCase('sk');
 
 export function bellcoriaFallback(message) {
   const q = compact(message);
-  if (/bakuch/.test(q)) return 'Elixír proti vráskam s bakuchiolom je v tomto výbere pleťový elixír s bakuchiolom a olejovou textúrou. Ak chcete čistiaci krok, patrí sem Pleťový čistiaci gél; ak chcete pleťový olej bez elixírovej roly, vyberte Organický opunciový olej.';
-  if (/večer|vecer|noč|nocn/.test(q)) return 'Na večerný elixírový krok je v tomto výbere Nočný elixír s vitamínom C a brusnicovým olejom. Ak chcete namiesto elixíru jednoduchý pleťový olej, porovnajte ho s Organickým opunciovým olejom.';
-  if (/telo|telov|astax/.test(q)) return 'Telový olej s astaxantínom držíme v telovej vetve poradcu. Pri výbere pre tvár ho odporúčanie zámerne vylúči a zostane pri čistiacom géle, pleťovom oleji alebo elixíroch.';
-  if (/čist|cist|g[eé]l/.test(q) && /olej|elix/.test(q)) return 'Pleťový čistiaci gél je ľahký čistiaci krok. Organický opunciový olej je pleťový olej a oba elixíry patria do olejovej následnej starostlivosti; nejde teda o zameniteľné kroky jednej rutiny.';
-  if (/olej/.test(q) && /elix/.test(q)) return 'Pleťový olej a elixír sú v tomto výbere obe olejové formy, ale poradca ich vedie ako odlišné produktové roly. Opunciový produkt je pleťový olej, zatiaľ čo bakuchiolový a nočný produkt sú elixíry.';
-  if (/porovn|rozdiel|vs\.?/.test(q)) return 'Napíšte názvy dvoch Bellcoria produktov. Porovnám ich iba podľa overenej roly v rutine, oblasti použitia a textúry, bez zdravotných tvrdení.';
-  return 'Bellcoria výber vieme zúžiť podľa oblasti, roly produktu, textúry a rutiny. Ak chcete konkrétny výsledok, prejdite štyri krátke kroky Výberu starostlivosti.';
+  if (/bakuch/.test(q)) return 'Elixír proti vráskam s bakuchiolom je v tejto ukážke pleťový elixír s bakuchiolom a olejovou textúrou. Ak hľadáte čistiaci krok, pozrite Pleťový čistiaci gél; ak chcete pleťový olej, porovnajte ho s Organickým opunciovým olejom.';
+  if (/večer|vecer|noč|nocn/.test(q)) return 'Na večerný elixírový krok je v tejto ponuke Nočný elixír s vitamínom C a brusnicovým olejom. Ak chcete namiesto elixíru pleťový olej, porovnajte ho s Organickým opunciovým olejom.';
+  if (/telo|telov|astax/.test(q)) return 'Ak hľadáte produkt na telo, v tejto ukážke je Telový olej s astaxantínom. Pri výbere na tvár sa poradca sústredí iba na pleťový čistiaci gél, pleťový olej a elixíry.';
+  if (/čist|cist|g[eé]l/.test(q) && /olej|elix/.test(q)) return 'Pleťový čistiaci gél je čistiaci krok. Organický opunciový olej a oba elixíry patria do následnej pleťovej starostlivosti, takže nejde o zameniteľné produkty v jednej fáze rutiny.';
+  if (/olej/.test(q) && /elix/.test(q)) return 'Organický opunciový olej je pleťový olej. Bakuchiolový a nočný produkt sú elixíry; nočný elixír je pritom v tejto ponuke určený na večerný krok. Ak napíšete dva konkrétne názvy, porovnám ich stručne vedľa seba.';
+  if (/porovn|rozdiel|vs\.?/.test(q)) return 'Napíšte názvy dvoch Bellcoria produktov. Porovnám ich podľa overeného typu produktu, oblasti použitia, textúry a miesta v rutine.';
+  return 'Výber Bellcoria môžeme zúžiť podľa toho, či hľadáte produkt na tvár alebo telo, aký typ produktu chcete a kedy ho chcete používať. Ak chcete konkrétny výsledok, prejdite štyri krátke otázky vo Výbere starostlivosti.';
 }
 
 export const bellcoriaBrand = {
@@ -213,9 +213,9 @@ export const bellcoriaBrand = {
   logo: local('logo.png'),
   hero: local('hero.jpg'),
   teaserTitle: 'Olej, elixír alebo čistenie?',
-  teaser: 'Štyri kroky k správnej produktovej roli.',
-  welcome: 'Dobrý deň. Môžem porovnať pleťový olej, elixír, čistiaci gél alebo oddeliť starostlivosť o tvár a telo.',
-  chips: ['Olej vs. elixír vs. gél', 'Čo zaradiť večer?', 'Ako funguje bakuchiolový elixír?', 'Tvár alebo telo?'],
+  teaser: 'Štyri krátke otázky zúžia výber.',
+  welcome: 'Dobrý deň. Môžem porovnať pleťový olej, elixír a čistiaci gél alebo vám pomôcť oddeliť starostlivosť o tvár a telo.',
+  chips: ['Olej vs. elixír vs. gél', 'Čo zaradiť večer?', 'Čo je bakuchiolový elixír?', 'Tvár alebo telo?'],
   fallback: bellcoriaFallback,
   products: bellcoriaProducts,
   questions: bellcoriaQuestions,
