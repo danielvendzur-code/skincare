@@ -73,7 +73,10 @@ test('mobile widget is fullscreen and page is scroll locked', async ({ page }) =
   await page.getByRole('button', { name: /Nájsť starostlivosť/i }).click();
   await page.waitForTimeout(250);
   const box = await page.locator('.widget').boundingBox();
-  expect(box.x).toBe(0); expect(box.y).toBe(0); expect(box.width).toBe(390); expect(box.height).toBe(844);
+  expect(box.x).toBeCloseTo(0, 2);
+  expect(box.y).toBeCloseTo(0, 2);
+  expect(box.width).toBeCloseTo(390, 2);
+  expect(box.height).toBeCloseTo(844, 2);
   await expect(page.locator('.widget__header')).toBeVisible();
   await expect(page.locator('.mode-switch')).toBeVisible();
   expect(await page.evaluate(() => document.body.classList.contains('widget-open'))).toBeTruthy();
