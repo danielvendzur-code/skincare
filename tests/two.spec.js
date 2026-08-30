@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 import { deterministicTwoReply } from '../api/two-chat.js';
-import { recommendTwo } from '../src/brands/two/config.js';
+import { recommendTwo, TWO_PRODUCTS } from '../src/brands/two/config.js';
 
 const route = '/ukazka/two';
 const viewports = [{ width:1440, height:900 }, { width:390, height:844 }, { width:360, height:800 }];
@@ -21,7 +21,7 @@ async function finishHa6Flow(page) {
   }
 }
 
-test('TWO storefront is a navigable product-led mini shop', async ({ page }) => {
+test('TWO storefront is a navigable product-led mini shop with local imagery', async ({ page }) => {
   const errors = [];
   page.on('pageerror', (error) => errors.push(error.message));
   await page.setViewportSize(viewports[0]);
@@ -33,13 +33,16 @@ test('TWO storefront is a navigable product-led mini shop', async ({ page }) => 
   await expect(page.locator('.two-product-card h3')).toContainText(['HA⁶ HYDRATATION BOOSTER SERUM','BAKUCHIOL 1 % ANTI-AGE SERUM','Hydratačný krém','Krém pre problematickú pleť','AM/PM ROUTINE CLEANSING GEL 2% SALICYLIC ACID']);
   const productHrefs = await page.locator('.two-product-card h3 a').evaluateAll((links) => links.map((link) => link.href));
   expect(productHrefs.every((href) => /^https:\/\/www\.twocosmetics\.cz\/p\//.test(href))).toBeTruthy();
+  expect(TWO_PRODUCTS.every((product) => product.image.startsWith('/assets/brands/two/'))).toBeTruthy();
+  expect(TWO_PRODUCTS.every((product) => !/^https?:\/\//.test(product.image))).toBeTruthy();
+  expect(await page.locator('.two-product-card__image img').evaluateAll((images) => images.every((image) => image.complete && image.naturalWidth > 0))).toBeTruthy();
   await noOverflow(page);
   expect(errors).toEqual([]);
 });
 
 test('TWO chat keeps multi-turn context and compares named products without medical claims', async ({ page }) => {
   await page.goto(route);
-  await page.getByRole('button', { name:'Otvoriť Chat' }).click();
+  await page.locator('.two-site__chat').click();
   const input = page.getByRole('textbox', { name:'Napíšte správu' });
   await input.fill('Aký je rozdiel medzi HA⁶ a Hydratačným krémom?');
   await input.press('Enter');
@@ -102,7 +105,7 @@ for (const viewport of viewports) {
 
 test('TWO keyboard focus, Escape and scroll lock restore correctly', async ({ page }) => {
   await page.goto(route);
-  const trigger = page.getByRole('button', { name:'Otvoriť Chat' });
+  const trigger = page.locator('.two-site__chat');
   await trigger.focus();
   await trigger.click();
   await expect(page.locator('.widget')).toBeFocused();
