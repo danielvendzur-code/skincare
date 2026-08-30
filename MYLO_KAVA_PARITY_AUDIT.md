@@ -1,6 +1,6 @@
 # MYLO × Kava parity audit
 
-QA_STATUS: FINAL RERUN REQUIRED — this audit commit triggers the MYLO workflow on the post-viewport/error-gate and post-SVG head.
+QA_STATUS: FINAL CURRENT-HEAD RERUN — MYLO now includes explicit 1440×900/browser-error gates, sticky-header-aware in-page navigation and a bottom-section visibility assertion that tests real user visibility instead of an impossible fixed top offset.
 
 Date: 2026-08-30  
 Branch: `agent/skincare-mylo-kava-parity`  
@@ -24,6 +24,8 @@ The original MYLO route was a generic family owner page rather than a MYLO store
 - customer-facing wording instead of internal scoring/QA terminology.
 
 The design stays calm, natural and editorial. It deliberately avoids AI-dashboard styling, decorative glow, glassmorphism, emoji and repetitive generic skincare cards.
+
+The in-page Produkty/Pleť/Rutina navigation compensates for the sticky header instead of letting anchored content disappear under it. For the routine section near the bottom of the document, QA validates actual viewport visibility and header clearance rather than demanding a scroll position the browser cannot reach once the document bottom is clamped.
 
 ## 3. Catalog
 
@@ -55,67 +57,42 @@ The displayed reason uses matched customer-friendly traits rather than exposing 
 
 ## 5. Chat/API
 
-MYLO Chat sends bounded multi-turn history through the shared `messages` API contract. Deterministic fallback behavior handles:
-
-- dry/dehydrated or sensitive-skin product selection,
-- gentle cleansing,
-- hydration,
-- morning/evening routine questions,
-- named product questions,
-- comparisons such as INOVAŤ vs RADOSŤ.
+MYLO Chat sends bounded multi-turn history through the shared `messages` API contract. Deterministic fallback behavior handles dry/dehydrated or sensitive-skin product selection, gentle cleansing, hydration, morning/evening routine questions, named products and comparisons such as INOVAŤ vs RADOSŤ.
 
 Medical questions are kept outside diagnostic/treatment scope, while normal shopping answers are no longer burdened by repetitive safety or internal-catalog disclaimers.
 
 ## 6. UX/accessibility
 
-The widget supports:
-
-- independent teaser dismissal,
-- launcher reopen,
-- Chat / Výber mode switching,
-- Back and Reset,
-- Escape close,
-- body scroll lock,
-- focus containment and focus restoration,
-- reduced motion,
-- bounded input,
-- no duplicate visible controls.
+The widget supports independent teaser dismissal, launcher reopen, Chat / Výber switching, Back and Reset, Escape close, body scroll lock, focus containment/restoration, reduced motion, bounded input and no duplicate visible controls.
 
 A previous Playwright failure was traced to an accessibility-selector collision: advisor `Späť` matched the logo aria-label `MYLO — späť hore`. The test now selects the exact advisor control instead of weakening accessibility or changing working UI behavior.
 
 ## 7. Final QA gates
 
-`tests/mylo.spec.js` now explicitly enforces all required viewport/error gates rather than relying on the Playwright default viewport:
+`tests/mylo.spec.js` explicitly enforces:
 
-- desktop is explicitly set to 1440×900,
-- mobile runs at 390×844 and 360×800,
-- desktop and mobile collect `console.error`,
-- desktop and mobile collect `pageerror`,
-- all those error arrays must remain empty,
-- horizontal overflow is rejected,
-- advisor question screens must fit without internal scrolling,
-- storefront navigation/product images/product links are exercised,
-- deterministic ranking and Chat behavior are covered.
+- desktop 1440×900,
+- mobile 390×844 and 360×800,
+- `console.error` and `pageerror` collection,
+- empty browser-error arrays,
+- horizontal-overflow rejection,
+- no internal advisor question scrolling,
+- real storefront navigation visibility,
+- local product images and official product links,
+- deterministic ranking,
+- multi-turn Chat,
+- Back/Reset/Escape/focus behavior.
 
-The strengthened gates were added before the shared SVG cleanup and remain in the current branch history.
+Fullscreen widget geometry uses a sub-pixel-safe tolerance so a browser coordinate such as `0.00096px` cannot create a false failure while still enforcing full-screen placement.
 
 ## 8. Cross-review — MYLO → PONIO
 
 Reviewed the current PONIO implementation rather than the original shared baseline. PONIO now materially differs from MYLO and exposes its broader range through face, hair, body and lip care categories.
 
-The review checked:
+The review checked its dedicated experience, hard care-area eligibility, local expanded-catalog imagery, multi-turn Chat, mobile/desktop QA and official category/product destinations.
 
-- dedicated PONIO experience rather than a MYLO recolor,
-- hard care-area eligibility before recommendation scoring,
-- local runtime product imagery for the expanded catalog,
-- multi-turn Chat support,
-- mobile and desktop QA coverage,
-- official category/product destinations.
+A concrete PONIO defect found in the final sweep was a stale Pleť category destination (`collections/plet-pletove-kremy`). It has been corrected to the current official `collections/pletove-kremy` path and is protected by an exact-href regression assertion. Previously remote imagery for the expanded PONIO products was also localized. PONIO's audited current-head workflow is green.
 
-A concrete PONIO defect found in the final sweep was a stale Pleť category destination (`collections/plet-pletove-kremy`). It has been corrected to the current official `collections/pletove-kremy` path and is now protected by an exact-href regression assertion. Previously remote imagery for the expanded PONIO products was also localized.
+## 9. Current release gate
 
-No remaining MYLO-blocking product-logic defect was found on the current PONIO brand module. PONIO is undergoing its own final current-head workflow rerun.
-
-## 9. Remaining release gate
-
-MYLO is not marked PASS solely because earlier runs were green. This commit triggers a final current-head QA run that must validate the newly explicit 1440×900 and zero-browser-error gates together with the shared SVG repair. A green result makes MYLO suitable for the six-brand integration branch.
+This commit triggers the complete MYLO branch workflow against the post-navigation and corrected QA head. MYLO is suitable for six-brand integration only when that current-head run passes all 18 family + brand tests and the strengthened viewport/browser-error gates.
