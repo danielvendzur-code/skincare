@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout branch
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Enable pnpm
         uses: pnpm/action-setup@v4
@@ -76,4 +78,6 @@ jobs:
             exit 0
           fi
           git commit -m 'Refresh Anemone QA screenshots [skip ci]'
+          git fetch origin agent/skincare-anemone-kava-parity
+          git rebase origin/agent/skincare-anemone-kava-parity
           git push origin HEAD:agent/skincare-anemone-kava-parity
