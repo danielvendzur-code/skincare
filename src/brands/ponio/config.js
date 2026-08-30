@@ -24,7 +24,7 @@ export const ponioProducts = [
   },
   {
     id: 'vanilla-coconut', area: 'face', name: 'Vanilka & kokos', subtitle: 'Výživný univerzálny pleťový krém', price: '13,00 €',
-    url: 'https://ponio.sk/products/vanilka-a-kokos-pletovy-krem', image: 'https://ponio.sk/cdn/shop/files/P1200306.jpg?v=1700644929&width=600',
+    url: 'https://ponio.sk/products/vanilka-a-kokos-pletovy-krem', image: local('product-6.jpg'),
     goals: ['hydration', 'sensitive'], formats: ['sensitive-cream', 'rich-cream', 'cream'], timings: ['morning', 'evening', 'daily'], sensitivity: ['sensitive'],
     features: ['pleťový krém', 'citlivá, normálna až suchšia pleť', 'pantenol'],
     verifiedSummary: 'PONIO ho výslovne uvádza ako vhodný pre citlivú, normálnu až suchšiu pleť.',
@@ -52,14 +52,14 @@ export const ponioProducts = [
   },
   {
     id: 'fresh-air', area: 'body', name: 'Fresh air', subtitle: 'Prírodný deodorant', price: '9,30 €',
-    url: 'https://ponio.sk/products/fresh-air-prirodny-deodorant', image: 'https://ponio.sk/cdn/shop/products/P1130396.JPG?v=1444655355&width=600',
+    url: 'https://ponio.sk/products/fresh-air-prirodny-deodorant', image: local('product-7.jpg'),
     goals: ['freshness', 'deodorant', 'paper-packaging'], formats: ['solid-deodorant', 'natural-deodorant', 'paper-packaging', 'fresh-scent'], timings: ['morning', 'daily', 'as-needed'], sensitivity: [],
     features: ['prírodný deodorant', 'nie antiperspirant', 'papierový obal'],
     verifiedSummary: 'Prírodný deodorant, nie antiperspirant. PONIO ho uvádza ako sviežu deodorantovú starostlivosť pre telo.',
   },
   {
     id: 'lip-pencil', area: 'lips', name: 'Rúž na pery v ceruzke', subtitle: 'Prírodný rúž · 6 odtieňov', price: '8,30 €',
-    url: 'https://ponio.sk/products/ruz-na-pery-v-ceruzke', image: 'https://ponio.sk/cdn/shop/files/P1200606.jpg?v=1709818979&width=600',
+    url: 'https://ponio.sk/products/ruz-na-pery-v-ceruzke', image: local('product-8.jpg'),
     goals: ['color', 'hydration', 'matte'], formats: ['lip-pencil', 'matte', 'six-shades', 'hydrating-lip'], timings: ['daily', 'as-needed', 'occasional'], sensitivity: [],
     features: ['rúž v ceruzke', '6 odtieňov', 'matný vzhľad'],
     verifiedSummary: 'Rúž v ceruzke v šiestich odtieňoch. PONIO pri ňom uvádza hydratáciu a matný vzhľad.',
@@ -74,22 +74,22 @@ const areaOptions = [
 ];
 
 const goalsByArea = {
-  face: [['protect', 'Denná ochrana', 'Krém do rannej rutiny'], ['mature', 'Zrelá pleť', 'Cielená krémová starostlivosť'], ['sensitive', 'Citlivá pleť', 'Iba produkty s overeným určením'], ['hydration', 'Hydratácia', 'Komfort a hydratácia pleti']],
+  face: [['protect', 'Denná ochrana', 'Krém do rannej rutiny'], ['mature', 'Zrelá pleť', 'Krémová starostlivosť pre zrelú pleť'], ['sensitive', 'Citlivá pleť', 'Produkty určené aj pre citlivú pleť'], ['hydration', 'Hydratácia', 'Komfort a hydratácia pleti']],
   hair: [['refresh', 'Osviežiť medzi umytiami', 'Suchý šampón bez klasického umývania'], ['wash', 'Umyť vlasy', 'Produkt na samotné umývanie'], ['solid', 'Chcem tuhý formát', 'Kompaktný šampúch'], ['flexible', 'Nemám preferenciu', 'Rozhodne ďalší krok']],
-  body: [['freshness', 'Sviežosť', 'Každodenná deodorantová starostlivosť'], ['deodorant', 'Deodorant', 'Nie antiperspirant'], ['paper-packaging', 'Papierový obal', 'Overená vlastnosť produktu'], ['flexible', 'Nemám preferenciu', 'Stačí základná voľba']],
+  body: [['freshness', 'Sviežosť', 'Každodenná deodorantová starostlivosť'], ['deodorant', 'Deodorant', 'Nie antiperspirant'], ['paper-packaging', 'Papierový obal', 'Produkt v papierovom obale'], ['flexible', 'Nemám preferenciu', 'Stačí základná voľba']],
   lips: [['color', 'Farba', 'Rúž ako hlavný cieľ'], ['hydration', 'Hydratácia', 'Komfort pier počas dňa'], ['matte', 'Matný vzhľad', 'Matnejšie prevedenie'], ['flexible', 'Nemám preferenciu', 'Stačí univerzálna voľba']],
 };
 
 const formatsByArea = {
-  face: [['daily-cream', 'Denný krém', 'Najmä do rannej rutiny'], ['rich-cream', 'Výživnejší krém', 'Plnšia krémová starostlivosť'], ['sensitive-cream', 'Pre citlivú pleť', 'Len overené určenie pre citlivú pleť'], ['cream', 'Krém bez preferencie', 'Nech rozhodne hlavný cieľ']],
+  face: [['daily-cream', 'Denný krém', 'Najmä do rannej rutiny'], ['rich-cream', 'Výživnejší krém', 'Plnšia krémová starostlivosť'], ['sensitive-cream', 'Pre citlivú pleť', 'Krém určený aj pre citlivú pleť'], ['cream', 'Krém bez preferencie', 'Nech rozhodne hlavný cieľ']],
   hair: [['dry-shampoo', 'Suchý šampón', 'Osvieženie bez umývania'], ['solid-shampoo', 'Tuhý šampúch', 'Na samotné umytie vlasov'], ['powder', 'Práškový formát', 'Suchý šampón v prášku'], ['flexible', 'Bez preferencie', 'Nech rozhodne účel']],
-  body: [['natural-deodorant', 'Prírodný deodorant', 'Deodorant, nie antiperspirant'], ['paper-packaging', 'Papierový obal', 'Overený papierový obal produktu'], ['fresh-scent', 'Svieža vôňa', 'Sviežejší profil produktu'], ['flexible', 'Bez preferencie', 'Nech rozhodne hlavný cieľ']],
+  body: [['natural-deodorant', 'Prírodný deodorant', 'Deodorant, nie antiperspirant'], ['paper-packaging', 'Papierový obal', 'Produkt v papierovom obale'], ['fresh-scent', 'Svieža vôňa', 'Sviežejší profil produktu'], ['flexible', 'Bez preferencie', 'Nech rozhodne hlavný cieľ']],
   lips: [['lip-pencil', 'Ceruzka', 'Presná aplikácia'], ['matte', 'Matný vzhľad', 'Matnejšie prevedenie'], ['six-shades', 'Viac odtieňov', 'Produkt je v šiestich odtieňoch'], ['hydrating-lip', 'Komfort pier', 'Hydratácia je súčasťou popisu produktu']],
 };
 
 const timingsByArea = {
   face: [['morning', 'Ráno', 'Súčasť rannej rutiny'], ['evening', 'Večer', 'Večerná krémová starostlivosť'], ['daily', 'Ráno aj večer', 'Pravidelná rutina'], ['as-needed', 'Podľa potreby', 'Bez pevného času']],
-  hair: [['as-needed', 'Medzi umytiami', 'Rýchle osvieženie'], ['wash-day', 'Pri umývaní', 'Klasické umytie vlasov'], ['travel', 'Na cesty', 'Len produkty s podloženým travel použitím'], ['flexible', 'Je mi to jedno', 'Nech rozhodne formát']],
+  hair: [['as-needed', 'Medzi umytiami', 'Rýchle osvieženie'], ['wash-day', 'Pri umývaní', 'Klasické umytie vlasov'], ['travel', 'Na cesty', 'Kompaktné možnosti na cestovanie'], ['flexible', 'Je mi to jedno', 'Nech rozhodne formát']],
   body: [['morning', 'Ráno', 'Začiatok dňa'], ['daily', 'Každý deň', 'Pravidelná rutina'], ['as-needed', 'Podľa potreby', 'Flexibilné použitie'], ['flexible', 'Je mi to jedno', 'Nech rozhodne účel']],
   lips: [['daily', 'Počas dňa', 'Bežné denné použitie'], ['as-needed', 'Podľa potreby', 'Keď chcete farbu alebo komfort'], ['occasional', 'Príležitostne', 'Nie každý deň'], ['flexible', 'Je mi to jedno', 'Nech rozhodne cieľ']],
 };
@@ -98,10 +98,10 @@ const toOptions = (rows) => rows.map(([value, label, detail]) => ({ value, label
 
 export function getPonioQuestion(step, answers = {}) {
   const area = answers.area || 'face';
-  if (step === 0) return { key: 'area', title: 'Čo dnes vyberáte?', hint: 'Najprv oddelíme časť katalógu. Ostatné oblasti sa do výsledku nedostanú.', options: toOptions(areaOptions) };
-  if (step === 1) return { key: 'goal', title: 'Čo je pre vás najdôležitejšie?', hint: 'Možnosti sa menia podľa zvolenej oblasti.', options: toOptions(goalsByArea[area] || goalsByArea.face) };
-  if (step === 2) return { key: 'format', title: area === 'face' || area === 'hair' ? 'Aký formát vám dáva zmysel?' : 'Čo je pre vás pri produkte dôležité?', hint: area === 'hair' ? 'Rozlišujeme suchý šampón od šampúchu na umývanie.' : 'Používame iba vlastnosti uvedené pri overenom produkte.', options: toOptions(formatsByArea[area] || formatsByArea.face) };
-  return { key: 'timing', title: 'Kedy ho chcete používať?', hint: area === 'hair' ? 'Cestovanie zohľadníme iba pri produktoch, kde ho PONIO uvádza.' : 'Posledný krok pomôže zoradiť produkty v rovnakej oblasti.', options: toOptions(timingsByArea[area] || timingsByArea.face) };
+  if (step === 0) return { key: 'area', title: 'Čo dnes vyberáte?', hint: 'Začnite oblasťou, pre ktorú hľadáte produkt.', options: toOptions(areaOptions) };
+  if (step === 1) return { key: 'goal', title: 'Čo je pre vás najdôležitejšie?', hint: 'Možnosti sa prispôsobia zvolenej oblasti.', options: toOptions(goalsByArea[area] || goalsByArea.face) };
+  if (step === 2) return { key: 'format', title: area === 'face' || area === 'hair' ? 'Aký formát vám dáva zmysel?' : 'Čo je pre vás pri produkte dôležité?', hint: area === 'hair' ? 'Suchý šampón osvieži medzi umytiami, tuhý šampúch slúži na umývanie.' : 'Vyberte vlastnosť alebo formát, ktorý vám sedí najviac.', options: toOptions(formatsByArea[area] || formatsByArea.face) };
+  return { key: 'timing', title: 'Kedy ho chcete používať?', hint: area === 'hair' ? 'Vyberte použitie medzi umytiami, pri umývaní alebo na cestách.' : 'Posledná odpoveď pomôže vybrať najvhodnejšiu možnosť.', options: toOptions(timingsByArea[area] || timingsByArea.face) };
 }
 
 const WEIGHTS = { goal: 10, format: 8, timing: 5, sensitivity: 12 };
@@ -156,8 +156,8 @@ export function choosePonioRecommendation(answers) {
   const areaLabel = AREA_LABELS[answers.area] || 'zvolená oblasť';
   const matchLabels = primary.matched.map((value) => TRAIT_LABELS[value]).filter(Boolean);
   const reason = matchLabels.length
-    ? `Zostáva presne v oblasti ${areaLabel} a najviac sa zhoduje s tým, čo ste vybrali: ${matchLabels.join(', ')}.`
-    : `Zostáva presne v oblasti ${areaLabel}. Z overených produktov PONIO v tejto oblasti je pri vašich neutrálnych voľbách najvyššie v stabilnom poradí katalógu.`;
+    ? `Najlepšie sedí k vašim odpovediam pre ${areaLabel}: ${matchLabels.join(', ')}.`
+    : `Zostali sme pri kategórii ${areaLabel} a vybrali prvú vhodnú možnosť z dostupného výberu PONIO.`;
   return { product: primary.product, alternative: alternative?.product || null, reason, score: primary.score, matched: primary.matched };
 }
 
@@ -178,19 +178,19 @@ export function ponioFallbackReply(messagesOrText) {
   const latest = normalize(userMessages.at(-1));
   const context = normalize(userMessages.slice(-4).join(' '));
 
-  if (/diagn|ekzem|dermatit|psoria|rosace|infek|alerg|liec|vylie[cč]|terapi|lekar|dermatol/.test(latest)) return 'Pri zdravotnom probléme nebudem robiť diagnózu ani sľubovať liečbu. Viem pomôcť iba s výberom kozmetiky podľa overeného určenia produktu; pri pretrvávajúcich alebo výrazných ťažkostiach je vhodná konzultácia s lekárom alebo dermatológom.';
-  if (/suchy sampon|suchym sampon|sampuch|tuhy sampon|rozdiel/.test(context) && /rozdiel|such|sampuch|tuh/.test(latest)) return 'Suchý šampón Mint alebo Banán & kokos je práškový produkt na osvieženie vlasov medzi umytiami. Dvojitá levanduľa je tuhý šampúch na samotné umývanie vlasov — teda nenahrádza ten istý krok rutiny.';
+  if (/diagn|ekzem|dermatit|psoria|rosace|infek|alerg|liec|vylie[cč]|terapi|lekar|dermatol/.test(latest)) return 'Pri zdravotnom probléme nebudem robiť diagnózu ani sľubovať liečbu. Viem pomôcť s výberom kozmetiky podľa určenia produktu; pri pretrvávajúcich alebo výrazných ťažkostiach je vhodná konzultácia s lekárom alebo dermatológom.';
+  if (/suchy sampon|suchym sampon|sampuch|tuhy sampon|rozdiel/.test(context) && /rozdiel|such|sampuch|tuh/.test(latest)) return 'Suchý šampón Mint alebo Banán & kokos je práškový produkt na osvieženie vlasov medzi umytiami. Dvojitá levanduľa je tuhý šampúch na samotné umývanie vlasov — ide teda o dva rozdielne kroky.';
   if (/lumina/.test(latest) && /healthy|aging/.test(context)) return 'Lumina shield je denný ochranný pleťový krém do rannej rutiny. Healthy aging je krém pre zrelú pleť a PONIO ho uvádza na dennú aj večernú starostlivosť.';
   if (/lumina/.test(latest)) return 'Lumina shield je denný ochranný pleťový krém za 25,30 €. PONIO ho uvádza pre všetky typy pleti a do rannej rutiny, aj pod SPF alebo make-up.';
   if (/healthy|aging|zrel/.test(latest)) return 'Healthy aging je pleťový krém pre zrelú pleť za 25,30 €. PONIO ho uvádza pre pravidelnú dennú aj večernú starostlivosť.';
-  if (/vanilk|citliv/.test(latest)) return 'Ak je dôležitá citlivá pleť, v overenom katalógu je Vanilka & kokos za 13,00 €, ktorý PONIO výslovne uvádza pre citlivú, normálnu až suchšiu pleť. Pri alergii alebo zdravotnom probléme však produktový chatbot nenahrádza odbornú radu.';
-  if (/mint/.test(latest)) return 'Mint je suchý šampón za 7,70 € na osvieženie vlasov medzi umytiami. Pri tomto produkte PONIO priamo uvádza aj praktické použitie na cestách.';
+  if (/vanilk|citliv/.test(latest)) return 'Ak hľadáte krém určený aj pre citlivú pleť, Vanilka & kokos za 13,00 € PONIO uvádza pre citlivú, normálnu až suchšiu pleť. Pri alergii alebo zdravotnom probléme je vhodná odborná rada.';
+  if (/mint/.test(latest)) return 'Mint je suchý šampón za 7,70 € na osvieženie vlasov medzi umytiami. PONIO pri tomto produkte uvádza aj praktické použitie na cestách.';
   if (/banan|kokos/.test(latest) && /sampon|vlas|such/.test(context)) return 'Banán & kokos je suchý šampón za 7,70 € — prášková vlasová starostlivosť medzi klasickými umytiami.';
   if (/dvojit|levand|zihlav|sampuch/.test(latest)) return 'Dvojitá levanduľa je žihľavový šampúch od 4,70 €. Je to tuhý produkt na samotné umývanie vlasov; PONIO pri šampúchu uvádza kompaktnosť a praktické použitie na cestách.';
-  if (/cest|travel/.test(latest)) return 'Travel použitie nechcem pripisovať celému sortimentu. PONIO ho priamo uvádza pri suchom šampóne Mint a pri kompaktnom tuhom šampúchu Dvojitá levanduľa.';
-  if (/pery|ruz|balzam/.test(latest)) return 'PONIO má samostatnú kategóriu pier. V tomto overenom výbere je Rúž na pery v ceruzke za 8,30 € v šiestich odtieňoch; PONIO pri ňom uvádza hydratáciu a matný vzhľad.';
-  if (/telo|deodor|dezodor/.test(latest)) return 'V telovej starostlivosti je napríklad Fresh air za 9,30 €. Je to prírodný deodorant, nie antiperspirant; patrí do kategórie Telo, nie do pleťovej ani vlasovej rutiny.';
+  if (/cest|travel/.test(latest)) return 'Na cesty sú z tohto výberu vhodné možnosti, pri ktorých PONIO toto použitie priamo spomína: suchý šampón Mint a kompaktný tuhý šampúch Dvojitá levanduľa.';
+  if (/pery|ruz|balzam/.test(latest)) return 'V kategórii pier je Rúž na pery v ceruzke za 8,30 € v šiestich odtieňoch; PONIO pri ňom uvádza hydratáciu a matný vzhľad.';
+  if (/telo|deodor|dezodor/.test(latest)) return 'V telovej starostlivosti je Fresh air za 9,30 €. Je to prírodný deodorant, nie antiperspirant.';
   if (/vlas|sampon|sampuch/.test(latest)) return 'Pri vlasoch najprv rozlíšte účel: suchý šampón Mint alebo Banán & kokos osviežuje medzi umytiami, kým Dvojitá levanduľa je tuhý šampúch na samotné umytie.';
-  if (/plet|krem|tvar/.test(latest)) return 'Pri pleti viem porovnať Lumina shield, Healthy aging a Vanilka & kokos podľa cieľa rutiny. Ak mi poviete, či riešite dennú ochranu, zrelú alebo citlivú pleť, zúžim výber bez miešania vlasových produktov.';
-  return 'PONIO má oddelenú starostlivosť o pleť, vlasy, telo a pery. Napíšte oblasť alebo konkrétny názov produktu; prípadne použite Výber starostlivosti, ktorý najprv uzamkne správnu časť katalógu.';
+  if (/plet|krem|tvar/.test(latest)) return 'Pri pleti môžem porovnať Lumina shield, Healthy aging a Vanilka & kokos. Napíšte, či hľadáte denný krém, starostlivosť pre zrelú pleť alebo krém určený aj pre citlivú pleť.';
+  return 'PONIO ponúka starostlivosť o pleť, vlasy, telo aj pery. Napíšte oblasť alebo konkrétny názov produktu, prípadne prejdite štyri krátke otázky vo Výbere starostlivosti.';
 }
