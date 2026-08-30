@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 import handler from '../api/chat.js';
-import { anemoneProducts, recommendAnemone } from '../src/brands/anemone/config.js';
+import { anemoneFallback, anemoneProducts, recommendAnemone } from '../src/brands/anemone/config.js';
 
 function mockResponse() {
   return {
@@ -81,6 +81,20 @@ for (const viewport of [
     const errors = [];
     page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
     page.on('pageerror', (error) => errors.push(error.message));
+
+    // Vite preview does not execute Vercel serverless functions. The API contract is
+    // covered directly above; browser QA supplies the same deterministic fallback so
+    // chat interaction is tested without manufacturing 404 console noise.
+    await page.route('**/api/chat', async (route) => {
+      const payload = route.request().postDataJSON();
+      const latest = payload?.messages?.at(-1)?.content || '';
+      await route.fulfill({
+        status: 200,
+        contentType: 'application/json',
+        body: JSON.stringify({ reply: anemoneFallback(latest), fallback: true }),
+      });
+    });
+
     await page.goto('/ukazka/anemone');
 
     await expect(page).toHaveTitle(/ANEMONE/);
@@ -127,7 +141,7 @@ for (const viewport of [
     expect(await page.locator('.advisor-view').evaluate((node) => node.scrollHeight <= node.clientHeight + 1)).toBeTruthy();
     await page.locator('.choice-grid button').nth(2).click();
     await page.waitForTimeout(210);
-    await page.getByRole('button', { name:'Späť' }).click();
+    await page.getByRole('button', { name:'Späť', exact:true }).click();
     await expect(page.locator('.choice-grid button').nth(2)).toHaveAttribute('aria-pressed', 'true');
     await page.locator('.choice-grid button').nth(2).click();
     await page.waitForTimeout(210);
