@@ -85,7 +85,7 @@ export const myloQuestions = [
     key: 'skin',
     label: 'Pleť',
     title: 'Ako sa vaša pleť najčastejšie cíti?',
-    hint: 'Vyberte najbližšiu možnosť. Nejde o zdravotnú diagnózu.',
+    hint: 'Vyberte opis, ktorý je vášmu bežnému pocitu pleti najbližší.',
     options: [
       { value: 'dry', label: 'Suchá alebo napnutá', description: 'Chcem viac komfortu', image: images.flora, weights: { dry: 9, hydration: 5, comfort: 4 } },
       { value: 'dehydrated', label: 'Dehydrovaná', description: 'Chýba jej hydratácia', image: images.radost, weights: { dehydrated: 10, hydration: 7, barrier: 3 } },
@@ -97,7 +97,7 @@ export const myloQuestions = [
     key: 'goal',
     label: 'Priorita',
     title: 'Ktorý krok chcete vyriešiť ako prvý?',
-    hint: 'Toto má pri odporúčaní najväčšiu váhu.',
+    hint: 'Vyberte krok, ktorý chcete v rutine vyriešiť prednostne.',
     options: [
       { value: 'cleanse', label: 'Jemné čistenie', description: 'Čistenie a odlíčenie', image: images.moissanit, weights: { cleanse: 11, gentle: 5 }, rolePreference: { role: 'cleanser', bonus: 18, mismatch: -9 } },
       { value: 'hydrate', label: 'Hydratáciu', description: 'Ľahší alebo krémový krok', image: images.inovat, weights: { hydration: 12, dehydrated: 4 } },
@@ -121,7 +121,7 @@ export const myloQuestions = [
     key: 'routine',
     label: 'Rutina',
     title: 'Kam má produkt zapadnúť?',
-    hint: 'Posledný krok doladí praktické použitie.',
+    hint: 'Posledná odpoveď pomôže doladiť praktické použitie.',
     options: [
       { value: 'morning', label: 'Najmä ráno', description: 'Rýchly denný krok', image: images.inovat, weights: { morning: 7, light: 2 } },
       { value: 'evening', label: 'Najmä večer', description: 'Pokojnejšia večerná rutina', image: images.flora, weights: { evening: 7, comfort: 2 } },
@@ -213,7 +213,7 @@ export function rankMyloProducts(answers) {
     .filter(Boolean)
     .slice(0, 3);
   const reason = reasonLabels.length
-    ? `Najviac sa zhoduje s tým, že hľadáte ${reasonLabels.join(', ')}.`
+    ? `Najlepšie sedí k vašim odpovediam podľa: ${reasonLabels.join(', ')}.`
     : primary.product.storefrontNote;
 
   return {
@@ -241,7 +241,7 @@ export function myloFallback(message, history = []) {
   const mentioned = mentionedProducts(historyText);
 
   if (/diagno|ekzem|dermatit|psori|rosace|infek|alerg|hnis|krvac|liec|vyliec|terapi|dermatol|lekar/.test(query)) {
-    return 'S diagnózou ani liečbou vám cez produktový poradca nepomôžem. Môžem zúžiť výber kozmetiky podľa textúry a rutiny; pri výrazných, pretrvávajúcich alebo zhoršujúcich sa ťažkostiach je vhodné obrátiť sa na lekára alebo dermatológa.';
+    return 'S diagnózou ani liečbou vám produktový poradca nepomôže. Môžem zúžiť výber kozmetiky podľa textúry a rutiny; pri výrazných, pretrvávajúcich alebo zhoršujúcich sa ťažkostiach je vhodné obrátiť sa na lekára alebo dermatológa.';
   }
 
   if (/porovn|rozdiel|versus|\bvs\b/.test(query) && mentioned.length >= 2) {
@@ -250,7 +250,7 @@ export function myloFallback(message, history = []) {
   }
 
   if (/rann|rano|rannej/.test(query)) {
-    return 'Ak chcete jednoduchú rannú rutinu iba z tohto výberu MYLO, začnite čistením podľa potreby a potom zvoľte ľahké INOVAŤ alebo krém RADOSŤ podľa preferovanej textúry. MYLO pri oboch uvádza použitie ráno; poradca nevytvára zdravotnú diagnózu.';
+    return 'Ak chcete jednoduchú rannú rutinu iba z tohto výberu MYLO, začnite čistením podľa potreby a potom zvoľte ľahké INOVAŤ alebo krém RADOSŤ podľa preferovanej textúry. MYLO pri oboch uvádza použitie ráno.';
   }
 
   if (/vecer|vecern/.test(query)) {
@@ -258,7 +258,7 @@ export function myloFallback(message, history = []) {
   }
 
   if (/citliv/.test(query)) {
-    return 'Pri citlivej pleti sú v tomto výbere najjasnejšie katalógové zhody MOISSANIT na jemné čistenie a FLÓRA ako olejový krok pre suchú a citlivú pleť. KVETOVÚ ROSU MYLO tiež uvádza medzi typmi pleti pre citlivú pokožku.';
+    return 'Pri citlivej pleti sú v tomto výbere najjasnejšie možnosti MOISSANIT na jemné čistenie a FLÓRA ako olejový krok pre suchú a citlivú pleť. KVETOVÚ ROSU MYLO tiež uvádza medzi typmi pleti pre citlivú pokožku.';
   }
 
   if (/such|dehydrat|hydrat/.test(query)) {
@@ -281,7 +281,7 @@ export const myloConfig = {
   hero: asset('hero.jpg'),
   teaserTitle: 'Neviete, čo zaradiť do rutiny?',
   teaser: '4 krátke otázky · produkt z ponuky MYLO',
-  welcome: 'Dobrý deň. Napíšte mi, čo chcete v rutine vyriešiť, alebo názov produktu MYLO. Zostanem pri overenom katalógu a pomôžem zúžiť výber.',
+  welcome: 'Dobrý deň. Napíšte mi, čo chcete v rutine vyriešiť, alebo názov produktu MYLO. Pomôžem porovnať možnosti a zúžiť výber.',
   chips: ['Mám suchú pleť', 'Jemné čistenie pre citlivú pleť', 'Čo použiť ráno?', 'INOVAŤ alebo RADOSŤ?'],
   products: myloProducts,
   questions: myloQuestions,
