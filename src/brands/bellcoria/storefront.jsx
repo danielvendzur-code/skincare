@@ -7,7 +7,7 @@ function StoreLogo({ brand }) {
 function ProductCard({ product, featured = false }) {
   return <article className={`bellcoria-product${featured ? ' bellcoria-product--featured' : ''}`} data-testid="bellcoria-product">
     <a className="bellcoria-product__image" href={product.url} target="_blank" rel="noreferrer" aria-label={`Pozrieť ${product.name}`}>
-      <img src={product.image} alt={product.name} />
+      <img src={product.image} alt={product.name} loading={featured ? 'eager' : 'lazy'} />
     </a>
     <div className="bellcoria-product__copy">
       <span>{product.role === 'cleanse' ? 'Čistenie pleti' : product.role === 'body-oil' ? 'Starostlivosť o telo' : product.role === 'oil' ? 'Pleťový olej' : 'Pleťový elixír'}</span>
@@ -26,14 +26,20 @@ export function BellcoriaStorefront({ brand, openAdvisor, openChat }) {
   return <main className="owner bellcoria-storefront" aria-label="Bellcoria mini obchod">
     <header className="bellcoria-header">
       <a className="bellcoria-brand" href="#top" aria-label="Bellcoria — späť hore" onClick={closeMenu}><StoreLogo brand={brand} /></a>
-      <button className="bellcoria-menu-toggle" type="button" aria-label="Otvoriť menu" aria-expanded={mobileOpen} onClick={() => setMobileOpen((value) => !value)}>
+      <button
+        className="bellcoria-menu-toggle"
+        type="button"
+        aria-label={mobileOpen ? 'Zavrieť menu' : 'Otvoriť menu'}
+        aria-expanded={mobileOpen}
+        onClick={() => setMobileOpen((value) => !value)}
+      >
         <span /><span />
       </button>
       <nav className={`bellcoria-nav${mobileOpen ? ' is-open' : ''}`} aria-label="Hlavná navigácia">
         <a href="#cistenie" onClick={closeMenu}>Čistenie</a>
         <a href="#plet" onClick={closeMenu}>Oleje a elixíry</a>
         <a href="#telo" onClick={closeMenu}>Telo</a>
-        <button type="button" onClick={() => { closeMenu(); openChat(); }}>Poradca</button>
+        <button type="button" onClick={() => { closeMenu(); openChat(); }}>Poradiť s výberom</button>
         <a className="bellcoria-nav__external" href="https://bellcoria.sk/produkty/" target="_blank" rel="noreferrer">Všetky produkty ↗</a>
       </nav>
     </header>
@@ -41,8 +47,8 @@ export function BellcoriaStorefront({ brand, openAdvisor, openChat }) {
     <section className="bellcoria-hero" id="top">
       <div className="bellcoria-hero__copy">
         <span className="bellcoria-eyebrow">Organická kozmetika · Bellcoria</span>
-        <h1>Olej, elixír alebo gél. Každý má v rutine inú úlohu.</h1>
-        <p>Objavte čistenie, pleťové oleje, elixíry a telovú starostlivosť. Ak váhate medzi produktmi, poradca ich rozlíši podľa oblasti, textúry a času použitia.</p>
+        <h1>Olej, elixír alebo gél. Nájdite krok, ktorý vám v rutine chýba.</h1>
+        <p>Prejdite si čistenie, pleťové oleje, elixíry a telovú starostlivosť. Ak sa rozhodujete medzi produktmi, poradca vám pomôže zúžiť výber podľa toho, čo hľadáte a kedy to chcete používať.</p>
         <div className="bellcoria-hero__actions">
           <button className="bellcoria-button bellcoria-button--solid" type="button" onClick={openAdvisor}>Vybrať starostlivosť</button>
           <a className="bellcoria-button bellcoria-button--text" href="#plet">Pozrieť produkty <span aria-hidden="true">↓</span></a>
@@ -63,15 +69,15 @@ export function BellcoriaStorefront({ brand, openAdvisor, openChat }) {
     <section className="bellcoria-category bellcoria-category--cleanse" id="cistenie">
       <header className="bellcoria-section-head">
         <span>01 / Čistenie</span>
-        <div><h2>Začnite ľahkým čistiacim krokom.</h2><p>Gél a olejová starostlivosť nie sú zameniteľné. Poradca ich preto vedie ako samostatné roly.</p></div>
+        <div><h2>Začnite čistou pleťou.</h2><p>Pleťový čistiaci gél je samostatný prvý krok. Olej alebo elixír potom vyberajte ako následnú starostlivosť podľa toho, aký formát a čas použitia vám vyhovuje.</p></div>
       </header>
       <div className="bellcoria-cleanse-layout">
         <ProductCard product={byId.cleanser} featured />
         <aside className="bellcoria-editorial-note">
           <span>Čistenie → následná starostlivosť</span>
-          <h3>Neviete, čo patrí po géle?</h3>
-          <p>Opýtajte sa na rozdiel medzi pleťovým olejom a elixírom alebo prejdite štyri krátke kroky.</p>
-          <button type="button" onClick={openChat}>Otvoriť Chat</button>
+          <h3>Neviete, čo zaradiť po géle?</h3>
+          <p>Opýtajte sa na rozdiel medzi pleťovým olejom a elixírom alebo prejdite štyri krátke otázky a nechajte si výber zúžiť.</p>
+          <button type="button" onClick={openChat}>Opýtať sa v chate</button>
         </aside>
       </div>
     </section>
@@ -79,7 +85,7 @@ export function BellcoriaStorefront({ brand, openAdvisor, openChat }) {
     <section className="bellcoria-category" id="plet">
       <header className="bellcoria-section-head">
         <span>02 / Pleť</span>
-        <div><h2>Pleťové oleje a elixíry.</h2><p>Tri olejové produkty, tri odlišné roly v ponuke. Výber sa riadi tým, či chcete olej, elixír a dennú alebo večernú rutinu.</p></div>
+        <div><h2>Pleťové oleje a elixíry.</h2><p>Vyberajte medzi pleťovým olejom, bakuchiolovým elixírom a nočným elixírom podľa toho, aký krok chcete zaradiť a či ho hľadáte na bežnú alebo večernú rutinu.</p></div>
       </header>
       <div className="bellcoria-products bellcoria-products--three">
         <ProductCard product={byId.opuntia} />
@@ -91,14 +97,14 @@ export function BellcoriaStorefront({ brand, openAdvisor, openChat }) {
     <section className="bellcoria-category bellcoria-category--body" id="telo">
       <header className="bellcoria-section-head">
         <span>03 / Telo</span>
-        <div><h2>Telová starostlivosť zostáva v telovej vetve.</h2><p>Pri výbere pre tvár poradca telový olej vylúči. Tým sa odporúčanie nemieša medzi rozdielne oblasti starostlivosti.</p></div>
+        <div><h2>Starostlivosť o telo bez miešania s pleťovou rutinou.</h2><p>Ak hľadáte produkt na telo, poradca zostane pri telovej starostlivosti. Pri výbere na tvár sa naopak sústredí iba na pleťové produkty z tejto ukážky.</p></div>
       </header>
       <div className="bellcoria-body-layout">
         <ProductCard product={byId['body-astaxanthin']} featured />
         <div className="bellcoria-body-copy">
-          <span>Potrebujete porovnať tvár a telo?</span>
-          <h3>Štyri otázky. Jedna produktová rola.</h3>
-          <p>Výber najprv určí oblasť a potom zohľadní rolu, textúru a rutinu. Výsledok vždy ukáže aj dôvod zhody.</p>
+          <span>Neviete, kde začať?</span>
+          <h3>Štyri krátke otázky zúžia výber.</h3>
+          <p>Stačí zvoliť oblasť, typ produktu, textúru a čas použitia. Na konci dostanete konkrétny produkt aj stručné vysvetlenie, prečo sa hodí k vašim odpovediam.</p>
           <button className="bellcoria-button bellcoria-button--solid" type="button" onClick={openAdvisor}>Spustiť výber</button>
         </div>
       </div>
@@ -106,7 +112,7 @@ export function BellcoriaStorefront({ brand, openAdvisor, openChat }) {
 
     <footer className="bellcoria-footer">
       <StoreLogo brand={brand} />
-      <p>Mini storefront používa produkty Bellcoria z aktuálneho katalógu ukážky.</p>
+      <p>Objavte produkty Bellcoria alebo si nechajte výber zúžiť podľa svojej rutiny.</p>
       <div><a href="#top">Hore ↑</a><a href="https://bellcoria.sk/" target="_blank" rel="noreferrer">bellcoria.sk ↗</a></div>
     </footer>
   </main>;
