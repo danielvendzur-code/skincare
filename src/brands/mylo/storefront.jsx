@@ -32,7 +32,15 @@ export function MyloStorefront({ brand, openAdvisor, openChat }) {
 
   const goTo = (id) => {
     setMenuOpen(false);
-    document.getElementById(id)?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    const target = document.getElementById(id);
+    if (!target) return;
+    if (id === 'mylo-top') {
+      window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      return;
+    }
+    const headerHeight = document.querySelector('.mylo-header')?.getBoundingClientRect().height || 0;
+    const top = Math.max(0, target.getBoundingClientRect().top + window.scrollY - headerHeight - 16);
+    window.scrollTo({ top, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
   };
 
   return <main className="mylo-site owner" id="mylo-top" aria-label="MYLO — mini obchod s produktovým poradcom">
