@@ -1,0 +1,51 @@
+name: MYLO final QA gates
+on:
+  push:
+    branches:
+      - agent/skincare-mylo-kava-parity
+permissions:
+  contents: write
+jobs:
+  strengthen-gates:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/skincare-mylo-kava-parity
+      - name: Add explicit viewport and browser-error gates
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('tests/mylo.spec.js')
+          s = p.read_text()
+          old = "test('MYLO storefront behaves like a real compact shop', async ({ page }) => {\n  await page.goto('/ukazka/mylo');"
+          new = "test('MYLO storefront behaves like a real compact shop at 1440x900 without browser errors', async ({ page }) => {\n  await page.setViewportSize({ width: 1440, height: 900 });\n  const errors = [];\n  page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });\n  page.on('pageerror', (error) => errors.push(error.message));\n  await page.goto('/ukazka/mylo');"
+          if old not in s:
+              raise SystemExit('desktop test anchor missing')
+          s = s.replace(old, new, 1)
+          old_end = "  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();\n});\n\ntest('teaser closes independently"
+          new_end = "  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();\n  expect(errors).toEqual([]);\n});\n\ntest('teaser closes independently"
+          if old_end not in s:
+              raise SystemExit('desktop test end anchor missing')
+          s = s.replace(old_end, new_end, 1)
+          mobile_anchor = "    await page.emulateMedia({ reducedMotion: 'reduce' });\n    await page.goto('/ukazka/mylo');"
+          mobile_new = "    await page.emulateMedia({ reducedMotion: 'reduce' });\n    const errors = [];\n    page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });\n    page.on('pageerror', (error) => errors.push(error.message));\n    await page.goto('/ukazka/mylo');"
+          if mobile_anchor not in s:
+              raise SystemExit('mobile test anchor missing')
+          s = s.replace(mobile_anchor, mobile_new, 1)
+          mobile_end = "    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();\n  });\n}\n"
+          mobile_end_new = "    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();\n    expect(errors).toEqual([]);\n  });\n}\n"
+          if mobile_end not in s:
+              raise SystemExit('mobile test end anchor missing')
+          s = s.replace(mobile_end, mobile_end_new, 1)
+          p.write_text(s)
+          Path('.github/workflows/mylo-final-gates.yml').unlink()
+          PY
+      - name: Commit stronger MYLO gates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Require MYLO 1440x900 and zero browser errors"
+          git push origin HEAD:agent/skincare-mylo-kava-parity
