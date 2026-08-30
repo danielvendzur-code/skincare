@@ -10,8 +10,8 @@ function MenuIcon({ open }) {
 
 function ProductCard({ product, compact = false }) {
   return <article className={`an-product${compact ? ' an-product--compact' : ''}`}>
-    <a className="an-product__image" href={product.url} target="_blank" rel="noreferrer">
-      <img src={product.image} alt={product.name} />
+    <a className="an-product__image" href={product.url} target="_blank" rel="noreferrer" aria-label={`Pozrieť ${product.name}`}>
+      <img src={product.image} alt={product.name} loading={compact ? 'lazy' : 'eager'} />
     </a>
     <div className="an-product__copy">
       <span>{product.role === 'water' ? 'Kvetová voda' : product.role === 'oil' ? 'Pleťový olej' : product.role === 'balm' ? 'Starostlivosť o pery' : 'Starostlivosť o vlasy'}</span>
@@ -40,7 +40,7 @@ export function AnemoneStorefront({ brand, openAdvisor, openChat }) {
 
   return <main className="an-store" aria-label="ANEMONE prírodná kozmetika">
     <header className="an-header">
-      <a className="an-logo" href="#top" aria-label="ANEMONE domov"><img src={brand.logo} alt="ANEMONE" /></a>
+      <a className="an-logo" href="#top" aria-label="ANEMONE — hore" onClick={closeMenu}><img src={brand.logo} alt="ANEMONE" /></a>
       <nav className="an-nav" aria-label="Hlavná navigácia">
         {navItems.map(([label, href]) => <a key={href} href={href}>{label}</a>)}
       </nav>
@@ -55,10 +55,10 @@ export function AnemoneStorefront({ brand, openAdvisor, openChat }) {
     <section className="an-hero" id="top">
       <div className="an-hero__copy">
         <h1>Kozmetika,<br />čo dýcha prírodou.</h1>
-        <p>Ručne vyrábané na Slovensku v malých množstvách. Vyberajte podľa skutočného typu produktu a miesta v rutine.</p>
+        <p>Ručne vyrábaná na Slovensku v malých množstvách. Prejdite si kvetové vody, pleťový olej, starostlivosť o pery a vlasy — alebo si nechajte výber zúžiť podľa toho, aký krok hľadáte.</p>
         <div className="an-hero__actions">
           <a className="an-button an-button--dark" href="#kvetove-vody">Pozrieť starostlivosť <ArrowIcon /></a>
-          <button className="an-button an-button--light" type="button" onClick={openChat}>Otvoriť Chat</button>
+          <button className="an-button an-button--light" type="button" onClick={openChat}>Opýtať sa v chate</button>
         </div>
       </div>
       <div className="an-hero__media">
@@ -74,17 +74,17 @@ export function AnemoneStorefront({ brand, openAdvisor, openChat }) {
     <section className="an-waters an-section" id="kvetove-vody">
       <header className="an-section__head">
         <div><span>01</span><h2>Kvetové vody</h2></div>
-        <p>Dve samostatné kvetové vody. Poradca ich porovná bez toho, aby z vodného kroku preskočil na olej alebo inú kategóriu.</p>
+        <p>Ruža damascénska alebo Harmanček. Obe sú ľahké vodné kroky; ak váhate medzi nimi, chat ich porovná bez miešania s úplne iným typom produktu.</p>
       </header>
       <div className="an-waters__grid"><ProductCard product={rose} /><ProductCard product={chamomile} /></div>
     </section>
 
     <section className="an-oil an-section an-product an-product--feature" id="pletove-oleje">
-      <div className="an-oil__media"><img src={oil.image} alt={oil.name} /></div>
+      <div className="an-oil__media"><img src={oil.image} alt={oil.name} loading="lazy" /></div>
       <div className="an-oil__copy">
         <span>02 · Pleťové oleje</span>
         <h2>Iný formát.<br />Iné miesto v rutine.</h2>
-        <p>{oil.name} je 30 ml olej v sklenenej fľaške s pipetou. Výrobca ho uvádza na čistú, jemne vlhkú pleť; v tomto deme ho poradca nikdy nezamení za balzam na pery ani vlasový produkt.</p>
+        <p>{oil.name} je 30 ml olej v sklenenej fľaške s pipetou. Výrobca ho uvádza na čistú, jemne vlhkú pleť; ak sa rozhodujete medzi vodným a olejovým krokom, poradca vám rozdiel vysvetlí priamo.</p>
         <div><b>{oil.price}</b><a className="an-text-link" href={oil.url} target="_blank" rel="noreferrer">Pozrieť produkt <ArrowIcon /></a></div>
       </div>
     </section>
