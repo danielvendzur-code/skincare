@@ -1,38 +1,35 @@
-# BIOFY — Kava parity audit
+# BIOFY × Kava parity audit
 
-QA_STATUS: PASS — GitHub Actions 2026-08-28 18:44 UTC
+QA_STATUS: FINAL RERUN REQUIRED — previous BIOFY QA was green; this commit reruns it on the post-shared-SVG head and refreshes the required BIOFY → ANEMONE peer review.
 
-Date: 2026-08-28  
+Date: 2026-08-30  
 Branch: `agent/skincare-biofy-kava-parity`  
-Reference: current `danielvendzur-code/kava.chatbot.backend` main (`dbe6b5c40ab9e05c6707ab888963b7614029ceea`) and `docs/PRAZIARNICKA_LAYOUT_REFERENCE.md`.
+Reference: current `danielvendzur-code/kava.chatbot.backend` main, `docs/KAVA_PARITY_BLUEPRINT.md` and `docs/PRAZIARNICKA_LAYOUT_REFERENCE.md`.
 
 ## 1. Baseline diagnosis
 
-The pre-change BIOFY route was not a storefront. It reused the family-wide owner-sales presentation, one hero image and the generic widget shell. The advisor's result was selected with `next.join('').length % products.length`, which made the apparent recommendation unrelated to product compatibility. The first BIOFY question also exposed `Telo` and `Darčekové balenie` despite the five-product baseline containing no body or gift result.
+The original BIOFY route reused the generic family owner presentation and pseudo-random answer-length recommendation. It also exposed choices such as body/gift despite the baseline catalog having no honest result for those areas. Face and hair were not structurally isolated enough for a trustworthy recommendation flow.
 
-The existing catalog/assets were usable: a local BIOFY logo, local hero and five local product images already existed. The correct strategy was therefore to fix information architecture, scoring, storefront composition and chat behavior rather than fabricate new products or imagery.
+## 2. Storefront delivered
 
-## 2. Implemented storefront
+`/ukazka/biofy` now uses a BIOFY-specific mini storefront with:
 
-`/ukazka/biofy` now uses a BIOFY-specific storefront instead of the owner-sales page:
+- compact branded header,
+- explicit Pleť and Vlasy navigation,
+- product-led hero,
+- three face-care product cards,
+- two hair-care product cards,
+- working official product destinations,
+- local images,
+- Chat and advisor entry points,
+- responsive mobile navigation,
+- a restrained warm mineral/botanical visual system rather than a generic all-green eco template.
 
-- compact BIOFY brand header,
-- desktop category navigation,
-- accessible mobile navigation,
-- product-led editorial hero,
-- explicit `Pleť` category with three real product cards,
-- explicit `Vlasy` category with two real product cards,
-- official external product links,
-- current captured official prices plus regular prices,
-- advisor launcher and in-page advisor/chat CTAs,
-- separate visual language for face and hair sections,
-- local images only.
-
-The palette intentionally avoids a generic all-green eco template: warm mineral/cream surfaces, dark botanical green and a restrained terracotta accent create clearer editorial hierarchy while preserving the BIOFY logo and product imagery.
+Customer-facing copy has been polished to remove internal terms such as `demo`, `deterministic`, `branch` and scoring mechanics. Earlier strike-through `regularPrice` presentation was also removed because a captured reference price should not visually imply a live promotion unless that promotion is verified at send time.
 
 ## 3. Catalog and claims
 
-Baseline catalog is limited to these verified products:
+The verified baseline is limited to:
 
 1. Hydratačný krém na suchú a citlivú pleť 60 ml
 2. Výživný krém na normálnu a zmiešanú pleť 60 ml
@@ -40,121 +37,100 @@ Baseline catalog is limited to these verified products:
 4. Vlasové tonikum s rozmarínom 100 ml
 5. Ošetrujúci olejček na vlasy — 9 vzácnych olejov 50 ml
 
-The official rosemary-tonic URL/name includes a hair-growth phrase. The demo deliberately uses a neutral display name and does not promise growth, stop hair loss, diagnose/treat skin conditions, or use unsupported dermatological/clean-beauty absolutes. Source decisions are documented in `src/brands/biofy/SOURCES.md`.
+The experience does not fabricate body/gift products and does not make hair-growth guarantees, medical treatment promises or unsupported dermatological claims. Source/claim decisions remain documented under the BIOFY brand module.
 
 ## 4. Advisor architecture
 
-BIOFY is moved toward `src/brands/biofy/`:
+BIOFY is modularized under `src/brands/biofy/` with brand configuration, pure scoring logic, storefront, theme and source documentation.
 
-- `config.js` — catalog, questions, storefront-safe copy and brand adapter,
-- `scoring.js` — pure deterministic ranking,
-- `storefront.jsx` — BIOFY page shell,
-- `theme.css` — BIOFY-only design system,
-- `SOURCES.md` — source and claim log.
+The first advisor choice is a hard category gate:
 
-The advisor uses a four-step flow. Step 1 is a hard category gate with only `Pleť` and `Vlasy`; body/gift were removed rather than inventing results.
+- `Pleť` can only rank the three face products,
+- `Vlasy` can only rank the two hair products.
 
-Scoring dimensions and weights:
+Compatibility, goal/role, format, texture and routine preference rank only candidates that already passed the category gate. Ties are deterministic and the alternative remains in the same category.
 
-| Dimension | Weight | Behavior |
-|---|---:|---|
-| area | hard constraint | candidates are filtered before any scoring |
-| skin/area compatibility | 12 | dry/sensitive, normal/mixed, dry/problematic, scalp, lengths |
-| role | 10 | hydration, nourishment, hemp-care, tonic, conditioning |
-| format | 7 | cream, tonic, oil |
-| texture | 5 | light, rich |
-| routine simplicity | 3 | simple routine preference |
+The result reason is assembled from matched customer-facing dimensions instead of exposing implementation scores. The same answers always return the same result.
 
-Ties are deterministic and resolved by catalog order. The alternative is selected from the same already-filtered category. Result reasoning is generated from matched dimensions rather than a generic static sentence.
+## 5. Chat/API
 
-Hard invariant: choosing `Pleť` can only rank three face products; choosing `Vlasy` can only rank the two hair products. There is no code path where a cross-category product can become either the primary result or its alternative.
-
-## 5. Chat changes
-
-The client now sends bounded conversation history to the existing API instead of only the latest message. Chat history remains available while switching between Chat and Výber starostlivosti inside an open widget.
-
-BIOFY deterministic fallback explicitly handles:
+BIOFY Chat preserves bounded conversation history and supports comparisons such as:
 
 - Hydratačný vs Výživný krém,
 - Hydratačný vs Konopný krém,
 - Výživný vs Konopný krém,
-- dry/sensitive vs normal/mixed face selection,
-- Konopný krém,
+- face cream selection by skin feel,
 - Vlasové tonikum vs Ošetrujúci olejček,
-- Pleť vs Vlasy,
-- generic face and hair questions.
+- Pleť vs Vlasy.
 
-The API prompt adds BIOFY-specific constraints against hair-growth guarantees, medical-treatment copy and category mixing. Existing model configurability, timeout, no-store response and bounded history are preserved.
+The server API retains environment-only Anthropic credentials, configurable model, validation, bounded history, timeout, no-store behavior and deterministic fallback. Hair-growth and medical-treatment claims remain explicitly outside allowed reply behavior.
 
-## 6. Widget reliability fixes
+## 6. Reliability/accessibility
 
-Shared shell changes are intentionally small and family-compatible:
+The shared widget changes used by BIOFY include:
 
-- teaser close button is now functional,
-- chat history is lifted so mode switching does not erase the conversation,
-- request payload uses the API's supported `messages` history format,
-- input is bounded to 700 characters,
-- advisor click transition is guarded against double selection,
-- pending advisor timer is cleaned up on unmount,
-- Escape closes the dialog,
-- focus remains trapped inside the open dialog,
-- close restores prior focus when possible,
-- body scroll lock is removed during cleanup,
-- Reset clears both advisor state and chat history.
+- functional teaser close,
+- preserved Chat history during mode switching,
+- bounded input/history,
+- guarded advisor transitions,
+- timer cleanup,
+- Escape close,
+- focus containment/restoration,
+- body scroll lock cleanup,
+- Reset for advisor and chat state.
+
+The final cross-family sweep also corrected a malformed shared SVG path at source rather than suppressing its browser console error.
 
 ## 7. Test coverage
 
-`tests/biofy.spec.js` adds BIOFY-specific gates for:
+BIOFY-specific coverage includes:
 
-- explicit scoring contract and weights,
-- deterministic repeated recommendations,
-- expected recommendation for all five baseline products,
-- exhaustive traversal of every reachable advisor path (128 combinations) with same-category result and alternative assertions,
-- desktop storefront/category separation,
+- deterministic scoring contract,
+- exhaustive reachable advisor combinations,
+- same-category primary and alternative assertions,
+- expected recommendations for the five baseline products,
+- desktop 1440×900,
+- mobile 390×844 and 360×800,
+- category separation and navigation,
 - local image loading,
 - external product CTAs,
-- mobile navigation at 390×844 and 360×800,
 - horizontal overflow,
-- Chat history preservation,
-- required deterministic chat comparisons,
-- Back,
-- Reset,
-- Escape,
+- no internal advisor question scroll,
+- multi-turn Chat persistence,
+- Back / Reset / Escape,
 - focus containment,
-- mobile/desktop advisor no-scroll at 1440×900, 390×844 and 360×800,
-- invalid API brand/message handling.
+- invalid API brand/message behavior.
 
-`tests/family.spec.js` is updated only where the BIOFY storefront legitimately differs from the legacy owner page and where the first BIOFY advisor step intentionally has two category choices.
+The BIOFY workflow also captures viewport screenshots and checks console/page errors and failed asset requests before refreshing its QA artifacts.
 
-## 8. Automated QA and screenshots
+## 8. Cross-review — BIOFY → ANEMONE
 
-The branch adds `.github/workflows/biofy-kava-parity-qa.yml`. On a non-`[skip ci]` push it performs:
+The old audit incorrectly described ANEMONE as still being on the shared baseline. That is no longer true. The current ANEMONE branch was reviewed after its dedicated implementation landed.
 
-1. frozen dependency install,
-2. Playwright Chromium install,
-3. `pnpm build`,
-4. full `pnpm test` family + BIOFY suite,
-5. Vite preview,
-6. screenshot capture at 1440×900, 390×844 and 360×800,
-7. console/page error and failed-request checks during capture,
-8. local image load checks,
-9. QA board generation,
-10. commit of the refreshed BIOFY screenshots and this audit's PASS marker only after all gates pass.
+Current ANEMONE now has:
 
-Until that workflow succeeds this document intentionally remains `QA_STATUS: PASS — GitHub Actions 2026-08-28 18:44 UTC`; no unexecuted build or test is represented as passing.
+- a brand-specific storefront rather than the generic owner page,
+- local logo, hero and five product images,
+- working categories for kvetové vody, pleťový olej, pery and vlasy,
+- official ANEMONE product links,
+- a four-step advisor whose first choice is a hard product-role constraint,
+- role-isolated result/alternative behavior,
+- deterministic tie-breaking between the two kvetové vody,
+- multi-turn Chat/API tests,
+- mobile navigation,
+- 1440×900, 390×844 and 360×800 brand QA,
+- no-overflow / no-internal-question-scroll assertions,
+- reduced-motion coverage.
 
-## 9. Peer review — `agent/skincare-anemone-kava-parity`
+Concrete issues caught during this current-head review cycle were not ignored:
 
-At review time the ANEMONE branch still pointed to the shared baseline commit `dbc800da2f9b25ec959e4044bf20056dde7c51fd`; no ANEMONE agent implementation or pull request was present yet. Concrete blockers visible in that baseline are therefore:
+1. ANEMONE browser QA originally generated two `/api/chat` 404s because it ran against a plain Vite dev server. The browser test now mocks the supported API contract while the server handler remains independently contract-tested.
+2. The family suite still searched for the old generic `Otvoriť Chat` CTA after ANEMONE adopted the branded `Opýtať sa v chate` CTA. The family test now uses the actual branded control.
+3. Customer-facing explanations that exposed `hard constraint`, scoring and `verified demo catalog` terminology were removed.
+4. The shared malformed SVG path was corrected at source across parity branches.
 
-1. ANEMONE still uses the generic owner-sales page rather than a brand storefront.
-2. ANEMONE inherits the same pseudo-scoring-by-string-length advisor logic from the shared baseline.
-3. Its first question mixes product roles (`Pleťová voda`, `Pleťový olej`, `Balzam`, `Vlasy`) while later questions are generic skin/routine questions, so answer semantics are not consistently tied to product traits.
-4. ANEMONE has only one hair product in the five-product baseline, so any expanded hair questions must avoid suggesting non-existent alternatives.
-5. The peer branch should keep its brand code modular to avoid competing edits to `src/main.jsx`, `src/styles.css` and `src/brands.js` during integration.
+No remaining BIOFY-blocking category/scoring defect was found in the current ANEMONE brand module. ANEMONE still has its own final current-head workflow/audit gate, handled on its branch.
 
-No review comment was posted because there was no PR and no branch delta to comment on. These findings should be re-run once the ANEMONE agent publishes code.
+## 9. Remaining release gate
 
-## 10. Integration notes
-
-BIOFY is registered as an override of the legacy `brands.js` entry in `src/main.jsx`, which keeps all other routes intact while allowing the brand to move into its own module. Shared edits are limited to widget state/reliability and the conditional storefront adapter. This keeps later cherry-pick/integration conflicts materially smaller than rewriting the full family registry or CSS architecture in one brand branch.
+BIOFY had a meaningful green QA baseline before the shared SVG repair. This audit update intentionally triggers one final workflow on the current head. Only a green current-head run is considered sufficient for final six-brand integration.
