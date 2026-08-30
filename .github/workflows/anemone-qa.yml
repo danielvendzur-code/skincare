@@ -78,6 +78,9 @@ jobs:
             exit 0
           fi
           git commit -m 'Refresh Anemone QA screenshots [skip ci]'
+          # capture-qa.mjs renders all brands; keep only ANEMONE artifacts in this branch
+          # so unrelated generated screenshots cannot block the race-safe rebase.
+          git reset --hard HEAD
           git fetch origin agent/skincare-anemone-kava-parity
           git rebase origin/agent/skincare-anemone-kava-parity
           git push origin HEAD:agent/skincare-anemone-kava-parity
