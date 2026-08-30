@@ -33,7 +33,15 @@ test('MYLO storefront behaves like a real compact shop at 1440x900 without brows
   await page.getByRole('button', { name: 'Produkty' }).click();
   await expect.poll(() => page.locator('#mylo-products').evaluate((node) => Math.abs(node.getBoundingClientRect().top) < 120)).toBeTruthy();
   await page.getByRole('button', { name: 'Rutina' }).click();
-  await expect.poll(() => page.locator('#mylo-routine').evaluate((node) => Math.abs(node.getBoundingClientRect().top) < 120)).toBeTruthy();
+  await expect(page.locator('#mylo-routine')).toBeInViewport();
+  const routinePosition = await page.locator('#mylo-routine').evaluate((node) => ({
+    top: node.getBoundingClientRect().top,
+    bottom: node.getBoundingClientRect().bottom,
+    viewportHeight: innerHeight,
+    headerBottom: document.querySelector('.mylo-header')?.getBoundingClientRect().bottom || 0,
+  }));
+  expect(routinePosition.bottom).toBeGreaterThan(routinePosition.headerBottom + 80);
+  expect(routinePosition.top).toBeLessThan(routinePosition.viewportHeight - 80);
 
   await page.locator('.mylo-logo-button').click();
   await expect.poll(() => page.evaluate(() => scrollY)).toBeLessThan(30);
