@@ -123,7 +123,7 @@ test('Bellcoria storefront, chat history and advisor work at 1440x900', async ({
   }
 
   await expect(page.locator('.result-card')).toContainText('Nočný elixír s vitamínom C a brusnicovým olejom');
-  await expect(page.locator('.why')).toContainText(/zhody/i);
+  await expect(page.locator('.why')).toContainText(/Najlepšie sedí|vašim odpovediam/i);
   await expect(page.locator('.result-cta')).toHaveAttribute('href', /nocny-elixir/);
 
   await page.getByRole('button', { name:/Späť k poslednej otázke/i }).click();
