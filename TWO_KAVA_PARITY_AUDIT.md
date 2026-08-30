@@ -1,80 +1,111 @@
 # TWO COSMETICS × Kava parity audit
 
-Date: 2026-08-28
-Branch: `agent/skincare-two-kava-parity`
-Reference: `danielvendzur-code/kava.chatbot.backend` current `main`
+QA_STATUS: FINAL RERUN REQUIRED — functional suite 21/21 passed before the shared SVG console repair; this audit commit triggers the complete branch workflow again.
 
-## Baseline diagnosis
+Date: 2026-08-30  
+Branch: `agent/skincare-two-kava-parity`  
+Reference: current `danielvendzur-code/kava.chatbot.backend` main plus `docs/KAVA_PARITY_BLUEPRINT.md` and `docs/PRAZIARNICKA_LAYOUT_REFERENCE.md`.
 
-1. `/ukazka/two` was an owner-facing generic presentation rather than a believable TWO storefront.
-2. Advisor result selection used `next.join('').length % brand.products.length`, so a recommendation was unrelated to product compatibility.
-3. Chat UI sent only the latest message even though the API already accepted history, so multi-turn comparison could not work reliably.
-4. TWO used the shared generic four-question skin-type flow rather than product-role/routine dimensions appropriate to its baseline catalogue.
-5. The baseline local TWO asset set contains extremely small images and `product-3.jpeg` / `product-4.jpeg` share the same blob SHA, while the baseline remote mapping also reused an unrelated image for the cleansing gel.
-6. The invitation close control had no behavior.
-7. Product metadata/prices were stale relative to the official catalogue checked on 2026-08-28.
+## 1. Baseline diagnosis
 
-## Implemented architecture
+The original `/ukazka/two` was a generic owner presentation shared with the other skincare routes. Recommendation selection depended on the length of concatenated answers rather than product compatibility, chat did not preserve useful multi-turn history, the storefront lacked a real TWO product context and the first implementation depended on third-party/runtime image URLs.
 
-Active TWO-specific code moved to:
+Those are release blockers because an owner must see a believable TWO mini-store with a recommendation that can be explained and reproduced, not a reskinned demo shell.
 
-- `src/brands/two/config.js` — verified baseline catalogue, questions, tags, weighted scoring, hard exclusions, stable ranking, explainable reason, deterministic fallback.
-- `src/brands/two/storefront.jsx` — brand-specific mini storefront.
-- `src/brands/two/theme.css` — science + nature visual system and responsive/widget layer.
-- `src/brands/two/SOURCES.md` — source/asset record.
-- `api/two-chat.js` — validated history-aware API with deterministic catalogue fallback and strict medical boundary.
-- `tests/two.spec.js` — TWO-specific behavioral contracts.
-- `scripts/capture-two-qa.mjs` — required viewport screenshots and QA board generator.
+## 2. Storefront delivered
 
-## Recommendation model
+The route now uses a TWO-specific storefront with:
 
-Hard exclusions:
+- branded sticky header and working navigation,
+- product-led hero rather than an owner-sales hero,
+- real baseline products with official TWO destinations,
+- serum, cream and cleansing hierarchy,
+- routine/editorial content that explains product roles in normal customer language,
+- direct Chat and Výber starostlivosti entry points,
+- responsive desktop/mobile layout,
+- no fake reviews, sales counters, scarcity, awards or efficacy percentages.
 
-- explicit product role (`cleanse`, `serum`, `cream`) must match;
-- when the user explicitly asks for a product with source-verified sensitive-skin suitability, products without that verified property are excluded. This is not a claim that excluded products are unsafe; it prevents inference from missing data.
+The visual direction is intentionally science + nature: high contrast typography, restrained editorial surfaces and product photography. It avoids generic pharma UI, purple/AI styling, glassmorphism and repetitive dashboard cards.
 
-Weighted signals:
+## 3. Catalog and local assets
 
-- product role: 30
-- hydration: 18
-- simple routine: 10
-- active-care preference: 18
-- source-verified sensitivity: 22
-- texture: 12
-- AM/PM match: 8 (+2 when both are explicitly supported)
+Baseline products:
 
-Ties are stable by catalogue order. The reason shown to the user is assembled only from matched traits plus a source-grounded product fact. The alternative is the next compatible ranked product; when the product role is open it preferentially differs in role.
+1. HA⁶ HYDRATATION BOOSTER SERUM
+2. BAKUCHIOL 1 % ANTI-AGE SERUM
+3. Hydratačný krém
+4. Krém pre problematickú pleť
+5. AM/PM ROUTINE CLEANSING GEL 2% SALICYLIC ACID
 
-## Medical scope
+Primary product photography and the hero are now stored locally under `public/assets/brands/two/`. The earlier runtime dependencies on Lakrem, Makeup, Notino, Hebe and remote TWO image URLs were removed. `tests/two.spec.js` rejects non-local product image paths so this cannot silently regress.
 
-The UI/API do not copy therapeutic claims from product pages. Symptom/diagnosis/treatment language is intercepted before product matching and redirected to a qualified medical professional while keeping the assistant available for non-medical product comparison.
+Displayed prices are explicitly treated as captured storefront information rather than invented promotional pricing. Product CTAs continue to the verified official TWO product pages.
 
-## Cross-review — `agent/skincare-bellcoria-kava-parity`
+## 4. Advisor scoring
 
-At review time the Bellcoria branch still pointed to the shared baseline commit `dbc800da2f9b25ec959e4044bf20056dde7c51fd`; there was no Bellcoria agent implementation ahead of it to review. Concrete baseline findings for that peer branch:
+The pseudo-random modulo/string-length selector is gone. The advisor uses explicit product metadata and deterministic ranking.
 
-1. Bellcoria inherits the same string-length/modulo advisor defect and therefore needs deterministic trait scoring before completion.
-2. Its page is still the generic owner-benefit shell, so it fails the blueprint's storefront-with-launcher acceptance test when the launcher is hidden.
-3. Chat sends only the latest message, preventing reliable multi-turn product comparison even though the backend supports message history.
-4. The shared teaser close control is dead.
+Important rules:
 
-A second cross-review is required once that peer branch has commits ahead of the baseline; this audit does not falsely mark an unavailable peer implementation as approved.
+- selected product role is a hard eligibility constraint,
+- sensitive-skin compatibility is a hard exclusion when a product does not have that verified property,
+- goal, texture and AM/PM routine then rank only eligible candidates,
+- ties use stable catalog order,
+- the result reason is assembled from matched customer choices,
+- an alternative must remain logically eligible instead of simply selecting the first different product.
 
-## QA contract
+The weighting model prioritizes product role first, then verified goal/compatibility, texture and routine. Repeating the same answers returns the same product.
 
-Required commands:
+## 5. Chat/API behavior
 
-```bash
-npm run build
-npm test -- tests/family.spec.js tests/two.spec.js
-npm run preview -- --host 127.0.0.1 &
-QA_BASE_URL=http://127.0.0.1:4173 node scripts/capture-two-qa.mjs
-```
+The widget keeps bounded conversation history and sends the supported `messages` contract to `/api/chat`. TWO-specific fallback behavior covers named products, hydration, serum-vs-cream, bakuchiol, cleansing and AM/PM comparisons while staying inside cosmetic product-selection scope.
 
-Target viewports in the TWO suite/capture script: 1440×900, 390×844, 360×800.
+No API key is present in browser code or committed files. The shared server handler keeps environment-based `ANTHROPIC_API_KEY`, configurable `CHAT_MODEL`, bounded history, input validation, timeout, no-store responses and deterministic fallback behavior.
 
-Two visual passes must verify: storefront hierarchy without widget, product photography/crops, desktop density, mobile sequence, widget proportions, all four advisor question screens, result CTA/alternative visibility, horizontal overflow, text clipping and reduced motion.
+## 6. UX/accessibility gates
 
-## Known source limitation
+The branch tests:
 
-The repository's baseline localized TWO imagery is not sufficient as primary high-resolution storefront photography. The implementation therefore uses documented product imagery with deterministic local fallbacks. A later integration pass may replace those remote display images with correctly localized full-resolution official assets without changing catalogue/scoring behavior.
+- working storefront navigation and official product links,
+- teaser close and launcher behavior,
+- Chat and multi-turn history,
+- all advisor steps,
+- deterministic recommendations and hard exclusions,
+- Back / Reset / result / alternative / product CTA,
+- Escape and focus behavior,
+- mobile 390×844 and 360×800,
+- desktop 1440×900 visual capture,
+- horizontal overflow and advisor internal scrolling,
+- local image paths.
+
+The full family + TWO Playwright regression reached 21/21 passing on the pre-final visual-capture run. The remaining visual-capture blocker was then traced to a malformed shared SVG numeric token (`2.2.8`) that produced a real browser console error. That root cause has been repaired in `src/main.jsx`; the final workflow rerun is required to verify both functional tests and refreshed screenshots on the repaired head.
+
+## 7. Visual QA
+
+`scripts/capture-two-qa.mjs` was updated to use the actual branded `Poradiť s výberom` control instead of the obsolete shared-template `Otvoriť Chat` label. It captures storefront, chat, advisor and result states at:
+
+- 1440×900,
+- 390×844,
+- 360×800.
+
+The capture fails on browser console/page errors and horizontal overflow and produces `two-qa-board.png` for visual inspection.
+
+## 8. Cross-review — TWO → BELLCORIA
+
+Re-reviewed the current Bellcoria implementation rather than the old shared baseline. Current Bellcoria is a real brand-specific storefront with five product cards, separate cleansing / face-oil-elixir / body structure, deterministic area constraints, multi-turn chat, local assets, responsive navigation and its own QA suite.
+
+Checks performed against the current Bellcoria head included:
+
+- face flows cannot return the body oil,
+- body flow remains isolated to body care,
+- customer-facing copy no longer exposes scoring jargon such as hard constraints or internal product-role mechanics,
+- mobile menu has dynamic accessible open/close naming,
+- product links remain Bellcoria destinations,
+- the prior Bellcoria QA run passed before the shared SVG cleanup,
+- no new TWO-blocking integration defect was found in the Bellcoria brand module.
+
+The only cross-family defect found during the final sweep was the malformed shared SVG path, which was repaired centrally across the parity branches rather than left as a Bellcoria-specific workaround.
+
+## 9. Remaining release gate
+
+Do not mark TWO complete solely from this document. Completion requires the branch workflow on the current post-SVG head to finish green and regenerate the visual QA artifacts. After that, the branch is suitable for integration into the six-brand release branch.
