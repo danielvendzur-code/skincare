@@ -34,8 +34,8 @@ const ANSWER_TRAITS = Object.freeze({
 });
 
 const DIMENSION_LABELS = Object.freeze({
-  skin: 'typ alebo oblasť starostlivosti',
-  role: 'úloha produktu',
+  skin: 'určenie produktu',
+  role: 'typ produktu',
   format: 'formát',
   texture: 'textúra',
   routine: 'jednoduchosť rutiny',
@@ -78,11 +78,11 @@ function scoreProduct(product, desired) {
 }
 
 function reasonFor(area, matchedDimensions) {
-  const areaLabel = area === 'face' ? 'Pleť' : 'Vlasy';
+  const areaLabel = area === 'face' ? 'pleťové produkty' : 'vlasové produkty';
   const labels = [...new Set(matchedDimensions)].map((dimension) => DIMENSION_LABELS[dimension]);
-  if (!labels.length) return `Odporúčanie zostáva striktne v kategórii ${areaLabel} a vychádza z najbližšej kompatibility v aktuálnom BIOFY katalógu.`;
+  if (!labels.length) return `Zostali sme pri kategórii ${areaLabel} a vybrali najbližšiu možnosť z dostupného výberu.`;
   const summary = labels.slice(0, 3).join(', ');
-  return `Odporúčanie zostáva striktne v kategórii ${areaLabel}. Najviac sa zhoduje v oblastiach: ${summary}.`;
+  return `Najlepšie sedí k vašim odpovediam podľa: ${summary}.`;
 }
 
 export function rankBiofyProducts(products, answers) {
