@@ -14,7 +14,11 @@ async function choose(page, label) {
   await page.waitForTimeout(220);
 }
 
-test('MYLO storefront behaves like a real compact shop', async ({ page }) => {
+test('MYLO storefront behaves like a real compact shop at 1440x900 without browser errors', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  const errors = [];
+  page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
+  page.on('pageerror', (error) => errors.push(error.message));
   await page.goto('/ukazka/mylo');
   await expect(page.locator('.mylo-header')).toBeVisible();
   await expect(page.locator('.mylo-hero h1')).toContainText('Starostlivosť');
@@ -34,6 +38,7 @@ test('MYLO storefront behaves like a real compact shop', async ({ page }) => {
   await page.locator('.mylo-logo-button').click();
   await expect.poll(() => page.evaluate(() => scrollY)).toBeLessThan(30);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
+  expect(errors).toEqual([]);
 });
 
 test('teaser closes independently and launcher still works', async ({ page }) => {
@@ -142,6 +147,9 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 360, height: 800 }
   test(`MYLO mobile ${viewport.width}x${viewport.height} has no overflow and advisor question fits`, async ({ page }) => {
     await page.setViewportSize(viewport);
     await page.emulateMedia({ reducedMotion: 'reduce' });
+    const errors = [];
+    page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
+    page.on('pageerror', (error) => errors.push(error.message));
     await page.goto('/ukazka/mylo');
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
 
@@ -155,5 +163,6 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 360, height: 800 }
     expect(widget.height).toBe(viewport.height);
     expect(await page.locator('.advisor-view').evaluate((node) => node.scrollHeight <= node.clientHeight + 1)).toBeTruthy();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
+    expect(errors).toEqual([]);
   });
 }
