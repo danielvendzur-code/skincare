@@ -20,7 +20,10 @@ for (const brand of brands) {
     expect(await page.locator('button button, a button, button a').count()).toBe(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
 
-    await page.getByRole('button', { name: /Otvoriť Chat/i }).click();
+    const chatButton = brand === 'anemone'
+      ? page.getByRole('button', { name: 'Opýtať sa v chate' })
+      : page.getByRole('button', { name: /Otvoriť Chat/i });
+    await chatButton.click();
     await expect(page.locator('.widget')).toBeVisible();
     await expect(page.locator('.mode-switch')).toHaveCount(1);
     await expect(page.locator('.mode-thumb')).toHaveCount(1);
