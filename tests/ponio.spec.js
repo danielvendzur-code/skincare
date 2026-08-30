@@ -19,6 +19,7 @@ test.describe('PONIO storefront and advisor parity', () => {
     await expect(page.locator('.ponio-hero')).toBeVisible();
     await expect(page.locator('.ponio-category-link')).toHaveCount(4);
     await expect(page.locator('.ponio-category-link[data-category="face"]')).toContainText('Pleť');
+    await expect(page.locator('.ponio-category-link[data-category="face"]')).toHaveAttribute('href', 'https://ponio.sk/collections/pletove-kremy');
     await expect(page.locator('.ponio-category-link[data-category="hair"]')).toContainText('Vlasy');
     await expect(page.locator('.ponio-category-link[data-category="body"]')).toContainText('Telo');
     await expect(page.locator('.ponio-category-link[data-category="lips"]')).toContainText('Pery');

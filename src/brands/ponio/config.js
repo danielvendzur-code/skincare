@@ -1,5 +1,5 @@
 export const ponioCategories = [
-  { id: 'face', label: 'Pleť', detail: 'Krémy, pleťové vody a čistenie', url: 'https://ponio.sk/collections/plet-pletove-kremy' },
+  { id: 'face', label: 'Pleť', detail: 'Krémy, pleťové vody a čistenie', url: 'https://ponio.sk/collections/pletove-kremy' },
   { id: 'hair', label: 'Vlasy', detail: 'Šampúchy, suché šampóny a kondicionéry', url: 'https://ponio.sk/collections/sampuchy' },
   { id: 'body', label: 'Telo', detail: 'Mydlá, deodoranty a masážne kocky', url: 'https://ponio.sk/collections/deodoranty-so-sodou-a-kaolinom' },
   { id: 'lips', label: 'Pery', detail: 'Rúže a balzamy na pery', url: 'https://ponio.sk/products/ruz-na-pery-v-ceruzke' },
