@@ -150,7 +150,13 @@ function Advisor({ brand }) {
     setTransitioning(false);
   };
 
-  if (selection?.product) return <Result product={selection.product} alternative={selection.alternative} reason={selection.reason} restart={restart} />;
+  const backFromResult = () => {
+    setSelection(null);
+    setStep(Math.max(0, questionCount - 1));
+    setTransitioning(false);
+  };
+
+  if (selection?.product) return <Result product={selection.product} alternative={selection.alternative} reason={selection.reason} back={backFromResult} restart={restart} />;
   const question = brand.questions[step];
   return <div className="advisor-view">
     <div className="advisor-top">
@@ -165,7 +171,7 @@ function Advisor({ brand }) {
   </div>;
 }
 
-function Result({ product, alternative, reason, restart }) {
+function Result({ product, alternative, reason, back, restart }) {
   return <div className="result-view">
     <div className="result-kicker">Na základe vašich odpovedí</div>
     <div className="result-card">
@@ -175,7 +181,10 @@ function Result({ product, alternative, reason, restart }) {
     <div className="why"><b>Prečo tento produkt</b><p>{reason || product.reason}</p></div>
     <a className="button button--primary result-cta" href={product.url} target="_blank" rel="noreferrer">Pozrieť produkt <Icon name="arrow" /></a>
     {alternative ? <div className="alternative"><span>Alternatíva</span><a href={alternative.url} target="_blank" rel="noreferrer">{alternative.name} · {alternative.price}</a></div> : null}
-    <button className="text-button" onClick={restart}>Vybrať znova</button>
+    <div className="result-actions">
+      <button className="text-button" onClick={back}>Späť k poslednej otázke</button>
+      <button className="text-button" onClick={restart}>Vybrať znova</button>
+    </div>
   </div>;
 }
 
