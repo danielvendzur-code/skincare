@@ -1,0 +1,45 @@
+name: Localize PONIO product assets
+
+on:
+  push:
+    branches:
+      - agent/skincare-ponio-kava-parity
+    paths:
+      - .github/workflows/ponio-localize-assets.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  localize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/skincare-ponio-kava-parity
+      - name: Download verified official PONIO product images
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p public/assets/brands/ponio
+          curl --fail --location --retry 3 --silent --show-error 'https://ponio.sk/cdn/shop/files/P1200306.jpg?v=1700644929&width=1200' -o public/assets/brands/ponio/product-6.jpg
+          curl --fail --location --retry 3 --silent --show-error 'https://ponio.sk/cdn/shop/products/P1130396.JPG?v=1444655355&width=1200' -o public/assets/brands/ponio/product-7.jpg
+          curl --fail --location --retry 3 --silent --show-error 'https://ponio.sk/cdn/shop/files/P1200606.jpg?v=1709818979&width=1200' -o public/assets/brands/ponio/product-8.jpg
+          file public/assets/brands/ponio/product-6.jpg public/assets/brands/ponio/product-7.jpg public/assets/brands/ponio/product-8.jpg
+          test -s public/assets/brands/ponio/product-6.jpg
+          test -s public/assets/brands/ponio/product-7.jpg
+          test -s public/assets/brands/ponio/product-8.jpg
+      - name: Commit localized assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/assets/brands/ponio/product-6.jpg public/assets/brands/ponio/product-7.jpg public/assets/brands/ponio/product-8.jpg
+          if git diff --cached --quiet; then
+            echo 'Assets already localized.'
+            exit 0
+          fi
+          git commit -m 'Localize verified PONIO product images [skip ci]'
+          git push origin HEAD:agent/skincare-ponio-kava-parity
