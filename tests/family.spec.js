@@ -16,7 +16,10 @@ for (const brand of brands) {
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
     expect(overflow).toBeLessThanOrEqual(0);
 
-    await page.getByRole('button', { name: /Otvoriť Chat/i }).click();
+    const chatTrigger = brand === 'two'
+      ? page.locator('.two-site__chat')
+      : page.getByRole('button', { name: /Otvoriť Chat/i });
+    await chatTrigger.click();
     await expect(page.locator('.widget')).toBeVisible();
     await expect(page.locator('.widget')).not.toContainText('Produktový poradca');
     await expect(page.locator('.mode-switch')).toHaveCount(1);
@@ -82,7 +85,7 @@ test('anemone mobile owner keeps the logo, benefits and primary action prominent
 test('360x800 advisor questions fit without scroll', async ({ page }) => {
   await page.setViewportSize({ width: 360, height: 800 });
   await page.goto('/ukazka/two');
-  await page.getByRole('button', { name: /Vyskúšať Výber/i }).click();
+  await page.locator('.two-hero__actions button').click();
   expect(await page.locator('.advisor-view').evaluate((node) => node.scrollHeight <= node.clientHeight + 1)).toBeTruthy();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
 });
