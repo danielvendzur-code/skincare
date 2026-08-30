@@ -1,0 +1,45 @@
+name: Repair malformed SVG numeric token
+on:
+  push:
+    branches:
+      - agent/skincare-kava-parity-coordination
+permissions:
+  contents: write
+jobs:
+  repair:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Normalize malformed SVG numeric tokens across parity branches
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branches=(agent/skincare-mylo-kava-parity agent/skincare-ponio-kava-parity agent/skincare-two-kava-parity agent/skincare-bellcoria-kava-parity agent/skincare-biofy-kava-parity agent/skincare-anemone-kava-parity)
+          for branch in "${branches[@]}"; do
+            git fetch origin "$branch"
+            git checkout -B "$branch" "origin/$branch"
+            python - <<'PY'
+          from pathlib import Path
+          p = Path('src/main.jsx')
+          s = p.read_text()
+          fixed = s.replace('2.2.8', '2.2 .8')
+          if fixed != s:
+              p.write_text(fixed)
+          PY
+            if ! git diff --quiet -- src/main.jsx; then
+              git add src/main.jsx
+              git commit -m "Normalize malformed widget SVG numeric token"
+              git push origin "HEAD:$branch"
+            fi
+          done
+          git checkout agent/skincare-kava-parity-coordination
+          git pull --ff-only origin agent/skincare-kava-parity-coordination
+          rm .github/workflows/fix-svg-token.yml
+          git add -A
+          git commit -m "Remove completed SVG token repair workflow"
+          git push origin HEAD:agent/skincare-kava-parity-coordination
