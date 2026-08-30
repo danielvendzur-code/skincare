@@ -78,7 +78,7 @@ const option = (value, label, product) => ({ value, label, image: product.image 
 const areaQuestion = {
   key: 'area',
   title: 'Vyberáte starostlivosť o pleť alebo vlasy?',
-  hint: 'Tieto dve kategórie držíme oddelene počas celého výberu.',
+  hint: 'Začnite oblasťou, pre ktorú dnes hľadáte produkt.',
   options: [
     option('face', 'Pleť', face[0]),
     option('hair', 'Vlasy', hair[0]),
@@ -87,7 +87,7 @@ const areaQuestion = {
 
 const faceQuestions = [
   {
-    key: 'skin', title: 'Ktorý opis pleti je najbližší?', hint: 'Vyberte podľa určenia krémov v BIOFY katalógu.',
+    key: 'skin', title: 'Ktorý opis pleti je najbližší?', hint: 'Vyberte možnosť, ktorá najviac zodpovedá určeniu krémov BIOFY.',
     options: [
       option('dry-sensitive', 'Suchá a citlivá', face[0]),
       option('normal-mixed', 'Normálna a zmiešaná', face[1]),
@@ -96,7 +96,7 @@ const faceQuestions = [
     ],
   },
   {
-    key: 'role', title: 'Čo má byť hlavnou úlohou krému?', hint: 'Zúžime výber bez zdravotných alebo dermatologických tvrdení.',
+    key: 'role', title: 'Aký typ krému hľadáte?', hint: 'Zvoľte hydratáciu, výživnejší krém alebo konopný krém.',
     options: [
       option('hydration', 'Hydratačný krém', face[0]),
       option('nourishment', 'Výživný krém', face[1]),
@@ -105,7 +105,7 @@ const faceQuestions = [
     ],
   },
   {
-    key: 'preference', title: 'Čo má pri finálnom výbere rozhodnúť?', hint: 'Všetky tri možnosti sú krémy; rozhodne textúra alebo jednoduchosť rutiny.',
+    key: 'preference', title: 'Čo má pri výbere rozhodnúť?', hint: 'Vyberte textúru alebo čo najjednoduchší každodenný krok.',
     options: [
       option('light-cream', 'Ľahšia textúra', face[0]),
       option('rich-cream', 'Výživnejšia textúra', face[1]),
@@ -117,7 +117,7 @@ const faceQuestions = [
 
 const hairQuestions = [
   {
-    key: 'hair-area', title: 'Kam má produkt patriť v rutine?', hint: 'Tonikum a olejček majú odlišný formát aj miesto použitia.',
+    key: 'hair-area', title: 'Kam chcete produkt zaradiť?', hint: 'Tonikum patrí k pokožke hlavy, olejček do dĺžok vlasov.',
     options: [
       option('scalp', 'Pokožka hlavy', hair[0]),
       option('lengths', 'Dĺžky vlasov', hair[1]),
@@ -126,7 +126,7 @@ const hairQuestions = [
     ],
   },
   {
-    key: 'hair-role', title: 'Aký typ vlasového kroku chcete?', hint: 'Vyberáme iba medzi dvoma overenými BIOFY produktmi v tomto deme.',
+    key: 'hair-role', title: 'Aký typ vlasového kroku chcete?', hint: 'Vyberte ľahšie tonikum alebo výživnejší olejček.',
     options: [
       option('tonic', 'Tonikum s rozmarínom', hair[0]),
       option('conditioning', 'Ošetrujúci olejček', hair[1]),
@@ -135,7 +135,7 @@ const hairQuestions = [
     ],
   },
   {
-    key: 'hair-format', title: 'Ktorý formát vám sedí viac?', hint: 'Formát je posledný rozhodovací signál, nie prísľub účinku.',
+    key: 'hair-format', title: 'Ktorý formát vám sedí viac?', hint: 'Posledná otázka rozlíši tekuté tonikum a olejový formát.',
     options: [
       option('tonic-format', 'Tekuté tonikum', hair[0]),
       option('oil-format', 'Olej', hair[1]),
@@ -155,10 +155,10 @@ export function getBiofyQuestion(step, answers = []) {
 
 function localFallback(query = '') {
   const text = query.toLocaleLowerCase('sk');
-  if (/tonik/.test(text) && /olej/.test(text)) return 'Vlasové tonikum s rozmarínom je ľahší tekutý krok pre rutinu pokožky hlavy. Ošetrujúci olejček je olejový krok do dĺžok; v tomto deme mu nepripisujeme sľuby o raste ani liečebné účinky.';
-  if (/konop/.test(text)) return 'Konopný krém je v tomto katalógu pleťový produkt určený pre suchú a problematickú pleť. Ak chcete porovnať všetky tri pleťové krémy, napíšte typ pleti alebo otvorte Výber starostlivosti.';
-  if (/vlas/.test(text)) return 'Pri vlasoch BIOFY v tomto deme porovnávame iba tonikum s rozmarínom a ošetrujúci olejček. Tonikum zostáva vo vlasovej vetve a olejček tiež; pleťové krémy sa do výsledku nikdy nemiešajú.';
-  return 'Pri BIOFY najprv oddeľujeme pleť a vlasy. Pri pleti porovnávame tri krémy podľa určenia, pri vlasoch tonikum s rozmarínom a ošetrujúci olejček podľa formátu a miesta v rutine.';
+  if (/tonik/.test(text) && /olej/.test(text)) return 'Vlasové tonikum s rozmarínom je ľahší tekutý krok pre pokožku hlavy. Ošetrujúci olejček je olejový krok do dĺžok vlasov. Ak chcete, môžem ich porovnať aj podľa textúry a miesta v rutine.';
+  if (/konop/.test(text)) return 'Konopný krém je v ponuke určený pre suchú a problematickú pleť. Ak chcete porovnať všetky tri pleťové krémy, napíšte, ktorý opis pleti je vám najbližší, alebo otvorte Výber starostlivosti.';
+  if (/vlas/.test(text)) return 'Pri vlasoch môžete porovnať tonikum s rozmarínom a ošetrujúci olejček. Tonikum je ľahší krok pre pokožku hlavy, olejček patrí do dĺžok a výživnejšej rutiny.';
+  return 'Pri BIOFY môžeme začať pleťou alebo vlasmi. Pri pleti porovnám tri krémy podľa ich určenia a textúry, pri vlasoch tonikum s rozmarínom a ošetrujúci olejček podľa formátu a miesta v rutine.';
 }
 
 export const biofy = {
@@ -168,7 +168,7 @@ export const biofy = {
   logo: '/assets/brands/biofy/logo.svg',
   hero: '/assets/brands/biofy/hero.jpg',
   teaserTitle: 'Pleť alebo vlasy?',
-  teaser: 'Najprv oblasť, potom konkrétny BIOFY produkt.',
+  teaser: 'Štyri krátke otázky zúžia výber.',
   welcome: 'Dobrý deň. Vyberáte dnes starostlivosť o pleť alebo vlasy? Môžem porovnať aj konkrétne BIOFY produkty.',
   chips: ['Ktorý pleťový krém?', 'Suchá vs. zmiešaná pleť', 'Konopný krém', 'Tonikum alebo olejček?'],
   products: biofyProducts,
