@@ -18,7 +18,7 @@ function ProductCard({ product, tone = 'light' }) {
       <h3>{product.shortName}</h3>
       <p>{product.summary}</p>
       <div className="biofy-product__meta">
-        <span><s>{product.regularPrice}</s><strong>{product.price}</strong></span>
+        <strong>{product.price}</strong>
         <a href={product.url} target="_blank" rel="noreferrer">Detail <ArrowIcon /></a>
       </div>
     </div>
@@ -40,7 +40,7 @@ export function BiofyStorefront({ brand, openAdvisor, openChat }) {
 
   return <main className="biofy-storefront" aria-label="BIOFY mini obchod">
     <header className="biofy-header">
-      <a className="biofy-header__brand" href="#top" aria-label="BIOFY — hore">
+      <a className="biofy-header__brand" href="#top" aria-label="BIOFY — hore" onClick={closeMenu}>
         <img src={brand.logo} alt="BIOFY" />
       </a>
       <nav className="biofy-nav biofy-nav--desktop" aria-label="Kategórie BIOFY">
@@ -60,9 +60,9 @@ export function BiofyStorefront({ brand, openAdvisor, openChat }) {
 
     <section className="biofy-hero" id="top">
       <div className="biofy-hero__copy">
-        <p className="biofy-eyebrow">BIOFY · starostlivosť podľa oblasti</p>
-        <h1>Pleť a vlasy.<br/>Každá rutina samostatne.</h1>
-        <p className="biofy-hero__lead">Tri pleťové krémy a dva vlasové produkty z aktuálneho výberu. Poradca najprv oddelí kategóriu a až potom porovná konkrétne možnosti.</p>
+        <p className="biofy-eyebrow">BIOFY · pleť a vlasy</p>
+        <h1>Pleť a vlasy.<br/>Dve odlišné rutiny.</h1>
+        <p className="biofy-hero__lead">Tri pleťové krémy a dva vlasové produkty z vybraného sortimentu BIOFY. Začnite tým, čo riešite dnes, a poradca vás dovedie ku konkrétnemu produktu.</p>
         <div className="biofy-hero__actions">
           <button className="biofy-button biofy-button--primary" type="button" onClick={openAdvisor}>Nájsť svoj produkt <ArrowIcon /></button>
           <button className="biofy-button biofy-button--text" type="button" onClick={openChat}>Opýtať sa v chate</button>
@@ -75,9 +75,9 @@ export function BiofyStorefront({ brand, openAdvisor, openChat }) {
       <div className="biofy-hero__visual">
         <img src={brand.hero} alt="BIOFY starostlivosť o pleť a vlasy" />
         <button type="button" className="biofy-hero__advisor-card" onClick={openAdvisor}>
-          <span>4 krátke kroky</span>
+          <span>4 krátke otázky</span>
           <b>Pleť alebo vlasy?</b>
-          <small>Výsledok zostane v správnej kategórii.</small>
+          <small>Začnite výberom oblasti a pokračujte podľa svojich preferencií.</small>
           <ArrowIcon />
         </button>
       </div>
@@ -86,7 +86,7 @@ export function BiofyStorefront({ brand, openAdvisor, openChat }) {
     <section className="biofy-face" id="plet" aria-labelledby="biofy-face-title">
       <header className="biofy-section-heading">
         <div><span>01 / PLEŤ</span><h2 id="biofy-face-title">Krém podľa typu pleti.</h2></div>
-        <p>Hydratačný, výživný alebo konopný. Porovnanie vychádza z určenia produktu a preferovanej textúry, nie zo zdravotnej diagnózy.</p>
+        <p>Hydratačný, výživný alebo konopný krém. Porovnajte ich podľa určenia, textúry a toho, aký jednoduchý krok chcete zaradiť do rutiny.</p>
       </header>
       <div className="biofy-products biofy-products--face">
         {brand.faceProducts.map((product) => <ProductCard key={product.id} product={product} />)}
@@ -96,14 +96,14 @@ export function BiofyStorefront({ brand, openAdvisor, openChat }) {
     <section className="biofy-hair" id="vlasy" aria-labelledby="biofy-hair-title">
       <header className="biofy-section-heading biofy-section-heading--inverse">
         <div><span>02 / VLASY</span><h2 id="biofy-hair-title">Tonikum alebo olejček?</h2></div>
-        <p>Dve odlišné formy vlasovej starostlivosti. Poradca rozlišuje pokožku hlavy, dĺžky, formát a jednoduchosť rutiny — bez garancií rastu vlasov.</p>
+        <p>Dve odlišné formy vlasovej starostlivosti. Tonikum je ľahší krok pre pokožku hlavy, olejček patrí do dĺžok a výživnejšej rutiny.</p>
       </header>
       <div className="biofy-products biofy-products--hair">
         {brand.hairProducts.map((product) => <ProductCard key={product.id} product={product} tone="dark" />)}
         <aside className="biofy-hair__editorial">
           <span>Nie ste si istí?</span>
-          <h3>Najprv oblasť. Potom formát.</h3>
-          <p>Chat porovná pomenované produkty. Výber starostlivosti použije štyri deterministické kroky.</p>
+          <h3>Začnite oblasťou. Potom vyberte formát.</h3>
+          <p>Chat porovná konkrétne produkty. Výber starostlivosti vás prevedie štyrmi krátkymi otázkami.</p>
           <button type="button" onClick={openAdvisor}>Spustiť výber <ArrowIcon /></button>
         </aside>
       </div>
@@ -111,7 +111,7 @@ export function BiofyStorefront({ brand, openAdvisor, openChat }) {
 
     <footer className="biofy-footer">
       <img src={brand.logo} alt="BIOFY" />
-      <p>Ukážka používa produkty a ceny zachytené z biofy.sk. Aktuálna cena a dostupnosť sa vždy overujú na oficiálnom webe.</p>
+      <p>Ceny sa môžu meniť. Aktuálne údaje o cene a dostupnosti nájdete vždy na biofy.sk.</p>
       <a href="https://biofy.sk/" target="_blank" rel="noreferrer">biofy.sk <ArrowIcon /></a>
     </footer>
   </main>;
