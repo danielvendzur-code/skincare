@@ -24,7 +24,7 @@ for (const viewport of viewports) {
   await page.goto(`${baseURL}/ukazka/two`, { waitUntil:'networkidle' });
   await page.screenshot({ path:path.join(root, `two-${viewport.name}-${states[0]}.png`), fullPage:true });
 
-  await page.getByRole('button', { name:'Otvoriť Chat' }).click();
+  await page.getByRole('button', { name:'Poradiť s výberom' }).click();
   await page.screenshot({ path:path.join(root, `two-${viewport.name}-${states[1]}.png`) });
 
   await page.locator('.mode-switch button').nth(1).click();
