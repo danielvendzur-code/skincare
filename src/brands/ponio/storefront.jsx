@@ -13,7 +13,7 @@ function ProductImage({ product }) {
   const [failed, setFailed] = useState(false);
   return <span className={`ponio-product-image${failed ? ' is-fallback' : ''}`}>
     {!failed && <img src={product.image} alt={product.name} loading="lazy" onError={() => setFailed(true)} />}
-    {failed && <span aria-hidden="true">{product.name}</span>}
+    {failed && <span role="img" aria-label={`Fotografia produktu ${product.name} sa nenačítala`}>Fotografia sa nenačítala</span>}
   </span>;
 }
 
@@ -40,23 +40,23 @@ export function PonioStorefront({ openChat, openAdvisor }) {
     <section className="ponio-hero">
       <div className="ponio-hero-copy">
         <h1>Starostlivosť podľa toho, čo práve potrebujete.</h1>
-        <p>Pleť, vlasy, telo aj pery sú od začiatku oddelené. Môžete prejsť priamo do kategórie alebo si nechať zúžiť výber na konkrétny produkt.</p>
+        <p>Prejdite si pleť, vlasy, telo alebo pery. Ak sa v ponuke nechcete prehrabávať sami, štyri krátke otázky vám pomôžu zúžiť výber na konkrétny produkt.</p>
         <div className="ponio-hero-actions">
           <button type="button" className="ponio-primary-button" onClick={openAdvisor}>Vybrať starostlivosť <ArrowIcon /></button>
-          <button type="button" className="ponio-text-action" onClick={openChat}>Opýtať sa v Chate</button>
+          <button type="button" className="ponio-text-action" onClick={openChat}>Opýtať sa v chate</button>
         </div>
-        <div className="ponio-hero-note"><strong>Ručnú výrobu kombinujeme s inováciou.</strong><span>Výber pracuje iba s overenými produktmi a ich reálnym určením.</span></div>
+        <div className="ponio-hero-note"><strong>Ručnú výrobu kombinujeme s inováciou.</strong><span>Od denného krému po tuhý šampúch — začnite tým, čo hľadáte dnes.</span></div>
       </div>
       <div className="ponio-hero-media">
         <img src="/assets/brands/ponio/hero.jpg" alt="Produkty PONIO" />
-        <button className="ponio-hero-helper" type="button" onClick={openAdvisor}><span>Neviete, kde začať?</span><strong>4 kroky k produktu</strong><ArrowIcon /></button>
+        <button className="ponio-hero-helper" type="button" onClick={openAdvisor}><span>Neviete, kde začať?</span><strong>4 otázky k produktu</strong><ArrowIcon /></button>
       </div>
     </section>
 
     <section className="ponio-category-band" aria-labelledby="ponio-categories-title">
       <div className="ponio-section-heading">
         <span id="ponio-categories-title">Starostlivosť o</span>
-        <p>Štyri rozdielne časti katalógu. Bez miešania produktov medzi sebou.</p>
+        <p>Vyberte oblasť a pokračujte priamo do ponuky PONIO.</p>
       </div>
       <div className="ponio-category-grid">
         {ponioCategories.map((category, index) => <a className="ponio-category-link" key={category.id} data-category={category.id} href={category.url} target="_blank" rel="noreferrer">
@@ -82,7 +82,7 @@ export function PonioStorefront({ openChat, openAdvisor }) {
       <div className="ponio-editorial-copy">
         <span>Vlasy · dva rozdielne kroky</span>
         <h2>Suchý šampón nie je tuhý šampón.</h2>
-        <p>Mint a Banán & kokos slúžia na osvieženie medzi umytiami. Dvojitá levanduľa je šampúch na samotné umývanie vlasov. Poradca tento rozdiel zachová aj pri odporúčaní.</p>
+        <p>Mint a Banán & kokos sú suché šampóny na osvieženie medzi umytiami. Dvojitá levanduľa je tuhý šampúch na samotné umývanie vlasov. Ak váhate, chat ich porovná vedľa seba.</p>
         <button type="button" className="ponio-text-action" onClick={openChat}>Opýtať sa na rozdiel <ArrowIcon /></button>
       </div>
       <div className="ponio-editorial-products" aria-hidden="true">
@@ -93,8 +93,8 @@ export function PonioStorefront({ openChat, openAdvisor }) {
 
     <footer className="ponio-site-footer">
       <img src="/assets/brands/ponio/logo.png" alt="PONIO" />
-      <nav aria-label="PONIO odkazy"><a href="https://ponio.sk/pages/home" target="_blank" rel="noreferrer">O PONIO</a><a href="https://ponio.sk/collections/vsetky-produkty" target="_blank" rel="noreferrer">Produkty</a><button type="button" onClick={openChat}>Chat</button></nav>
-      <span>Ukážka integrovaného produktového poradcu</span>
+      <nav aria-label="PONIO odkazy"><a href="https://ponio.sk/pages/home" target="_blank" rel="noreferrer">O PONIO</a><a href="https://ponio.sk/collections/vsetky-produkty" target="_blank" rel="noreferrer">Produkty</a><button type="button" onClick={openChat}>Poradiť s výberom</button></nav>
+      <span>Objavte PONIO podľa kategórie alebo si nechajte výber zúžiť.</span>
     </footer>
   </main>;
 }
