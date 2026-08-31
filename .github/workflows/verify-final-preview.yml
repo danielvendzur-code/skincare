@@ -15,17 +15,24 @@ jobs:
     env:
       BASE_URL: https://skincare-git-agent-skincare-914e21-danielvendzur-codes-projects.vercel.app
     steps:
-      - name: Verify six public preview routes
+      - name: Diagnose and verify six public preview routes
         run: |
-          set -euo pipefail
+          set -u
+          failed=0
           for route in mylo ponio two bellcoria biofy anemone; do
             echo "Checking /ukazka/$route"
             code=$(curl -L --silent --show-error --output "/tmp/$route.html" --write-out '%{http_code}' "$BASE_URL/ukazka/$route")
-            test "$code" = "200"
-            grep -q 'id="root"' "/tmp/$route.html"
+            echo "HTTP $code"
+            head -c 240 "/tmp/$route.html" || true
+            echo
+            if [ "$code" != "200" ] || ! grep -q 'id="root"' "/tmp/$route.html"; then
+              failed=1
+            fi
           done
+          exit "$failed"
 
       - name: Verify shared chat endpoint
+        if: success()
         run: |
           set -euo pipefail
           response=$(curl -L --fail --silent --show-error \
@@ -36,6 +43,7 @@ jobs:
           RESPONSE="$response" node -e "const r=JSON.parse(process.env.RESPONSE); if(!r.reply) process.exit(1); console.log('shared-chat fallback='+String(r.fallback));"
 
       - name: Verify TWO chat endpoint
+        if: success()
         run: |
           set -euo pipefail
           response=$(curl -L --fail --silent --show-error \
