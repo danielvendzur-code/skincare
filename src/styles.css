@@ -36,3 +36,12 @@ html[data-brand="anemone"] .owner__hero{grid-template-columns:.86fr 1.14fr}html[
 }
 @media (max-width:370px){.owner__hero{padding-top:9px;gap:7px}.owner h1{font-size:28px}.owner__visual{height:145px;min-height:145px}.owner-benefits{margin-block:9px}.owner-benefits article{padding-block:5px}.owner-benefits small{font-size:9.25px}.owner__primary-action{min-height:55px}.choice-grid button>span:last-child{left:7px;right:7px;bottom:7px;min-height:35px;font-size:12px}.choice-image{min-height:62px}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* Jolka interaction parity: calm motion, clear controls and no question-step scroll. */
+.mode-thumb{transition:transform .38s cubic-bezier(.22,1,.36,1),background-color .2s ease}
+.composer{border-width:1.5px;border-color:color-mix(in srgb,var(--accent) 35%,var(--line));box-shadow:0 7px 20px -18px var(--accent-dark);transition:border-color .2s ease,box-shadow .2s ease}
+.composer:focus-within{border-color:var(--accent-dark);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 14%,transparent)}
+.advisor-view{overflow:hidden;scrollbar-width:none}.advisor-view::-webkit-scrollbar{display:none}.result-view{overflow:auto}
+[data-price-animated="true"]{display:inline-block;min-width:6ch;font-variant-numeric:tabular-nums}
+@media (hover:hover){.quick-chips button:hover{border-color:var(--accent-dark);background:var(--accent-dark);color:#fff;transform:translateY(-1px)}}
+@media (max-width:700px){.widget{padding-bottom:env(safe-area-inset-bottom)}.chat-view,.advisor-view{min-height:0}.quick-chips button{overflow:hidden;text-overflow:ellipsis}}

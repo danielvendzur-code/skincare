@@ -12,6 +12,7 @@ import { biofy } from './brands/biofy/config.js';
 import { BiofyStorefront } from './brands/biofy/storefront.jsx';
 import { anemoneBrand } from './brands/anemone/config.js';
 import { AnemoneStorefront } from './brands/anemone/storefront.jsx';
+import { AnimatedPrice } from './animated-price.jsx';
 import './styles.css';
 import './brands/mylo/theme.css';
 import './brands/two/theme.css';
@@ -237,7 +238,7 @@ function Result({ result, back, restart }) {
     <div className="result-kicker">Na základe vašich odpovedí</div>
     <div className="result-card">
       <img src={product.image} alt={product.name} />
-      <div><h2>{product.name}</h2><b className="price">{product.price}</b><ul>{(product.features || []).map((feature) => <li key={feature}>{feature}</li>)}</ul></div>
+      <div><h2>{product.name}</h2><AnimatedPrice as="b" className="price" value={product.price} /><ul>{(product.features || []).map((feature) => <li key={feature}>{feature}</li>)}</ul></div>
     </div>
     <div className="why"><b>Prečo tento produkt</b><p>{reason || product.reason}</p>{traits.length ? <div className="matched-traits">{traits.map((trait) => <span key={trait}>{trait}</span>)}</div> : null}</div>
     <a className="button button--primary result-cta" href={product.url} target="_blank" rel="noreferrer">Pozrieť produkt <Icon name="arrow" /></a>

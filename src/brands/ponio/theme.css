@@ -201,6 +201,16 @@ html[data-brand="ponio"] :where(button,a,input):focus-visible { outline:3px soli
 .ponio-result-footer button { padding:0; border:0; border-bottom:1px solid currentColor; border-radius:0; background:none; font-size:9.5px; font-weight:740; cursor:pointer; }
 .ponio-result-footer small { max-width:220px; color:#8b8b84; font-size:8.4px; text-align:right; }
 
+/* Shared Jolka-style interaction details. */
+.ponio-mode-switch>span { transition:transform .38s cubic-bezier(.22,1,.36,1),width .38s cubic-bezier(.22,1,.36,1); }
+.ponio-composer { border-width:1.5px; border-color:#b8c8ba; box-shadow:0 7px 20px -18px var(--ponio-green-dark); transition:border-color .2s ease,box-shadow .2s ease; }
+.ponio-composer:focus-within { border-color:var(--ponio-green-dark); box-shadow:0 0 0 3px rgba(36,84,46,.12); }
+.ponio-advisor-body { overflow:hidden; scrollbar-width:none; }
+.ponio-advisor-body::-webkit-scrollbar { display:none; }
+.ponio-result-body { overflow:auto; }
+.ponio-result-price[data-price-animated="true"] { display:inline-block; min-width:6ch; font-variant-numeric:tabular-nums; }
+@media (hover:hover) { .ponio-quick-questions button:hover { border-color:var(--ponio-green-dark); background:var(--ponio-green-dark); color:#fff; transform:translateY(-1px); } }
+
 @keyframes ponio-dot { 0%,70%,100%{ transform:translateY(0); opacity:.45 } 35%{ transform:translateY(-3px); opacity:1 } }
 
 @media (max-width: 1050px) {

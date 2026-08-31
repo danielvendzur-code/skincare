@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { AnimatedPrice } from '../../animated-price.jsx';
 import { choosePonioRecommendation, getPonioQuestion, ponioFallbackReply, ponioQuickQuestions } from './config.js';
 
 function Icon({ name }) {
@@ -169,7 +170,7 @@ function AdvisorPanel({ active, resetSignal }) {
         <span className="ponio-advisor-label">Vaša starostlivosť</span>
         <article className="ponio-result-product">
           <AdvisorProductImage product={product} />
-          <div className="ponio-result-copy"><small>{product.subtitle}</small><h2>{product.name}</h2><strong className="ponio-result-price">{product.price}</strong><ul>{product.features.map((feature) => <li key={feature}>{feature}</li>)}</ul></div>
+          <div className="ponio-result-copy"><small>{product.subtitle}</small><h2>{product.name}</h2><AnimatedPrice as="strong" className="ponio-result-price" value={product.price} /><ul>{product.features.map((feature) => <li key={feature}>{feature}</li>)}</ul></div>
         </article>
         <div className="ponio-result-reason"><strong>Prečo tento produkt</strong><p>{reason}</p></div>
         <a className="ponio-result-cta" href={product.url} target="_blank" rel="noreferrer" tabIndex={active ? 0 : -1}>Pozrieť produkt na ponio.sk <Icon name="arrow" /></a>
