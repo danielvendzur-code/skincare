@@ -1,0 +1,46 @@
+name: Verify final Vercel preview
+
+on:
+  push:
+    branches:
+      - agent/skincare-kava-parity-coordination
+    paths:
+      - '.github/workflows/verify-final-preview.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      BASE_URL: https://skincare-git-agent-skincare-914e21-danielvendzur-codes-projects.vercel.app
+    steps:
+      - name: Verify six public preview routes
+        run: |
+          set -euo pipefail
+          for route in mylo ponio two bellcoria biofy anemone; do
+            echo "Checking /ukazka/$route"
+            code=$(curl -L --silent --show-error --output "/tmp/$route.html" --write-out '%{http_code}' "$BASE_URL/ukazka/$route")
+            test "$code" = "200"
+            grep -q 'id="root"' "/tmp/$route.html"
+          done
+
+      - name: Verify shared chat endpoint
+        run: |
+          set -euo pipefail
+          response=$(curl -L --fail --silent --show-error \
+            -H 'content-type: application/json' \
+            -d '{"brand":"mylo","message":"Čo na hydratáciu?"}' \
+            "$BASE_URL/api/chat")
+          echo "$response"
+          RESPONSE="$response" node -e "const r=JSON.parse(process.env.RESPONSE); if(!r.reply) process.exit(1); console.log('shared-chat fallback='+String(r.fallback));"
+
+      - name: Verify TWO chat endpoint
+        run: |
+          set -euo pipefail
+          response=$(curl -L --fail --silent --show-error \
+            -H 'content-type: application/json' \
+            -d '{"brand":"two","message":"HA6 alebo hydratačný krém?"}' \
+            "$BASE_URL/api/two-chat")
+          echo "$response"
+          RESPONSE="$response" node -e "const r=JSON.parse(process.env.RESPONSE); if(!r.reply) process.exit(1); console.log('two-chat fallback='+String(r.fallback));"
