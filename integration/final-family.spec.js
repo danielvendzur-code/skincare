@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 const routes = [
   { slug: 'mylo', name: 'MYLO', selector: '.mylo-site' },
-  { slug: 'ponio', name: 'PONIO', selector: '.ponio-page' },
+  { slug: 'ponio', name: 'PONIO', selector: '.ponio-store' },
   { slug: 'two', name: 'TWO COSMETICS', selector: '.two-storefront' },
   { slug: 'bellcoria', name: 'BELLCORIA', selector: '.bellcoria-storefront' },
   { slug: 'biofy', name: 'BIOFY', selector: '.biofy-storefront' },
