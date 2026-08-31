@@ -1,117 +1,47 @@
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const MODEL = process.env.CHAT_MODEL || 'claude-haiku-4-5';
-const MAX_HISTORY_MESSAGES = 10;
-const MAX_MESSAGE_CHARS = 700;
-const PROVIDER_TIMEOUT_MS = 5500;
+const MAX_MESSAGES = 10;
+const MAX_MESSAGE_LENGTH = 700;
+const UPSTREAM_TIMEOUT_MS = 6500;
 
-const BRANDS = {
+const CATALOGS = {
   mylo: {
     name: 'MYLO',
-    products: [
-      'Hydratačné sérum INOVAŤ',
-      'Čistiace a odličovacie mlieko MOISSANIT',
-      'Pleťový olej FLÓRA',
-      'Pleťová voda KVETOVÁ ROSA',
-      'Ceramidový krém s vitamínmi RADOSŤ'
-    ],
-    fallback: {
-      hydration: 'Ak hľadáte hydratáciu, v aktuálnom výbere MYLO je prirodzeným smerom sérum INOVAŤ alebo krém RADOSŤ podľa toho, či chcete ľahší krok alebo krémovú starostlivosť.',
-      cleanse: 'Na jemný čistiaci krok je v tomto výbere MYLO čistiace a odličovacie mlieko MOISSANIT. Ak chcete potom doplniť ďalší krok rutiny, Výber starostlivosti ho zúži podľa textúry.',
-      oil: 'Ak preferujete olejovú textúru, v aktuálnom výbere je pleťový olej FLÓRA. Pri ľahšej textúre má väčší zmysel sérum alebo pleťová voda.',
-      default: 'Pri MYLO vieme výber zúžiť podľa typu produktu, textúry a toho, čo chcete zaradiť do rutiny. Výber starostlivosti potom odporučí konkrétny produkt z aktuálneho katalógu.'
-    }
+    products: ['Hydratačné sérum INOVAŤ', 'Čistiace a odličovacie mlieko MOISSANIT', 'Pleťový olej FLÓRA', 'Pleťová voda KVETOVÁ ROSA', 'Ceramidový krém s vitamínmi RADOSŤ'],
   },
   ponio: {
     name: 'PONIO',
-    products: [
-      'Lumina shield — denný ochranný pleťový krém',
-      'Healthy aging — pleťový krém pre zrelú pleť',
-      'Mint — suchý šampón',
-      'Banán & kokos — suchý šampón',
-      'Dvojitá levanduľa — žihľavový šampúch'
-    ],
-    fallback: {
-      hair: 'Pri vlasoch záleží, či chcete rýchle osvieženie medzi umytiami alebo produkt na samotné umývanie. V aktuálnom výbere PONIO sú suché šampóny Mint a Banán & kokos a tuhý šampúch Dvojitá levanduľa.',
-      face: 'Pri pleťovej starostlivosti sú v aktuálnom výbere PONIO napríklad Lumina shield a Healthy aging. Výber starostlivosti ich zúži podľa toho, aký typ krému a rutiny hľadáte.',
-      default: 'PONIO má v tomto deme pleťovú aj vlasovú starostlivosť. Najprv vyberte oblasť a potom formát, aby odporúčanie zostalo v správnej časti katalógu.'
-    }
+    products: ['Lumina shield', 'Healthy aging', 'Mint suchý šampón', 'Banán & kokos suchý šampón', 'Dvojitá levanduľa — žihľavový šampúch'],
   },
   two: {
     name: 'TWO COSMETICS',
-    products: [
-      'HA⁶ HYDRATATION BOOSTER SERUM',
-      'BAKUCHIOL 1 % ANTI-AGE SERUM',
-      'Hydratačný krém',
-      'Krém pre problematickú pleť',
-      'AM/PM ROUTINE CLEANSING GEL 2% SALICYLIC ACID'
-    ],
-    fallback: {
-      hydration: 'Ak je prioritou hydratácia, v aktuálnom výbere TWO COSMETICS sú HA⁶ HYDRATATION BOOSTER SERUM a Hydratačný krém. Rozdiel je najmä vo formáte — sérum verzus krém.',
-      cleanse: 'Na čistiaci krok je v aktuálnom výbere AM/PM ROUTINE CLEANSING GEL 2% SALICYLIC ACID. Pri otázkach o tolerancii alebo zdravotnom stave nebudem robiť diagnózu; poradím len v rámci výberu kozmetiky.',
-      serum: 'Ak chcete sérum, aktuálny výber obsahuje HA⁶ hydratačné sérum a BAKUCHIOL 1 % sérum. Výber starostlivosti ich rozlíši podľa preferovaného cieľa a rutiny.',
-      default: 'Pri TWO COSMETICS vieme výber zúžiť podľa úlohy produktu, textúry a preferencie rutiny. Odporúčanie zostane iba medzi produktmi overenými v aktuálnom katalógu dema.'
-    }
+    products: ['HA⁶ HYDRATATION BOOSTER SERUM', 'BAKUCHIOL 1 % ANTI-AGE SERUM', 'Hydratačný krém', 'Krém pre problematickú pleť', 'AM/PM ROUTINE CLEANSING GEL 2% SALICYLIC ACID'],
   },
   bellcoria: {
     name: 'BELLCORIA',
-    products: [
-      'Organický opunciový olej',
-      'Elixír proti vráskam s bakuchiolom',
-      'Pleťový čistiaci gél',
-      'Nočný elixír s vitamínom C a brusnicovým olejom',
-      'Telový olej s astaxantínom'
-    ],
-    fallback: {
-      cleanse: 'Ak hľadáte ľahký čistiaci krok, v aktuálnom výbere Bellcoria je Pleťový čistiaci gél. Oleje a elixíry patria do iného typu starostlivosti, preto ich poradca od čistenia oddeľuje.',
-      oil: 'Pri olejovej starostlivosti vieme rozlíšiť pleťový olej, večerný elixír a telový olej podľa oblasti a preferovanej rutiny. Výber starostlivosti potom zostane v správnej kategórii.',
-      default: 'Bellcoria má v tomto deme čistenie, pleťové oleje, elixíry aj telový olej. Najprv vyberieme oblasť a typ produktu, potom konkrétnu textúru alebo rutinu.'
-    }
+    products: ['Organický opunciový olej', 'Elixír proti vráskam s bakuchiolom', 'Pleťový čistiaci gél', 'Nočný elixír s vitamínom C a brusnicovým olejom', 'Telový olej s astaxantínom'],
   },
   biofy: {
     name: 'BIOFY',
-    products: [
-      'Hydratačný krém na suchú a citlivú pleť 60 ml',
-      'Výživný krém na normálnu a zmiešanú pleť 60 ml',
-      'Konopný krém na suchú a problematickú pleť 50 ml',
-      'Vlasové tonikum na rast vlasov s rozmarínom 100 ml',
-      'Ošetrujúci olejček na vlasy — 9 vzácnych olejov 50 ml'
-    ],
-    fallback: {
-      hair: 'Pri vlasovej starostlivosti sú v aktuálnom výbere BIOFY vlasové tonikum s rozmarínom a ošetrujúci olejček. Neviem garantovať zdravotný ani rastový účinok; môžem pomôcť iba s výberom podľa formátu a rutiny.',
-      face: 'Pri pleti vieme v BIOFY rozlíšiť krémy podľa overeného určenia pre suchú/citlivú alebo normálnu/zmiešanú pleť. Výber starostlivosti udrží odporúčanie iba medzi pleťovými produktmi.',
-      default: 'BIOFY v tomto deme kombinuje pleťovú a vlasovú starostlivosť. Najprv vyberieme oblasť, aby sa pleťový produkt nikdy nemiešal s vlasovým odporúčaním.'
-    }
+    products: ['Hydratačný krém na suchú a citlivú pleť', 'Výživný krém na normálnu a zmiešanú pleť', 'Konopný krém na suchú a problematickú pleť', 'Vlasové tonikum s rozmarínom', 'Ošetrujúci olejček na vlasy — 9 vzácnych olejov'],
   },
   anemone: {
     name: 'ANEMONE',
-    products: [
-      'Kvetová voda Ruža damascénska',
-      'Kvetová voda Harmanček',
-      'Pleťový olej na zrelú pleť',
-      'Balzam na pery Mandarínka & grep',
-      'Tuhý šampón Šalvia & levanduľa'
-    ],
-    fallback: {
-      hair: 'Na vlasovú starostlivosť je v aktuálnom výbere ANEMONE tuhý šampón Šalvia & levanduľa. Kvetové vody, pleťový olej a balzam patria do iných produktových rolí.',
-      oil: 'Ak preferujete olejový pleťový krok, v aktuálnom výbere ANEMONE je Pleťový olej na zrelú pleť. Pri ľahšom vodnom formáte sú v deme kvetové vody.',
-      default: 'ANEMONE má v tomto deme kvetové vody, pleťový olej, balzam na pery a tuhý šampón. Výber starostlivosti najprv rozlíši produktovú rolu a až potom konkrétnu preferenciu.'
-    }
-  }
+    products: ['Kvetová voda Ruža damascénska', 'Kvetová voda Harmanček', 'Pleťový olej na zrelú pleť', 'Balzam na pery Mandarínka & grep', 'Tuhý šampón Šalvia & levanduľa'],
+  },
 };
 
-const MEDICAL_PATTERN = /diagn[oó]z|ekz[eé]m|dermatit|psori|rosace|infek|alergi|opuch|krvác|hnis|siln.{0,12}boles|vyr[aá]žk|lie[cč]i|vylie[cč]|terapi|lek[aá]r|dermatol/i;
+const MEDICAL_PATTERN = /diagn[oó]z|ekz[eé]m|dermatit|psori|rosace|infek|alergi|opuch|krvác|hnis|vyr[aá]žk|lie[cč]i|vylie[cč]|terapi|lek[aá]r|dermatol/i;
+const normalize = (value) => String(value || '').toLocaleLowerCase('sk').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-function safeSetHeader(response, name, value) {
-  if (typeof response?.setHeader === 'function') response.setHeader(name, value);
-}
-
-function setCors(request, response) {
-  const origin = request?.headers?.origin || '';
-  const allowed = origin === '' || /(^https:\/\/([a-z0-9-]+\.)?mojchatbot\.sk$)|(^https:\/\/.*\.vercel\.app$)|(^http:\/\/localhost:\d+$)|(^http:\/\/127\.0\.0\.1:\d+$)/i.test(origin);
-  safeSetHeader(response, 'Access-Control-Allow-Origin', allowed && origin ? origin : 'https://mojchatbot.sk');
-  safeSetHeader(response, 'Vary', 'Origin');
-  safeSetHeader(response, 'Access-Control-Allow-Methods', 'POST, OPTIONS');
-  safeSetHeader(response, 'Access-Control-Allow-Headers', 'Content-Type');
+function setHeaders(request, response) {
+  const origin = request.headers?.origin || '';
+  const allowed = origin === '' || /(^https:\/\/([a-z0-9-]+\.)?mojchatbot\.sk$)|(^https:\/\/.*\.vercel\.app$)|(^http:\/\/(localhost|127\.0\.0\.1):\d+$)/i.test(origin);
+  response.setHeader?.('Access-Control-Allow-Origin', allowed && origin ? origin : 'https://mojchatbot.sk');
+  response.setHeader?.('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  response.setHeader?.('Access-Control-Allow-Headers', 'Content-Type');
+  response.setHeader?.('Cache-Control', 'no-store');
+  response.setHeader?.('Vary', 'Origin');
 }
 
 function parseBody(request) {
@@ -124,57 +54,128 @@ function normalizeMessages(body) {
   if (Array.isArray(body.messages)) {
     return body.messages
       .filter((message) => message && (message.role === 'user' || message.role === 'assistant'))
-      .slice(-MAX_HISTORY_MESSAGES)
-      .map((message) => ({
-        role: message.role,
-        content: String(message.content || '').slice(0, MAX_MESSAGE_CHARS).trim()
-      }))
-      .filter((message) => message.content.length > 0);
+      .slice(-MAX_MESSAGES)
+      .map((message) => ({ role: message.role, content: String(message.content || '').slice(0, MAX_MESSAGE_LENGTH).trim() }))
+      .filter((message) => message.content);
   }
-
-  const legacyMessage = String(body.message || '').slice(0, MAX_MESSAGE_CHARS).trim();
-  return legacyMessage ? [{ role: 'user', content: legacyMessage }] : [];
+  const message = String(body.message || '').slice(0, MAX_MESSAGE_LENGTH).trim();
+  return message ? [{ role: 'user', content: message }] : [];
 }
 
-function deterministicReply(brand, latestMessage) {
-  const query = String(latestMessage || '').toLocaleLowerCase('sk');
-
-  if (MEDICAL_PATTERN.test(query)) {
-    return 'S diagnózou ani liečbou vám cez produktový chatbot nepomôžem. Môžem zúžiť výber kozmetiky podľa formátu a preferencií; pri výrazných, pretrvávajúcich alebo zhoršujúcich sa ťažkostiach je vhodné obrátiť sa na lekára alebo dermatológa.';
-  }
-
-  if (/porovn|rozdiel|versus| vs\.? /.test(query)) {
-    return `Môžem porovnať produkty ${brand.name} podľa ich overeného typu, textúry a úlohy v rutine. Napíšte názvy dvoch produktov, ktoré chcete porovnať, a zostanem iba pri údajoch z aktuálneho katalógu.`;
-  }
-
-  if (/vlas|šamp[oó]n|sampon|tonik|olej[cč]ek/.test(query) && brand.fallback.hair) return brand.fallback.hair;
-  if (/čist|odli[cč]|gel/.test(query) && brand.fallback.cleanse) return brand.fallback.cleanse;
-  if (/hydrat|such.{0,8}ple|dehydrat/.test(query) && brand.fallback.hydration) return brand.fallback.hydration;
-  if (/s[eé]rum|serum/.test(query) && brand.fallback.serum) return brand.fallback.serum;
-  if (/olej|elix[ií]r/.test(query) && brand.fallback.oil) return brand.fallback.oil;
-  if (/ple[ťt]|kr[eé]m|tvar/.test(query) && brand.fallback.face) return brand.fallback.face;
-
-  return brand.fallback.default;
+function medicalReply() {
+  return 'S diagnózou ani liečbou vám produktový poradca nepomôže. Môžem porovnať kozmetické produkty a ich popísané vlastnosti; pri zdravotnom probléme je vhodná konzultácia s lekárom alebo dermatológom.';
 }
 
-function buildSystemPrompt(brand) {
+function biofyReply(query) {
+  const q = normalize(query);
+  const hydrating = /hydrat/.test(q);
+  const nourishing = /vyziv/.test(q);
+  const hemp = /konop/.test(q);
+  const tonic = /tonik/.test(q);
+  const hairOil = /olejcek|9\s*(vz|olej)/.test(q);
+  const faceHair = /plet.{0,30}vlas|vlas.{0,30}plet/.test(q);
+  if (faceHair) return 'Pleť a vlasy sú v BIOFY dve oddelené kategórie a poradca ich nikdy nemieša. Po voľbe Pleť zostane výsledok medzi tromi pleťovými krémami; po voľbe Vlasy iba medzi tonikom a ošetrujúcim olejčekom.';
+  if (tonic && (hairOil || /olej/.test(q))) return 'Vlasové tonikum s rozmarínom je ľahší tekutý krok pre pokožku hlavy. Ošetrujúci olejček je olejový krok do dĺžok vlasov; poradca im nepripisuje garanciu rastu ani liečebný účinok.';
+  if (hydrating && nourishing) return 'Hydratačný krém je určený pre suchú a citlivú pleť, kým Výživný krém pre normálnu a zmiešanú pleť. Rozhoduje teda najmä opis pleti a potom preferencia ľahšej alebo výživnejšej krémovej rutiny.';
+  if (hydrating && hemp) return 'Hydratačný krém je určený pre suchú a citlivú pleť, kým Konopný krém pre suchú a problematickú pleť. Obe možnosti zostávajú v pleťovej kategórii.';
+  if (hemp) return 'Konopný krém je v tomto BIOFY výbere určený pre suchú a problematickú pleť. Poradca ho porovnáva iba s ďalšími pleťovými krémami, nie s vlasovými produktmi.';
+  if (/vlas|tonik|olejcek/.test(q)) return 'Pri vlasoch BIOFY porovnajte vlasové tonikum s rozmarínom a ošetrujúci olejček. Tonikum je ľahší krok pre pokožku hlavy, olejček patrí do dĺžok a výživnejšej rutiny.';
+  return 'Pri BIOFY začnite voľbou Pleť alebo Vlasy. Pri pleti poradca porovná tri krémy podľa ich určenia, pri vlasoch tonikum s rozmarínom a ošetrujúci olejček podľa formátu a miesta v rutine.';
+}
+
+function anemoneReply(messages) {
+  const userText = normalize(messages.filter((message) => message.role === 'user').map((message) => message.content).join(' '));
+  const latest = normalize(messages.at(-1)?.content);
+  const rose = /ruza|damasc/.test(userText);
+  const chamomile = /harman|chamom/.test(userText);
+  const water = /kvetov|hydrol|\bvoda/.test(userText);
+  const oil = /olej/.test(userText);
+  if ((rose && chamomile) || (/porovn|rozdiel|oproti/.test(latest) && water && !oil)) return 'Obe sú kvetové vody, teda ľahký vodný krok po čistení. Líšia sa použitou rastlinou: jedna je Ruža damascénska, druhá Harmanček; nebudem k nim pridávať neoverené botanické účinky.';
+  if ((water && oil) || (/porovn|rozdiel|oproti/.test(latest) && oil)) return 'Kvetová voda a pleťový olej nie sú zameniteľné formáty. Kvetová voda je ľahký vodný krok; Pleťový olej na zrelú pleť je samostatný olejový krok na čistú, jemne vlhkú pleť.';
+  if (/balzam|pery|mandar|grep/.test(latest)) return 'Balzam na pery Mandarínka & grep je samostatná starostlivosť o pery. Pri tejto voľbe poradca zostane v kategórii pier.';
+  if (/vlas|sampon|salvia|levandu/.test(latest)) return 'Tuhý šampón Šalvia & levanduľa je vlasový produkt v tuhom formáte určený na umývanie vlasov.';
+  if (rose) return 'Kvetová voda Ruža damascénska patrí medzi kvetové vody ANEMONE. Ak chcete, porovnám ju s Harmančekom iba podľa overených rozdielov.';
+  if (chamomile) return 'Kvetová voda Harmanček je druhá kvetová voda v tomto výbere ANEMONE. Pri porovnaní s Ružou zostávame pri rovnakej produktovej roli.';
+  return 'Môžem porovnať dve kvetové vody, vysvetliť rozdiel medzi kvetovou vodou a olejom alebo pomôcť s výberom produktu na pery či vlasy.';
+}
+
+function bellcoriaReply(query) {
+  const q = normalize(query);
+  if (/bakuch/.test(q)) return 'Elixír proti vráskam s bakuchiolom je v tomto výbere pleťový elixír s olejovou textúrou. Ak chcete čistiaci krok, pozrite Pleťový čistiaci gél; pri pleťovom oleji ho porovnajte s Organickým opunciovým olejom.';
+  if (/vecer|nocn/.test(q)) return 'Na večerný elixírový krok je v tejto ponuke Nočný elixír s vitamínom C a brusnicovým olejom. Ak chcete namiesto elixíru pleťový olej, porovnajte ho s Organickým opunciovým olejom.';
+  if (/telo|telov|astax/.test(q)) return 'Ak hľadáte produkt na telo, v tomto výbere je Telový olej s astaxantínom. Pri výbere na tvár poradca zostáva iba medzi pleťovými produktmi.';
+  if (/cist|gel/.test(q) && /olej|elix/.test(q)) return 'Pleťový čistiaci gél je čistiaci krok. Organický opunciový olej a elixíry patria do následnej pleťovej starostlivosti, takže nejde o zameniteľné produkty.';
+  if (/olej/.test(q) && /elix/.test(q)) return 'Organický opunciový olej je pleťový olej, kým bakuchiolový a nočný produkt sú elixíry. Nočný elixír je v tomto výbere určený na večerný krok.';
+  return 'Bellcoria výber môžeme zúžiť podľa toho, či hľadáte produkt na tvár alebo telo, aký typ produktu chcete a kedy ho chcete používať.';
+}
+
+function myloReply(query) {
+  const q = normalize(query);
+  if (/inovat/.test(q) && /radost/.test(q)) return 'INOVAŤ je ľahké hydrogélové sérum, kým RADOSŤ je ceramidový krémový krok. Vyberte podľa toho, či chcete ľahšie sérum alebo krémovú starostlivosť.';
+  if (/rann|rano/.test(q)) return 'Na jednoduchú rannú rutinu z tohto výberu MYLO môžete zaradiť jemné čistenie podľa potreby a potom INOVAŤ alebo RADOSŤ podľa preferovanej textúry.';
+  if (/cist|odlic|moissanit/.test(q)) return 'MOISSANIT je čistiace a odličovacie mlieko; v tomto výbere predstavuje jemný čistiaci krok.';
+  if (/such|citliv|flora/.test(q)) return 'Pri suchej alebo citlivej pleti je v tomto výbere relevantná FLÓRA ako olejový krok; pri hydratácii môžete porovnať aj INOVAŤ a RADOSŤ podľa textúry.';
+  return 'Pri MYLO vieme výber zúžiť podľa toho, ako sa pleť cíti, aký krok rutiny chcete riešiť a akú textúru preferujete.';
+}
+
+function ponioReply(query) {
+  const q = normalize(query);
+  if (/suchy.*sampon|sampon.*suchy/.test(q) && /sampuch|tuh/.test(q)) return 'Suchý šampón Mint alebo Banán & kokos slúži na rýchle osvieženie medzi umytiami, kým Dvojitá levanduľa je tuhý šampúch na samotné umývanie vlasov.';
+  if (/lumina/.test(q)) return 'Lumina shield je pleťový krém v dennej vetve PONIO. Ak riešite inú oblasť, poradca najprv oddelí pleť, vlasy, telo a pery.';
+  if (/healthy|zrel/.test(q)) return 'Healthy aging je pleťový krém v ponuke PONIO zameranej na zrelú pleť. Výber ho neporovnáva s vlasovými produktmi.';
+  if (/vlas|sampon|sampuch/.test(q)) return 'Pri vlasoch PONIO najprv rozlíšte rýchle osvieženie medzi umytiami a samotné umývanie. V tomto výbere sú suché šampóny Mint a Banán & kokos a tuhý šampúch Dvojitá levanduľa.';
+  return 'PONIO má širší sortiment, preto poradca najprv oddelí pleť, vlasy, telo a pery a až potom odporúča konkrétny produkt.';
+}
+
+function deterministicReply(slug, messages) {
+  const latest = messages.at(-1)?.content || '';
+  if (MEDICAL_PATTERN.test(latest)) return medicalReply();
+  if (slug === 'biofy') return biofyReply(latest);
+  if (slug === 'anemone') return anemoneReply(messages);
+  if (slug === 'bellcoria') return bellcoriaReply(latest);
+  if (slug === 'mylo') return myloReply(latest);
+  if (slug === 'ponio') return ponioReply(latest);
+  return 'Pomôžem vám porovnať produkty z aktuálneho katalógu a zúžiť výber podľa toho, čo chcete zaradiť do rutiny.';
+}
+
+function systemPrompt(catalog) {
   return [
-    `Ste stručný produktový poradca pre kozmetickú značku ${brand.name}.`,
-    `Produkty, ktoré smiete v tomto deme odporúčať: ${brand.products.join('; ')}.`,
-    'Odpovedajte prirodzenou, jednoduchou a gramaticky správnou slovenčinou, zvyčajne v 2 až 4 krátkych vetách.',
-    'Nevymýšľajte produkty, ceny, dostupnosť, zloženie, certifikácie, účinky ani tvrdenia, ktoré nemáte v poskytnutom katalógovom kontexte.',
-    'Nevykonávajte zdravotnú diagnózu a netvrďte, že kozmetika lieči alebo vylieči zdravotný stav.',
-    'Ak používateľ opisuje výrazný, pretrvávajúci alebo zdravotný problém, jasne oddeľte kozmetický výber od zdravotnej rady a odporučte odbornú zdravotnú konzultáciu.',
-    'Pri nejasnej požiadavke položte najviac jednu krátku doplňujúcu otázku alebo odporučte Výber starostlivosti.',
-    'Pri porovnaní nadväzujte na predchádzajúce správy v konverzácii a porovnávajte iba produkty z povoleného zoznamu.'
-  ].join('\n');
+    `Ste produktový poradca značky ${catalog.name}.`,
+    `Môžete pracovať iba s týmto katalógom: ${catalog.products.join('; ')}.`,
+    'Odpovedajte po slovensky, stručne a prakticky, najviac 2–3 vetami.',
+    'Nevymýšľajte produkty, ceny, zloženie, dostupnosť, recenzie ani účinky.',
+    'Nediagnostikujte a nesľubujte liečbu alebo zdravotný výsledok.',
+    'Ak si nie ste istý konkrétnym faktom, povedzte to a odporučte oficiálnu produktovú stránku.',
+  ].join(' ');
+}
+
+async function anthropicReply(catalog, messages) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), UPSTREAM_TIMEOUT_MS);
+  try {
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'x-api-key': ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({ model: MODEL, max_tokens: 260, temperature: 0.2, system: systemPrompt(catalog), messages }),
+      signal: controller.signal,
+    });
+    if (!response.ok) return null;
+    const payload = await response.json();
+    return payload.content?.filter((item) => item.type === 'text').map((item) => item.text).join('\n').trim() || null;
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 export default async function handler(request, response) {
-  setCors(request, response);
-  safeSetHeader(response, 'Cache-Control', 'no-store');
-
-  if (request.method === 'OPTIONS') return response.status(204).end();
+  setHeaders(request, response);
+  if (request.method === 'OPTIONS') return response.status?.(204).end?.();
   if (request.method !== 'POST') return response.status(405).json({ error: 'Method not allowed' });
 
   let body;
@@ -184,53 +185,17 @@ export default async function handler(request, response) {
     return response.status(400).json({ error: 'Invalid JSON body' });
   }
 
-  const slug = String(body.brand || '').toLocaleLowerCase('en').trim();
-  const brand = BRANDS[slug];
-  if (!brand) return response.status(400).json({ error: 'Unknown brand' });
+  const slug = String(body.brand || '').trim().toLowerCase();
+  const catalog = CATALOGS[slug];
+  if (!catalog) return response.status(400).json({ error: 'Unknown brand' });
 
   const messages = normalizeMessages(body);
-  const latestMessage = [...messages].reverse().find((message) => message.role === 'user')?.content || '';
-  if (!latestMessage) return response.status(400).json({ error: 'Missing user message' });
+  if (!messages.length || !messages.some((message) => message.role === 'user')) return response.status(400).json({ error: 'Missing user message' });
 
-  const fallback = () => response.status(200).json({
-    reply: deterministicReply(brand, latestMessage),
-    fallback: true
-  });
+  const fallback = deterministicReply(slug, messages);
+  if (!ANTHROPIC_API_KEY) return response.status(200).json({ reply: fallback, fallback: true });
 
-  if (!ANTHROPIC_API_KEY) return fallback();
-
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), PROVIDER_TIMEOUT_MS);
-
-  try {
-    const upstream = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      signal: controller.signal,
-      headers: {
-        'content-type': 'application/json',
-        'x-api-key': ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01'
-      },
-      body: JSON.stringify({
-        model: MODEL,
-        max_tokens: 260,
-        system: buildSystemPrompt(brand),
-        messages
-      })
-    });
-
-    if (!upstream.ok) return fallback();
-
-    const data = await upstream.json();
-    const reply = Array.isArray(data.content)
-      ? data.content.find((block) => block?.type === 'text' && typeof block.text === 'string')?.text?.trim()
-      : '';
-
-    if (!reply) return fallback();
-    return response.status(200).json({ reply, fallback: false });
-  } catch {
-    return fallback();
-  } finally {
-    clearTimeout(timeout);
-  }
+  const live = await anthropicReply(catalog, messages);
+  if (!live) return response.status(200).json({ reply: fallback, fallback: true });
+  return response.status(200).json({ reply: live, fallback: false });
 }

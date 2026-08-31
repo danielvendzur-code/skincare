@@ -1,0 +1,431 @@
+html[data-brand="mylo"] {
+  --accent: #65715b;
+  --accent-dark: #2f392f;
+  --soft: #f0f1e9;
+  --line: #d8d8ce;
+  --ink: #1d211d;
+  --radius: 12px;
+  --font-display: Georgia, "Times New Roman", serif;
+  background: #f7f6f1;
+}
+
+html[data-brand="mylo"] body {
+  background: #f7f6f1;
+  color: #1d211d;
+}
+
+html[data-brand="mylo"] .mylo-site.owner {
+  width: 100%;
+  height: auto;
+  min-height: 100dvh;
+  margin: 0;
+  overflow: visible;
+  display: block;
+  background: #f7f6f1;
+  color: #1d211d;
+}
+
+.mylo-site img { display: block; max-width: 100%; }
+.mylo-site button, .mylo-site a { -webkit-tap-highlight-color: transparent; }
+.mylo-site svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+
+.mylo-header {
+  position: relative;
+  z-index: 10;
+  width: min(1320px, calc(100% - 72px));
+  height: 82px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  border-bottom: 1px solid #d8d8ce;
+}
+
+.mylo-logo-button {
+  width: 136px;
+  height: 56px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.mylo-logo-button img { width: 132px; height: 54px; object-fit: contain; object-position: left center; filter: grayscale(1) contrast(1.18); }
+
+.mylo-nav { display: flex; align-items: center; gap: 26px; }
+.mylo-nav button {
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #3f453e;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: .02em;
+  cursor: pointer;
+}
+.mylo-nav button:hover { color: #1d211d; }
+.mylo-nav .mylo-nav__advisor {
+  padding: 0 17px;
+  border: 1px solid #313b31;
+  border-radius: 2px;
+  background: #313b31;
+  color: #fff;
+}
+.mylo-nav .mylo-nav__advisor:hover { background: #202820; color: #fff; }
+.mylo-menu, .mylo-mobile-nav { display: none; }
+
+.mylo-hero {
+  width: min(1320px, calc(100% - 72px));
+  min-height: 610px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, .88fr) minmax(520px, 1.12fr);
+  gap: clamp(48px, 7vw, 108px);
+  align-items: center;
+  padding: 54px 0 64px;
+}
+
+.mylo-hero__copy { max-width: 560px; }
+.mylo-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #66715f;
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+}
+.mylo-eyebrow::before { content: ""; width: 32px; height: 1px; background: #8f9888; }
+.mylo-hero h1 {
+  max-width: 550px;
+  margin: 17px 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(50px, 5vw, 76px);
+  line-height: .98;
+  font-weight: 400;
+  letter-spacing: -.045em;
+  text-wrap: balance;
+}
+.mylo-hero__copy > p {
+  max-width: 515px;
+  margin: 24px 0 0;
+  color: #5d635b;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.mylo-hero__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.mylo-button {
+  min-height: 49px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  padding: 0 18px;
+  border: 1px solid #303930;
+  border-radius: 2px;
+  background: transparent;
+  color: #303930;
+  font-size: 12.5px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform .18s ease, background .18s ease, color .18s ease;
+}
+.mylo-button:hover { transform: translateY(-1px); }
+.mylo-button--dark { background: #303930; color: #fff; }
+.mylo-button--dark:hover { background: #202820; }
+.mylo-button--plain { border-color: #c8c9c0; background: #f7f6f1; }
+.mylo-button--plain:hover { background: #eeeee7; }
+
+.mylo-philosophy {
+  margin-top: 34px;
+  padding-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border-top: 1px solid #d8d8ce;
+}
+.mylo-philosophy span { display: grid; gap: 6px; color: #525851; font-family: Georgia, serif; font-size: 13px; }
+.mylo-philosophy b { color: #8a9186; font-family: Inter, system-ui, sans-serif; font-size: 9px; letter-spacing: .12em; }
+
+.mylo-hero__visual {
+  position: relative;
+  height: 560px;
+  overflow: hidden;
+  background: #e8e8de;
+}
+.mylo-hero__photo { width: 100%; height: 100%; object-fit: cover; object-position: center; filter: saturate(.72) contrast(.96); }
+.mylo-hero__visual::after { content: ""; position: absolute; inset: 0; border: 1px solid rgba(54, 62, 52, .12); pointer-events: none; }
+.mylo-hero-product {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: min(350px, calc(100% - 40px));
+  min-height: 96px;
+  display: grid;
+  grid-template-columns: 70px 1fr 24px;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 13px 10px 10px;
+  border: 1px solid rgba(255,255,255,.86);
+  background: rgba(249,248,243,.95);
+  color: #1d211d;
+  text-decoration: none;
+  box-shadow: 0 18px 40px -32px rgba(20,25,20,.55);
+}
+.mylo-hero-product > img { width: 70px; height: 74px; object-fit: contain; background: #efefe8; }
+.mylo-hero-product > span { min-width: 0; display: grid; gap: 3px; }
+.mylo-hero-product small { color: #747b71; font-size: 9px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.mylo-hero-product b { font-family: Georgia, serif; font-size: 19px; font-weight: 400; }
+.mylo-hero-product strong { color: #566051; font-size: 11px; }
+
+.mylo-products {
+  scroll-margin-top: 20px;
+  padding: 68px max(36px, calc((100% - 1320px) / 2)) 78px;
+  background: #fff;
+  border-block: 1px solid #dfdfd7;
+}
+.mylo-section-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.mylo-section-head h2, .mylo-routine h2 {
+  margin: 11px 0 0;
+  font-family: Georgia, serif;
+  font-size: clamp(32px, 3.2vw, 47px);
+  line-height: 1.04;
+  font-weight: 400;
+  letter-spacing: -.035em;
+}
+.mylo-section-head > a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #566051;
+  font-size: 11px;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.mylo-product-grid {
+  display: grid;
+  grid-template-columns: 1.35fr repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.mylo-product {
+  min-width: 0;
+  display: grid;
+  grid-template-rows: 310px minmax(185px, auto);
+  border-right: 1px solid #dfdfd7;
+  background: #fff;
+}
+.mylo-product:last-child { border-right: 0; }
+.mylo-product__image { display: grid; place-items: center; overflow: hidden; background: #f1f1eb; text-decoration: none; }
+.mylo-product__image img { width: 100%; height: 100%; object-fit: contain; padding: 18px; transition: transform .3s ease; }
+.mylo-product__image:hover img { transform: scale(1.025); }
+.mylo-product--featured .mylo-product__image img { padding: 12px; }
+.mylo-product__copy { min-width: 0; display: flex; flex-direction: column; padding: 17px 13px 0 2px; }
+.mylo-product__copy > span { color: #7c8279; font-size: 8.5px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.mylo-product__copy h3 { margin: 8px 0 0; font-family: Georgia, serif; font-size: 20px; font-weight: 400; letter-spacing: -.02em; }
+.mylo-product__copy p { margin: 8px 0 14px; color: #676d65; font-size: 11px; line-height: 1.5; }
+.mylo-product__copy > div { margin-top: auto; min-height: 36px; display: flex; align-items: center; justify-content: space-between; gap: 9px; border-top: 1px solid #e1e1da; }
+.mylo-product__copy strong { font-size: 11px; }
+.mylo-product__copy a { min-height: 36px; display: inline-flex; align-items: center; gap: 5px; color: #596253; font-size: 10px; font-weight: 800; text-decoration: none; }
+.mylo-product__copy a svg { width: 13px; height: 13px; }
+
+.mylo-routine {
+  scroll-margin-top: 20px;
+  width: min(1320px, calc(100% - 72px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, .72fr) minmax(560px, 1.28fr);
+  gap: clamp(60px, 8vw, 130px);
+  padding: 88px 0 92px;
+}
+.mylo-routine__intro { align-self: start; max-width: 480px; }
+.mylo-routine__intro > p { margin: 20px 0 25px; color: #62685f; font-size: 14px; line-height: 1.65; }
+.mylo-routine__steps { border-top: 1px solid #ced0c7; }
+.mylo-routine__steps article {
+  min-height: 150px;
+  display: grid;
+  grid-template-columns: 54px 1fr;
+  gap: 20px;
+  padding: 24px 0;
+  border-bottom: 1px solid #ced0c7;
+}
+.mylo-routine__steps article > span { color: #8b9187; font-size: 10px; font-weight: 800; letter-spacing: .12em; }
+.mylo-routine__steps article > div { display: grid; grid-template-columns: minmax(120px, .55fr) minmax(220px, 1fr) auto; align-items: start; gap: 20px; }
+.mylo-routine__steps b { font-family: Georgia, serif; font-size: 20px; font-weight: 400; }
+.mylo-routine__steps p { margin: 0; color: #656b63; font-size: 12px; line-height: 1.52; }
+.mylo-routine__steps a, .mylo-routine__steps button {
+  min-height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #4c5848;
+  font-size: 10px;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.mylo-routine__steps svg { width: 13px; height: 13px; }
+
+.mylo-footer {
+  min-height: 112px;
+  padding: 24px max(36px, calc((100% - 1320px) / 2));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  border-top: 1px solid #d7d8cf;
+  background: #ecece4;
+}
+.mylo-footer > div { display: flex; align-items: center; gap: 18px; }
+.mylo-footer img { width: 82px; height: 42px; object-fit: contain; filter: grayscale(1) contrast(1.2); }
+.mylo-footer span { color: #687066; font-size: 10px; }
+.mylo-footer nav { display: flex; gap: 22px; }
+.mylo-footer a { min-height: 42px; display: inline-flex; align-items: center; color: #434c40; font-size: 10px; font-weight: 800; text-decoration: none; }
+
+/* MYLO widget: quieter, squarer and product-led rather than generic rounded-card UI. */
+html[data-brand="mylo"] .launcher { width: 68px; height: 68px; border-width: 1px; border-color: #d3d5cb; background: #f8f7f2; box-shadow: 0 19px 38px -25px rgba(30,38,30,.55); }
+html[data-brand="mylo"] .launcher .brand-logo--compact { width: 54px; height: 54px; padding: 6px; background: #f8f7f2; filter: grayscale(1) contrast(1.2); }
+html[data-brand="mylo"] .teaser { width: 292px; border-radius: 3px 3px 0 3px; border-color: #d3d5cb; box-shadow: 0 24px 48px -34px rgba(30,38,30,.5); }
+html[data-brand="mylo"] .teaser > button { border-radius: 2px; }
+html[data-brand="mylo"] .widget { width: 458px; height: min(726px, calc(100dvh - 36px)); border-radius: 8px; border-color: #d1d4c9; box-shadow: 0 34px 78px -40px rgba(25,32,25,.56); }
+html[data-brand="mylo"] .widget__header { height: 68px; }
+html[data-brand="mylo"] .widget__header .brand-logo { width: 104px; height: 44px; filter: grayscale(1) contrast(1.2); }
+html[data-brand="mylo"] .mode-switch { border-radius: 3px; background: #f0f1e9; }
+html[data-brand="mylo"] .mode-thumb { border-radius: 2px; background: #303930; box-shadow: none; }
+html[data-brand="mylo"] .mode-switch button { border-radius: 2px; }
+html[data-brand="mylo"] .handoff { border-radius: 8px 8px 8px 2px; box-shadow: none; }
+html[data-brand="mylo"] .handoff__icon { border-radius: 4px; background: #303930; }
+html[data-brand="mylo"] .quick-chips button { border-radius: 3px; }
+html[data-brand="mylo"] .composer { border-radius: 4px; }
+html[data-brand="mylo"] .composer button { border-radius: 3px; background: #303930; }
+html[data-brand="mylo"] .bubble { border-radius: 8px; }
+html[data-brand="mylo"] .bubble--bot { border-radius: 8px 8px 8px 2px; }
+html[data-brand="mylo"] .bubble--user { border-radius: 8px 8px 2px 8px; background: #303930; }
+html[data-brand="mylo"] .choice-grid button { border-radius: 4px; }
+html[data-brand="mylo"] .choice-grid button > span:last-child { border-radius: 2px; backdrop-filter: none; background: rgba(249,248,243,.94); }
+html[data-brand="mylo"] .result-card { border-radius: 5px; }
+html[data-brand="mylo"] .result-card img { border-radius: 2px; }
+html[data-brand="mylo"] .why { border-radius: 0 4px 4px 0; }
+
+@media (max-width: 1050px) {
+  .mylo-hero { grid-template-columns: minmax(0, .92fr) minmax(430px, 1.08fr); gap: 42px; }
+  .mylo-product-grid { grid-template-columns: repeat(3, 1fr); }
+  .mylo-product { border-right: 0; border-bottom: 1px solid #dfdfd7; }
+  .mylo-product:nth-child(n+4) { grid-template-rows: 260px minmax(165px, auto); }
+  .mylo-routine { grid-template-columns: 1fr; gap: 46px; }
+  .mylo-routine__intro { max-width: 650px; }
+}
+
+@media (max-width: 760px) {
+  html[data-brand="mylo"] .mylo-site.owner { min-height: 100dvh; padding: 0; overflow: visible; }
+  .mylo-header { width: calc(100% - 30px); height: 66px; }
+  .mylo-logo-button { width: 104px; height: 46px; }
+  .mylo-logo-button img { width: 102px; height: 44px; }
+  .mylo-nav { display: none; }
+  .mylo-menu { width: 44px; height: 44px; display: grid; place-items: center; padding: 0; border: 0; background: transparent; cursor: pointer; }
+  .mylo-menu svg { width: 21px; height: 21px; }
+  .mylo-mobile-nav {
+    position: absolute;
+    z-index: 12;
+    left: -15px;
+    right: -15px;
+    top: 65px;
+    display: grid;
+    padding: 8px 15px 16px;
+    border-bottom: 1px solid #d4d5cc;
+    background: #f7f6f1;
+    box-shadow: 0 18px 28px -28px rgba(25,30,24,.6);
+  }
+  .mylo-mobile-nav button, .mylo-mobile-nav a {
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2px;
+    border: 0;
+    border-bottom: 1px solid #dedfd7;
+    background: transparent;
+    color: #303730;
+    font-size: 12px;
+    font-weight: 750;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .mylo-mobile-nav a { border-bottom: 0; }
+
+  .mylo-hero {
+    width: calc(100% - 30px);
+    min-height: 0;
+    grid-template-columns: 1fr;
+    gap: 26px;
+    padding: 35px 0 42px;
+  }
+  .mylo-hero__copy { max-width: none; }
+  .mylo-hero h1 { max-width: 420px; margin-top: 12px; font-size: clamp(43px, 13vw, 58px); }
+  .mylo-hero__copy > p { margin-top: 17px; font-size: 14px; line-height: 1.55; }
+  .mylo-hero__actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 21px; }
+  .mylo-button { min-height: 47px; padding: 0 12px; font-size: 11px; }
+  .mylo-philosophy { margin-top: 24px; padding-top: 15px; }
+  .mylo-philosophy span { font-size: 11px; }
+  .mylo-hero__visual { height: 390px; }
+  .mylo-hero-product { left: 12px; right: 12px; bottom: 12px; width: auto; grid-template-columns: 60px 1fr 20px; min-height: 82px; }
+  .mylo-hero-product > img { width: 60px; height: 62px; }
+  .mylo-hero-product b { font-size: 17px; }
+
+  .mylo-products { padding: 46px 15px 55px; }
+  .mylo-section-head { align-items: start; margin-bottom: 22px; }
+  .mylo-section-head h2, .mylo-routine h2 { font-size: 34px; }
+  .mylo-section-head > a { display: none; }
+  .mylo-product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; }
+  .mylo-product, .mylo-product:nth-child(n+4) { grid-template-rows: 220px minmax(174px, auto); border: 1px solid #e0e1d9; }
+  .mylo-product:last-child { grid-column: 1 / -1; grid-template-columns: 41% 1fr; grid-template-rows: 210px; }
+  .mylo-product:last-child .mylo-product__copy { padding: 16px 12px; }
+  .mylo-product__image img { padding: 12px; }
+  .mylo-product__copy { padding: 13px 10px 10px; }
+  .mylo-product__copy h3 { font-size: 17px; }
+  .mylo-product__copy p { font-size: 10.5px; }
+
+  .mylo-routine { width: calc(100% - 30px); grid-template-columns: 1fr; gap: 38px; padding: 57px 0 62px; }
+  .mylo-routine__intro > p { font-size: 13px; }
+  .mylo-routine__steps article { min-height: 0; grid-template-columns: 36px 1fr; gap: 10px; padding: 19px 0; }
+  .mylo-routine__steps article > div { grid-template-columns: 1fr; gap: 8px; }
+  .mylo-routine__steps b { font-size: 18px; }
+  .mylo-routine__steps p { font-size: 11.5px; }
+  .mylo-routine__steps a, .mylo-routine__steps button { justify-content: flex-start; }
+
+  .mylo-footer { min-height: 0; padding: 25px 15px; align-items: start; }
+  .mylo-footer > div { display: grid; gap: 8px; }
+  .mylo-footer nav { display: grid; grid-template-columns: repeat(2, auto); gap: 0 16px; }
+  .mylo-footer a { min-height: 32px; }
+
+  html[data-brand="mylo"] .launcher-wrap { right: 13px; bottom: max(13px, env(safe-area-inset-bottom)); }
+  html[data-brand="mylo"] .launcher { width: 60px; height: 60px; }
+  html[data-brand="mylo"] .launcher .brand-logo--compact { width: 47px; height: 47px; }
+  html[data-brand="mylo"] .widget { width: 100%; height: 100dvh; max-height: none; border-radius: 0; }
+}
+
+@media (max-width: 380px) {
+  .mylo-hero__actions { grid-template-columns: 1fr; }
+  .mylo-hero__visual { height: 350px; }
+  .mylo-product, .mylo-product:nth-child(n+4) { grid-template-rows: 195px minmax(170px, auto); }
+  .mylo-product__copy h3 { font-size: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mylo-site *, .mylo-site *::before, .mylo-site *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
+}
