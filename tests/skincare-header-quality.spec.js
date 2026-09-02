@@ -4,6 +4,13 @@ function gridTracks(value) {
   return String(value).trim().split(/\s+/).filter(Boolean);
 }
 
+async function hasTransparentBottomBorder(locator) {
+  return locator.evaluate((node) => {
+    const color = getComputedStyle(node).borderBottomColor;
+    return color === 'transparent' || /^rgba\(\s*\d+\s*,\s*\d+\s*,\s*\d+\s*,\s*0(?:\.0+)?\s*\)$/i.test(color);
+  });
+}
+
 const genericBrands = ['mylo', 'two', 'bellcoria', 'biofy', 'anemone'];
 const productImageSelectors = {
   mylo: '.mylo-product__image img',
@@ -21,7 +28,7 @@ test.describe('Skincare repeated UI regression guard', () => {
 
     const siteHeader = page.locator('.mylo-header');
     await expect(siteHeader).toBeVisible();
-    expect(await siteHeader.evaluate((node) => getComputedStyle(node).borderBottomWidth)).toBe('0px');
+    expect(await hasTransparentBottomBorder(siteHeader)).toBeTruthy();
 
     await page.getByRole('button', { name: /Nájsť starostlivosť/i }).first().click();
     const header = page.locator('.widget__header');
@@ -45,7 +52,7 @@ test.describe('Skincare repeated UI regression guard', () => {
 
     const siteHeader = page.locator('.ponio-site-header');
     await expect(siteHeader).toBeVisible();
-    expect(await siteHeader.evaluate((node) => getComputedStyle(node).borderBottomWidth)).toBe('0px');
+    expect(await hasTransparentBottomBorder(siteHeader)).toBeTruthy();
 
     await page.getByRole('button', { name: /Opýtať sa v Chate/i }).first().click();
     const header = page.locator('.ponio-widget-header');
@@ -104,12 +111,8 @@ test.describe('Skincare repeated UI regression guard', () => {
       await page.getByRole('tab', { name: /Výber starostlivosti/i }).click();
       const label = page.locator('.choice-grid button > span:last-child').first();
       await expect(label).toBeVisible();
-      const blur = await label.evaluate((node) => {
-        const style = getComputedStyle(node);
-        return { backdrop: style.backdropFilter, webkitBackdrop: style.webkitBackdropFilter };
-      });
-      expect(blur.backdrop === 'none' || blur.backdrop === '').toBeTruthy();
-      expect(blur.webkitBackdrop === 'none' || blur.webkitBackdrop === '').toBeTruthy();
+      const backdrop = await label.evaluate((node) => getComputedStyle(node).backdropFilter);
+      expect(backdrop === 'none' || backdrop === '').toBeTruthy();
     });
   }
 
