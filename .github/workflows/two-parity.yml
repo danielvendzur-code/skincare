@@ -1,0 +1,68 @@
+name: TWO parity QA
+
+on:
+  push:
+    branches:
+      - agent/skincare-two-kava-parity
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: two-parity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+          run_install: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Install browsers
+        run: pnpm exec playwright install --with-deps chromium msedge
+      - name: Build
+        run: pnpm run build
+      - name: Family + TWO regression
+        run: pnpm exec playwright test tests/family.spec.js tests/two.spec.js
+      - name: Capture TWO visual QA
+        run: |
+          pnpm dev --host 127.0.0.1 --port 4173 > /tmp/two-vite.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID || true' EXIT
+          READY=0
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:4173/ukazka/two > /dev/null; then READY=1; break; fi
+            sleep 1
+          done
+          if [ "$READY" -ne 1 ]; then cat /tmp/two-vite.log; exit 1; fi
+          QA_BASE_URL=http://127.0.0.1:4173 node scripts/capture-two-qa.mjs
+      - name: Commit refreshed QA screenshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add artifacts/screenshots/two-*.png artifacts/screenshots/two-qa-board.html
+          if git diff --cached --quiet; then
+            echo "QA screenshots unchanged."
+          else
+            git commit -m "Refresh TWO visual QA [skip ci]"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi
+      - name: Upload TWO QA board
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: two-kava-parity-qa
+          path: artifacts/screenshots/two-*
+          if-no-files-found: warn
+          retention-days: 14
