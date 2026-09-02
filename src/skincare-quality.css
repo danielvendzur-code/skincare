@@ -1,0 +1,186 @@
+/*
+ * Final skincare UI quality pass.
+ * This file intentionally fixes repeated interaction/header regressions without
+ * changing any advisor question layout, scoring, breakpoint or product data.
+ */
+
+/* Shared widget header: no decorative divider on the five generic widgets. */
+html[data-brand="mylo"] .widget__header,
+html[data-brand="two"] .widget__header,
+html[data-brand="bellcoria"] .widget__header,
+html[data-brand="biofy"] .widget__header,
+html[data-brand="anemone"] .widget__header {
+  border-bottom: 0;
+}
+
+/* MYLO — calmer storefront/widget header and status beside the identity. */
+html[data-brand="mylo"] .mylo-header {
+  border-bottom-color: transparent;
+}
+
+html[data-brand="mylo"] .widget__header {
+  position: relative;
+  background: #f8f7f2;
+}
+
+html[data-brand="mylo"] .widget__header .brand-logo {
+  width: 112px;
+  max-width: 112px;
+  height: 46px;
+  filter: grayscale(1) contrast(1.14);
+}
+
+html[data-brand="mylo"] .widget__header::before {
+  content: "";
+  position: absolute;
+  left: 136px;
+  top: 50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #6d7d68;
+  transform: translateY(-50%);
+}
+
+html[data-brand="mylo"] .widget__header::after {
+  content: "Online";
+  position: absolute;
+  left: 147px;
+  top: 50%;
+  color: #687064;
+  font-size: 9.5px;
+  font-weight: 720;
+  letter-spacing: .01em;
+  line-height: 1;
+  transform: translateY(-50%);
+  white-space: nowrap;
+}
+
+html[data-brand="mylo"] .advisor-kicker { color: #5e6a58; }
+html[data-brand="mylo"] .advisor-view > p { color: #646d61; }
+html[data-brand="mylo"] .choice-copy b { color: #242b24; }
+html[data-brand="mylo"] .choice-copy small { color: #697166; font-weight: 600; }
+
+/* PONIO — one identity, no divider and status immediately beside the logo. */
+html[data-brand="ponio"] .ponio-site-header {
+  border-bottom-color: transparent;
+}
+
+html[data-brand="ponio"] .ponio-widget-header {
+  border-bottom: 0;
+  background: #fff;
+}
+
+html[data-brand="ponio"] .ponio-widget-brand { gap: 13px; }
+html[data-brand="ponio"] .ponio-widget-brand > .ponio-mark { width: 88px; height: 44px; }
+html[data-brand="ponio"] .ponio-widget-brand > span {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  border-left: 0;
+}
+html[data-brand="ponio"] .ponio-widget-brand strong { display: none; }
+html[data-brand="ponio"] .ponio-widget-brand small {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #687067;
+  font-size: 9.5px;
+  font-weight: 690;
+  white-space: nowrap;
+}
+html[data-brand="ponio"] .ponio-widget-brand small i {
+  width: 5px;
+  height: 5px;
+  background: #63846a;
+  box-shadow: none;
+}
+html[data-brand="ponio"] .ponio-advisor-label { color: #416848; }
+html[data-brand="ponio"] .ponio-advisor-body > p { color: #666c65; }
+html[data-brand="ponio"] .ponio-choice-grid small { color: #686e67; }
+html[data-brand="ponio"] .ponio-choice-grid button:hover,
+html[data-brand="ponio"] .ponio-choice-grid button.is-selected {
+  border-color: #819785;
+  background: #f1f5f0;
+}
+
+/*
+ * No image resampling on hover. The old scale animations could trigger a visible
+ * quality jump after the browser switched rasterization/compositing mode.
+ */
+html[data-brand="mylo"] .mylo-product__image img,
+html[data-brand="ponio"] .ponio-product-image img,
+html[data-brand="two"] .two-product-card__image img,
+html[data-brand="bellcoria"] .bellcoria-product__image img,
+html[data-brand="biofy"] .biofy-product__image img,
+html[data-brand="anemone"] .an-product__image img,
+html[data-brand="mylo"] .mylo-product__image:hover img,
+html[data-brand="ponio"] .ponio-product-card:hover .ponio-product-image img,
+html[data-brand="two"] .two-product-card__image:hover img,
+html[data-brand="bellcoria"] .bellcoria-product:hover .bellcoria-product__image img,
+html[data-brand="biofy"] .biofy-product:hover .biofy-product__image img,
+html[data-brand="anemone"] .an-product:hover .an-product__image img {
+  transform: none !important;
+  transition-property: none !important;
+  will-change: auto;
+}
+
+/* No frosted/blurred label layer at the bottom of advisor images. */
+html[data-brand="mylo"] .choice-grid button > span:last-child,
+html[data-brand="two"] .choice-grid button > span:last-child,
+html[data-brand="bellcoria"] .choice-grid button > span:last-child,
+html[data-brand="biofy"] .choice-grid button > span:last-child,
+html[data-brand="anemone"] .choice-grid button > span:last-child {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: none;
+}
+
+html[data-brand="mylo"] .choice-grid button > span:last-child {
+  border-color: rgba(67, 79, 64, .16);
+  background: rgba(247, 246, 241, .96);
+}
+
+/* Calm chip hover: tint + border change, never a dark fill animation. */
+html[data-brand="mylo"] .quick-chips button,
+html[data-brand="two"] .quick-chips button,
+html[data-brand="bellcoria"] .quick-chips button,
+html[data-brand="biofy"] .quick-chips button,
+html[data-brand="anemone"] .quick-chips button,
+html[data-brand="ponio"] .ponio-quick-questions button {
+  background-image: none !important;
+  transition: background-color .18s ease, border-color .18s ease, color .18s ease, transform .18s ease;
+}
+
+@media (hover:hover) and (pointer:fine) {
+  html[data-brand="mylo"] .quick-chips button:hover,
+  html[data-brand="two"] .quick-chips button:hover,
+  html[data-brand="bellcoria"] .quick-chips button:hover,
+  html[data-brand="biofy"] .quick-chips button:hover,
+  html[data-brand="anemone"] .quick-chips button:hover {
+    border-color: color-mix(in srgb, var(--accent) 55%, var(--line));
+    background: color-mix(in srgb, var(--soft) 86%, white);
+    color: var(--ink);
+    transform: translateY(-1px);
+  }
+
+  html[data-brand="ponio"] .ponio-quick-questions button:hover {
+    border-color: #829686;
+    background: #f0f4ef;
+    color: #2b382d;
+    transform: translateY(-1px);
+  }
+}
+
+@media (max-width: 760px) {
+  html[data-brand="mylo"] .widget__header::before { left: 128px; }
+  html[data-brand="mylo"] .widget__header::after { left: 139px; font-size: 9px; }
+  html[data-brand="ponio"] .ponio-widget-brand > .ponio-mark { width: 72px; height: 40px; }
+  html[data-brand="ponio"] .ponio-widget-brand small { font-size: 9px; }
+}
+
+@media (max-width: 340px) {
+  html[data-brand="mylo"] .widget__header::before,
+  html[data-brand="mylo"] .widget__header::after,
+  html[data-brand="ponio"] .ponio-widget-brand > span { display: none; }
+}
