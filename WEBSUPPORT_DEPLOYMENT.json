@@ -1,0 +1,25 @@
+{
+  "scope": "current-skincare-six-only",
+  "sourceBranch": "ops/websupport-subdomains-20260915",
+  "build": "pnpm install --frozen-lockfile && pnpm build",
+  "upload": "dist/",
+  "sharedDocumentRoot": "skincare-showcases",
+  "domains": [
+    "mylo.mojchatbot.sk",
+    "ponio.mojchatbot.sk",
+    "two.mojchatbot.sk",
+    "bellcoria.mojchatbot.sk",
+    "biofy.mojchatbot.sk",
+    "anemone.mojchatbot.sk"
+  ],
+  "rules": {
+    "oneShowcasePerSubdomain": true,
+    "allDomainsUseSameDocumentRoot": true,
+    "hostSelectsBrandAtRoot": true,
+    "keepExistingPathRoutesWorking": true,
+    "doNotTouchCyprianus": true,
+    "doNotDeployOtherHistoricalSkincareBrands": true,
+    "doNotModifyVercel": true,
+    "doNotModifyExistingMojchatbotRoutes": true
+  }
+}
