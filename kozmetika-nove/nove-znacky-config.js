@@ -77,6 +77,24 @@
         {id:'pure',name:'my pure skin – nepenivý čistiaci gél',price:'29,90 €',url:'https://www.mymkech.com/my-pure-skin/',photo:photo('mymkech','pure'),tags:['oily','balanced','basic','full'],reason:'Nepenivý gél s extraktom vŕby a juky jemne čistí bez vysušenia a šetrí mikrobióm pleti — základ každej rutiny.'},
         {id:'rose',name:'ROSE – ružový hydrolát',price:'12,90 €',url:'https://www.mymkech.com/rose/',photo:photo('mymkech','rose'),tags:['balanced','hydrate','basic','any'],reason:'Kvetinová voda z ruže jemne prebudí unavenú a mdlú pleť — ľahký krok medzi čistením a sérom pre všetky typy pleti.'}
       ]
+    },
+    anela: {
+      name:'Anela', domain:'anela.cz', website:'https://www.anela.cz/',
+      theme:{brand:'#6f4a47',accent:'#a8645c',soft:'#f6ece7',paper:'#fffcfa',ink:'#2f2322',line:'#ecdcd5'},
+      wordmark:logo('anela','ANELA'),
+      hero:'/assets/cosmetics/anela.jpg', mark:'/assets/cosmetics/anela-mark.png',
+      ownerNote:'Bezstarostný motýl, Půlnoční teenka, Růžové z nebe — krásne mená, z ktorých zákazníčka nevyčíta, ktoré je pre jej pleť.',
+      benefit:['Z Motýľa, Teenky a Krásy tú správnu radu','Výber podľa pleti, ako ju delí Anela','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'motyl',name:'Bezstarostný motýl – olejové sérum pre suchú a citlivú pleť 30 ml',price:'820 Kč',url:'https://www.anela.cz/pletova-sera/bezstarostny-motyl-olejove-serum-se-zlatou-rasou-pro-suchou-citlivou-plet/',photo:photo('anela','motyl'),tags:['sensitive','dry','calm','oil','target'],reason:'Výživné oleje s extraktmi z ovsa a zlatej riasy upokoja pnutie, začervenanie a šupinky suchej a citlivej pleti.'},
+        {id:'teenka',name:'Bezstarostná teenka – olejové sérum s CBD pre mastnú pleť 30 ml',price:'820 Kč',url:'https://www.anela.cz/pletova-sera/bezstarostna-teenka-olejove-serum-s-cbd-pro-mastnou-problematickou-plet/',photo:photo('anela','teenka'),tags:['oily','clarity','oil','target'],reason:'CBD, vitamín C a šípok so suchými olejmi upokoja podráždenie a nedokonalosti mastnej pleti bez zaťaženia.'},
+        {id:'krasa',name:'Bezstarostná krása – olejové anti-age sérum s bakuchiolom 30 ml',price:'820 Kč',url:'https://www.anela.cz/pletova-sera/bezstarostna-krasa-olejove-antiage-serum-s-bakuchiolem-pro-zralou-plet/',photo:photo('anela','krasa'),tags:['mature','dry','oil','full','target'],reason:'Trinásť olejov s bakuchiolom a vitamínom C dodá zrelej a unavenej pleti výživu, jednotný tón a stratenú silu.'},
+        {id:'ruzove',name:'Růžové z nebe – hydratačné sérum pre všetky typy pleti 30 ml',price:'950 Kč',url:'https://www.anela.cz/hydratace/ruzove-z-nebe-hydratacni-serum-pro-vsechny-typy-pleti/',photo:photo('anela','ruzove'),tags:['balanced','dry','hydrate','serum','simple','basic','any'],reason:'Dvojmolekulárna kyselina hyalurónová a polysacharidy — príval hydratácie, ktorý pleť vypne, vyhladí a zjednotí.'},
+        {id:'pmotyl',name:'Půlnoční motýl – upokojujúci nočný balzam 30 ml',price:'1 590 Kč',url:'https://www.anela.cz/pletove-kremy/pulnocni-motyl-zklidnujici-nocni-balzam-se-zlatou-rasou-pro-suchou-citlivou-plet/',photo:photo('anela','pmotyl'),tags:['sensitive','dry','calm','cream','simple','basic'],reason:'Vzácne maslá a oleje so zlatou riasou cez noc upokoja svrbenie a pnutie citlivej pleti a vrátia jej silu.'},
+        {id:'pkrasa',name:'Půlnoční krása – anti-age nočný balzam 30 ml',price:'1 590 Kč',url:'https://www.anela.cz/pletove-kremy/pulnocni-krasa-antiage-nocni-balzam-pro-zralou-a-unavenou-plet/',photo:photo('anela','pkrasa'),tags:['mature','dry','cream','full','simple'],reason:'Oleje s kyselinou hyalurónovou, bakuchiolom a vitamínom C cez noc rozjasnia, zjednotia a vyhladia zrelú pleť.'},
+        {id:'pteenka',name:'Půlnoční teenka – regeneračný nočný balzam s CBD 30 ml',price:'1 590 Kč',url:'https://www.anela.cz/pletove-kremy/pulnocni-teenka-regeneracni-nocni-balzam-s-cbd-pro-problematickou-mastnou-plet/',photo:photo('anela','pteenka'),tags:['oily','clarity','cream','basic'],reason:'Ľahké maslá a suché oleje s CBD a bakuchiolom — nočná starostlivosť pre mastnú pleť s prvými vráskami.'},
+        {id:'pena',name:'Očistím tvář – čistiaca pena pre všetky typy pleti 100 ml',price:'350 Kč',url:'https://www.anela.cz/cisteni-a-odlicovani-pleti/ocistim-tvar-cistici-pena-pro-vsechny-typy-pleti/',photo:photo('anela','pena'),tags:['balanced','oily','basic','full'],reason:'Nadýchaná bylinná pena ráno aj večer zbaví pleť nečistôt aj zvyškov odličovača — základ pre ďalšiu výživu.'}
+      ]
     }
   });
 })();

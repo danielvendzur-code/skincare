@@ -78,3 +78,23 @@ nedostupný, preto chýba.
 | my vital skin – regeneračné olejové sérum | 32,90 € | https://www.mymkech.com/my-vital-skin/ |
 | my pure skin – nepenivý čistiaci gél | 29,90 € | https://www.mymkech.com/my-pure-skin/ |
 | ROSE – ružový hydrolát | 12,90 € | https://www.mymkech.com/rose/ |
+
+## ANELA — anela.cz
+
+Česká rodinná manufaktúra ručne vyrábanej prírodnej kozmetiky, e-shop na
+Shoptete s kategóriami podľa typu pleti (rady Motýl – suchá a citlivá,
+Teenka – mastná, Krása – zrelá). anela.sk patrí inej firme, preto ceny
+sú v Kč z anela.cz (ako pri pôvodnej ukážke TWO). Farby z webu: prachovo
+ružová, broskyňový akvarel, krémové plochy. Logo zo SVG na webe.
+Ceny sú za uvedené balenie (varianty podľa kódu produktu).
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Bezstarostný motýl – olejové sérum 30 ml | 820 Kč | https://www.anela.cz/pletova-sera/bezstarostny-motyl-olejove-serum-se-zlatou-rasou-pro-suchou-citlivou-plet/ |
+| Bezstarostná teenka – olejové sérum s CBD 30 ml | 820 Kč | https://www.anela.cz/pletova-sera/bezstarostna-teenka-olejove-serum-s-cbd-pro-mastnou-problematickou-plet/ |
+| Bezstarostná krása – olejové anti-age sérum 30 ml | 820 Kč | https://www.anela.cz/pletova-sera/bezstarostna-krasa-olejove-antiage-serum-s-bakuchiolem-pro-zralou-plet/ |
+| Růžové z nebe – hydratačné sérum 30 ml | 950 Kč | https://www.anela.cz/hydratace/ruzove-z-nebe-hydratacni-serum-pro-vsechny-typy-pleti/ |
+| Půlnoční motýl – nočný balzam 30 ml | 1 590 Kč | https://www.anela.cz/pletove-kremy/pulnocni-motyl-zklidnujici-nocni-balzam-se-zlatou-rasou-pro-suchou-citlivou-plet/ |
+| Půlnoční krása – nočný balzam 30 ml | 1 590 Kč | https://www.anela.cz/pletove-kremy/pulnocni-krasa-antiage-nocni-balzam-pro-zralou-a-unavenou-plet/ |
+| Půlnoční teenka – nočný balzam s CBD 30 ml | 1 590 Kč | https://www.anela.cz/pletove-kremy/pulnocni-teenka-regeneracni-nocni-balzam-s-cbd-pro-problematickou-mastnou-plet/ |
+| Očistím tvář – čistiaca pena 100 ml | 350 Kč | https://www.anela.cz/cisteni-a-odlicovani-pleti/ocistim-tvar-cistici-pena-pro-vsechny-typy-pleti/ |

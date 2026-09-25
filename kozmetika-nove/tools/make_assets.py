@@ -43,8 +43,13 @@ def fit_on(img, size, box, color=(255, 255, 255), dy=0):
     return canvas
 
 def packshot(src, target, box=(600, 860)):
-    img = trim(flat(Image.open(src)))
-    fit_on(img, (760, 1095), box).save(target, quality=90, optimize=True)
+    """Canvas takes the photo's own backdrop colour, so a studio grey never
+    leaves a lighter frame around the product."""
+    source = flat(Image.open(src))
+    backdrop = source.getpixel((1, 1))
+    img = trim(source)
+    img.backdrop = backdrop
+    fit_on(img, (760, 1095), box, color=backdrop).save(target, quality=90, optimize=True)
     return img
 
 def padded(box, size, pad=3):
@@ -71,7 +76,7 @@ def hero(shots, soft, target):
     canvas = Image.new('RGB', (1000, 1120), soft)
     spots = [(50, 80), (515, 80), (50, 605), (515, 605)]
     for img, spot in zip(shots, spots):
-        canvas.paste(fit_on(img, (435, 435), (290, 340)), spot)
+        canvas.paste(fit_on(img, (435, 435), (290, 340), color=getattr(img, 'backdrop', (255, 255, 255))), spot)
     canvas.save(target, quality=90, optimize=True)
 
 if __name__ == '__main__':
