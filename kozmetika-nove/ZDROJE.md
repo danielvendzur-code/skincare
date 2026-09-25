@@ -117,3 +117,22 @@ zverejnené), symbol K v launcheri.
 | Aura – denný ochranný krém SPF 20, 50 ml | 82,90 € | https://www.klararott.sk/aura-denny-ochranny-krem-s-spf-20-e820.htm |
 | Kľud – bylinné tonikum 100 ml | 65,40 € | https://www.klararott.sk/klud-upokojujuce-bylinne-tonikum-e666.htm |
 | Sviežosť – hydrolát levanduľa 100 ml | 24,60 € | https://www.klararott.sk/sviezost-hydrolat-levandula-e669.htm |
+
+## YAGE Organics — yageorganics.cz
+
+Česká značka luxusnej prírodnej kozmetiky s rituálom v desiatich
+očíslovaných krokoch, e-shop na Shoptete (len Kč). Vybrané sú produkty
+skladom (nočné sérum a krém „Longevity“ sú „Již brzy“). Z packshotov sú
+odstránené odznaky ocenení (biele kruhy len v ich rozsahu), aby koláž a
+výsledok ukazovali čisté balenie. Farby z webu: čierna, krémová, zlatohnedá.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| č. 4 AQUA SPLASH – hydratačná esencia | 2 899 Kč | https://www.yageorganics.cz/c--4-hydratacni-esence-s-multi-molekularni-kh-a-niacinamidem/ |
+| č. 1 VELVET TOUCH – umývací gél | 1 399 Kč | https://www.yageorganics.cz/c--1-myci-gel-velvet-touch/ |
+| č. 6 AU REVOIR WRINKLES – krém s platinou 30 ml | 4 990 Kč | https://www.yageorganics.cz/c--6--komplexni-well-aging-krem-s-platinou/ |
+| č. 6 SLEEPING BEAUTY – nočné olejové sérum | 1 980 Kč | https://www.yageorganics.cz/c--6-nocni-pletovy-olej-proti-vraskam-sleeping-beauty/ |
+| č. 5 HELLO BEAUTIFUL – liftingové sérum | 3 550 Kč | https://www.yageorganics.cz/no-5-serum-hello-beautiful/ |
+| č. 3 SEA WAVE – Cica tonikum | 1 599 Kč | https://www.yageorganics.cz/c--3-zklidnujici-cica-tonikum/ |
+| č. 6 MYSTIC TANSY BLUE – nočný balzam | 1 980 Kč | https://www.yageorganics.cz/c--6-nocni-pecujici-balzam-krasy-mystic-tansy-blue/ |
+| č. 7 SOS MIRACLE – lokálna starostlivosť | 1 299 Kč | https://www.yageorganics.cz/c--7-lokalni-pece-na-pupinky-sos-miracle/ |

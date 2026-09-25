@@ -113,6 +113,24 @@
         {id:'klud',name:'Kľud – vyrovnávacie bylinné tonikum 100 ml',price:'65,40 €',url:'https://www.klararott.sk/klud-upokojujuce-bylinne-tonikum-e666.htm',photo:photo('klararott','klud'),tags:['oily','clarity','calm','full'],reason:'Bylinné tonikum pre problematickú pleť — dočistí ju a vyrovná po umytí, aby sérum lepšie zabralo.'},
         {id:'levandula',name:'Sviežosť – hydrolát levanduľa 100 ml',price:'24,60 €',url:'https://www.klararott.sk/sviezost-hydrolat-levandula-e669.htm',photo:photo('klararott','levandula'),tags:['sensitive','calm','basic','target'],reason:'Bio kvetinová voda z levandule z vlastnej destilácie v koncentrácii 1:10 — jemné upokojenie citlivej pleti.'}
       ]
+    },
+    yage: {
+      name:'YAGE', domain:'yageorganics.cz', website:'https://www.yageorganics.cz/',
+      theme:{brand:'#1b1a19',accent:'#8a6c42',soft:'#f3efe8',paper:'#fdfcf9',ink:'#1b1a19',line:'#e4ddd1'},
+      wordmark:logo('yage','YAGE Organics'),
+      hero:'/assets/cosmetics/yage.jpg', mark:'/assets/cosmetics/yage-logo.png', markWide:true,
+      ownerNote:'Rituál v desiatich očíslovaných krokoch — zákazníčka nevie, ktoré čísla potrebuje práve jej pleť a ktoré môže vynechať.',
+      benefit:['Z desiatich krokov tie, ktoré pleť potrebuje','Výber podľa pleti, nie podľa čísla na krabičke','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'aqua',name:'č. 4 AQUA SPLASH – hydratačná esencia s niacínamidom',price:'2 899 Kč',url:'https://www.yageorganics.cz/c--4-hydratacni-esence-s-multi-molekularni-kh-a-niacinamidem/',photo:photo('yage','aqua'),tags:['balanced','dry','hydrate','serum','simple','basic','any'],reason:'Kyselina hyalurónová v celom spektre molekulových hmotností so spirulinou — hĺbková hydratácia pre každý typ pleti.'},
+        {id:'velvet',name:'č. 1 VELVET TOUCH – šetrný umývací gél',price:'1 399 Kč',url:'https://www.yageorganics.cz/c--1-myci-gel-velvet-touch/',photo:photo('yage','velvet'),tags:['sensitive','dry','basic','full'],reason:'Málo penivý gél s bio éterickými olejmi a rastlinnými extraktmi, vytvorený s ohľadom na citlivú a suchú pleť.'},
+        {id:'aurevoir',name:'č. 6 AU REVOIR WRINKLES – well-aging krém s platinou 30 ml',price:'4 990 Kč',url:'https://www.yageorganics.cz/c--6--komplexni-well-aging-krem-s-platinou/',photo:photo('yage','aurevoir'),tags:['mature','dry','cream','simple','full'],reason:'Komplexný krém s platinou posilní mikrobióm a postará sa o vrásky, tonus, bariéru aj hydratáciu zrelej pleti.'},
+        {id:'sleeping',name:'č. 6 SLEEPING BEAUTY – nočné olejové sérum s retinolom',price:'1 980 Kč',url:'https://www.yageorganics.cz/c--6-nocni-pletovy-olej-proti-vraskam-sleeping-beauty/',photo:photo('yage','sleeping'),tags:['mature','dry','oil','target','full'],reason:'Pätnásť rastlinných olejov s planktónom a retinolom — nočný olej, ktorý viditeľne zjemňuje vrásky.'},
+        {id:'hello',name:'č. 5 HELLO BEAUTIFUL – liftingové sérum s kolagénom a peptidmi',price:'3 550 Kč',url:'https://www.yageorganics.cz/no-5-serum-hello-beautiful/',photo:photo('yage','hello'),tags:['mature','balanced','serum','target','basic'],reason:'Omladzujúce sérum s brusnicou a opunciou proti vráskam aj modrému svetlu — cielený liftingový krok.'},
+        {id:'cica',name:'č. 3 SEA WAVE – upokojujúce Cica tonikum',price:'1 599 Kč',url:'https://www.yageorganics.cz/c--3-zklidnujici-cica-tonikum/',photo:photo('yage','cica'),tags:['sensitive','calm','basic','target'],reason:'Kvetinová voda z damascénskej ruže s centellou a morskými riasami — upokojí precitlivenú, začervenanú pleť.'},
+        {id:'tansy',name:'č. 6 MYSTIC TANSY BLUE – nočný upokojujúci balzam',price:'1 980 Kč',url:'https://www.yageorganics.cz/c--6-nocni-pecujici-balzam-krasy-mystic-tansy-blue/',photo:photo('yage','tansy'),tags:['sensitive','oily','calm','cream','simple','basic'],reason:'Marocký harmanček, baobab a marula hydratujú a upokoja citlivú, začervenanú, podráždenú aj aknóznu pleť.'},
+        {id:'sos',name:'č. 7 SOS MIRACLE – lokálna starostlivosť na pupienky',price:'1 299 Kč',url:'https://www.yageorganics.cz/c--7-lokalni-pece-na-pupinky-sos-miracle/',photo:photo('yage','sos'),tags:['oily','clarity','oil','target'],reason:'Koncentrovaná zmes olejov s bakuchiolom a tea tree na cielenú bodovú starostlivosť o nedokonalosti.'}
+      ]
     }
   });
 })();
