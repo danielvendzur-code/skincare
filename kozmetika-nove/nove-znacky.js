@@ -9,7 +9,14 @@
   const slug = document.body?.dataset?.cosmeticsDemo;
   const brand = window.COSMETICS_DEMOS?.brands?.[slug];
   const launcher = document.querySelector('#cx-open');
-  if (!brand || !brand.mark || !launcher) return;
+  if (!brand) return;
+
+  /* A logo drawn on its own badge (Mymkech) would turn into a white disc in
+     the brand-coloured widget header; such brands name a flat version. */
+  const headerLogo = document.querySelector('.cx-widget-brand > img.cx-logo');
+  if (brand.headerLogo && headerLogo) headerLogo.src = brand.headerLogo;
+
+  if (!brand.mark || !launcher) return;
 
   document.body.dataset.cxNewMark = 'true';
   /* A masked span, not an <img>: skincare-launcher-logo-fix.js swaps any

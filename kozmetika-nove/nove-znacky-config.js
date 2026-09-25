@@ -60,6 +60,23 @@
         {id:'bakuchiol',name:'BAKUCHIOL – olejové pleťové sérum s 1 % bakuchiolom',price:'23,50 €',url:'https://www.namy.sk/obchod/pletove-sera/pletove-serum-s-bakuchiolom/',photo:photo('namy','bakuchiol'),tags:['mature','dry','oil','target','full'],reason:'Olejové sérum s 1 % bakuchiolu zlepšuje pevnosť a podporuje regeneráciu — pár kvapiek na noc pre zrelšiu pleť.'},
         {id:'hydra',name:'HYDRA – gélová hydratačná esencia',price:'25,50 €',url:'https://www.namy.sk/obchod/hydratacne-esencie/hydra-hydratacna-esencia/',photo:photo('namy','hydra'),tags:['oily','balanced','hydrate','basic','full'],reason:'Gélová esencia – toner okamžite hydratuje, obnoví rovnováhu pleti a pripraví ju na sérum či krém.'}
       ]
+    },
+    mymkech: {
+      name:'Mymkech', domain:'mymkech.com', website:'https://www.mymkech.com/',
+      theme:{brand:'#4a3368',accent:'#d24f5e',soft:'#efeaf6',paper:'#fdfcff',ink:'#261c33',line:'#e2dcee'},
+      wordmark:logo('mymkech','mymkech'),
+      hero:'/assets/cosmetics/mymkech.jpg', mark:'/assets/cosmetics/mymkech-mark.png', headerLogo:'/assets/cosmetics/mymkech-logo-flat.png',
+      ownerNote:'Produkty s menami ako my barrier boost, my vital skin či my skin comfort a tri systémy pleti — zákazník potrebuje vedieť, ktorý je ten jeho.',
+      benefit:['Z troch systémov ten, ktorý sadne pleti','Výber podľa pleti, nie podľa názvu na fľaštičke','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'barrier',name:'my barrier boost – krém na obnovu kožnej bariéry',price:'20,90 €',url:'https://www.mymkech.com/my-barrier-boost/',photo:photo('mymkech','barrier'),tags:['sensitive','dry','calm','hydrate','cream','simple','basic'],reason:'Prebiotický krém s aurafirmom a astaxantínom vyživí a chráni pleť so začervenaním a oslabenou bariérou — jeden spoľahlivý krok.'},
+        {id:'acne',name:'my acne control – olejové sérum',price:'32,90 €',url:'https://www.mymkech.com/my-acne-control/',photo:photo('mymkech','acne'),tags:['oily','clarity','oil','target'],reason:'Nekomedogénne olejové sérum so skvalánom a bakuchiolom — upokojí a vyživí mastnú, zmiešanú aj aknóznu pleť bez upchávania pórov.'},
+        {id:'repair',name:'my true repair – regeneračné krémové sérum',price:'34,90 €',url:'https://www.mymkech.com/my-true-repair/',photo:photo('mymkech','repair'),tags:['mature','dry','hydrate','serum','full','target'],reason:'Krémové sérum s platinou a baikalínom pre hĺbkovú hydratáciu a regeneráciu — cielený krok pre zrelšiu pleť proti vráskam.'},
+        {id:'comfort',name:'my skin comfort – upokojujúce krémové sérum',price:'34,90 €',url:'https://www.mymkech.com/pletove-serum-my-skin-comfort/',photo:photo('mymkech','comfort'),tags:['sensitive','oily','calm','clarity','serum','basic'],reason:'Sérum s ektoínom a amarasense upokojí problematickú pleť a vráti jej komfort a rovnováhu.'},
+        {id:'vital',name:'my vital skin – regeneračné olejové sérum',price:'32,90 €',url:'https://www.mymkech.com/my-vital-skin/',photo:photo('mymkech','vital'),tags:['balanced','dry','hydrate','oil','simple'],reason:'Olejové sérum s olejmi z guavy a sacha inchi zmení unavenú, drsnú pleť na rozžiarenú, hebkú a hydratovanú.'},
+        {id:'pure',name:'my pure skin – nepenivý čistiaci gél',price:'29,90 €',url:'https://www.mymkech.com/my-pure-skin/',photo:photo('mymkech','pure'),tags:['oily','balanced','basic','full'],reason:'Nepenivý gél s extraktom vŕby a juky jemne čistí bez vysušenia a šetrí mikrobióm pleti — základ každej rutiny.'},
+        {id:'rose',name:'ROSE – ružový hydrolát',price:'12,90 €',url:'https://www.mymkech.com/rose/',photo:photo('mymkech','rose'),tags:['balanced','hydrate','basic','any'],reason:'Kvetinová voda z ruže jemne prebudí unavenú a mdlú pleť — ľahký krok medzi čistením a sérom pre všetky typy pleti.'}
+      ]
     }
   });
 })();

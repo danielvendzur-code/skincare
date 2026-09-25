@@ -38,3 +38,6 @@ body[data-cx-new-mark] .cx-message-avatar .cx-new-mark--wide {
 body[data-cosmetics-demo="yemna"] .cx-owner-brand .cx-logo {
   max-height: 56px !important;
 }
+body[data-cosmetics-demo="mymkech"] .cx-owner-brand .cx-logo {
+  max-height: 62px !important;
+}

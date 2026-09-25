@@ -58,3 +58,23 @@ textové; zachytené z hlavičky webu a prevedené na priehľadné PNG.
 | LIFT + FILL pleťový krém s liftingovým efektom | 27,90 € | https://www.namy.sk/obchod/pletove-kremy/lift-fill-krem-proti-vraskam/ |
 | BAKUCHIOL – olejové pleťové sérum s 1 % bakuchiolom | 23,50 € | https://www.namy.sk/obchod/pletove-sera/pletove-serum-s-bakuchiolom/ |
 | HYDRA – gélová hydratačná esencia | 25,50 € | https://www.namy.sk/obchod/hydratacne-esencie/hydra-hydratacna-esencia/ |
+
+## Mymkech — mymkech.com
+
+Slovenská značka pleťovej kozmetiky zakladateľky Mirky („Metóda zdravej
+pleti“, tri ucelené systémy), vlastný e-shop na Shoptete a predajňa.
+Farby z webu: fialový odznak `#7e5f9a`, žltá vlnka, levanduľové plochy,
+koralová etiketa my barrier boost. Na stránke je originálny odznak,
+v hlavičke widgetu jeho plochá verzia (vlnka + nápis), v launcheri vlnka.
+Ceny sú z detailu produktu (`price-final-holder`); my perfect balance bol
+nedostupný, preto chýba.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| my barrier boost – krém na obnovu kožnej bariéry | 20,90 € | https://www.mymkech.com/my-barrier-boost/ |
+| my acne control – olejové sérum | 32,90 € | https://www.mymkech.com/my-acne-control/ |
+| my true repair – regeneračné krémové sérum | 34,90 € | https://www.mymkech.com/my-true-repair/ |
+| my skin comfort – upokojujúce krémové sérum | 34,90 € | https://www.mymkech.com/pletove-serum-my-skin-comfort/ |
+| my vital skin – regeneračné olejové sérum | 32,90 € | https://www.mymkech.com/my-vital-skin/ |
+| my pure skin – nepenivý čistiaci gél | 29,90 € | https://www.mymkech.com/my-pure-skin/ |
+| ROSE – ružový hydrolát | 12,90 € | https://www.mymkech.com/rose/ |
