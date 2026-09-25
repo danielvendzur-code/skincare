@@ -23,3 +23,9 @@ body[data-cx-new-mark] .cx-message-avatar .cx-new-mark {
   width: 22px !important;
   height: 22px !important;
 }
+
+/* Stacked logos (symbol above the name) need more height than wide wordmarks
+   to read at the same size. */
+body[data-cosmetics-demo="yemna"] .cx-owner-brand .cx-logo {
+  max-height: 56px !important;
+}

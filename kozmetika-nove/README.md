@@ -25,6 +25,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | značka | e-shop | ukážka |
 | --- | --- | --- |
 | Dulcia natural | [dulcia.sk](https://www.dulcia.sk/) | `/dulcia/` · `dulcia.mojchatbot.sk` |
+| Yemna cosmetics | [yemna.sk](https://www.yemna.sk/) | `/yemna/` · `yemna.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 

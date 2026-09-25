@@ -68,7 +68,7 @@ def hero(shots, soft, target):
     canvas = Image.new('RGB', (1000, 1120), soft)
     spots = [(50, 80), (515, 80), (50, 605), (515, 605)]
     for img, spot in zip(shots, spots):
-        canvas.paste(fit_on(img, (435, 435), (330, 360)), spot)
+        canvas.paste(fit_on(img, (435, 435), (290, 340)), spot)
     canvas.save(target, quality=90, optimize=True)
 
 if __name__ == '__main__':
