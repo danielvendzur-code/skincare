@@ -98,3 +98,22 @@ Ceny sú za uvedené balenie (varianty podľa kódu produktu).
 | Půlnoční krása – nočný balzam 30 ml | 1 590 Kč | https://www.anela.cz/pletove-kremy/pulnocni-krasa-antiage-nocni-balzam-pro-zralou-a-unavenou-plet/ |
 | Půlnoční teenka – nočný balzam s CBD 30 ml | 1 590 Kč | https://www.anela.cz/pletove-kremy/pulnocni-teenka-regeneracni-nocni-balzam-s-cbd-pro-problematickou-mastnou-plet/ |
 | Očistím tvář – čistiaca pena 100 ml | 350 Kč | https://www.anela.cz/cisteni-a-odlicovani-pleti/ocistim-tvar-cistici-pena-pro-vsechny-typy-pleti/ |
+
+## Klara Rott — klararott.sk
+
+Česká značka prírodnej kozmetiky s vlastnou výrobou (aj pre salóny a
+hotely), slovenský e-shop v € s kategóriami podľa typu pleti. Prémiové
+ceny sú overené na detaile produktu. Farby z webu: olivová lišta a
+nadpisy, krémové plochy. Logo z PNG na webe (vyššie rozlíšenie nie je
+zverejnené), symbol K v launcheri.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Harmónia – vyživujúce sérum 25 ml | 116,70 € | https://www.klararott.sk/harmonia-vyzivujuce-serum-e656.htm |
+| Harmónia – vyrovnávacie sérum 25 ml | 116,70 € | https://www.klararott.sk/harmonia-vyrovnavacie-serum-e655.htm |
+| Harmónia – anti-aging sérum 25 ml | 116,70 € | https://www.klararott.sk/harmonia-anti-aging-serum-e654.htm |
+| Nádych – hydratačný liftingový fluid 30 ml | 91,30 € | https://www.klararott.sk/nadych-hydratacny-liftingovy-fluid-e692.htm |
+| BalanceCream – lipozomálny krém 50 ml | 137,10 € | https://www.klararott.sk/balancecream-lipozomalny-krem-proti-starnutiu-pleti-e811.htm |
+| Aura – denný ochranný krém SPF 20, 50 ml | 82,90 € | https://www.klararott.sk/aura-denny-ochranny-krem-s-spf-20-e820.htm |
+| Kľud – bylinné tonikum 100 ml | 65,40 € | https://www.klararott.sk/klud-upokojujuce-bylinne-tonikum-e666.htm |
+| Sviežosť – hydrolát levanduľa 100 ml | 24,60 € | https://www.klararott.sk/sviezost-hydrolat-levandula-e669.htm |

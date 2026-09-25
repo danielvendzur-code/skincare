@@ -95,6 +95,24 @@
         {id:'pteenka',name:'Půlnoční teenka – regeneračný nočný balzam s CBD 30 ml',price:'1 590 Kč',url:'https://www.anela.cz/pletove-kremy/pulnocni-teenka-regeneracni-nocni-balzam-s-cbd-pro-problematickou-mastnou-plet/',photo:photo('anela','pteenka'),tags:['oily','clarity','cream','basic'],reason:'Ľahké maslá a suché oleje s CBD a bakuchiolom — nočná starostlivosť pre mastnú pleť s prvými vráskami.'},
         {id:'pena',name:'Očistím tvář – čistiaca pena pre všetky typy pleti 100 ml',price:'350 Kč',url:'https://www.anela.cz/cisteni-a-odlicovani-pleti/ocistim-tvar-cistici-pena-pro-vsechny-typy-pleti/',photo:photo('anela','pena'),tags:['balanced','oily','basic','full'],reason:'Nadýchaná bylinná pena ráno aj večer zbaví pleť nečistôt aj zvyškov odličovača — základ pre ďalšiu výživu.'}
       ]
+    },
+    klararott: {
+      name:'Klara Rott', domain:'klararott.sk', website:'https://www.klararott.sk/',
+      theme:{brand:'#4d5020',accent:'#7a6d1c',soft:'#f2f0e4',paper:'#fdfcf8',ink:'#23241a',line:'#e3e0cf'},
+      wordmark:logo('klararott','KLARA ROTT'),
+      hero:'/assets/cosmetics/klararott.jpg', mark:'/assets/cosmetics/klararott-mark.png',
+      ownerNote:'Harmónia, Nádych, Kľud či Aura — séria sér a krémov, ktoré sa líšia typom pleti aj vekom; zákazníčka potrebuje vedieť, ktorá je jej.',
+      benefit:['Z troch sér Harmónia to pravé','Výber podľa pleti, ako to robí kozmetička','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'vyziv',name:'Harmónia – vyživujúce sérum 25 ml',price:'116,70 €',url:'https://www.klararott.sk/harmonia-vyzivujuce-serum-e656.htm',photo:photo('klararott','vyziv'),tags:['balanced','dry','hydrate','serum','simple','basic'],reason:'Dvojzložkové koncentrované sérum pre mladú pleť 25+ — vyživí, hydratuje a predchádza tvorbe prvých vrások.'},
+        {id:'vyrov',name:'Harmónia – vyrovnávacie sérum 25 ml',price:'116,70 €',url:'https://www.klararott.sk/harmonia-vyrovnavacie-serum-e655.htm',photo:photo('klararott','vyrov'),tags:['oily','clarity','serum','target'],reason:'Sérum vytvorené pre problematickú pleť so sklonom k akné — vyrovná ju bez zaťaženia.'},
+        {id:'antiage',name:'Harmónia – anti-aging sérum 25 ml',price:'116,70 €',url:'https://www.klararott.sk/harmonia-anti-aging-serum-e654.htm',photo:photo('klararott','antiage'),tags:['mature','serum','full','target'],reason:'Sérum pre zrelú pleť 45+ s 38 biologicky aktívnymi látkami — redukuje vrásky, vypína a dodá výživu aj hydratáciu.'},
+        {id:'nadych',name:'Nádych – hydratačný liftingový fluid 30 ml',price:'91,30 €',url:'https://www.klararott.sk/nadych-hydratacny-liftingovy-fluid-e692.htm',photo:photo('klararott','nadych'),tags:['dry','balanced','hydrate','serum','simple','any'],reason:'Ľahký fluid pre všetky typy pleti, ktorého dlhodobú hydratáciu potvrdilo meranie Štátneho zdravotného ústavu.'},
+        {id:'balance',name:'BalanceCream – lipozomálny krém proti starnutiu 50 ml',price:'137,10 €',url:'https://www.klararott.sk/balancecream-lipozomalny-krem-proti-starnutiu-pleti-e811.htm',photo:photo('klararott','balance'),tags:['mature','dry','cream','simple','full'],reason:'Lipozomálny anti-aging krém s komplexom Active Balance — denná starostlivosť o zrelšiu pleť proti vráskam.'},
+        {id:'aura',name:'Aura – denný ochranný krém s SPF 20 50 ml',price:'82,90 €',url:'https://www.klararott.sk/aura-denny-ochranny-krem-s-spf-20-e820.htm',photo:photo('klararott','aura'),tags:['sensitive','balanced','cream','simple','basic'],reason:'Ľahký denný krém s SPF 20, ktorý pleť nezaťaží — chráni pred slnkom, modrým svetlom aj mestským prostredím.'},
+        {id:'klud',name:'Kľud – vyrovnávacie bylinné tonikum 100 ml',price:'65,40 €',url:'https://www.klararott.sk/klud-upokojujuce-bylinne-tonikum-e666.htm',photo:photo('klararott','klud'),tags:['oily','clarity','calm','full'],reason:'Bylinné tonikum pre problematickú pleť — dočistí ju a vyrovná po umytí, aby sérum lepšie zabralo.'},
+        {id:'levandula',name:'Sviežosť – hydrolát levanduľa 100 ml',price:'24,60 €',url:'https://www.klararott.sk/sviezost-hydrolat-levandula-e669.htm',photo:photo('klararott','levandula'),tags:['sensitive','calm','basic','target'],reason:'Bio kvetinová voda z levandule z vlastnej destilácie v koncentrácii 1:10 — jemné upokojenie citlivej pleti.'}
+      ]
     }
   });
 })();
