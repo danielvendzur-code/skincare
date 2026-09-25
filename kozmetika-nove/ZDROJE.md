@@ -40,3 +40,21 @@ nedostupné); pri produktoch s variantom je cena plného balenia.
 | Obnova pleťové tonikum s niacínom | 15,30 € | https://www.yemna.sk/obnova-pletove-tonikum-s-niacinom/ |
 
 Logo: `https://cdn.myshoptet.com/usr/www.yemna.sk/user/logos/logo_yemna_hnede__.png`; fotky: hlavné obrázky produktových stránok.
+
+## NAMY — namy.sk
+
+Slovenský výrobca (rady NAMYSKIN, NAMYDERM, NAMY), vlastný e-shop na
+WooCommerce, poradňa po telefóne. Vybraná je pleťová kozmetika bez
+liečebných rád (ekzém, psoriáza sú vynechané). Farby z webu: grafitová
+lišta `#242526`, karmínová `#c8185c`, teplé béžové fotografie. Logo je
+textové; zachytené z hlavičky webu a prevedené na priehľadné PNG.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| NI + HA + E pleťový krém s niacínamidom | 25,90 € | https://www.namy.sk/obchod/pletove-kremy/ni-ha-e-pletovy-krem-s-niacinamidom/ |
+| Akné hydrogel – gélové sérum 30 ml | 22,50 € | https://www.namy.sk/obchod/dermalne-gely/akne-hydrogel/ |
+| Dermal Sensitive – krém na citlivú pokožku 50 ml | 25,90 € | https://www.namy.sk/obchod/dermalne-kremy/dermal-sensitive-citliva-pokozka/ |
+| HYALURON – pleťové sérum s kyselinou hyalurónovou | 17,50 € | https://www.namy.sk/obchod/pletove-sera/pletove-serum-s-kyselinou-hyaluronovou/ |
+| LIFT + FILL pleťový krém s liftingovým efektom | 27,90 € | https://www.namy.sk/obchod/pletove-kremy/lift-fill-krem-proti-vraskam/ |
+| BAKUCHIOL – olejové pleťové sérum s 1 % bakuchiolom | 23,50 € | https://www.namy.sk/obchod/pletove-sera/pletove-serum-s-bakuchiolom/ |
+| HYDRA – gélová hydratačná esencia | 25,50 € | https://www.namy.sk/obchod/hydratacne-esencie/hydra-hydratacna-esencia/ |

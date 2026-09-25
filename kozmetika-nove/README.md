@@ -26,6 +26,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | --- | --- | --- |
 | Dulcia natural | [dulcia.sk](https://www.dulcia.sk/) | `/dulcia/` · `dulcia.mojchatbot.sk` |
 | Yemna cosmetics | [yemna.sk](https://www.yemna.sk/) | `/yemna/` · `yemna.mojchatbot.sk` |
+| NAMY | [namy.sk](https://www.namy.sk/) | `/namy/` · `namy.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 
@@ -45,7 +46,8 @@ nenačítané obrázky a horizontálne pretečenie.
 
 1. `tools/probe.py URL…` — názov, cena a fotka z produktových stránok e-shopu.
 2. `tools/fetch.sh` + `tools/make_assets.py SLUG SOFT LOGO id=packshot…` —
-   packshoty 760×1095, hero koláž 1000×1120, logo; `make_assets.mark(...)` symbol.
+   packshoty 760×1095, hero koláž 1000×1120, logo; `make_assets.mark(...)` symbol,
+   `make_assets.mono_logo(...)` pre jednofarebné logo zachytené z webu (`tools/elshot.mjs`).
 3. Záznam v `nove-znacky-config.js` a v `api/cosmetics-chat.js`.
 4. `python3 tools/routes.py` — trasy, `vercel.json`, `.htaccess`, prehľad.
-5. `node tools/qa.mjs SLUG OUT` a prezrieť snímky.
+5. `python3 tools/check_assets.py` a `node tools/qa.mjs SLUG OUT`, potom prezrieť snímky.

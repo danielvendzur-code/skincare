@@ -47,6 +47,9 @@ def packshot(src, target, box=(600, 860)):
     fit_on(img, (760, 1095), box).save(target, quality=90, optimize=True)
     return img
 
+def padded(box, size, pad=3):
+    return (max(0, box[0] - pad), max(0, box[1] - pad), min(size[0], box[2] + pad), min(size[1], box[3] + pad))
+
 def logo(src, target):
     img = Image.open(src).convert('RGBA')
     alpha = img.getchannel('A')
@@ -59,7 +62,7 @@ def logo(src, target):
                 d = max(abs(r - bg[0]), abs(g - bg[1]), abs(b - bg[2]))
                 if d < 40: px[x, y] = (r, g, b, int(a * max(0, d - 10) / 30))
     box = img.getchannel('A').point(lambda v: 255 if v > 8 else 0).getbbox()
-    img = img.crop(box)
+    img = img.crop(padded(box, img.size))
     if img.height > 220:
         img = img.resize((round(img.width * 220 / img.height), 220), Image.LANCZOS)
     img.save(target, optimize=True)
@@ -91,3 +94,24 @@ def mark(src, box, target):
     square = Image.new('RGBA', (side, side), (0, 0, 0, 0))
     square.paste(img, ((side - img.width) // 2, (side - img.height) // 2))
     square.save(target, optimize=True)
+
+def mono_logo(src, target):
+    """One-colour logo captured on a light background: alpha from darkness,
+    colour from the darkest pixels (clean edges, no plate behind the text)."""
+    img = Image.open(src).convert('RGBA')
+    flat_img = Image.new('RGBA', img.size, (255, 255, 255, 255))
+    flat_img.alpha_composite(img)
+    rgb = flat_img.convert('RGB')
+    grey = rgb.convert('L')
+    lo = grey.getextrema()[0]
+    ink = min(rgb.getdata(), key=sum)
+    alpha = grey.point(lambda v: max(0, min(255, round((250 - v) * 255 / max(1, 250 - lo)))))
+    out = Image.new('RGBA', img.size, ink + (0,))
+    out.putalpha(alpha)
+    box = alpha.point(lambda v: 255 if v > 8 else 0).getbbox()
+    pad = Image.new('RGBA', (out.width + 8, out.height + 8), ink + (0,))
+    pad.paste(out, (4, 4))
+    out = pad.crop(padded((box[0] + 4, box[1] + 4, box[2] + 4, box[3] + 4), pad.size))
+    if out.height > 220:
+        out = out.resize((round(out.width * 220 / out.height), 220), Image.LANCZOS)
+    out.save(target, optimize=True)

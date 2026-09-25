@@ -15,7 +15,7 @@
   /* A masked span, not an <img>: skincare-launcher-logo-fix.js swaps any
      avatar that contains an image for a letter, and the two observers would
      otherwise keep undoing each other. */
-  const markup = `<span class="cx-new-mark" aria-hidden="true" style="--cx-mark:url('${brand.mark}')"></span>`;
+  const markup = `<span class="cx-new-mark${brand.markWide ? ' cx-new-mark--wide' : ''}" aria-hidden="true" style="--cx-mark:url('${brand.mark}')"></span>`;
 
   launcher.classList.remove('is-image-logo', 'cx-launcher-has-wordmark', 'cx-launcher-has-image-logo');
   launcher.classList.add('cx-launcher-has-new-mark');
