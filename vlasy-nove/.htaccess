@@ -1,0 +1,13 @@
+Options -MultiViews
+RewriteEngine On
+
+# <slug>.mojchatbot.sk opens that brand's demo at the root.
+RewriteCond %{HTTP_HOST} ^(andreine|voono|navlasil|ryor|venira|havlikova|haaro)\.mojchatbot\.sk$ [NC]
+RewriteRule ^$ cosmetics.html [L]
+
+# /kozmetika/<slug> works too; the page reads the slug from the path.
+RewriteRule ^kozmetika/[a-z0-9-]+/?$ cosmetics.html [L,NC]
+
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow, noarchive"
+</IfModule>

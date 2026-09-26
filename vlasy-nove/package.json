@@ -1,0 +1,12 @@
+{
+  "name": "vlasy-demos-nove",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "python3 -m http.server 8790 --bind 127.0.0.1",
+    "qa": "node tools/qa.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.55.0"
+  }
+}
