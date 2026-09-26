@@ -1,0 +1,52 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "^(?<sub>skoupil|nechory|dobravinice|magula|jurasek|vican|valka|sabata)\\.mojchatbot\\.sk$"
+        }
+      ],
+      "destination": "/cosmetics.html"
+    },
+    {
+      "source": "/vino/:slug",
+      "destination": "/cosmetics.html"
+    },
+    {
+      "source": "/vino/:slug/",
+      "destination": "/cosmetics.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow, noarchive"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(html|js|css)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    }
+  ]
+}
