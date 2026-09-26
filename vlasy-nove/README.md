@@ -41,7 +41,8 @@ maska, olej, sérum či tonikum sú doplnkové kroky (`target`, `full`), aby pri
 | značka | e-shop | ukážka | prečo je vhodná |
 | --- | --- | --- | --- |
 | Haaro Naturo | [haaro-naturo.cz](https://www.haaro-naturo.cz/) | `/haaro/` · `haaro.mojchatbot.sk` | česká značka s vlastným kaderníctvom a výrobou v Liberci, špecialista len na vlasy; tuhé aj postbiotické šampóny, séra na pokožku hlavy a kondicionéry delené podľa problému — z názvov nie je jasné, či riešiť vlasy alebo pokožku; Shoptet, všetko skladom |
-| Havlík Apoteka | [havlikovaapoteka.cz/sk](https://www.havlikovaapoteka.cz/sk/) | `/havlikova/` · `havlikova.mojchatbot.sk` | Havlíkova přírodní apotéka, česká rodinná manufaktúra s vlastnou výrobou a predajňami, predáva aj v drogériách; vlasový rad „Vlasový opravář“ (šampóny na svetlé/tmavé vlasy, toniká, séra, maska) — zákazník nevie, čo s čím kombinovať; slovenská verzia e-shopu v €, Shoptet Premium |
+| Havlík Apoteka | [havlikovaapoteka.cz/sk](https://www.havlikovaapoteka.cz/sk/) | `/havlikova/` · `havlikova.mojchatbot.sk` | Havlíkova přírodní apotéka, česká značka prírodnej kozmetiky (od obchodíka s jedným krémom k „domu krásy“), s vlastnými predajňami; vlasový rad „Vlasový opravář“ (šampóny na svetlé/tmavé vlasy, toniká, séra, maska) — zákazník nevie, čo s čím kombinovať; slovenská verzia e-shopu v €, Shoptet Premium |
+| Venira | [venira.sk](https://www.venira.sk/) | `/venira/` · `venira.mojchatbot.sk` | česká značka doplnkov výživy a prírodnej kozmetiky vyrábanej v Česku, samostatný slovenský e-shop v €; vlasový rad s ôsmimi šampónmi (rast, kolagén, objem, mastné, kučeravé…) v rovnakých fľašiach a vo viacerých vôňach, sérum Hair Booster, masky — typický „ktorý je môj?“ katalóg; Shoptet |
 <!-- /ukazky -->
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).

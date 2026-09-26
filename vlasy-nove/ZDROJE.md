@@ -84,3 +84,30 @@ symbol mažiara z faviconu (vyhladene zväčšený).
 
 Logo: `https://cdn.myshoptet.com/usr/www.havlikovaapoteka.cz/user/logos/group_9337.svg`;
 symbol: `https://www.havlikovaapoteka.cz/favicon.png`; fotky: originály (`/user/shop/orig/`).
+
+## Venira — venira.sk
+
+Česká značka doplnkov výživy a prírodnej kozmetiky („vyrobeno v Česku“ na
+obaloch) so samostatným slovenským e-shopom v € na Shoptete. Vybrané sú
+jednotlivé balenia (nie zvýhodnené sady 2+1); všetko skladom (šampón
+s kolagénom proti vypadávaniu bol nedostupný, preto chýba). Šampóny sú
+v jednej vôni (mango-liči, kokos, marhuľa) za rovnakú cenu ako ostatné vône.
+Farby z webu a obalov: čierna (primárna farba webu), zlatá `#C6A56B`
+zo zátky a hover farby webu (tmavšia `#9c7641` pre kontrast), svetlá
+šampanská plocha. Logo zo SVG na webe, symbol je „v“ z loga (rovnako ako
+ikona webu).
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Prírodný šampón pre podporu rastu vlasov 300 ml | 17,80 € | https://www.venira.sk/venira-prirodny-sampon-pre-podporu-rastu-vlasov-mango-lici/ |
+| Prírodný šampón s kolagénom pre podporu rastu vlasov 300 ml | 18,95 € | https://www.venira.sk/venira-prirodny-sampon-s-kolagenom-pre-podporu-rastu-vlasov-mango-lici/ |
+| Prírodný šampón pre mastné vlasy 300 ml | 17,80 € | https://www.venira.sk/venira-prirodny-sampon-pre-mastne-vlasy/ |
+| Šampón na kučeravé vlasy 300 ml | 17,80 € | https://www.venira.sk/venira-sampon-na-kucerave-vlasy-marhula-300ml/ |
+| Prírodný šampón pre objem vlasov Volume Booster 300 ml | 18,60 € | https://www.venira.sk/venira-prirodny-sampon-pre-objem-vlasov-volume-booster/ |
+| Hair Booster – vlasové sérum na podporu rastu 100 ml | 31,25 € | https://www.venira.sk/vlasove-serum-hair-booster/ |
+| Rozmarínová voda / tonikum na vlasy a pokožku 200 ml | 15,00 € | https://www.venira.sk/venira-rozmarinova-voda-na-vlasy-a-pokozku/ |
+| Regeneračná maska na vlasy 300 ml | 23,30 € | https://www.venira.sk/venira-regeneracni-maska-na-vlasy-kokos-300ml/ |
+| Kondicionér s kolagénom 300 ml | 19,80 € | https://www.venira.sk/venira-kondicioner-s-kolagenom-mango-lici/ |
+
+Logo: `https://cdn.myshoptet.com/usr/www.venira.sk/user/logos/venira_logo-db126346-99cf-4b61-a733-58b345759769_(1).svg`;
+fotky: originály (`/user/shop/orig/`) hlavných obrázkov.

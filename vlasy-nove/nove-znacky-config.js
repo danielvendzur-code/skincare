@@ -11,6 +11,25 @@
   const photo = (slug, id) => `/assets/cosmetics/${slug}-${id}.jpg`;
 
   const hair = {
+    venira: {
+      name:'Venira', domain:'venira.sk', website:'https://www.venira.sk/',
+      theme:{brand:'#1a1a1a',accent:'#9c7641',soft:'#f7f1e8',paper:'#fdfcfa',ink:'#1a1a1a',line:'#ebe3d6'},
+      wordmark:logo('venira','Venira'),
+      hero:'/assets/cosmetics/venira.jpg', mark:'/assets/cosmetics/venira-mark.png',
+      ownerNote:'Šampón na podporu rastu, s kolagénom, na objem, na mastné aj kučeravé vlasy, Hair Booster a rozmarínová voda — v rovnakých fľašiach a vo viacerých vôňach, zákazníčka nevie, ktorý je jej.',
+      benefit:['Z ôsmich šampónov a vôní ten pravý','Poradí, kedy pridať Hair Booster alebo masku','Odpovie aj mimo pracovného času'],
+      products:[
+        {id:'rast',name:'Prírodný šampón pre podporu rastu vlasov 300 ml',price:'17,80 €',url:'https://www.venira.sk/venira-prirodny-sampon-pre-podporu-rastu-vlasov-mango-lici/',photo:photo('venira','rast'),tags:['balanced','mature','cream','simple','basic'],reason:'Komplex HotFlux® prekrví pokožku hlavy a prebudí vlasové cibuľky, chlorella a proteínový ferment posilnia vlákno — hustejšie a menej lámavé vlasy.'},
+        {id:'kolagen',name:'Prírodný šampón s kolagénom pre podporu rastu vlasov 300 ml',price:'18,95 €',url:'https://www.venira.sk/venira-prirodny-sampon-s-kolagenom-pre-podporu-rastu-vlasov-mango-lici/',photo:photo('venira','kolagen'),tags:['sensitive','mature','calm','cream','simple','basic'],reason:'Maximálne šetrný šampón s morským kolagénom a HotFlux® podporuje rastovú fázu vlasov a zmierňuje vypadávanie, pokožku hlavy nechá pevnejšiu a pružnejšiu.'},
+        {id:'mastne',name:'Prírodný šampón pre mastné vlasy 300 ml',price:'17,80 €',url:'https://www.venira.sk/venira-prirodny-sampon-pre-mastne-vlasy/',photo:photo('venira','mastne'),tags:['oily','clarity','cream','simple','basic'],reason:'Komplex AQUARICH® so 7 bylinami reguluje tvorbu mazu a stabilizuje mazové žľazy — vlasy ostanú čisté, vzdušné a lesklé bez zaťaženia.'},
+        {id:'kucer',name:'Šampón na kučeravé vlasy 300 ml',price:'17,80 €',url:'https://www.venira.sk/venira-sampon-na-kucerave-vlasy-marhula-300ml/',photo:photo('venira','kucer'),tags:['dry','hydrate','cream','simple','basic'],reason:'Ľanové semienko a marhuľový olej znížia krepatenie, predĺžia výdrž vĺn a hydratujú suché, poškodené kučery už po prvom umytí.'},
+        {id:'objem',name:'Prírodný šampón pre objem vlasov Volume Booster 300 ml',price:'18,60 €',url:'https://www.venira.sk/venira-prirodny-sampon-pre-objem-vlasov-volume-booster/',photo:photo('venira','objem'),tags:['balanced','dry','clarity','hydrate','cream','simple','basic'],reason:'Pre splihnuté, suché a nie príliš husté vlasy — dodá viditeľný objem, hebkosť a lesk a zároveň zvlhčí pokožku hlavy.'},
+        {id:'booster',name:'Hair Booster – vlasové sérum na podporu rastu 100 ml',price:'31,25 €',url:'https://www.venira.sk/vlasove-serum-hair-booster/',photo:photo('venira','booster'),tags:['balanced','mature','serum','target','full'],reason:'Kopexil, kofeín a 7 bylín jemne prehrejú pokožku hlavy, zlepšia mikrocirkuláciu a predĺžia rastovú fázu — cielený krok pre slabé, rednúce vlasy.'},
+        {id:'rozmarin',name:'Rozmarínová voda / tonikum na vlasy a pokožku 200 ml',price:'15,00 €',url:'https://www.venira.sk/venira-rozmarinova-voda-na-vlasy-a-pokozku/',photo:photo('venira','rozmarin'),tags:['sensitive','calm','serum','target','full'],reason:'Rozmarín s vegánskym keratínom, rebríčkom a žihľavou upokojí podráždenú pokožku hlavy, hydratuje ju a zacelí roztrepené končeky.'},
+        {id:'maska',name:'Regeneračná maska na vlasy 300 ml',price:'23,30 €',url:'https://www.venira.sk/venira-regeneracni-maska-na-vlasy-kokos-300ml/',photo:photo('venira','maska'),tags:['dry','hydrate','oil','target','full'],reason:'Aminokyselinový komplex hĺbkovo regeneruje poškodené, krehké vlasy, uhladí ich a zníži krepatenie až o 29 %.'},
+        {id:'kondi',name:'Kondicionér s kolagénom 300 ml',price:'19,80 €',url:'https://www.venira.sk/venira-kondicioner-s-kolagenom-mango-lici/',photo:photo('venira','kondi'),tags:['balanced','hydrate','oil','target','full'],reason:'Morský kolagén, keratín a arganový olej hydratujú a uhladia vlasy, uľahčia rozčesávanie a zlepšia ich pružnosť.'}
+      ]
+    },
     havlikova: {
       name:'Havlík Apoteka', domain:'havlikovaapoteka.cz', website:'https://www.havlikovaapoteka.cz/sk/',
       theme:{brand:'#124800',accent:'#9a5a2a',soft:'#f0f5e1',paper:'#fcfdf8',ink:'#0e2a1d',line:'#dfe6cf'},
