@@ -185,3 +185,29 @@ vinetu, preto sú použité ako celoplošné fotky.
 | Mango balzam na suché a rozstrapkané končeky | 24,00 € | https://www.voono.sk/obchod/vlasova-pece/styling/mango-balzam-na-konceky/ |
 
 Fotky: obrázky produktov zo Store API (`https://www.voono.cz/app/uploads/…`).
+
+## Andreine — andreine.com
+
+Slovenská značka prírodnej vlasovej kozmetiky („vyrobené na Slovensku“,
+dva roky vývoja trichologickej rady) s trichologickými poradňami, e-shop na
+Shopify v €; ceny a dostupnosť z `/products/<handle>.json`. Vybrané sú plné
+balenia (bez vzoriek, sád a doplnkov), všetko dostupné. Farby: tmavá
+olivová `#404436` (tmavá verzia loga na webe), koralová `#ff6f50` z loga
+(tmavšia `#e0593a` pre kontrast), teplá svetlá plocha. Logo zo SVG na webe,
+symbol je „A“ z loga. Fotky sú štúdiové zábery s prechodom, použité ako
+celoplošné.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Šampón na rast vlasov Growth shampoo | 21,90 € | https://andreine.com/products/growth-shampoo-1 |
+| Hydratačný šampón Shine shampoo | 21,90 € | https://andreine.com/products/shine-shampoo-1 |
+| Šampón na objem vlasov Volume shampoo | 21,90 € | https://andreine.com/products/volume-shampoo-2 |
+| Šampón pre suché a poškodené vlasy Velvet shampoo | 25,95 € | https://andreine.com/products/velvet-shampoo |
+| Tonikum pre rast vlasov Growth tonic | 37,90 € | https://andreine.com/products/growth-tonic |
+| Tonikum pre problematickú pokožku hlavy Infusion tonic | 38,90 € | https://andreine.com/products/infusion-tonic |
+| Hydratačná maska na suché vlasy Hydration mask | 19,90 € | https://andreine.com/products/hydration-mask |
+| Proteínová maska na oslabené vlasy Protein mask | 19,90 € | https://andreine.com/products/protein-mask |
+| Kondicionér pre jemné a elektrizujúce vlasy Leave-in Fruit | 19,90 € | https://andreine.com/products/leave-in-fruit |
+| Olej na vlasy a pleť Treatment oil | 22,90 € | https://andreine.com/products/treatment-oil |
+
+Logo: `https://andreine.com/cdn/shop/files/red.svg`; fotky: prvý obrázok produktu z Shopify CDN.

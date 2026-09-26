@@ -11,6 +11,26 @@
   const photo = (slug, id) => `/assets/cosmetics/${slug}-${id}.jpg`;
 
   const hair = {
+    andreine: {
+      name:'Andreine', domain:'andreine.com', website:'https://andreine.com/',
+      theme:{brand:'#404436',accent:'#e0593a',soft:'#f3efe8',paper:'#fdfcf9',ink:'#262920',line:'#e5e0d5'},
+      wordmark:logo('andreine','Andreine'),
+      hero:'/assets/cosmetics/andreine.jpg', mark:'/assets/cosmetics/andreine-mark.png',
+      ownerNote:'Growth, Volume, Velvet a Shine šampóny, dve toniká, tri masky a leave-in kondicionéry v rovnakých fľašiach — web má kvíz, chatbot k nemu pridá odpovede a celú rutinu.',
+      benefit:['Z trichologickej rady poskladá šampón, tonikum aj masku','Rozlíši Growth, Volume, Velvet a Shine','Odpovie aj mimo otváracích hodín trichologických poradní'],
+      products:[
+        {id:'growth',name:"Šampón na rast vlasov Growth shampoo",price:'21,90 €',url:'https://andreine.com/products/growth-shampoo-1',photo:photo('andreine','growth'),tags:['oily','balanced','mature','cream','simple','basic'],reason:"Prírodný šampón proti vypadávaniu pre mastnú až normálnu pokožku hlavy — jemne čistí, udržiava rovnováhu pokožky a podporuje zdravý rast bez zaťaženia."},
+        {id:'shine',name:"Hydratačný šampón Shine shampoo",price:'21,90 €',url:'https://andreine.com/products/shine-shampoo-1',photo:photo('andreine','shine'),tags:['dry','sensitive','balanced','hydrate','cream','simple','basic'],reason:"Pre suché, matné vlasy a suchú až normálnu pokožku hlavy — jojobový, kokosový a ricínový olej s medom čistia bez vysušovania a vrátia lesk."},
+        {id:'volume',name:"Šampón na objem vlasov Volume shampoo",price:'21,90 €',url:'https://andreine.com/products/volume-shampoo-2',photo:photo('andreine','volume'),tags:['oily','balanced','clarity','hydrate','cream','simple','basic'],reason:"100 % prírodný šampón pre jemné, spľasnuté vlasy a normálnu až mastnejšiu pokožku — odstráni maz od korienkov a vlasy nezaťaží."},
+        {id:'velvet',name:"Šampón pre suché a poškodené vlasy Velvet shampoo",price:'25,95 €',url:'https://andreine.com/products/velvet-shampoo',photo:photo('andreine','velvet'),tags:['dry','hydrate','mature','cream','simple','basic'],reason:"Regeneračný šampón pre suché, farbené a odfarbené vlasy — morská riasa, avokádový olej a panthenol hydratujú a uhladzujú ako šampón a zábal v jednom."},
+        {id:'gtonic',name:"Tonikum pre rast vlasov Growth tonic",price:'37,90 €',url:'https://andreine.com/products/growth-tonic',photo:photo('andreine','gtonic'),tags:['balanced','oily','mature','serum','target','full'],reason:"Bezoplachové tonikum priamo na pokožku hlavy a korienky pri zvýšenom vypadávaní, rednutí a spomalenom raste vlasov."},
+        {id:'itonic',name:"Tonikum pre problematickú pokožku hlavy Infusion tonic",price:'38,90 €',url:'https://andreine.com/products/infusion-tonic',photo:photo('andreine','itonic'),tags:['sensitive','oily','calm','clarity','serum','target','full'],reason:"Bezoplachové tonikum pri lupinách, svrbení, rýchlom mastení a podráždenej pokožke hlavy — starostlivosť tam, kde problém vzniká."},
+        {id:'hmask',name:"Hydratačná maska na suché vlasy Hydration mask",price:'19,90 €',url:'https://andreine.com/products/hydration-mask',photo:photo('andreine','hmask'),tags:['dry','hydrate','oil','target','full'],reason:"100 % prírodná maska s bambuckým maslom a šiestimi olejmi udrží vlhkosť v suchých, drsných a lámavých vlasoch."},
+        {id:'pmask',name:"Proteínová maska na oslabené vlasy Protein mask",price:'19,90 €',url:'https://andreine.com/products/protein-mask',photo:photo('andreine','pmask'),tags:['dry','balanced','mature','oil','target','full'],reason:"Pšeničný proteín, betaín a panthenol spevnia oslabené, poškodené, farbené a odfarbené vlasy a zlepšia ich pružnosť."},
+        {id:'fruit',name:"Kondicionér pre jemné a elektrizujúce vlasy Leave-in Fruit",price:'19,90 €',url:'https://andreine.com/products/leave-in-fruit',photo:photo('andreine','fruit'),tags:['balanced','oily','clarity','hydrate','oil','target','full'],reason:"Ľahký bezoplachový kondicionér uľahčí rozčesávanie, hydratuje a dodá jemným vlasom hebkosť a lesk bez zaťaženia."},
+        {id:'toil',name:"Olej na vlasy a pleť Treatment oil",price:'22,90 €',url:'https://andreine.com/products/treatment-oil',photo:photo('andreine','toil'),tags:['dry','hydrate','oil','target','full'],reason:"Sedem rastlinných olejov — jojobový, mandľový, makadamový, arganový a ďalšie — vyživí suché, lámavé a porézne vlasy a zjemní končeky."}
+      ]
+    },
     voono: {
       name:'VOONO', domain:'voono.sk', website:'https://www.voono.sk/',
       theme:{brand:'#1c1c1c',accent:'#5f7189',soft:'#f2efea',paper:'#fdfcfa',ink:'#1c1c1c',line:'#e6e1d9'},
