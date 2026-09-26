@@ -83,3 +83,14 @@ body[data-cosmetics-demo="magula"] .cx-owner-brand .cx-logo {
 body[data-cosmetics-demo="magula"] .cx-widget-brand .cx-logo {
   max-height: 40px !important;
 }
+body[data-cosmetics-demo="valka"] .cx-owner-brand .cx-logo {
+  max-width: 270px !important;
+}
+body[data-cosmetics-demo="valka"] .cx-widget-brand .cx-logo {
+  max-width: 200px !important;
+}
+@media (max-width: 520px) {
+  body[data-cosmetics-demo="valka"] .cx-owner-brand .cx-logo {
+    max-width: 200px !important;
+  }
+}

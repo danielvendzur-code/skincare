@@ -32,3 +32,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Vinárstvo Magula | [vinomagula.sk](https://www.vinomagula.sk/) | `/magula/` · `magula.mojchatbot.sk` |
 | Víno Jurášek | [vinojurasek.sk](https://vinojurasek.sk/) | `/jurasek/` · `jurasek.mojchatbot.sk` |
 | Vinařství Vican | [vican.wine](https://eshop.vican.wine/) | `/vican/` · `vican.mojchatbot.sk` |
+| Vinařství Válka | [vinarstvivalka.cz](https://vinarstvivalka.cz/) | `/valka/` · `valka.mojchatbot.sk` |

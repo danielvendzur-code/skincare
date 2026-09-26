@@ -190,3 +190,39 @@ verzia. Symbol je mušľa z loga. Farby: tehlovo červená z umeleckého
 | Cabernet Sauvignon ROSÉ 2025 kabinetní, polosladké | 219 Kč | https://eshop.vican.wine/ruzova-polosladka-vina/cabernet-sauvignon-rose-2025-kabinetni--polosladke/ |
 | Frizzanté Muškát žlutý 2025, polosuché | 269 Kč | https://eshop.vican.wine/vina/frizzante-muskat-zluty-2025--polosuche/ |
 | Frizzanté Pálava 2025, polosladké | 269 Kč | https://eshop.vican.wine/vina/frizzante-palava-2025--polosladke/ |
+
+## Vinařství Válka — vinarstvivalka.cz
+
+Rodinné BIO vinárstvo z Nosislavi (WooCommerce, ceny v Kč), vyše
+30 fľaškových vín skladom: suché biele, oranžové, rosé, červené,
+pet-naty a dezertný Jantar z Výhonu. Ceny a sklad sú z verejného
+Store API e-shopu (`/wp-json/wc/store/v1/products`, všetko
+`is_in_stock` k 26. 9. 2026); do ukážky ide 17 vín, ktoré pokryjú
+každú farbu a štýl. Popisy vín sú z e-shopu (preložené do
+slovenčiny). Vinárstvo robí takmer len suché vína, takže pri voľbe
+„sladšie“ poradca ponúkne dezertný Jantar. Fotky sú PNG packshoty
+z e-shopu (Chardonnay 2022 Single Barrel vynechané, na e-shope má
+fotku limonády). Logo je SVG z hlavičky webu, vykreslené do PNG
+v ich malinovej farbe; do hlavičky widgetu ide biela verzia. Symbol
+je brána s nápisom Válka z loga. Farby: malinová #af193e
+a tmavá #7f122d z CSS webu.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Veltlínské zelené 2023, suché, BIO | 249 Kč | https://vinarstvivalka.cz/produkt/veltlinske-zelene-2023-suche-bio/ |
+| Ryzlink vlašský 2023, Terasy, suché, BIO | 250 Kč | https://vinarstvivalka.cz/produkt/ryzlink-vlassky-2023-terasy-suche-bio/ |
+| Chardonnay 2023, suché, BIO | 219 Kč | https://vinarstvivalka.cz/produkt/chardonnay-2023-suche-bio/ |
+| Pálava 2025, suché, BIO | 285 Kč | https://vinarstvivalka.cz/produkt/palava-2025-suche-bio/ |
+| Ryzlink rýnský 2023, suché, BIO | 285 Kč | https://vinarstvivalka.cz/produkt/ryzlink-rynsky-2023-suche-bio/ |
+| Pálava oranžová 2024, suché, BIO | 430 Kč | https://vinarstvivalka.cz/produkt/palava-oranzova-2024-suche-bio/ |
+| Bílá Frankovka 2024, polosuché, BIO | 269 Kč | https://vinarstvivalka.cz/produkt/bila-frankovka-2024-polosuche-bio/ |
+| Cabernet Moravia rosé 2024, suché, BIO | 225 Kč | https://vinarstvivalka.cz/produkt/cabernet-moravia-rose-2024-suche-bio/ |
+| La Guerre rosé 2022, suché, BIO | 219 Kč | https://vinarstvivalka.cz/produkt/cuvee-la-guerre-rose-2022-suche/ |
+| Nosislavský ryšák 2022, suché, BIO | 219 Kč | https://vinarstvivalka.cz/produkt/nosislavsky-rysak-2022-suche-bio/ |
+| Frankovka 2022, suché, BIO | 249 Kč | https://vinarstvivalka.cz/produkt/frankovka-2022-suche-bio/ |
+| Černý samet 2022, suché, BIO | 249 Kč | https://vinarstvivalka.cz/produkt/cerny-samet-suche-2022-bio/ |
+| Pinot Noir 2021/2022, suché, BIO, Family Reserve | 349 Kč | https://vinarstvivalka.cz/produkt/pinot-noir-2021-2022-suche-bio/ |
+| Cabernet Sauvignon 2021, suché, BIO | 430 Kč | https://vinarstvivalka.cz/produkt/cabernet-sauvignon-2021-bio/ |
+| Jantar z Výhonu 2020, polosuché, BIO | 430 Kč | https://vinarstvivalka.cz/produkt/jantar-2020-polosuche-dezertni-vino-bio/ |
+| MuAu Pet-Nat 2025, brut natur, perlivé, BIO | 335 Kč | https://vinarstvivalka.cz/produkt/muau-pet-nat-2025-brut-natur-perlive-bio-2/ |
+| BLAU Pet-Nat 2025, brut natur, perlivé, BIO | 335 Kč | https://vinarstvivalka.cz/produkt/blau-pet-nat-2025-brut-natur-perlive-bio/ |
