@@ -218,6 +218,24 @@
         {id:'ruze',name:'Ružová voda s rozprašovačom 100 ml',price:'229 Kč',url:'https://www.zahir.cz/ruzova-voda-s-rozprasovacem-100-ml/',photo:photo('zahir','ruze'),tags:['dry','mature','balanced','hydrate','full'],reason:'Ružová voda ako tonikum a podklad pod olej — uľahčí jeho vstrebanie a jemne pečie aj o zrelú a precitlivenú pleť.'},
         {id:'odlic',name:'Odličovací olej na odolný make-up 100 ml',price:'285 Kč',url:'https://www.zahir.cz/odlicovaci-olej-na-odolny-make-up-100-ml/',photo:photo('zahir','odlic'),tags:['dry','balanced','mature','full'],reason:'Vegánsky odličovací olej s arganovým a mandľovým olejom odstráni aj vodeodolný make-up a nechá pleť vláčnu.'}
       ]
+    },
+    pimpinella: {
+      name:'Pimpinella', domain:'pimpinella.co', website:'https://www.pimpinella.co/',
+      theme:{brand:'#26302a',accent:'#a86d28',soft:'#f1eee8',paper:'#fcfbf8',ink:'#1f2320',line:'#e3ded3'},
+      wordmark:logo('pimpinella','Pimpinella'),
+      hero:'/assets/cosmetics/pimpinella.jpg', mark:'/assets/cosmetics/pimpinella-mark.png',
+      ownerNote:'Krémy a oleje s menami Miláček, Pura Beleza, Meia-Noite či Zahrada Dévů — krásne, no zákazník z nich nevyčíta, čo sadne jeho pleti.',
+      benefit:['Z poetických názvov ten pravý produkt pre pleť','Doplní čistiaci balzam aj ružovú vodu','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'milacek',name:'MILÁČEK pleťový krém s pomarančom a ylang-ylang 30 ml',price:'622 Kč',url:'https://www.pimpinella.co/milacek/',photo:photo('pimpinella','milacek'),tags:['balanced','oily','hydrate','cream','any','simple','basic'],reason:'Výživný krém s BIO jojobovým olejom rozjasní a zjednotí pleť — nezanechá mastný film, len dobrú náladu.'},
+        {id:'pura',name:'PURA BELEZA pleťový krém s ružou damascénskou 30 ml',price:'765 Kč',url:'https://www.pimpinella.co/pura-beleza/',photo:photo('pimpinella','pura'),tags:['dry','mature','hydrate','cream','full','basic'],reason:'Najvýživnejší krém značky s ružou damascénskou, marhuľovým olejom a olejom z pšeničných klíčkov — elixír pre zrelú pleť.'},
+        {id:'herm',name:'HEŘMÁNKOVÝ pleťový krém s BIO bambuckým maslom 30 ml',price:'596 Kč',url:'https://www.pimpinella.co/hermankovy-krem-s-bio-bambuckym-maslem/',photo:photo('pimpinella','herm'),tags:['sensitive','oily','calm','clarity','cream','simple','basic'],reason:'Krém s pravým harmančekom a mandľovým olejom upokojí, zregeneruje a ošetrí problematickú a podráždenú pleť.'},
+        {id:'meia',name:'MEIA-NOITE výživný pleťový balzam 30 ml',price:'899 Kč',url:'https://www.pimpinella.co/meia-noite-vyzivny-pletovy-balzam/',photo:photo('pimpinella','meia'),tags:['dry','sensitive','mature','calm','cream','target','basic'],reason:'Extra výživný balzam s ovseným lipidovým komplexom, pupalkou a nechtíkom obnoví ochrannú bariéru suchej pleti.'},
+        {id:'bozsky',name:'BOŽSKÝ pleťový olej s vitamínom C 30 ml',price:'649 Kč',url:'https://www.pimpinella.co/pan-bozsky/',photo:photo('pimpinella','bozsky'),tags:['oily','balanced','clarity','oil','target','basic'],reason:'Olej so stabilnou formou vitamínu C zjednotí tón, rozjasní a upraví tvorbu mazu — pleť ostane vláčna a hebká.'},
+        {id:'zahrada',name:'ZAHRADA DÉVŮ pleťový olej s neroli 30 ml',price:'899 Kč',url:'https://www.pimpinella.co/zahrada-devu-pletovy-olej/',photo:photo('pimpinella','zahrada'),tags:['dry','mature','hydrate','oil','simple','basic'],reason:'Makový, arganový a jojobový olej s neroli vyživia dehydrovanú pleť bez jasu a s prvými vráskami, bez zaťaženia.'},
+        {id:'devet',name:'DEVĚT NOCÍ čistiaci balzam 50 ml',price:'596 Kč',url:'https://www.pimpinella.co/devet-noci/',photo:photo('pimpinella','devet'),tags:['dry','sensitive','balanced','full'],reason:'Čistiaci balzam so šalviou a bazalkou jemne odstráni make-up aj nečistoty metódou OCM — prvý krok rutiny.'},
+        {id:'ruze',name:'KVĚTOVÁ VODA RŮŽE BIO 100 ml',price:'229 Kč',url:'https://www.pimpinella.co/kvetova-voda-ruze-bio/',photo:photo('pimpinella','ruze'),tags:['sensitive','dry','mature','hydrate','full'],reason:'Hydrolát z ruže damascénskej ako tonikum pred olejom či krémom — hydratuje, osvieži a hodí sa aj na veľmi citlivú pleť.'}
+      ]
     }
   });
 })();

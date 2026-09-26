@@ -139,3 +139,21 @@ def mono_logo(src, target):
     if out.height > 220:
         out = out.resize((round(out.width * 220 / out.height), 220), Image.LANCZOS)
     out.save(target, optimize=True)
+
+def extend(src, target, size=(760, 1095)):
+    """Studio photo on a soft gradient backdrop: keep the whole frame at full
+    width and continue its top and bottom rows (blurred) to fill the portrait
+    canvas, so no pasted rectangle shows. Returns the source for the hero."""
+    from PIL import ImageFilter
+    img = flat(Image.open(src))
+    scaled = img.resize((size[0], round(img.height * size[0] / img.width)), Image.LANCZOS)
+    canvas = Image.new('RGB', size)
+    top = (size[1] - scaled.height) // 2
+    strip_top = scaled.crop((0, 0, size[0], 1)).resize((size[0], top + 1)).filter(ImageFilter.GaussianBlur(6))
+    strip_bot = scaled.crop((0, scaled.height - 1, size[0], scaled.height)).resize((size[0], size[1] - top - scaled.height + 1)).filter(ImageFilter.GaussianBlur(6))
+    canvas.paste(strip_top, (0, 0))
+    canvas.paste(strip_bot, (0, top + scaled.height - 1))
+    canvas.paste(scaled, (0, top))
+    canvas.save(target, quality=90, optimize=True)
+    img.cover_focus = (0.5, 0.5)
+    return img

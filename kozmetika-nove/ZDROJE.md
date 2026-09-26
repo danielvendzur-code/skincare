@@ -242,3 +242,28 @@ osemcípa hviezda z loga. Farby: staroružová/mauve z loga (#885a5c,
 | Harmančeková voda 100 ml | 199 Kč | https://www.zahir.cz/hermankova-voda-100-ml/ |
 | Ružová voda s rozprašovačom 100 ml | 229 Kč | https://www.zahir.cz/ruzova-voda-s-rozprasovacem-100-ml/ |
 | Odličovací olej na odolný make-up 100 ml | 285 Kč | https://www.zahir.cz/odlicovaci-olej-na-odolny-make-up-100-ml/ |
+
+## Pimpinella — pimpinella.co
+
+Česká ručne robená prírodná kozmetika z Jizerských hor (Shoptet, ceny
+v Kč). Krémy a oleje s poetickými menami (Miláček, Pura Beleza,
+Meia-Noite, Zahrada Dévů) — z názvu nie je jasné, pre akú pleť sú.
+Ceny variantov (50/100 ml, liekovka/zdobený flakón) som čítal kliknutím
+na každý variant (`tools/radio_variants.mjs`); v tabuľke je menšie
+balenie. Všetko „Skladem“ k 26. 9. 2026. Fotky sú štvorcové štúdiové
+zábery na jemnom sivom prechode — na výšku ich nerežem, ale predlžujem
+ich pozadie (`extend()` v `make_assets.py`), aby nebolo vidieť vložený
+obdĺžnik. Logo má na webe len 295×60 px, preto je zväčšené 4× s
+vyhladením hrán; symbolom je vetvička z loga. Farby: tmavá bylinková
+čierno-zelená ako čierne viečka, akcent jantárová ako sklo liekoviek.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| MILÁČEK krém 30 ml | 622 Kč | https://www.pimpinella.co/milacek/ |
+| PURA BELEZA krém 30 ml | 765 Kč | https://www.pimpinella.co/pura-beleza/ |
+| HEŘMÁNKOVÝ krém 30 ml | 596 Kč | https://www.pimpinella.co/hermankovy-krem-s-bio-bambuckym-maslem/ |
+| MEIA-NOITE balzam 30 ml | 899 Kč | https://www.pimpinella.co/meia-noite-vyzivny-pletovy-balzam/ |
+| BOŽSKÝ olej s vit. C 30 ml | 649 Kč | https://www.pimpinella.co/pan-bozsky/ |
+| ZAHRADA DÉVŮ olej 30 ml (klasická liekovka) | 899 Kč | https://www.pimpinella.co/zahrada-devu-pletovy-olej/ |
+| DEVĚT NOCÍ čistiaci balzam 50 ml | 596 Kč | https://www.pimpinella.co/devet-noci/ |
+| KVĚTOVÁ VODA RŮŽE BIO 100 ml | 229 Kč | https://www.pimpinella.co/kvetova-voda-ruze-bio/ |
