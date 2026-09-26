@@ -58,7 +58,7 @@
     if (/vypad|padaj|redn|rídn|ridn|slab|rast|hust|posil|lysin/.test(q))
       return `Pri vypadávaní alebo slabých vlasoch je z ponuky značky ${brand.name} vhodný smer ${pick('mature', 'balanced')}. Výber starostlivosti ešte zohľadní, či chcete šampón, sérum alebo celú starostlivosť.`;
     if (/mast|maz/.test(q))
-      return `Keď sa vlasy rýchlo mastia, oplatí sa pozrieť na ${pick('oily', 'clarity')}. Výber starostlivosti vám pomôže zúžiť výsledok bez skúšania naslepo.`;
+      return `Keď sa vlasy rýchlo mastia, oplatí sa pozrieť na ${pick('oily', 'cream')}. Výber starostlivosti vám pomôže zúžiť výsledok bez skúšania naslepo.`;
     if (/objem|splasnut|splihl|ploch|jemn|tenk/.test(q))
       return `Pre jemné vlasy bez objemu je z ponuky značky ${brand.name} dobrý smer ${pick('clarity', 'balanced')}. Výber starostlivosti ešte zohľadní, či chcete šampón, sérum alebo ľahkú starostlivosť o dĺžky.`;
     if (/such|lámav|lamav|krep|poškod|poskod|konč|konc|farb|zniče|znice|kudrn|vlnit/.test(q))

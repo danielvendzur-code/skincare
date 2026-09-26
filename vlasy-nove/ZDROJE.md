@@ -158,3 +158,30 @@ pozadím sú podložené farbou pozadia ostatných packshotov (`#fdf9f6`).
 | Predšampónová olejová kúra NAVLASIL s arganovým a tsubaki olejom | 26,00 € | https://www.navlasil.sk/oleje-na-vlasy/predsamponova-olejova-kura-na-vlasy-navlasil-s-arganovym-a-tsubaki-olejom/ |
 
 Logo: `https://www.navlasil.sk/obj/files/2/sys_media_728.svg`; fotky: `og:image` / hlavné obrázky produktov (`/obj/files/…`).
+
+## VOONO — voono.sk
+
+Česká značka organickej vlasovej a pleťovej kozmetiky a rastlinných farieb
+na vlasy (spolupráca s kaderníctvami, franšíza), slovenský e-shop v € na
+WooCommerce; ceny a sklad overené cez verejné Store API e-shopu
+(`/wp-json/wc/store/v1/products`). Vybraná je vlasová starostlivosť bez
+farieb, stylingu a cestovných mini balení; všetko skladom (šampón pre
+farbené vlasy bol nedostupný, preto chýba). Farby: čierne logo a tlačidlá,
+bridlicovo modrosivá `#5f7189` z etikiet ORGANIC LINE, teplá svetlá plocha.
+Logo z inline SVG symbolu v hlavičke webu, symbol je „V“ z loga (rovnako
+ako ikona webu). Keratínový kondicionér a mango balzam majú na fotke sivú
+vinetu, preto sú použité ako celoplošné fotky.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Šampón pre mastné vlasy ORGANIC LINE | 24,00 € | https://www.voono.sk/obchod/vlasova-pece/organicka-starostlivost/sampon-pre-mastne-vlasy/ |
+| Šampón pre objem vlasov s keratínom 390 ml | 26,00 € | https://www.voono.sk/obchod/ostatne/novinky/sampon-pre-objem-vlasov-s-keratinom-390-ml/ |
+| Šampón pre suché, poškodené a vlnité vlasy ORGANIC LINE | 24,00 € | https://www.voono.sk/obchod/vlasova-pece/organicka-starostlivost/sampon-pre-suche-vlasy/ |
+| VOONO Tricholog – bylinný detox pokožky hlavy | 16,70 € | https://www.voono.sk/obchod/vlasova-pece/masky/tricholog/ |
+| Brezový oplach pre zdravé a lesklé vlasy | 13,00 € | https://www.voono.sk/obchod/ostatne/novinky/brezovy-oplach-pro-zdrave-a-leskle-vlasy/ |
+| Citrusový kondicionér pre mastiace sa a jemné vlasy 370 ml | 27,00 € | https://www.voono.sk/obchod/vlasova-pece/kondicionery/citrusovy-kondicioner/ |
+| Keratínový kondicionér pre objem a lesk 390 ml | 29,00 € | https://www.voono.sk/obchod/vlasova-pece/kondicionery/keratinovy-kondicioner-objem-lesk/ |
+| 15-minútová vyživujúca maska ORGANIC LINE | 27,00 € | https://www.voono.sk/obchod/vlasova-pece/masky/15-minutova-maska/ |
+| Mango balzam na suché a rozstrapkané končeky | 24,00 € | https://www.voono.sk/obchod/vlasova-pece/styling/mango-balzam-na-konceky/ |
+
+Fotky: obrázky produktov zo Store API (`https://www.voono.cz/app/uploads/…`).

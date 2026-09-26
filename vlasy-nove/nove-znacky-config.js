@@ -11,6 +11,25 @@
   const photo = (slug, id) => `/assets/cosmetics/${slug}-${id}.jpg`;
 
   const hair = {
+    voono: {
+      name:'VOONO', domain:'voono.sk', website:'https://www.voono.sk/',
+      theme:{brand:'#1c1c1c',accent:'#5f7189',soft:'#f2efea',paper:'#fdfcfa',ink:'#1c1c1c',line:'#e6e1d9'},
+      wordmark:logo('voono','VOONO natural products'),
+      hero:'/assets/cosmetics/voono.jpg', mark:'/assets/cosmetics/voono-mark.png',
+      ownerNote:'Vedľa henny a rastlinných farieb šampóny ORGANIC LINE, keratínová rada, kondicionéry, Tricholog a brezový oplach — zákazníčka potrebuje vedieť, čo patrí k jej vlasom a pokožke.',
+      benefit:['Z organických a keratínových radov ten pravý šampón','Poradí, kedy siahnuť po Tricholog a oplachu','Odpovie aj mimo pracovného času'],
+      products:[
+        {id:'mastne',name:"Šampón pre mastné vlasy ORGANIC LINE",price:'24,00 €',url:'https://www.voono.sk/obchod/vlasova-pece/organicka-starostlivost/sampon-pre-mastne-vlasy/',photo:photo('voono','mastne'),tags:['oily','hydrate','cream','simple','basic'],reason:"Pre vlasy, ktoré sa mastia a sú bez objemu — organické hydratačné zložky vyživia a dodajú lesk, no vlasy nezaťažia."},
+        {id:'objem',name:"Šampón pre objem vlasov s keratínom 390 ml",price:'26,00 €',url:'https://www.voono.sk/obchod/ostatne/novinky/sampon-pre-objem-vlasov-s-keratinom-390-ml/',photo:photo('voono','objem'),tags:['balanced','oily','clarity','hydrate','cream','simple','basic'],reason:"Jemný, ale dôkladný šampón odstráni nečistoty a prebytočný maz bez zaťaženia; hydrolyzovaný keratín dodá vlasom plnší vzhľad a hebkosť."},
+        {id:'suche',name:"Šampón pre suché, poškodené a vlnité vlasy ORGANIC LINE",price:'24,00 €',url:'https://www.voono.sk/obchod/vlasova-pece/organicka-starostlivost/sampon-pre-suche-vlasy/',photo:photo('voono','suche'),tags:['dry','hydrate','mature','cream','simple','basic'],reason:"Organické prírodné výťažky dodajú suchým, poškodeným a vlnitým vlasom hydratáciu a regeneráciu."},
+        {id:'tricholog',name:"VOONO Tricholog – bylinný detox pokožky hlavy",price:'16,70 €',url:'https://www.voono.sk/obchod/vlasova-pece/masky/tricholog/',photo:photo('voono','tricholog'),tags:['sensitive','oily','calm','mature','target','full'],reason:"Zmes prvotriednych bylín na problematickú pokožku hlavy — pri lupinách, chrastách, vypadávaní vlasov či rýchlo sa mastiacej pokožke."},
+        {id:'brezovy',name:"Brezový oplach pre zdravé a lesklé vlasy",price:'13,00 €',url:'https://www.voono.sk/obchod/ostatne/novinky/brezovy-oplach-pro-zdrave-a-leskle-vlasy/',photo:photo('voono','brezovy'),tags:['balanced','sensitive','calm','mature','serum','target','full'],reason:"Bezoplachová vlasová voda s brezou, jablčným octom a levanduľou prekrví pokožku hlavy, upokojí podráždenie a podporí prirodzený rast vlasov."},
+        {id:'citrus',name:"Citrusový kondicionér pre mastiace sa a jemné vlasy 370 ml",price:'27,00 €',url:'https://www.voono.sk/obchod/vlasova-pece/kondicionery/citrusovy-kondicioner/',photo:photo('voono','citrus'),tags:['oily','clarity','oil','target','full'],reason:"Kondicionér na končeky jemných, zľahnutých a rýchlo sa mastiacich vlasov — panthenol a pšeničný proteín ich uhladia bez zaťaženia."},
+        {id:'kerkondi',name:"Keratínový kondicionér pre objem a lesk 390 ml",price:'29,00 €',url:'https://www.voono.sk/obchod/vlasova-pece/kondicionery/keratinovy-kondicioner-objem-lesk/',photo:photo('voono','kerkondi'),tags:['balanced','clarity','hydrate','oil','target','full'],reason:"Keratín posilní vlasy, dodá im okamžitý objem, uľahčí rozčesávanie a chráni ich pred lámavosťou a krepovatením."},
+        {id:'maska',name:"15-minútová vyživujúca maska ORGANIC LINE",price:'27,00 €',url:'https://www.voono.sk/obchod/vlasova-pece/masky/15-minutova-maska/',photo:photo('voono','maska'),tags:['dry','hydrate','oil','target','full'],reason:"Vyživujúca maska na suché, poškodené a kučeravé vlasy — organické oleje ich pri pravidelnom používaní uhladia a vrátia im lesk."},
+        {id:'mango',name:"Mango balzam na suché a rozstrapkané končeky",price:'24,00 €',url:'https://www.voono.sk/obchod/vlasova-pece/styling/mango-balzam-na-konceky/',photo:photo('voono','mango'),tags:['dry','mature','oil','target','full'],reason:"Balzam na štiepiace sa a suché končeky poškodené žehlením, fénovaním či farbením — lesk bez zaťaženia vlasu."}
+      ]
+    },
     navlasil: {
       name:'NAVLASIL', domain:'navlasil.sk', website:'https://www.navlasil.sk/',
       theme:{brand:'#402021',accent:'#b0712f',soft:'#f7f1ec',paper:'#fdf9f6',ink:'#2a1516',line:'#ecdfd6'},
