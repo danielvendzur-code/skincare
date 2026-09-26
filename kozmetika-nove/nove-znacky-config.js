@@ -146,6 +146,24 @@
         {id:'bright',name:'BRIGHT STAR – rozjasňujúci pleťový olej 30 ml',price:'1 370 Kč',url:'https://www.omorfia.care/p/9-rozjasnujici-pletovy-olej-bright-star',photo:photo('omorfia','bright'),tags:['balanced','dry','hydrate','oil','simple','any'],reason:'Hydratačný a rozjasňujúci olej s vitamínmi dodá unavenej pleti energiu, zjednotí ju a zjemní.'},
         {id:'zen',name:'ZEN PURE – odličovací a čistiaci balzam 100 ml',price:'1 670 Kč',url:'https://www.omorfia.care/p/8-zen-purity-odlicovaci-a-cistici-balzam',photo:photo('omorfia','zen'),tags:['sensitive','calm','full'],reason:'Jemný vegánsky balzam pleť dokonale vyčistí a zároveň hydratuje, bez syntetických látok a konzervantov — prvý krok rutiny.'}
       ]
+    },
+    pravaja: {
+      name:'PraváJá', domain:'pravaja.cz', website:'https://pravaja.cz/',
+      theme:{brand:'#1f1a1c',accent:'#a3295f',soft:'#f4eeea',paper:'#fdfbfa',ink:'#1f1a1c',line:'#e6ddd8'},
+      wordmark:logo('pravaja','PraváJá'),
+      hero:'/assets/cosmetics/pravaja.jpg', mark:'/assets/cosmetics/pravaja-mark.png',
+      ownerNote:'Botanické séra s menami ako Městský Detox, Neroli Rosa či Korálový Jas — ktoré sadne mastnej, suchej či zrelej pleti, radí značka v duo sadách.',
+      benefit:['Zo série botanických sér to pravé','Výber podľa pleti, ako radí salón PraváJá','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'detox',name:'Městský Detox – čistiace pleťové sérum 50 ml',price:'1 495 Kč',url:'https://pravaja.cz/produkt/cistici-pletove-serum-mestsky-detox/',photo:photo('pravaja','detox'),tags:['oily','clarity','serum','target'],reason:'Čistiace sérum chráni pred nečistotami z ovzdušia a hĺbkovo revitalizuje pokožku — značka ho radí pre mastnú pleť.'},
+        {id:'neroli',name:'Neroli Rosa – koncentrované hydratačné sérum 50 ml',price:'1 495 Kč',url:'https://pravaja.cz/produkt/koncentrovane-hydratacni-serum-neroli-rosa-30-ml/',photo:photo('pravaja','neroli'),tags:['oily','balanced','hydrate','serum','simple','basic'],reason:'Viacmolekulová kyselina hyalurónová s botanickými látkami pleť spevní a vypne — ľahká hydratácia aj pre mastnú pleť.'},
+        {id:'obnova',name:'Obnova Krásy – regeneračné pleťové sérum 50 ml',price:'1 795 Kč',url:'https://pravaja.cz/produkt/regeneracni-pletove-serum-obnova-krasy/',photo:photo('pravaja','obnova'),tags:['dry','hydrate','serum','target','basic'],reason:'Regeneračné sérum z granátového jablka podporuje obnovu kože, rozjasňuje a vracia jej pružnosť — voľba pre suchú pleť.'},
+        {id:'kremova',name:'Krémová Hydratace – pleťový krém 50 ml',price:'1 495 Kč',url:'https://pravaja.cz/produkt/kremova-hydratace-pravaja-50-ml/',photo:photo('pravaja','kremova'),tags:['dry','balanced','hydrate','cream','simple','any'],reason:'Vegánsky krém s jablkovou šťavou hydratuje a vypína drobné vrásky — značka ho k suchej pleti páruje s Obnovou Krásy.'},
+        {id:'koral',name:'Korálový Jas – botanické anti-age sérum 50 ml',price:'3 495 Kč',url:'https://pravaja.cz/produkt/koralovy-jas-botanicke-serum/',photo:photo('pravaja','koral'),tags:['mature','serum','target','full'],reason:'Luxusné anti-age sérum s bakuchiolom a astaxantínom — nominované na The Best International Product 2026.'},
+        {id:'jantar',name:'Jantarová Rosa – hydratačné anti-age sérum 50 ml',price:'1 895 Kč',url:'https://pravaja.cz/produkt/hydratacni-anti-age-serum-jantarova-rosa/',photo:photo('pravaja','jantar'),tags:['mature','balanced','hydrate','serum','basic','full'],reason:'Kyselina hyalurónová, vitamín C a ovocná voda pre šťavnatú a rozjasnenú zrelú pleť.'},
+        {id:'hyacint',name:'Noční Hyacint – nočné olejové sérum 50 ml',price:'2 950 Kč',url:'https://pravaja.cz/produkt/nocni-hyacint-50-ml/',photo:photo('pravaja','hyacint'),tags:['mature','dry','oil','full','simple'],reason:'Koncentrované brusnicové nočné sérum s vôňou hyacintu intenzívne vyživí pleť každou kvapkou.'},
+        {id:'napravujici',name:'Napravující Koncentrát – pleťové SOS sérum 50 ml',price:'825 Kč',url:'https://pravaja.cz/produkt/napravujici-koncentrat-pravaja-30-ml/',photo:photo('pravaja','napravujici'),tags:['sensitive','calm','oil','target','simple'],reason:'Macerát z nechtíka s kurkumou — 100 % prírodné SOS sérum, keď pleť potrebuje upokojiť.'}
+      ]
     }
   });
 })();

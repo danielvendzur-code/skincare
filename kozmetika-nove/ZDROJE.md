@@ -155,3 +155,24 @@ prefarbené na tmavomodrú.
 | PHOENIX – liftingový krém 30 ml | 1 470 Kč | https://www.omorfia.care/p/16-pece-o-plet-48-phoenix-hydratacni-liftingovy-krem |
 | BRIGHT STAR – rozjasňujúci olej 30 ml | 1 370 Kč | https://www.omorfia.care/p/9-rozjasnujici-pletovy-olej-bright-star |
 | ZEN PURE – odličovací balzam 100 ml | 1 670 Kč | https://www.omorfia.care/p/8-zen-purity-odlicovaci-a-cistici-balzam |
+
+## PraváJá — pravaja.cz
+
+Česká autorská botanická kozmetika so salónom v Prahe, e-shop na
+WooCommerce (Kč). Priradenie k pleti preberá odporúčania značky z jej duo
+sád (mastná: Městský Detox + Neroli Rosa, suchá: Obnova Krásy + Krémová
+Hydratace, anti-age: Korálový Jas + Jantarová Rosa). Ceny za 50 ml.
+Štúdiové fotky mali odznak ocenenia vľavo hore (odstránený len v jeho
+rozsahu), lifestyle fotky sú orezané tak, aby odznak nezahŕňali. Symbolom
+je písané „J“ z loga. Farby z webu: čierna, magenta, teplé krémové plochy.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Městský Detox – čistiace sérum 50 ml | 1 495 Kč | https://pravaja.cz/produkt/cistici-pletove-serum-mestsky-detox/ |
+| Neroli Rosa – hydratačné sérum 50 ml | 1 495 Kč | https://pravaja.cz/produkt/koncentrovane-hydratacni-serum-neroli-rosa-30-ml/ |
+| Obnova Krásy – regeneračné sérum 50 ml | 1 795 Kč | https://pravaja.cz/produkt/regeneracni-pletove-serum-obnova-krasy/ |
+| Krémová Hydratace – krém 50 ml | 1 495 Kč | https://pravaja.cz/produkt/kremova-hydratace-pravaja-50-ml/ |
+| Korálový Jas – anti-age sérum 50 ml | 3 495 Kč | https://pravaja.cz/produkt/koralovy-jas-botanicke-serum/ |
+| Jantarová Rosa – anti-age sérum 50 ml | 1 895 Kč | https://pravaja.cz/produkt/hydratacni-anti-age-serum-jantarova-rosa/ |
+| Noční Hyacint – nočné sérum 50 ml | 2 950 Kč | https://pravaja.cz/produkt/nocni-hyacint-50-ml/ |
+| Napravující Koncentrát – SOS sérum 50 ml | 825 Kč | https://pravaja.cz/produkt/napravujici-koncentrat-pravaja-30-ml/ |

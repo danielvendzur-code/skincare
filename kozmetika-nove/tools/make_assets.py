@@ -42,9 +42,26 @@ def fit_on(img, size, box, color=(255, 255, 255), dy=0):
     canvas.paste(resized, ((size[0] - resized.width) // 2, (size[1] - resized.height) // 2 + dy))
     return canvas
 
+def cover(img, size, focus=(0.5, 0.5)):
+    """Fill `size` completely (a styled photo, not a packshot), cropping
+    around `focus` given as fractions of the source."""
+    scale = max(size[0] / img.width, size[1] / img.height)
+    resized = img.resize((round(img.width * scale), round(img.height * scale)), Image.LANCZOS)
+    left = min(max(0, round(resized.width * focus[0] - size[0] / 2)), resized.width - size[0])
+    top = min(max(0, round(resized.height * focus[1] - size[1] / 2)), resized.height - size[1])
+    return resized.crop((left, top, left + size[0], top + size[1]))
+
 def packshot(src, target, box=(600, 860)):
     """Canvas takes the photo's own backdrop colour, so a studio grey never
-    leaves a lighter frame around the product."""
+    leaves a lighter frame around the product. `photo.jpg@cover[:fx,fy]`
+    marks a styled photo that fills the frame instead."""
+    if '@cover' in src:
+        path, _, focus = src.partition('@cover')
+        fx, fy = (float(v) for v in focus.lstrip(':').split(',')) if focus else (0.5, 0.5)
+        img = flat(Image.open(path))
+        cover(img, (760, 1095), (fx, fy)).save(target, quality=90, optimize=True)
+        img.cover_focus = (fx, fy)
+        return img
     source = flat(Image.open(src))
     backdrop = source.getpixel((1, 1))
     img = trim(source)
@@ -76,7 +93,9 @@ def hero(shots, soft, target):
     canvas = Image.new('RGB', (1000, 1120), soft)
     spots = [(50, 80), (515, 80), (50, 605), (515, 605)]
     for img, spot in zip(shots, spots):
-        canvas.paste(fit_on(img, (435, 435), (290, 340), color=getattr(img, 'backdrop', (255, 255, 255))), spot)
+        tile = cover(img, (435, 435), img.cover_focus) if hasattr(img, 'cover_focus') else \
+            fit_on(img, (435, 435), (290, 340), color=getattr(img, 'backdrop', (255, 255, 255)))
+        canvas.paste(tile, spot)
     canvas.save(target, quality=90, optimize=True)
 
 if __name__ == '__main__':
