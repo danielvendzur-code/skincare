@@ -295,6 +295,25 @@
         {id:'tonikum',name:'Bio Ružové tonikum 100 ml',price:'279 Kč',url:'https://www.purityvision.cz/products/bio-ruzove-tonikum-100-ml',photo:photo('purity','tonikum'),tags:['dry','mature','hydrate','full'],reason:'Tonikum s ružou damascénskou, kyselinou hyalurónovou a vitamínom C dočistí pleť a pripraví ju na sérum.'},
         {id:'pena',name:'Bio Nechtíková čistiaca pena 90 ml',price:'249 Kč',url:'https://www.purityvision.cz/products/bio-mesickova-cistici-pena-95-ml',photo:photo('purity','pena'),tags:['sensitive','oily','balanced','calm','full'],reason:'Jemná pena s aloe vera, betaínom a nechtíkom vyčistí aj veľmi citlivú pleť bez pocitu vysušenia.'}
       ]
+    },
+    indivo: {
+      name:'Indívo', domain:'indivo.cz', website:'https://www.indivo.cz/',
+      theme:{brand:'#4b4462',accent:'#6a80a8',soft:'#f3f0f3',paper:'#fdfcfd',ink:'#2f2a33',line:'#e6e0e8'},
+      wordmark:logo('indivo','Indívo'),
+      hero:'/assets/cosmetics/indivo.jpg', mark:'/assets/cosmetics/indivo-mark.png',
+      ownerNote:'Kalibračné, rozjasňujúce, regeneračné či bobuľové sérum, nektár a krémy — fyziologická kozmetika, v ktorej zákazník nevie, čo je pre jeho pleť.',
+      benefit:['Z olejových sér a krémov to pravé pre pleť','Poskladá rutinu od čistiaceho oleja po krém','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'bambus',name:'Ľahký bambusový krém 50 ml',price:'690 Kč',url:'https://www.indivo.cz/lehky-bambusovy-krem/',photo:photo('indivo','bambus'),tags:['balanced','oily','hydrate','cream','any','simple','basic'],reason:'Svieži antioxidačný krém s bambusom, chlorofylom, niacínamidom a kyselinou hyalurónovou — ľahká textúra, bez parfumácie.'},
+        {id:'safran',name:'Upokojujúci šafránový krém 50 ml',price:'870 Kč',url:'https://www.indivo.cz/zklidnujici-safranovy-krem/',photo:photo('indivo','safran'),tags:['sensitive','mature','calm','cream','full','basic'],reason:'Komplex červených rias, šafrán, ruža z Jericha a koenzým Q10 upokoja, hydratujú a spevnia podráždenú pleť.'},
+        {id:'nektar',name:'Hydratačný nektár Nezábudka 30 ml',price:'1 100 Kč',url:'https://www.indivo.cz/hydratacni-nektar-pomnenka/',photo:photo('indivo','nektar'),tags:['dry','balanced','hydrate','serum','target','basic'],reason:'Rastlinná alternatíva kolagénu s dvojakou kyselinou hyalurónovou a vitamínom B hydratuje, vyhladzuje a obnovuje pleť.'},
+        {id:'kalib',name:'Kalibračné pleťové sérum 30 ml',price:'890 Kč',url:'https://www.indivo.cz/kalibracni-oblicejove-serum/',photo:photo('indivo','kalib'),tags:['oily','clarity','oil','target','simple','basic'],reason:'Olejové sérum pre mastnejšiu pleť, ktoré reguluje tvorbu mazu a neupcháva póry — pleť je vyživená a zjednotená.'},
+        {id:'rozjas',name:'Rozjasňujúce pleťové sérum 30 ml',price:'890 Kč',url:'https://www.indivo.cz/rozjasnujici-oblicejove-serum/',photo:photo('indivo','rozjas'),tags:['balanced','mature','clarity','oil','target'],reason:'Marhuľový a arganový olej s extraktmi z medvedice, ľalie a brusnice rozjasnia a zjednotia tón pleti.'},
+        {id:'ruze',name:'Regeneračné sérum Ruža Otto 30 ml',price:'890 Kč',url:'https://www.indivo.cz/regeneracni-serum-ruze-otto/',photo:photo('indivo','ruze'),tags:['mature','dry','oil','full','basic'],reason:'Vzácna bulharská ruža Otto s extraktom z bieleho čaju a granátového jablka zjemní pleť a pôsobí proti vráskam.'},
+        {id:'slam',name:'Šľahaný balzam Slamienka 30 ml',price:'430 Kč',url:'https://www.indivo.cz/slehany-balzam-slamenka/',photo:photo('indivo','slam'),tags:['dry','mature','hydrate','cream','simple'],reason:'Rozjasňujúci balzam so slamienkou a sedmokráskou obnoví štruktúru a vitalitu suchej pleti.'},
+        {id:'olej',name:'Pleťový čistiaci olej',price:'390 Kč',url:'https://www.indivo.cz/pletovy-cistici-olej/',photo:photo('indivo','olej'),tags:['dry','balanced','mature','full'],reason:'Jemný olej rozpustný vo vode šetrne odstráni make-up a nečistoty bez narušenia ochrannej vrstvy pleti.'},
+        {id:'voda',name:'Kvetová voda Levanduľa 60 ml',price:'185 Kč',url:'https://www.indivo.cz/kvetova-voda-levandule/',photo:photo('indivo','voda'),tags:['oily','sensitive','balanced','calm','full'],reason:'Levanduľová voda pleť osvieži, tonizuje a podporí regeneráciu — najmä pri zmiešanej a problematickej pleti.'}
+      ]
     }
   });
 })();

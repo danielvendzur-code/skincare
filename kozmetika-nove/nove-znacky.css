@@ -98,6 +98,12 @@ body[data-cosmetics-demo="atok"] .cx-widget-brand .cx-logo {
 body[data-cosmetics-demo="purity"] .cx-owner-brand .cx-logo {
   max-height: 48px !important;
 }
+body[data-cosmetics-demo="indivo"] .cx-owner-brand .cx-logo {
+  max-height: 58px !important;
+}
+body[data-cosmetics-demo="indivo"] .cx-widget-brand .cx-logo {
+  max-height: 40px !important;
+}
 /* ZAHIR: three-line logo (name + "Nature of Morocco") */
 body[data-cosmetics-demo="zahir"] .cx-owner-brand .cx-logo {
   max-height: 60px !important;

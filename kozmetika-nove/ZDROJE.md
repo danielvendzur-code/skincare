@@ -343,3 +343,29 @@ a bambusové viečka, text tmavohnedý ako v logu.
 | Bio Hydro2 oil & serum 2in1 30 ml | 319 Kč | https://www.purityvision.cz/products/bio-hydro2-oil-serum-2in1-30-ml |
 | Bio Ružové tonikum 100 ml | 279 Kč | https://www.purityvision.cz/products/bio-ruzove-tonikum-100-ml |
 | Bio Nechtíková čistiaca pena 90 ml | 249 Kč | https://www.purityvision.cz/products/bio-mesickova-cistici-pena-95-ml |
+
+## Indívo — indivo.cz
+
+Malá česká značka „fyziologickej“ prírodnej kozmetiky (Shoptet, ceny
+v Kč) s čistým minimalistickým webom. Séra nesú názvy podľa účinku
+(kalibračné, rozjasňujúce, regeneračné, bobuľové), k nim nektár, krémy a
+balzamy. Ceny sú za plnú veľkosť (30 ml séra; varianty 10 ml a 1 ml
+vzorka sú lacnejšie). Pri všetkých je tlačidlo „Do košíku“ aktívne
+k 26. 9. 2026 (pri čistiacom oleji a vode web nevypisuje text skladu).
+Fotky: štúdiové štvorce s predĺženým pozadím, biele packshoty orezané,
+dva štylizované zábery orezané na výšku. Logo má na webe len 200×159 px,
+preto je zväčšené 5× s vyhladením; symbolom je kolibrík z loga (bez
+driečky písmena „d“, ktorá do neho zasahovala). Farby: tlmená fialovo-
+bridlicová ako hlavná, akcent prachovo modrá z ich webu.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Ľahký bambusový krém 50 ml | 690 Kč | https://www.indivo.cz/lehky-bambusovy-krem/ |
+| Upokojujúci šafránový krém 50 ml | 870 Kč | https://www.indivo.cz/zklidnujici-safranovy-krem/ |
+| Hydratačný nektár Nezábudka 30 ml | 1 100 Kč | https://www.indivo.cz/hydratacni-nektar-pomnenka/ |
+| Kalibračné pleťové sérum 30 ml | 890 Kč | https://www.indivo.cz/kalibracni-oblicejove-serum/ |
+| Rozjasňujúce pleťové sérum 30 ml | 890 Kč | https://www.indivo.cz/rozjasnujici-oblicejove-serum/ |
+| Regeneračné sérum Ruža Otto 30 ml | 890 Kč | https://www.indivo.cz/regeneracni-serum-ruze-otto/ |
+| Šľahaný balzam Slamienka 30 ml | 430 Kč | https://www.indivo.cz/slehany-balzam-slamenka/ |
+| Pleťový čistiaci olej | 390 Kč | https://www.indivo.cz/pletovy-cistici-olej/ |
+| Kvetová voda Levanduľa 60 ml | 185 Kč | https://www.indivo.cz/kvetova-voda-levandule/ |
