@@ -42,3 +42,6 @@ body[data-cosmetics-demo="anela"] .cx-owner-brand .cx-logo {
 body[data-cosmetics-demo="mymkech"] .cx-owner-brand .cx-logo {
   max-height: 62px !important;
 }
+body[data-cosmetics-demo="omorfia"] .cx-owner-brand .cx-logo {
+  max-height: 60px !important;
+}

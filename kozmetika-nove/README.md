@@ -31,6 +31,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | ANELA | [anela.cz](https://www.anela.cz/) | `/anela/` · `anela.mojchatbot.sk` |
 | Klara Rott | [klararott.sk](https://www.klararott.sk/) | `/klararott/` · `klararott.mojchatbot.sk` |
 | YAGE Organics | [yageorganics.cz](https://www.yageorganics.cz/) | `/yage/` · `yage.mojchatbot.sk` |
+| OMORFIA | [omorfia.care](https://www.omorfia.care/) | `/omorfia/` · `omorfia.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 

@@ -136,3 +136,22 @@ výsledok ukazovali čisté balenie. Farby z webu: čierna, krémová, zlatohned
 | č. 3 SEA WAVE – Cica tonikum | 1 599 Kč | https://www.yageorganics.cz/c--3-zklidnujici-cica-tonikum/ |
 | č. 6 MYSTIC TANSY BLUE – nočný balzam | 1 980 Kč | https://www.yageorganics.cz/c--6-nocni-pecujici-balzam-krasy-mystic-tansy-blue/ |
 | č. 7 SOS MIRACLE – lokálna starostlivosť | 1 299 Kč | https://www.yageorganics.cz/c--7-lokalni-pece-na-pupinky-sos-miracle/ |
+
+## OMORFIA — omorfia.care
+
+Česká holistická značka (Praha) so systémom „3 kroky ke zdravé pleti“ a
+olejmi podľa typu pleti, e-shop na Upgates (Kč). Ceny sú za zvolený objem
+(overené výberom variantu v prehliadači, `tools/variant_price.mjs`).
+Produktové fotky na webe nesú marketingové štítky (BESTSELLER, KROK…),
+preto je z nich vyrezaný len samotný produkt; tonikum Aqua Dew má odznak
+priamo cez fľašu a Jasmine Dew nemá fotku, preto nie sú zaradené. Farby
+z webu: tmavomodrá, zlatá, jemne ružové plochy. Biele logo z webu je
+prefarbené na tmavomodrú.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| SKIN SUPERFOOD – olej pre suchú pleť 30 ml | 1 870 Kč | https://www.omorfia.care/p/12-antiaging-olej-pro-suchou-plet-skinsuperfood |
+| DIVINE ELIXIR – olej pre zmiešanú pleť 30 ml | 1 870 Kč | https://www.omorfia.care/p/11-olej-proti-vraskam-divine-elixir |
+| PHOENIX – liftingový krém 30 ml | 1 470 Kč | https://www.omorfia.care/p/16-pece-o-plet-48-phoenix-hydratacni-liftingovy-krem |
+| BRIGHT STAR – rozjasňujúci olej 30 ml | 1 370 Kč | https://www.omorfia.care/p/9-rozjasnujici-pletovy-olej-bright-star |
+| ZEN PURE – odličovací balzam 100 ml | 1 670 Kč | https://www.omorfia.care/p/8-zen-purity-odlicovaci-a-cistici-balzam |

@@ -131,6 +131,21 @@
         {id:'tansy',name:'č. 6 MYSTIC TANSY BLUE – nočný upokojujúci balzam',price:'1 980 Kč',url:'https://www.yageorganics.cz/c--6-nocni-pecujici-balzam-krasy-mystic-tansy-blue/',photo:photo('yage','tansy'),tags:['sensitive','oily','calm','cream','simple','basic'],reason:'Marocký harmanček, baobab a marula hydratujú a upokoja citlivú, začervenanú, podráždenú aj aknóznu pleť.'},
         {id:'sos',name:'č. 7 SOS MIRACLE – lokálna starostlivosť na pupienky',price:'1 299 Kč',url:'https://www.yageorganics.cz/c--7-lokalni-pece-na-pupinky-sos-miracle/',photo:photo('yage','sos'),tags:['oily','clarity','oil','target'],reason:'Koncentrovaná zmes olejov s bakuchiolom a tea tree na cielenú bodovú starostlivosť o nedokonalosti.'}
       ]
+    },
+    omorfia: {
+      name:'OMORFIA', domain:'omorfia.care', website:'https://www.omorfia.care/',
+      theme:{brand:'#11395a',accent:'#9c7a24',soft:'#f5eeec',paper:'#fdfcfb',ink:'#14263a',line:'#e8dcd9'},
+      wordmark:logo('omorfia','OMORFIA'),
+      hero:'/assets/cosmetics/omorfia.jpg', mark:'/assets/cosmetics/omorfia-mark.png',
+      ownerNote:'Tri kroky a pleťový olej podľa pleti — Divine Elixir, Skin Superfood či Bright Star; zákazníčka potrebuje vedieť, ktorý olej je jej.',
+      benefit:['Z olejov Omorfia ten pravý pre pleť','Výber podľa pleti, ako pri osobnej poradni','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'superfood',name:'SKIN SUPERFOOD – omladzujúci olej pre suchú pleť 30 ml',price:'1 870 Kč',url:'https://www.omorfia.care/p/12-antiaging-olej-pro-suchou-plet-skinsuperfood',photo:photo('omorfia','superfood'),tags:['dry','mature','hydrate','oil','simple','full'],reason:'Vyživujúci olejový koktejl pre suchú pleť — hydratuje, obnovuje hydrolipidovú vrstvu a pôsobí proti starnutiu.'},
+        {id:'divine',name:'DIVINE ELIXIR – omladzujúci olej pre zmiešanú pleť 30 ml',price:'1 870 Kč',url:'https://www.omorfia.care/p/11-olej-proti-vraskam-divine-elixir',photo:photo('omorfia','divine'),tags:['oily','balanced','clarity','oil','target'],reason:'Olej pre pleť so známkami starnutia a sklonom k akné — urýchľuje hojenie pupienkov, zmenšuje póry a vyhladzuje vrásky.'},
+        {id:'phoenix',name:'PHOENIX – ľahký liftingový krém 30 ml',price:'1 470 Kč',url:'https://www.omorfia.care/p/16-pece-o-plet-48-phoenix-hydratacni-liftingovy-krem',photo:photo('omorfia','phoenix'),tags:['mature','balanced','hydrate','cream','simple','full'],reason:'Kyselina hyalurónová vo vysokej aj nízkej molekule — lifting, hydratácia do hĺbky a jednotnejší tón zrelšej pleti.'},
+        {id:'bright',name:'BRIGHT STAR – rozjasňujúci pleťový olej 30 ml',price:'1 370 Kč',url:'https://www.omorfia.care/p/9-rozjasnujici-pletovy-olej-bright-star',photo:photo('omorfia','bright'),tags:['balanced','dry','hydrate','oil','simple','any'],reason:'Hydratačný a rozjasňujúci olej s vitamínmi dodá unavenej pleti energiu, zjednotí ju a zjemní.'},
+        {id:'zen',name:'ZEN PURE – odličovací a čistiaci balzam 100 ml',price:'1 670 Kč',url:'https://www.omorfia.care/p/8-zen-purity-odlicovaci-a-cistici-balzam',photo:photo('omorfia','zen'),tags:['sensitive','calm','full'],reason:'Jemný vegánsky balzam pleť dokonale vyčistí a zároveň hydratuje, bez syntetických látok a konzervantov — prvý krok rutiny.'}
+      ]
     }
   });
 })();
