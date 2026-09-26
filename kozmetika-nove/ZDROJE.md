@@ -219,3 +219,26 @@ tmavá ihličnatá zelená ako hlavná, jemná mätová plocha.
 | Anti-age sérum HYDROKOMPLEX | 470 Kč | https://www.caltha.cz/anti-age-serum-hydrokomplex-s-kyselinou-hyaluronovou/ |
 | Čistiace mlieko aloe vera a levanduľa 100 ml | 290 Kč | https://www.caltha.cz/cistici-mleko-aloe-vera-gel-a-levandule/ |
 | Pleťové tonikum BÍLÁ RŮŽE | 280 Kč | https://www.caltha.cz/pletove-tonikum-bila-ruze/ |
+
+## ZAHIR Cosmetics — zahir.cz
+
+Česká eco-bio kosmetika z marockých surovín (Shoptet, ceny v Kč, verzia
+aj pre SK). Ponuka pleťovej kozmetiky stojí hlavne na olejoch —
+arganový, opunciový, šípkový, višňový, jojobový — a kvetinových vodách,
+takže otázka „ktorý olej pre moju pleť“ je presne úloha pre poradcu.
+Ceny a sklad z detailu produktu („Skladem (>5 ks)“ pri všetkých
+k 26. 9. 2026). Fotky sú packshoty z e-shopu na bielej. Logo je
+oficiálne JPG z e-shopu (biela vykľúčovaná), symbolom je marocká
+osemcípa hviezda z loga. Farby: staroružová/mauve z loga (#885a5c,
+#b8898d) — tmavší odtieň ako hlavná, teplá arganová hnedá ako akcent.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| BIO Arganový olej s kvapkadlom 50 ml | 338 Kč | https://www.zahir.cz/bioarganovy-olej-s-kapatkem-50-ml/ |
+| Luxusný BIO opunciový olej 15 ml | 644 Kč | https://www.zahir.cz/bio-opunciovy-olej-15-ml/ |
+| Šípkový pleťový olej BIO 30 ml | 207 Kč | https://www.zahir.cz/sipkovy-pletovy-olej-bio-30-ml/ |
+| Višňový pleťový olej BIO 30 ml | 195 Kč | https://www.zahir.cz/visnovy-pletovy-olej-bio-30-ml/ |
+| Jojobový olej 50 ml | 254 Kč | https://www.zahir.cz/jojobovy-olej-50-ml/ |
+| Harmančeková voda 100 ml | 199 Kč | https://www.zahir.cz/hermankova-voda-100-ml/ |
+| Ružová voda s rozprašovačom 100 ml | 229 Kč | https://www.zahir.cz/ruzova-voda-s-rozprasovacem-100-ml/ |
+| Odličovací olej na odolný make-up 100 ml | 285 Kč | https://www.zahir.cz/odlicovaci-olej-na-odolny-make-up-100-ml/ |

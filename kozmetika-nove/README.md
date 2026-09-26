@@ -35,6 +35,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | PraváJá | [pravaja.cz](https://pravaja.cz/) | `/pravaja/` · `pravaja.mojchatbot.sk` |
 | Botanica Slavica | [botanicaslavica.eu](https://www.botanicaslavica.eu/sk/) | `/botanica/` · `botanica.mojchatbot.sk` |
 | CALTHA | [caltha.cz](https://www.caltha.cz/) | `/caltha/` · `caltha.mojchatbot.sk` |
+| ZAHIR Cosmetics | [zahir.cz](https://www.zahir.cz/) | `/zahir/` · `zahir.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 

@@ -200,6 +200,24 @@
         {id:'mleko',name:'Čistiace mlieko ALOE VERA gél a LEVANDUĽA 100 ml',price:'290 Kč',url:'https://www.caltha.cz/cistici-mleko-aloe-vera-gel-a-levandule/',photo:photo('caltha','mleko'),tags:['sensitive','dry','calm','full'],reason:'Jemné mlieko s BIO levanduľovým hydrolátom a aloe vera odlíči a vyčistí bez vysušenia — prvý krok rutiny.'},
         {id:'tonikum',name:'Pleťové tonikum BÍLÁ RŮŽE',price:'280 Kč',url:'https://www.caltha.cz/pletove-tonikum-bila-ruze/',photo:photo('caltha','tonikum'),tags:['sensitive','balanced','calm','full'],reason:'Tonikum s BIO hydrolátom z bielej ruže a aloe vera bez alkoholu a parfumácie pleť osvieži, rozjasní a zharmonizuje.'}
       ]
+    },
+    zahir: {
+      name:'ZAHIR Cosmetics', domain:'zahir.cz', website:'https://www.zahir.cz/',
+      theme:{brand:'#6f4447',accent:'#a0674f',soft:'#f5eeec',paper:'#fdfbfa',ink:'#2e2223',line:'#eaddda'},
+      wordmark:logo('zahir','ZAHIR Cosmetics'),
+      hero:'/assets/cosmetics/zahir.jpg', mark:'/assets/cosmetics/zahir-mark.png',
+      ownerNote:'Argánový, opunciový, šípkový, višňový či jojobový olej a k nim kvetinové vody — zákazník nevie, ktorý olej sadne jeho pleti.',
+      benefit:['Z marockých olejov ten pravý pre pleť','Doplní kvetinovú vodu aj odličovací olej','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'argan',name:'BIO Arganový olej s kvapkadlom 50 ml',price:'338 Kč',url:'https://www.zahir.cz/bioarganovy-olej-s-kapatkem-50-ml/',photo:photo('zahir','argan'),tags:['dry','balanced','hydrate','oil','any','simple','basic'],reason:'Marocký za studena lisovaný arganový olej rýchlo vstrebe, regeneruje a chráni pleť — vhodný aj pre citlivú pokožku.'},
+        {id:'opuncie',name:'Luxusný BIO opunciový olej 15 ml',price:'644 Kč',url:'https://www.zahir.cz/bio-opunciovy-olej-15-ml/',photo:photo('zahir','opuncie'),tags:['mature','sensitive','dry','oil','target','basic'],reason:'Jeden z najvzácnejších olejov sveta regeneruje jemnú pokožku a vracia jej pružnosť — aj zrelej, precitlivenej a okolo očí.'},
+        {id:'sipek',name:'Šípkový pleťový olej BIO 30 ml',price:'207 Kč',url:'https://www.zahir.cz/sipkovy-pletovy-olej-bio-30-ml/',photo:photo('zahir','sipek'),tags:['mature','dry','hydrate','oil','simple','basic'],reason:'Olej zo šípok s vitamínmi A, D, E a K dodá unavenej a starnúcej pleti hebkosť, pružnosť a mladistvý vzhľad.'},
+        {id:'visen',name:'Višňový pleťový olej BIO 30 ml',price:'195 Kč',url:'https://www.zahir.cz/visnovy-pletovy-olej-bio-30-ml/',photo:photo('zahir','visen'),tags:['sensitive','balanced','calm','oil','any','simple','basic'],reason:'Rýchlo sa vstrebe bez pocitu mastnoty a znesie ho aj najcitlivejšia pleť — antioxidanty z višňových semien ju rozžiaria.'},
+        {id:'jojoba',name:'Jojobový olej 50 ml',price:'254 Kč',url:'https://www.zahir.cz/jojobovy-olej-50-ml/',photo:photo('zahir','jojoba'),tags:['oily','balanced','clarity','oil','simple','basic'],reason:'Zložením blízky kožnému mazu — pomáha regulovať jeho tvorbu, neupcháva póry a upokojí aj problematickú pleť.'},
+        {id:'herm',name:'Harmančeková voda 100 ml',price:'199 Kč',url:'https://www.zahir.cz/hermankova-voda-100-ml/',photo:photo('zahir','herm'),tags:['oily','sensitive','calm','clarity','full'],reason:'Harmančekový hydrolát ako tonikum po čistení — stiahne póry, zmierni začervenanie a upokojí zapálenú a mastiacu sa pleť.'},
+        {id:'ruze',name:'Ružová voda s rozprašovačom 100 ml',price:'229 Kč',url:'https://www.zahir.cz/ruzova-voda-s-rozprasovacem-100-ml/',photo:photo('zahir','ruze'),tags:['dry','mature','balanced','hydrate','full'],reason:'Ružová voda ako tonikum a podklad pod olej — uľahčí jeho vstrebanie a jemne pečie aj o zrelú a precitlivenú pleť.'},
+        {id:'odlic',name:'Odličovací olej na odolný make-up 100 ml',price:'285 Kč',url:'https://www.zahir.cz/odlicovaci-olej-na-odolny-make-up-100-ml/',photo:photo('zahir','odlic'),tags:['dry','balanced','mature','full'],reason:'Vegánsky odličovací olej s arganovým a mandľovým olejom odstráni aj vodeodolný make-up a nechá pleť vláčnu.'}
+      ]
     }
   });
 })();
