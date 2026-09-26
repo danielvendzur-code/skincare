@@ -41,6 +41,7 @@ maska, olej, sérum či tonikum sú doplnkové kroky (`target`, `full`), aby pri
 | značka | e-shop | ukážka | prečo je vhodná |
 | --- | --- | --- | --- |
 | Haaro Naturo | [haaro-naturo.cz](https://www.haaro-naturo.cz/) | `/haaro/` · `haaro.mojchatbot.sk` | česká značka s vlastným kaderníctvom a výrobou v Liberci, špecialista len na vlasy; tuhé aj postbiotické šampóny, séra na pokožku hlavy a kondicionéry delené podľa problému — z názvov nie je jasné, či riešiť vlasy alebo pokožku; Shoptet, všetko skladom |
+| Havlík Apoteka | [havlikovaapoteka.cz/sk](https://www.havlikovaapoteka.cz/sk/) | `/havlikova/` · `havlikova.mojchatbot.sk` | Havlíkova přírodní apotéka, česká rodinná manufaktúra s vlastnou výrobou a predajňami, predáva aj v drogériách; vlasový rad „Vlasový opravář“ (šampóny na svetlé/tmavé vlasy, toniká, séra, maska) — zákazník nevie, čo s čím kombinovať; slovenská verzia e-shopu v €, Shoptet Premium |
 <!-- /ukazky -->
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).

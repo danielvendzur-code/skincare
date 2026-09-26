@@ -11,6 +11,25 @@
   const photo = (slug, id) => `/assets/cosmetics/${slug}-${id}.jpg`;
 
   const hair = {
+    havlikova: {
+      name:'Havlík Apoteka', domain:'havlikovaapoteka.cz', website:'https://www.havlikovaapoteka.cz/sk/',
+      theme:{brand:'#124800',accent:'#9a5a2a',soft:'#f0f5e1',paper:'#fcfdf8',ink:'#0e2a1d',line:'#dfe6cf'},
+      wordmark:logo('havlikova','Havlíkova přírodní apotéka'),
+      hero:'/assets/cosmetics/havlikova.jpg', mark:'/assets/cosmetics/havlikova-mark.png',
+      ownerNote:'Rad „Vlasový opravář“, cibuľovo-fazuľové šampóny na svetlé a tmavé vlasy, šampón 13 rastlín, dve toniká a dve séra — zákazník nevie, čím začať a čo k tomu pridať.',
+      benefit:['Z cibuľovo-fazuľového radu poskladá celú starostlivosť','Rozlíši tonikum na pokožku a sérum na končeky','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'tmave',name:'Cibuľovo-fazuľový šampón na tmavé vlasy 200 ml',price:'24,00 €',url:'https://www.havlikovaapoteka.cz/sk/cibulovo-fazolovy-sampon-na-tmave-vlasy/',photo:photo('havlikova','tmave'),tags:['balanced','mature','cream','simple','basic'],reason:'Výťažky z cibule, fazule a Cressatine® posilňujú vlasy od korienkov a pri pravidelnom používaní bránia nadmernému vypadávaniu; orech podporí farbu tmavých vlasov.'},
+        {id:'svetle',name:'Cibuľovo-fazuľový šampón na svetlé vlasy 200 ml',price:'24,00 €',url:'https://www.havlikovaapoteka.cz/sk/cibulovo-fazolovy-sampon-na-svetle-vlasy/',photo:photo('havlikova','svetle'),tags:['balanced','mature','cream','simple','basic'],reason:'Rovnaký posilňujúci šampón z cibule a fazule, s harmančekom pre svetlé vlasy — podporí rast nových vlasov a lesk.'},
+        {id:'rostlin',name:'Havlíkov šampón 13 rastlín 200 ml',price:'16,50 €',url:'https://www.havlikovaapoteka.cz/sk/havlikuv-sampon-13-rostlin/',photo:photo('havlikova','rostlin'),tags:['dry','mature','cream','simple','basic'],reason:'Málo penivý BIO šampón z 13 lokálnych rastlín šetrne regeneruje poškodené vlasy, hĺbkovo hydratuje a posilňuje pokožku hlavy.'},
+        {id:'sucha',name:'Jemný vlasový šampón pre suché vlasy 200 ml',price:'19,50 €',url:'https://www.havlikovaapoteka.cz/sk/jemny-vlasovy-sampon-pro-suche-vlasy-200-ml/',photo:photo('havlikova','sucha'),tags:['dry','hydrate','cream','simple','basic'],reason:'Jemne penivý šampón so žĺtkom a arganovým olejom pre veľmi suché, poškodené vlasy so sklonom k strapkaniu — nevysušuje, dodá lesk.'},
+        {id:'tonikum',name:'Vlasové tonikum 200 ml',price:'16,00 €',url:'https://www.havlikovaapoteka.cz/sk/vlasove-tonikum/',photo:photo('havlikova','tonikum'),tags:['oily','sensitive','calm','clarity','serum','target','full'],reason:'Zmes 10 bylín na pokožku hlavy normalizuje maz, odstraňuje pocit svrbenia a vyživuje korienky — nanáša sa bez oplachovania.'},
+        {id:'rozmarin',name:'Rozmarínové tonikum na vlasy 200 ml',price:'24,50 €',url:'https://www.havlikovaapoteka.cz/sk/rozmarynove-tonikum-na-vlasy/',photo:photo('havlikova','rozmarin'),tags:['sensitive','mature','calm','serum','target','full'],reason:'Kvetová voda z rozmarínu posilňuje vlasové vlákna, podporuje prirodzenú hustotu a zároveň upokojí a hydratuje citlivú pokožku hlavy.'},
+        {id:'serum',name:'Cibuľovo-fazuľové vlasové sérum 30 ml',price:'24,50 €',url:'https://www.havlikovaapoteka.cz/sk/cibulovo-fazolove-vlasove-serum-30-ml-2/',photo:photo('havlikova','serum'),tags:['balanced','mature','serum','target','full'],reason:'Sérum s cibuľou, kofeínom, žihľavou a panthenolom pre slabé a vypadávajúce vlasy — podporí rast nových a hustotu vlasov.'},
+        {id:'maska',name:'Cibuľovo-fazuľová vlasová maska 100 ml',price:'18,00 €',url:'https://www.havlikovaapoteka.cz/sk/cibulovo-fazolova-vlasova-maska/',photo:photo('havlikova','maska'),tags:['oily','hydrate','oil','target','full'],reason:'Výživná maska so žĺtkom, arganovým a ovseným olejom — vhodná aj na jemné a rýchlo sa mastiace vlasy, poškodeným vráti lesk a hebkosť.'},
+        {id:'hyaluron',name:'Vlasové sérum Kyselina hyalurónová 50 ml',price:'30,50 €',url:'https://www.havlikovaapoteka.cz/sk/vlasove-serum-kyselina-hyaluronova-vlasovy-opravar-50-ml/',photo:photo('havlikova','hyaluron'),tags:['dry','hydrate','oil','target','full'],reason:'Koncentrované sérum s kyselinou hyalurónovou a panthenolom vytvorí na vlase ochranný štít — hydratácia, lesk a menej strapkajúcich sa končekov.'}
+      ]
+    },
     haaro: {
       name:'Haaro Naturo', domain:'haaro-naturo.cz', website:'https://www.haaro-naturo.cz/',
       theme:{brand:'#1f1c1a',accent:'#8c6f55',soft:'#f3efe9',paper:'#fdfcfa',ink:'#1f1c1a',line:'#e4ddd3'},

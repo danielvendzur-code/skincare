@@ -56,3 +56,31 @@ z loga bez rámčekov.
 
 Logo: `https://cdn.myshoptet.com/usr/www.haaro-naturo.cz/user/logos/logo-horizontal.png`;
 fotky: originály (`/user/shop/orig/`) hlavných obrázkov produktových stránok.
+
+## Havlík Apoteka — havlikovaapoteka.cz/sk
+
+Havlíkova přírodní apotéka (logo „Havlík Apoteka“), česká značka prírodnej
+kozmetiky s vlastnou výrobou, e-shop na Shoptet Premium so slovenskou
+verziou v €. Vybraný je vlasový sortiment (rad Vlasový opravář, šampóny,
+toniká, séra, maska); všetko skladom. Ceny sú za bežné balenie (šampóny
+a toniká 200 ml, maska 100 ml). Šampón na svetlé vlasy má rovnaké tagy ako
+šampón na tmavé, preto sa vo výsledku ukazuje ako alternatíva. Na fotke
+šampónu na tmavé vlasy bol odznak Cosmopolitan Beauty Awards — odstránený.
+Farby z webu: tmavozelená `#124800` (primárna farba webu), jantárovo-hnedá
+zo skla fliaš, svetlá šalviová plocha `#f0f5e1`. Logo zo SVG na webe,
+symbol mažiara z faviconu (vyhladene zväčšený).
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Cibuľovo-fazuľový šampón na tmavé vlasy 200 ml | 24,00 € | https://www.havlikovaapoteka.cz/sk/cibulovo-fazolovy-sampon-na-tmave-vlasy/ |
+| Cibuľovo-fazuľový šampón na svetlé vlasy 200 ml | 24,00 € | https://www.havlikovaapoteka.cz/sk/cibulovo-fazolovy-sampon-na-svetle-vlasy/ |
+| Havlíkov šampón 13 rastlín 200 ml | 16,50 € | https://www.havlikovaapoteka.cz/sk/havlikuv-sampon-13-rostlin/ |
+| Jemný vlasový šampón pre suché vlasy 200 ml | 19,50 € | https://www.havlikovaapoteka.cz/sk/jemny-vlasovy-sampon-pro-suche-vlasy-200-ml/ |
+| Vlasové tonikum 200 ml | 16,00 € | https://www.havlikovaapoteka.cz/sk/vlasove-tonikum/ |
+| Rozmarínové tonikum na vlasy 200 ml | 24,50 € | https://www.havlikovaapoteka.cz/sk/rozmarynove-tonikum-na-vlasy/ |
+| Cibuľovo-fazuľové vlasové sérum 30 ml | 24,50 € | https://www.havlikovaapoteka.cz/sk/cibulovo-fazolove-vlasove-serum-30-ml-2/ |
+| Cibuľovo-fazuľová vlasová maska 100 ml | 18,00 € | https://www.havlikovaapoteka.cz/sk/cibulovo-fazolova-vlasova-maska/ |
+| Vlasové sérum Kyselina hyalurónová 50 ml | 30,50 € | https://www.havlikovaapoteka.cz/sk/vlasove-serum-kyselina-hyaluronova-vlasovy-opravar-50-ml/ |
+
+Logo: `https://cdn.myshoptet.com/usr/www.havlikovaapoteka.cz/user/logos/group_9337.svg`;
+symbol: `https://www.havlikovaapoteka.cz/favicon.png`; fotky: originály (`/user/shop/orig/`).
