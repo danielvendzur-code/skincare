@@ -369,3 +369,28 @@ bridlicová ako hlavná, akcent prachovo modrá z ich webu.
 | Šľahaný balzam Slamienka 30 ml | 430 Kč | https://www.indivo.cz/slehany-balzam-slamenka/ |
 | Pleťový čistiaci olej | 390 Kč | https://www.indivo.cz/pletovy-cistici-olej/ |
 | Kvetová voda Levanduľa 60 ml | 185 Kč | https://www.indivo.cz/kvetova-voda-levandule/ |
+
+## SMYSSLY — smyssly.com
+
+Malá česká prémiová značka (vlastný Nuxt e-shop so Snipcart košíkom,
+ceny v Kč) s minimalistickým webom a úzkym pleťovým sortimentom —
+rozhodovanie typu „hyalurón 1 % alebo 4 %“, „hodvábny alebo perlový
+krém“. Ceny sú z riadku „Cena (včetně DPH)“ na detaile; tlačidlo KOUPIT
+je aktívne pri všetkých k 26. 9. 2026 (`tools/buy_check.mjs`). Fotky sú
+ich štúdiové zábery na výšku (960×1440) z `smyssly.imanent.eu`, zistené
+zo sieťových požiadaviek stránky (`tools/net_images.mjs`). Logo je na
+webe text „SMYSSLY“ v ich písme MonaLisa — vyrenderovaný týmto
+oficiálnym fontom z ich webu; symbolom je „S“ v tom istom písme.
+Farby: teplá espresso čierna, akcent bambus ako viečka, krémová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Hodvábny hydratačný krém 50 ml | 1 490 Kč | https://www.smyssly.com/cs/products/80/hedvabny-hydratacni-krem/ |
+| Perlový výživný krém 50 ml | 1 490 Kč | https://www.smyssly.com/cs/products/79/perlovy-vyzivny-krem/ |
+| Sérum kyseliny hyalurónovej 1 % 20 ml | 1 090 Kč | https://www.smyssly.com/cs/products/81/serum-kyseliny-hyaluronove-1-percent/ |
+| Sérum kyseliny hyalurónovej 4 % 20 ml | 1 490 Kč | https://www.smyssly.com/cs/products/82/serum-kyseliny-hyaluronove-4-percent/ |
+| Sérum s retinolom 20 ml | 1 090 Kč | https://www.smyssly.com/cs/products/45/serum-s-retinolem/ |
+| Perly pre dokonalú pleť 30 ml | 2 550 Kč | https://www.smyssly.com/cs/products/83/perly-pro-dokonalou-plet/ |
+| Rozjasňujúce sérum so zlatom 20 ml | 1 590 Kč | https://www.smyssly.com/cs/products/1420/rozjasnujici-serum-se-zlatem/ |
+| Revitalizačná odličovacia voda 150 ml | 950 Kč | https://www.smyssly.com/cs/products/84/revitalizacni-odlicovaci-voda/ |
+| Hydratačná hmla s kyselinou hyalurónovou 120 ml | 690 Kč | https://www.smyssly.com/cs/products/2102/hydratacni-mlha-s-kyselinou-hyaluronovou/ |

@@ -314,6 +314,25 @@
         {id:'olej',name:'Pleťový čistiaci olej',price:'390 Kč',url:'https://www.indivo.cz/pletovy-cistici-olej/',photo:photo('indivo','olej'),tags:['dry','balanced','mature','full'],reason:'Jemný olej rozpustný vo vode šetrne odstráni make-up a nečistoty bez narušenia ochrannej vrstvy pleti.'},
         {id:'voda',name:'Kvetová voda Levanduľa 60 ml',price:'185 Kč',url:'https://www.indivo.cz/kvetova-voda-levandule/',photo:photo('indivo','voda'),tags:['oily','sensitive','balanced','calm','full'],reason:'Levanduľová voda pleť osvieži, tonizuje a podporí regeneráciu — najmä pri zmiešanej a problematickej pleti.'}
       ]
+    },
+    smyssly: {
+      name:'SMYSSLY', domain:'smyssly.com', website:'https://www.smyssly.com/cs/',
+      theme:{brand:'#2b2622',accent:'#a8773f',soft:'#f4f1ec',paper:'#fdfcfa',ink:'#1f1d1b',line:'#e7e1d8'},
+      wordmark:logo('smyssly','SMYSSLY'),
+      hero:'/assets/cosmetics/smyssly.jpg', mark:'/assets/cosmetics/smyssly-mark.png',
+      ownerNote:'Hyalurónové sérum 1 % alebo 4 %, hodvábny alebo perlový krém, retinol, perly či zlato — prémiová rutina, pri ktorej si zákazníčka chce byť istá výberom.',
+      benefit:['Poradí medzi 1 % a 4 % hyalurónom aj dvoma krémami','Poskladá minimalistickú rutinu v 3–4 krokoch','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'hedvab',name:'Hodvábny hydratačný krém 50 ml',price:'1 490 Kč',url:'https://www.smyssly.com/cs/products/80/hedvabny-hydratacni-krem/',photo:photo('smyssly','hedvab'),tags:['oily','balanced','hydrate','cream','simple','basic'],reason:'Ľahký krém pre normálnu až mastnú pleť s arganovým, makadamiovým a mandľovým olejom, hodvábom a kyselinou hyalurónovou.'},
+        {id:'perlovy',name:'Perlový výživný krém 50 ml',price:'1 490 Kč',url:'https://www.smyssly.com/cs/products/79/perlovy-vyzivny-krem/',photo:photo('smyssly','perlovy'),tags:['dry','mature','sensitive','cream','full','basic'],reason:'Hutný krém so sladkovodnými perlami, zlatou morskou riasou a koenzýmom Q10 pre suchú, zrelú a citlivú pleť.'},
+        {id:'ha1',name:'Sérum kyseliny hyalurónovej 1 % 20 ml',price:'1 090 Kč',url:'https://www.smyssly.com/cs/products/81/serum-kyseliny-hyaluronove-1-percent/',photo:photo('smyssly','ha1'),tags:['balanced','oily','dry','hydrate','serum','simple','basic'],reason:'Základ každej rutiny pre pleť do 40 rokov — hyalurón s dlhým aj krátkym reťazcom hydratuje na povrchu aj do hĺbky.'},
+        {id:'ha4',name:'Sérum kyseliny hyalurónovej 4 % 20 ml',price:'1 490 Kč',url:'https://www.smyssly.com/cs/products/82/serum-kyseliny-hyaluronove-4-percent/',photo:photo('smyssly','ha4'),tags:['mature','dry','hydrate','serum','target','basic'],reason:'Silnejšia koncentrácia hyalurónu pre zrelšiu a dehydrovanú pleť — spevní ju, vyhladí vrásky a rozjasní.'},
+        {id:'retinol',name:'Sérum s retinolom 20 ml',price:'1 090 Kč',url:'https://www.smyssly.com/cs/products/45/serum-s-retinolem/',photo:photo('smyssly','retinol'),tags:['mature','sensitive','oil','target','full','basic'],reason:'100 % prírodné olejové sérum so siedmimi olejmi, retinolom, Q10 a vitamínmi C a E zvýši pružnosť a upokojí problematickú pleť.'},
+        {id:'perly',name:'Perly pre dokonalú pleť 30 ml',price:'2 550 Kč',url:'https://www.smyssly.com/cs/products/83/perly-pro-dokonalou-plet/',photo:photo('smyssly','perly'),tags:['balanced','mature','clarity','serum','target'],reason:'Antioxidačné perly s výťažkami z morských rias chránia pred znečistením a UV, odstránia zašedlý tón a rozjasnia pleť.'},
+        {id:'zlato',name:'Rozjasňujúce sérum so zlatom 20 ml',price:'1 590 Kč',url:'https://www.smyssly.com/cs/products/1420/rozjasnujici-serum-se-zlatem/',photo:photo('smyssly','zlato'),tags:['dry','mature','clarity','oil','target'],reason:'Skvalán, olej z kamélie a 24-karátové zlato hydratujú, vyživia a pomôžu redukovať pigmentové škvrny.'},
+        {id:'voda',name:'Revitalizačná odličovacia voda 150 ml',price:'950 Kč',url:'https://www.smyssly.com/cs/products/84/revitalizacni-odlicovaci-voda/',photo:photo('smyssly','voda'),tags:['sensitive','balanced','oily','calm','full'],reason:'Bez liehu odstráni aj vodeodolný make-up a zároveň pleť tonizuje — čistenie a tonikum v jednom kroku.'},
+        {id:'mlha',name:'Hydratačná hmla s kyselinou hyalurónovou 120 ml',price:'690 Kč',url:'https://www.smyssly.com/cs/products/2102/hydratacni-mlha-s-kyselinou-hyaluronovou/',photo:photo('smyssly','mlha'),tags:['dry','sensitive','hydrate','calm','full'],reason:'Aloe vera s kyselinou hyalurónovou pleť okamžite hydratuje a upokojí — pred sérom aj kedykoľvek počas dňa.'}
+      ]
     }
   });
 })();

@@ -41,6 +41,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | Original ATOK | [originalatok.cz](https://www.originalatok.cz/) | `/atok/` · `atok.mojchatbot.sk` |
 | Purity Vision | [purityvision.cz](https://www.purityvision.cz/) | `/purity/` · `purity.mojchatbot.sk` |
 | Indívo | [indivo.cz](https://www.indivo.cz/) | `/indivo/` · `indivo.mojchatbot.sk` |
+| SMYSSLY | [smyssly.com](https://www.smyssly.com/cs/) | `/smyssly/` · `smyssly.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 
