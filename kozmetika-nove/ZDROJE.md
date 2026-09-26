@@ -267,3 +267,30 @@ vyhladením hrán; symbolom je vetvička z loga. Farby: tmavá bylinková
 | ZAHRADA DÉVŮ olej 30 ml (klasická liekovka) | 899 Kč | https://www.pimpinella.co/zahrada-devu-pletovy-olej/ |
 | DEVĚT NOCÍ čistiaci balzam 50 ml | 596 Kč | https://www.pimpinella.co/devet-noci/ |
 | KVĚTOVÁ VODA RŮŽE BIO 100 ml | 229 Kč | https://www.pimpinella.co/kvetova-voda-ruze-bio/ |
+
+## Biorythme — biorythme.cz
+
+Česká ručne robená bezvodá kozmetika (ByznysWeb, ceny v Kč). Šesť krémov
+v rovnakej plechovke, každý pre jeden typ pleti, plus šesť probiotických
+toník — typická otázka „ktorý krém a ktoré tonikum“. Ceny sú za 30 ml
+krém (60 ml stojí 569 Kč) a 100 ml tonikum (30 ml 189 Kč, 200 ml
+619 Kč); všetko „Skladem“ k 26. 9. 2026. Fotky sú štvorcové štylizované
+zábery z galérie (plné rozlíšenie z `/files/…`), orezané na výšku okolo
+produktu. Logo má web len 100×100 px, preto je prekreslené vo vektore:
+„bi“ + mandala + „rythme“ (písmo Josefin Sans, farby z originálu
+#f87059 a čierna). Symbol je len mandala, na želanie vo vlastných
+farbách na bielom launcheri a pri hoveri s obrátenými farbami na tmavom
+(`markColor` v configu, `cx-new-mark--color` v CSS). Farby: tehlovo
+koralová z mandaly ako hlavná, tyrkysová z ich favikony ako akcent,
+jemná ružová plocha ako na webe.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Osviežujúci krém na mastnú pleť – medovka, chia 30 ml | 359 Kč | https://www.biorythme.cz/p/167/prirodni-pletovy-krem-citronova-medunka-bio-chia-olej |
+| Relaxačný krém pre zmiešanú pleť – argan, levanduľa 30 ml | 359 Kč | https://www.biorythme.cz/p/165/prirodni-pletovy-krem-arganovy-olej-levandule |
+| Krém Anti-pupínek 30 ml | 359 Kč | https://www.biorythme.cz/p/169/prirodni-pletovy-krem-konopny-olej-salvej-materidouska-a-tea-tree |
+| Krém pre citlivú pleť – granátové jablko 30 ml | 359 Kč | https://www.biorythme.cz/p/166/prirodni-pletovy-krem-olej-z-granatoveho-jablka-a-melounovych-seminek |
+| Krém pre zrelú pleť – Zmyselná a verná sama sebe 30 ml | 359 Kč | https://www.biorythme.cz/p/168/prirodni-pletovy-krem-smyslna-a-verna-sama-sobe |
+| Krém pre suchú pleť – kakaové maslo, vanilka 30 ml | 359 Kč | https://www.biorythme.cz/p/170/prirodni-pletovy-krem-kakaove-maslo-vanilka |
+| Harmonizujúce tonikum 100 ml | 349 Kč | https://www.biorythme.cz/p/318/harmonizujici-tonikum-pro-smisenou-a-mastnou-plet |
+| Upokojujúce tonikum 100 ml | 349 Kč | https://www.biorythme.cz/p/320/zklidnujici-tonikum-pro-zregenerovanou-spokojenou-plet |

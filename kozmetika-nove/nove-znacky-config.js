@@ -236,6 +236,25 @@
         {id:'devet',name:'DEVĚT NOCÍ čistiaci balzam 50 ml',price:'596 Kč',url:'https://www.pimpinella.co/devet-noci/',photo:photo('pimpinella','devet'),tags:['dry','sensitive','balanced','full'],reason:'Čistiaci balzam so šalviou a bazalkou jemne odstráni make-up aj nečistoty metódou OCM — prvý krok rutiny.'},
         {id:'ruze',name:'KVĚTOVÁ VODA RŮŽE BIO 100 ml',price:'229 Kč',url:'https://www.pimpinella.co/kvetova-voda-ruze-bio/',photo:photo('pimpinella','ruze'),tags:['sensitive','dry','mature','hydrate','full'],reason:'Hydrolát z ruže damascénskej ako tonikum pred olejom či krémom — hydratuje, osvieži a hodí sa aj na veľmi citlivú pleť.'}
       ]
+    },
+    biorythme: {
+      name:'Biorythme', domain:'biorythme.cz', website:'https://www.biorythme.cz/',
+      theme:{brand:'#b8473a',accent:'#2f6f6a',soft:'#fbeee9',paper:'#fffcfb',ink:'#2b2224',line:'#f0dcd5'},
+      wordmark:logo('biorythme','Biorythme'),
+      hero:'/assets/cosmetics/biorythme.jpg', mark:'/assets/cosmetics/biorythme-mark.png',
+      markColor:{reverse:'/assets/cosmetics/biorythme-mark-reverse.png',bg:'#ffffff',bgHover:'#231c1d'},
+      ownerNote:'Šesť krémov v rovnakej plechovke — každý pre iný typ pleti — a k nim šesť probiotických toník. Zákazník nevie, ktorá kombinácia je jeho.',
+      benefit:['Zo šiestich krémov ten pre konkrétnu pleť','Doplní k nemu správne probiotické tonikum','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'medunka',name:'Osviežujúci krém na mastnú pleť – citrónová medovka, BIO chia olej 30 ml',price:'359 Kč',url:'https://www.biorythme.cz/p/167/prirodni-pletovy-krem-citronova-medunka-bio-chia-olej',photo:photo('biorythme','medunka'),tags:['oily','balanced','clarity','cream','simple','basic'],reason:'Bezvodý krém pre mastnú a zmiešanú pleť, ktorý na rozdiel od bežných zmatňujúcich krémov pleť nevysušuje.'},
+        {id:'levandule',name:'Relaxačný krém pre zmiešanú pleť – arganový olej, levanduľa 30 ml',price:'359 Kč',url:'https://www.biorythme.cz/p/165/prirodni-pletovy-krem-arganovy-olej-levandule',photo:photo('biorythme','levandule'),tags:['balanced','oily','hydrate','cream','any','basic'],reason:'Hebký balzam s bambuckým maslom, arganovým a čistým levanduľovým olejom — koncentrovaná starostlivosť, stačí málo.'},
+        {id:'konop',name:'Krém „Anti-pupínek“ – konopný olej, šalvia, materina dúška, tea tree 30 ml',price:'359 Kč',url:'https://www.biorythme.cz/p/169/prirodni-pletovy-krem-konopny-olej-salvej-materidouska-a-tea-tree',photo:photo('biorythme','konop'),tags:['oily','clarity','cream','target','basic'],reason:'Šalvia, materina dúška a tea tree s konopným olejom proti pupienkom — pleť pritom nevysušuje ani neolúpe.'},
+        {id:'granat',name:'Krém pre citlivú pleť – olej z granátového jablka a melónových semienok 30 ml',price:'359 Kč',url:'https://www.biorythme.cz/p/166/prirodni-pletovy-krem-olej-z-granatoveho-jablka-a-melounovych-seminek',photo:photo('biorythme','granat'),tags:['sensitive','calm','cream','simple','basic'],reason:'Jemná starostlivosť pre krehkú a citlivú pleť s olejom z granátového jablka a melónových semienok.'},
+        {id:'smysl',name:'Krém pre zrelú pleť – Zmyselná a verná sama sebe 30 ml',price:'359 Kč',url:'https://www.biorythme.cz/p/168/prirodni-pletovy-krem-smyslna-a-verna-sama-sobe',photo:photo('biorythme','smysl'),tags:['mature','cream','target','full','basic'],reason:'Nektár pre zrelú pleť s chia olejom a piatimi esenciálnymi olejmi vrátane kadidla a santalu.'},
+        {id:'vanil',name:'Voňavý krém pre suchú pleť – kakaové maslo, vanilka 30 ml',price:'359 Kč',url:'https://www.biorythme.cz/p/170/prirodni-pletovy-krem-kakaove-maslo-vanilka',photo:photo('biorythme','vanil'),tags:['dry','hydrate','cream','simple','basic'],reason:'Hebký prírodný balzam s kakaovým maslom a vôňou vanilky vyživí suchú pleť — bez vody, teda koncentrovaný.'},
+        {id:'harm',name:'Harmonizujúce tonikum pre zmiešanú a mastnú pleť 100 ml',price:'349 Kč',url:'https://www.biorythme.cz/p/318/harmonizujici-tonikum-pro-smisenou-a-mastnou-plet',photo:photo('biorythme','harm'),tags:['oily','balanced','clarity','full'],reason:'Hydroláty s extraktom z vŕbovej kôry jemne odstránia odumreté bunky a zjednotia textúru — bez liehu a pridanej vody.'},
+        {id:'zkl',name:'Upokojujúce tonikum pre zregenerovanú, spokojnú pleť 100 ml',price:'349 Kč',url:'https://www.biorythme.cz/p/320/zklidnujici-tonikum-pro-zregenerovanou-spokojenou-plet',photo:photo('biorythme','zkl'),tags:['sensitive','dry','calm','full'],reason:'Probiotický komplex, fermentovaná matcha a panthenol posilnia mikroflóru pokožky a podporia jej regeneráciu.'}
+      ]
     }
   });
 })();

@@ -22,7 +22,18 @@
   /* A masked span, not an <img>: skincare-launcher-logo-fix.js swaps any
      avatar that contains an image for a letter, and the two observers would
      otherwise keep undoing each other. */
-  const markup = `<span class="cx-new-mark${brand.markWide ? ' cx-new-mark--wide' : ''}" aria-hidden="true" style="--cx-mark:url('${brand.mark}')"></span>`;
+  /* `markColor` keeps a multi-colour symbol in its own colours on a light
+     launcher; on hover the launcher turns dark and the symbol swaps to its
+     reversed version (`markColor.reverse`). */
+  const color = brand.markColor;
+  const markup = color
+    ? `<span class="cx-new-mark cx-new-mark--color" aria-hidden="true" style="--cx-mark:url('${brand.mark}');--cx-mark-reverse:url('${color.reverse}')"></span>`
+    : `<span class="cx-new-mark${brand.markWide ? ' cx-new-mark--wide' : ''}" aria-hidden="true" style="--cx-mark:url('${brand.mark}')"></span>`;
+  if (color) {
+    document.body.dataset.cxNewMarkColor = 'true';
+    document.body.style.setProperty('--cx-mark-bg', color.bg);
+    document.body.style.setProperty('--cx-mark-bg-hover', color.bgHover);
+  }
 
   launcher.classList.remove('is-image-logo', 'cx-launcher-has-wordmark', 'cx-launcher-has-image-logo');
   launcher.classList.add('cx-launcher-has-new-mark');
