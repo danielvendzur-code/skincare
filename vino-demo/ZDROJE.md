@@ -132,3 +132,30 @@ loga.
 | Červený vlk 2020 | 19 € | https://www.vinomagula.sk/produkt/cerveny-vlk-2020/ |
 | Baccara 2019 | 21 € | https://www.vinomagula.sk/produkt/baccara-2019/ |
 | Teufelsecke Modrý Portugal 2017 | 60 € | https://www.vinomagula.sk/produkt/teufelsecke-modry-portugal-2017/ |
+
+## Víno Jurášek — vinojurasek.sk
+
+Rodinné vinárstvo zo Šenkvíc (WooCommerce, ceny v €), 18 vín
+skladom: biele suché aj polosuché, sladká Pálava, frizzante biele
+a ružové, rosé, Dornfelder, Alibernet a Pinot Noir Barrique. Ceny
+a sklad sú z verejného Store API e-shopu
+(`/wp-json/wc/store/v1/products`, všetko `is_in_stock` k 26. 9. 2026);
+do ukážky ide 11 vín, ktoré pokryjú každú farbu a štýl. Popisy vín sú
+z detailu produktu. Fotky sú PNG packshoty z e-shopu. Logo je SVG
+z webu, vykreslené do PNG; do tmavej hlavičky widgetu ide biela
+verzia. Symbol je zlaté „U“ v tvare pohára z loga. Farby: teplá
+čierna ako hlavná, akcent zlatá z loga.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Rizling rýnsky 2025, suché | 10 € | https://vinojurasek.sk/vino/rizling-rynsky-2025/ |
+| Veltlínske zelené 2025, suché | 10 € | https://vinojurasek.sk/vino/veltlinske-zelene-2025/ |
+| Sauvignon blanc 2025, suché | 10 € | https://vinojurasek.sk/vino/sauvignon-blanc-2025/ |
+| Muškát moravský 2025, polosuché | 10 € | https://vinojurasek.sk/vino/muskat-moravsky-2025/ |
+| Pálava 2024, sladké | 12 € | https://vinojurasek.sk/vino/palava-2024/ |
+| Frizzante biele 2023, polosuché | 10 € | https://vinojurasek.sk/vino/frizzante-biele-2023/ |
+| Frizzante ružové 2023, polosuché | 12 € | https://vinojurasek.sk/vino/frizzante-ruzove-2023/ |
+| Cabernet Sauvignon rosé 2024, suché | 10 € | https://vinojurasek.sk/vino/cabernet-sauvignon-rose-2023/ |
+| Dornfelder 2024, suché | 10 € | https://vinojurasek.sk/vino/dornfelder-2023/ |
+| Alibernet 2021, suché | 10 € | https://vinojurasek.sk/vino/alibernet-2021/ |
+| Pinot Noir Barrique 2020, suché | 15 € | https://vinojurasek.sk/vino/pinot-noir-barrique-2020/ |

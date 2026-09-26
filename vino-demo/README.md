@@ -30,3 +30,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Vinařství Nechory | [vinarstvinechory.cz](https://eshop.vinarstvinechory.cz/) | `/nechory/` · `nechory.mojchatbot.sk` |
 | Dobrá Vinice | [dobravinice.cz](https://www.dobravinice.cz/) | `/dobravinice/` · `dobravinice.mojchatbot.sk` |
 | Vinárstvo Magula | [vinomagula.sk](https://www.vinomagula.sk/) | `/magula/` · `magula.mojchatbot.sk` |
+| Víno Jurášek | [vinojurasek.sk](https://vinojurasek.sk/) | `/jurasek/` · `jurasek.mojchatbot.sk` |

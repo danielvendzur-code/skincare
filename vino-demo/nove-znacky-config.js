@@ -98,6 +98,28 @@
         {id:'baccara',name:'Baccara 2019',price:'21 €',url:'https://www.vinomagula.sk/produkt/baccara-2019/',photo:photo('magula','baccara'),tags:['red','fruity','cheese'],reason:'Víno z odrody Rosa, pestovanej na suchovskej Ružovej hore — vo farbe, vôni aj chuti sa skrýva kráľovná ruží Black Baccara.'},
         {id:'portugal',name:'Teufelsecke Modrý Portugal 2017',price:'60 €',url:'https://www.vinomagula.sk/produkt/teufelsecke-modry-portugal-2017/',photo:photo('magula','portugal'),tags:['red','bold','meat','target'],reason:'Celé strapce 3 týždne v otvorenej kadi a 33 mesiacov v starom dubovom sude — archívny Portugal na výnimočnú príležitosť.'}
       ]
+    },
+    jurasek: {
+      name:'Víno Jurášek', domain:'vinojurasek.sk', website:'https://vinojurasek.sk/',
+      theme:{brand:'#1a1817',accent:'#a8843f',soft:'#f6f2ea',paper:'#fdfcf9',ink:'#1a1817',line:'#e8e0d0'},
+      wordmark:logo('jurasek','Víno Jurášek'),
+      hero:'/assets/vino/jurasek.jpg', mark:'/assets/vino/jurasek-mark.png',
+      markColor:{reverse:'/assets/vino/jurasek-mark-reverse.png',bg:'#1a1817',bgHover:'#cbaa63'},
+      ownerNote:'Vyše 15 vín zo Šenkvíc — suché, polosuché aj sladké biele, frizzante, rosé a barrique Pinot — a zákazník nevie, ktorá fľaša sadne k večeri.',
+      benefit:['Vyberie víno podľa chuti aj sladkosti','Poradí frizzante na oslavu či rosé na leto','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'rizling',name:'Rizling rýnsky 2025, suché',price:'10 €',url:'https://vinojurasek.sk/vino/rizling-rynsky-2025/',photo:photo('jurasek','rizling'),tags:['white','crisp','fish'],reason:'Lahodná plná chuť so zlatistou farbou a vôňou lipového kvetu — klasický suchý Rizling k rybe a ľahkým jedlám.'},
+        {id:'veltlin',name:'Veltlínske zelené 2025, suché',price:'10 €',url:'https://vinojurasek.sk/vino/veltlinske-zelene-2025/',photo:photo('jurasek','veltlin'),tags:['white','crisp','fish'],reason:'Plná chuť s vôňou záhradného ovocia a vlašského orecha — suchý Veltlín k hydine a šalátom.'},
+        {id:'sauvignon',name:'Sauvignon blanc 2025, suché',price:'10 €',url:'https://vinojurasek.sk/vino/sauvignon-blanc-2025/',photo:photo('jurasek','sauvignon'),tags:['white','crisp','fish'],reason:'Víno plné sviežosti so žltozelenou farbou a výraznou vôňou broskýň a egreša.'},
+        {id:'muskat',name:'Muškát moravský 2025, polosuché',price:'10 €',url:'https://vinojurasek.sk/vino/muskat-moravsky-2025/',photo:photo('jurasek','muskat'),tags:['white','fruity','cheese'],reason:'Svieža harmonická chuť s výraznou muškátovou arómou, bielymi kvetmi, broskyňami a citrusmi.'},
+        {id:'palava',name:'Pálava 2024, sladké',price:'12 €',url:'https://vinojurasek.sk/vino/palava-2024/',photo:photo('jurasek','palava'),tags:['white','sweet','cheese','target'],reason:'Plná, mierne korenistá chuť s typickým buketom Pálavy z panenskej úrody na Morave — sladké víno k dezertom.'},
+        {id:'frizzbiele',name:'Frizzante biele 2023, polosuché',price:'10 €',url:'https://vinojurasek.sk/vino/frizzante-biele-2023/',photo:photo('jurasek','frizzbiele'),tags:['sparkling','fruity','cheese'],reason:'Perlivé víno s ovocnou vôňou a medovými tónmi — ľahké bublinky na oslavu či posedenie.'},
+        {id:'frizzruz',name:'Frizzante ružové 2023, polosuché',price:'12 €',url:'https://vinojurasek.sk/vino/frizzante-ruzove-2023/',photo:photo('jurasek','frizzruz'),tags:['sparkling','fruity','fish','target'],reason:'Ružové perlivé víno s ovocnou vôňou a medovými tónmi — svieži prípitok na leto.'},
+        {id:'rose',name:'Cabernet Sauvignon rosé 2024, suché',price:'10 €',url:'https://vinojurasek.sk/vino/cabernet-sauvignon-rose-2023/',photo:photo('jurasek','rose'),tags:['rose','crisp','fish'],reason:'Ľahké ružové víno s malinovo-ríbezľovým odtieňom a chuťou lesných jahôd z južných svahov Jasovej.'},
+        {id:'dornfelder',name:'Dornfelder 2024, suché',price:'10 €',url:'https://vinojurasek.sk/vino/dornfelder-2023/',photo:photo('jurasek','dornfelder'),tags:['red','fruity','meat'],reason:'Plná chuť zrelých černíc s rubínovou farbou, v závere prechádza až do čokolády.'},
+        {id:'alibernet',name:'Alibernet 2021, suché',price:'10 €',url:'https://vinojurasek.sk/vino/alibernet-2021/',photo:photo('jurasek','alibernet'),tags:['red','bold','meat'],reason:'Výrazné červené víno so zrelými černicami a bobuľovým ovocím a čokoládovým záverom — k mäsu a grilu.'},
+        {id:'pinot',name:'Pinot Noir Barrique 2020, suché',price:'15 €',url:'https://vinojurasek.sk/vino/pinot-noir-barrique-2020/',photo:photo('jurasek','pinot'),tags:['red','bold','meat','target'],reason:'Barikové víno plnej chuti po zrelých černiciach s rubínovou farbou a čokoládovým záverom.'}
+      ]
     }
   });
 })();
