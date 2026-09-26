@@ -255,6 +255,26 @@
         {id:'harm',name:'Harmonizujúce tonikum pre zmiešanú a mastnú pleť 100 ml',price:'349 Kč',url:'https://www.biorythme.cz/p/318/harmonizujici-tonikum-pro-smisenou-a-mastnou-plet',photo:photo('biorythme','harm'),tags:['oily','balanced','clarity','full'],reason:'Hydroláty s extraktom z vŕbovej kôry jemne odstránia odumreté bunky a zjednotia textúru — bez liehu a pridanej vody.'},
         {id:'zkl',name:'Upokojujúce tonikum pre zregenerovanú, spokojnú pleť 100 ml',price:'349 Kč',url:'https://www.biorythme.cz/p/320/zklidnujici-tonikum-pro-zregenerovanou-spokojenou-plet',photo:photo('biorythme','zkl'),tags:['sensitive','dry','calm','full'],reason:'Probiotický komplex, fermentovaná matcha a panthenol posilnia mikroflóru pokožky a podporia jej regeneráciu.'}
       ]
+    },
+    atok: {
+      name:'Original ATOK', domain:'originalatok.cz', website:'https://www.originalatok.cz/',
+      theme:{brand:'#3f7a1f',accent:'#c9564f',soft:'#f2f7ec',paper:'#fcfdfa',ink:'#2f3431',line:'#dfe9d4'},
+      wordmark:logo('atok','Original ATOK'),
+      hero:'/assets/cosmetics/atok.jpg', mark:'/assets/cosmetics/atok-mark.png', headerLogo:'/assets/cosmetics/atok-logo-header.png',
+      markColor:{reverse:'/assets/cosmetics/atok-mark-reverse.png',bg:'#7ab62f',bgHover:'#ffffff'},
+      ownerNote:'Desiatky krémov, fluidov a pleťových vôd — granátové jablko, ruža, levanduľa, ženšen… Zákazník sa v nich stráca a nevie, čo patrí k jeho pleti.',
+      benefit:['Z desiatok krémov a vôd ten pravý pre pleť','Poskladá rutinu: odličovanie, voda, sérum, krém','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'granat',name:'Hydratačný krém Granátové jablko 50 ml',price:'435 Kč',url:'https://www.originalatok.cz/hydratacni-krem-granatove-jablko/',photo:photo('atok','granat'),tags:['dry','balanced','hydrate','cream','any','simple','basic'],reason:'Ľahký krém s granátovým jablkom pre intenzívnu hydratáciu a sviežosť pleti.'},
+        {id:'ruze',name:'Omladzujúci krém Ruža 50 ml',price:'501 Kč',url:'https://www.originalatok.cz/omlazujici-krem-ruze/',photo:photo('atok','ruze'),tags:['mature','dry','hydrate','cream','full','basic'],reason:'Luxusný krém s ružou damascénskou pre mladistvú, pružnú a žiarivú pleť.'},
+        {id:'levandule',name:'Upokojujúci krém Levanduľa 50 ml',price:'326 Kč',url:'https://www.originalatok.cz/zklidnujici-krem-levandule/',photo:photo('atok','levandule'),tags:['sensitive','calm','cream','simple','basic'],reason:'Ľahký krém s levanduľou na intenzívne upokojenie a regeneráciu citlivej pleti.'},
+        {id:'akne',name:'Krém na akné 50 ml',price:'393 Kč',url:'https://www.originalatok.cz/krem-na-akne/',photo:photo('atok','akne'),tags:['oily','clarity','cream','target','simple','basic'],reason:'Špeciálny bylinný krém, ktorý upokojí, hydratuje a zjednotí pleť so sklonom k akné.'},
+        {id:'lifting',name:'Facelifting krém Vanilka – slamienka 30 ml',price:'596 Kč',url:'https://www.originalatok.cz/facelifting-krem-vanilka-slamenka/',photo:photo('atok','lifting'),tags:['mature','balanced','cream','target','basic'],reason:'Liftingový krém s vanilkou a slamienkou pre pevnú, vyhladenú a žiarivú pleť.'},
+        {id:'serum',name:'Rozjasňujúce sérum s vitamínom C',price:'394 Kč',url:'https://www.originalatok.cz/rozjasnujici-serum-s-vitaminem-c/',photo:photo('atok','serum'),tags:['balanced','oily','clarity','serum','target','full'],reason:'Ľahké vitamínové sérum rozjasní, vyhladí a zjednotí pleť — cielený krok pod krém.'},
+        {id:'fluid',name:'Hyalurónový fluid 30 ml',price:'395 Kč',url:'https://www.originalatok.cz/hyaluronovy-fluid/',photo:photo('atok','fluid'),tags:['dry','mature','balanced','hydrate','serum','target','full'],reason:'Hyalurónový komplex hydratuje pleť od najhlbších vrstiev až po povrch — pod ktorýkoľvek krém.'},
+        {id:'voda',name:'Pleťová voda Levanduľa 200 ml',price:'208 Kč',url:'https://www.originalatok.cz/pletova-voda-levandule/',photo:photo('atok','voda'),tags:['sensitive','dry','calm','full'],reason:'Upokojujúca pleťová voda s levanduľou pre suchú, citlivú a podráždenú pleť — krok po odlíčení.'},
+        {id:'gel',name:'Jemný odličovací gél Aloe vera 150 ml',price:'385 Kč',url:'https://www.originalatok.cz/jemny-odlicovaci-gel-aloe-vera/',photo:photo('atok','gel'),tags:['sensitive','balanced','oily','full'],reason:'Hodvábne jemný gél s aloe vera šetrne odlíči všetky typy pleti vrátane veľmi citlivej.'}
+      ]
     }
   });
 })();

@@ -38,6 +38,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | ZAHIR Cosmetics | [zahir.cz](https://www.zahir.cz/) | `/zahir/` · `zahir.mojchatbot.sk` |
 | Pimpinella | [pimpinella.co](https://www.pimpinella.co/) | `/pimpinella/` · `pimpinella.mojchatbot.sk` |
 | Biorythme | [biorythme.cz](https://www.biorythme.cz/) | `/biorythme/` · `biorythme.mojchatbot.sk` |
+| Original ATOK | [originalatok.cz](https://www.originalatok.cz/) | `/atok/` · `atok.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 

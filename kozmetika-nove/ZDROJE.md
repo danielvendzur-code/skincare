@@ -294,3 +294,28 @@ jemná ružová plocha ako na webe.
 | Krém pre suchú pleť – kakaové maslo, vanilka 30 ml | 359 Kč | https://www.biorythme.cz/p/170/prirodni-pletovy-krem-kakaove-maslo-vanilka |
 | Harmonizujúce tonikum 100 ml | 349 Kč | https://www.biorythme.cz/p/318/harmonizujici-tonikum-pro-smisenou-a-mastnou-plet |
 | Upokojujúce tonikum 100 ml | 349 Kč | https://www.biorythme.cz/p/320/zklidnujici-tonikum-pro-zregenerovanou-spokojenou-plet |
+
+## Original ATOK — originalatok.cz
+
+Česká prírodná kozmetika (Shoptet, ceny v Kč) s veľmi širokou ponukou
+krémov, fluidov a pleťových vôd — zákazník potrebuje navigáciu. Ceny sú
+za predvolený (najmenší) variant: `value` v GA dátach stránky je cena
+bez DPH, × 1,21 sedí s cenou na stránke. Všetko „Skladem“ k 26. 9. 2026.
+Packshoty z e-shopu na bielej. Logo je oficiálne SVG z webu. Symbol je
+biely kvet z ich zeleného kruhu: launcher zelený s bielym kvetom, pri
+hoveri obrátene (biely launcher, zelený kvet). Pre hlavičku widgetu je
+`atok-logo-header.png` — biele písmo a kruh s vyrezaným kvetom, aby sa
+kruh nezmenil na plný biely disk. Farby: zelená z loga (tmavšia na
+tlačidlá), akcent lososovo-červená z ich balení, sivý text ako v logu.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Hydratačný krém Granátové jablko 50 ml | 435 Kč | https://www.originalatok.cz/hydratacni-krem-granatove-jablko/ |
+| Omladzujúci krém Ruža 50 ml | 501 Kč | https://www.originalatok.cz/omlazujici-krem-ruze/ |
+| Upokojujúci krém Levanduľa 50 ml | 326 Kč | https://www.originalatok.cz/zklidnujici-krem-levandule/ |
+| Krém na akné 50 ml | 393 Kč | https://www.originalatok.cz/krem-na-akne/ |
+| Facelifting krém Vanilka – slamienka 30 ml | 596 Kč | https://www.originalatok.cz/facelifting-krem-vanilka-slamenka/ |
+| Rozjasňujúce sérum s vitamínom C (15 ml podľa etikety) | 394 Kč | https://www.originalatok.cz/rozjasnujici-serum-s-vitaminem-c/ |
+| Hyalurónový fluid 30 ml | 395 Kč | https://www.originalatok.cz/hyaluronovy-fluid/ |
+| Pleťová voda Levanduľa 200 ml | 208 Kč | https://www.originalatok.cz/pletova-voda-levandule/ |
+| Jemný odličovací gél Aloe vera 150 ml | 385 Kč | https://www.originalatok.cz/jemny-odlicovaci-gel-aloe-vera/ |

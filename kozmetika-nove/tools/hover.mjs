@@ -1,3 +1,4 @@
+// Launcher at rest, hovered, and the opened widget: node tools/hover.mjs SLUG OUT_PREFIX
 import { chromium } from '@playwright/test';
 const [slug, out] = process.argv.slice(2);
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' });
