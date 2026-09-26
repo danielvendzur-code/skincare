@@ -176,3 +176,23 @@ je písané „J“ z loga. Farby z webu: čierna, magenta, teplé krémové plo
 | Jantarová Rosa – anti-age sérum 50 ml | 1 895 Kč | https://pravaja.cz/produkt/hydratacni-anti-age-serum-jantarova-rosa/ |
 | Noční Hyacint – nočné sérum 50 ml | 2 950 Kč | https://pravaja.cz/produkt/nocni-hyacint-50-ml/ |
 | Napravující Koncentrát – SOS sérum 50 ml | 825 Kč | https://pravaja.cz/produkt/napravujici-koncentrat-pravaja-30-ml/ |
+
+## Botanica Slavica — botanicaslavica.eu
+
+Česko-slovenská značka prírodnej kozmetiky (e-shop v €, PrestaShop) s
+radami podľa pleti: 9 divov bylín pre mastnú, 9 divov kvetov pre citlivú,
+9 divov plodov pre suchú, plus fermentované oleje PREMIUM. Fotky sú
+priehľadné PNG z e-shopu. Logo na webe má len 200×40 px; symbolom je
+serifové „B“ z ich ikony aplikácie (512 px). Farby: čierne balenia so
+zlatou, teplé svetlé plochy.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Rebalansačné tonikum 9 divov bylín 100 ml | 8,95 € | https://www.botanicaslavica.eu/9-divov-bylin/pletove-tonikum-9-divov-bylin |
+| Čistiaca exfoliačná pena PREMIUM | 12,90 € | https://www.botanicaslavica.eu/premium/cistiaca-exfoliacna-pena-proti-nedokonalostiam-pleti-premium |
+| Pleťové sérum 9 divov kvetov 30 ml | 16,95 € | https://www.botanicaslavica.eu/9-divov-kvetov/pletove-serum-9-divov-kvetov |
+| Čistiaci gél 9 divov kvetov 100 ml | 12,95 € | https://www.botanicaslavica.eu/9-divov-kvetov/pletovy-cistiaci-gel-9-divov-kvetov |
+| RICH BARRIER krém 50 ml | 20,95 € | https://www.botanicaslavica.eu/9-divov-plodov/rich-barrier-vyzivny-a-regeneracny-krem-sipkovy-olej-vitamin-e- |
+| Fermentovaný slivkový olej 50 ml | 13,95 € | https://www.botanicaslavica.eu/premium/fermentovany-slivkovy-olej-upokojujuca-obnova-pre-citlivu-plet |
+| Fermentovaný arganový olej 50 ml | 12,95 € | https://www.botanicaslavica.eu/premium/fermentovany-arganovy-olej-intenzivna-sila-v-cistej-forme |
+| Fermentovaný avokádový olej 50 ml | 8,95 € | https://www.botanicaslavica.eu/premium/fermentovany-avokadovy-olej-hlbkova-obnova-a-ochrana-pleti |

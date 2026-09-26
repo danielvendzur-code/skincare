@@ -33,6 +33,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | YAGE Organics | [yageorganics.cz](https://www.yageorganics.cz/) | `/yage/` · `yage.mojchatbot.sk` |
 | OMORFIA | [omorfia.care](https://www.omorfia.care/) | `/omorfia/` · `omorfia.mojchatbot.sk` |
 | PraváJá | [pravaja.cz](https://pravaja.cz/) | `/pravaja/` · `pravaja.mojchatbot.sk` |
+| Botanica Slavica | [botanicaslavica.eu](https://www.botanicaslavica.eu/sk/) | `/botanica/` · `botanica.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 

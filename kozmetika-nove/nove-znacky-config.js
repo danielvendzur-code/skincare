@@ -164,6 +164,24 @@
         {id:'hyacint',name:'Noční Hyacint – nočné olejové sérum 50 ml',price:'2 950 Kč',url:'https://pravaja.cz/produkt/nocni-hyacint-50-ml/',photo:photo('pravaja','hyacint'),tags:['mature','dry','oil','full','simple'],reason:'Koncentrované brusnicové nočné sérum s vôňou hyacintu intenzívne vyživí pleť každou kvapkou.'},
         {id:'napravujici',name:'Napravující Koncentrát – pleťové SOS sérum 50 ml',price:'825 Kč',url:'https://pravaja.cz/produkt/napravujici-koncentrat-pravaja-30-ml/',photo:photo('pravaja','napravujici'),tags:['sensitive','calm','oil','target','simple'],reason:'Macerát z nechtíka s kurkumou — 100 % prírodné SOS sérum, keď pleť potrebuje upokojiť.'}
       ]
+    },
+    botanica: {
+      name:'Botanica Slavica', domain:'botanicaslavica.eu', website:'https://www.botanicaslavica.eu/sk/',
+      theme:{brand:'#231f1c',accent:'#8a6a2e',soft:'#f3f0ea',paper:'#fdfcfa',ink:'#231f1c',line:'#e5dfd4'},
+      wordmark:logo('botanica','Botanica Slavica'),
+      hero:'/assets/cosmetics/botanica.jpg', mark:'/assets/cosmetics/botanica-mark.png',
+      ownerNote:'Rady 9 divov bylín, kvetov a plodov plus fermentované oleje — každá je pre iný typ pleti, no zákazník to z názvu nevyčíta.',
+      benefit:['Z troch rád 9 divov tú správnu pre pleť','Výber podľa pleti, nie podľa názvu kolekcie','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'tonikum',name:'Rebalansačné pleťové tonikum 9 divov bylín 100 ml',price:'8,95 €',url:'https://www.botanicaslavica.eu/9-divov-bylin/pletove-tonikum-9-divov-bylin',photo:photo('botanica','tonikum'),tags:['oily','balanced','clarity','full'],reason:'Rebalansačné tonikum na každodenné dočistenie pleti so zvýšenou tvorbou mazu — bez pocitu mastnoty a nežiaduceho lesku.'},
+        {id:'pena',name:'Čistiaca exfoliačná pena proti nedokonalostiam PREMIUM',price:'12,90 €',url:'https://www.botanicaslavica.eu/premium/cistiaca-exfoliacna-pena-proti-nedokonalostiam-pleti-premium',photo:photo('botanica','pena'),tags:['oily','clarity','target'],reason:'Exfoliačná čistiaca pena s extraktom z 9 divov kvetov — cielený krok pre pleť so sklonom k nedokonalostiam.'},
+        {id:'serum',name:'Pleťové sérum 9 divov kvetov 30 ml',price:'16,95 €',url:'https://www.botanicaslavica.eu/9-divov-kvetov/pletove-serum-9-divov-kvetov',photo:photo('botanica','serum'),tags:['sensitive','calm','serum','target','basic'],reason:'Upokojujúce a zjemňujúce olejové sérum nemastnej textúry pre precitlivenú pleť bez podráždenia a začervenania.'},
+        {id:'gel',name:'Upokojujúci čistiaci gél 9 divov kvetov 100 ml',price:'12,95 €',url:'https://www.botanicaslavica.eu/9-divov-kvetov/pletovy-cistiaci-gel-9-divov-kvetov',photo:photo('botanica','gel'),tags:['sensitive','calm','full'],reason:'Hydratačný a upokojujúci gél na každodenné jemné čistenie precitlivenej až extrémne citlivej pleti.'},
+        {id:'rich',name:'RICH BARRIER výživný a regeneračný krém 50 ml',price:'20,95 €',url:'https://www.botanicaslavica.eu/9-divov-plodov/rich-barrier-vyzivny-a-regeneracny-krem-sipkovy-olej-vitamin-e-',photo:photo('botanica','rich'),tags:['dry','mature','hydrate','cream','simple','basic'],reason:'Bohatý krém so šípkovým olejom, vitamínom E a extraktmi z 9 plodov odstráni suchosť a pocit pnutia.'},
+        {id:'slivka',name:'Fermentovaný slivkový olej – obnova citlivej pleti 50 ml',price:'13,95 €',url:'https://www.botanicaslavica.eu/premium/fermentovany-slivkovy-olej-upokojujuca-obnova-pre-citlivu-plet',photo:photo('botanica','slivka'),tags:['sensitive','dry','calm','oil','simple'],reason:'Jemná, no účinná starostlivosť pre náročnú citlivú pleť — výrobca uvádza o 29 % menej začervenania.'},
+        {id:'argan',name:'Fermentovaný arganový olej 50 ml',price:'12,95 €',url:'https://www.botanicaslavica.eu/premium/fermentovany-arganovy-olej-intenzivna-sila-v-cistej-forme',photo:photo('botanica','argan'),tags:['mature','dry','oil','target','full'],reason:'Fermentovaný arganový olej s lepšou vstrebateľnosťou a viac antioxidantmi — výživa pre zrelšiu pleť.'},
+        {id:'avokado',name:'Fermentovaný avokádový olej 50 ml',price:'8,95 €',url:'https://www.botanicaslavica.eu/premium/fermentovany-avokadovy-olej-hlbkova-obnova-a-ochrana-pleti',photo:photo('botanica','avokado'),tags:['dry','balanced','hydrate','oil','any'],reason:'Hĺbková obnova a ochrana pleti — fermentovaný avokádový olej intenzívne hydratuje a vyživuje.'}
+      ]
     }
   });
 })();
