@@ -71,3 +71,9 @@ body[data-cosmetics-demo="skoupil"] .cx-widget-brand .cx-logo {
   max-height: 42px !important;
   filter: none !important;
 }
+body[data-cosmetics-demo="nechory"] .cx-owner-brand .cx-logo {
+  max-height: 50px !important;
+}
+body[data-cosmetics-demo="nechory"] .cx-widget-brand .cx-logo {
+  max-height: 38px !important;
+}

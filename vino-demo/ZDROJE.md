@@ -48,3 +48,30 @@ z loga, teplá krémová plocha.
 | Merlot 2025, pozdní sběr, suché | 212 Kč | https://eshop.skoupil.com/p/merlot-pozdni-sber-2025 |
 | ŠUM Sauvignon 2025, extra dry | 254 Kč | https://eshop.skoupil.com/p/sum-sauvignon-2025-brut |
 | Tramín Babiččine cibéby 2023, sladké, 0,5 l | 425 Kč | https://eshop.skoupil.com/p/babiccine-cibeby-2023-history |
+
+## Vinařství Nechory — vinarstvinechory.cz
+
+Rodinné vinárstvo zo Slovácka (Shoptet, ceny v Kč), takmer 40 vín:
+biele, červené, rosé a klarety, sekty, limitované edície. Ceny a sklad
+z detailu produktu („Skladem“ k 26. 9. 2026), objem 0,75 l, sladkosť
+a párovanie z popisu vína. Fotky sú priehľadné PNG z e-shopu; ružové,
+sekt a perlivé víno majú v e-shope len lifestyle fotky (fľaša v ruke),
+orezané na výšku. Logo je na webe biele a malé (231×66), preto je
+zväčšené 5× s vyhladením; do tmavej hlavičky widgetu ide biela verzia.
+Symbol je „N“ z loga. Farby: hlboká vínová ako hlavná, akcent medená
+ako logo na etiketách.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Sauvignon Blanc 2025, suché | 234 Kč | https://eshop.vinarstvinechory.cz/sauvignon-blanc_25/ |
+| Veltlínské zelené 2024, suché | 226 Kč | https://eshop.vinarstvinechory.cz/veltlinske-zelene_24/ |
+| Chardonnay 2024, suché | 224 Kč | https://eshop.vinarstvinechory.cz/chardonnay_2024/ |
+| Muškát Ottonel 2024, polosladké | 234 Kč | https://eshop.vinarstvinechory.cz/muskat-ottonel-24/ |
+| Pálava 2024, polosladké | 242 Kč | https://eshop.vinarstvinechory.cz/palava-24/ |
+| Tramín červený 2023, polosladké | 242 Kč | https://eshop.vinarstvinechory.cz/tramin-cerveny_23/ |
+| Rulandské modré rosé 2024, polosuché | 226 Kč | https://eshop.vinarstvinechory.cz/rulandske-modre-rose_24/ |
+| Rulandské modré 2023, suché | 242 Kč | https://eshop.vinarstvinechory.cz/rulandske-modre-3/ |
+| Cabernet Sauvignon RESERVE 2021, suché | 280 Kč | https://eshop.vinarstvinechory.cz/cabernet-sauvignon_21-2/ |
+| Cuvée Catherine OAK 2023, suché | 280 Kč | https://eshop.vinarstvinechory.cz/cuvee-catherine-oak-2023/ |
+| Riesling Select BRUT 2023 | 368 Kč | https://eshop.vinarstvinechory.cz/riesling-select-brut-2023/ |
+| Euphoria Sparkling 2025, polosuché | 216 Kč | https://eshop.vinarstvinechory.cz/euphoria-sparkling-25/ |

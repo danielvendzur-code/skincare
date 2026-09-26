@@ -31,6 +31,28 @@
         {id:'sum',name:'ŠUM Sauvignon 2025, extra dry',price:'254 Kč',url:'https://eshop.skoupil.com/p/sum-sauvignon-2025-brut',photo:photo('skoupil','sum'),tags:['sparkling','crisp','fish','target'],reason:'Šumivý Sauvignon v tradícii deda Petra, priekopníka moravských sektov — na slávnostné chvíle a oslavy.'},
         {id:'cibeby',name:'Tramín Babiččine cibéby 2023 History, sladké, 0,5 l',price:'425 Kč',url:'https://eshop.skoupil.com/p/babiccine-cibeby-2023-history',photo:photo('skoupil','cibeby'),tags:['white','sweet','cheese','target'],reason:'Sladký Tramín s tónmi marakuje, žltého melóna a prezretého manga s medovo-korenistou dochuťou — k dezertom a syrom.'}
       ]
+    },
+    nechory: {
+      name:'Vinařství Nechory', domain:'vinarstvinechory.cz', website:'https://eshop.vinarstvinechory.cz/',
+      theme:{brand:'#4a1f28',accent:'#c8702a',soft:'#f4eeea',paper:'#fdfbf9',ink:'#231c1d',line:'#e8ddd8'},
+      wordmark:logo('nechory','Vinařství Nechory'),
+      hero:'/assets/vino/nechory.jpg', mark:'/assets/vino/nechory-mark.png', headerLogo:'/assets/vino/nechory-logo-header.png',
+      ownerNote:'Takmer 40 vín zo Slovácka — od suchého Sauvignonu cez Pálavu až po Cabernet Reserve a sekty — a zákazník sa nevie rozhodnúť, čo k jedlu.',
+      benefit:['Z takmer 40 vín to pravé k jedlu','Rosé, sekty aj dezertné vína podľa chuti','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'sauvignon',name:'Sauvignon Blanc 2025, pozdní sběr, suché',price:'234 Kč',url:'https://eshop.vinarstvinechory.cz/sauvignon-blanc_25/',photo:photo('nechory','sauvignon'),tags:['white','crisp','fish'],reason:'Zrelé broskyne, egreš a kvet bazy so sviežou kyselinkou — vinárstvo ho odporúča k letným šalátom, rybám a kozím syrom.'},
+        {id:'veltlin',name:'Veltlínské zelené 2024, pozdní sběr, suché',price:'226 Kč',url:'https://eshop.vinarstvinechory.cz/veltlinske-zelene_24/',photo:photo('nechory','veltlin'),tags:['white','crisp','fish'],reason:'Zelené korenie, červený egreš a minerálna chuť s mandľovým tónom — k rybám, studeným mäsám aj k rezňu.'},
+        {id:'chardonnay',name:'Chardonnay 2024, pozdní sběr, suché',price:'224 Kč',url:'https://eshop.vinarstvinechory.cz/chardonnay_2024/',photo:photo('nechory','chardonnay'),tags:['white','bold','fish'],reason:'Plná, dlhá chuť s tónom exotického ovocia — k morským plodom na masle, pečenému kurčaťu či cestovinám so smotanou.'},
+        {id:'muskat',name:'Muškát Ottonel 2024, pozdní sběr, polosladké',price:'234 Kč',url:'https://eshop.vinarstvinechory.cz/muskat-ottonel-24/',photo:photo('nechory','muskat'),tags:['white','fruity','cheese'],reason:'Intenzívna aróma machovky, liči a grepu s muškátovým orieškom — skvelý aperitív aj k ovocným šalátom.'},
+        {id:'palava',name:'Pálava 2024, výběr z hroznů, polosladké',price:'242 Kč',url:'https://eshop.vinarstvinechory.cz/palava-24/',photo:photo('nechory','palava'),tags:['white','sweet','cheese','target'],reason:'Čajová ruža, jazmín a mandarínky s medovo nasladlou chuťou — k syrom s modrou plesňou a čokoládovým dezertom.'},
+        {id:'tramin',name:'Tramín červený 2023, výběr z hroznů, polosladké',price:'242 Kč',url:'https://eshop.vinarstvinechory.cz/tramin-cerveny_23/',photo:photo('nechory','tramin'),tags:['white','sweet','cheese'],reason:'Z trate Židlíky: vôňa ruží a fialiek, plná chuť s prezretým mangom — vinárstvo ho odporúča k sladkým dezertom.'},
+        {id:'rose',name:'Rulandské modré rosé 2024, pozdní sběr, polosuché',price:'226 Kč',url:'https://eshop.vinarstvinechory.cz/rulandske-modre-rose_24/',photo:photo('nechory','rose'),tags:['rose','fruity','fish'],reason:'Jahody a čierne čerešne v plnej, no svežej chuti — ku grilovaniu, ľahkým cestovinovým šalátom či mozzarelle.'},
+        {id:'pinot',name:'Rulandské modré 2023, výběr z hroznů, suché',price:'242 Kč',url:'https://eshop.vinarstvinechory.cz/rulandske-modre-3/',photo:photo('nechory','pinot'),tags:['red','fruity','meat'],reason:'Lesné jahody, brusnice a jemné drevo so zamatovou textúrou — ku kačacine, paštétam a hubovým jedlám.'},
+        {id:'cabernet',name:'Cabernet Sauvignon RESERVE 2021, pozdní sběr, suché',price:'280 Kč',url:'https://eshop.vinarstvinechory.cz/cabernet-sauvignon_21-2/',photo:photo('nechory','cabernet'),tags:['red','bold','meat','target'],reason:'Jahody a slivky, korenie a čokoládový dozvuk — k tmavým mäsám, zverine a jahňaciemu s tymiánom.'},
+        {id:'catherine',name:'Cuvée Catherine OAK 2023, výběr z hroznů, suché',price:'280 Kč',url:'https://eshop.vinarstvinechory.cz/cuvee-catherine-oak-2023/',photo:photo('nechory','catherine'),tags:['red','bold','meat','target'],reason:'Ostružiny, višne, vanilka a horká čokoláda z barrique sudov — mimoriadne plné cuvée s dlhým hrejivým záverom.'},
+        {id:'brut',name:'Riesling Select BRUT 2023, klasická metoda',price:'368 Kč',url:'https://eshop.vinarstvinechory.cz/riesling-select-brut-2023/',photo:photo('nechory','brut'),tags:['sparkling','crisp','fish','target'],reason:'Sekt kvasený vo fľaši s tónmi lipového kvetu a zrelých citrusov — k rybám, morským plodom a ľahkým predjedlám.'},
+        {id:'euphoria',name:'Euphoria Sparkling 2025, perlivé, polosuché',price:'216 Kč',url:'https://eshop.vinarstvinechory.cz/euphoria-sparkling-25/',photo:photo('nechory','euphoria'),tags:['sparkling','fruity','cheese'],reason:'Ovocno-kvetinová aróma a svieža chuť — k miskám s ovocím, jednohubkám alebo len tak na letný večer.'}
+      ]
     }
   });
 })();

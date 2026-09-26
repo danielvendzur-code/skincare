@@ -27,3 +27,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | vinárstvo | web | ukážka |
 | --- | --- | --- |
 | Vinařství Skoupil | [eshop.skoupil.com](https://eshop.skoupil.com/) | `/skoupil/` · `skoupil.mojchatbot.sk` |
+| Vinařství Nechory | [vinarstvinechory.cz](https://eshop.vinarstvinechory.cz/) | `/nechory/` · `nechory.mojchatbot.sk` |
