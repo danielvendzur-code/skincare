@@ -1,0 +1,16 @@
+// Launcher at rest, hovered, and the opened widget: node tools/hover.mjs SLUG OUT_PREFIX
+import { chromium } from '@playwright/test';
+const [slug, out] = process.argv.slice(2);
+const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' });
+const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+await p.goto(`http://127.0.0.1:8791/cosmetics.html?demo=${slug}`, { waitUntil: 'networkidle' });
+await p.waitForTimeout(1200);
+const box = await p.locator('#cx-open').boundingBox();
+const clip = { x: box.x - 30, y: box.y - 30, width: box.width + 60, height: box.height + 60 };
+await p.mouse.move(10, 10); await p.waitForTimeout(400);
+await p.screenshot({ path: out + '-rest.png', clip });
+await p.hover('#cx-open'); await p.waitForTimeout(500);
+await p.screenshot({ path: out + '-hover.png', clip });
+await p.locator('#cx-open').click(); await p.waitForTimeout(1200);
+await p.screenshot({ path: out + '-open.png', clip: { x: 840, y: 60, width: 600, height: 420 } });
+await b.close();
