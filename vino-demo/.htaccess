@@ -2,7 +2,7 @@ Options -MultiViews
 RewriteEngine On
 
 # <slug>.mojchatbot.sk opens that brand's demo at the root.
-RewriteCond %{HTTP_HOST} ^(skoupil|nechory)\.mojchatbot\.sk$ [NC]
+RewriteCond %{HTTP_HOST} ^(skoupil|nechory|dobravinice)\.mojchatbot\.sk$ [NC]
 RewriteRule ^$ cosmetics.html [L]
 
 # /vino/<slug> works too; the page reads the slug from the path.

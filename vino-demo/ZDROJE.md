@@ -75,3 +75,31 @@ ako logo na etiketách.
 | Cuvée Catherine OAK 2023, suché | 280 Kč | https://eshop.vinarstvinechory.cz/cuvee-catherine-oak-2023/ |
 | Riesling Select BRUT 2023 | 368 Kč | https://eshop.vinarstvinechory.cz/riesling-select-brut-2023/ |
 | Euphoria Sparkling 2025, polosuché | 216 Kč | https://eshop.vinarstvinechory.cz/euphoria-sparkling-25/ |
+
+## Dobrá Vinice — dobravinice.cz
+
+Biodynamické vinárstvo z Podyjí (Upgates, ceny v Kč), okolo 20 vín
+v e-shope: biele, pet-naty Crème, oranžové qvevri, ružové a červené.
+Všetky vína sú suché, takže pri voľbe „sladšie“ poradca ponúkne
+ovocnejšie suché víno. Ceny sú z detailu produktu (s DPH), tlačidlo
+„Do košíku“ aktívne k 26. 9. 2026; objem 0,75 l, sladkosť, párovanie
+a technológia z popisov. Fotky sú packshoty z e-shopu na bielej
+s umeleckými etiketami. Logo je PNG v 2× rozlíšení z e-shopu. Symbol
+sú tri červené bobule hrozna z loga — farebné na bielom launcheri,
+pri hoveri biele na červenom. Farby: čierna z písma loga, červená
+z bobúľ, teplá svetlá plocha.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Národní park 2021, cuvée, suché | 250 Kč | https://www.dobravinice.cz/p/narodni-park-2021 |
+| Müller Thurgau 2022, suché | 240 Kč | https://www.dobravinice.cz/p/muller-thurgau-2022 |
+| Veltlínské zelené 2021, suché | 310 Kč | https://www.dobravinice.cz/p/veltlinske-zelene-2021 |
+| Májová Milerka 2021, suché | 240 Kč | https://www.dobravinice.cz/p/majova-milerka-2021 |
+| Ryzlink rýnský 2020 VOC, suché | 510 Kč | https://www.dobravinice.cz/p/ryzlink-rynsky-2020 |
+| Quatre Cuvée 2022, suché | 360 Kč | https://www.dobravinice.cz/p/quatre-cuvee-2022 |
+| Vlašský ryzlink Qvevri 2017, oranžové | 550 Kč | https://www.dobravinice.cz/p/vlassky-ryzlink-qvevri-2017 |
+| Pinot Noir Rubín 2018, suché | 410 Kč | https://www.dobravinice.cz/p/pinot-noir-rubin-2018 |
+| Frankovka Ibérico 2023, suché | 290 Kč | https://www.dobravinice.cz/p/frankovka-iberico-2023 |
+| Trois 2022, suché | 370 Kč | https://www.dobravinice.cz/p/trois-2022 |
+| Crème de Kambrium 2022, pet-nat | 280 Kč | https://www.dobravinice.cz/p/creme-de-kambrium-2022 |
+| Crème de Riesling 2020, pet-nat | 290 Kč | https://www.dobravinice.cz/p/creme-de-riesling-2020 |

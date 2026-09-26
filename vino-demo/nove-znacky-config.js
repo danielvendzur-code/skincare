@@ -53,6 +53,29 @@
         {id:'brut',name:'Riesling Select BRUT 2023, klasická metoda',price:'368 Kč',url:'https://eshop.vinarstvinechory.cz/riesling-select-brut-2023/',photo:photo('nechory','brut'),tags:['sparkling','crisp','fish','target'],reason:'Sekt kvasený vo fľaši s tónmi lipového kvetu a zrelých citrusov — k rybám, morským plodom a ľahkým predjedlám.'},
         {id:'euphoria',name:'Euphoria Sparkling 2025, perlivé, polosuché',price:'216 Kč',url:'https://eshop.vinarstvinechory.cz/euphoria-sparkling-25/',photo:photo('nechory','euphoria'),tags:['sparkling','fruity','cheese'],reason:'Ovocno-kvetinová aróma a svieža chuť — k miskám s ovocím, jednohubkám alebo len tak na letný večer.'}
       ]
+    },
+    dobravinice: {
+      name:'Dobrá Vinice', domain:'dobravinice.cz', website:'https://www.dobravinice.cz/',
+      theme:{brand:'#2b2624',accent:'#a8143a',soft:'#f5f0ee',paper:'#fdfcfb',ink:'#231f1e',line:'#e7dfdb'},
+      wordmark:logo('dobravinice','Dobrá Vinice'),
+      hero:'/assets/vino/dobravinice.jpg', mark:'/assets/vino/dobravinice-mark.png',
+      markColor:{reverse:'/assets/vino/dobravinice-mark-reverse.png',bg:'#ffffff',bgHover:'#a8143a'},
+      ownerNote:'Naturálne vína z Podyjí — pet-naty Crème, cuvée Národní park, Trois či qvevri — s umeleckými etiketami, z ktorých zákazník nevyčíta, čo je vo fľaši.',
+      benefit:['Vysvetlí pet-nat, qvevri aj cuvée ľudskou rečou','Vyberie víno k jedlu z naturálnej ponuky','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'narodnipark',name:'Národní park 2021, cuvée, suché',price:'250 Kč',url:'https://www.dobravinice.cz/p/narodni-park-2021',photo:photo('dobravinice','narodnipark'),tags:['white','crisp','fish'],reason:'Müller Thurgau, Vlašský a Rýnsky ryzlink z Národného parku Podyjí, 16 mesiacov v starších dubových sudoch.'},
+        {id:'muller',name:'Müller Thurgau 2022, suché',price:'240 Kč',url:'https://www.dobravinice.cz/p/muller-thurgau-2022',photo:photo('dobravinice','muller'),tags:['white','fruity','fish'],reason:'Jemne minerálna vôňa s dotykom kvetov a ovocia a ovocno-kvetinovým dozvukom — ideálne na každodenné pitie.'},
+        {id:'veltlin',name:'Veltlínské zelené 2021, suché',price:'310 Kč',url:'https://www.dobravinice.cz/p/veltlinske-zelene-2021',photo:photo('dobravinice','veltlin'),tags:['white','crisp','fish'],reason:'12 mesiacov v dube: výrazne minerálna, jemne kvetinová vôňa, orieškové tóny a jemná kyselina.'},
+        {id:'milerka',name:'Májová Milerka 2021, suché',price:'240 Kč',url:'https://www.dobravinice.cz/p/majova-milerka-2021',photo:photo('dobravinice','milerka'),tags:['white','crisp','cheese'],reason:'Veľmi minerálna, chlebová vôňa a príjemne plná chuť — tiché biele víno z naturálnej rady.'},
+        {id:'ryzlink',name:'Ryzlink rýnský 2020 VOC, suché',price:'510 Kč',url:'https://www.dobravinice.cz/p/ryzlink-rynsky-2020',photo:photo('dobravinice','ryzlink'),tags:['white','bold','fish','target'],reason:'Prémiový Ryzlink s potenciálom 10 a viac rokov — vinárstvo ho páruje s rybami, ustricami, maslovou kuchyňou a zrelými syrmi.'},
+        {id:'quatre',name:'Quatre Cuvée 2022, suché',price:'360 Kč',url:'https://www.dobravinice.cz/p/quatre-cuvee-2022',photo:photo('dobravinice','quatre'),tags:['white','bold','cheese'],reason:'Štyri odrody zreli spolu 20 mesiacov na kvasniciach v dube; farbivo zo šupiek Pinotu mu dáva sýtu, ružovkastú farbu.'},
+        {id:'qvevri',name:'Vlašský ryzlink Qvevri 2017, oranžové, suché',price:'550 Kč',url:'https://www.dobravinice.cz/p/vlassky-ryzlink-qvevri-2017',photo:photo('dobravinice','qvevri'),tags:['white','bold','cheese','target'],reason:'Oranžové víno: 9 mesiacov na šupkách v qvevri a rok v novom dube — minerálna, koňakovo-medová chuť.'},
+        {id:'rubin',name:'Pinot Noir Rubín 2018, suché',price:'410 Kč',url:'https://www.dobravinice.cz/p/pinot-noir-rubin-2018',photo:photo('dobravinice','rubin'),tags:['rose','bold','cheese'],reason:'Ružové z Pinot Noir, 12 mesiacov v dube na kvasniciach — jemná vôňa a chuť s nádychom sherry.'},
+        {id:'frankovka',name:'Frankovka Ibérico 2023, suché',price:'290 Kč',url:'https://www.dobravinice.cz/p/frankovka-iberico-2023',photo:photo('dobravinice','frankovka'),tags:['red','fruity','meat'],reason:'Svieža a ovocná Frankovka, ktorú si budete chcieť objednať znova — k mäsu aj na posedenie.'},
+        {id:'trois',name:'Trois 2022, červené cuvée, suché',price:'370 Kč',url:'https://www.dobravinice.cz/p/trois-2022',photo:photo('dobravinice','trois'),tags:['red','bold','meat','target'],reason:'Červené cuvée, ktoré zrelo 18 mesiacov na vlastných kvasniciach v starších dubových sudoch.'},
+        {id:'kambrium',name:'Crème de Kambrium 2022, pet-nat, suché',price:'280 Kč',url:'https://www.dobravinice.cz/p/creme-de-kambrium-2022',photo:photo('dobravinice','kambrium'),tags:['sparkling','crisp','cheese'],reason:'Prírodné perlivé víno s chlebovo-minerálnou vôňou a plnou chuťou — pet-nat, ktorý chutí kedykoľvek počas dňa.'},
+        {id:'cremeriesling',name:'Crème de Riesling 2020, pet-nat, suché',price:'290 Kč',url:'https://www.dobravinice.cz/p/creme-de-riesling-2020',photo:photo('dobravinice','cremeriesling'),tags:['sparkling','crisp','fish','target'],reason:'Pet-nat z Rýnskeho ryzlinku, kvasený a zretý v starších francúzskych dubových sudoch.'}
+      ]
     }
   });
 })();

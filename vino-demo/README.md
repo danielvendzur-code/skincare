@@ -28,3 +28,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | --- | --- | --- |
 | Vinařství Skoupil | [eshop.skoupil.com](https://eshop.skoupil.com/) | `/skoupil/` · `skoupil.mojchatbot.sk` |
 | Vinařství Nechory | [vinarstvinechory.cz](https://eshop.vinarstvinechory.cz/) | `/nechory/` · `nechory.mojchatbot.sk` |
+| Dobrá Vinice | [dobravinice.cz](https://www.dobravinice.cz/) | `/dobravinice/` · `dobravinice.mojchatbot.sk` |
