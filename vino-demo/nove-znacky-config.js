@@ -76,6 +76,28 @@
         {id:'kambrium',name:'Crème de Kambrium 2022, pet-nat, suché',price:'280 Kč',url:'https://www.dobravinice.cz/p/creme-de-kambrium-2022',photo:photo('dobravinice','kambrium'),tags:['sparkling','crisp','cheese'],reason:'Prírodné perlivé víno s chlebovo-minerálnou vôňou a plnou chuťou — pet-nat, ktorý chutí kedykoľvek počas dňa.'},
         {id:'cremeriesling',name:'Crème de Riesling 2020, pet-nat, suché',price:'290 Kč',url:'https://www.dobravinice.cz/p/creme-de-riesling-2020',photo:photo('dobravinice','cremeriesling'),tags:['sparkling','crisp','fish','target'],reason:'Pet-nat z Rýnskeho ryzlinku, kvasený a zretý v starších francúzskych dubových sudoch.'}
       ]
+    },
+    magula: {
+      name:'Vinárstvo Magula', domain:'vinomagula.sk', website:'https://www.vinomagula.sk/',
+      theme:{brand:'#8c1f27',accent:'#2a2322',soft:'#f7f2ef',paper:'#fdfbfa',ink:'#221c1b',line:'#ebe0dc'},
+      wordmark:logo('magula','Vinárstvo Magula'),
+      hero:'/assets/vino/magula.jpg', mark:'/assets/vino/magula-mark.png', headerLogo:'/assets/vino/magula-logo-header.png',
+      ownerNote:'Remeselné bio vína zo Suchej nad Parnou — Vlci, Rosenberg, Teufelstal, Carboniq či Lupo! — názvy, pri ktorých zákazník potrebuje poradiť, čo je vo fľaši.',
+      benefit:['Vysvetlí rad Vlkov aj jednotlivé vinice','Vyberie z vyše 25 vín podľa chuti a jedla','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'bielyvlk',name:'Biely vlk 2023',price:'19 €',url:'https://www.vinomagula.sk/produkt/biely-vlk-2023/',photo:photo('magula','bielyvlk'),tags:['white','crisp','fish'],reason:'Biele víno z Frankovky a Pinot noir technológiou blanc de noir, 12 mesiacov v amfore — svieže, s výraznou kyselinkou (91 bodov Falstaff).'},
+        {id:'devin',name:'Jungberg Devín 2023',price:'19 €',url:'https://www.vinomagula.sk/produkt/jungberg-devin-2023/',photo:photo('magula','devin'),tags:['white','fruity','fish','target'],reason:'Single vineyard Devín z najvyššie položenej vinice na Mladej hore — elegantný, šťavnatá kyselinka a nádherná aromatika (92 bodov Falstaff).'},
+        {id:'orange',name:'Oranžový vlk 2023, oranžové víno',price:'19 €',url:'https://www.vinomagula.sk/produkt/oranzovy-vlk-2023/',photo:photo('magula','orange'),tags:['white','bold','cheese'],reason:'Tramín, Veltlín a Rizling vlašský z Vlčej doliny — svieže, živé oranžové víno s pevnou štruktúrou a jemnou aromatikou Tramínu.'},
+        {id:'ruzovy',name:'Ružový vlk 2022',price:'13 €',url:'https://www.vinomagula.sk/produkt/ruzovy-vlk-2022/',photo:photo('magula','ruzovy'),tags:['rose','fruity','fish'],reason:'Temperamentné rosé z Modrého Portugalu a Frankovky — intenzívna farba, plná, no svieža chuť a výrazný charakter.'},
+        {id:'sen',name:'Magula, Gabay, Bernheim: Sen 2020',price:'22 €',url:'https://www.vinomagula.sk/produkt/sen-2020/',photo:photo('magula','sen'),tags:['rose','bold','meat','target'],reason:'Tmavé prírodné rosé zo spolupráce s Elizabeth Gabay MW, zreté v bordeauxských sudoch — menej ako 2000 fliaš, aj na zimné večery.'},
+        {id:'lupo',name:'Lupo! #1, šumivé víno',price:'16 €',url:'https://www.vinomagula.sk/produkt/lupo-1/',photo:photo('magula','lupo'),tags:['sparkling','crisp','fish'],reason:'Ultra ľahké a svieže bublinky z Rizlingu vlašského, dokvasené vo fľaši s muštom z Frankovky a ponechané na kaloch.'},
+        {id:'carboniq',name:'Carboniq 2023',price:'13 €',url:'https://www.vinomagula.sk/produkt/carboniq-2023/',photo:photo('magula','carboniq'),tags:['red','fruity','fish'],reason:'Modrý Portugal metódou macération carbonique — dominujú lesné jahody, svieža ovocnosť a prirodzená jemnosť.'},
+        {id:'pinot',name:'Teufelstal Pinot noir 2022',price:'19 €',url:'https://www.vinomagula.sk/produkt/teufelstal-pinot-noir-2022/',photo:photo('magula','pinot'),tags:['red','fruity','meat'],reason:'Vyvážený, ovocný, a pritom plný a veľmi lahodný Pinot noir, zretý v novších aj starších dubových sudoch.'},
+        {id:'frankovka',name:'Rosenberg Frankovka 2021',price:'19 €',url:'https://www.vinomagula.sk/produkt/rosenberg-frankovka-2021/',photo:photo('magula','frankovka'),tags:['red','bold','meat'],reason:'Korenistá a živá Frankovka, 24 mesiacov v 225- a 500-litrových sudoch — vinárstvo ju odporúča na párovanie s jedlom.'},
+        {id:'cervenyvlk',name:'Červený vlk 2020',price:'19 €',url:'https://www.vinomagula.sk/produkt/cerveny-vlk-2020/',photo:photo('magula','cervenyvlk'),tags:['red','bold','meat'],reason:'Zamatovo čokoládový Dunaj s paprikovým Hronom — plnokrvné, mohutné červené víno klasického štýlu z dubových sudov.'},
+        {id:'baccara',name:'Baccara 2019',price:'21 €',url:'https://www.vinomagula.sk/produkt/baccara-2019/',photo:photo('magula','baccara'),tags:['red','fruity','cheese'],reason:'Víno z odrody Rosa, pestovanej na suchovskej Ružovej hore — vo farbe, vôni aj chuti sa skrýva kráľovná ruží Black Baccara.'},
+        {id:'portugal',name:'Teufelsecke Modrý Portugal 2017',price:'60 €',url:'https://www.vinomagula.sk/produkt/teufelsecke-modry-portugal-2017/',photo:photo('magula','portugal'),tags:['red','bold','meat','target'],reason:'Celé strapce 3 týždne v otvorenej kadi a 33 mesiacov v starom dubovom sude — archívny Portugal na výnimočnú príležitosť.'}
+      ]
     }
   });
 })();

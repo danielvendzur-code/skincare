@@ -77,3 +77,9 @@ body[data-cosmetics-demo="nechory"] .cx-owner-brand .cx-logo {
 body[data-cosmetics-demo="nechory"] .cx-widget-brand .cx-logo {
   max-height: 38px !important;
 }
+body[data-cosmetics-demo="magula"] .cx-owner-brand .cx-logo {
+  max-height: 64px !important;
+}
+body[data-cosmetics-demo="magula"] .cx-widget-brand .cx-logo {
+  max-height: 40px !important;
+}

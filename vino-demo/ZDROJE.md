@@ -103,3 +103,32 @@ z bobúľ, teplá svetlá plocha.
 | Trois 2022, suché | 370 Kč | https://www.dobravinice.cz/p/trois-2022 |
 | Crème de Kambrium 2022, pet-nat | 280 Kč | https://www.dobravinice.cz/p/creme-de-kambrium-2022 |
 | Crème de Riesling 2020, pet-nat | 290 Kč | https://www.dobravinice.cz/p/creme-de-riesling-2020 |
+
+## Vinárstvo Magula — vinomagula.sk
+
+Remeselné rodinné bio vinárstvo zo Suchej nad Parnou (WooCommerce,
+ceny v €), okolo 29 vín: rad Vlkov, vinice Rosenberg, Teufelstal,
+Jungberg, oranžové, rosé aj šumivé. Ceny a sklad sú z verejného Store
+API e-shopu (`/wp-json/wc/store/v1/products`, všetko `is_in_stock`
+k 26. 9. 2026); popisy vín z e-shopu a z detailu produktu. Vinárstvo
+robí suché vína, takže pri voľbe „sladšie“ poradca ponúkne
+najovocnejšie. Fotky sú PNG packshoty z e-shopu. Logo je PNG z webu
+(dvojfarebné, preto nie je prekreslené); do červenej hlavičky widgetu
+ide biela verzia. Symbol je koreň z ich etikiet (ikona webu zväčšená
+4×). Farby: hlboká vínová ako hlavná, akcent teplá čierna ako písmo
+loga.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Biely vlk 2023 | 19 € | https://www.vinomagula.sk/produkt/biely-vlk-2023/ |
+| Jungberg Devín 2023 | 19 € | https://www.vinomagula.sk/produkt/jungberg-devin-2023/ |
+| Oranžový vlk 2023 | 19 € | https://www.vinomagula.sk/produkt/oranzovy-vlk-2023/ |
+| Ružový vlk 2022 | 13 € | https://www.vinomagula.sk/produkt/ruzovy-vlk-2022/ |
+| Sen 2020 | 22 € | https://www.vinomagula.sk/produkt/sen-2020/ |
+| Lupo! #1 | 16 € | https://www.vinomagula.sk/produkt/lupo-1/ |
+| Carboniq 2023 | 13 € | https://www.vinomagula.sk/produkt/carboniq-2023/ |
+| Teufelstal Pinot noir 2022 | 19 € | https://www.vinomagula.sk/produkt/teufelstal-pinot-noir-2022/ |
+| Rosenberg Frankovka 2021 | 19 € | https://www.vinomagula.sk/produkt/rosenberg-frankovka-2021/ |
+| Červený vlk 2020 | 19 € | https://www.vinomagula.sk/produkt/cerveny-vlk-2020/ |
+| Baccara 2019 | 21 € | https://www.vinomagula.sk/produkt/baccara-2019/ |
+| Teufelsecke Modrý Portugal 2017 | 60 € | https://www.vinomagula.sk/produkt/teufelsecke-modry-portugal-2017/ |
