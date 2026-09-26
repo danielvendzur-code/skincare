@@ -11,6 +11,25 @@
   const photo = (slug, id) => `/assets/cosmetics/${slug}-${id}.jpg`;
 
   const hair = {
+    navlasil: {
+      name:'NAVLASIL', domain:'navlasil.sk', website:'https://www.navlasil.sk/',
+      theme:{brand:'#402021',accent:'#b0712f',soft:'#f7f1ec',paper:'#fdf9f6',ink:'#2a1516',line:'#ecdfd6'},
+      wordmark:logo('navlasil','NAVLASIL'),
+      hero:'/assets/cosmetics/navlasil.jpg', mark:'/assets/cosmetics/navlasil-mark.png',
+      ownerNote:'Štyri šampóny a kondicionéry podľa typu vlasov, dve séra, tonikum, maska aj olejová kúra — všetko v rovnakých bielych fľašiach, zákazníčka potrebuje vedieť, ktorá kombinácia je jej.',
+      benefit:['Z rovnakých bielych fliaš tá pravá kombinácia','Rozlíši sérum proti vypadávaniu a sérum s peptidmi medi','Odpovie aj vtedy, keď sprievodca výberom nestačí'],
+      products:[
+        {id:'jemne',name:"Šampón NAVLASIL pre jemné vlasy 250 ml",price:'18,50 €',url:'https://www.navlasil.sk/sampony/sampon-navlasil-pre-jemne-vlasy/',photo:photo('navlasil','jemne'),tags:['balanced','clarity','mature','cream','simple','basic'],reason:"Odľahčený šampón pre jemné vlasy bez objemu a so sklonom k vypadávaniu — umýva bez zaťaženia, zväčšuje objem a podporuje rast."},
+        {id:'suche',name:"Šampón NAVLASIL pre suché a lámavé vlasy 250 ml",price:'18,50 €',url:'https://www.navlasil.sk/sampony/sampon-navlasil-pre-suche-a-lamave-vlasy/',photo:photo('navlasil','suche'),tags:['dry','hydrate','cream','simple','basic'],reason:"Hydratačný a vyživujúci šampón pre veľmi poškodené a nepoddajné vlasy, ktoré potrebujú maximálne hydratovať a vyživiť."},
+        {id:'farbene',name:"Šampón NAVLASIL pre farbené a melírované vlasy 250 ml",price:'18,00 €',url:'https://www.navlasil.sk/sampony/sampon-navlasil-pre-farbene-a-melirovane-vlasy/',photo:photo('navlasil','farbene'),tags:['balanced','hydrate','cream','simple','basic'],reason:"Chráni farbu farbených a melírovaných vlasov, podporuje ich lesk a hydratáciu."},
+        {id:'normalne',name:"Šampón NAVLASIL pre normálne vlasy 250 ml",price:'18,00 €',url:'https://www.navlasil.sk/sampony/sampon-navlasil-pre-normalne-vlasy/',photo:photo('navlasil','normalne'),tags:['balanced','oily','clarity','cream','simple','basic'],reason:"Odľahčená štruktúra pre všetky typy vlasov — svieži pocit krásne umytých a ľahkých vlasov už po prvom umytí, s vôňou levandule a citrónovej trávy."},
+        {id:'serum',name:"Sérum NAVLASIL proti vypadávaniu a šediveniu vlasov",price:'50,50 €',url:'https://www.navlasil.sk/vlasova-sera/serum-navlasil-proti-vypadavaniu-a-sediveniu-vlasov/',photo:photo('navlasil','serum'),tags:['balanced','mature','serum','target','full'],reason:"Vlajková loď značky — sérum na pokožku hlavy pri vypadávaní a šedivení vlasov s vysokým obsahom účinných látok."},
+        {id:'med',name:"Vlasové sérum NAVLASIL s peptidmi medi",price:'52,00 €',url:'https://www.navlasil.sk/vlasova-sera/vlasove-serum-navlasil-s-peptidmi-medi/',photo:photo('navlasil','med'),tags:['sensitive','mature','serum','target','full'],reason:"Medené peptidy GHK-Cu zlepšujú kvalitu pokožky hlavy, posilňujú korienok a pomáhajú udržať vlas dlhšie v rastovej fáze — bez agresívnej stimulácie."},
+        {id:'tonikum',name:"Detoxikačné tonikum NAVLASIL pre vlasovú pokožku 50 ml",price:'27,00 €',url:'https://www.navlasil.sk/vlasove-tonika/detoxikacne-tonikum-navlasil-pre-vlasovu-pokozku-50-ml/',photo:photo('navlasil','tonikum'),tags:['oily','sensitive','calm','clarity','serum','target','full'],reason:"Šetrne, no hĺbkovo vyčistí pokožku hlavy od mazu a nánosov stylingu, upokojí ju pri svrbení a lupinách — 1–2× týždenne pred umytím."},
+        {id:'maska',name:"Vyživujúca proteínová maska NAVLASIL",price:'18,00 €',url:'https://www.navlasil.sk/masky-na-vlasy/vyzivujuca-proteinova-maska-navlasil/',photo:photo('navlasil','maska'),tags:['balanced','hydrate','oil','target','full'],reason:"Nezaťažujúca proteínová maska aj pre jemné vlasy — hebkosť, ľahšie rozčesávanie a lesk už po prvom použití."},
+        {id:'olej',name:"Predšampónová olejová kúra NAVLASIL s arganovým a tsubaki olejom",price:'26,00 €',url:'https://www.navlasil.sk/oleje-na-vlasy/predsamponova-olejova-kura-na-vlasy-navlasil-s-arganovym-a-tsubaki-olejom/',photo:photo('navlasil','olej'),tags:['dry','hydrate','oil','target','full'],reason:"Olejová kúra pred umytím intenzívne vyživí suché, poškodené a krepovatejúce vlasy a zníži ich vysušovanie šampónom."}
+      ]
+    },
     ryor: {
       name:'RYOR', domain:'ryor.sk', website:'https://www.ryor.sk/',
       theme:{brand:'#4f6b1c',accent:'#72902a',soft:'#f1f4e8',paper:'#fdfdf9',ink:'#1f2a14',line:'#e1e8d2'},

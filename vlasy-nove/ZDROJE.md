@@ -133,3 +133,28 @@ a detského 2v1, všetko skladom. Farby: zelená z loga `#72902a`, tmavšia
 | Regeneračný kondicionér s panthenolom 200 ml | 5,36 € | https://www.ryor.sk/regeneracny-kondicioner-s-pantenolom |
 
 Fotky: hlavné obrázky produktov z `https://www.ryor.sk/api/stages/files?…&file=/edeeshop/ryor/product/hlavni-motiv/…` (1920 px).
+
+## NAVLASIL — navlasil.sk
+
+Ostravská značka prémiovej vlasovej kozmetiky („vyrobené v Českej
+republike“), samostatný slovenský e-shop v €. Vybrané sú šampóny podľa typu
+vlasov, obe séra, tonikum, maska a olejová kúra; všetko skladom. Sérum proti
+vypadávaniu a šediveniu je za 1 kus (e-shop ponúka aj 2 a 3 kusy).
+Farby z loga: čokoládovo hnedá `#402021`, zlatá `#c78746` (tmavšia
+`#b0712f` pre kontrast), teplá svetlá plocha z packshotov. Logo zo SVG na
+webe, symbol sú zlaté prúžky vlasov z loga. Packshoty s priehľadným
+pozadím sú podložené farbou pozadia ostatných packshotov (`#fdf9f6`).
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Šampón NAVLASIL pre jemné vlasy 250 ml | 18,50 € | https://www.navlasil.sk/sampony/sampon-navlasil-pre-jemne-vlasy/ |
+| Šampón NAVLASIL pre suché a lámavé vlasy 250 ml | 18,50 € | https://www.navlasil.sk/sampony/sampon-navlasil-pre-suche-a-lamave-vlasy/ |
+| Šampón NAVLASIL pre farbené a melírované vlasy 250 ml | 18,00 € | https://www.navlasil.sk/sampony/sampon-navlasil-pre-farbene-a-melirovane-vlasy/ |
+| Šampón NAVLASIL pre normálne vlasy 250 ml | 18,00 € | https://www.navlasil.sk/sampony/sampon-navlasil-pre-normalne-vlasy/ |
+| Sérum NAVLASIL proti vypadávaniu a šediveniu vlasov | 50,50 € | https://www.navlasil.sk/vlasova-sera/serum-navlasil-proti-vypadavaniu-a-sediveniu-vlasov/ |
+| Vlasové sérum NAVLASIL s peptidmi medi | 52,00 € | https://www.navlasil.sk/vlasova-sera/vlasove-serum-navlasil-s-peptidmi-medi/ |
+| Detoxikačné tonikum NAVLASIL pre vlasovú pokožku 50 ml | 27,00 € | https://www.navlasil.sk/vlasove-tonika/detoxikacne-tonikum-navlasil-pre-vlasovu-pokozku-50-ml/ |
+| Vyživujúca proteínová maska NAVLASIL | 18,00 € | https://www.navlasil.sk/masky-na-vlasy/vyzivujuca-proteinova-maska-navlasil/ |
+| Predšampónová olejová kúra NAVLASIL s arganovým a tsubaki olejom | 26,00 € | https://www.navlasil.sk/oleje-na-vlasy/predsamponova-olejova-kura-na-vlasy-navlasil-s-arganovym-a-tsubaki-olejom/ |
+
+Logo: `https://www.navlasil.sk/obj/files/2/sys_media_728.svg`; fotky: `og:image` / hlavné obrázky produktov (`/obj/files/…`).
