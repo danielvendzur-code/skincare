@@ -159,3 +159,34 @@ verzia. Symbol je zlaté „U“ v tvare pohára z loga. Farby: teplá
 | Dornfelder 2024, suché | 10 € | https://vinojurasek.sk/vino/dornfelder-2023/ |
 | Alibernet 2021, suché | 10 € | https://vinojurasek.sk/vino/alibernet-2021/ |
 | Pinot Noir Barrique 2020, suché | 15 € | https://vinojurasek.sk/vino/pinot-noir-barrique-2020/ |
+
+## Vinařství Vican — vican.wine
+
+Rodinné vinárstvo z Mikulova (Shoptet, ceny v Kč), takmer 30 vín
+skladom: biele suché aj polosladké, edícia Karel Roden, výber
+z cibéb, červené, rosé, frizzanté aj kvevri vína. Ceny a sklad sú
+z kategórií a detailov e-shopu (všetko „Skladem“ k 26. 9. 2026);
+do ukážky ide 15 vín, ktoré pokryjú každú farbu a štýl. Popisy vín
+a párovanie s jedlom sú z detailu produktu (preložené do
+slovenčiny). Fotky sú packshoty z e-shopu. Logo je PNG z e-shopu
+s odstráneným bielym pozadím; do červenej hlavičky widgetu ide biela
+verzia. Symbol je mušľa z loga. Farby: tehlovo červená z umeleckého
+štvorca na etiketách ako hlavná, akcent tmavý jantár.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Sylvánské zelené 2025, pozdní sběr, suché | 239 Kč | https://eshop.vican.wine/bila-vina/sylvanske-zelene-2025--pozdni-sber--suche/ |
+| Sauvignon 2023, pozdní sběr, suché | 239 Kč | https://eshop.vican.wine/bila-vina/sauvignon-2023--pozdni-sber--suche/ |
+| Chardonnay 2023 - edice Karel Roden, výběr z hroznů, suché | 315 Kč | https://eshop.vican.wine/bila-vina/chardonnay-2023-edice-karel-roden--vyber-z-hroznu--suche/ |
+| Ryzlink rýnský 2024, výběr z hroznů, suché | 289 Kč | https://eshop.vican.wine/bila-sucha-vina/ryzlink-rynsky-2024--vyber-z-hroznu--suche/ |
+| Tramín červený 2024, výběr z hroznů, polosladké | 269 Kč | https://eshop.vican.wine/bila-vina/tramin-cerveny-2024--vyber-z-hroznu--polosladke/ |
+| Pálava 2024 - edice Karel Roden, výběr z hroznů, polosladké | 349 Kč | https://eshop.vican.wine/bila-polosladka-vina/palava-2024-edice-karel-roden--vyber-z-hroznu--polosladke/ |
+| Ryzlink vlašský 2017, výběr z cibéb, sladké (0,25 l) | 319 Kč | https://eshop.vican.wine/vina/ryzlink-vlassky-2017--vyber-z-cibeb--sladke/ |
+| Rulandské modré 2024 ps, suché | 250 Kč | https://eshop.vican.wine/cervena-vina/rulandske-modre-2024-ps--suche/ |
+| Merlot 2023 - Rodinná rezerva, výběr z hroznů, suché | 349 Kč | https://eshop.vican.wine/cervena-vina/merlot-2023-rodinna-rezerva--vyber-z-hroznu--suche/ |
+| Frankovka 2022, pozdní sběr, suché, Moravský akát | 249 Kč | https://eshop.vican.wine/cervena-vina/frankovka-2022--pozdni-sber--suche--moravsky-akat/ |
+| Cuvée Jupiter 2022, suché | 319 Kč | https://eshop.vican.wine/vina/cuvee-jupiter-2022--suche/ |
+| Cuvée Thé rosé 2022, mzv, polosuché | 199 Kč | https://eshop.vican.wine/ruzova-vina/cuvee-the-rose-2022--mzv--polosuche/ |
+| Cabernet Sauvignon ROSÉ 2025 kabinetní, polosladké | 219 Kč | https://eshop.vican.wine/ruzova-polosladka-vina/cabernet-sauvignon-rose-2025-kabinetni--polosladke/ |
+| Frizzanté Muškát žlutý 2025, polosuché | 269 Kč | https://eshop.vican.wine/vina/frizzante-muskat-zluty-2025--polosuche/ |
+| Frizzanté Pálava 2025, polosladké | 269 Kč | https://eshop.vican.wine/vina/frizzante-palava-2025--polosladke/ |
