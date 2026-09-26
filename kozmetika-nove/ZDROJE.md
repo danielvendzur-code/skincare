@@ -196,3 +196,26 @@ zlatou, teplé svetlé plochy.
 | Fermentovaný slivkový olej 50 ml | 13,95 € | https://www.botanicaslavica.eu/premium/fermentovany-slivkovy-olej-upokojujuca-obnova-pre-citlivu-plet |
 | Fermentovaný arganový olej 50 ml | 12,95 € | https://www.botanicaslavica.eu/premium/fermentovany-arganovy-olej-intenzivna-sila-v-cistej-forme |
 | Fermentovaný avokádový olej 50 ml | 8,95 € | https://www.botanicaslavica.eu/premium/fermentovany-avokadovy-olej-hlbkova-obnova-a-ochrana-pleti |
+
+## CALTHA — caltha.cz
+
+Česká certifikovaná prírodná kozmetika z ručnej výroby (Shoptet, ceny
+v Kč). Päť krémov jednej rady v rovnakom balení, odlíšených len farbou
+štítku — presne prípad pre poradcu. Ceny sú plné veľkosti (nie vzorky),
+overené z `priceUnformatted` variantu; všetko „Skladem“ k 26. 9. 2026.
+Krémy Clear Visage a Microbiome balance som vynechal — predávajú sa
+s trvanlivosťou do 9/2026. Fotky sú packshoty z e-shopu na bielej,
+sérum je štylizovaná fotka z galérie. Symbolom je kvet z loga. Farby:
+čierne písmo, mätová lišta (#81c8b6) a zelená (#3c840f) z webu —
+tmavá ihličnatá zelená ako hlavná, jemná mätová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Hydratačný krém MEDUŇKOVÝ 50 ml | 360 Kč | https://www.caltha.cz/hydratacni-pletovy-krem-medunkovy/ |
+| Hydratačný krém RŮŽOVÝ 50 ml | 360 Kč | https://www.caltha.cz/hydratacni-pletovy-krem-ruzovy/ |
+| Krém na problematickú pleť HŘEBÍČKOVÝ 50 ml | 410 Kč | https://www.caltha.cz/krem-na-problematickou-plet-hrebickovy/ |
+| Krém proti vráskam s kyselinou hyalurónovou 50 ml | 460 Kč | https://www.caltha.cz/pletovy-krem-proti-vraskam-s-kyselinou-hyaluronovou/ |
+| Krém RÝŽOVÝ s Q10 50 ml | 420 Kč | https://www.caltha.cz/pletovy-krem-ryzovy-s-koenzymem-q10/ |
+| Anti-age sérum HYDROKOMPLEX | 470 Kč | https://www.caltha.cz/anti-age-serum-hydrokomplex-s-kyselinou-hyaluronovou/ |
+| Čistiace mlieko aloe vera a levanduľa 100 ml | 290 Kč | https://www.caltha.cz/cistici-mleko-aloe-vera-gel-a-levandule/ |
+| Pleťové tonikum BÍLÁ RŮŽE | 280 Kč | https://www.caltha.cz/pletove-tonikum-bila-ruze/ |

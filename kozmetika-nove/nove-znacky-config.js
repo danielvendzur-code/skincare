@@ -182,6 +182,24 @@
         {id:'argan',name:'Fermentovaný arganový olej 50 ml',price:'12,95 €',url:'https://www.botanicaslavica.eu/premium/fermentovany-arganovy-olej-intenzivna-sila-v-cistej-forme',photo:photo('botanica','argan'),tags:['mature','dry','oil','target','full'],reason:'Fermentovaný arganový olej s lepšou vstrebateľnosťou a viac antioxidantmi — výživa pre zrelšiu pleť.'},
         {id:'avokado',name:'Fermentovaný avokádový olej 50 ml',price:'8,95 €',url:'https://www.botanicaslavica.eu/premium/fermentovany-avokadovy-olej-hlbkova-obnova-a-ochrana-pleti',photo:photo('botanica','avokado'),tags:['dry','balanced','hydrate','oil','any'],reason:'Hĺbková obnova a ochrana pleti — fermentovaný avokádový olej intenzívne hydratuje a vyživuje.'}
       ]
+    },
+    caltha: {
+      name:'CALTHA', domain:'caltha.cz', website:'https://www.caltha.cz/',
+      theme:{brand:'#1f3a32',accent:'#3c840f',soft:'#e8f3ef',paper:'#fbfdfc',ink:'#1b2622',line:'#d6e6df'},
+      wordmark:logo('caltha','CALTHA'),
+      hero:'/assets/cosmetics/caltha.jpg', mark:'/assets/cosmetics/caltha-mark.png',
+      ownerNote:'Päť krémov z jednej rady — meduňkový, ružový, hrebíčkový, ryžový s Q10 aj s hyalurónom — vyzerajú rovnako a zákazník nevie, ktorý je ten jeho.',
+      benefit:['Z piatich krémov CALTHA ten pravý pre pleť','Doplní mlieko, tonikum aj sérum do rutiny','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'medunka',name:'Hydratačný pleťový krém MEDUŇKOVÝ 50 ml',price:'360 Kč',url:'https://www.caltha.cz/hydratacni-pletovy-krem-medunkovy/',photo:photo('caltha','medunka'),tags:['dry','sensitive','hydrate','calm','cream','simple','basic'],reason:'Ľahký, no výživný krém s mandľovým a avokádovým olejom, bambuckým maslom a meduňkou hydratuje a chráni suchú aj citlivú pleť.'},
+        {id:'ruzovy',name:'Hydratačný pleťový krém RŮŽOVÝ 50 ml',price:'360 Kč',url:'https://www.caltha.cz/hydratacni-pletovy-krem-ruzovy/',photo:photo('caltha','ruzovy'),tags:['dry','balanced','hydrate','cream','any','basic'],reason:'Krém s damascénskou ružou, mandľovým a avokádovým olejom rýchlo vstrebe, zvláčni a zregeneruje suchú pleť.'},
+        {id:'hrebicek',name:'Krém na problematickú pleť HŘEBÍČKOVÝ 50 ml',price:'410 Kč',url:'https://www.caltha.cz/krem-na-problematickou-plet-hrebickovy/',photo:photo('caltha','hrebicek'),tags:['oily','sensitive','clarity','calm','cream','simple','basic'],reason:'BIO oleje lisované za studena, aloe vera a hrebíčkový a levanduľový olej upokoja podráždenú a problematickú pleť.'},
+        {id:'hyal',name:'Pleťový krém proti vráskam S KYSELINOU HYALURÓNOVOU 50 ml',price:'460 Kč',url:'https://www.caltha.cz/pletovy-krem-proti-vraskam-s-kyselinou-hyaluronovou/',photo:photo('caltha','hyal'),tags:['mature','balanced','oily','hydrate','cream','full','basic'],reason:'Ľahký krém s kyselinou hyalurónovou a aloe vera hydratuje a vyhladzuje — rýchlo sa vstrebe a nenechá mastný film.'},
+        {id:'ryzovy',name:'Pleťový krém RÝŽOVÝ s koenzýmom Q10 50 ml',price:'420 Kč',url:'https://www.caltha.cz/pletovy-krem-ryzovy-s-koenzymem-q10/',photo:photo('caltha','ryzovy'),tags:['mature','dry','sensitive','cream','target','basic'],reason:'Ryžový a pupalkový olej s koenzýmom Q10 regenerujú suchú a zrelú pleť, zlepšujú pružnosť a chránia pred predčasným starnutím.'},
+        {id:'serum',name:'Anti-age sérum HYDROKOMPLEX s kyselinou hyalurónovou',price:'470 Kč',url:'https://www.caltha.cz/anti-age-serum-hydrokomplex-s-kyselinou-hyaluronovou/',photo:photo('caltha','serum'),tags:['mature','balanced','hydrate','serum','target','full'],reason:'Roll-on sérum s hydrolátom z bielej ruže a trojicou kyselín hyalurónových vráti pleti pružnosť a vyhladí vrásky.'},
+        {id:'mleko',name:'Čistiace mlieko ALOE VERA gél a LEVANDUĽA 100 ml',price:'290 Kč',url:'https://www.caltha.cz/cistici-mleko-aloe-vera-gel-a-levandule/',photo:photo('caltha','mleko'),tags:['sensitive','dry','calm','full'],reason:'Jemné mlieko s BIO levanduľovým hydrolátom a aloe vera odlíči a vyčistí bez vysušenia — prvý krok rutiny.'},
+        {id:'tonikum',name:'Pleťové tonikum BÍLÁ RŮŽE',price:'280 Kč',url:'https://www.caltha.cz/pletove-tonikum-bila-ruze/',photo:photo('caltha','tonikum'),tags:['sensitive','balanced','calm','full'],reason:'Tonikum s BIO hydrolátom z bielej ruže a aloe vera bez alkoholu a parfumácie pleť osvieži, rozjasní a zharmonizuje.'}
+      ]
     }
   });
 })();
