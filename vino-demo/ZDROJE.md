@@ -226,3 +226,38 @@ a tmavá #7f122d z CSS webu.
 | Jantar z Výhonu 2020, polosuché, BIO | 430 Kč | https://vinarstvivalka.cz/produkt/jantar-2020-polosuche-dezertni-vino-bio/ |
 | MuAu Pet-Nat 2025, brut natur, perlivé, BIO | 335 Kč | https://vinarstvivalka.cz/produkt/muau-pet-nat-2025-brut-natur-perlive-bio-2/ |
 | BLAU Pet-Nat 2025, brut natur, perlivé, BIO | 335 Kč | https://vinarstvivalka.cz/produkt/blau-pet-nat-2025-brut-natur-perlive-bio/ |
+
+## Vinařství Šabata — vinarstvisabata.cz
+
+Rodinné vinárstvo zo Zaječí (Shoptet, ceny v Kč), vyše 50 vín
+skladom: suché aj sladké biele, rad BATONNAGE, rad BARRIQUE, ľadové
+víno, rosé, frizzante a sekt. Ceny a sklad sú z kategórií a detailov
+e-shopu (všetko „Skladem“ k 26. 9. 2026); do ukážky ide 16 vín. Popisy
+vín sú z detailu produktu (preložené do slovenčiny); pri vínach bez
+popisu sú použité len údaje z e-shopu (cukor, trať, medaily). Fotky
+sú packshoty z e-shopu orezané na fľašu (bez medailí a pečiatky
+vinárstva na okraji). Merlot BARRIQUE 2023 má na e-shope namiesto
+fotky fľaše obrázok etikety, ukážka ho používa tiež; Rulandské modré
+BARRIQUE 2021 a vína VOC (na e-shope len logo) sú vynechané. Logo je
+SVG z e-shopu (biele), vykreslené aj v tmavomodrej farbe etikiet.
+Symbol je strapec s listom z loga. Farby: tmavomodrá z etikiet ako
+hlavná, akcent bordová.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Sauvignon 2025, pozdní sběr - suché | 249 Kč | https://eshop.vinarstvisabata.cz/sauvignon-2025--pozdni-sber-suche/ |
+| Donauriesling 2025, pozdní sběr - suché | 249 Kč | https://eshop.vinarstvisabata.cz/donauriesling-2025--pozdni-sber-suche/ |
+| Savilon 2025, pozdní sběr - suché | 249 Kč | https://eshop.vinarstvisabata.cz/savilon-2025--pozdni-sber-suche/ |
+| Muškát moravský 2025, pozdní sběr - suché | 239 Kč | https://eshop.vinarstvisabata.cz/muskat-moravsky-2025--pozdni-sber-suche/ |
+| Pálava 2025, pozdní sběr - suché | 249 Kč | https://eshop.vinarstvisabata.cz/palava-2025--pozdni-sber-suche/ |
+| Rulandské šedé 2025, pozdní sběr - polosuché | 249 Kč | https://eshop.vinarstvisabata.cz/rulandske-sede-2025--pozdni-sber-polosuche/ |
+| Rulandské bílé - BATONNAGE 2022, pozdní sběr - suché | 269 Kč | https://eshop.vinarstvisabata.cz/rulandske-bile-batonnage-2022--pozdni-sber-suche/ |
+| Pálava - BARRIQUE 2020, výběr z hroznů - suché | 329 Kč | https://eshop.vinarstvisabata.cz/palava-barrique-2020--vyber-z-hroznu-suche/ |
+| Tramín červený 2025, výběr z hroznů - polosladké | 269 Kč | https://eshop.vinarstvisabata.cz/tramin-cerveny-2025--vyber-z-hroznu-polosladke/ |
+| Pálava 2023, výběr z hroznů - sladké | 269 Kč | https://eshop.vinarstvisabata.cz/palava-2023--vyber-z-hroznu-sladke/ |
+| Tramín červený 2013, LEDOVÉ VÍNO - sladké (0,375 l) | 750 Kč | https://eshop.vinarstvisabata.cz/tramin-cerveny-2013--ledove-vino/ |
+| Merlot - BARRIQUE 2023, výběr z hroznů - suché | 349 Kč | https://eshop.vinarstvisabata.cz/merlot-barrique-2023--vyber-z-hroznu-suche/ |
+| Rulandské modré - BARRIQUE 2018, výběr z hroznů - suché | 499 Kč | https://eshop.vinarstvisabata.cz/rulandske-modre-barrique-2018--vyber-z-hroznu-suche/ |
+| Merlot ROSÉ 2025, pozdní sběr - polosladké | 219 Kč | https://eshop.vinarstvisabata.cz/merlot-rose-2025--pozdni-sber-polosladke/ |
+| FRIZZANTE ROSÉ - Cuvée Mé Alibi 2024 - polosladké | 219 Kč | https://eshop.vinarstvisabata.cz/frizzante-rose-cuvee-me-alibi--zemske-perlive-vino-polosladke/ |
+| SEKT Šabata BLANC 2018 - brut | 359 Kč | https://eshop.vinarstvisabata.cz/sekt-sabata-blanc-2018-brut/ |

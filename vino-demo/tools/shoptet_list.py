@@ -7,7 +7,7 @@ for url in sys.argv[1:]:
     doc = subprocess.run(['curl', '-sSL', '-m', '30', url], capture_output=True).stdout.decode('utf-8', 'replace')
     for block in re.split(r'<div class="product\b', doc)[1:]:
         block = block[:6000]
-        link = re.search(r'<a href="([^"]+)" class="name"', block) or re.search(r'class="name"[^>]*href="([^"]+)"', block)
+        link = re.search(r'<a\s+href="([^"]+)"\s+class="name"', block) or re.search(r'class="name"[^>]*href="([^"]+)"', block)
         name = re.search(r'data-testid="productCardName">\s*([^<]+)', block) or re.search(r'<span[^>]*>\s*([^<]{4,120})</span>\s*</a>', block)
         price = re.search(r'price-final[^>]*>\s*(?:<strong>)?\s*([^<]+)', block)
         avail = re.search(r'availability[^>]*>\s*(?:<span[^>]*>)?\s*([^<]+)', block)

@@ -6,7 +6,7 @@
       "has": [
         {
           "type": "host",
-          "value": "^(?<sub>skoupil|nechory|dobravinice|magula|jurasek|vican|valka)\\.mojchatbot\\.sk$"
+          "value": "^(?<sub>skoupil|nechory|dobravinice|magula|jurasek|vican|valka|sabata)\\.mojchatbot\\.sk$"
         }
       ],
       "destination": "/cosmetics.html"

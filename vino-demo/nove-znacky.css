@@ -94,3 +94,16 @@ body[data-cosmetics-demo="valka"] .cx-widget-brand .cx-logo {
     max-width: 200px !important;
   }
 }
+body[data-cosmetics-demo="sabata"] .cx-owner-brand .cx-logo {
+  max-height: 68px !important;
+  max-width: 240px !important;
+}
+body[data-cosmetics-demo="sabata"] .cx-widget-brand .cx-logo {
+  max-height: 46px !important;
+  max-width: 170px !important;
+}
+@media (max-width: 520px) {
+  body[data-cosmetics-demo="sabata"] .cx-owner-brand .cx-logo {
+    max-height: 56px !important;
+  }
+}
