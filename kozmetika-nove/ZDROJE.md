@@ -319,3 +319,27 @@ tlačidlá), akcent lososovo-červená z ich balení, sivý text ako v logu.
 | Hyalurónový fluid 30 ml | 395 Kč | https://www.originalatok.cz/hyaluronovy-fluid/ |
 | Pleťová voda Levanduľa 200 ml | 208 Kč | https://www.originalatok.cz/pletova-voda-levandule/ |
 | Jemný odličovací gél Aloe vera 150 ml | 385 Kč | https://www.originalatok.cz/jemny-odlicovaci-gel-aloe-vera/ |
+
+## Purity Vision — purityvision.cz
+
+Česká BIO kozmetika (Shopify, ceny v Kč). Desiatka sér (Hydro2, Power,
+ABC, Niacinamide, Retinol, Ultra Recovery…), k nim olejové séra 2v1 a
+boostery — zákazník nevie, ktoré a v akom poradí. Ceny a dostupnosť sú
+z verejného `products.json` e-shopu (všetko `available: true` k
+26. 9. 2026). Fotky sú oficiálne packshoty z e-shopu na bielej. Logo je
+oficiálne SVG. Symbol je zelený kruh s listom z loga: biely launcher so
+zeleným kruhom, pri hoveri obrátene (zelený launcher, biely kruh).
+Farby: zelená z loga (tmavšia na tlačidlá), akcent zlatá ako pumpičky
+a bambusové viečka, text tmavohnedý ako v logu.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Bio Hydro2 sérum 30 ml | 289 Kč | https://www.purityvision.cz/products/bio-hydro2-serum-30-ml |
+| Bio Niacinamide sérum 30 ml | 289 Kč | https://www.purityvision.cz/products/bio-niacinamide-serum-30-ml |
+| Bio Retinol sérum 30 ml | 319 Kč | https://www.purityvision.cz/products/bio-retinol-serum-30-ml |
+| Bio Vitamin C sérum 30 ml | 319 Kč | https://www.purityvision.cz/products/bio-vitamin-c-serum-30-ml |
+| Bio Levanduľový krém upokojujúci 40 ml | 349 Kč | https://www.purityvision.cz/products/bio-levandulovy-krem-zklidnujici-40-ml |
+| Bio Ružový krém omladzujúci 40 ml | 399 Kč | https://www.purityvision.cz/products/bio-ruzovy-krem-omlazujici-40-ml |
+| Bio Hydro2 oil & serum 2in1 30 ml | 319 Kč | https://www.purityvision.cz/products/bio-hydro2-oil-serum-2in1-30-ml |
+| Bio Ružové tonikum 100 ml | 279 Kč | https://www.purityvision.cz/products/bio-ruzove-tonikum-100-ml |
+| Bio Nechtíková čistiaca pena 90 ml | 249 Kč | https://www.purityvision.cz/products/bio-mesickova-cistici-pena-95-ml |

@@ -275,6 +275,26 @@
         {id:'voda',name:'Pleťová voda Levanduľa 200 ml',price:'208 Kč',url:'https://www.originalatok.cz/pletova-voda-levandule/',photo:photo('atok','voda'),tags:['sensitive','dry','calm','full'],reason:'Upokojujúca pleťová voda s levanduľou pre suchú, citlivú a podráždenú pleť — krok po odlíčení.'},
         {id:'gel',name:'Jemný odličovací gél Aloe vera 150 ml',price:'385 Kč',url:'https://www.originalatok.cz/jemny-odlicovaci-gel-aloe-vera/',photo:photo('atok','gel'),tags:['sensitive','balanced','oily','full'],reason:'Hodvábne jemný gél s aloe vera šetrne odlíči všetky typy pleti vrátane veľmi citlivej.'}
       ]
+    },
+    purity: {
+      name:'Purity Vision', domain:'purityvision.cz', website:'https://www.purityvision.cz/',
+      theme:{brand:'#2f7a34',accent:'#b8862b',soft:'#eef6ea',paper:'#fbfdf9',ink:'#3c3533',line:'#dcebd5'},
+      wordmark:logo('purity','Purity Vision'),
+      hero:'/assets/cosmetics/purity.jpg', mark:'/assets/cosmetics/purity-mark.png',
+      markColor:{reverse:'/assets/cosmetics/purity-mark-reverse.png',bg:'#ffffff',bgHover:'#3f8c3c'},
+      ownerNote:'Séra Hydro2, Power, ABC, Niacinamide či Ultra Recovery, k nim oleje 2v1 a boostery — zákazník nevie, ktoré sérum a v akom poradí použiť.',
+      benefit:['Z desiatky sér to pravé pre pleť a problém','Poskladá rutinu: čistenie, tonikum, sérum, krém','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'hydro2',name:'Bio Hydro2 sérum 30 ml',price:'289 Kč',url:'https://www.purityvision.cz/products/bio-hydro2-serum-30-ml',photo:photo('purity','hydro2'),tags:['dry','balanced','hydrate','serum','simple','basic'],reason:'Sérum s 1,5 % kyseliny hyalurónovej v dvoch formách do hĺbky hydratuje, upokojí napätie a zjemní jemné vrásky.'},
+        {id:'niacin',name:'Bio Niacinamide sérum 30 ml',price:'289 Kč',url:'https://www.purityvision.cz/products/bio-niacinamide-serum-30-ml',photo:photo('purity','niacin'),tags:['oily','balanced','clarity','serum','target','basic'],reason:'Vitamín B3 s ceramidmi zjednotí textúru a tón, pomôže pri škvrnách po akné a upokojí aj citlivú pleť.'},
+        {id:'retinol',name:'Bio Retinol sérum 30 ml',price:'319 Kč',url:'https://www.purityvision.cz/products/bio-retinol-serum-30-ml',photo:photo('purity','retinol'),tags:['mature','balanced','serum','target','full','basic'],reason:'Lipozomálny retinol s koenzýmom Q10 postupne redukuje jemné linky a vrásky a podporí tvorbu kolagénu.'},
+        {id:'vitc',name:'Bio Vitamin C sérum 30 ml',price:'319 Kč',url:'https://www.purityvision.cz/products/bio-vitamin-c-serum-30-ml',photo:photo('purity','vitc'),tags:['balanced','mature','clarity','serum','target'],reason:'5 % vitamínu C s kyselinou hyalurónovou rozjasní, zjednotí tón a pomôže redukovať pigmentové škvrny.'},
+        {id:'levandule',name:'Bio Levanduľový krém upokojujúci 40 ml',price:'349 Kč',url:'https://www.purityvision.cz/products/bio-levandulovy-krem-zklidnujici-40-ml',photo:photo('purity','levandule'),tags:['sensitive','oily','calm','cream','simple','basic'],reason:'Ľahký krém s levanduľou, bambuckým maslom a jojobou bez parfumácie — upokojí zmiešanú, podráždenú aj aknóznu pleť.'},
+        {id:'ruze',name:'Bio Ružový krém omladzujúci 40 ml',price:'399 Kč',url:'https://www.purityvision.cz/products/bio-ruzovy-krem-omlazujici-40-ml',photo:photo('purity','ruze'),tags:['mature','dry','hydrate','cream','full','basic'],reason:'Krém s opunciovým olejom a koenzýmom Q10 hydratuje, chráni a dodá pleti jemný liftingový efekt.'},
+        {id:'hydrooil',name:'Bio Hydro2 oil & serum 2in1 30 ml',price:'319 Kč',url:'https://www.purityvision.cz/products/bio-hydro2-oil-serum-2in1-30-ml',photo:photo('purity','hydrooil'),tags:['dry','sensitive','hydrate','oil','simple','basic'],reason:'Ľahký ako pierko: kaméliový, mandľový, makadamiový a kukui olej so sérom pre suchú a dehydrovanú pleť.'},
+        {id:'tonikum',name:'Bio Ružové tonikum 100 ml',price:'279 Kč',url:'https://www.purityvision.cz/products/bio-ruzove-tonikum-100-ml',photo:photo('purity','tonikum'),tags:['dry','mature','hydrate','full'],reason:'Tonikum s ružou damascénskou, kyselinou hyalurónovou a vitamínom C dočistí pleť a pripraví ju na sérum.'},
+        {id:'pena',name:'Bio Nechtíková čistiaca pena 90 ml',price:'249 Kč',url:'https://www.purityvision.cz/products/bio-mesickova-cistici-pena-95-ml',photo:photo('purity','pena'),tags:['sensitive','oily','balanced','calm','full'],reason:'Jemná pena s aloe vera, betaínom a nechtíkom vyčistí aj veľmi citlivú pleť bez pocitu vysušenia.'}
+      ]
     }
   });
 })();
