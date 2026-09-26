@@ -111,3 +111,25 @@ ikona webu).
 
 Logo: `https://cdn.myshoptet.com/usr/www.venira.sk/user/logos/venira_logo-db126346-99cf-4b61-a733-58b345759769_(1).svg`;
 fotky: originály (`/user/shop/orig/`) hlavných obrázkov.
+
+## RYOR — ryor.sk
+
+Český výrobca prírodnej a dermokozmetiky s vlastnými predajňami, slovenský
+e-shop v € (Next.js). Vybraná je celá vlasová ponuka okrem arganového oleja
+a detského 2v1, všetko skladom. Farby: zelená z loga `#72902a`, tmavšia
+`#4f6b1c` na tlačidlá, svetlá olivová plocha. Logo zo SVG na webe
+(`/img/logo.svg`), symbol je „Y“ s lístkom z loga.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| RESTART – posilňujúci šampón pre poškodené a farbené vlasy 200 ml | 9,52 € | https://www.ryor.sk/restart-posilnujuci-sampon-pre-poskodene-a-farbene-vlasy |
+| Šampón s ukľudňujúcim efektom 200 ml | 9,52 € | https://www.ryor.sk/sampon-s-ukludnujucim-efektom |
+| Bylinný šampón s panthenolom 200 ml | 4,94 € | https://www.ryor.sk/bylinny-sampon-s-pantenolem |
+| Pivný šampón s keratínom 250 ml | 6,86 € | https://www.ryor.sk/pivny-sampon-s-keratinom |
+| Urýchľovač rastu vlasov – 3-mesačná kúra 250 ml | 19,04 € | https://www.ryor.sk/urychlovac-rastu-vlasov-3-mesacna-kura |
+| RESTART – posilňujúci kondicionér pre poškodené a farbené vlasy 200 ml | 9,88 € | https://www.ryor.sk/restart-posilnujuci-kondicioner-pre-poskodene-a-farbene-vlasy |
+| RESTART – posilňujúca maska pre poškodené a farbené vlasy 250 ml | 11,14 € | https://www.ryor.sk/restart-posilnujuca-maska-pre-poskodene-a-farbene-vlasy |
+| Vlasový keratín sprej 250 ml | 10,18 € | https://www.ryor.sk/vlasovy-keratin-sprej |
+| Regeneračný kondicionér s panthenolom 200 ml | 5,36 € | https://www.ryor.sk/regeneracny-kondicioner-s-pantenolom |
+
+Fotky: hlavné obrázky produktov z `https://www.ryor.sk/api/stages/files?…&file=/edeeshop/ryor/product/hlavni-motiv/…` (1920 px).

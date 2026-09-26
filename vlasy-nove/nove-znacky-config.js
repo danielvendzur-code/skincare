@@ -11,6 +11,25 @@
   const photo = (slug, id) => `/assets/cosmetics/${slug}-${id}.jpg`;
 
   const hair = {
+    ryor: {
+      name:'RYOR', domain:'ryor.sk', website:'https://www.ryor.sk/',
+      theme:{brand:'#4f6b1c',accent:'#72902a',soft:'#f1f4e8',paper:'#fdfdf9',ink:'#1f2a14',line:'#e1e8d2'},
+      wordmark:logo('ryor','RYOR'),
+      hero:'/assets/cosmetics/ryor.jpg', mark:'/assets/cosmetics/ryor-mark.png',
+      ownerNote:'Nová rada RESTART, bylinný, pivný aj upokojujúci šampón, urýchľovač rastu a keratínový sprej — zákazník v nich nevidí, ktorý je na jeho problém.',
+      benefit:['Zo šampónov a kúr RYOR jeden konkrétny','Poradí, kedy stačí šampón a kedy pridať kúru','Odpovie aj mimo otváracích hodín predajní'],
+      products:[
+        {id:'restart',name:'RESTART – posilňujúci šampón pre poškodené a farbené vlasy 200 ml',price:'9,52 €',url:'https://www.ryor.sk/restart-posilnujuci-sampon-pre-poskodene-a-farbene-vlasy',photo:photo('ryor','restart'),tags:['dry','hydrate','mature','cream','simple','basic'],reason:'Cielená starostlivosť o suché a chemicky poškodené vlasy — posilní vlasy oslabené farbením, zosvetľovaním a teplom.'},
+        {id:'calm',name:'Šampón s ukľudňujúcim efektom 200 ml',price:'9,52 €',url:'https://www.ryor.sk/sampon-s-ukludnujucim-efektom',photo:photo('ryor','calm'),tags:['sensitive','calm','cream','simple','basic'],reason:'Jogurtové proteíny priaznivo pôsobia na citlivú, začervenanú alebo svrbiacu pokožku hlavy a zároveň podporia lesk a vitalitu vlasov.'},
+        {id:'bylin',name:'Bylinný šampón s panthenolom 200 ml',price:'4,94 €',url:'https://www.ryor.sk/bylinny-sampon-s-pantenolem',photo:photo('ryor','bylin'),tags:['balanced','hydrate','mature','cream','simple','basic'],reason:'Extrakty z brezy a rozmarínu s panthenolom výrazne podporujú regeneráciu vlasov — jednoduchý každodenný šampón.'},
+        {id:'piv',name:'Pivný šampón s keratínom 250 ml',price:'6,86 €',url:'https://www.ryor.sk/pivny-sampon-s-keratinom',photo:photo('ryor','piv'),tags:['balanced','oily','clarity','cream','simple','basic'],reason:'Chmeľový extrakt a keratín dodajú vlasom objem, lesk a pevnosť — pre vlasy, ktoré rýchlo splasnú.'},
+        {id:'ury',name:'Urýchľovač rastu vlasov – 3-mesačná kúra 250 ml',price:'19,04 €',url:'https://www.ryor.sk/urychlovac-rastu-vlasov-3-mesacna-kura',photo:photo('ryor','ury'),tags:['balanced','mature','serum','target','full'],reason:'Aktívny komplex aminokyselín, vitamínov a prírodných extraktov podporuje intenzívnejší rast vlasov — trojmesačná kúra na pokožku hlavy.'},
+        {id:'restartk',name:'RESTART – posilňujúci kondicionér pre poškodené a farbené vlasy 200 ml',price:'9,88 €',url:'https://www.ryor.sk/restart-posilnujuci-kondicioner-pre-poskodene-a-farbene-vlasy',photo:photo('ryor','restartk'),tags:['dry','hydrate','oil','target','full'],reason:'Kondicionér pre suché vlasy oslabené farbením, zosvetľovaním a tepelnou úpravou — uhladí a posilní dĺžky po šampóne.'},
+        {id:'restartm',name:'RESTART – posilňujúca maska pre poškodené a farbené vlasy 250 ml',price:'11,14 €',url:'https://www.ryor.sk/restart-posilnujuca-maska-pre-poskodene-a-farbene-vlasy',photo:photo('ryor','restartm'),tags:['dry','mature','oil','target','full'],reason:'Intenzívna regeneračná maska pre suché vlasy oslabené farbením a odfarbovaním — raz-dvakrát týždenne namiesto kondicionéra.'},
+        {id:'keratin',name:'Vlasový keratín sprej 250 ml',price:'10,18 €',url:'https://www.ryor.sk/vlasovy-keratin-sprej',photo:photo('ryor','keratin'),tags:['balanced','hydrate','oil','target','full'],reason:'Bezoplachový sprej zabezpečí výbornú rozčesateľnosť vlasov a zároveň ich hĺbkovú regeneráciu.'},
+        {id:'kondi',name:'Regeneračný kondicionér s panthenolom 200 ml',price:'5,36 €',url:'https://www.ryor.sk/regeneracny-kondicioner-s-pantenolom',photo:photo('ryor','kondi'),tags:['balanced','mature','oil','target','full'],reason:'Panthenol a kolagén výrazne zlepšujú pevnosť, elasticitu a rozčesateľnosť vlasov.'}
+      ]
+    },
     venira: {
       name:'Venira', domain:'venira.sk', website:'https://www.venira.sk/',
       theme:{brand:'#1a1a1a',accent:'#9c7641',soft:'#f7f1e8',paper:'#fdfcfa',ink:'#1a1a1a',line:'#ebe3d6'},
