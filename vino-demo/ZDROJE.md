@@ -513,3 +513,38 @@ ako hlavná (červenou vínnou má už viac ukážok), akcent červená z loga.
 | Rosé Frizzante 2024, polosladké | 230 Kč | https://www.vinobuchtovi.cz/e-shop/rose-frizzante254 |
 | Sekt Demi Sec Chardonnay | 310 Kč | https://www.vinobuchtovi.cz/e-shop/sekt-demi-sec-chardonnay253 |
 | Sekt Brut Ryzlink rýnský 2023 | 310 Kč | https://www.vinobuchtovi.cz/e-shop/sekt-brut-ryzlink-rynsky103 |
+
+## Vinařství Gotberg — gotberg.cz
+
+Vinárstvo z Popíc pod Pálavou (vlastný e-shop, ceny v Kč), vyše 20
+vín: suché aj polosladké biele, BIO vína, výber z cibéb, slamové
+víno, červené a frizzante. Ceny, cukor a popisy sú z detailu každého
+vína (27. 9. 2026, všetky s tlačidlom Do košíku). Ružové víno e-shop
+momentálne nemá, pri voľbe „ružové“ poradca ponúkne víno podľa štýlu.
+Do ukážky ide 19 vín. Fotky sú produktové obrázky z e-shopu (bez
+pozadia). Logo je podpisové SVG z webu vykreslené do PNG; do hlavičky
+widgetu ide biela verzia. Symbol je „G“ z podpisu. Farby: olivovo
+hnedá z webu (#847F64, stmavená pre kontrast) ako hlavná, akcent
+tmavá z loga.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Ryzlink rýnský pozdní sběr 2024, suché | 250 Kč | https://gotberg.cz/cs/eshop/ryzlink-rynsky-pozdni-sber-2024:470/ |
+| Chardonnay pozdní sběr 2024, suché | 250 Kč | https://gotberg.cz/cs/eshop/chardonnay-pozdni-sber-2024:481/ |
+| Sauvignon pozdní sběr 2024, suché | 250 Kč | https://gotberg.cz/cs/eshop/sauvignon-pozdni-sber-2024:474/ |
+| Sylvánské zelené kabinet 2025, polosuché | 250 Kč | https://gotberg.cz/cs/eshop/sylvanske-zelene-kabinet-2025:508/ |
+| Ryzlink rýnský BIO pozdní sběr 2025, polosuché | 250 Kč | https://gotberg.cz/cs/eshop/ryzlink-rynsky-bio-pozdni-sber-2025:515/ |
+| Muškát moravský pozdní sběr 2022, polosuché | 150 Kč | https://gotberg.cz/cs/eshop/muskat-moravsky-pozdni-sber-2022:476/ |
+| Pálava pozdní sběr 2025, suché | 290 Kč | https://gotberg.cz/cs/eshop/palava-pozdni-sber-2025:514/ |
+| Rulandské šedé pozdní sběr 2024, suché | 250 Kč | https://gotberg.cz/cs/eshop/rulandske-sede-pozdni-sber-2024:473/ |
+| Chardonnay barrique pozdní sběr 2024, suché | 300 Kč | https://gotberg.cz/cs/eshop/chardonnay-barrique-pozdni-sber-2024:495/ |
+| Tramín červený pozdní sběr 2024, polosuché | 250 Kč | https://gotberg.cz/cs/eshop/tramin-cerveny-pozdni-sber-2024:492/ |
+| Tramín červený BIO pozdní sběr 2023, polosuché | 250 Kč | https://gotberg.cz/cs/eshop/tramin-cerveny-bio-pozdni-sber-2023:490/ |
+| Pálava BIO výběr z hroznů 2024, polosladké | 290 Kč | https://gotberg.cz/cs/eshop/palava-bio-vyber-z-hroznu-2024:488/ |
+| Pálava výběr z hroznů 2022, polosladké | 290 Kč | https://gotberg.cz/cs/eshop/palava-vyber-z-hroznu-2022:469/ |
+| Pálava výběr z cibéb 2022, sladké | 300 Kč | https://gotberg.cz/cs/eshop/palava-vyber-z-cibeb-2022:484/ |
+| Pálava slámové víno 2023, sladké | 420 Kč | https://gotberg.cz/cs/eshop/palava-slamove-vino-2023:518/ |
+| Frankovka výběr z hroznů 2023, suché | 250 Kč | https://gotberg.cz/cs/eshop/frankovka-vyber-z-hroznu-2023:475/ |
+| Merlot výběr z hroznů 2024, suché | 290 Kč | https://gotberg.cz/cs/eshop/merlot-vyber-z-hroznu-2024:471/ |
+| Pinot Noir výběr z hroznů 2019, suché | 290 Kč | https://gotberg.cz/cs/eshop/pinot-noir-vyber-z-hroznu-2019:472/ |
+| Frizzante perlivé víno 2025, suché | 190 Kč | https://gotberg.cz/cs/eshop/frizzante-perlive-vino-2025:512/ |

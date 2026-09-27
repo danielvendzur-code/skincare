@@ -155,3 +155,9 @@ body[data-cosmetics-demo="buchtovi"] .cx-widget-brand .cx-logo {
     max-width: 175px !important;
   }
 }
+body[data-cosmetics-demo="gotberg"] .cx-owner-brand .cx-logo {
+  max-height: 58px !important;
+}
+body[data-cosmetics-demo="gotberg"] .cx-widget-brand .cx-logo {
+  max-height: 44px !important;
+}
