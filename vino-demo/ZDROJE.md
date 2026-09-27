@@ -565,19 +565,59 @@ akcent červená z loga.
 
 | víno | cena | stránka |
 | --- | --- | --- |
-| Sauvignon Blanc 2025, suché | 220 Kč | https://znojmo.wine/sauvignon-blanc-2025-bile-vino-suche/ |
-| Hibernal 2025, polosuché | 220 Kč | https://znojmo.wine/hibernal-2025-bile-vino-polosuche/ |
-| Coupage PINOT 2025, polosuché | 220 Kč | https://znojmo.wine/coupage-pinot-blanc-gris/ |
-| Pálava 2025, polosuché | 220 Kč | https://znojmo.wine/palava-polosuche-2025/ |
-| Veltlínské zelené 2024 BETON, suché | 300 Kč | https://znojmo.wine/veltlinske-zelene-2024-suche-beton/ |
-| Ryzlink rýnský 2023 BETON, suché | 300 Kč | https://znojmo.wine/ryzlink-rynsky-2023-suche-beton/ |
-| Sauvignon Blanc 2022 BETON, suché | 300 Kč | https://znojmo.wine/sauvignon-blanc-2022-suche-beton/ |
-| Sauvignon Blanc z Kraví hory 2021, akátový sud | 250 Kč | https://znojmo.wine/sauvignon-blanc-2021-akatovy-sud/ |
-| Pinot Gris 2021, dubový sud, suché | 250 Kč | https://znojmo.wine/pinot-gris-2021-dubovy-sud-bile-vino/ |
-| RED Dornfelder 2024, suché | 210 Kč | https://znojmo.wine/red-dornfelder-2024-cervene-vino/ |
-| Frankovka 18, dubový sud, suché | 350 Kč | https://znojmo.wine/frankovka-18-dubovy-sud/ |
-| Zweigeltrebe rosé 2025, polosuché | 220 Kč | https://znojmo.wine/zweigeltrebe-2025-ruzove-vino-rose-polosuche/ |
-| Frizzante Cuvée 2025, polosuché | 250 Kč | https://znojmo.wine/frizzante-cuvee-perlive-vino-2025/ |
-| Pét-nat Veltlínské zelené 2025 | 250 Kč | https://znojmo.wine/pet-nat-petillant-naturel-sumive-vino/ |
-| Pét-nat Pinot Blanc 2025 | 250 Kč | https://znojmo.wine/pet-nat-pinot-blanc-2025/ |
-| Pét-nat Zweigeltrebe rosé 2025 | 250 Kč | https://znojmo.wine/pet-nat-zweigeltrebe-rose-2025/ |
+| Sauvignon Blanc 2025, suché | 220 Kč | https://www.znojmo.wine/sauvignon-blanc-2025-bile-vino-suche/ |
+| Hibernal 2025, polosuché | 220 Kč | https://www.znojmo.wine/hibernal-2025-bile-vino-polosuche/ |
+| Coupage PINOT 2025, polosuché | 220 Kč | https://www.znojmo.wine/coupage-pinot-blanc-gris/ |
+| Pálava 2025, polosuché | 220 Kč | https://www.znojmo.wine/palava-polosuche-2025/ |
+| Veltlínské zelené 2024 BETON, suché | 300 Kč | https://www.znojmo.wine/veltlinske-zelene-2024-suche-beton/ |
+| Ryzlink rýnský 2023 BETON, suché | 300 Kč | https://www.znojmo.wine/ryzlink-rynsky-2023-suche-beton/ |
+| Sauvignon Blanc 2022 BETON, suché | 300 Kč | https://www.znojmo.wine/sauvignon-blanc-2022-suche-beton/ |
+| Sauvignon Blanc z Kraví hory 2021, akátový sud | 250 Kč | https://www.znojmo.wine/sauvignon-blanc-2021-akatovy-sud/ |
+| Pinot Gris 2021, dubový sud, suché | 250 Kč | https://www.znojmo.wine/pinot-gris-2021-dubovy-sud-bile-vino/ |
+| RED Dornfelder 2024, suché | 210 Kč | https://www.znojmo.wine/red-dornfelder-2024-cervene-vino/ |
+| Frankovka 18, dubový sud, suché | 350 Kč | https://www.znojmo.wine/frankovka-18-dubovy-sud/ |
+| Zweigeltrebe rosé 2025, polosuché | 220 Kč | https://www.znojmo.wine/zweigeltrebe-2025-ruzove-vino-rose-polosuche/ |
+| Frizzante Cuvée 2025, polosuché | 250 Kč | https://www.znojmo.wine/frizzante-cuvee-perlive-vino-2025/ |
+| Pét-nat Veltlínské zelené 2025 | 250 Kč | https://www.znojmo.wine/pet-nat-petillant-naturel-sumive-vino/ |
+| Pét-nat Pinot Blanc 2025 | 250 Kč | https://www.znojmo.wine/pet-nat-pinot-blanc-2025/ |
+| Pét-nat Zweigeltrebe rosé 2025 | 250 Kč | https://www.znojmo.wine/pet-nat-zweigeltrebe-rose-2025/ |
+
+## Víno Lípa — vinolipa.cz
+
+Rodinné vinárstvo z Mikulova (WooCommerce, ceny v Kč), vyše 30 vín
+skladom: suché biele z viacerých tratí, Ryzlink vlašský zrelý
+v nereze, betóne, sude a keramike, Pálavy od polosuchej po výber
+z bobúľ, Cabernet Moravia, rosé, perlivé Lipasecco a limitované sekty.
+Ceny a sklad sú z verejného Store API e-shopu
+(`/wp-json/wc/store/v1/products`, všetko `is_in_stock` k 27. 9. 2026);
+do ukážky ide 22 vín. E-shop pri väčšine vín uvádza iba trať, akosť
+a spôsob zrenia, preto sú dôvody odporúčania zložené z týchto údajov.
+Fotky sú packshoty z e-shopu. Logo je PNG z webu (185×87 px, 3×
+zväčšené); do hlavičky widgetu ide biela verzia. Symbol je lipový
+list z loga (zväčšený a zaostrený). Farby: tmavomodrá z webu (#0c1d32)
+ako hlavná, akcent oranžovočervená z kruhu na etiketách.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Veltlínské zelené 2025, suché | 180 Kč | https://vinolipa.cz/produkt/veltlinske-zelene-2025-suche/ |
+| Veltlínské zelené BETON 2025, suché | 235 Kč | https://vinolipa.cz/produkt/veltlinske-zelene-beton-2025-suche-vinicni-trat-mariansky-kopec/ |
+| Sauvignon 2025, suché | 195 Kč | https://vinolipa.cz/produkt/sauvignon-2025-suche-vinicni-trat-pod-devinem/ |
+| Sylvánské zelené 2025, suché | 260 Kč | https://vinolipa.cz/produkt/sylvanske-zelene-2025-suche-vinicni-trat-pod-slunnym-vrchem/ |
+| Donauriesling 2024, suché | 235 Kč | https://vinolipa.cz/produkt/donauriesling-vino-s-privlastkem-pozdni-sber-suche-2024-oblast-morava-vinarska-obec-mikulov-vinicni-trat-brnenska/ |
+| Hibernal 2025, suché | 235 Kč | https://vinolipa.cz/produkt/hibernal-2025-suche-vinicni-trat-mariansky-kopec/ |
+| Ryzlink vlašský 2024, pozdní sběr, suché | 195 Kč | https://vinolipa.cz/produkt/ryzlink-vlassky-pozdni-sber-2024-3/ |
+| Ryzlink vlašský 2024 (beton), suché | 260 Kč | https://vinolipa.cz/produkt/ryzlink-vlassky-beton-2024/ |
+| Ryzlink vlašský 2024 (sud), suché | 260 Kč | https://vinolipa.cz/produkt/ryzlink-vlassky-2024/ |
+| Ryzlink vlašský 2024 (keramika), suché | 260 Kč | https://vinolipa.cz/produkt/ryzlink-vlassky-pozdni-sber-2024/ |
+| Ryzlink rýnský 2024, pozdní sběr, suché | 235 Kč | https://vinolipa.cz/produkt/ryzlink-rynsky-pozdni-sber-suche-2024/ |
+| Ryzlink rýnský 2024, pozdní sběr, suché | 260 Kč | https://vinolipa.cz/produkt/ryzlink-rynsky-pozdni-sber-2024/ |
+| Pálava 2025, polosuché | 195 Kč | https://vinolipa.cz/produkt/palava-2025-polosuche/ |
+| Rulandské šedé 2025, polosuché | 195 Kč | https://vinolipa.cz/produkt/rulandske-sede-2025-polosuche-pozdni-sber/ |
+| Pálava 2024, výběr z hroznů, polosladké | 235 Kč | https://vinolipa.cz/produkt/palava-vino-s-privlastkem-vyber-z-hroznu-polosladke-2024-oblast-morava-vinarska-obec-milovice-d-vestonice-vinicni-trat-milovicke-terasy-pod-hradem/ |
+| Pálava 2023, výběr z bobulí, sladké | 320 Kč | https://vinolipa.cz/produkt/palava-vino-s-privlastkem-vyber-z-bobuli-sladke-2023-oblast-morava-vinarska-obec-milovice-vinicni-trat-milovicke-terasy/ |
+| Cabernet Moravia 2023, výběr z hroznů, suché | 290 Kč | https://vinolipa.cz/produkt/cabernet-moravia-vino-s-privlastkem/ |
+| Zweigeltrebe rosé 2025, polosuché | 180 Kč | https://vinolipa.cz/produkt/zweigeltrebe-rose-vinarska-obec-mikulov-polosuche-2025/ |
+| Lipasecco Zweigeltrebe rosé 2025, polosuché | 195 Kč | https://vinolipa.cz/produkt/lipasecco-zweigeltrebe-rose-2025/ |
+| Lipasecco cuvée 2025, polosuché | 195 Kč | https://vinolipa.cz/produkt/lipasecco-cuvee-2025/ |
+| Sekt Chardonnay Brut Nature 2023 | 370 Kč | https://vinolipa.cz/produkt/sekt-chardonnay-brut-nature-2023/ |
+| Sekt Rulandské modré Extra Brut 2023 | 370 Kč | https://vinolipa.cz/produkt/sekt-rulandske-modre-extra-brut-2023/ |

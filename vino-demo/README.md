@@ -41,5 +41,6 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Víno Rajníc | [vinorajnic.sk](https://www.vinorajnic.sk/) | `/rajnic/` · `rajnic.mojchatbot.sk` |
 | Vinařství Vajbar | [vajbar.cz](https://www.vajbar.cz/e-shop/) | `/vajbar/` · `vajbar.mojchatbot.sk` |
 | Vinařství Buchtovi | [vinobuchtovi.cz](https://www.vinobuchtovi.cz/e-shop) | `/buchtovi/` · `buchtovi.mojchatbot.sk` |
-| Vinařství Gotberg | [gotberg.cz](https://www.gotberg.cz/cs/eshop/) | `/gotberg/` · `gotberg.mojchatbot.sk` |
-| Víno Přistál | [znojmo.wine](https://znojmo.wine/) | `/pristal/` · `pristal.mojchatbot.sk` |
+| Vinařství Gotberg | [gotberg.cz](https://gotberg.cz/cs/eshop/) | `/gotberg/` · `gotberg.mojchatbot.sk` |
+| Víno Přistál | [znojmo.wine](https://www.znojmo.wine/) | `/pristal/` · `pristal.mojchatbot.sk` |
+| Víno Lípa | [vinolipa.cz](https://vinolipa.cz/) | `/lipa/` · `lipa.mojchatbot.sk` |

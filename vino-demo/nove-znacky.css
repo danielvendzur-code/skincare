@@ -168,3 +168,6 @@ body[data-cosmetics-demo="pristal"] .cx-widget-brand .cx-logo {
   max-height: 40px !important;
   filter: none !important;
 }
+body[data-cosmetics-demo="lipa"] .cx-owner-brand .cx-logo {
+  max-height: 56px !important;
+}
