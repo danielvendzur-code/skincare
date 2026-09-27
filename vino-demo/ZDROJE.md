@@ -808,3 +808,56 @@ zobrazujú PHP varovanie „Undefined variable $max“ pri tlačidle košíka.
 | Saint Laurent rosé 2024 | 8,30 € | https://carpatediem.sk/produkt/saint-laurent-rose-2024-polosuche/ |
 | Frizzante Cabernet Sauvignon 2025, polosuché | 9,00 € | https://carpatediem.sk/produkt/sytene-perlive-vino-cabernet-sauvignon-2025/ |
 | Frizzante Muškát moravský 2024, polosuché | 9,00 € | https://carpatediem.sk/produkt/sytene-perlive-vino-muskat-moravsky-2024/ |
+
+## Karpatská perla — karpatskaperla.sk
+
+Rodinné vinárstvo zo Šenkvíc (redakčný systém SwiftSite, ceny v €),
+v e-shope 46 položiek, všetky s tlačidlom „Pridať do košíka“ (27. 9. 2026).
+Do ukážky ide 30 vín — biele z vinohradov Suchý vrch, Kramáre, Noviny,
+Ingle a Staré hory, polosladké a sladké až po ľadové víno, červené
+vrátane archívnych ročníkov, rosé, frizzante, PétNat a sekt. Vynechané:
+0,25 l fľaše, 1,5 l darčeková fľaša, vertikála, hroznové šťavy Bobulo
+a staršie ročníky vín, ktoré sú v ponuke aj v novom ročníku (Muškát
+2024, Sauvignon BIO 2024, Silvánske 2022, Rizling Kramáre 2024,
+Rizling Suchý vrch 2024 suchý, Veltlín Ingle/Noviny 2023, Veltlín sur
+lie 2022, Pinot Blanc 2024, Frankovka 2021). Popisy sú z vlastností
+a odporúčania na stránke produktu. Fotky: og:image je zmenšenina
+(580 px), plné 1500 px packshoty sú na tej istej adrese bez predpony
+„5“ v názve súboru; odraz pod fľašou je súčasťou fotiek e-shopu. Logo
+je vektorové (safari-pinned-tab.svg z webu), prefarbené na tmavomodrú
+(v hlavičke widgetu biele), symbol je celé okrúhle logo. Farby: web
+je za vekovou bránou, preto tmavomodrá z brány (#221F3F) ako hlavná
+a akcent oranžová bodka z etikiet stmavená pre kontrast (#A8531E).
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Veltlínske zelené 2025, suché | 6,90 € | https://www.karpatskaperla.sk/produkty/biele-vina/veltlinske-zelene-1 |
+| Sauvignon Blanc, BIO 2025, suché | 7,60 € | https://www.karpatskaperla.sk/produkty/biele-vina/sauvignon-blanc-bio-1 |
+| Rizling rýnsky, BIO 2025, suché | 8,80 € | https://www.karpatskaperla.sk/produkty/biele-vina/rizling-rynsky-bio |
+| Muškát moravský 2025, suché | 7,60 € | https://www.karpatskaperla.sk/produkty/biele-vina/muskat-moravsky-mlade-vino |
+| Svetové Noviny 2023, suché | 10,80 € | https://www.karpatskaperla.sk/produkty/biele-vina/svetove-noviny |
+| Silvánske zelené, BIO 2023, suché | 12,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/silvanske-zelene-bio |
+| Pinot Gris, BIO 2025, suché | 13,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/pinot-gris-bio |
+| Rizling rýnsky, Kramáre, BIO 2025, suché | 12,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/rizling-rynsky-kramare-bio-1 |
+| Veltlínske zelené, Noviny, BIO 2024, suché | 13,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/veltlinske-zelene-noviny-bio |
+| Tramín červený 2022, suché | 11,70 € | https://www.karpatskaperla.sk/produkty/biele-vina/tramin-cerveny-1 |
+| 4 ŽIVLY biele 2022, suché | 18,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/4-zivly-biele |
+| Devín, BIO 2025, polosuché | 12,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/devin-bio |
+| Veltlínske zelené, Ingle, BIO 2024, polosuché | 11,70 € | https://www.karpatskaperla.sk/produkty/biele-vina/veltlinske-zelene-bio |
+| Pálava, BIO 2025, polosladké | 13,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/palava-bio-1 |
+| Rizling rýnsky, Suchý vrch, BIO 2025, polosladké | 13,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/rizling-rynsky-2025-svr |
+| Devín, BIO 2023, bobuľový výber, sladké | 13,50 € | https://www.karpatskaperla.sk/produkty/biele-vina/devin-bio-1 |
+| Aurelius 2019, hrozienkový výber, sladké | 23,00 € | https://www.karpatskaperla.sk/produkty/biele-vina/aurelius |
+| Veltlínske zelené 2020, ľadové víno, sladké | 33,00 € | https://www.karpatskaperla.sk/produkty/biele-vina/veltlinske-zelene |
+| Frankovka modrá 2022, suché | 7,60 € | https://www.karpatskaperla.sk/produkty/cervene-vina/frankovka-modra-22 |
+| Dunaj, BIO 2024, suché | 10,60 € | https://www.karpatskaperla.sk/produkty/cervene-vina/dunaj-bio-1 |
+| Pinot Noir 2021, suché | 13,90 € | https://www.karpatskaperla.sk/produkty/cervene-vina/pinot-noir-1 |
+| Alibernet 2019, suché | 13,00 € | https://www.karpatskaperla.sk/produkty/cervene-vina/alibernet-1 |
+| Cabernet Sauvignon 2022, suché | 13,20 € | https://www.karpatskaperla.sk/produkty/cervene-vina/cabernet-sauvignon-2022 |
+| 4 ŽIVLY červené 2021, suché | 21,90 € | https://www.karpatskaperla.sk/produkty/cervene-vina/4-zivly-cervene-1 |
+| Cabernet Sauvignon 2011, archívne | 30,00 € | https://www.karpatskaperla.sk/produkty/cervene-vina/cabernet-sauvignon-1 |
+| 4 ŽIVLY červené 2007, archívne víno | 30,00 € | https://www.karpatskaperla.sk/produkty/cervene-vina/4-zivly-cervene-archivne-vino |
+| Frankovka modrá rosé, BIO 2025, suché | 8,90 € | https://www.karpatskaperla.sk/produkty/ruzove-vina/frankovka-modra-rose-bio |
+| FRIZZANTE Rizling rýnsky 2025, polosuché | 8,90 € | https://www.karpatskaperla.sk/produkty/bublinky/frizzante-rizling-rynsky |
+| PétNat Sauvignon Blanc 2025 | 12,60 € | https://www.karpatskaperla.sk/produkty/bublinky/petnat-sauvignon-blanc |
+| Sekt Pinot Noir 2022, extra dry | 17,30 € | https://www.karpatskaperla.sk/produkty/bublinky/pinot-noir-3 |

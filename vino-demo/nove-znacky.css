@@ -203,3 +203,9 @@ body[data-cosmetics-demo="carpatediem"] .cx-widget-brand .cx-logo {
     max-width: 200px !important;
   }
 }
+body[data-cosmetics-demo="karpatskaperla"] .cx-owner-brand .cx-logo {
+  max-height: 56px !important;
+}
+body[data-cosmetics-demo="karpatskaperla"] .cx-widget-brand .cx-logo {
+  max-height: 40px !important;
+}

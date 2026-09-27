@@ -49,3 +49,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Vinařství Škrobák | [vinoskrobak.cz](https://vinoskrobak.cz/internetovy-obchod/) | `/skrobak/` · `skrobak.mojchatbot.sk` |
 | Vinárstvo Vinkor | [vinkor.sk](https://vinkor.sk/obchod/) | `/vinkor/` · `vinkor.mojchatbot.sk` |
 | Carpate Diem | [carpatediem.sk](https://carpatediem.sk/nase-vina/) | `/carpatediem/` · `carpatediem.mojchatbot.sk` |
+| Karpatská perla | [karpatskaperla.sk](https://www.karpatskaperla.sk/produkty) | `/karpatskaperla/` · `karpatskaperla.mojchatbot.sk` |
