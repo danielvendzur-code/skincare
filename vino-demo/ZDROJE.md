@@ -333,3 +333,42 @@ z monogramu.
 | Frizz víno rosé 2023, jemně perlivé, polosladké | 200 Kč | https://www.vinarstvimikulica.cz/produkt/frizz-vino-rose-2023-jemne-perlive/ |
 | Frizz víno Blanc 2024, jemně perlivé, polosuché | 200 Kč | https://www.vinarstvimikulica.cz/produkt/frizz-vino-blanc-2024-jemne-perlive-polosuche/ |
 | SEKT Riesling, BRUT | 424 Kč | https://www.vinarstvimikulica.cz/produkt/sekt-riesling-brut/ |
+
+## Vinařství Paulus — vinarstvipaulus.cz
+
+Rodinné vinárstvo z Pavlova pod Pálavou (vlastný e-shop, ceny v Kč),
+20 vín skladom: suché aj polosladké biele z Pálavy, červené, rosé
+a štyri sekty. Ceny a sklad sú zo zoznamu e-shopu a z detailov
+produktov (všetky „Skladem“ k 27. 9. 2026); do ukážky idú všetky vína.
+Chuťové popisy má e-shop iba pri Tramíne, Solarise a Chardonnay;
+pri ostatných sú dôvody zložené z údajov e-shopu (trať, obec, cukor,
+alkohol). Fotky sú packshoty z e-shopu orezané na fľašu (bez tieňa
+a vodoznaku v rohu). Logo je poskladané z dvoch SVG z webu (domček
+a nápis PAULUS) do jedného riadku; do hlavičky widgetu ide biela
+verzia. Symbol je domček z loga so zosilnenými linkami, aby bol
+čitateľný aj v malom tlačidle. Farby: tmavá hnedošedá odvodená
+z béžovozlatých tónov webu (#988976), akcent zlatá (#d2b78c
+stmavená pre kontrast).
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Ryzlink vlašský 2024, výběr z hroznů, suché | 250 Kč | https://vinarstvipaulus.cz/bila-vina/ryzlink-vlassky-2024-suche/ |
+| Ryzlink rýnský 2024, pozdní sběr, suché | 240 Kč | https://vinarstvipaulus.cz/bila-vina/ryzlink-rynsky-2024/ |
+| Sauvignon 2024, pozdní sběr, suché | 230 Kč | https://vinarstvipaulus.cz/bila-vina/sauvignon-2024-suche/ |
+| Kerner 2025, výběr z hroznů, suché | 270 Kč | https://vinarstvipaulus.cz/bila-vina/kerner-2025/ |
+| Rulandské šedé 2025, výběr z hroznů, suché | 270 Kč | https://vinarstvipaulus.cz/bila-vina/rulandske-sede-2025/ |
+| Pálava 2025, pozdní sběr, polosuché | 380 Kč | https://vinarstvipaulus.cz/bila-vina/palava-2025-polosuche/ |
+| Tramín červený 2025, pozdní sběr, polosuché | 270 Kč | https://vinarstvipaulus.cz/bila-vina/tramin-cerveny-2025/ |
+| Hibernal 2025, výběr z hroznů, polosladké | 270 Kč | https://vinarstvipaulus.cz/bila-vina/hibernal-2025/ |
+| Solaris 2024, výběr z hroznů, polosladké | 270 Kč | https://vinarstvipaulus.cz/bila-vina/solaris-2024/ |
+| Chardonnay 2024, výběr z hroznů, polosladké | 250 Kč | https://vinarstvipaulus.cz/bila-vina/chardonnay-2024/ |
+| Pálava 2025, výběr z hroznů, polosladké | 380 Kč | https://vinarstvipaulus.cz/bila-vina/palava-2025-polosladke/ |
+| Modrý Portugal 2022, pozdní sběr, suché | 230 Kč | https://vinarstvipaulus.cz/cervena-vina/modry-portugal-2022/ |
+| Frankovka 2021, výběr z hroznů, suché | 280 Kč | https://vinarstvipaulus.cz/cervena-vina/frankovka-2021/ |
+| Cabernet Sauvignon 2023, výběr z hroznů, suché | 310 Kč | https://vinarstvipaulus.cz/cervena-vina/cabernet-sauvignon-2023/ |
+| Merlot 2023, výběr z hroznů, suché | 310 Kč | https://vinarstvipaulus.cz/cervena-vina/merlot-2023/ |
+| Merlot rosé 2025, pozdní sběr, polosuché | 250 Kč | https://vinarstvipaulus.cz/cervena-vina/merlot-rose-2025/ |
+| Brut sekt kvašený v lahvi | 340 Kč | https://vinarstvipaulus.cz/sekty-a-frizzante/brut-sekt-kvaseny-v-lahvi/ |
+| Brut sekt Charmat | 270 Kč | https://vinarstvipaulus.cz/sekty-a-frizzante/brut-sekt-charmat/ |
+| Demi sekt Charmat | 270 Kč | https://vinarstvipaulus.cz/sekty-a-frizzante/demi-sekt-charmat/ |
+| Demi sekt rosé Charmat | 270 Kč | https://vinarstvipaulus.cz/sekty-a-frizzante/demi-sekt-rose-charmat/ |
