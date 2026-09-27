@@ -11,6 +11,26 @@
   const photo = (slug, id) => `/assets/cosmetics/${slug}-${id}.jpg`;
 
   const hair = {
+    vivaco: {
+      name:'Vivaco', domain:'vivaco.sk', website:'https://www.vivaco.sk/',
+      theme:{brand:'#c81e27',accent:'#5e9a2e',soft:'#fdf1ef',paper:'#fffdfc',ink:'#231f20',line:'#f1dedb'},
+      wordmark:logo('vivaco','Vivaco'),
+      hero:'/assets/cosmetics/vivaco.jpg', mark:'/assets/cosmetics/vivaco-mark.png',
+      chatPicks:{volume:'teatree'},
+      ownerNote:'Keratín s kofeínom, Tea Tree, kozie mlieko, Herb Extract, Body Tip — šampóny, balzamy, masky a toniká v niekoľkých radoch, pri ktorých zákazník nevie, čím začať; chatbot ho dovedie k jednému produktu.',
+      benefit:['Šampón podľa vlasov a pokožky hlavy z viacerých radov','Poradí, kedy pridať tonikum, balzam alebo masku','Odpovie aj večer, keď zákazník nakupuje'],
+      products:[
+        {id:'zihlava',name:"Bylinný šampón Žihľava HERB EXTRACT 500 ml",price:'4,32 €',url:'https://www.vivaco.sk/herb-extract-bylinny-sampon-na-vlasy-zihlava/',photo:photo('vivaco','zihlava'),tags:['oily','clarity','cream','simple','basic'],reason:"Pre rýchlo sa mastiace vlasy a pokožku so sklonom k lupinám — nevysušuje, takže pokožku nenúti k väčšej tvorbe mazu; bylinky a panthenol dodajú lesk."},
+        {id:'argan',name:"Šampón s BIO arganovým olejom BODY TIP 250 ml",price:'3,86 €',url:'https://www.vivaco.sk/body-tip-arganovy-vlasovy-sampon/',photo:photo('vivaco','argan'),tags:['dry','hydrate','cream','simple','basic'],reason:"Arganový olej hĺbkovo vyživuje suché, poškodené a lámavé vlasy a obnovuje ich lesk a pružnosť — aj po farbení a melírovaní."},
+        {id:'keratin',name:"Keratínový šampón s kofeínom VIVAPHARM 200 ml",price:'6,89 €',url:'https://www.vivaco.sk/keratinovy-sampon-s-kofeinom-pri-vypadavani-vlasov-pre-zeny/',photo:photo('vivaco','keratin'),tags:['dry','balanced','mature','hydrate','cream','simple','basic'],reason:"Posilňujúci šampón pre oslabené, rednúce a vypadávajúce vlasy aj pre suché a lámavé vlasy po žehlení — kofeín pôsobí na vlasové folikuly, keratín dopĺňa štruktúru vlasu."},
+        {id:'teatree',name:"Šampón s Tea Tree Oil VIVAPHARM 200 ml",price:'3,83 €',url:'https://www.vivaco.sk/tea-tree-oil-extracts-sampon-proti-lupinam/',photo:photo('vivaco','teatree'),tags:['sensitive','oily','calm','clarity','cream','simple','basic'],reason:"Jemný šampón proti lupinám s olejom čajovníka austrálskeho — upokojuje vlasovú pokožku, zabraňuje svrbeniu a vlasom dodá lesk a objem."},
+        {id:'kozi',name:"Šampón s kozím mliekom VIVAPHARM 400 ml",price:'4,72 €',url:'https://www.vivaco.sk/vivapharm-kozi-sampon-na-vlasy/',photo:photo('vivaco','kozi'),tags:['sensitive','dry','calm','hydrate','cream','simple','basic'],reason:"Šetrne umýva, upokojuje podráždenú pokožku hlavy a hydratuje — vhodný aj pre citlivú a problematickú vlasovú pokožku."},
+        {id:'tonikum',name:"Aktivačné vlasové tonikum KOFEIN + AMINEXIL 100 ml",price:'6,83 €',url:'https://www.vivaco.sk/aktivacne-vlasove-tonikum-pre-zeny-kofein--aminexil-100-ml/',photo:photo('vivaco','tonikum'),tags:['balanced','oily','mature','clarity','serum','target','full'],reason:"Tonikum na posilnenie vlasových korienkov — kofeín a aminexil podporujú zdravý rast vlasov, mentol pokožku hlavy osvieži; 99 % prírodných zložiek."},
+        {id:'kmaska',name:"Keratínová maska na vlasy s kofeínom 200 ml",price:'5,89 €',url:'https://www.vivaco.sk/keratinova-maska-na-vlasy-s-kofeinom-200ml-oplachova/',photo:photo('vivaco','kmaska'),tags:['dry','mature','hydrate','target','full'],reason:"Oplachová maska pre suché, lámavé a chemicky poškodené vlasy — keratín zlepšuje štruktúru a pružnosť vlasu a zmierňuje krepatenie."},
+        {id:'amaska',name:"Regeneračná maska s BIO arganovým olejom BODY TIP 650 ml",price:'7,42 €',url:'https://www.vivaco.sk/body-tip-arganova-maska-na-vlasy-regeneracna/',photo:photo('vivaco','amaska'),tags:['dry','hydrate','mature','oil','target','full'],reason:"Intenzívna regenerácia pre krehké, krepaté a farbením oslabené vlasy — po použití sú hladšie a lesklejšie a chráni ich pred štiepením."},
+        {id:'balzam',name:"Keratínový balzam na vlasy s kofeínom 200 ml",price:'6,96 €',url:'https://www.vivaco.sk/keratinovy-balzam-na-vlasy-s-kofeinom-pre-zeny/',photo:photo('vivaco','balzam'),tags:['dry','balanced','hydrate','target','full'],reason:"Vyživujúci balzam pre suché a lámavé vlasy — uľahčuje rozčesávanie a keratínom dodá vlasom lesk a pružnosť."}
+      ]
+    },
     kapyderm: {
       name:'Kapyderm', domain:'kapyderm.sk', website:'https://www.kapyderm.sk/',
       theme:{brand:'#23305f',accent:'#2466a4',soft:'#eef2f8',paper:'#fbfcfe',ink:'#18203d',line:'#dde4ef'},

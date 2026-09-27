@@ -265,3 +265,31 @@ z loga.
 | Esenciálny olej K2 30 ml | 51,00 € | https://www.kapyderm.sk/p/esencialny-olej-k2 |
 
 Logo: `https://kapyderm.s14.cdn-upgates.com/_cache/8/b/8b00184f3cdb7b581d4a22c7010c590d-logo-kapyderm-new.png`; fotky: najväčšia verzia hlavného obrázka (769×1000) z `kapyderm.s14.cdn-upgates.com`.
+
+## Vivaco — vivaco.sk
+
+Český výrobca kozmetiky (od roku 2001, vlastný výrobný závod v Olomouci,
+v logu „25 rokov s vami“), slovenský e-shop na Shoptete v €. Vlasové rady
+VIVAPHARM, Herb Extract a Body Tip. Značka sa predstavuje ako „česká
+přírodní kosmetika“, receptúry sú však klasické (šampóny na báze SLES,
+s bylinnými extraktmi a olejmi) a ceny drogériové — v PR je to uvedené,
+aby sa dalo rozhodnúť, či do segmentu patrí. Ceny a sklad zo stránok
+produktov, všetko „Skladom“. Dôvody sú z krátkeho a dlhého popisu.
+Farby: červená `#c81e27` (o odtieň tmavšia než `#e9242d` v logu, kvôli
+bielemu textu na tlačidlách) a zelená `#5e9a2e` z listu. Logo je oficiálne
+SVG z hlavičky webu (verzia „25 rokov“) — použitý je nápis VIVACO s listom
+bez podtitulu a bez dovetku „25 rokov s vami“; symbol je list z loga.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Bylinný šampón Žihľava HERB EXTRACT 500 ml | 4,32 € | https://www.vivaco.sk/herb-extract-bylinny-sampon-na-vlasy-zihlava/ |
+| Šampón s BIO arganovým olejom BODY TIP 250 ml | 3,86 € | https://www.vivaco.sk/body-tip-arganovy-vlasovy-sampon/ |
+| Keratínový šampón s kofeínom VIVAPHARM 200 ml | 6,89 € | https://www.vivaco.sk/keratinovy-sampon-s-kofeinom-pri-vypadavani-vlasov-pre-zeny/ |
+| Šampón s Tea Tree Oil VIVAPHARM 200 ml | 3,83 € | https://www.vivaco.sk/tea-tree-oil-extracts-sampon-proti-lupinam/ |
+| Šampón s kozím mliekom VIVAPHARM 400 ml | 4,72 € | https://www.vivaco.sk/vivapharm-kozi-sampon-na-vlasy/ |
+| Aktivačné vlasové tonikum KOFEIN + AMINEXIL 100 ml | 6,83 € | https://www.vivaco.sk/aktivacne-vlasove-tonikum-pre-zeny-kofein--aminexil-100-ml/ |
+| Keratínová maska na vlasy s kofeínom 200 ml | 5,89 € | https://www.vivaco.sk/keratinova-maska-na-vlasy-s-kofeinom-200ml-oplachova/ |
+| Regeneračná maska s BIO arganovým olejom BODY TIP 650 ml | 7,42 € | https://www.vivaco.sk/body-tip-arganova-maska-na-vlasy-regeneracna/ |
+| Keratínový balzam na vlasy s kofeínom 200 ml | 6,96 € | https://www.vivaco.sk/keratinovy-balzam-na-vlasy-s-kofeinom-pre-zeny/ |
+
+Logo: `https://cdn.myshoptet.com/usr/www.vivaco.sk/user/logos/logo_25_let_sk_(2).svg`; fotky: `…/user/shop/orig/` z `cdn.myshoptet.com/usr/www.vivaco.sk`.
