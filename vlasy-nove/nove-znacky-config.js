@@ -11,6 +11,25 @@
   const photo = (slug, id) => `/assets/cosmetics/${slug}-${id}.jpg`;
 
   const hair = {
+    kapyderm: {
+      name:'Kapyderm', domain:'kapyderm.sk', website:'https://www.kapyderm.sk/',
+      theme:{brand:'#23305f',accent:'#2466a4',soft:'#eef2f8',paper:'#fbfcfe',ink:'#18203d',line:'#dde4ef'},
+      wordmark:logo('kapyderm','Kapyderm'),
+      hero:'/assets/cosmetics/kapyderm.jpg', mark:'/assets/cosmetics/kapyderm-mark.png',
+      ownerNote:'Deväť šampónov podľa stavu pokožky hlavy, emulzie, séra, toniká a ampulky — v inštitúte poradí trichológ, v e-shope nikto; chatbot prenesie túto logiku aj online.',
+      benefit:['Šampón podľa stavu pokožky hlavy, ako v inštitúte','Poradí, kedy pridať emulziu, sérum alebo tonikum','Odpovie aj mimo otváracích hodín inštitútu'],
+      products:[
+        {id:'mastne',name:"Šampón na mastné vlasy 250 ml",price:'30,00 €',url:'https://www.kapyderm.sk/p/sampon-na-mastne-vlasy',photo:photo('kapyderm','mastne'),tags:['oily','clarity','cream','simple','basic'],reason:"Reguluje mazové žľazy a rešpektuje ochranný lipidový plášť pokožky — pre rýchlo sa mastiace korienky; hydratuje a dočisťuje."},
+        {id:'suche',name:"Šampón na suché vlasy 250 ml",price:'30,00 €',url:'https://www.kapyderm.sk/p/sampon-na-suche-vlasy',photo:photo('kapyderm','suche'),tags:['dry','hydrate','calm','cream','simple','basic'],reason:"Upravuje pH extrémne suchej pokožky hlavy, hydratuje a vyživuje lipidový plášť — vlasom vracia pružnosť a lesk."},
+        {id:'lupiny',name:"Šampón proti lupinám 250 ml",price:'30,00 €',url:'https://www.kapyderm.sk/p/sampon-proti-lupinam',photo:photo('kapyderm','lupiny'),tags:['sensitive','oily','calm','cream','simple','basic'],reason:"Jemný šampón proti nadmernému odlupovaniu kožných buniek — odstraňuje odumreté bunky, upravuje pH pokožky a pôsobí antibakteriálne."},
+        {id:'vypad',name:"Šampón proti vypadávaniu vlasov 250 ml",price:'32,00 €',url:'https://www.kapyderm.sk/p/sampon-proti-vypadavaniu-vlasov',photo:photo('kapyderm','vypad'),tags:['balanced','dry','oily','mature','cream','simple','basic'],reason:"Podporuje kapilárnu mikrocirkuláciu a rast nových vlasov; vitamínový komplex vyživí pokožku hlavy aj vlasy."},
+        {id:'citliva',name:"Šampón na citlivú pokožku 250 ml",price:'32,00 €',url:'https://www.kapyderm.sk/p/sampon-na-citlivu-pokozku',photo:photo('kapyderm','citliva'),tags:['sensitive','balanced','calm','clarity','cream','simple','basic'],reason:"Pre citlivú a podráždenú pokožku i precitlivené, oslabené vlasy — vitamínový komplex chráni a aj jemným vlasom dodá objem bez zaťaženia."},
+        {id:'kolagen',name:"Kolagénová emulzia (kondicionér) 145 ml",price:'45,00 €',url:'https://www.kapyderm.sk/p/kolagenova-emulzia',photo:photo('kapyderm','kolagen'),tags:['dry','hydrate','calm','target','full'],reason:"Vysoko hydratačný kondicionér uľaví od pocitu napätia a svrbenia a dodá vlasom hydratáciu a objem od korienkov bez zaťaženia."},
+        {id:'enzym',name:"Enzymatické sérum 145 ml",price:'40,00 €',url:'https://www.kapyderm.sk/p/enzymaticke-serum',photo:photo('kapyderm','enzym'),tags:['dry','mature','hydrate','serum','target','full'],reason:"Proteínové sérum na pokožku aj vlasy vyživí a posilní oslabené a poškodené vlasy, dodá im objem, lesk a pružnosť."},
+        {id:'fungi',name:"Tonikum Fungi Activ 30 ml",price:'51,00 €',url:'https://www.kapyderm.sk/p/tonikum-fungi-activ',photo:photo('kapyderm','fungi'),tags:['sensitive','oily','calm','clarity','serum','target','full'],reason:"Tonikum proti lupinám a svrbeniu pokožky hlavy — upokojuje, osviežuje a vyrovnáva mikrobióm pokožky."},
+        {id:'k2',name:"Esenciálny olej K2 30 ml",price:'51,00 €',url:'https://www.kapyderm.sk/p/esencialny-olej-k2',photo:photo('kapyderm','k2'),tags:['oily','mature','oil','target','full'],reason:"100 % prírodná zmes esenciálnych olejov na pokožku hlavy — vmasíruje sa pred umytím, zrýchľuje prietok krvi a pomáha pri množstve problémov pokožky."}
+      ]
+    },
     medarek: {
       name:'Medarek', domain:'medarek.cz', website:'https://www.medarek.cz/',
       theme:{brand:'#3f6d22',accent:'#d9791a',soft:'#f4f7ec',paper:'#fdfdf9',ink:'#1f2e14',line:'#e2e9d4'},

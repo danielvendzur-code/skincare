@@ -238,3 +238,30 @@ pozadí s bielym listom.
 | Kaméliový olej BIO 50 ml | 260 Kč | https://www.medarek.cz/nase-produkty/kameliovy-olej-bio-medarek-japonsky-olej-krasy/ |
 
 Logo: `https://cdn.myshoptet.com/usr/www.medarek.cz/user/logos/l1.jpg`; fotky: originály (`/user/shop/orig/`) balení s danou gramážou.
+
+## Kapyderm — kapyderm.sk
+
+Trichologický inštitút a kaderníctvo v Piešťanoch (Kapyderm Slovensko) so
+sieťou partnerských salónov a školeniami; e-shop na Upgates v € predáva
+dermotrichologickú radu Kapyderm (výrobca so španielskymi etiketami).
+Ceny a sklad z údajov variantov na stránke produktu (šampóny 250 ml,
+emulzia a sérum 145 ml, tonikum a olej 30 ml), všetko „Na sklade“.
+Vynechané sú produkty určené na liečebné stavy (psoriáza, ekzém) a
+formulácie so zdravotnými tvrdeniami. Farby: tmavomodrá `#23305f` a modrá
+`#2466a4` z prechodu v logu, svetlomodrá plocha. Logo je PNG z webu
+(282 px, vektor nie je zverejnený) — zväčšené s vyhladením; symbol je „k“
+z loga.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Šampón na mastné vlasy 250 ml | 30,00 € | https://www.kapyderm.sk/p/sampon-na-mastne-vlasy |
+| Šampón na suché vlasy 250 ml | 30,00 € | https://www.kapyderm.sk/p/sampon-na-suche-vlasy |
+| Šampón proti lupinám 250 ml | 30,00 € | https://www.kapyderm.sk/p/sampon-proti-lupinam |
+| Šampón proti vypadávaniu vlasov 250 ml | 32,00 € | https://www.kapyderm.sk/p/sampon-proti-vypadavaniu-vlasov |
+| Šampón na citlivú pokožku 250 ml | 32,00 € | https://www.kapyderm.sk/p/sampon-na-citlivu-pokozku |
+| Kolagénová emulzia (kondicionér) 145 ml | 45,00 € | https://www.kapyderm.sk/p/kolagenova-emulzia |
+| Enzymatické sérum 145 ml | 40,00 € | https://www.kapyderm.sk/p/enzymaticke-serum |
+| Tonikum Fungi Activ 30 ml | 51,00 € | https://www.kapyderm.sk/p/tonikum-fungi-activ |
+| Esenciálny olej K2 30 ml | 51,00 € | https://www.kapyderm.sk/p/esencialny-olej-k2 |
+
+Logo: `https://kapyderm.s14.cdn-upgates.com/_cache/8/b/8b00184f3cdb7b581d4a22c7010c590d-logo-kapyderm-new.png`; fotky: najväčšia verzia hlavného obrázka (769×1000) z `kapyderm.s14.cdn-upgates.com`.
