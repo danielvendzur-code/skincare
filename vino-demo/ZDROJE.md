@@ -478,3 +478,38 @@ tmavá z písma.
 | Bublinky 2025, perlivé, polosuché | 185 Kč | https://www.vajbar.cz/e-shop/199.bublinky-/ |
 | Frizzante Rosé 2025, polosuché | 220 Kč | https://www.vajbar.cz/e-shop/177.frizzante-rose-2025/ |
 | Frizzante Klaret 2025, polosladké | 220 Kč | https://www.vajbar.cz/e-shop/198.frizzante-klaret-2025/ |
+
+## Vinařství Buchtovi — vinobuchtovi.cz
+
+Rodinné vinárstvo z Velkých Pavlovic (vlastný e-shop, ceny v Kč),
+vyše 30 vín: biele suché aj sladké, červené, rosé, frizzante a sekty.
+Ceny, zaradenie podľa cukru, akosť a medaily sú z detailu každého vína
+(27. 9. 2026, všetky s tlačidlom Do košíku). E-shop neuvádza chuťové
+popisy, preto sú dôvody odporúčania zložené iba z týchto údajov. Do
+ukážky ide 20 vín. Fotky sú packshoty z e-shopu. Logo je SVG z webu
+vykreslené do PNG; do tmavozelenej hlavičky widgetu ide celé biele.
+Symbol je červené „B“ z loga. Farby: tmavozelená z uzáverov fliaš
+ako hlavná (červenou vínnou má už viac ukážok), akcent červená z loga.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Sauvignon 2024, suché | 310 Kč | https://www.vinobuchtovi.cz/e-shop/sauvignon-266 |
+| Ryzlink rýnský 2024, pozdní sběr | 310 Kč | https://www.vinobuchtovi.cz/e-shop/ryzlink-rynsky-267 |
+| Hibernal 2024, pozdní sběr, suché | 210 Kč | https://www.vinobuchtovi.cz/e-shop/hibernal-243 |
+| Muškát moravský, polosuché | 170 Kč | https://www.vinobuchtovi.cz/e-shop/muskat-moravsky263 |
+| Chardonnay 2024, suché | 310 Kč | https://www.vinobuchtovi.cz/e-shop/chardonnay269 |
+| Pálava 2024, kryomacerace, výběr z hroznů, suché | 310 Kč | https://www.vinobuchtovi.cz/e-shop/palava244 |
+| Tramín červený 2024, VOC, polosuché | 270 Kč | https://www.vinobuchtovi.cz/e-shop/tramin-cerveny-247 |
+| Rulandské šedé 2024, pozdní sběr, polosladké | 270 Kč | https://www.vinobuchtovi.cz/e-shop/rulandske-sede-250 |
+| Pálava 2024, výběr z hroznů, polosladké | 210 Kč | https://www.vinobuchtovi.cz/e-shop/palava249 |
+| Kerner 2024, výběr z hroznů, sladké | 270 Kč | https://www.vinobuchtovi.cz/e-shop/kerner248 |
+| Merlot 2023, suché | 300 Kč | https://www.vinobuchtovi.cz/e-shop/merlot260 |
+| Dunaj 2023, výběr z hroznů, suché | 300 Kč | https://www.vinobuchtovi.cz/e-shop/dunaj261 |
+| Nadzahrady 2023, pozdní sběr | 310 Kč | https://www.vinobuchtovi.cz/e-shop/nadzahrady256 |
+| Dornfelder 2022, pozdní sběr, suché | 260 Kč | https://www.vinobuchtovi.cz/e-shop/dornfelder217 |
+| Rulandské modré 2022, pozdní sběr, suché | 260 Kč | https://www.vinobuchtovi.cz/e-shop/rulandske-modre-208 |
+| Cabernet Moravia 2022, suché | 190 Kč | https://www.vinobuchtovi.cz/e-shop/cabernet-moravia-207 |
+| Cabernet Moravia rosé 2023, polosuché | 230 Kč | https://www.vinobuchtovi.cz/e-shop/cabernet-moravia-rose204 |
+| Rosé Frizzante 2024, polosladké | 230 Kč | https://www.vinobuchtovi.cz/e-shop/rose-frizzante254 |
+| Sekt Demi Sec Chardonnay | 310 Kč | https://www.vinobuchtovi.cz/e-shop/sekt-demi-sec-chardonnay253 |
+| Sekt Brut Ryzlink rýnský 2023 | 310 Kč | https://www.vinobuchtovi.cz/e-shop/sekt-brut-ryzlink-rynsky103 |

@@ -40,3 +40,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Vinařství Volařík | [vinarstvivolarik.cz](https://www.vinarstvivolarik.cz/cs/eshop/) | `/volarik/` · `volarik.mojchatbot.sk` |
 | Víno Rajníc | [vinorajnic.sk](https://www.vinorajnic.sk/) | `/rajnic/` · `rajnic.mojchatbot.sk` |
 | Vinařství Vajbar | [vajbar.cz](https://www.vajbar.cz/e-shop/) | `/vajbar/` · `vajbar.mojchatbot.sk` |
+| Vinařství Buchtovi | [vinobuchtovi.cz](https://www.vinobuchtovi.cz/e-shop) | `/buchtovi/` · `buchtovi.mojchatbot.sk` |

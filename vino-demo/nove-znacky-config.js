@@ -375,6 +375,37 @@
         {id:'frizzrose',name:'Frizzante Rosé 2025, polosuché',price:'220 Kč',url:'https://www.vajbar.cz/e-shop/177.frizzante-rose-2025/',photo:photo('vajbar','frizzrose'),tags:['sparkling','fruity','fish'],reason:'Ružové frizzante zo Svätovavrineckého — svieže, letné a ľahké.'},
         {id:'klaret',name:'Frizzante Klaret 2025, polosladké',price:'220 Kč',url:'https://www.vajbar.cz/e-shop/198.frizzante-klaret-2025/',photo:photo('vajbar','klaret'),tags:['sparkling','sweet','cheese'],reason:'Klaret frizzante z Rulandského modrého — osviežujúce polosladké jemne perlivé víno do horúcich dní.'}
       ]
+    },
+    buchtovi: {
+      name:'Vinařství Buchtovi', domain:'vinobuchtovi.cz', website:'https://www.vinobuchtovi.cz/e-shop',
+      theme:{brand:'#1f4a44',accent:'#93141a',soft:'#f4f1ec',paper:'#fcfbf8',ink:'#1c2321',line:'#e3e0d6'},
+      wordmark:logo('buchtovi','Vinařství Buchtovi'),
+      hero:'/assets/vino/buchtovi.jpg', mark:'/assets/vino/buchtovi-mark.png', headerLogo:'/assets/vino/buchtovi-logo-header.png',
+      markColor:{reverse:'/assets/vino/buchtovi-mark-reverse.png',bg:'#1f4a44',bgHover:'#f4f1ec'},
+      ownerNote:'Vyše 30 vín z Velkých Pavlovic — medailové biele, sladký Kerner, Merlot, Dunaj, rosé, frizzante aj sekty — a zákazník nevie, čo vybrať.',
+      benefit:['Z vyše 30 vín to pravé k jedlu','Poradí suché aj sladké, červené aj sekt','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'sauvignon',name:'Sauvignon 2024, suché',price:'310 Kč',url:'https://www.vinobuchtovi.cz/e-shop/sauvignon-266',photo:photo('buchtovi','sauvignon'),tags:['white','crisp','fish'],reason:'Suchý Sauvignon z Velkých Pavlovic — strieborná medaila Salon vín ČR.'},
+        {id:'rr',name:'Ryzlink rýnský 2024, pozdní sběr',price:'310 Kč',url:'https://www.vinobuchtovi.cz/e-shop/ryzlink-rynsky-267',photo:photo('buchtovi','rr'),tags:['white','crisp','fish'],reason:'Rizling rýnsky v akosti neskorý zber — strieborná medaila Salon vín ČR.'},
+        {id:'hibernal',name:'Hibernal 2024, pozdní sběr, suché',price:'210 Kč',url:'https://www.vinobuchtovi.cz/e-shop/hibernal-243',photo:photo('buchtovi','hibernal'),tags:['white','crisp','fish'],reason:'Suchý Hibernal s 12,5 % alkoholu a sviežou kyselinkou — ľahké biele k rybám a šalátom.'},
+        {id:'muskat',name:'Muškát moravský, polosuché',price:'170 Kč',url:'https://www.vinobuchtovi.cz/e-shop/muskat-moravsky263',photo:photo('buchtovi','muskat'),tags:['white','fruity','fish'],reason:'Voňavý polosuchý muškát s 11 % alkoholu — ľahký, na leto aj ako aperitív.'},
+        {id:'chardonnay',name:'Chardonnay 2024, suché',price:'310 Kč',url:'https://www.vinobuchtovi.cz/e-shop/chardonnay269',photo:photo('buchtovi','chardonnay'),tags:['white','bold','fish','target'],reason:'Suché Chardonnay so zlatou medailou Salon vín ČR — plnšie biele k hydine a krémovým jedlám.'},
+        {id:'palava310',name:'Pálava 2024, kryomacerace, výběr z hroznů, suché',price:'310 Kč',url:'https://www.vinobuchtovi.cz/e-shop/palava244',photo:photo('buchtovi','palava310'),tags:['white','bold','cheese','target'],reason:'Suchá Pálava z kryomacerácie, 13,5 % alkoholu — zlaté medaily z Modrohorskej pecky a Danube Wine Challenge.'},
+        {id:'tramin',name:'Tramín červený 2024, VOC, polosuché',price:'270 Kč',url:'https://www.vinobuchtovi.cz/e-shop/tramin-cerveny-247',photo:photo('buchtovi','tramin'),tags:['white','fruity','cheese'],reason:'Polosuchý Tramín VOC s 13 % alkoholu — strieborná medaila Salon vín ČR.'},
+        {id:'rs',name:'Rulandské šedé 2024, pozdní sběr, polosladké',price:'270 Kč',url:'https://www.vinobuchtovi.cz/e-shop/rulandske-sede-250',photo:photo('buchtovi','rs'),tags:['white','sweet','cheese'],reason:'Polosladké Rulandské šedé s 24,8 g/l cukru — strieborná medaila Salon vín ČR.'},
+        {id:'palava',name:'Pálava 2024, výběr z hroznů, polosladké',price:'210 Kč',url:'https://www.vinobuchtovi.cz/e-shop/palava249',photo:photo('buchtovi','palava'),tags:['white','sweet','cheese'],reason:'Polosladká Pálava, výber z hrozna s 13 % alkoholu a 18,6 g/l cukru.'},
+        {id:'kerner',name:'Kerner 2024, výběr z hroznů, sladké',price:'270 Kč',url:'https://www.vinobuchtovi.cz/e-shop/kerner248',photo:photo('buchtovi','kerner'),tags:['white','sweet','cheese','target'],reason:'Sladký Kerner, výber z hrozna so 47 g/l cukru a 11 % alkoholu — k dezertom a syrom.'},
+        {id:'merlot',name:'Merlot 2023, suché',price:'300 Kč',url:'https://www.vinobuchtovi.cz/e-shop/merlot260',photo:photo('buchtovi','merlot'),tags:['red','bold','meat','target'],reason:'Suchý Merlot — zlatá medaila Modrohorská pecka a strieborná z Promenády červených vín.'},
+        {id:'dunaj',name:'Dunaj 2023, výběr z hroznů, suché',price:'300 Kč',url:'https://www.vinobuchtovi.cz/e-shop/dunaj261',photo:photo('buchtovi','dunaj'),tags:['red','bold','meat'],reason:'Odroda Dunaj vo výbere z hrozna — strieborná medaila Promenáda červených vín.'},
+        {id:'nadzahrady',name:'Nadzahrady 2023, pozdní sběr',price:'310 Kč',url:'https://www.vinobuchtovi.cz/e-shop/nadzahrady256',photo:photo('buchtovi','nadzahrady'),tags:['red','bold','meat'],reason:'Červené víno Nadzahrady v akosti neskorý zber z Velkých Pavlovic.'},
+        {id:'dornfelder',name:'Dornfelder 2022, pozdní sběr, suché',price:'260 Kč',url:'https://www.vinobuchtovi.cz/e-shop/dornfelder217',photo:photo('buchtovi','dornfelder'),tags:['red','fruity','meat'],reason:'Suchý Dornfelder — zlatá medaila Promenáda červených vín 2024.'},
+        {id:'rm',name:'Rulandské modré 2022, pozdní sběr, suché',price:'260 Kč',url:'https://www.vinobuchtovi.cz/e-shop/rulandske-modre-208',photo:photo('buchtovi','rm'),tags:['red','fruity','meat'],reason:'Suchý Pinot Noir v akosti neskorý zber, 12,5 % alkoholu.'},
+        {id:'cm',name:'Cabernet Moravia 2022, suché',price:'190 Kč',url:'https://www.vinobuchtovi.cz/e-shop/cabernet-moravia-207',photo:photo('buchtovi','cm'),tags:['red','fruity','meat'],reason:'Suchý Cabernet Moravia za priaznivú cenu — červené na každý deň.'},
+        {id:'rose',name:'Cabernet Moravia rosé 2023, polosuché',price:'230 Kč',url:'https://www.vinobuchtovi.cz/e-shop/cabernet-moravia-rose204',photo:photo('buchtovi','rose'),tags:['rose','fruity','fish'],reason:'Polosuché rosé z Cabernetu Moravia, 11,5 % alkoholu — ovocné ružové na leto.'},
+        {id:'frizzrose',name:'Rosé Frizzante 2024, polosladké',price:'230 Kč',url:'https://www.vinobuchtovi.cz/e-shop/rose-frizzante254',photo:photo('buchtovi','frizzrose'),tags:['sparkling','sweet','fish'],reason:'Jemne perlivé polosladké rosé — na letný prípitok.'},
+        {id:'sektdemi',name:'Sekt Demi Sec Chardonnay',price:'310 Kč',url:'https://www.vinobuchtovi.cz/e-shop/sekt-demi-sec-chardonnay253',photo:photo('buchtovi','sektdemi'),tags:['sparkling','sweet','cheese'],reason:'Jemne sladký sekt z Chardonnay metódou Charmat — k dezertom a na oslavu.'},
+        {id:'sektrr',name:'Sekt Brut Ryzlink rýnský 2023',price:'310 Kč',url:'https://www.vinobuchtovi.cz/e-shop/sekt-brut-ryzlink-rynsky103',photo:photo('buchtovi','sektrr'),tags:['sparkling','crisp','fish','target'],reason:'Suchý sekt z Rizlingu rýnskeho metódou Charmat — na prípitok alebo ako darček.'}
+      ]
     }
   });
 })();
