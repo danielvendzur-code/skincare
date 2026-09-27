@@ -63,3 +63,7 @@ body[data-cx-new-mark] .cx-message-avatar .cx-new-mark--wide {
 }
 
 /* Per-brand logo sizes for the hair demos. */
+/* Medarek: thin script with the bee to the right; reads small at the default height. */
+body[data-cosmetics-demo="medarek"] .cx-owner-brand .cx-logo {
+  max-height: 52px !important;
+}

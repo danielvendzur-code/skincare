@@ -43,6 +43,9 @@
      from the customer's own question. */
   const ENGINE_REPLY = /^(Pri suchej alebo napnutej pleti|Pri vyššej tvorbe mazu|Pri citlivejšej pleti|Pre zrelšiu pleť|Zloženie je uvedené pri každom produkte|Ceny sú uvedené pri produktoch|Z ponuky .+ je dobrý začiatok)/;
 
+  /* A brand may name the product it wants for a typical question
+     (`chatPicks: {oily:'id'}`); otherwise the best tag match answers. */
+  const chosen = (key) => brand.products.find((product) => product.id === brand.chatPicks?.[key])?.name;
   const pick = (...tags) => {
     const ranked = brand.products
       .map((product, index) => ({ product, index, hits: tags.filter((tag) => product.tags.includes(tag)).length, main: product.tags.includes(tags[0]) }))
@@ -54,15 +57,15 @@
   const hairReply = (text) => {
     const q = String(text || '').toLocaleLowerCase('sk');
     if (/lup|svrb|citliv|podráž|podraz|šupin|supin|pokož|pokoz|ekzém|štíp|stip/.test(q))
-      return `Pri citlivej pokožke hlavy alebo lupinách by som začal produktom ${pick('sensitive', 'calm')}. Ak ťažkosti trvajú dlhšie alebo sa zhoršujú, poraďte sa s dermatológom.`;
+      return `Pri citlivej pokožke hlavy alebo lupinách by som začal produktom ${chosen('sensitive') || pick('sensitive', 'calm')}. Ak ťažkosti trvajú dlhšie alebo sa zhoršujú, poraďte sa s dermatológom.`;
     if (/vypad|padaj|redn|rídn|ridn|slab|rast|hust|posil|lysin/.test(q))
-      return `Pri vypadávaní alebo slabých vlasoch je z ponuky značky ${brand.name} vhodný smer ${pick('mature', 'balanced')}. Výber starostlivosti ešte zohľadní, či chcete šampón, sérum alebo celú starostlivosť.`;
+      return `Pri vypadávaní alebo slabých vlasoch je z ponuky značky ${brand.name} vhodný smer ${chosen('mature') || pick('mature', 'balanced')}. Výber starostlivosti ešte zohľadní, či chcete šampón, sérum alebo celú starostlivosť.`;
     if (/mast|maz/.test(q))
-      return `Keď sa vlasy rýchlo mastia, oplatí sa pozrieť na ${pick('oily', 'cream')}. Výber starostlivosti vám pomôže zúžiť výsledok bez skúšania naslepo.`;
+      return `Keď sa vlasy rýchlo mastia, oplatí sa pozrieť na ${chosen('oily') || pick('oily', 'cream')}. Výber starostlivosti vám pomôže zúžiť výsledok bez skúšania naslepo.`;
     if (/objem|splasnut|splihl|ploch|jemn|tenk/.test(q))
-      return `Pre jemné vlasy bez objemu je z ponuky značky ${brand.name} dobrý smer ${pick('clarity', 'balanced')}. Výber starostlivosti ešte zohľadní, či chcete šampón, sérum alebo ľahkú starostlivosť o dĺžky.`;
+      return `Pre jemné vlasy bez objemu je z ponuky značky ${brand.name} dobrý smer ${chosen('volume') || pick('clarity', 'balanced')}. Výber starostlivosti ešte zohľadní, či chcete šampón, sérum alebo ľahkú starostlivosť o dĺžky.`;
     if (/such|lámav|lamav|krep|poškod|poskod|konč|konc|farb|zniče|znice|kudrn|vlnit/.test(q))
-      return `Pri suchých a lámavých vlasoch by som začal produktom ${pick('dry', 'hydrate')}. Vo Výbere starostlivosti ešte zohľadníme, či chcete šampón, sérum alebo starostlivosť o dĺžky.`;
+      return `Pri suchých a lámavých vlasoch by som začal produktom ${chosen('dry') || pick('dry', 'hydrate')}. Vo Výbere starostlivosti ešte zohľadníme, či chcete šampón, sérum alebo starostlivosť o dĺžky.`;
     const first = brand.products[0];
     if (/odkia|zložen|zlozen|obsahuj|ingredien|prísad|prisad/.test(q))
       return `Zloženie je uvedené pri každom produkte na webe ${brand.name}. Napríklad ${first.name}: ${first.reason} Napíšte, aké máte vlasy, a vyberiem jeden konkrétny.`;

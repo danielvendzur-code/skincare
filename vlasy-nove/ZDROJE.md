@@ -211,3 +211,30 @@ celoplošné.
 | Olej na vlasy a pleť Treatment oil | 22,90 € | https://andreine.com/products/treatment-oil |
 
 Logo: `https://andreine.com/cdn/shop/files/red.svg`; fotky: prvý obrázok produktu z Shopify CDN.
+
+## Medarek — medarek.cz
+
+Česká značka prírodnej kozmetiky s vlastnou výrobou (Shoptet, Kč), predáva
+aj v lekárňach a eko e-shopoch. Šampuky sú za štandardné 45 g balenie
+(20 g je cestovné, 130 g veľké), tuhý kondicionér 95 g, prášok 100 g, olej
+50 ml; všetko skladom. Amla prášok bol nahradený kaméliovým olejom, aby
+kompletná rutina mala štyri rôzne kroky. Farby z loga: zelená `#8bc34a`
+(tmavšia `#3f6d22` na tlačidlá), oranžová včela `#d9791a`, svetlá
+zelenkastá plocha. Logo je JPG z webu (793 px, iný formát nie je
+zverejnený) — biele pozadie odstránené a zväčšené s vyhladením. Symbol je
+včela s listom v pôvodných farbách (`markColor`), pri hoveri na zelenom
+pozadí s bielym listom.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Rozmarínový šampuk s kofeínom 45 g | 236 Kč | https://www.medarek.cz/nase-produkty/rozmarynovy-sampuk-s-kofeinem-medarek-podpora-rustu-vlasu/ |
+| Lví hriva – šampuk s peptidmi a macou 45 g | 271 Kč | https://www.medarek.cz/nase-produkty/lvi-hriva-medarek-peptidy-a-maca/ |
+| Bublinkový šampuk so sviežou mätou 45 g | 213 Kč | https://www.medarek.cz/nase-produkty/bublinovy-sampuk-se-svezi-matou-medarek-vonavy-a-hodne-penivy/ |
+| Oreganový šampuk s manukou a čiernou rascou 45 g | 236 Kč | https://www.medarek.cz/nase-produkty/oreganovy-sampuk-s-manukou-a-cernym-kminem-medarek-kozni-obtize/ |
+| Arganový šampuk s pomarančom 45 g | 213 Kč | https://www.medarek.cz/nase-produkty/arganovy-sampuk-s-pomerancem-medarek-pro-lesk-vlasu/ |
+| Lieskový šampuk bez esenciálnych olejov 45 g | 213 Kč | https://www.medarek.cz/nase-produkty/liskovy-sampuk-medarek-bez-esencialnich-oleju/ |
+| Vlasové pohladenie Amla a tiaré – tuhý kondicionér 95 g | 552 Kč | https://www.medarek.cz/nase-produkty/vlasove-pohlazeni-amla-a-tiare/ |
+| Brahmi prášok BIO na vlasové masky 100 g | 161 Kč | https://www.medarek.cz/prasky-na-vlasy-medarek/brahmi-prasek-bio-medarek-vyziva-a-hustota/ |
+| Kaméliový olej BIO 50 ml | 260 Kč | https://www.medarek.cz/nase-produkty/kameliovy-olej-bio-medarek-japonsky-olej-krasy/ |
+
+Logo: `https://cdn.myshoptet.com/usr/www.medarek.cz/user/logos/l1.jpg`; fotky: originály (`/user/shop/orig/`) balení s danou gramážou.

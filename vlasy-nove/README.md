@@ -34,7 +34,11 @@ výsledok s rutinou, cenou, prekliknutím do e-shopu a alternatívou. Tlačidlá
 
 Pravidlo tagov: `basic` majú len hlavné produkty (šampóny); kondicionér,
 maska, olej, sérum či tonikum sú doplnkové kroky (`target`, `full`), aby pri
-„2–3 kroky“ nevyhrali ako hlavný produkt.
+„2–3 kroky“ nevyhrali ako hlavný produkt. Rutina berie kroky podľa roly
+(`cream` = šampón, `serum` = sérum/tonikum, `oil` = olej/maska, bez tagu
+formy podľa názvu: kondicionér = starostlivosť, „mask…“ = maska). Každá
+značka preto má aspoň štyri roly, inak by kompletná rutina doplnila druhý
+šampón — `tools/matrix.mjs` to kontroluje („two shampoos in a routine: 0“).
 
 ## Ukážky
 
@@ -47,6 +51,7 @@ maska, olej, sérum či tonikum sú doplnkové kroky (`target`, `full`), aby pri
 | NAVLASIL | [navlasil.sk](https://www.navlasil.sk/) | `/navlasil/` · `navlasil.mojchatbot.sk` | ostravská značka prémiovej vlasovej kozmetiky vyrábanej v Česku, samostatný slovenský e-shop v €, tisíce recenzií; šampóny a kondicionéry podľa typu vlasov, dve séra, tonikum, maska a olejová kúra v rovnakých bielych fľašiach — web má statického sprievodcu výberom, chatbot k nemu pridá odpovede na otázky a poskladá rutinu |
 | VOONO | [voono.sk](https://www.voono.sk/) | `/voono/` · `voono.mojchatbot.sk` | česká značka organickej vlasovej kozmetiky a rastlinných farieb (spolupráca s kaderníctvami, franšíza), slovenský e-shop v €; vedľa henny šampóny ORGANIC LINE, keratínová rada, kondicionéry, Tricholog a brezový oplach — pomoc s výberom starostlivosti k vlasom aj pokožke; moderný web (WooCommerce) |
 | Andreine | [andreine.com](https://andreine.com/) | `/andreine/` · `andreine.mojchatbot.sk` | slovenská trichologická značka prírodnej vlasovej kozmetiky vyrábanej na Slovensku, vlastné trichologické poradne (Trenčín, B. Bystrica, Žilina), Shopify e-shop v €; štyri šampóny, dve toniká, tri masky a leave-in kondicionéry v rovnakých fľašiach s anglickými názvami — chatbot doplní ich kvíz o odpovede a rutinu |
+| Medarek | [medarek.cz](https://www.medarek.cz/) | `/medarek/` · `medarek.mojchatbot.sk` | česká značka prírodnej kozmetiky s vlastnou výrobou, predáva aj cez lekárne a eko e-shopy (stovky recenzií); šesť tuhých šampukov (rozmarínový, bublinkový, oreganový, arganový, lieskový, Lví hriva) vyzerá rovnako, k nim tuhý kondicionér, ajurvédske prášky a oleje — poradca rozlíši, ktorý šampuk je na aké vlasy a pokožku; Shoptet |
 <!-- /ukazky -->
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).

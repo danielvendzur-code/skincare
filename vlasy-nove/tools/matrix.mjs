@@ -23,7 +23,8 @@ const rows = await p.evaluate(() => {
     out.push(`${skin}/${goal}/${routine}/${texture}: ${ch.map((x) => x.id).join(' + ')}`);
   }
   const wins = {}; out.forEach((r) => { const id = r.split(': ')[1].split(' + ')[0]; wins[id] = (wins[id] || 0) + 1; });
-  return [...out, 'first-step wins: ' + JSON.stringify(wins), 'never first: ' + brand.products.filter((p) => !wins[p.id]).map((p) => p.id).join(',')];
+  const twoShampoos = out.filter((r) => r.split(': ')[1].split(' + ').filter((id) => brand.products.find((p) => p.id === id).tags.includes('cream')).length > 1);
+  return [...out, 'two shampoos in a routine: ' + twoShampoos.length + (twoShampoos[0] ? ' e.g. ' + twoShampoos[0] : ''), 'first-step wins: ' + JSON.stringify(wins), 'never first: ' + brand.products.filter((p) => !wins[p.id]).map((p) => p.id).join(',')];
 });
 console.log(rows.join('\n'));
 await b.close();
