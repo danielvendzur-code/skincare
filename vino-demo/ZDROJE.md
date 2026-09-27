@@ -769,3 +769,42 @@ stmavená pre kontrast (#8A682A).
 | Frizzante 2025, suché | 9,30 € | https://vinkor.sk/produkt/frizzante-2025/ |
 | To pravé slovenské — Devín a Dunaj v drevenej kazete | 34,80 € | https://vinkor.sk/produkt/to-prave-slovenske/ |
 | Darček Všetko najlepšie! — 3 suché vína v kazete | 50,90 € | https://vinkor.sk/produkt/darcek-vsetko-najlepsie/ |
+
+## Carpate Diem — carpatediem.sk
+
+Rodinné BIO vinárstvo zo Šenkvíc (WooCommerce s vlastnou šablónou, ceny
+v €), 21 vín „Tovar je skladom“ (27. 9. 2026); do ukážky ide 19 —
+vynechané sú dve 250 ml mini fľaše (duplicitné k veľkým) a vypredané
+BIO Pálava 2025 a BIO Veltlínske zelené 2025. Nitria má na e-shope adresu
+po staršom produkte (devin-2023-limited-polosuche), odkaz vedie na
+správnu stránku. Popisy sú z karty produktu (vôňa, chuť, parametre,
+nízky histamín). Fotky sú priehľadné packshoty z galérie produktu
+(og:image niektorých produktov vracia 404, preto najväčší obrázok
+zo srcset). Logo je SVG z webu: do ukážky biele písmo prefarbené
+na tmavé a žltá na tmavšiu zlatú, v hlavičke widgetu originál na
+čiernej. Symbol je slnko z loga (žlté na čiernom tlačidle). Farby:
+čierna hlavička webu (#141414) ako hlavná, akcent žltá z loga (#EBBB00)
+stmavená pre kontrast (#8F6B00). Poznámka: stránky produktov na webe
+zobrazujú PHP varovanie „Undefined variable $max“ pri tlačidle košíka.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| BIO Müller Thurgau 2025, suché | 11,00 € | https://carpatediem.sk/produkt/bio-muller-thurgau-2025-suche/ |
+| Rizling vlašský 2025, suché | 11,00 € | https://carpatediem.sk/produkt/rizling-vlassky-2025-suche/ |
+| Viechové víno 2025, suché 1 l | 7,10 € | https://carpatediem.sk/produkt/viechove-vino-2025/ |
+| Silvánske zelené 2024, suché | 11,00 € | https://carpatediem.sk/produkt/silvanske-zelene-2024-suche/ |
+| BIO Tramín červený 2025, suché | 13,00 € | https://carpatediem.sk/produkt/bio-tramin-cerveny-2025-suche/ |
+| Cuvée Devín & Pálava 2024, suché | 14,50 € | https://carpatediem.sk/produkt/cuvee-devin-palava-2024-suche/ |
+| Rizling rýnsky 2024 – LIMITED, suché | 29,00 € | https://carpatediem.sk/produkt/rizling-rynsky-2024-limited/ |
+| Rizling vlašský 2023 – LIMITED, suché | 29,00 € | https://carpatediem.sk/produkt/rizling-vlassky-2023-limited/ |
+| Tramín červený BARIQUE 2020, suché | 22,90 € | https://carpatediem.sk/produkt/tramin-cerveny-2020/ |
+| BIO Devín 2024, polosuché | 14,50 € | https://carpatediem.sk/produkt/bio-devin-2024-polosuche/ |
+| BIO Pálava 2024, polosladké | 14,50 € | https://carpatediem.sk/produkt/bio-palava-polosladke-2024/ |
+| BIO Tramín červený 2024, polosladké | 13,50 € | https://carpatediem.sk/produkt/bio-tramin-cerveny-2024-polosladke/ |
+| Frankovka modrá 2024, suché | 11,90 € | https://carpatediem.sk/produkt/frankovka-modra-2024-suche/ |
+| BIO Nitria 2024 – LIMITED, suché | 29,00 € | https://carpatediem.sk/produkt/devin-2023-limited-polosuche/ |
+| BIO Hron rosé 2025, suché | 11,90 € | https://carpatediem.sk/produkt/hron-suche-2025/ |
+| Cabernet Sauvignon rosé 2025, polosuché | 10,80 € | https://carpatediem.sk/produkt/cabernet-sauvignon-rose-2024-polosuche/ |
+| Saint Laurent rosé 2024 | 8,30 € | https://carpatediem.sk/produkt/saint-laurent-rose-2024-polosuche/ |
+| Frizzante Cabernet Sauvignon 2025, polosuché | 9,00 € | https://carpatediem.sk/produkt/sytene-perlive-vino-cabernet-sauvignon-2025/ |
+| Frizzante Muškát moravský 2024, polosuché | 9,00 € | https://carpatediem.sk/produkt/sytene-perlive-vino-muskat-moravsky-2024/ |

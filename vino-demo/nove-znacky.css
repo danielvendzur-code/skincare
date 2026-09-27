@@ -189,3 +189,17 @@ body[data-cosmetics-demo="skovajsa"] .cx-owner-brand .cx-logo {
 body[data-cosmetics-demo="vinkor"] .cx-widget-brand .cx-logo {
   filter: none !important;
 }
+body[data-cosmetics-demo="carpatediem"] .cx-owner-brand .cx-logo {
+  max-width: 260px !important;
+  max-height: 64px !important;
+}
+body[data-cosmetics-demo="carpatediem"] .cx-widget-brand .cx-logo {
+  filter: none !important;
+  max-width: 190px !important;
+  max-height: 46px !important;
+}
+@media (max-width: 520px) {
+  body[data-cosmetics-demo="carpatediem"] .cx-owner-brand .cx-logo {
+    max-width: 200px !important;
+  }
+}
