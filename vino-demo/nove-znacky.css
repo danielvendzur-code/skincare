@@ -124,3 +124,14 @@ body[data-cosmetics-demo="mikulica"] .cx-owner-brand .cx-logo {
 body[data-cosmetics-demo="mikulica"] .cx-widget-brand .cx-logo {
   max-height: 42px !important;
 }
+body[data-cosmetics-demo="volarik"] .cx-owner-brand .cx-logo {
+  max-width: 230px !important;
+}
+body[data-cosmetics-demo="volarik"] .cx-widget-brand .cx-logo {
+  max-width: 170px !important;
+}
+@media (max-width: 520px) {
+  body[data-cosmetics-demo="volarik"] .cx-owner-brand .cx-logo {
+    max-width: 165px !important;
+  }
+}

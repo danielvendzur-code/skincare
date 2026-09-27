@@ -372,3 +372,42 @@ stmavená pre kontrast).
 | Brut sekt Charmat | 270 Kč | https://vinarstvipaulus.cz/sekty-a-frizzante/brut-sekt-charmat/ |
 | Demi sekt Charmat | 270 Kč | https://vinarstvipaulus.cz/sekty-a-frizzante/demi-sekt-charmat/ |
 | Demi sekt rosé Charmat | 270 Kč | https://vinarstvipaulus.cz/sekty-a-frizzante/demi-sekt-rose-charmat/ |
+
+## Vinařství Volařík — vinarstvivolarik.cz
+
+Rodinné vinárstvo z Mikulova (vlastný e-shop, ceny v Kč), 80 vín
+v kategórii Vína a 6 sektov a perlivých vín, všetko „Skladem“
+k 27. 9. 2026 (zoznam e-shopu, 8 strán, a detail každého vína).
+Vinárstvo robí takmer len biele vína — jediné červené v ponuke je
+Cabernet Sauvignon 2022 Turold, preto chat pri červenom otvorene
+povie, že červených je málo. Do ukážky ide 19 vín naprieč traťami,
+terroir radom, výbermi z bobúľ a cibéb, rosé a sektmi. Popisy vín sú
+z e-shopu (preložené do slovenčiny). Fotky sú packshoty z e-shopu
+(pôvodné súbory sú menšie, 270–700 px na šírku, na zobrazovanej
+veľkosti stačia). Web má ako logo iba symbol (SVG v hlavičke), preto
+je wordmark zložený zo symbolu a názvu VOLAŘÍK v písme Lora, ktoré
+web používa v nadpisoch; do hlavičky widgetu ide biela verzia.
+Symbol je ten istý znak z hlavičky webu. Farby: bronzová odvodená zo
+zlatej webu (#C8B274) ako hlavná, akcent svetlejšia zlatá.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Veltlínské zelené, pozdní sběr 2024, Věstonsko | 200 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/veltlinske-zelene-pozdni-sber-2024-vestonsko/ |
+| Ryzlink vlašský, pozdní sběr 2025, Zimní vrch | 200 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/ryzlink-vlassky-pozdni-sber-2025-zimni-vrch/ |
+| Ryzlink rýnský, pozdní sběr 2025, Zimní vrch | 230 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/ryzlink-rynsky-pozdni-sber-2025-zimni-vrch/ |
+| Muškát moravský, moravské zemské víno 2025, Refresh | 180 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/muskat-moravsky-moravske-zemske-vino-2025-za-turoldem/ |
+| Sauvignon, pozdní sběr 2025, Na Statkách | 270 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/sauvignon-pozdni-sber-2025-na-statkach/ |
+| Pálava, pozdní sběr 2025, U Boží muky | 250 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/palava-pozdni-sber-2025-u-bozi-muky/ |
+| Tramín červený, výběr z hroznů 2024, Plotny | 250 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/tramin-cerveny-vyber-z-hroznu-2024-plotny/ |
+| Ryzlink vlašský, výběr z hroznů 2024, terroir Kotelná | 370 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/ryzlink-vlassky-vyber-z-hroznu-2024-terroir-kotelna/ |
+| Veltlínské zelené, výběr z hroznů 2024, terroir Věstonsko | 370 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/veltlinske-zelene-vyber-z-hroznu-2024-terroir-vestonsko/ |
+| Pálava, výběr z hroznů 2024, terroir U Venuše | 370 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/palava-vyber-z-hroznu-2024-terroir-u-venuse/ |
+| Tramín kořenný, výběr z hroznů 2024, Pod Slunným vrchem | 250 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/tramin-korenny-vyber-z-hroznu-2024-pod-slunnym-vrchem/ |
+| Pálava, výběr z bobulí 2024, Purmice | 300 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/palava-vyber-z-bobuli-2024-purmice/ |
+| Ryzlink rýnský, výběr z cibéb 2021, Ořechová hora (0,5 l) | 280 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/ryzlink-rynsky-vyber-z-cibeb-2021-orechova-hora/ |
+| Cabernet Sauvignon, výběr z hroznů 2022, Turold | 650 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/cabernet-sauvignon-vyber-z-hroznu-2022-turold/ |
+| Frankovka rosé, pozdní sběr 2025, Plotny | 220 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/frankovka-rose-pozdni-sber-2025-plotny/ |
+| Merlot rosé, výběr z hroznů 2025, Pod Valtickou | 230 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/merlot-rose-vyber-z-hroznu-2025-pod-valtickou/ |
+| Perlivée, růžové cuvée 2025, polosladké | 200 Kč | https://www.vinarstvivolarik.cz/cs/eshop/sekty/perlivee-ruzove-cuvee-2025/ |
+| Perlivée, bílé cuvée 2025, suché | 200 Kč | https://www.vinarstvivolarik.cz/cs/eshop/sekty/perlivee-bile-cuvee-2025/ |
+| Sekt Volařík - Ryzlink vlašský 2021, extra brut | 390 Kč | https://www.vinarstvivolarik.cz/cs/eshop/sekty/sekt-volarik-ryzlink-vlassky-2021/ |
