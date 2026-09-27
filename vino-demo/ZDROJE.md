@@ -689,3 +689,45 @@ stmavená pre kontrast) ako hlavná, akcent zelená z webu (#4E6432).
 | Cabernet FRIZZANTE 2024, suché (rosé) | 11,20 € | https://www.vinoskovajsa.sk/frizzante/cabernet-frizzante-2024-suche/ |
 | SEKT ROSÉ N.V., brut | 18,90 € | https://www.vinoskovajsa.sk/sekt/sekt-rose-brut/ |
 | SEKT BLANC N.V., brut nature | 21,90 € | https://www.vinoskovajsa.sk/sekt/sekt-blanc-brut-nature/ |
+
+## Vinařství Škrobák — vinoskrobak.cz
+
+Rodinné vinárstvo z Čejkovíc (WooCommerce, ceny v Kč), 24 vín „InStock“
+(27. 9. 2026) — biele od kabinetu po výber z cibéb, červené, rosé,
+frizzante, dve ľadové vína a sekt Blanc de blanc; do ukážky idú všetky.
+Vypredané Scarabeus Pinot noir a Chardonnay 2024 sú vynechané. Názvy
+a ceny sú podľa nadpisu produktu (adresy stránok nesú staršie ročníky).
+Popisy sú z karty „Popis“; Frankovka klaret, Modrý Portugal a Muškát
+frizzante popis nemajú, tam je krátka veta z názvu a parametrov. Fotky
+sú packshoty z e-shopu; sekt má na e-shope iba fotku fľaše v ruke, tá
+ide orezaná. Logo „Škrobák“ je PNG z vekového overenia na webe (biela
+verzia do hlavičky widgetu), symbol je znamenie z bieleho loga webu.
+Farby: web je tmavý s limetkovo zelenými tlačidlami — hlavná olivovo
+zelená (#5B7A12, stmavená pre kontrast), akcent uhľová z loga (#241F20).
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Irsai Oliver 2024, kabinetní, suché | 220 Kč | https://vinoskrobak.cz/produkt/irsai-oliver-2022-kabinetni-suche/ |
+| Ryzlink vlašský 2025, pozdní sběr, suché | 180 Kč | https://vinoskrobak.cz/produkt/ryzlink-vlassky-2019-zemske-suche/ |
+| Ryzlink rýnský 2025, kabinetní, suché | 230 Kč | https://vinoskrobak.cz/produkt/ryzlink-rynsky-2023-pozdni-sber-suche/ |
+| Sylvánské zelené 2024, pozdní sběr, suché | 230 Kč | https://vinoskrobak.cz/produkt/sylvanske-zelene-2019-pozdni-sber-suche/ |
+| Sauvignon 2023, kabinetní, suché | 230 Kč | https://vinoskrobak.cz/produkt/sauvignon-2020-pozdni-sber-suche/ |
+| Hibernal 2025, pozdní sběr, suché | 230 Kč | https://vinoskrobak.cz/produkt/hibernal-2018-pozdni-sber-suche/ |
+| Pálava 2025, pozdní sběr, suché | 230 Kč | https://vinoskrobak.cz/produkt/palava-2021-vyber-z-bobuli-sladke/ |
+| Rulandské bílé 2023, pozdní sběr, suché | 230 Kč | https://vinoskrobak.cz/produkt/rulandske-bile-2021-pozdni-sber-suche/ |
+| Rulandské šedé 2023, výběr z hroznů, suché | 270 Kč | https://vinoskrobak.cz/produkt/rulandske-sede-2017-pozdni-sber-suche/ |
+| Tramín 2024, pozdní sběr, suché | 270 Kč | https://vinoskrobak.cz/produkt/tramin-2021-vyber-z-hroznu-polosladke/ |
+| Tramín 2025, pozdní sběr, polosuché | 230 Kč | https://vinoskrobak.cz/produkt/tramin-2025-pozdni-sber-polosuche/ |
+| Aurelius 2022, pozdní sběr, sladké | 230 Kč | https://vinoskrobak.cz/produkt/aurelius-2018-vyber-z-hroznu-polosladke/ |
+| Solaris 2020, výběr z cibéb, sladké 0,5 l | 370 Kč | https://vinoskrobak.cz/produkt/solaris-2019-vyber-z-cibeb-sladke-05lt/ |
+| Ryzlink vlašský / Tramín 2018, ledové, sladké 0,375 l | 550 Kč | https://vinoskrobak.cz/produkt/ryzlink-vlassky-tramin-2018-ledove-sladke/ |
+| Frankovka 2018, ledové, sladké 0,375 l | 550 Kč | https://vinoskrobak.cz/produkt/frankovka-2018-ledove-sladke/ |
+| Modrý Portugal 2023, zemské, suché | 160 Kč | https://vinoskrobak.cz/produkt/modry-portugal-2022-moravske-zemske-vino-suche/ |
+| Frankovka 2021, pozdní sběr, suché | 220 Kč | https://vinoskrobak.cz/produkt/frankovka-2015-vyber-z-hroznu-suche/ |
+| Dornfelder 2025, pozdní sběr, suché | 230 Kč | https://vinoskrobak.cz/produkt/dornfelder-2018-pozdni-sber-suche/ |
+| Rulandské modré 2022, pozdní sběr | 340 Kč | https://vinoskrobak.cz/produkt/rulandske-modre-2022-pozdni-sber/ |
+| Alibernet rosé 2025, zemské, polosuché | 160 Kč | https://vinoskrobak.cz/produkt/alibernet-rose-2020-moravske-zemske-vino-polosuche/ |
+| Frankovka klaret 2023, suché | 220 Kč | https://vinoskrobak.cz/produkt/frankovka-klaret-2019-kabinetni-suche/ |
+| Frizzante rosé 2023 | 230 Kč | https://vinoskrobak.cz/produkt/zweigeltrebe-rose-frizzante-2018/ |
+| Muškát moravský Frizzante 2025, polosuché | 230 Kč | https://vinoskrobak.cz/produkt/muskat-moravsky-frizzante-2025-polosuche/ |
+| Blanc de blanc No.1 2022, extra brut | 450 Kč | https://vinoskrobak.cz/produkt/blanc-de-blanc-no-1-extra-brut/ |

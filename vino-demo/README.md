@@ -46,3 +46,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Víno Lípa | [vinolipa.cz](https://vinolipa.cz/) | `/lipa/` · `lipa.mojchatbot.sk` |
 | Vinařství Jan Plaček | [vinoplacek.cz](https://www.vinoplacek.cz/) | `/placek/` · `placek.mojchatbot.sk` |
 | Víno Skovajsa | [vinoskovajsa.sk](https://www.vinoskovajsa.sk/e-shop/) | `/skovajsa/` · `skovajsa.mojchatbot.sk` |
+| Vinařství Škrobák | [vinoskrobak.cz](https://vinoskrobak.cz/internetovy-obchod/) | `/skrobak/` · `skrobak.mojchatbot.sk` |
