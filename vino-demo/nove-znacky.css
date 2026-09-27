@@ -183,3 +183,6 @@ body[data-cosmetics-demo="placek"] .cx-widget-brand .cx-logo {
     max-width: 170px !important;
   }
 }
+body[data-cosmetics-demo="skovajsa"] .cx-owner-brand .cx-logo {
+  max-height: 54px !important;
+}

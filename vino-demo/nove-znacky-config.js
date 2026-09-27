@@ -526,6 +526,31 @@
         {id:'bublinky',name:'Bublinky 2025, Veltlínské zelené, perlivé',price:'181 Kč',url:'https://www.vinoplacek.cz/bublinky-2025-veltlinske-zelene-perlive-vino/',photo:photo('placek','bublinky'),tags:['sparkling','crisp','fish'],reason:'Biele perlivé víno z Veltlínu na hranici suchého a polosuchého — svieže bublinky na leto.'},
         {id:'sekt',name:'Sekt Plaček brut, Ryzlink rýnský 2022',price:'369 Kč',url:'https://www.vinoplacek.cz/brut-sekt-ryzlink-rynsky/',photo:photo('placek','sekt'),tags:['sparkling','crisp','fish','target'],reason:'Akostné šumivé víno z Rizlingu rýnskeho, 12,5 % alkoholu — na prípitok alebo ako darček.'}
       ]
+    },
+    skovajsa: {
+      name:'Víno Skovajsa', domain:'vinoskovajsa.sk', website:'https://www.vinoskovajsa.sk/e-shop/',
+      theme:{brand:'#b9531f',accent:'#4e6432',soft:'#f7f2ec',paper:'#fdfbf8',ink:'#241d18',line:'#ebe0d5'},
+      wordmark:logo('skovajsa','Víno Skovajsa'),
+      hero:'/assets/vino/skovajsa.jpg', mark:'/assets/vino/skovajsa-mark.png', headerLogo:'/assets/vino/skovajsa-logo-header.png',
+      markColor:{reverse:'/assets/vino/skovajsa-mark-reverse.png',bg:'#b9531f',bgHover:'#f7f2ec'},
+      ownerNote:'Vína z Pezinka v štyroch líniách — FRESH, IDENTITY, TERROIR a SELECTION — plus frizzante a sekty, a zákazník nevie, ktorá je pre neho.',
+      benefit:['Vysvetlí rozdiel medzi líniami','Vyberie víno k jedlu aj na oslavu','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'rv',name:'Rizling vlašský FRESH 2025, suché',price:'10,20 €',url:'https://www.vinoskovajsa.sk/rizling-vlassky/rizling-vlassky-fresh-2025-suche/',photo:photo('skovajsa','rv'),tags:['white','crisp','fish'],reason:'Svieže, minerálne, citrusové. Línia FRESH: mladé a svieže vína s nižším alkoholom z pezinskej trate Grefty, 11,5 % alkoholu.'},
+        {id:'sz',name:'Silvánske zelené IDENTITY 2024, suché',price:'11,80 €',url:'https://www.vinoskovajsa.sk/silvanske-zelene/silvanske-zelene-identity-2024-suche/',photo:photo('skovajsa','sz'),tags:['white','crisp','fish'],reason:'Jemné, minerálne, harmonické. Línia IDENTITY: tradičné, poctivé a lahodné vína vinárstva.'},
+        {id:'pb',name:'Pinot blanc IDENTITY 2025, suché',price:'11,80 €',url:'https://www.vinoskovajsa.sk/pinot-blanc/pinot-blanc-identity-2025-suche/',photo:photo('skovajsa','pb'),tags:['white','fruity','fish'],reason:'Plné, ovocné, elegantné. Línia IDENTITY: tradičné, poctivé a lahodné vína vinárstva.'},
+        {id:'ch',name:'Chardonnay IDENTITY 2025, suché',price:'11,80 €',url:'https://www.vinoskovajsa.sk/chardonnay/chardonnay-identity-2025/',photo:photo('skovajsa','ch'),tags:['white','fruity','fish'],reason:'Ovocné, minerálne, harmonické. Línia IDENTITY: tradičné, poctivé a lahodné vína vinárstva.'},
+        {id:'devin',name:'Devín IDENTITY 2025, suché',price:'13,50 €',url:'https://www.vinoskovajsa.sk/devin/devin-identity-2025-suche/',photo:photo('skovajsa','devin'),tags:['white','fruity','cheese'],reason:'Výrazné, ovocno-korenisté, harmonické — z pezinskej trate Alica, 13,5 % alkoholu.'},
+        {id:'vz',name:'Veltlínske zelené TERROIR 2025, suché',price:'14,90 €',url:'https://www.vinoskovajsa.sk/veltlinske-zelene/veltlinske-zelene-terroir-2025/',photo:photo('skovajsa','vz'),tags:['white','bold','fish','target'],reason:'Plné, korenisté, štruktúrované. Línia TERROIR: vína, ktoré nesú charakter konkrétnej vinice — trať Grefty, potenciál zrenia 5+ rokov.'},
+        {id:'frankovka',name:'Frankovka modrá FRUITY 2023, suché',price:'11,80 €',url:'https://www.vinoskovajsa.sk/frankovka-modra/frankovka-modra-fruity-2023-suche/',photo:photo('skovajsa','frankovka'),tags:['red','fruity','meat'],reason:'Ovocné, vyvážené, jemné — ľahšia suchá Frankovka ku grilu a mäsu.'},
+        {id:'neronet',name:'Neronet IDENTITY 2021, suché',price:'11,80 €',url:'https://www.vinoskovajsa.sk/neronet/neronet-identity-2021/',photo:photo('skovajsa','neronet'),tags:['red','bold','meat'],reason:'Intenzívne, štruktúrované, bohaté. Línia IDENTITY: tradičné, poctivé a lahodné vína vinárstva.'},
+        {id:'sv',name:'Svätovavrinecké TERROIR 2022, suché',price:'16,30 €',url:'https://www.vinoskovajsa.sk/svatovavrinecke/svatovavrinecke-terroir/',photo:photo('skovajsa','sv'),tags:['red','fruity','meat','target'],reason:'Komplexné, ovocné, vyvážené. Línia TERROIR: vína, ktoré nesú charakter konkrétnej vinice.'},
+        {id:'neronetsel',name:'Neronet SELECTION 2022, suché',price:'19,40 €',url:'https://www.vinoskovajsa.sk/neronet/neronet-selection-2022-suche/',photo:photo('skovajsa','neronetsel'),tags:['red','bold','meat','target'],reason:'Mohutné, vyzreté, elegantné — zo Starej hory v Pezinku. Línia SELECTION: vzniká len v najlepších ročníkoch.'},
+        {id:'chfrizz',name:'Chardonnay FRIZZANTE 2025, suché',price:'11,50 €',url:'https://www.vinoskovajsa.sk/chardonnay/chardonnay-frizzante-2025/',photo:photo('skovajsa','chfrizz'),tags:['sparkling','fruity','fish'],reason:'Osviežujúce, ovocné, perlivé — biele frizzante na leto.'},
+        {id:'cabfrizz',name:'Cabernet FRIZZANTE 2024, suché (rosé)',price:'11,20 €',url:'https://www.vinoskovajsa.sk/frizzante/cabernet-frizzante-2024-suche/',photo:photo('skovajsa','cabfrizz'),tags:['sparkling','fruity','fish'],reason:'Ovocné, šťavnaté, perlivé — ružové frizzante z Cabernetu.'},
+        {id:'sektrose',name:'SEKT ROSÉ N.V., brut',price:'18,90 €',url:'https://www.vinoskovajsa.sk/sekt/sekt-rose-brut/',photo:photo('skovajsa','sektrose'),tags:['sparkling','crisp','fish','target'],reason:'Ružový sekt tradičnou metódou z vlastných viníc — druhotné kvasenie vo fľaši a jemné perlenie.'},
+        {id:'sektblanc',name:'SEKT BLANC N.V., brut nature',price:'21,90 €',url:'https://www.vinoskovajsa.sk/sekt/sekt-blanc-brut-nature/',photo:photo('skovajsa','sektblanc'),tags:['sparkling','crisp','fish','target'],reason:'Tradičná metóda, elegantné, minerálne — biely sekt bez dosage z vlastných viníc.'}
+      ]
     }
   });
 })();

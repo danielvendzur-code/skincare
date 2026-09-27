@@ -657,3 +657,35 @@ akcent čierna.
 | RosénCO2 2025, perlivé rosé, polosladké | 181 Kč | https://www.vinoplacek.cz/rosenco2-perlive-vino/ |
 | Bublinky 2025, Veltlínské zelené, perlivé | 181 Kč | https://www.vinoplacek.cz/bublinky-2025-veltlinske-zelene-perlive-vino/ |
 | Sekt Plaček brut, Ryzlink rýnský 2022 | 369 Kč | https://www.vinoplacek.cz/brut-sekt-ryzlink-rynsky/ |
+
+## Víno Skovajsa — vinoskovajsa.sk
+
+Malokarpatské rodinné vinárstvo z Pezinka (Shoptet, ceny v €), 14 vín
+„Skladom“ (27. 9. 2026) v líniách FRESH, IDENTITY, TERROIR a SELECTION,
+plus frizzante a sekty — do ukážky idú všetky. Vypredané a nedostupné
+(Müller Thurgau, Rizling rýnsky TERROIR, Veltlín FRESH, Hibernal FRESH,
+Svätovavrinecké rosé) sú vynechané. Vinárstvo robí suché vína a tiché
+rosé momentálne nemá, preto pri voľbe „sladšie“ alebo „ružové“ poradca
+ponúkne najovocnejšie či perlivé ružové. Popisy sú tri prívlastky
+z e-shopu a opis línie. Fotky sú packshoty z e-shopu (niektoré s
+farebným obdĺžnikom za fľašou, tak ako na e-shope). Logo je PNG
+z e-shopu s odstráneným bielym pozadím; do hlavičky widgetu ide biela
+verzia. Symbol je „S“ z loga. Farby: oranžová z webu (#D3642B,
+stmavená pre kontrast) ako hlavná, akcent zelená z webu (#4E6432).
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Rizling vlašský FRESH 2025, suché | 10,20 € | https://www.vinoskovajsa.sk/rizling-vlassky/rizling-vlassky-fresh-2025-suche/ |
+| Silvánske zelené IDENTITY 2024, suché | 11,80 € | https://www.vinoskovajsa.sk/silvanske-zelene/silvanske-zelene-identity-2024-suche/ |
+| Pinot blanc IDENTITY 2025, suché | 11,80 € | https://www.vinoskovajsa.sk/pinot-blanc/pinot-blanc-identity-2025-suche/ |
+| Chardonnay IDENTITY 2025, suché | 11,80 € | https://www.vinoskovajsa.sk/chardonnay/chardonnay-identity-2025/ |
+| Devín IDENTITY 2025, suché | 13,50 € | https://www.vinoskovajsa.sk/devin/devin-identity-2025-suche/ |
+| Veltlínske zelené TERROIR 2025, suché | 14,90 € | https://www.vinoskovajsa.sk/veltlinske-zelene/veltlinske-zelene-terroir-2025/ |
+| Frankovka modrá FRUITY 2023, suché | 11,80 € | https://www.vinoskovajsa.sk/frankovka-modra/frankovka-modra-fruity-2023-suche/ |
+| Neronet IDENTITY 2021, suché | 11,80 € | https://www.vinoskovajsa.sk/neronet/neronet-identity-2021/ |
+| Svätovavrinecké TERROIR 2022, suché | 16,30 € | https://www.vinoskovajsa.sk/svatovavrinecke/svatovavrinecke-terroir/ |
+| Neronet SELECTION 2022, suché | 19,40 € | https://www.vinoskovajsa.sk/neronet/neronet-selection-2022-suche/ |
+| Chardonnay FRIZZANTE 2025, suché | 11,50 € | https://www.vinoskovajsa.sk/chardonnay/chardonnay-frizzante-2025/ |
+| Cabernet FRIZZANTE 2024, suché (rosé) | 11,20 € | https://www.vinoskovajsa.sk/frizzante/cabernet-frizzante-2024-suche/ |
+| SEKT ROSÉ N.V., brut | 18,90 € | https://www.vinoskovajsa.sk/sekt/sekt-rose-brut/ |
+| SEKT BLANC N.V., brut nature | 21,90 € | https://www.vinoskovajsa.sk/sekt/sekt-blanc-brut-nature/ |

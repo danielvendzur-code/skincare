@@ -45,3 +45,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Víno Přistál | [znojmo.wine](https://www.znojmo.wine/) | `/pristal/` · `pristal.mojchatbot.sk` |
 | Víno Lípa | [vinolipa.cz](https://vinolipa.cz/) | `/lipa/` · `lipa.mojchatbot.sk` |
 | Vinařství Jan Plaček | [vinoplacek.cz](https://www.vinoplacek.cz/) | `/placek/` · `placek.mojchatbot.sk` |
+| Víno Skovajsa | [vinoskovajsa.sk](https://www.vinoskovajsa.sk/e-shop/) | `/skovajsa/` · `skovajsa.mojchatbot.sk` |
