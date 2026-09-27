@@ -496,6 +496,36 @@
         {id:'sektch',name:'Sekt Chardonnay Brut Nature 2023',price:'370 Kč',url:'https://vinolipa.cz/produkt/sekt-chardonnay-brut-nature-2023/',photo:photo('lipa','sektch'),tags:['sparkling','crisp','fish','target'],reason:'Tradičná metóda, 30 mesiacov na kaloch, ručne striasané fľaše — limitovaná šarža 200 fliaš z trate Pod Svatým kopečkem.'},
         {id:'sektrm',name:'Sekt Rulandské modré Extra Brut 2023',price:'370 Kč',url:'https://vinolipa.cz/produkt/sekt-rulandske-modre-extra-brut-2023/',photo:photo('lipa','sektrm'),tags:['sparkling','crisp','fish','target'],reason:'Blanc de noirs tradičnou metódou, 30 mesiacov na kaloch — limitovaná šarža 400 fliaš.'}
       ]
+    },
+    placek: {
+      name:'Vinařství Jan Plaček', domain:'vinoplacek.cz', website:'https://www.vinoplacek.cz/',
+      theme:{brand:'#80002a',accent:'#1a1a1a',soft:'#f7f2f2',paper:'#fdfbfb',ink:'#1a1a1a',line:'#ebdfe1'},
+      wordmark:logo('placek','Vinařství Jan Plaček'),
+      hero:'/assets/vino/placek.jpg', mark:'/assets/vino/placek-mark.png', headerLogo:'/assets/vino/placek-logo-header.png',
+      markColor:{reverse:'/assets/vino/placek-mark-reverse.png',bg:'#80002a',bgHover:'#f7f2f2'},
+      ownerNote:'Vyše 40 vín zo Znojemska — suché aj polosladké biele, rad Oak age, klarety, perlivé RosénCO2 a sekt — a zákazník nevie, čo vybrať.',
+      benefit:['Z vyše 40 vín to pravé k jedlu','Poradí od perlivého po Oak age','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'hibernal',name:'Hibernal 2025, pozdní sběr, suché',price:'233 Kč',url:'https://www.vinoplacek.cz/hibernal-2025-pozdni-sber-2/',photo:photo('placek','hibernal'),tags:['white','crisp','fish'],reason:'Suchý Hibernal z trate Veselá hora v Mělčanoch — podávať vychladený pri 10–12 °C.'},
+        {id:'rs',name:'Rulandské šedé 2025, pozdní sběr, suché',price:'220 Kč',url:'https://www.vinoplacek.cz/rulandske-sede-2025-pozdni-sber/',photo:photo('placek','rs'),tags:['white','bold','fish'],reason:'Suchý Pinot Gris v akosti neskorý zber — plnšie biele k hydine a rybám.'},
+        {id:'chard23',name:'Chardonnay 2023, pozdní sběr, Privileg, suché',price:'254 Kč',url:'https://www.vinoplacek.cz/chardonnay-2023-pozdni-sber/',photo:photo('placek','chard23'),tags:['white','bold','fish','target'],reason:'Chardonnay z radu Privileg, zrelé v sude — suché, plné biele.'},
+        {id:'rinot',name:'Rinot 2021, pozdní sběr, suché, zrálo v sudu',price:'220 Kč',url:'https://www.vinoplacek.cz/rinot-2021--pozdni-sber--suche-zralo-v-sudu/',photo:photo('placek','rinot'),tags:['white','bold','cheese'],reason:'Suchý Rinot vyzretý v sude — k syrom a hydine.'},
+        {id:'savilon',name:'Savilon 2025, pozdní sběr, polosuché',price:'215 Kč',url:'https://www.vinoplacek.cz/savilon-2025-pozdni-sber/',photo:photo('placek','savilon'),tags:['white','fruity','fish'],reason:'Polosuchý Savilon, novšia česká odroda — ovocné a ľahké biele.'},
+        {id:'palava',name:'Pálava 2025, kabinet, polosuché',price:'194 Kč',url:'https://www.vinoplacek.cz/palava-2025-kabinet-polosuche/',photo:photo('placek','palava'),tags:['white','fruity','cheese'],reason:'Polosuchá Pálava v akosti kabinet — voňavá a ovocná.'},
+        {id:'pokuseni',name:'Mladé Pokušení 2025, polosladké',price:'189 Kč',url:'https://www.vinoplacek.cz/mlade-pokuseni--moravske-zemske-vino-2025/',photo:photo('placek','pokuseni'),tags:['white','sweet','fish'],reason:'Cuvée Muškátu a Muscarisu: ovocná vôňa, šťavnatá chuť s pikantnou kyselinkou — k ľahkým šalátom a kozím syrom.'},
+        {id:'hibpolo',name:'Hibernal 2025, pozdní sběr, polosladké',price:'207 Kč',url:'https://www.vinoplacek.cz/hibernal-2025-pozdni-sber/',photo:photo('placek','hibpolo'),tags:['white','sweet','cheese'],reason:'Polosladký Hibernal z trate Veselá hora — k dezertom a syrom.'},
+        {id:'cortis',name:'Cabernet Cortis 2025, suché',price:'168 Kč',url:'https://www.vinoplacek.cz/cabernet-cortis-2025-moravske-zemske-vino/',photo:photo('placek','cortis'),tags:['red','fruity','meat'],reason:'Suché červené z odrody Cabernet Cortis — na každý deň, ku grilu.'},
+        {id:'zweigelt',name:'Zweigeltrebe 2024, pozdní sběr, suché',price:'220 Kč',url:'https://www.vinoplacek.cz/zweigeltrebe-2024--pozdni-sber/',photo:photo('placek','zweigelt'),tags:['red','fruity','meat'],reason:'Suché Zweigeltrebe v akosti neskorý zber — ovocné červené.'},
+        {id:'anah',name:'Cuvée ANAH 2023, pozdní sběr, suché',price:'259 Kč',url:'https://www.vinoplacek.cz/cuvee-anah-2023-pozdni-sber/',photo:photo('placek','anah'),tags:['red','bold','meat'],reason:'Červené cuvée Merlotu a Cabernetu Cortis v akosti neskorý zber, suché.'},
+        {id:'frankovka',name:'Frankovka 2023, výběr z hroznů, Oak age, suché',price:'363 Kč',url:'https://www.vinoplacek.cz/frankovka-2023-vyber-z-hroznu/',photo:photo('placek','frankovka'),tags:['red','bold','meat'],reason:'Frankovka vo výbere z hrozna z radu Oak age, zrelá v dubových sudoch.'},
+        {id:'merlot',name:'Merlot 2022, výběr z hroznů, Oak age, suché',price:'453 Kč',url:'https://www.vinoplacek.cz/merlot-2022-vyber-z-hroznu/',photo:photo('placek','merlot'),tags:['red','bold','meat','target'],reason:'Merlot vo výbere z hrozna z radu Oak age — plné červené z dubových sudov.'},
+        {id:'c348',name:'Cuvée 348 2022, pozdní sběr, Oak age',price:'453 Kč',url:'https://www.vinoplacek.cz/cuvee-348-2022--pozdni-sber/',photo:photo('placek','c348'),tags:['red','bold','meat','target'],reason:'Zlatá medaila Salon vín 2025: robustné červené s tónmi čokolády a kávy z dubových sudov — k hovädziemu alebo na archiváciu.'},
+        {id:'rmrose',name:'Rulandské modré rosé 2025, pozdní sběr, polosuché',price:'207 Kč',url:'https://www.vinoplacek.cz/rulandske-modre-rose-2025-pozdni-sber/',photo:photo('placek','rmrose'),tags:['rose','fruity','fish'],reason:'Polosuché rosé z Pinotu Noir z trate Nová hora — ľahké ružové na leto.'},
+        {id:'klaret',name:'Cabernet Cortis klaret 2025, výběr z hroznů, polosladké',price:'233 Kč',url:'https://www.vinoplacek.cz/cabernet-cortis-klaret-2025-vyber-z-hroznu/',photo:photo('placek','klaret'),tags:['rose','sweet','fish'],reason:'Polosladký klaret z Cabernetu Cortis vo výbere z hrozna — podávať pri 8–12 °C.'},
+        {id:'rosenco2',name:'RosénCO2 2025, perlivé rosé, polosladké',price:'181 Kč',url:'https://www.vinoplacek.cz/rosenco2-perlive-vino/',photo:photo('placek','rosenco2'),tags:['sparkling','sweet','fish'],reason:'Polosladké perlivé rosé zo Svätovavrineckého s jemným perlením — svieže a ľahké.'},
+        {id:'bublinky',name:'Bublinky 2025, Veltlínské zelené, perlivé',price:'181 Kč',url:'https://www.vinoplacek.cz/bublinky-2025-veltlinske-zelene-perlive-vino/',photo:photo('placek','bublinky'),tags:['sparkling','crisp','fish'],reason:'Biele perlivé víno z Veltlínu na hranici suchého a polosuchého — svieže bublinky na leto.'},
+        {id:'sekt',name:'Sekt Plaček brut, Ryzlink rýnský 2022',price:'369 Kč',url:'https://www.vinoplacek.cz/brut-sekt-ryzlink-rynsky/',photo:photo('placek','sekt'),tags:['sparkling','crisp','fish','target'],reason:'Akostné šumivé víno z Rizlingu rýnskeho, 12,5 % alkoholu — na prípitok alebo ako darček.'}
+      ]
     }
   });
 })();

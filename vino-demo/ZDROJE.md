@@ -621,3 +621,39 @@ ako hlavná, akcent oranžovočervená z kruhu na etiketách.
 | Lipasecco cuvée 2025, polosuché | 195 Kč | https://vinolipa.cz/produkt/lipasecco-cuvee-2025/ |
 | Sekt Chardonnay Brut Nature 2023 | 370 Kč | https://vinolipa.cz/produkt/sekt-chardonnay-brut-nature-2023/ |
 | Sekt Rulandské modré Extra Brut 2023 | 370 Kč | https://vinolipa.cz/produkt/sekt-rulandske-modre-extra-brut-2023/ |
+
+## Vinařství Jan Plaček — vinoplacek.cz
+
+Rodinné vinárstvo zo Znojemska (Shoptet, ceny v Kč), vyše 40 vín
+skladom: suché aj polosladké biele, rad Oak age z dubových sudov,
+klarety a rosé, perlivé RosénCO2 a Bublinky a sekt. Ceny a sklad sú
+z kategórií a detailov e-shopu (27. 9. 2026); do ukážky ide 19 vín.
+Vynechané sú vína bez fotky na e-shope (Chardonnay 2024, polosladká
+Pálava 2025) a darčekové varianty. Popisy sú z detailu produktu,
+väčšinou iba akosť, trať a spôsob zrenia. Fotky sú packshoty z e-shopu,
+pri Cuvée 348 a Frankovke orezané bez veľkej medaily vedľa fľaše.
+Logo je PNG z e-shopu; do hlavičky widgetu ide biela verzia. Symbol
+je monogram JP z loga. Farby: bordová z webu (#80002a) ako hlavná,
+akcent čierna.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Hibernal 2025, pozdní sběr, suché | 233 Kč | https://www.vinoplacek.cz/hibernal-2025-pozdni-sber-2/ |
+| Rulandské šedé 2025, pozdní sběr, suché | 220 Kč | https://www.vinoplacek.cz/rulandske-sede-2025-pozdni-sber/ |
+| Chardonnay 2023, pozdní sběr, Privileg, suché | 254 Kč | https://www.vinoplacek.cz/chardonnay-2023-pozdni-sber/ |
+| Rinot 2021, pozdní sběr, suché, zrálo v sudu | 220 Kč | https://www.vinoplacek.cz/rinot-2021--pozdni-sber--suche-zralo-v-sudu/ |
+| Savilon 2025, pozdní sběr, polosuché | 215 Kč | https://www.vinoplacek.cz/savilon-2025-pozdni-sber/ |
+| Pálava 2025, kabinet, polosuché | 194 Kč | https://www.vinoplacek.cz/palava-2025-kabinet-polosuche/ |
+| Mladé Pokušení 2025, polosladké | 189 Kč | https://www.vinoplacek.cz/mlade-pokuseni--moravske-zemske-vino-2025/ |
+| Hibernal 2025, pozdní sběr, polosladké | 207 Kč | https://www.vinoplacek.cz/hibernal-2025-pozdni-sber/ |
+| Cabernet Cortis 2025, suché | 168 Kč | https://www.vinoplacek.cz/cabernet-cortis-2025-moravske-zemske-vino/ |
+| Zweigeltrebe 2024, pozdní sběr, suché | 220 Kč | https://www.vinoplacek.cz/zweigeltrebe-2024--pozdni-sber/ |
+| Cuvée ANAH 2023, pozdní sběr, suché | 259 Kč | https://www.vinoplacek.cz/cuvee-anah-2023-pozdni-sber/ |
+| Frankovka 2023, výběr z hroznů, Oak age, suché | 363 Kč | https://www.vinoplacek.cz/frankovka-2023-vyber-z-hroznu/ |
+| Merlot 2022, výběr z hroznů, Oak age, suché | 453 Kč | https://www.vinoplacek.cz/merlot-2022-vyber-z-hroznu/ |
+| Cuvée 348 2022, pozdní sběr, Oak age | 453 Kč | https://www.vinoplacek.cz/cuvee-348-2022--pozdni-sber/ |
+| Rulandské modré rosé 2025, pozdní sběr, polosuché | 207 Kč | https://www.vinoplacek.cz/rulandske-modre-rose-2025-pozdni-sber/ |
+| Cabernet Cortis klaret 2025, výběr z hroznů, polosladké | 233 Kč | https://www.vinoplacek.cz/cabernet-cortis-klaret-2025-vyber-z-hroznu/ |
+| RosénCO2 2025, perlivé rosé, polosladké | 181 Kč | https://www.vinoplacek.cz/rosenco2-perlive-vino/ |
+| Bublinky 2025, Veltlínské zelené, perlivé | 181 Kč | https://www.vinoplacek.cz/bublinky-2025-veltlinske-zelene-perlive-vino/ |
+| Sekt Plaček brut, Ryzlink rýnský 2022 | 369 Kč | https://www.vinoplacek.cz/brut-sekt-ryzlink-rynsky/ |

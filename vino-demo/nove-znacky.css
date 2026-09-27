@@ -171,3 +171,15 @@ body[data-cosmetics-demo="pristal"] .cx-widget-brand .cx-logo {
 body[data-cosmetics-demo="lipa"] .cx-owner-brand .cx-logo {
   max-height: 56px !important;
 }
+body[data-cosmetics-demo="placek"] .cx-owner-brand .cx-logo {
+  max-width: 230px !important;
+  max-height: 60px !important;
+}
+body[data-cosmetics-demo="placek"] .cx-widget-brand .cx-logo {
+  max-width: 170px !important;
+}
+@media (max-width: 520px) {
+  body[data-cosmetics-demo="placek"] .cx-owner-brand .cx-logo {
+    max-width: 170px !important;
+  }
+}

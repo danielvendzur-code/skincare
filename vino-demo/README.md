@@ -44,3 +44,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Vinařství Gotberg | [gotberg.cz](https://gotberg.cz/cs/eshop/) | `/gotberg/` · `gotberg.mojchatbot.sk` |
 | Víno Přistál | [znojmo.wine](https://www.znojmo.wine/) | `/pristal/` · `pristal.mojchatbot.sk` |
 | Víno Lípa | [vinolipa.cz](https://vinolipa.cz/) | `/lipa/` · `lipa.mojchatbot.sk` |
+| Vinařství Jan Plaček | [vinoplacek.cz](https://www.vinoplacek.cz/) | `/placek/` · `placek.mojchatbot.sk` |
