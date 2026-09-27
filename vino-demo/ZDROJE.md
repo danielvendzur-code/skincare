@@ -861,3 +861,54 @@ a akcent oranžová bodka z etikiet stmavená pre kontrast (#A8531E).
 | FRIZZANTE Rizling rýnsky 2025, polosuché | 8,90 € | https://www.karpatskaperla.sk/produkty/bublinky/frizzante-rizling-rynsky |
 | PétNat Sauvignon Blanc 2025 | 12,60 € | https://www.karpatskaperla.sk/produkty/bublinky/petnat-sauvignon-blanc |
 | Sekt Pinot Noir 2022, extra dry | 17,30 € | https://www.karpatskaperla.sk/produkty/bublinky/pinot-noir-3 |
+
+## Vinařství U Kapličky — vinarstviukaplicky.cz
+
+Rodinné vinárstvo zo Zaječí na Velkopavlovicku (vlastný e-shop, ceny
+v Kč), 77 položiek „Skladem“ (27. 9. 2026) v líniách Fresh Wine, Fresh
+Bubble, Víno Selection, Víno Dalibor, slamové víno, Sekt Dalibor
+a Bag in Box. Do ukážky ide 33 vín naprieč všetkými líniami, farbami
+a sladkosťou (vrátane nealkoholického Fresh Bubble Rosé 0 %).
+Vynechané sú zlacnené staršie ročníky, Bag in Box, duplicitné ročníky
+a Frankovka Dalibor 2023, ktorá na e-shope nemá fotku. Popisy sú
+skrátené a preložené z popisu produktu. Fotky sú packshoty z e-shopu
+(og:image). Logo je SVG z e-shopu (ovál s budovou vinárstva
+a písaný názov); do hlavičky widgetu ide iba písaný názov v bielej,
+symbol je ovál s budovou. Farby: bordová z textov e-shopu (#7A1B1F)
+ako hlavná, krémová z loga ako mäkká farba, akcent zlatohnedá (#8A6A2A).
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Veltlínské zelené, Fresh Wine 2025, suché | 239 Kč | https://eshop.vinarstviukaplicky.cz/veltlinske-zelene-2025-suche/ |
+| Sauvignon, Fresh Wine 2025, suché | 239 Kč | https://eshop.vinarstviukaplicky.cz/sauvignon-2025-suche/ |
+| Ryzlink rýnský, Fresh Wine 2025, suché | 239 Kč | https://eshop.vinarstviukaplicky.cz/ryzlink-rynsky-2025-suche/ |
+| Hibernal, Fresh Wine 2025, suché | 239 Kč | https://eshop.vinarstviukaplicky.cz/hibernal-2025-suche/ |
+| Sylvánské zelené, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/sylvanske-zelene-85943/ |
+| Ryzlink vlašský, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/ryzlink-vlassky-21764/ |
+| Chardonnay, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/chardonnay-2025-suche/ |
+| Rulandské bílé, Dalibor 2025, suché | 319 Kč | https://eshop.vinarstviukaplicky.cz/rulandske-bile-2025-suche/ |
+| Ryzlink rýnský, Dalibor 2025, výběr z hroznů, suché | 319 Kč | https://eshop.vinarstviukaplicky.cz/ryzlink-rynsky-11892/ |
+| Veltlínské zelené VOC Růžové hory, Dalibor 2024, suché | 319 Kč | https://eshop.vinarstviukaplicky.cz/veltlinske-zelene-voc-ruzove-hory-2024-suche/ |
+| Kerner, Dalibor 2025, polosuché | 319 Kč | https://eshop.vinarstviukaplicky.cz/kerner-2025-polosuche/ |
+| Pálava, Fresh Wine 2025, polosladké | 249 Kč | https://eshop.vinarstviukaplicky.cz/palava-2025-polosladke/ |
+| Tramín červený, Selection 2025, výběr z hroznů, polosladké | 189 Kč | https://eshop.vinarstviukaplicky.cz/tramin-cerveny-24347/ |
+| Rulandské šedé, Selection 2025, polosladké | 189 Kč | https://eshop.vinarstviukaplicky.cz/rulandske-sede-2025-polosladke/ |
+| Pálava, Selection 2025, výběr z hroznů, sladké | 199 Kč | https://eshop.vinarstviukaplicky.cz/palava-2025-sladke/ |
+| Pálava, Dalibor 2025, výběr z cibéb, sladké | 319 Kč | https://eshop.vinarstviukaplicky.cz/palava-vyber-z-cibeb-2025-sladke/ |
+| Pálava, slámové víno 2025 | 499 Kč | https://eshop.vinarstviukaplicky.cz/palava-72776/ |
+| Modrý Portugal, Selection 2024, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/modry-portugal-2024-suche/ |
+| Zweigeltrebe, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/zweigeltrebe-2025-suche/ |
+| Rulandské modré, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/rulandske-modre-2025-suche/ |
+| Frankovka, Selection 2024, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/frankovka-2024-suche/ |
+| Cabernet Moravia, Selection 2023, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/cabernet-moravia-2023-suche/ |
+| Alibernet, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/alibernet-2025-suche/ |
+| Cabernet Sauvignon, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/cabernet-sauvignon-2025-suche/ |
+| Dornfelder, Selection 2025, polosuché | 189 Kč | https://eshop.vinarstviukaplicky.cz/dornfelder-2025-polosuche/ |
+| Cabernet Sauvignon, Dalibor 2023, výběr z hroznů, suché | 319 Kč | https://eshop.vinarstviukaplicky.cz/cabernet-sauvignon-84381/ |
+| Alibernet, slámové víno 2025 | 499 Kč | https://eshop.vinarstviukaplicky.cz/alibernet-2025-sladke/ |
+| Frankovka rosé, Selection 2025, polosladké | 189 Kč | https://eshop.vinarstviukaplicky.cz/frankovka-rose-2025-polosladke/ |
+| Riesling, Fresh Bubble 2025, suché | 299 Kč | https://eshop.vinarstviukaplicky.cz/riesling-2025-suche/ |
+| Pinot noir rosé, Fresh Bubble 2025, polosladké | 299 Kč | https://eshop.vinarstviukaplicky.cz/pinot-noir-rose-2025-polosladke/ |
+| Fresh Bubble Rosé 0 %, nealkoholické | 179 Kč | https://eshop.vinarstviukaplicky.cz/fresh-bubble-rose-0-sladke/ |
+| Sekt Blanc de Blancs, Dalibor 2023, brut | 399 Kč | https://eshop.vinarstviukaplicky.cz/blanc-de-blancs-2023-brut/ |
+| Sekt Blanc de Noir, Dalibor 2023, sec | 399 Kč | https://eshop.vinarstviukaplicky.cz/blanc-de-noir-2023-sec/ |

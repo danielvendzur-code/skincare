@@ -50,3 +50,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Vinárstvo Vinkor | [vinkor.sk](https://vinkor.sk/obchod/) | `/vinkor/` · `vinkor.mojchatbot.sk` |
 | Carpate Diem | [carpatediem.sk](https://carpatediem.sk/nase-vina/) | `/carpatediem/` · `carpatediem.mojchatbot.sk` |
 | Karpatská perla | [karpatskaperla.sk](https://www.karpatskaperla.sk/produkty) | `/karpatskaperla/` · `karpatskaperla.mojchatbot.sk` |
+| Vinařství U Kapličky | [vinarstviukaplicky.cz](https://eshop.vinarstviukaplicky.cz/) | `/ukaplicky/` · `ukaplicky.mojchatbot.sk` |

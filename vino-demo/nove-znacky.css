@@ -209,3 +209,14 @@ body[data-cosmetics-demo="karpatskaperla"] .cx-owner-brand .cx-logo {
 body[data-cosmetics-demo="karpatskaperla"] .cx-widget-brand .cx-logo {
   max-height: 40px !important;
 }
+body[data-cosmetics-demo="ukaplicky"] .cx-owner-brand .cx-logo {
+  max-width: 280px !important;
+}
+body[data-cosmetics-demo="ukaplicky"] .cx-widget-brand .cx-logo {
+  max-width: 180px !important;
+}
+@media (max-width: 520px) {
+  body[data-cosmetics-demo="ukaplicky"] .cx-owner-brand .cx-logo {
+    max-width: 200px !important;
+  }
+}
