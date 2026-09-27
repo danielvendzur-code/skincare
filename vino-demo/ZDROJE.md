@@ -297,3 +297,39 @@ z etikiet radu St. George ako hlavná, akcent zlatá z listu na etikete.
 | St. George Cabernet Sauvignon rosé 2025, polosuché | 10,90 € | https://dubovskygrancic.sk/produkt/nase-vina/ruzove-vina/ruzove-vino-polosuche/st-george-cabernet-sauvignon-rose-2024/ |
 | SAMO SATO. rosé, pét-nat, suché | 11,60 € | https://dubovskygrancic.sk/produkt/nase-vina/ruzove-vina/ruzove-vino-suche/samo-sato-pet-nat-rose/ |
 | St. George Riesling Extra Brut sekt 2020 | 16,50 € | https://dubovskygrancic.sk/produkt/nase-vina/sekty/st-george-riesling-extra-brut-sekt-2020/ |
+
+## Vinařství Mikulica — vinarstvimikulica.cz
+
+Rodinné vinárstvo z Velkých Pavlovic (WooCommerce, ceny v Kč), 18 vín
+skladom: suché aj polosuché biele, sladký Sauvignon z botrytického
+hrozna, rosé, červené, frizz vína a sekt. Ceny a sklad sú z verejného
+Store API e-shopu (`/wp-json/wc/store/v1/products`, všetko
+`is_in_stock` k 27. 9. 2026); do ukážky idú všetky vína (bez muštu).
+Popisy sú z e-shopu (preložené do slovenčiny); pri vínach, kde e-shop
+popis nemá, sú dôvody zložené iba z odrody, akosti a pôvodu. Fotky sú
+packshoty z e-shopu. Logo je PNG z webu (193×86 px, 2× zväčšené,
+na zobrazovanej veľkosti stačí); do tmavej hlavičky widgetu ide
+verzia s bielym textom. Symbol je zlatý monogram z favicony webu
+(zaostrený). Farby: tmavá z písma loga ako hlavná, akcent zlatá
+z monogramu.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Veltlínské zelené 2025, suché | 190 Kč | https://www.vinarstvimikulica.cz/produkt/veltlinske-zelene-2025-suche/ |
+| Ryzlink vlašský 2025, suché | 188 Kč | https://www.vinarstvimikulica.cz/produkt/ryzlink-vlassky-2025-suche/ |
+| Müller Thurgau 2024, suché | 160 Kč | https://www.vinarstvimikulica.cz/produkt/muller-thurgau-2024-suche/ |
+| Sauvignon 2024, suché | 224 Kč | https://www.vinarstvimikulica.cz/produkt/sauvignon-2024-suche/ |
+| Ryzlink rýnský 2024, suché | 242 Kč | https://www.vinarstvimikulica.cz/produkt/ryzlink-rynsky-2024-pozdni-sber/ |
+| Chardonnay 2024, suché | 248 Kč | https://www.vinarstvimikulica.cz/produkt/chardonnay-2024-pozdni-sber/ |
+| Pálava 2025, polosuché | 248 Kč | https://www.vinarstvimikulica.cz/produkt/palava-2025-pozdni-sber/ |
+| Rulandské šedé 2025, polosuché | 224 Kč | https://www.vinarstvimikulica.cz/produkt/rulandske-sede-2025-pozdni-sber/ |
+| #líbiFka 2025, polosladké | 190 Kč | https://www.vinarstvimikulica.cz/produkt/libifka-2025-polosladke/ |
+| Sauvignon 2023, sladké (0,5 l) | 242 Kč | https://www.vinarstvimikulica.cz/produkt/sauvignon-2023-sladke/ |
+| Frankovka rosé 2023, suché | 188 Kč | https://www.vinarstvimikulica.cz/produkt/frankovka-rose-2023-suche/ |
+| Frankovka 2023, suché | 270 Kč | https://www.vinarstvimikulica.cz/produkt/frankovka-2023-pozdni-sber/ |
+| Rulandské modré 2023, suché | 270 Kč | https://www.vinarstvimikulica.cz/produkt/rulandske-modre-2023-suche/ |
+| Merlot 2024, suché | 270 Kč | https://www.vinarstvimikulica.cz/produkt/merlot-2024-pozdni-sber/ |
+| Cuvée ze starého vinohradu 2022, suché (0,5 l) | 242 Kč | https://www.vinarstvimikulica.cz/produkt/cuvee-ze-stareho-vinohradu-2022-suche/ |
+| Frizz víno rosé 2023, jemně perlivé, polosladké | 200 Kč | https://www.vinarstvimikulica.cz/produkt/frizz-vino-rose-2023-jemne-perlive/ |
+| Frizz víno Blanc 2024, jemně perlivé, polosuché | 200 Kč | https://www.vinarstvimikulica.cz/produkt/frizz-vino-blanc-2024-jemne-perlive-polosuche/ |
+| SEKT Riesling, BRUT | 424 Kč | https://www.vinarstvimikulica.cz/produkt/sekt-riesling-brut/ |

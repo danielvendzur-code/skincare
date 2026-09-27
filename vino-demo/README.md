@@ -35,3 +35,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Vinařství Válka | [vinarstvivalka.cz](https://vinarstvivalka.cz/) | `/valka/` · `valka.mojchatbot.sk` |
 | Vinařství Šabata | [vinarstvisabata.cz](https://eshop.vinarstvisabata.cz/) | `/sabata/` · `sabata.mojchatbot.sk` |
 | Vinárstvo Dubovský & Grančič | [dubovskygrancic.sk](https://dubovskygrancic.sk/) | `/dubovskygrancic/` · `dubovskygrancic.mojchatbot.sk` |
+| Vinařství Mikulica | [vinarstvimikulica.cz](https://www.vinarstvimikulica.cz/) | `/mikulica/` · `mikulica.mojchatbot.sk` |
