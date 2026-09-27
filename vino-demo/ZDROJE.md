@@ -731,3 +731,41 @@ zelená (#5B7A12, stmavená pre kontrast), akcent uhľová z loga (#241F20).
 | Frizzante rosé 2023 | 230 Kč | https://vinoskrobak.cz/produkt/zweigeltrebe-rose-frizzante-2018/ |
 | Muškát moravský Frizzante 2025, polosuché | 230 Kč | https://vinoskrobak.cz/produkt/muskat-moravsky-frizzante-2025-polosuche/ |
 | Blanc de blanc No.1 2022, extra brut | 450 Kč | https://vinoskrobak.cz/produkt/blanc-de-blanc-no-1-extra-brut/ |
+
+## Vinárstvo Vinkor — vinkor.sk
+
+Rodinné vinárstvo z Vinosadov (WooCommerce, ceny v €), 17 vín skladom
+(27. 9. 2026, podľa WooCommerce Store API) — biele suché, polosladké,
+sladká Pálava a ľadové Veltlínske, dve červené, rosé a dve frizzante —
+do ukážky idú všetky plus dve darčekové kazety s vínom (To pravé
+slovenské, Všetko najlepšie!). Vynechané sú obaly, kartičky, veľké sety
+a vypredaný 98bodový Devín. Popisy sú skrátené z popisu produktu
+(vôňa, chuť, odporúčanie k jedlu, ocenenia). Fotky sú packshoty
+z e-shopu; medailové odznaky vedľa fľaše sú orezané, biele Frizzante
+má na e-shope iba štylizovanú fotku, tá ide ako celoplošný záber. Logo
+je PNG z webu (koruna + VINKOR), stmavené zlaté pre svetlé pozadie,
+v hlavičke widgetu zlaté na čiernej. Symbol je koruna z loga. Farby:
+čierna hlavička webu (#1A1612) ako hlavná, akcent zlatá z loga
+stmavená pre kontrast (#8A682A).
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Pálava 2025, polosuché | 10,90 € | https://vinkor.sk/produkt/palava-2025/ |
+| Sauvignon 2025, suché | 9,70 € | https://vinkor.sk/produkt/sauvignon-2025/ |
+| Veltlínske zelené 2025, suché | 9,70 € | https://vinkor.sk/produkt/veltlinske-zelene-2025/ |
+| Rizling rýnsky 2024, suché | 10,00 € | https://vinkor.sk/produkt/rizling-rynsky-2024/ |
+| Chardonnay 2025, suché | 9,70 € | https://vinkor.sk/produkt/biele-chardonnay-2025/ |
+| Rulandské šedé 2025, suché | 10,00 € | https://vinkor.sk/produkt/rulandske-sede-2025/ |
+| Devín 2025, suché | 11,40 € | https://vinkor.sk/produkt/devin-2025/ |
+| Pálava 2024, suché | 10,60 € | https://vinkor.sk/produkt/biele-vino-palava-2024/ |
+| Rulandské šedé 2023, polosladké | 10,40 € | https://vinkor.sk/produkt/polosladke-biele-vino-rulandske-sede-2023/ |
+| Devín 2023, polosladký | 11,70 € | https://vinkor.sk/produkt/polosladke-biele-vino-devin-2023/ |
+| Pálava 2024, sladká 0,5 l | 11,60 € | https://vinkor.sk/produkt/biele-sladke-vino-palava-2024/ |
+| Veltlínske zelené 2022, ľadové víno, sladké 0,375 l | 25,70 € | https://vinkor.sk/produkt/veltlinske-zelene-ladove-vino-2022/ |
+| Cabernet Sauvignon 2022, suché | 14,10 € | https://vinkor.sk/produkt/cabernet-sauvignon-2022/ |
+| Dunaj 2024, suché | 14,60 € | https://vinkor.sk/produkt/cervene-vino-dunaj-2024/ |
+| Cabernet Sauvignon Rosé 2025, suché | 9,90 € | https://vinkor.sk/produkt/cabernet-sauvignon-rose-2025/ |
+| Frizzante Rosé 2024, polosuché | 9,00 € | https://vinkor.sk/produkt/frizzante-rose-2024/ |
+| Frizzante 2025, suché | 9,30 € | https://vinkor.sk/produkt/frizzante-2025/ |
+| To pravé slovenské — Devín a Dunaj v drevenej kazete | 34,80 € | https://vinkor.sk/produkt/to-prave-slovenske/ |
+| Darček Všetko najlepšie! — 3 suché vína v kazete | 50,90 € | https://vinkor.sk/produkt/darcek-vsetko-najlepsie/ |
