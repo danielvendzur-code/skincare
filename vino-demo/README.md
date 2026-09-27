@@ -1,0 +1,53 @@
+# vino-demo — chatbot a výber vína pre malé vinárstva
+
+Ukážky pre vinárstva na rovnakom engine ako skincare ukážky
+(`kozmetika-nove/`): stránka pre majiteľa s cenníkom (247 € / 10 €, prvý
+mesiac zdarma), ponuka „Chcem to na svoj web“, launcher so symbolom
+vinárstva, chat, výber v 4 krokoch s fotkami a výsledok s cenou, odkazom
+do e-shopu vinárstva a alternatívou.
+
+Čo je iné oproti kozmetike:
+
+- Otázky (`cosmetics-config.js`): farba · chuť · koľko vín (1 fľaša, trio
+  na ochutnanie, výber do kartónu, darček) · k čomu (ryba/hydina, mäso,
+  syry/dezerty, len tak). Interné kľúče ostali `skin/goal/routine/texture`.
+- Bodovanie (`skincare-routine-enhancer.js`, `skincare-final-fix.js`):
+  farba rozhoduje prvá (kto chce červené, nedostane biele), potom štýl a
+  jedlo. Trio a kartón sú rôzne vína zoradené podľa zhody.
+- Texty chatu a stránky sú o víne; výsledok uvádza „Predaj alkoholu len
+  osobám starším ako 18 rokov.“
+- CTA vedú na `mojchatbot.sk/kontakt?source=vino-demo-<slug>&…`.
+- Fotky dlaždíc sú z Pexels (licencia bez povinného uvedenia autora),
+  zoznam v `ZDROJE.md`.
+
+Spustenie: `python3 -m http.server 8791 --bind 127.0.0.1` v tomto priečinku,
+potom `http://127.0.0.1:8791/cosmetics.html?demo=<slug>` alebo `/<slug>/`.
+QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
+
+| vinárstvo | web | ukážka |
+| --- | --- | --- |
+| Vinařství Skoupil | [eshop.skoupil.com](https://eshop.skoupil.com/) | `/skoupil/` · `skoupil.mojchatbot.sk` |
+| Vinařství Nechory | [vinarstvinechory.cz](https://eshop.vinarstvinechory.cz/) | `/nechory/` · `nechory.mojchatbot.sk` |
+| Dobrá Vinice | [dobravinice.cz](https://www.dobravinice.cz/) | `/dobravinice/` · `dobravinice.mojchatbot.sk` |
+| Vinárstvo Magula | [vinomagula.sk](https://www.vinomagula.sk/) | `/magula/` · `magula.mojchatbot.sk` |
+| Víno Jurášek | [vinojurasek.sk](https://vinojurasek.sk/) | `/jurasek/` · `jurasek.mojchatbot.sk` |
+| Vinařství Vican | [vican.wine](https://eshop.vican.wine/) | `/vican/` · `vican.mojchatbot.sk` |
+| Vinařství Válka | [vinarstvivalka.cz](https://vinarstvivalka.cz/) | `/valka/` · `valka.mojchatbot.sk` |
+| Vinařství Šabata | [vinarstvisabata.cz](https://eshop.vinarstvisabata.cz/) | `/sabata/` · `sabata.mojchatbot.sk` |
+| Vinárstvo Dubovský & Grančič | [dubovskygrancic.sk](https://dubovskygrancic.sk/) | `/dubovskygrancic/` · `dubovskygrancic.mojchatbot.sk` |
+| Vinařství Mikulica | [vinarstvimikulica.cz](https://www.vinarstvimikulica.cz/) | `/mikulica/` · `mikulica.mojchatbot.sk` |
+| Vinařství Paulus | [vinarstvipaulus.cz](https://vinarstvipaulus.cz/eshop/) | `/paulus/` · `paulus.mojchatbot.sk` |
+| Vinařství Volařík | [vinarstvivolarik.cz](https://www.vinarstvivolarik.cz/cs/eshop/) | `/volarik/` · `volarik.mojchatbot.sk` |
+| Víno Rajníc | [vinorajnic.sk](https://www.vinorajnic.sk/) | `/rajnic/` · `rajnic.mojchatbot.sk` |
+| Vinařství Vajbar | [vajbar.cz](https://www.vajbar.cz/e-shop/) | `/vajbar/` · `vajbar.mojchatbot.sk` |
+| Vinařství Buchtovi | [vinobuchtovi.cz](https://www.vinobuchtovi.cz/e-shop) | `/buchtovi/` · `buchtovi.mojchatbot.sk` |
+| Vinařství Gotberg | [gotberg.cz](https://gotberg.cz/cs/eshop/) | `/gotberg/` · `gotberg.mojchatbot.sk` |
+| Víno Přistál | [znojmo.wine](https://www.znojmo.wine/) | `/pristal/` · `pristal.mojchatbot.sk` |
+| Víno Lípa | [vinolipa.cz](https://vinolipa.cz/) | `/lipa/` · `lipa.mojchatbot.sk` |
+| Vinařství Jan Plaček | [vinoplacek.cz](https://www.vinoplacek.cz/) | `/placek/` · `placek.mojchatbot.sk` |
+| Víno Skovajsa | [vinoskovajsa.sk](https://www.vinoskovajsa.sk/e-shop/) | `/skovajsa/` · `skovajsa.mojchatbot.sk` |
+| Vinařství Škrobák | [vinoskrobak.cz](https://vinoskrobak.cz/internetovy-obchod/) | `/skrobak/` · `skrobak.mojchatbot.sk` |
+| Vinárstvo Vinkor | [vinkor.sk](https://vinkor.sk/obchod/) | `/vinkor/` · `vinkor.mojchatbot.sk` |
+| Carpate Diem | [carpatediem.sk](https://carpatediem.sk/nase-vina/) | `/carpatediem/` · `carpatediem.mojchatbot.sk` |
+| Karpatská perla | [karpatskaperla.sk](https://www.karpatskaperla.sk/produkty) | `/karpatskaperla/` · `karpatskaperla.mojchatbot.sk` |
+| Vinařství U Kapličky | [vinarstviukaplicky.cz](https://eshop.vinarstviukaplicky.cz/) | `/ukaplicky/` · `ukaplicky.mojchatbot.sk` |
