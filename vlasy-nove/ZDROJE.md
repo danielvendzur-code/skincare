@@ -293,3 +293,31 @@ bez podtitulu a bez dovetku „25 rokov s vami“; symbol je list z loga.
 | Keratínový balzam na vlasy s kofeínom 200 ml | 6,96 € | https://www.vivaco.sk/keratinovy-balzam-na-vlasy-s-kofeinom-pre-zeny/ |
 
 Logo: `https://cdn.myshoptet.com/usr/www.vivaco.sk/user/logos/logo_25_let_sk_(2).svg`; fotky: `…/user/shop/orig/` z `cdn.myshoptet.com/usr/www.vivaco.sk`.
+
+## DiXi — dixi.sk
+
+Herba Drug, s.r.o., Smižany — rodinná firma, „slovenská bylinná kozmetika
+na vlasy od roku 1927“, vlastné laboratóriá, podľa webu ~100 zamestnancov;
+e-shop na Shoptete v €. Šampóny majú podľa webu 94–95 % zložiek
+prírodného pôvodu, ale sú na báze SLES; kondicionér a maska obsahujú
+dimetikón a parabény — v PR označené ako hraničný kandidát. Ceny s DPH
+z `itemprop="price"` na stránke produktu (zhodné so zoznamom kategórie),
+všetko „Skladom“. Dôvody sú z popisov produktov. Farby: tmavomodrá
+`#001e46` (logo aj `--color-secondary` webu) a modrá `#1a8fc4` (o odtieň
+tmavšia než `#14b1ef` z webu). Logo je oficiálne SVG z hlavičky webu;
+symbol je „D“ z loga (X so švihom z loga by v tlačidle pôsobil ako
+„zavrieť“).
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Žihľava-Kofeín šampón 400 ml | 2,95 € | https://www.dixi.sk/dixi-zihlava-kofein-sampon-400-ml-2/ |
+| Anti Dandruff šampón 400 ml | 2,95 € | https://www.dixi.sk/dixi-anti-dandruff/ |
+| Color šampón na farbené vlasy 400 ml | 2,36 € | https://www.dixi.sk/dixi-color-sampon-400-ml/ |
+| Žĺtkovo-pšeničný šampón 400 ml | 2,95 € | https://www.dixi.sk/dixi-zltkovo-psenicny-sampon/ |
+| Pivonkový šampón 400 ml | 2,95 € | https://www.dixi.sk/dixi-pivonkovy-sampon-400-ml-2/ |
+| Vlasové tonikum ARVIT proti vypadávaniu vlasov 7× 10 ml | 5,45 € | https://www.dixi.sk/dixi-vlasove-tonikum-arvit-proti-vypadavaniu-vlasov-7x10ml/ |
+| Brezová vlasová voda na mastné vlasy 100 ml | 2,10 € | https://www.dixi.sk/dixi-brezova-vlasova-voda-na-mastne-vlasy-100-ml/ |
+| Žihľavová maska na vlasy 300 ml | 4,69 € | https://www.dixi.sk/dixi-zihlavova-maska-na-vlasy-300-ml/ |
+| Regeneračný kondicionér s monoi olejom 200 ml | 2,29 € | https://www.dixi.sk/dixi-regeneracny-kondicioner-200-ml/ |
+
+Logo: `https://cdn.myshoptet.com/usr/www.dixi.sk/user/logos/logo-svg.svg`; fotky: `…/user/shop/orig/` z `cdn.myshoptet.com/usr/www.dixi.sk`.

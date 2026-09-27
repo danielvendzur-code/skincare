@@ -11,6 +11,26 @@
   const photo = (slug, id) => `/assets/cosmetics/${slug}-${id}.jpg`;
 
   const hair = {
+    dixi: {
+      name:'DiXi', domain:'dixi.sk', website:'https://www.dixi.sk/',
+      theme:{brand:'#001e46',accent:'#1a8fc4',soft:'#eef3f9',paper:'#fbfcfe',ink:'#0f1a33',line:'#dde5ef'},
+      wordmark:logo('dixi','DiXi'),
+      hero:'/assets/cosmetics/dixi.jpg', mark:'/assets/cosmetics/dixi-mark.png',
+      chatPicks:{dry:'zltok',oily:'breza'},
+      ownerNote:'Žihľavový, lopúchový, pivonkový, žĺtkový, čajovníkový šampón, vlasové vody, toniká v ampulkách a masky — bylinná ponuka je široká a zákazník sám nevie, čo je na jeho vlasy a pokožku hlavy.',
+      benefit:['Šampón podľa vlasov a pokožky hlavy z celej bylinnej rady','Poradí, kedy pridať tonikum, vlasovú vodu alebo masku','Odpovie aj večer, keď zákazník nakupuje'],
+      products:[
+        {id:'zihlava',name:"Žihľava-Kofeín šampón 400 ml",price:'2,95 €',url:'https://www.dixi.sk/dixi-zihlava-kofein-sampon-400-ml-2/',photo:photo('dixi','zihlava'),tags:['balanced','mature','cream','simple','basic'],reason:"Posilňujúci šampón proti vypadávaniu vlasov s vyšším podielom žihľavy a kofeínu — podporuje rast vlasov, bez silikónov, 95 % zložiek prírodného pôvodu."},
+        {id:'lupiny',name:"Anti Dandruff šampón 400 ml",price:'2,95 €',url:'https://www.dixi.sk/dixi-anti-dandruff/',photo:photo('dixi','lupiny'),tags:['sensitive','oily','calm','cream','simple','basic'],reason:"Šampón proti lupinám s extraktom zo slezu — pomáha redukovať lupiny a udržiava pokožku hlavy čistú, sviežu a v rovnováhe."},
+        {id:'color',name:"Color šampón na farbené vlasy 400 ml",price:'2,36 €',url:'https://www.dixi.sk/dixi-color-sampon-400-ml/',photo:photo('dixi','color'),tags:['dry','hydrate','cream','simple','basic'],reason:"Šampón pre farbené a melírované vlasy — extrakt z brusnice dodá vitamíny a minerály, vlasy ostanú hebké, hydratované a lesklé."},
+        {id:'zltok',name:"Žĺtkovo-pšeničný šampón 400 ml",price:'2,95 €',url:'https://www.dixi.sk/dixi-zltkovo-psenicny-sampon/',photo:photo('dixi','zltok'),tags:['dry','mature','hydrate','cream','simple','basic'],reason:"Pre suché, poškodené a namáhané vlasy — žĺtok a extrakt z pšeničných klíčkov vyživujú a posilňujú oslabené vlasy, dodajú pružnosť a lesk."},
+        {id:'pivonka',name:"Pivonkový šampón 400 ml",price:'2,95 €',url:'https://www.dixi.sk/dixi-pivonkovy-sampon-400-ml-2/',photo:photo('dixi','pivonka'),tags:['balanced','sensitive','calm','clarity','cream','simple','basic'],reason:"Jemne čistí, extrakt z pivonky upokojuje vlasovú pokožku a nechá vlasy nadýchané bez zaťaženia — pre každodenné umývanie aj jemné vlasy."},
+        {id:'arvit',name:"Vlasové tonikum ARVIT proti vypadávaniu vlasov 7× 10 ml",price:'5,45 €',url:'https://www.dixi.sk/dixi-vlasove-tonikum-arvit-proti-vypadavaniu-vlasov-7x10ml/',photo:photo('dixi','arvit'),tags:['balanced','oily','mature','serum','target','full'],reason:"Ampulky proti vypadávaniu vlasov — rastlinné extrakty, panthenol a kofeín priamo na pokožku hlavy; vhodné aj pre vlasy so sklonom k masteniu."},
+        {id:'breza',name:"Brezová vlasová voda na mastné vlasy 100 ml",price:'2,10 €',url:'https://www.dixi.sk/dixi-brezova-vlasova-voda-na-mastne-vlasy-100-ml/',photo:photo('dixi','breza'),tags:['oily','clarity','target','full'],reason:"Pre vlasy, ktoré sa rýchlo mastia — brezová voda sa nanáša priamo na pokožku hlavy a pomáha, aby vlasy pôsobili sviežo a čisto dlhšie."},
+        {id:'maska',name:"Žihľavová maska na vlasy 300 ml",price:'4,69 €',url:'https://www.dixi.sk/dixi-zihlavova-maska-na-vlasy-300-ml/',photo:photo('dixi','maska'),tags:['dry','hydrate','oil','target','full'],reason:"Maska pre suché a namáhané vlasy — extrakt zo žihľavy a kokosový olej dodajú vlasom lesk, pružnosť a zdravý vzhľad za 2–5 minút."},
+        {id:'kondi',name:"Regeneračný kondicionér s monoi olejom 200 ml",price:'2,29 €',url:'https://www.dixi.sk/dixi-regeneracny-kondicioner-200-ml/',photo:photo('dixi','kondi'),tags:['dry','mature','hydrate','target','full'],reason:"Pre namáhané a poškodené vlasy — zlepšuje pevnosť, elasticitu a rozčesávanie a pri pravidelnom používaní obmedzuje štiepenie a lámavosť."}
+      ]
+    },
     vivaco: {
       name:'Vivaco', domain:'vivaco.sk', website:'https://www.vivaco.sk/',
       theme:{brand:'#c81e27',accent:'#5e9a2e',soft:'#fdf1ef',paper:'#fffdfc',ink:'#231f20',line:'#f1dedb'},
