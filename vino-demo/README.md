@@ -42,3 +42,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Vinařství Vajbar | [vajbar.cz](https://www.vajbar.cz/e-shop/) | `/vajbar/` · `vajbar.mojchatbot.sk` |
 | Vinařství Buchtovi | [vinobuchtovi.cz](https://www.vinobuchtovi.cz/e-shop) | `/buchtovi/` · `buchtovi.mojchatbot.sk` |
 | Vinařství Gotberg | [gotberg.cz](https://www.gotberg.cz/cs/eshop/) | `/gotberg/` · `gotberg.mojchatbot.sk` |
+| Víno Přistál | [znojmo.wine](https://znojmo.wine/) | `/pristal/` · `pristal.mojchatbot.sk` |

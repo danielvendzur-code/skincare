@@ -548,3 +548,36 @@ tmavá z loga.
 | Merlot výběr z hroznů 2024, suché | 290 Kč | https://gotberg.cz/cs/eshop/merlot-vyber-z-hroznu-2024:471/ |
 | Pinot Noir výběr z hroznů 2019, suché | 290 Kč | https://gotberg.cz/cs/eshop/pinot-noir-vyber-z-hroznu-2019:472/ |
 | Frizzante perlivé víno 2025, suché | 190 Kč | https://gotberg.cz/cs/eshop/frizzante-perlive-vino-2025:512/ |
+
+## Víno Přistál — znojmo.wine
+
+Rodinné vinárstvo zo Znojma (Shoptet, ceny v Kč), 16 vín skladom
+(27. 9. 2026): suché a polosuché biele, vína z betónového vajca,
+akátového a dubového suda, dve červené, rosé, frizzante a tri
+pét-naty — do ukážky idú všetky. Sladké vína vinárstvo nemá, pri voľbe
+„sladšie“ poradca ponúkne polosuché. Popisy sú z detailu produktu
+(preložené do slovenčiny). Fotky sú packshoty z e-shopu na farebných
+paneloch (orezané na panel, bez bieleho okraja). Logo je SVG z e-shopu
+vykreslené do PNG; do hlavičky widgetu ide verzia s bielym textom
+a pôvodným červeným štvorcom. Symbol je „P“ s hroznom z loga. Farby:
+šalviová zelená z farebných panelov na fotkách (stmavená) ako hlavná,
+akcent červená z loga.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Sauvignon Blanc 2025, suché | 220 Kč | https://znojmo.wine/sauvignon-blanc-2025-bile-vino-suche/ |
+| Hibernal 2025, polosuché | 220 Kč | https://znojmo.wine/hibernal-2025-bile-vino-polosuche/ |
+| Coupage PINOT 2025, polosuché | 220 Kč | https://znojmo.wine/coupage-pinot-blanc-gris/ |
+| Pálava 2025, polosuché | 220 Kč | https://znojmo.wine/palava-polosuche-2025/ |
+| Veltlínské zelené 2024 BETON, suché | 300 Kč | https://znojmo.wine/veltlinske-zelene-2024-suche-beton/ |
+| Ryzlink rýnský 2023 BETON, suché | 300 Kč | https://znojmo.wine/ryzlink-rynsky-2023-suche-beton/ |
+| Sauvignon Blanc 2022 BETON, suché | 300 Kč | https://znojmo.wine/sauvignon-blanc-2022-suche-beton/ |
+| Sauvignon Blanc z Kraví hory 2021, akátový sud | 250 Kč | https://znojmo.wine/sauvignon-blanc-2021-akatovy-sud/ |
+| Pinot Gris 2021, dubový sud, suché | 250 Kč | https://znojmo.wine/pinot-gris-2021-dubovy-sud-bile-vino/ |
+| RED Dornfelder 2024, suché | 210 Kč | https://znojmo.wine/red-dornfelder-2024-cervene-vino/ |
+| Frankovka 18, dubový sud, suché | 350 Kč | https://znojmo.wine/frankovka-18-dubovy-sud/ |
+| Zweigeltrebe rosé 2025, polosuché | 220 Kč | https://znojmo.wine/zweigeltrebe-2025-ruzove-vino-rose-polosuche/ |
+| Frizzante Cuvée 2025, polosuché | 250 Kč | https://znojmo.wine/frizzante-cuvee-perlive-vino-2025/ |
+| Pét-nat Veltlínské zelené 2025 | 250 Kč | https://znojmo.wine/pet-nat-petillant-naturel-sumive-vino/ |
+| Pét-nat Pinot Blanc 2025 | 250 Kč | https://znojmo.wine/pet-nat-pinot-blanc-2025/ |
+| Pét-nat Zweigeltrebe rosé 2025 | 250 Kč | https://znojmo.wine/pet-nat-zweigeltrebe-rose-2025/ |

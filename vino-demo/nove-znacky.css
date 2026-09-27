@@ -161,3 +161,10 @@ body[data-cosmetics-demo="gotberg"] .cx-owner-brand .cx-logo {
 body[data-cosmetics-demo="gotberg"] .cx-widget-brand .cx-logo {
   max-height: 44px !important;
 }
+body[data-cosmetics-demo="pristal"] .cx-owner-brand .cx-logo {
+  max-height: 54px !important;
+}
+body[data-cosmetics-demo="pristal"] .cx-widget-brand .cx-logo {
+  max-height: 40px !important;
+  filter: none !important;
+}

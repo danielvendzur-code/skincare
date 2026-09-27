@@ -436,6 +436,33 @@
         {id:'pinot',name:'Pinot Noir výběr z hroznů 2019, suché',price:'290 Kč',url:'https://gotberg.cz/cs/eshop/pinot-noir-vyber-z-hroznu-2019:472/',photo:photo('gotberg','pinot'),tags:['red','bold','meat','target'],reason:'Marmeláda z tmavého ovocia, lesné maliny a nádych dymu, mohutná minerálna chuť s višňou v horkej čokoláde.'},
         {id:'frizzante',name:'Frizzante perlivé víno 2025, suché',price:'190 Kč',url:'https://gotberg.cz/cs/eshop/frizzante-perlive-vino-2025:512/',photo:photo('gotberg','frizzante'),tags:['sparkling','crisp','fish'],reason:'Suché jemne perlivé víno — vinárstvo ho odporúča na každý letný večer.'}
       ]
+    },
+    pristal: {
+      name:'Víno Přistál', domain:'znojmo.wine', website:'https://znojmo.wine/',
+      theme:{brand:'#4f6b4c',accent:'#961b1e',soft:'#f5f3ed',paper:'#fcfbf8',ink:'#1f2620',line:'#e2e2d6'},
+      wordmark:logo('pristal','Víno Přistál'),
+      hero:'/assets/vino/pristal.jpg', mark:'/assets/vino/pristal-mark.png', headerLogo:'/assets/vino/pristal-logo-header.png',
+      markColor:{reverse:'/assets/vino/pristal-mark-reverse.png',bg:'#4f6b4c',bgHover:'#f5f3ed'},
+      ownerNote:'Vína zo Znojma — betónové vajce, akátový a dubový sud, pét-naty, frizzante aj rosé — a zákazník potrebuje vysvetliť, čím sa líšia.',
+      benefit:['Vysvetlí betón, akát aj pét-nat','Vyberie víno k jedlu aj na leto','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'sauvignon',name:'Sauvignon Blanc 2025, suché',price:'220 Kč',url:'https://znojmo.wine/sauvignon-blanc-2025-bile-vino-suche/',photo:photo('pristal','sauvignon'),tags:['white','crisp','fish'],reason:'Žltozelená farba, vôňa byliniek a citróna, svieže a ľahké s jemným zvyškovým cukrom.'},
+        {id:'hibernal',name:'Hibernal 2025, polosuché',price:'220 Kč',url:'https://znojmo.wine/hibernal-2025-bile-vino-polosuche/',photo:photo('pristal','hibernal'),tags:['white','fruity','fish'],reason:'Kvetinové tóny s korenistým charakterom, príjemná ovocná chuť, výraznejšia kyselinka a nižší alkohol.'},
+        {id:'coupage',name:'Coupage PINOT 2025, polosuché',price:'220 Kč',url:'https://znojmo.wine/coupage-pinot-blanc-gris/',photo:photo('pristal','coupage'),tags:['white','fruity','fish'],reason:'Kupáž Rulandského šedého a bieleho: medové tóny, zrelé hrušky a broskyne, telnaté a harmonické.'},
+        {id:'palava',name:'Pálava 2025, polosuché',price:'220 Kč',url:'https://znojmo.wine/palava-polosuche-2025/',photo:photo('pristal','palava'),tags:['white','fruity','cheese'],reason:'Zlatistá Pálava s vôňou rozkvitnutých ruží a medu, plná extraktívna chuť so zvyškovým cukrom.'},
+        {id:'vzbeton',name:'Veltlínské zelené 2024 BETON, suché',price:'300 Kč',url:'https://znojmo.wine/veltlinske-zelene-2024-suche-beton/',photo:photo('pristal','vzbeton'),tags:['white','bold','fish','target'],reason:'Zrelé v betónovom vajci: zlatožlté, vôňa žltého ovocia, marhúľ a medu, typické veltlínske korenie.'},
+        {id:'rrbeton',name:'Ryzlink rýnský 2023 BETON, suché',price:'300 Kč',url:'https://znojmo.wine/ryzlink-rynsky-2023-suche-beton/',photo:photo('pristal','rrbeton'),tags:['white','bold','fish','target'],reason:'Zrelé kôstkové aj tropické ovocie s jemnou mineralitou, šťavnatá kyselinka — zrenie v betónovom tanku.'},
+        {id:'sbbeton',name:'Sauvignon Blanc 2022 BETON, suché',price:'300 Kč',url:'https://znojmo.wine/sauvignon-blanc-2022-suche-beton/',photo:photo('pristal','sbbeton'),tags:['white','bold','fish'],reason:'Sauvignon z betónového vajca, v ktorom víno prirodzene cirkuluje na kaloch — výnimočná novinka vinárstva.'},
+        {id:'sbakat',name:'Sauvignon Blanc z Kraví hory 2021, akátový sud',price:'250 Kč',url:'https://znojmo.wine/sauvignon-blanc-2021-akatovy-sud/',photo:photo('pristal','sbakat'),tags:['white','bold','fish'],reason:'Z akátového suda: jemná vôňa hluchavky, plná a dlhá chuť s egrešovým ovocím a pikantnou kyselinkou.'},
+        {id:'pinotgris',name:'Pinot Gris 2021, dubový sud, suché',price:'250 Kč',url:'https://znojmo.wine/pinot-gris-2021-dubovy-sud-bile-vino/',photo:photo('pristal','pinotgris'),tags:['white','bold','cheese'],reason:'Vyzreté v dubovom sude: kompótovaná hruška a nádych perníka, plné a dlhé s korenistou dochuťou.'},
+        {id:'dornfelder',name:'RED Dornfelder 2024, suché',price:'210 Kč',url:'https://znojmo.wine/red-dornfelder-2024-cervene-vino/',photo:photo('pristal','dornfelder'),tags:['red','fruity','meat'],reason:'Intenzívna tmavorubínová farba, tóny zrelého ovocia, plná a dlhá chuť.'},
+        {id:'frankovka',name:'Frankovka 18, dubový sud, suché',price:'350 Kč',url:'https://znojmo.wine/frankovka-18-dubovy-sud/',photo:photo('pristal','frankovka'),tags:['red','bold','meat','target'],reason:'18 mesiacov v nových sudoch zo slavónskeho duba: granátová farba, lekvárové tóny — strieborná Promenáda červených vín 2025.'},
+        {id:'rose',name:'Zweigeltrebe rosé 2025, polosuché',price:'220 Kč',url:'https://znojmo.wine/zweigeltrebe-2025-ruzove-vino-rose-polosuche/',photo:photo('pristal','rose'),tags:['rose','fruity','fish'],reason:'Plné a krémové rosé: maliny a jahody s ľahkým karamelom, osviežujúca kyselinka a mineralita.'},
+        {id:'frizzante',name:'Frizzante Cuvée 2025, polosuché',price:'250 Kč',url:'https://znojmo.wine/frizzante-cuvee-perlive-vino-2025/',photo:photo('pristal','frizzante'),tags:['sparkling','fruity','fish'],reason:'Jemne perlivé cuvée z Irsai Oliver, Rulandského bieleho a Solarisu — svieža vôňa a ovocná chuť.'},
+        {id:'petnatvz',name:'Pét-nat Veltlínské zelené 2025',price:'250 Kč',url:'https://znojmo.wine/pet-nat-petillant-naturel-sumive-vino/',photo:photo('pristal','petnatvz'),tags:['sparkling','crisp','fish'],reason:'Prírodné šumivé víno pôvodnou metódou: nefiltrované a živé, broskyne a čierny baz s výraznou kyselinkou.'},
+        {id:'petnatpb',name:'Pét-nat Pinot Blanc 2025',price:'250 Kč',url:'https://znojmo.wine/pet-nat-pinot-blanc-2025/',photo:photo('pristal','petnatpb'),tags:['sparkling','fruity','fish'],reason:'Svieža citrusová vôňa, šťavnatá smotanová chuť exotického ovocia a veľmi osviežujúce perlenie.'},
+        {id:'petnatrose',name:'Pét-nat Zweigeltrebe rosé 2025',price:'250 Kč',url:'https://znojmo.wine/pet-nat-zweigeltrebe-rose-2025/',photo:photo('pristal','petnatrose'),tags:['sparkling','fruity','fish'],reason:'Malinovo ružový pét-nat s tónmi červeného ovocia, čerešní a višní — nefiltrovaný a živý.'}
+      ]
     }
   });
 })();
