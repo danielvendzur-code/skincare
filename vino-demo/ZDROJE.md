@@ -261,3 +261,39 @@ hlavná, akcent bordová.
 | Merlot ROSÉ 2025, pozdní sběr - polosladké | 219 Kč | https://eshop.vinarstvisabata.cz/merlot-rose-2025--pozdni-sber-polosladke/ |
 | FRIZZANTE ROSÉ - Cuvée Mé Alibi 2024 - polosladké | 219 Kč | https://eshop.vinarstvisabata.cz/frizzante-rose-cuvee-me-alibi--zemske-perlive-vino-polosladke/ |
 | SEKT Šabata BLANC 2018 - brut | 359 Kč | https://eshop.vinarstvisabata.cz/sekt-sabata-blanc-2018-brut/ |
+
+## Vinárstvo Dubovský & Grančič — dubovskygrancic.sk
+
+Rodinné vinárstvo zo Svätého Jura (WooCommerce, ceny v €), vyše 30
+vín skladom: vegánske biele, rad St. George z dubových sudov, sladké
+výbery, rosé, pét-nat SAMO SATO. a sekty. Ceny a sklad sú z verejného
+Store API e-shopu (`/wp-json/wc/store/v1/products`, všetko
+`is_in_stock` k 27. 9. 2026); do ukážky ide 18 vín. E-shop pri vínach
+uvádza len fakty (hon, zrenie v sudoch, cukor, kyseliny), preto sú
+dôvody odporúčania zložené iba z nich, bez vymyslených chuťových
+popisov. Fotky sú packshoty z e-shopu. Logo: na webe je vodorovné
+logo iba v 450×65 px, preto je ručne písané logo poskladané do jedného
+riadku z väčšej dvojriadkovej verzie z webu; do hlavičky widgetu ide
+biela verzia. Symbol je ručne písané „&“ z loga. Farby: vínovočervená
+z etikiet radu St. George ako hlavná, akcent zlatá z listu na etikete.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Veltlínske zelené 2025, suché | 9,90 € | https://dubovskygrancic.sk/produkt/nase-vina/biele-vina/biele-suche-vina/veltlinske-zelene-2022/ |
+| Riesling 2024, suché | 10,20 € | https://dubovskygrancic.sk/produkt/nase-vina/biele-vina/biele-suche-vina/riesling-2024/ |
+| St. George Sylvaner 2024, suché | 12,50 € | https://dubovskygrancic.sk/produkt/nase-vina/biele-vina/biele-suche-vina/st-george-sylvaner-2024/ |
+| St. George 3 [O]SUDY 2024, suché | 12,50 € | https://dubovskygrancic.sk/produkt/nase-vina/biele-vina/biele-suche-vina/st-george-sylvaner-2024-kopia/ |
+| St. George Riesling Reserva 2024, suché | 12,70 € | https://dubovskygrancic.sk/produkt/nase-vina/biele-vina/biele-suche-vina/st-george-riesling-reserva-2024/ |
+| Pálava 2025, polosuché | 11 € | https://dubovskygrancic.sk/produkt/nase-vina/biele-vina/biele-vino-polosuche/palava-2024/ |
+| Pesecká Leánka 2025, polosladké | 11 € | https://dubovskygrancic.sk/produkt/nase-vina/biele-vina/biele-vino-polosladke/pesecka-leanka-2024/ |
+| Tramín červený 2024, sladké (0,5 l) | 11,10 € | https://dubovskygrancic.sk/produkt/nase-vina/biele-vina/biele-vino-sladke/tramin-cerveny-2024/ |
+| Veltlínske zelené 2016, hrozienkový výber (0,5 l) | 12,70 € | https://dubovskygrancic.sk/produkt/nase-vina/biele-vina/biele-vino-sladke/veltlinske-zelene-2016/ |
+| Frankovka modrá 2023, suché | 8,90 € | https://dubovskygrancic.sk/produkt/nase-vina/cervene-vina/cervene-vino-suche/frankovka-modra-2023/ |
+| St. George Alibernet 2022, suché | 12,50 € | https://dubovskygrancic.sk/produkt/nase-vina/cervene-vina/cervene-vino-suche/alibernet-2021/ |
+| St. George Dunaj 2023, suché | 14 € | https://dubovskygrancic.sk/produkt/nase-vina/cervene-vina/cervene-vino-suche/st-george-dunaj-2022/ |
+| St. George Elisa I. 2023, suché | 16,50 € | https://dubovskygrancic.sk/produkt/nase-vina/cervene-vina/cervene-vino-suche/st-george-elisa-i-2023/ |
+| St. George Pinot Noir Zibich, suché | 24,90 € | https://dubovskygrancic.sk/produkt/nase-vina/cervene-vina/cervene-vino-suche/st-george-pinot-noir-zibich/ |
+| Nela rosé 2025, suché | 9 € | https://dubovskygrancic.sk/produkt/nase-vina/ruzove-vina/ruzove-vino-suche/nela-rose-2024/ |
+| St. George Cabernet Sauvignon rosé 2025, polosuché | 10,90 € | https://dubovskygrancic.sk/produkt/nase-vina/ruzove-vina/ruzove-vino-polosuche/st-george-cabernet-sauvignon-rose-2024/ |
+| SAMO SATO. rosé, pét-nat, suché | 11,60 € | https://dubovskygrancic.sk/produkt/nase-vina/ruzove-vina/ruzove-vino-suche/samo-sato-pet-nat-rose/ |
+| St. George Riesling Extra Brut sekt 2020 | 16,50 € | https://dubovskygrancic.sk/produkt/nase-vina/sekty/st-george-riesling-extra-brut-sekt-2020/ |
