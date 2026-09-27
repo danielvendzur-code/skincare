@@ -38,3 +38,4 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Vinařství Mikulica | [vinarstvimikulica.cz](https://www.vinarstvimikulica.cz/) | `/mikulica/` · `mikulica.mojchatbot.sk` |
 | Vinařství Paulus | [vinarstvipaulus.cz](https://vinarstvipaulus.cz/eshop/) | `/paulus/` · `paulus.mojchatbot.sk` |
 | Vinařství Volařík | [vinarstvivolarik.cz](https://www.vinarstvivolarik.cz/cs/eshop/) | `/volarik/` · `volarik.mojchatbot.sk` |
+| Víno Rajníc | [vinorajnic.sk](https://www.vinorajnic.sk/) | `/rajnic/` · `rajnic.mojchatbot.sk` |

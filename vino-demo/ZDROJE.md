@@ -411,3 +411,34 @@ zlatej webu (#C8B274) ako hlavná, akcent svetlejšia zlatá.
 | Perlivée, růžové cuvée 2025, polosladké | 200 Kč | https://www.vinarstvivolarik.cz/cs/eshop/sekty/perlivee-ruzove-cuvee-2025/ |
 | Perlivée, bílé cuvée 2025, suché | 200 Kč | https://www.vinarstvivolarik.cz/cs/eshop/sekty/perlivee-bile-cuvee-2025/ |
 | Sekt Volařík - Ryzlink vlašský 2021, extra brut | 390 Kč | https://www.vinarstvivolarik.cz/cs/eshop/sekty/sekt-volarik-ryzlink-vlassky-2021/ |
+
+## Víno Rajníc — vinorajnic.sk
+
+Rodinné vinárstvo v centre Pezinka (Shoptet, ceny v €), vyše 20 vín
+v e-shope, do ukážky ide 13 vín, ktoré sú „Skladom“ (k 27. 9. 2026);
+vypredané a nedostupné (Irsai Oliver, Devín, Pinot blanc 2025,
+Cabernet Franc, Alibernet, Frizzante Müller Thurgau) sú vynechané.
+Vinárstvo robí suché vína, preto pri voľbe „sladšie“ poradca ponúkne
+najovocnejšie. E-shop pri vínach uvádza pôvod, alkohol a medaily,
+nie chuťové popisy — dôvody odporúčania sú zložené iba z nich. Fotky
+sú packshoty z e-shopu (niektoré s medailou na fľaši, tak ako na
+e-shope). Logo je PNG z e-shopu (220×210 px, 3× zväčšené); do
+hlavičky widgetu ide biela verzia. Symbol je monogram VR z loga so
+zosilnenými ťahmi. Farby: vínovočervená z webu (#a53e4c) ako hlavná,
+akcent tmavá z etikiet.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Rizling vlašský 2025, suché | 8 € | https://www.vinorajnic.sk/rizling-vlassky-2025/ |
+| Rizling rýnsky 2025, suché | 8 € | https://www.vinorajnic.sk/rizling-rynsky-2025/ |
+| Sauvignon blanc 2025, suché | 8 € | https://www.vinorajnic.sk/sauvignon-blanc-2025/ |
+| Müller Thurgau 2025, suché | 8 € | https://www.vinorajnic.sk/muller-thurgau-2025/ |
+| Pálava 2025, suché | 8 € | https://www.vinorajnic.sk/palava-2025/ |
+| 3 Pinoty cuvée 2021, suché | 9 € | https://www.vinorajnic.sk/3-pinoty/ |
+| Cabernet Sauvignon rosé 2025, suché | 8 € | https://www.vinorajnic.sk/cabernet-sauvignon-rose-2025/ |
+| Frizzante Cabernet Sauvignon rosé, suché | 8 € | https://www.vinorajnic.sk/frizzante-cabernet-sauvignon-rose-2025/ |
+| Frankovka modrá 2021, suché | 12 € | https://www.vinorajnic.sk/frankovka-modra-2021/ |
+| Pinot Noir 2021, suché | 12 € | https://www.vinorajnic.sk/pinot-noir-2021/ |
+| Merlot 2021, suché | 12 € | https://www.vinorajnic.sk/merlot-2021/ |
+| Dunaj 2024, suché | 12 € | https://www.vinorajnic.sk/dunaj-2024/ |
+| Pinot Noir 2015, suché | 15 € | https://www.vinorajnic.sk/pinot-noir-2015/ |

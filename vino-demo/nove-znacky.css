@@ -135,3 +135,9 @@ body[data-cosmetics-demo="volarik"] .cx-widget-brand .cx-logo {
     max-width: 165px !important;
   }
 }
+body[data-cosmetics-demo="rajnic"] .cx-owner-brand .cx-logo {
+  max-height: 60px !important;
+}
+body[data-cosmetics-demo="rajnic"] .cx-widget-brand .cx-logo {
+  max-height: 44px !important;
+}

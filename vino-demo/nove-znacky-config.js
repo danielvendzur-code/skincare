@@ -320,6 +320,30 @@
         {id:'perliveebila',name:'Perlivée, bílé cuvée 2025, suché',price:'200 Kč',url:'https://www.vinarstvivolarik.cz/cs/eshop/sekty/perlivee-bile-cuvee-2025/',photo:photo('volarik','perliveebila'),tags:['sparkling','crisp','fish'],reason:'Ľahké, svieže biele cuvée s jemným perlením zo sýtenia prírodným CO₂ z kvasenia — na prípitok aj leto.'},
         {id:'sekt',name:'Sekt Volařík - Ryzlink vlašský 2021, extra brut',price:'390 Kč',url:'https://www.vinarstvivolarik.cz/cs/eshop/sekty/sekt-volarik-ryzlink-vlassky-2021/',photo:photo('volarik','sekt'),tags:['sparkling','crisp','fish','target'],reason:'Staré kríky z trate Železná, 36 mesiacov na kvasinkách: minerálne tóny, limetka a krémová dochuť so sušenými bylinkami.'}
       ]
+    },
+    rajnic: {
+      name:'Víno Rajníc', domain:'vinorajnic.sk', website:'https://www.vinorajnic.sk/',
+      theme:{brand:'#9c3a47',accent:'#2b2426',soft:'#f8f3f1',paper:'#fdfbfa',ink:'#231d1e',line:'#ecdfdd'},
+      wordmark:logo('rajnic','Víno Rajníc'),
+      hero:'/assets/vino/rajnic.jpg', mark:'/assets/vino/rajnic-mark.png', headerLogo:'/assets/vino/rajnic-logo-header.png',
+      markColor:{reverse:'/assets/vino/rajnic-mark-reverse.png',bg:'#9c3a47',bgHover:'#f8f3f1'},
+      ownerNote:'Vyše 20 ocenených vín z centra Pezinka — Rizlingy, Pálava, rosé, frizzante aj vyzretý Pinot Noir — a zákazník nevie, čo si vybrať.',
+      benefit:['Z vyše 20 vín to pravé k jedlu','Vysvetlí, čím sa líšia medailové vína','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'rv',name:'Rizling vlašský 2025, suché',price:'8 €',url:'https://www.vinorajnic.sk/rizling-vlassky-2025/',photo:photo('rajnic','rv'),tags:['white','crisp','fish'],reason:'Suchý vlašák zo Šenkvíc (Malé Karpaty), 12,5 % alkoholu — strieborná medaila AWC Vienna, zlatá Grow du Monde.'},
+        {id:'rr',name:'Rizling rýnsky 2025, suché',price:'8 €',url:'https://www.vinorajnic.sk/rizling-rynsky-2025/',photo:photo('rajnic','rr'),tags:['white','crisp','fish'],reason:'Suchý Rizling z Dubníka, 13 % alkoholu — zlatá medaila Výstava vín Šenkvice, strieborné z AWC Vienna a Biel Vinalia.'},
+        {id:'sb',name:'Sauvignon blanc 2025, suché',price:'8 €',url:'https://www.vinorajnic.sk/sauvignon-blanc-2025/',photo:photo('rajnic','sb'),tags:['white','crisp','fish'],reason:'Ľahký suchý Sauvignon z Dubníka s 11 % alkoholu — svieže biele k rybám a šalátom.'},
+        {id:'mt',name:'Müller Thurgau 2025, suché',price:'8 €',url:'https://www.vinorajnic.sk/muller-thurgau-2025/',photo:photo('rajnic','mt'),tags:['white','fruity','fish'],reason:'Suchý Müller Thurgau zo Šenkvíc s 11,5 % alkoholu — ľahké ovocné biele na každý deň.'},
+        {id:'palava',name:'Pálava 2025, suché',price:'8 €',url:'https://www.vinorajnic.sk/palava-2025/',photo:photo('rajnic','palava'),tags:['white','fruity','cheese'],reason:'Suchá Pálava z Dubníka, 13,5 % alkoholu — štyri medaily vrátane zlatých zo Šenkvíc, Biel Vinalia a Viničného.'},
+        {id:'pinoty',name:'3 Pinoty cuvée 2021, suché',price:'9 €',url:'https://www.vinorajnic.sk/3-pinoty/',photo:photo('rajnic','pinoty'),tags:['white','bold','fish','target'],reason:'Cuvée troch Pinotov z Dubníka a Dechtíc, 13 % alkoholu — plnšie suché biele, strieborná medaila AWC Vienna.'},
+        {id:'rose',name:'Cabernet Sauvignon rosé 2025, suché',price:'8 €',url:'https://www.vinorajnic.sk/cabernet-sauvignon-rose-2025/',photo:photo('rajnic','rose'),tags:['rose','fruity','fish'],reason:'Suché rosé z Dubníka s 12,5 % alkoholu — zlatá medaila AWC Vienna.'},
+        {id:'frizz',name:'Frizzante Cabernet Sauvignon rosé, suché',price:'8 €',url:'https://www.vinorajnic.sk/frizzante-cabernet-sauvignon-rose-2025/',photo:photo('rajnic','frizz'),tags:['sparkling','fruity','fish'],reason:'Sýtené suché rosé z Dubníka — zlatá medaila Výstava vín Viničné, na leto a prípitok.'},
+        {id:'frankovka',name:'Frankovka modrá 2021, suché',price:'12 €',url:'https://www.vinorajnic.sk/frankovka-modra-2021/',photo:photo('rajnic','frankovka'),tags:['red','bold','meat'],reason:'Suchá Frankovka z Dubníka s 14,5 % alkoholu — plné červené ku grilu a pečenému mäsu.'},
+        {id:'pn21',name:'Pinot Noir 2021, suché',price:'12 €',url:'https://www.vinorajnic.sk/pinot-noir-2021/',photo:photo('rajnic','pn21'),tags:['red','fruity','meat'],reason:'Suchý Pinot Noir z Dubníka, 14,5 % alkoholu — strieborná medaila AWC Vienna.'},
+        {id:'merlot',name:'Merlot 2021, suché',price:'12 €',url:'https://www.vinorajnic.sk/merlot-2021/',photo:photo('rajnic','merlot'),tags:['red','bold','meat','target'],reason:'Suchý Merlot z Rubáňa s 14,5 % alkoholu — zlatá medaila AWC Vienna.'},
+        {id:'dunaj',name:'Dunaj 2024, suché',price:'12 €',url:'https://www.vinorajnic.sk/dunaj-2024/',photo:photo('rajnic','dunaj'),tags:['red','bold','meat'],reason:'Slovenská odroda Dunaj z Dubníka, 14,5 % alkoholu — tmavé, plné suché červené.'},
+        {id:'pn15',name:'Pinot Noir 2015, suché',price:'15 €',url:'https://www.vinorajnic.sk/pinot-noir-2015/',photo:photo('rajnic','pn15'),tags:['red','fruity','meat','target'],reason:'Vyzretý Pinot Noir z Novej Viesky — zlatá medaila na svetovej súťaži Mondiale des Pinots a Vínnych trhoch Pezinok.'}
+      ]
     }
   });
 })();
