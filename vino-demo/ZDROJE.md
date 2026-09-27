@@ -442,3 +442,39 @@ akcent tmavá z etikiet.
 | Merlot 2021, suché | 12 € | https://www.vinorajnic.sk/merlot-2021/ |
 | Dunaj 2024, suché | 12 € | https://www.vinorajnic.sk/dunaj-2024/ |
 | Pinot Noir 2015, suché | 15 € | https://www.vinorajnic.sk/pinot-noir-2015/ |
+
+## Vinařství Vajbar — vajbar.cz
+
+Rodinné vinárstvo z Kobylí (vlastný e-shop, ceny v Kč), vyše 20 vín:
+suché aj polosladké biele, archívny Ryzlink vlašský 2010, červené,
+rosé, frizzante a Bublinky. Ceny (vrátane aktuálnych zliav) a popisy
+sú z detailu každého vína; všetky vína sa dajú vložiť do košíka
+(27. 9. 2026). Do ukážky ide 20 vín. Fotky sú packshoty z e-shopu,
+pri Bublinkách a oboch frizzante sú to aranžované fotky (orezané na
+výšku). Logo je SVG z webu vykreslené do PNG (tmavé písmo s červeným
+„A“); do červenej hlavičky widgetu ide celé biele. Symbol je červené
+„A“ a „J“ z loga. Farby: červená z loga (#9c1006) ako hlavná, akcent
+tmavá z písma.
+
+| víno | cena | stránka |
+| --- | --- | --- |
+| Veltlínské zelené 2024, suché | 171 Kč | https://www.vajbar.cz/e-shop/175.veltlinske-zelene-2024/ |
+| Müller Thurgau 2025, suché | 160 Kč | https://www.vajbar.cz/e-shop/197.muller-thurgau-2025/ |
+| Ryzlink rýnský 2022, suché | 199 Kč | https://www.vajbar.cz/e-shop/166.ryzlink-rynsky-2022/ |
+| Rulandské šedé 2024, suché | 189 Kč | https://www.vajbar.cz/e-shop/167.rulandske-sede-2024/ |
+| Chardonnay 2023, suché | 185 Kč | https://www.vajbar.cz/e-shop/172.chardonnay-2023/ |
+| Chardonnay 2021, polosuché | 185 Kč | https://www.vajbar.cz/e-shop/170.chardonnay-2021/ |
+| Hibernal 2024, polosuché | 185 Kč | https://www.vajbar.cz/e-shop/196.hibernal-2024/ |
+| Pálava 2024, polosuché | 189 Kč | https://www.vajbar.cz/e-shop/171.palava-2024/ |
+| Stařečkovo 2024, suché | 189 Kč | https://www.vajbar.cz/e-shop/169.stareckovo-2024/ |
+| Ryzlink vlašský 2010, suché (archivní) | 279 Kč | https://www.vajbar.cz/e-shop/165.ryzlink-vlassky-2010/ |
+| Tramín červený 2023, polosladké | 189 Kč | https://www.vajbar.cz/e-shop/193.tramin-cerveny-2023/ |
+| Pálava 2023, polosladké | 189 Kč | https://www.vajbar.cz/e-shop/176.palava-2023/ |
+| Frankovka 2020, suché | 199 Kč | https://www.vajbar.cz/e-shop/159.frankovka/ |
+| Svatovavřinecké 2020, suché | 199 Kč | https://www.vajbar.cz/e-shop/158.svatovavrinecke-2020/ |
+| Rulandské modré 2020, suché | 195 Kč | https://www.vajbar.cz/e-shop/149.rulandske-modre/ |
+| Cuvée Kamila 2020, rosé, polosuché | 180 Kč | https://www.vajbar.cz/e-shop/168.cuvee-kamila-2020/ |
+| Rosé Cuvée 2023, polosladké | 149 Kč | https://www.vajbar.cz/e-shop/164.rose-cuvee-2023/ |
+| Bublinky 2025, perlivé, polosuché | 185 Kč | https://www.vajbar.cz/e-shop/199.bublinky-/ |
+| Frizzante Rosé 2025, polosuché | 220 Kč | https://www.vajbar.cz/e-shop/177.frizzante-rose-2025/ |
+| Frizzante Klaret 2025, polosladké | 220 Kč | https://www.vajbar.cz/e-shop/198.frizzante-klaret-2025/ |

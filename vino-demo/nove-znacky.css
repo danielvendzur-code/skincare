@@ -141,3 +141,6 @@ body[data-cosmetics-demo="rajnic"] .cx-owner-brand .cx-logo {
 body[data-cosmetics-demo="rajnic"] .cx-widget-brand .cx-logo {
   max-height: 44px !important;
 }
+body[data-cosmetics-demo="vajbar"] .cx-owner-brand .cx-logo {
+  max-height: 52px !important;
+}

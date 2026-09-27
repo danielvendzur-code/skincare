@@ -344,6 +344,37 @@
         {id:'dunaj',name:'Dunaj 2024, suché',price:'12 €',url:'https://www.vinorajnic.sk/dunaj-2024/',photo:photo('rajnic','dunaj'),tags:['red','bold','meat'],reason:'Slovenská odroda Dunaj z Dubníka, 14,5 % alkoholu — tmavé, plné suché červené.'},
         {id:'pn15',name:'Pinot Noir 2015, suché',price:'15 €',url:'https://www.vinorajnic.sk/pinot-noir-2015/',photo:photo('rajnic','pn15'),tags:['red','fruity','meat','target'],reason:'Vyzretý Pinot Noir z Novej Viesky — zlatá medaila na svetovej súťaži Mondiale des Pinots a Vínnych trhoch Pezinok.'}
       ]
+    },
+    vajbar: {
+      name:'Vinařství Vajbar', domain:'vajbar.cz', website:'https://www.vajbar.cz/e-shop/',
+      theme:{brand:'#9c1006',accent:'#1f1a18',soft:'#f6f0ec',paper:'#fdfbfa',ink:'#1f1a18',line:'#ebdfd9'},
+      wordmark:logo('vajbar','Vinařství Vajbar'),
+      hero:'/assets/vino/vajbar.jpg', mark:'/assets/vino/vajbar-mark.png', headerLogo:'/assets/vino/vajbar-logo-header.png',
+      markColor:{reverse:'/assets/vino/vajbar-mark-reverse.png',bg:'#9c1006',bgHover:'#f6f0ec'},
+      ownerNote:'Vyše 20 vín z Kobylí — suché aj polosladké biele, archívny Vlašák, rosé, frizzante a Bublinky — a zákazník nevie, čo si vybrať.',
+      benefit:['Z vyše 20 vín to pravé k jedlu','Poradí frizzante aj rosé na leto','Odpovie aj mimo otváracích hodín'],
+      products:[
+        {id:'vz',name:'Veltlínské zelené 2024, suché',price:'171 Kč',url:'https://www.vajbar.cz/e-shop/175.veltlinske-zelene-2024/',photo:photo('vajbar','vz'),tags:['white','crisp','fish'],reason:'Veľmi elegantný veltlín z trate Světlý: svetlozelená farba, príjemne korenistá vôňa a jemná mineralita.'},
+        {id:'mt',name:'Müller Thurgau 2025, suché',price:'160 Kč',url:'https://www.vajbar.cz/e-shop/197.muller-thurgau-2025/',photo:photo('vajbar','mt'),tags:['white','crisp','fish'],reason:'Mladé svieže víno ročníka 2025 s kvetinovou vôňou a muškátovým nádychom — „freshy and young“.'},
+        {id:'rr',name:'Ryzlink rýnský 2022, suché',price:'199 Kč',url:'https://www.vajbar.cz/e-shop/166.ryzlink-rynsky-2022/',photo:photo('vajbar','rr'),tags:['white','bold','fish'],reason:'Plný, harmonický Rizling z trate Lumperky s nádychom lipového kvetu a dlhou dochuťou.'},
+        {id:'rs',name:'Rulandské šedé 2024, suché',price:'189 Kč',url:'https://www.vajbar.cz/e-shop/167.rulandske-sede-2024/',photo:photo('vajbar','rs'),tags:['white','bold','fish'],reason:'Jesenné jablká, jadrovník a maslové hrušky, šťavnatá chuť s tónom pražených mandlí — v Průvodci nejlepšími víny ČR.'},
+        {id:'chard23',name:'Chardonnay 2023, suché',price:'185 Kč',url:'https://www.vajbar.cz/e-shop/172.chardonnay-2023/',photo:photo('vajbar','chard23'),tags:['white','fruity','fish'],reason:'Harmonické, elegantné a plné s tónmi citrusov, bielych kvetov a jemného tropického ovocia — v Průvodci nejlepšími víny ČR.'},
+        {id:'chard21',name:'Chardonnay 2021, polosuché',price:'185 Kč',url:'https://www.vajbar.cz/e-shop/170.chardonnay-2021/',photo:photo('vajbar','chard21'),tags:['white','fruity','fish'],reason:'Plné, korenisté a minerálne s tropickým ovocím vo vôni — k cestovinám, smotanovým omáčkam, rybám a morským plodom.'},
+        {id:'hibernal',name:'Hibernal 2024, polosuché',price:'185 Kč',url:'https://www.vajbar.cz/e-shop/196.hibernal-2024/',photo:photo('vajbar','hibernal'),tags:['white','fruity','cheese'],reason:'Zlatisté víno s intenzívnou ovocnou vôňou a korenistými tónmi, elegantný dlhší záver.'},
+        {id:'palava24',name:'Pálava 2024, polosuché',price:'189 Kč',url:'https://www.vajbar.cz/e-shop/171.palava-2024/',photo:photo('vajbar','palava24'),tags:['white','fruity','cheese'],reason:'Kvetinový nektár a zrelé exotické ovocie, šťavnatá ovocná chuť s príjemnou kyselinkou — v Průvodci nejlepšími víny ČR.'},
+        {id:'stareckovo',name:'Stařečkovo 2024, suché',price:'189 Kč',url:'https://www.vajbar.cz/e-shop/169.stareckovo-2024/',photo:photo('vajbar','stareckovo'),tags:['white','bold','cheese','target'],reason:'Rodinné cuvée Rizlingu a Tramínu podľa starých otcov, ktoré môže ležať 5–10 rokov — dobrý darček.'},
+        {id:'rv',name:'Ryzlink vlašský 2010, suché (archivní)',price:'279 Kč',url:'https://www.vajbar.cz/e-shop/165.ryzlink-vlassky-2010/',photo:photo('vajbar','rv'),tags:['white','bold','cheese','target'],reason:'Archívne víno z roku 2010: zlatozelené, s prezretým buketom zrelého vína a stále sviežou kyselinkou.'},
+        {id:'tramin',name:'Tramín červený 2023, polosladké',price:'189 Kč',url:'https://www.vajbar.cz/e-shop/193.tramin-cerveny-2023/',photo:photo('vajbar','tramin'),tags:['white','sweet','cheese'],reason:'Biele kvety, liči a kandizovaný zázvor v intenzívnej vôni — v Průvodci nejlepšími víny ČR 2023/2024.'},
+        {id:'palava23',name:'Pálava 2023, polosladké',price:'189 Kč',url:'https://www.vajbar.cz/e-shop/176.palava-2023/',photo:photo('vajbar','palava23'),tags:['white','sweet','cheese'],reason:'Zlatožltá Pálava so zreteľnou ovocnou vôňou, plnou a dlhou chuťou — vyvážená a jemne sladká.'},
+        {id:'frankovka',name:'Frankovka 2020, suché',price:'199 Kč',url:'https://www.vajbar.cz/e-shop/159.frankovka/',photo:photo('vajbar','frankovka'),tags:['red','fruity','meat'],reason:'Ľahké suché červené: svetlá rubínová farba, ovocno-korenistá vôňa lesných plodov a plná, jemne korenistá chuť.'},
+        {id:'sv',name:'Svatovavřinecké 2020, suché',price:'199 Kč',url:'https://www.vajbar.cz/e-shop/158.svatovavrinecke-2020/',photo:photo('vajbar','sv'),tags:['red','bold','meat'],reason:'Intenzívna červená farba, slivkové lekvárové a smotanové tóny — k pečenému mäsu, omáčkam a vyzretým syrom.'},
+        {id:'rm',name:'Rulandské modré 2020, suché',price:'195 Kč',url:'https://www.vajbar.cz/e-shop/149.rulandske-modre/',photo:photo('vajbar','rm'),tags:['red','bold','meat','target'],reason:'Zrelo v dubovom sude: ovocná chuť zrelých čerešní, plné a vyzreté víno s dlhým záverom.'},
+        {id:'kamila',name:'Cuvée Kamila 2020, rosé, polosuché',price:'180 Kč',url:'https://www.vajbar.cz/e-shop/168.cuvee-kamila-2020/',photo:photo('vajbar','kamila'),tags:['rose','fruity','fish'],reason:'Rodinné rosé z troch odrôd — Rulandské bílé, Frankovka a Zweigeltrebe.'},
+        {id:'rosecuvee',name:'Rosé Cuvée 2023, polosladké',price:'149 Kč',url:'https://www.vajbar.cz/e-shop/164.rose-cuvee-2023/',photo:photo('vajbar','rosecuvee'),tags:['rose','sweet','cheese'],reason:'Frankovka, Modrý Portugal a Svatovavřinecké z trate Padělky: zamatové, ovocné, s výrazným cukrom — k múčnikom a tortám.'},
+        {id:'bublinky',name:'Bublinky 2025, perlivé, polosuché',price:'185 Kč',url:'https://www.vajbar.cz/e-shop/199.bublinky-/',photo:photo('vajbar','bublinky'),tags:['sparkling','fruity','fish'],reason:'Jemne perlivý Veltlín pod národnou značkou Bublinky — šťavnatý s príjemnou kyselinkou.'},
+        {id:'frizzrose',name:'Frizzante Rosé 2025, polosuché',price:'220 Kč',url:'https://www.vajbar.cz/e-shop/177.frizzante-rose-2025/',photo:photo('vajbar','frizzrose'),tags:['sparkling','fruity','fish'],reason:'Ružové frizzante zo Svätovavrineckého — svieže, letné a ľahké.'},
+        {id:'klaret',name:'Frizzante Klaret 2025, polosladké',price:'220 Kč',url:'https://www.vajbar.cz/e-shop/198.frizzante-klaret-2025/',photo:photo('vajbar','klaret'),tags:['sparkling','sweet','cheese'],reason:'Klaret frizzante z Rulandského modrého — osviežujúce polosladké jemne perlivé víno do horúcich dní.'}
+      ]
     }
   });
 })();
