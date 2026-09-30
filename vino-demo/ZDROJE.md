@@ -49,33 +49,6 @@ z loga, teplá krémová plocha.
 | ŠUM Sauvignon 2025, extra dry | 254 Kč | https://eshop.skoupil.com/p/sum-sauvignon-2025-brut |
 | Tramín Babiččine cibéby 2023, sladké, 0,5 l | 425 Kč | https://eshop.skoupil.com/p/babiccine-cibeby-2023-history |
 
-## Vinařství Nechory — vinarstvinechory.cz
-
-Rodinné vinárstvo zo Slovácka (Shoptet, ceny v Kč), takmer 40 vín:
-biele, červené, rosé a klarety, sekty, limitované edície. Ceny a sklad
-z detailu produktu („Skladem“ k 26. 9. 2026), objem 0,75 l, sladkosť
-a párovanie z popisu vína. Fotky sú priehľadné PNG z e-shopu; ružové,
-sekt a perlivé víno majú v e-shope len lifestyle fotky (fľaša v ruke),
-orezané na výšku. Logo je na webe biele a malé (231×66), preto je
-zväčšené 5× s vyhladením; do tmavej hlavičky widgetu ide biela verzia.
-Symbol je „N“ z loga. Farby: hlboká vínová ako hlavná, akcent medená
-ako logo na etiketách.
-
-| víno | cena | stránka |
-| --- | --- | --- |
-| Sauvignon Blanc 2025, suché | 234 Kč | https://eshop.vinarstvinechory.cz/sauvignon-blanc_25/ |
-| Veltlínské zelené 2024, suché | 226 Kč | https://eshop.vinarstvinechory.cz/veltlinske-zelene_24/ |
-| Chardonnay 2024, suché | 224 Kč | https://eshop.vinarstvinechory.cz/chardonnay_2024/ |
-| Muškát Ottonel 2024, polosladké | 234 Kč | https://eshop.vinarstvinechory.cz/muskat-ottonel-24/ |
-| Pálava 2024, polosladké | 242 Kč | https://eshop.vinarstvinechory.cz/palava-24/ |
-| Tramín červený 2023, polosladké | 242 Kč | https://eshop.vinarstvinechory.cz/tramin-cerveny_23/ |
-| Rulandské modré rosé 2024, polosuché | 226 Kč | https://eshop.vinarstvinechory.cz/rulandske-modre-rose_24/ |
-| Rulandské modré 2023, suché | 242 Kč | https://eshop.vinarstvinechory.cz/rulandske-modre-3/ |
-| Cabernet Sauvignon RESERVE 2021, suché | 280 Kč | https://eshop.vinarstvinechory.cz/cabernet-sauvignon_21-2/ |
-| Cuvée Catherine OAK 2023, suché | 280 Kč | https://eshop.vinarstvinechory.cz/cuvee-catherine-oak-2023/ |
-| Riesling Select BRUT 2023 | 368 Kč | https://eshop.vinarstvinechory.cz/riesling-select-brut-2023/ |
-| Euphoria Sparkling 2025, polosuché | 216 Kč | https://eshop.vinarstvinechory.cz/euphoria-sparkling-25/ |
-
 ## Dobrá Vinice — dobravinice.cz
 
 Biodynamické vinárstvo z Podyjí (Upgates, ceny v Kč), okolo 20 vín
@@ -373,45 +346,6 @@ stmavená pre kontrast).
 | Demi sekt Charmat | 270 Kč | https://vinarstvipaulus.cz/sekty-a-frizzante/demi-sekt-charmat/ |
 | Demi sekt rosé Charmat | 270 Kč | https://vinarstvipaulus.cz/sekty-a-frizzante/demi-sekt-rose-charmat/ |
 
-## Vinařství Volařík — vinarstvivolarik.cz
-
-Rodinné vinárstvo z Mikulova (vlastný e-shop, ceny v Kč), 80 vín
-v kategórii Vína a 6 sektov a perlivých vín, všetko „Skladem“
-k 27. 9. 2026 (zoznam e-shopu, 8 strán, a detail každého vína).
-Vinárstvo robí takmer len biele vína — jediné červené v ponuke je
-Cabernet Sauvignon 2022 Turold, preto chat pri červenom otvorene
-povie, že červených je málo. Do ukážky ide 19 vín naprieč traťami,
-terroir radom, výbermi z bobúľ a cibéb, rosé a sektmi. Popisy vín sú
-z e-shopu (preložené do slovenčiny). Fotky sú packshoty z e-shopu
-(pôvodné súbory sú menšie, 270–700 px na šírku, na zobrazovanej
-veľkosti stačia). Web má ako logo iba symbol (SVG v hlavičke), preto
-je wordmark zložený zo symbolu a názvu VOLAŘÍK v písme Lora, ktoré
-web používa v nadpisoch; do hlavičky widgetu ide biela verzia.
-Symbol je ten istý znak z hlavičky webu. Farby: bronzová odvodená zo
-zlatej webu (#C8B274) ako hlavná, akcent svetlejšia zlatá.
-
-| víno | cena | stránka |
-| --- | --- | --- |
-| Veltlínské zelené, pozdní sběr 2024, Věstonsko | 200 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/veltlinske-zelene-pozdni-sber-2024-vestonsko/ |
-| Ryzlink vlašský, pozdní sběr 2025, Zimní vrch | 200 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/ryzlink-vlassky-pozdni-sber-2025-zimni-vrch/ |
-| Ryzlink rýnský, pozdní sběr 2025, Zimní vrch | 230 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/ryzlink-rynsky-pozdni-sber-2025-zimni-vrch/ |
-| Muškát moravský, moravské zemské víno 2025, Refresh | 180 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/muskat-moravsky-moravske-zemske-vino-2025-za-turoldem/ |
-| Sauvignon, pozdní sběr 2025, Na Statkách | 270 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/sauvignon-pozdni-sber-2025-na-statkach/ |
-| Pálava, pozdní sběr 2025, U Boží muky | 250 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/palava-pozdni-sber-2025-u-bozi-muky/ |
-| Tramín červený, výběr z hroznů 2024, Plotny | 250 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/tramin-cerveny-vyber-z-hroznu-2024-plotny/ |
-| Ryzlink vlašský, výběr z hroznů 2024, terroir Kotelná | 370 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/ryzlink-vlassky-vyber-z-hroznu-2024-terroir-kotelna/ |
-| Veltlínské zelené, výběr z hroznů 2024, terroir Věstonsko | 370 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/veltlinske-zelene-vyber-z-hroznu-2024-terroir-vestonsko/ |
-| Pálava, výběr z hroznů 2024, terroir U Venuše | 370 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/palava-vyber-z-hroznu-2024-terroir-u-venuse/ |
-| Tramín kořenný, výběr z hroznů 2024, Pod Slunným vrchem | 250 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/tramin-korenny-vyber-z-hroznu-2024-pod-slunnym-vrchem/ |
-| Pálava, výběr z bobulí 2024, Purmice | 300 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/palava-vyber-z-bobuli-2024-purmice/ |
-| Ryzlink rýnský, výběr z cibéb 2021, Ořechová hora (0,5 l) | 280 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/ryzlink-rynsky-vyber-z-cibeb-2021-orechova-hora/ |
-| Cabernet Sauvignon, výběr z hroznů 2022, Turold | 650 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/cabernet-sauvignon-vyber-z-hroznu-2022-turold/ |
-| Frankovka rosé, pozdní sběr 2025, Plotny | 220 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/frankovka-rose-pozdni-sber-2025-plotny/ |
-| Merlot rosé, výběr z hroznů 2025, Pod Valtickou | 230 Kč | https://www.vinarstvivolarik.cz/cs/eshop/vina/merlot-rose-vyber-z-hroznu-2025-pod-valtickou/ |
-| Perlivée, růžové cuvée 2025, polosladké | 200 Kč | https://www.vinarstvivolarik.cz/cs/eshop/sekty/perlivee-ruzove-cuvee-2025/ |
-| Perlivée, bílé cuvée 2025, suché | 200 Kč | https://www.vinarstvivolarik.cz/cs/eshop/sekty/perlivee-bile-cuvee-2025/ |
-| Sekt Volařík - Ryzlink vlašský 2021, extra brut | 390 Kč | https://www.vinarstvivolarik.cz/cs/eshop/sekty/sekt-volarik-ryzlink-vlassky-2021/ |
-
 ## Víno Rajníc — vinorajnic.sk
 
 Rodinné vinárstvo v centre Pezinka (Shoptet, ceny v €), vyše 20 vín
@@ -514,41 +448,6 @@ ako hlavná (červenou vínnou má už viac ukážok), akcent červená z loga.
 | Sekt Demi Sec Chardonnay | 310 Kč | https://www.vinobuchtovi.cz/e-shop/sekt-demi-sec-chardonnay253 |
 | Sekt Brut Ryzlink rýnský 2023 | 310 Kč | https://www.vinobuchtovi.cz/e-shop/sekt-brut-ryzlink-rynsky103 |
 
-## Vinařství Gotberg — gotberg.cz
-
-Vinárstvo z Popíc pod Pálavou (vlastný e-shop, ceny v Kč), vyše 20
-vín: suché aj polosladké biele, BIO vína, výber z cibéb, slamové
-víno, červené a frizzante. Ceny, cukor a popisy sú z detailu každého
-vína (27. 9. 2026, všetky s tlačidlom Do košíku). Ružové víno e-shop
-momentálne nemá, pri voľbe „ružové“ poradca ponúkne víno podľa štýlu.
-Do ukážky ide 19 vín. Fotky sú produktové obrázky z e-shopu (bez
-pozadia). Logo je podpisové SVG z webu vykreslené do PNG; do hlavičky
-widgetu ide biela verzia. Symbol je „G“ z podpisu. Farby: olivovo
-hnedá z webu (#847F64, stmavená pre kontrast) ako hlavná, akcent
-tmavá z loga.
-
-| víno | cena | stránka |
-| --- | --- | --- |
-| Ryzlink rýnský pozdní sběr 2024, suché | 250 Kč | https://gotberg.cz/cs/eshop/ryzlink-rynsky-pozdni-sber-2024:470/ |
-| Chardonnay pozdní sběr 2024, suché | 250 Kč | https://gotberg.cz/cs/eshop/chardonnay-pozdni-sber-2024:481/ |
-| Sauvignon pozdní sběr 2024, suché | 250 Kč | https://gotberg.cz/cs/eshop/sauvignon-pozdni-sber-2024:474/ |
-| Sylvánské zelené kabinet 2025, polosuché | 250 Kč | https://gotberg.cz/cs/eshop/sylvanske-zelene-kabinet-2025:508/ |
-| Ryzlink rýnský BIO pozdní sběr 2025, polosuché | 250 Kč | https://gotberg.cz/cs/eshop/ryzlink-rynsky-bio-pozdni-sber-2025:515/ |
-| Muškát moravský pozdní sběr 2022, polosuché | 150 Kč | https://gotberg.cz/cs/eshop/muskat-moravsky-pozdni-sber-2022:476/ |
-| Pálava pozdní sběr 2025, suché | 290 Kč | https://gotberg.cz/cs/eshop/palava-pozdni-sber-2025:514/ |
-| Rulandské šedé pozdní sběr 2024, suché | 250 Kč | https://gotberg.cz/cs/eshop/rulandske-sede-pozdni-sber-2024:473/ |
-| Chardonnay barrique pozdní sběr 2024, suché | 300 Kč | https://gotberg.cz/cs/eshop/chardonnay-barrique-pozdni-sber-2024:495/ |
-| Tramín červený pozdní sběr 2024, polosuché | 250 Kč | https://gotberg.cz/cs/eshop/tramin-cerveny-pozdni-sber-2024:492/ |
-| Tramín červený BIO pozdní sběr 2023, polosuché | 250 Kč | https://gotberg.cz/cs/eshop/tramin-cerveny-bio-pozdni-sber-2023:490/ |
-| Pálava BIO výběr z hroznů 2024, polosladké | 290 Kč | https://gotberg.cz/cs/eshop/palava-bio-vyber-z-hroznu-2024:488/ |
-| Pálava výběr z hroznů 2022, polosladké | 290 Kč | https://gotberg.cz/cs/eshop/palava-vyber-z-hroznu-2022:469/ |
-| Pálava výběr z cibéb 2022, sladké | 300 Kč | https://gotberg.cz/cs/eshop/palava-vyber-z-cibeb-2022:484/ |
-| Pálava slámové víno 2023, sladké | 420 Kč | https://gotberg.cz/cs/eshop/palava-slamove-vino-2023:518/ |
-| Frankovka výběr z hroznů 2023, suché | 250 Kč | https://gotberg.cz/cs/eshop/frankovka-vyber-z-hroznu-2023:475/ |
-| Merlot výběr z hroznů 2024, suché | 290 Kč | https://gotberg.cz/cs/eshop/merlot-vyber-z-hroznu-2024:471/ |
-| Pinot Noir výběr z hroznů 2019, suché | 290 Kč | https://gotberg.cz/cs/eshop/pinot-noir-vyber-z-hroznu-2019:472/ |
-| Frizzante perlivé víno 2025, suché | 190 Kč | https://gotberg.cz/cs/eshop/frizzante-perlive-vino-2025:512/ |
-
 ## Víno Přistál — znojmo.wine
 
 Rodinné vinárstvo zo Znojma (Shoptet, ceny v Kč), 16 vín skladom
@@ -616,7 +515,6 @@ ako hlavná, akcent oranžovočervená z kruhu na etiketách.
 | Pálava 2024, výběr z hroznů, polosladké | 235 Kč | https://vinolipa.cz/produkt/palava-vino-s-privlastkem-vyber-z-hroznu-polosladke-2024-oblast-morava-vinarska-obec-milovice-d-vestonice-vinicni-trat-milovicke-terasy-pod-hradem/ |
 | Pálava 2023, výběr z bobulí, sladké | 320 Kč | https://vinolipa.cz/produkt/palava-vino-s-privlastkem-vyber-z-bobuli-sladke-2023-oblast-morava-vinarska-obec-milovice-vinicni-trat-milovicke-terasy/ |
 | Cabernet Moravia 2023, výběr z hroznů, suché | 290 Kč | https://vinolipa.cz/produkt/cabernet-moravia-vino-s-privlastkem/ |
-| Zweigeltrebe rosé 2025, polosuché | 180 Kč | https://vinolipa.cz/produkt/zweigeltrebe-rose-vinarska-obec-mikulov-polosuche-2025/ |
 | Lipasecco Zweigeltrebe rosé 2025, polosuché | 195 Kč | https://vinolipa.cz/produkt/lipasecco-zweigeltrebe-rose-2025/ |
 | Lipasecco cuvée 2025, polosuché | 195 Kč | https://vinolipa.cz/produkt/lipasecco-cuvee-2025/ |
 | Sekt Chardonnay Brut Nature 2023 | 370 Kč | https://vinolipa.cz/produkt/sekt-chardonnay-brut-nature-2023/ |
@@ -809,106 +707,3 @@ zobrazujú PHP varovanie „Undefined variable $max“ pri tlačidle košíka.
 | Frizzante Cabernet Sauvignon 2025, polosuché | 9,00 € | https://carpatediem.sk/produkt/sytene-perlive-vino-cabernet-sauvignon-2025/ |
 | Frizzante Muškát moravský 2024, polosuché | 9,00 € | https://carpatediem.sk/produkt/sytene-perlive-vino-muskat-moravsky-2024/ |
 
-## Karpatská perla — karpatskaperla.sk
-
-Rodinné vinárstvo zo Šenkvíc (redakčný systém SwiftSite, ceny v €),
-v e-shope 46 položiek, všetky s tlačidlom „Pridať do košíka“ (27. 9. 2026).
-Do ukážky ide 30 vín — biele z vinohradov Suchý vrch, Kramáre, Noviny,
-Ingle a Staré hory, polosladké a sladké až po ľadové víno, červené
-vrátane archívnych ročníkov, rosé, frizzante, PétNat a sekt. Vynechané:
-0,25 l fľaše, 1,5 l darčeková fľaša, vertikála, hroznové šťavy Bobulo
-a staršie ročníky vín, ktoré sú v ponuke aj v novom ročníku (Muškát
-2024, Sauvignon BIO 2024, Silvánske 2022, Rizling Kramáre 2024,
-Rizling Suchý vrch 2024 suchý, Veltlín Ingle/Noviny 2023, Veltlín sur
-lie 2022, Pinot Blanc 2024, Frankovka 2021). Popisy sú z vlastností
-a odporúčania na stránke produktu. Fotky: og:image je zmenšenina
-(580 px), plné 1500 px packshoty sú na tej istej adrese bez predpony
-„5“ v názve súboru; odraz pod fľašou je súčasťou fotiek e-shopu. Logo
-je vektorové (safari-pinned-tab.svg z webu), prefarbené na tmavomodrú
-(v hlavičke widgetu biele), symbol je celé okrúhle logo. Farby: web
-je za vekovou bránou, preto tmavomodrá z brány (#221F3F) ako hlavná
-a akcent oranžová bodka z etikiet stmavená pre kontrast (#A8531E).
-
-| víno | cena | stránka |
-| --- | --- | --- |
-| Veltlínske zelené 2025, suché | 6,90 € | https://www.karpatskaperla.sk/produkty/biele-vina/veltlinske-zelene-1 |
-| Sauvignon Blanc, BIO 2025, suché | 7,60 € | https://www.karpatskaperla.sk/produkty/biele-vina/sauvignon-blanc-bio-1 |
-| Rizling rýnsky, BIO 2025, suché | 8,80 € | https://www.karpatskaperla.sk/produkty/biele-vina/rizling-rynsky-bio |
-| Muškát moravský 2025, suché | 7,60 € | https://www.karpatskaperla.sk/produkty/biele-vina/muskat-moravsky-mlade-vino |
-| Svetové Noviny 2023, suché | 10,80 € | https://www.karpatskaperla.sk/produkty/biele-vina/svetove-noviny |
-| Silvánske zelené, BIO 2023, suché | 12,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/silvanske-zelene-bio |
-| Pinot Gris, BIO 2025, suché | 13,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/pinot-gris-bio |
-| Rizling rýnsky, Kramáre, BIO 2025, suché | 12,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/rizling-rynsky-kramare-bio-1 |
-| Veltlínske zelené, Noviny, BIO 2024, suché | 13,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/veltlinske-zelene-noviny-bio |
-| Tramín červený 2022, suché | 11,70 € | https://www.karpatskaperla.sk/produkty/biele-vina/tramin-cerveny-1 |
-| 4 ŽIVLY biele 2022, suché | 18,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/4-zivly-biele |
-| Devín, BIO 2025, polosuché | 12,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/devin-bio |
-| Veltlínske zelené, Ingle, BIO 2024, polosuché | 11,70 € | https://www.karpatskaperla.sk/produkty/biele-vina/veltlinske-zelene-bio |
-| Pálava, BIO 2025, polosladké | 13,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/palava-bio-1 |
-| Rizling rýnsky, Suchý vrch, BIO 2025, polosladké | 13,10 € | https://www.karpatskaperla.sk/produkty/biele-vina/rizling-rynsky-2025-svr |
-| Devín, BIO 2023, bobuľový výber, sladké | 13,50 € | https://www.karpatskaperla.sk/produkty/biele-vina/devin-bio-1 |
-| Aurelius 2019, hrozienkový výber, sladké | 23,00 € | https://www.karpatskaperla.sk/produkty/biele-vina/aurelius |
-| Veltlínske zelené 2020, ľadové víno, sladké | 33,00 € | https://www.karpatskaperla.sk/produkty/biele-vina/veltlinske-zelene |
-| Frankovka modrá 2022, suché | 7,60 € | https://www.karpatskaperla.sk/produkty/cervene-vina/frankovka-modra-22 |
-| Dunaj, BIO 2024, suché | 10,60 € | https://www.karpatskaperla.sk/produkty/cervene-vina/dunaj-bio-1 |
-| Pinot Noir 2021, suché | 13,90 € | https://www.karpatskaperla.sk/produkty/cervene-vina/pinot-noir-1 |
-| Alibernet 2019, suché | 13,00 € | https://www.karpatskaperla.sk/produkty/cervene-vina/alibernet-1 |
-| Cabernet Sauvignon 2022, suché | 13,20 € | https://www.karpatskaperla.sk/produkty/cervene-vina/cabernet-sauvignon-2022 |
-| 4 ŽIVLY červené 2021, suché | 21,90 € | https://www.karpatskaperla.sk/produkty/cervene-vina/4-zivly-cervene-1 |
-| Cabernet Sauvignon 2011, archívne | 30,00 € | https://www.karpatskaperla.sk/produkty/cervene-vina/cabernet-sauvignon-1 |
-| 4 ŽIVLY červené 2007, archívne víno | 30,00 € | https://www.karpatskaperla.sk/produkty/cervene-vina/4-zivly-cervene-archivne-vino |
-| Frankovka modrá rosé, BIO 2025, suché | 8,90 € | https://www.karpatskaperla.sk/produkty/ruzove-vina/frankovka-modra-rose-bio |
-| FRIZZANTE Rizling rýnsky 2025, polosuché | 8,90 € | https://www.karpatskaperla.sk/produkty/bublinky/frizzante-rizling-rynsky |
-| PétNat Sauvignon Blanc 2025 | 12,60 € | https://www.karpatskaperla.sk/produkty/bublinky/petnat-sauvignon-blanc |
-| Sekt Pinot Noir 2022, extra dry | 17,30 € | https://www.karpatskaperla.sk/produkty/bublinky/pinot-noir-3 |
-
-## Vinařství U Kapličky — vinarstviukaplicky.cz
-
-Rodinné vinárstvo zo Zaječí na Velkopavlovicku (vlastný e-shop, ceny
-v Kč), 77 položiek „Skladem“ (27. 9. 2026) v líniách Fresh Wine, Fresh
-Bubble, Víno Selection, Víno Dalibor, slamové víno, Sekt Dalibor
-a Bag in Box. Do ukážky ide 33 vín naprieč všetkými líniami, farbami
-a sladkosťou (vrátane nealkoholického Fresh Bubble Rosé 0 %).
-Vynechané sú zlacnené staršie ročníky, Bag in Box, duplicitné ročníky
-a Frankovka Dalibor 2023, ktorá na e-shope nemá fotku. Popisy sú
-skrátené a preložené z popisu produktu. Fotky sú packshoty z e-shopu
-(og:image). Logo je SVG z e-shopu (ovál s budovou vinárstva
-a písaný názov); do hlavičky widgetu ide iba písaný názov v bielej,
-symbol je ovál s budovou. Farby: bordová z textov e-shopu (#7A1B1F)
-ako hlavná, krémová z loga ako mäkká farba, akcent zlatohnedá (#8A6A2A).
-
-| víno | cena | stránka |
-| --- | --- | --- |
-| Veltlínské zelené, Fresh Wine 2025, suché | 239 Kč | https://eshop.vinarstviukaplicky.cz/veltlinske-zelene-2025-suche/ |
-| Sauvignon, Fresh Wine 2025, suché | 239 Kč | https://eshop.vinarstviukaplicky.cz/sauvignon-2025-suche/ |
-| Ryzlink rýnský, Fresh Wine 2025, suché | 239 Kč | https://eshop.vinarstviukaplicky.cz/ryzlink-rynsky-2025-suche/ |
-| Hibernal, Fresh Wine 2025, suché | 239 Kč | https://eshop.vinarstviukaplicky.cz/hibernal-2025-suche/ |
-| Sylvánské zelené, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/sylvanske-zelene-85943/ |
-| Ryzlink vlašský, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/ryzlink-vlassky-21764/ |
-| Chardonnay, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/chardonnay-2025-suche/ |
-| Rulandské bílé, Dalibor 2025, suché | 319 Kč | https://eshop.vinarstviukaplicky.cz/rulandske-bile-2025-suche/ |
-| Ryzlink rýnský, Dalibor 2025, výběr z hroznů, suché | 319 Kč | https://eshop.vinarstviukaplicky.cz/ryzlink-rynsky-11892/ |
-| Veltlínské zelené VOC Růžové hory, Dalibor 2024, suché | 319 Kč | https://eshop.vinarstviukaplicky.cz/veltlinske-zelene-voc-ruzove-hory-2024-suche/ |
-| Kerner, Dalibor 2025, polosuché | 319 Kč | https://eshop.vinarstviukaplicky.cz/kerner-2025-polosuche/ |
-| Pálava, Fresh Wine 2025, polosladké | 249 Kč | https://eshop.vinarstviukaplicky.cz/palava-2025-polosladke/ |
-| Tramín červený, Selection 2025, výběr z hroznů, polosladké | 189 Kč | https://eshop.vinarstviukaplicky.cz/tramin-cerveny-24347/ |
-| Rulandské šedé, Selection 2025, polosladké | 189 Kč | https://eshop.vinarstviukaplicky.cz/rulandske-sede-2025-polosladke/ |
-| Pálava, Selection 2025, výběr z hroznů, sladké | 199 Kč | https://eshop.vinarstviukaplicky.cz/palava-2025-sladke/ |
-| Pálava, Dalibor 2025, výběr z cibéb, sladké | 319 Kč | https://eshop.vinarstviukaplicky.cz/palava-vyber-z-cibeb-2025-sladke/ |
-| Pálava, slámové víno 2025 | 499 Kč | https://eshop.vinarstviukaplicky.cz/palava-72776/ |
-| Modrý Portugal, Selection 2024, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/modry-portugal-2024-suche/ |
-| Zweigeltrebe, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/zweigeltrebe-2025-suche/ |
-| Rulandské modré, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/rulandske-modre-2025-suche/ |
-| Frankovka, Selection 2024, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/frankovka-2024-suche/ |
-| Cabernet Moravia, Selection 2023, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/cabernet-moravia-2023-suche/ |
-| Alibernet, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/alibernet-2025-suche/ |
-| Cabernet Sauvignon, Selection 2025, suché | 189 Kč | https://eshop.vinarstviukaplicky.cz/cabernet-sauvignon-2025-suche/ |
-| Dornfelder, Selection 2025, polosuché | 189 Kč | https://eshop.vinarstviukaplicky.cz/dornfelder-2025-polosuche/ |
-| Cabernet Sauvignon, Dalibor 2023, výběr z hroznů, suché | 319 Kč | https://eshop.vinarstviukaplicky.cz/cabernet-sauvignon-84381/ |
-| Alibernet, slámové víno 2025 | 499 Kč | https://eshop.vinarstviukaplicky.cz/alibernet-2025-sladke/ |
-| Frankovka rosé, Selection 2025, polosladké | 189 Kč | https://eshop.vinarstviukaplicky.cz/frankovka-rose-2025-polosladke/ |
-| Riesling, Fresh Bubble 2025, suché | 299 Kč | https://eshop.vinarstviukaplicky.cz/riesling-2025-suche/ |
-| Pinot noir rosé, Fresh Bubble 2025, polosladké | 299 Kč | https://eshop.vinarstviukaplicky.cz/pinot-noir-rose-2025-polosladke/ |
-| Fresh Bubble Rosé 0 %, nealkoholické | 179 Kč | https://eshop.vinarstviukaplicky.cz/fresh-bubble-rose-0-sladke/ |
-| Sekt Blanc de Blancs, Dalibor 2023, brut | 399 Kč | https://eshop.vinarstviukaplicky.cz/blanc-de-blancs-2023-brut/ |
-| Sekt Blanc de Noir, Dalibor 2023, sec | 399 Kč | https://eshop.vinarstviukaplicky.cz/blanc-de-noir-2023-sec/ |

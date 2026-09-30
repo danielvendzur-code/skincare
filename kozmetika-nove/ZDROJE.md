@@ -177,26 +177,6 @@ je písané „J“ z loga. Farby z webu: čierna, magenta, teplé krémové plo
 | Noční Hyacint – nočné sérum 50 ml | 2 950 Kč | https://pravaja.cz/produkt/nocni-hyacint-50-ml/ |
 | Napravující Koncentrát – SOS sérum 50 ml | 825 Kč | https://pravaja.cz/produkt/napravujici-koncentrat-pravaja-30-ml/ |
 
-## Botanica Slavica — botanicaslavica.eu
-
-Česko-slovenská značka prírodnej kozmetiky (e-shop v €, PrestaShop) s
-radami podľa pleti: 9 divov bylín pre mastnú, 9 divov kvetov pre citlivú,
-9 divov plodov pre suchú, plus fermentované oleje PREMIUM. Fotky sú
-priehľadné PNG z e-shopu. Logo na webe má len 200×40 px; symbolom je
-serifové „B“ z ich ikony aplikácie (512 px). Farby: čierne balenia so
-zlatou, teplé svetlé plochy.
-
-| produkt | cena | stránka |
-| --- | --- | --- |
-| Rebalansačné tonikum 9 divov bylín 100 ml | 8,95 € | https://www.botanicaslavica.eu/9-divov-bylin/pletove-tonikum-9-divov-bylin |
-| Čistiaca exfoliačná pena PREMIUM | 12,90 € | https://www.botanicaslavica.eu/premium/cistiaca-exfoliacna-pena-proti-nedokonalostiam-pleti-premium |
-| Pleťové sérum 9 divov kvetov 30 ml | 16,95 € | https://www.botanicaslavica.eu/9-divov-kvetov/pletove-serum-9-divov-kvetov |
-| Čistiaci gél 9 divov kvetov 100 ml | 12,95 € | https://www.botanicaslavica.eu/9-divov-kvetov/pletovy-cistiaci-gel-9-divov-kvetov |
-| RICH BARRIER krém 50 ml | 20,95 € | https://www.botanicaslavica.eu/9-divov-plodov/rich-barrier-vyzivny-a-regeneracny-krem-sipkovy-olej-vitamin-e- |
-| Fermentovaný slivkový olej 50 ml | 13,95 € | https://www.botanicaslavica.eu/premium/fermentovany-slivkovy-olej-upokojujuca-obnova-pre-citlivu-plet |
-| Fermentovaný arganový olej 50 ml | 12,95 € | https://www.botanicaslavica.eu/premium/fermentovany-arganovy-olej-intenzivna-sila-v-cistej-forme |
-| Fermentovaný avokádový olej 50 ml | 8,95 € | https://www.botanicaslavica.eu/premium/fermentovany-avokadovy-olej-hlbkova-obnova-a-ochrana-pleti |
-
 ## CALTHA — caltha.cz
 
 Česká certifikovaná prírodná kozmetika z ručnej výroby (Shoptet, ceny
@@ -294,31 +274,6 @@ jemná ružová plocha ako na webe.
 | Krém pre suchú pleť – kakaové maslo, vanilka 30 ml | 359 Kč | https://www.biorythme.cz/p/170/prirodni-pletovy-krem-kakaove-maslo-vanilka |
 | Harmonizujúce tonikum 100 ml | 349 Kč | https://www.biorythme.cz/p/318/harmonizujici-tonikum-pro-smisenou-a-mastnou-plet |
 | Upokojujúce tonikum 100 ml | 349 Kč | https://www.biorythme.cz/p/320/zklidnujici-tonikum-pro-zregenerovanou-spokojenou-plet |
-
-## Original ATOK — originalatok.cz
-
-Česká prírodná kozmetika (Shoptet, ceny v Kč) s veľmi širokou ponukou
-krémov, fluidov a pleťových vôd — zákazník potrebuje navigáciu. Ceny sú
-za predvolený (najmenší) variant: `value` v GA dátach stránky je cena
-bez DPH, × 1,21 sedí s cenou na stránke. Všetko „Skladem“ k 26. 9. 2026.
-Packshoty z e-shopu na bielej. Logo je oficiálne SVG z webu. Symbol je
-biely kvet z ich zeleného kruhu: launcher zelený s bielym kvetom, pri
-hoveri obrátene (biely launcher, zelený kvet). Pre hlavičku widgetu je
-`atok-logo-header.png` — biele písmo a kruh s vyrezaným kvetom, aby sa
-kruh nezmenil na plný biely disk. Farby: zelená z loga (tmavšia na
-tlačidlá), akcent lososovo-červená z ich balení, sivý text ako v logu.
-
-| produkt | cena | stránka |
-| --- | --- | --- |
-| Hydratačný krém Granátové jablko 50 ml | 435 Kč | https://www.originalatok.cz/hydratacni-krem-granatove-jablko/ |
-| Omladzujúci krém Ruža 50 ml | 501 Kč | https://www.originalatok.cz/omlazujici-krem-ruze/ |
-| Upokojujúci krém Levanduľa 50 ml | 326 Kč | https://www.originalatok.cz/zklidnujici-krem-levandule/ |
-| Krém na akné 50 ml | 393 Kč | https://www.originalatok.cz/krem-na-akne/ |
-| Facelifting krém Vanilka – slamienka 30 ml | 596 Kč | https://www.originalatok.cz/facelifting-krem-vanilka-slamenka/ |
-| Rozjasňujúce sérum s vitamínom C (15 ml podľa etikety) | 394 Kč | https://www.originalatok.cz/rozjasnujici-serum-s-vitaminem-c/ |
-| Hyalurónový fluid 30 ml | 395 Kč | https://www.originalatok.cz/hyaluronovy-fluid/ |
-| Pleťová voda Levanduľa 200 ml | 208 Kč | https://www.originalatok.cz/pletova-voda-levandule/ |
-| Jemný odličovací gél Aloe vera 150 ml | 385 Kč | https://www.originalatok.cz/jemny-odlicovaci-gel-aloe-vera/ |
 
 ## Purity Vision — purityvision.cz
 

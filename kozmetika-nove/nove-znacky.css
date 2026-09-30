@@ -89,12 +89,6 @@ body[data-cosmetics-demo="biorythme"] .cx-owner-brand .cx-logo {
 body[data-cosmetics-demo="biorythme"] .cx-widget-brand .cx-logo {
   max-height: 40px !important;
 }
-body[data-cosmetics-demo="atok"] .cx-owner-brand .cx-logo {
-  max-height: 50px !important;
-}
-body[data-cosmetics-demo="atok"] .cx-widget-brand .cx-logo {
-  max-height: 36px !important;
-}
 body[data-cosmetics-demo="purity"] .cx-owner-brand .cx-logo {
   max-height: 48px !important;
 }

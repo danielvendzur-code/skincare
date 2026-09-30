@@ -165,24 +165,6 @@
         {id:'napravujici',name:'Napravující Koncentrát – pleťové SOS sérum 50 ml',price:'825 Kč',url:'https://pravaja.cz/produkt/napravujici-koncentrat-pravaja-30-ml/',photo:photo('pravaja','napravujici'),tags:['sensitive','calm','oil','target','simple'],reason:'Macerát z nechtíka s kurkumou — 100 % prírodné SOS sérum, keď pleť potrebuje upokojiť.'}
       ]
     },
-    botanica: {
-      name:'Botanica Slavica', domain:'botanicaslavica.eu', website:'https://www.botanicaslavica.eu/sk/',
-      theme:{brand:'#231f1c',accent:'#8a6a2e',soft:'#f3f0ea',paper:'#fdfcfa',ink:'#231f1c',line:'#e5dfd4'},
-      wordmark:logo('botanica','Botanica Slavica'),
-      hero:'/assets/cosmetics/botanica.jpg', mark:'/assets/cosmetics/botanica-mark.png',
-      ownerNote:'Rady 9 divov bylín, kvetov a plodov plus fermentované oleje — každá je pre iný typ pleti, no zákazník to z názvu nevyčíta.',
-      benefit:['Z troch rád 9 divov tú správnu pre pleť','Výber podľa pleti, nie podľa názvu kolekcie','Odpovie aj mimo otváracích hodín'],
-      products:[
-        {id:'tonikum',name:'Rebalansačné pleťové tonikum 9 divov bylín 100 ml',price:'8,95 €',url:'https://www.botanicaslavica.eu/9-divov-bylin/pletove-tonikum-9-divov-bylin',photo:photo('botanica','tonikum'),tags:['oily','balanced','clarity','full'],reason:'Rebalansačné tonikum na každodenné dočistenie pleti so zvýšenou tvorbou mazu — bez pocitu mastnoty a nežiaduceho lesku.'},
-        {id:'pena',name:'Čistiaca exfoliačná pena proti nedokonalostiam PREMIUM',price:'12,90 €',url:'https://www.botanicaslavica.eu/premium/cistiaca-exfoliacna-pena-proti-nedokonalostiam-pleti-premium',photo:photo('botanica','pena'),tags:['oily','clarity','target'],reason:'Exfoliačná čistiaca pena s extraktom z 9 divov kvetov — cielený krok pre pleť so sklonom k nedokonalostiam.'},
-        {id:'serum',name:'Pleťové sérum 9 divov kvetov 30 ml',price:'16,95 €',url:'https://www.botanicaslavica.eu/9-divov-kvetov/pletove-serum-9-divov-kvetov',photo:photo('botanica','serum'),tags:['sensitive','calm','serum','target','basic'],reason:'Upokojujúce a zjemňujúce olejové sérum nemastnej textúry pre precitlivenú pleť bez podráždenia a začervenania.'},
-        {id:'gel',name:'Upokojujúci čistiaci gél 9 divov kvetov 100 ml',price:'12,95 €',url:'https://www.botanicaslavica.eu/9-divov-kvetov/pletovy-cistiaci-gel-9-divov-kvetov',photo:photo('botanica','gel'),tags:['sensitive','calm','full'],reason:'Hydratačný a upokojujúci gél na každodenné jemné čistenie precitlivenej až extrémne citlivej pleti.'},
-        {id:'rich',name:'RICH BARRIER výživný a regeneračný krém 50 ml',price:'20,95 €',url:'https://www.botanicaslavica.eu/9-divov-plodov/rich-barrier-vyzivny-a-regeneracny-krem-sipkovy-olej-vitamin-e-',photo:photo('botanica','rich'),tags:['dry','mature','hydrate','cream','simple','basic'],reason:'Bohatý krém so šípkovým olejom, vitamínom E a extraktmi z 9 plodov odstráni suchosť a pocit pnutia.'},
-        {id:'slivka',name:'Fermentovaný slivkový olej – obnova citlivej pleti 50 ml',price:'13,95 €',url:'https://www.botanicaslavica.eu/premium/fermentovany-slivkovy-olej-upokojujuca-obnova-pre-citlivu-plet',photo:photo('botanica','slivka'),tags:['sensitive','dry','calm','oil','simple'],reason:'Jemná, no účinná starostlivosť pre náročnú citlivú pleť — výrobca uvádza o 29 % menej začervenania.'},
-        {id:'argan',name:'Fermentovaný arganový olej 50 ml',price:'12,95 €',url:'https://www.botanicaslavica.eu/premium/fermentovany-arganovy-olej-intenzivna-sila-v-cistej-forme',photo:photo('botanica','argan'),tags:['mature','dry','oil','target','full'],reason:'Fermentovaný arganový olej s lepšou vstrebateľnosťou a viac antioxidantmi — výživa pre zrelšiu pleť.'},
-        {id:'avokado',name:'Fermentovaný avokádový olej 50 ml',price:'8,95 €',url:'https://www.botanicaslavica.eu/premium/fermentovany-avokadovy-olej-hlbkova-obnova-a-ochrana-pleti',photo:photo('botanica','avokado'),tags:['dry','balanced','hydrate','oil','any'],reason:'Hĺbková obnova a ochrana pleti — fermentovaný avokádový olej intenzívne hydratuje a vyživuje.'}
-      ]
-    },
     caltha: {
       name:'CALTHA', domain:'caltha.cz', website:'https://www.caltha.cz/',
       theme:{brand:'#1f3a32',accent:'#3c840f',soft:'#e8f3ef',paper:'#fbfdfc',ink:'#1b2622',line:'#d6e6df'},
@@ -254,26 +236,6 @@
         {id:'vanil',name:'Voňavý krém pre suchú pleť – kakaové maslo, vanilka 30 ml',price:'359 Kč',url:'https://www.biorythme.cz/p/170/prirodni-pletovy-krem-kakaove-maslo-vanilka',photo:photo('biorythme','vanil'),tags:['dry','hydrate','cream','simple','basic'],reason:'Hebký prírodný balzam s kakaovým maslom a vôňou vanilky vyživí suchú pleť — bez vody, teda koncentrovaný.'},
         {id:'harm',name:'Harmonizujúce tonikum pre zmiešanú a mastnú pleť 100 ml',price:'349 Kč',url:'https://www.biorythme.cz/p/318/harmonizujici-tonikum-pro-smisenou-a-mastnou-plet',photo:photo('biorythme','harm'),tags:['oily','balanced','clarity','full'],reason:'Hydroláty s extraktom z vŕbovej kôry jemne odstránia odumreté bunky a zjednotia textúru — bez liehu a pridanej vody.'},
         {id:'zkl',name:'Upokojujúce tonikum pre zregenerovanú, spokojnú pleť 100 ml',price:'349 Kč',url:'https://www.biorythme.cz/p/320/zklidnujici-tonikum-pro-zregenerovanou-spokojenou-plet',photo:photo('biorythme','zkl'),tags:['sensitive','dry','calm','full'],reason:'Probiotický komplex, fermentovaná matcha a panthenol posilnia mikroflóru pokožky a podporia jej regeneráciu.'}
-      ]
-    },
-    atok: {
-      name:'Original ATOK', domain:'originalatok.cz', website:'https://www.originalatok.cz/',
-      theme:{brand:'#3f7a1f',accent:'#c9564f',soft:'#f2f7ec',paper:'#fcfdfa',ink:'#2f3431',line:'#dfe9d4'},
-      wordmark:logo('atok','Original ATOK'),
-      hero:'/assets/cosmetics/atok.jpg', mark:'/assets/cosmetics/atok-mark.png', headerLogo:'/assets/cosmetics/atok-logo-header.png',
-      markColor:{reverse:'/assets/cosmetics/atok-mark-reverse.png',bg:'#7ab62f',bgHover:'#ffffff'},
-      ownerNote:'Desiatky krémov, fluidov a pleťových vôd — granátové jablko, ruža, levanduľa, ženšen… Zákazník sa v nich stráca a nevie, čo patrí k jeho pleti.',
-      benefit:['Z desiatok krémov a vôd ten pravý pre pleť','Poskladá rutinu: odličovanie, voda, sérum, krém','Odpovie aj mimo otváracích hodín'],
-      products:[
-        {id:'granat',name:'Hydratačný krém Granátové jablko 50 ml',price:'435 Kč',url:'https://www.originalatok.cz/hydratacni-krem-granatove-jablko/',photo:photo('atok','granat'),tags:['dry','balanced','hydrate','cream','any','simple','basic'],reason:'Ľahký krém s granátovým jablkom pre intenzívnu hydratáciu a sviežosť pleti.'},
-        {id:'ruze',name:'Omladzujúci krém Ruža 50 ml',price:'501 Kč',url:'https://www.originalatok.cz/omlazujici-krem-ruze/',photo:photo('atok','ruze'),tags:['mature','dry','hydrate','cream','full','basic'],reason:'Luxusný krém s ružou damascénskou pre mladistvú, pružnú a žiarivú pleť.'},
-        {id:'levandule',name:'Upokojujúci krém Levanduľa 50 ml',price:'326 Kč',url:'https://www.originalatok.cz/zklidnujici-krem-levandule/',photo:photo('atok','levandule'),tags:['sensitive','calm','cream','simple','basic'],reason:'Ľahký krém s levanduľou na intenzívne upokojenie a regeneráciu citlivej pleti.'},
-        {id:'akne',name:'Krém na akné 50 ml',price:'393 Kč',url:'https://www.originalatok.cz/krem-na-akne/',photo:photo('atok','akne'),tags:['oily','clarity','cream','target','simple','basic'],reason:'Špeciálny bylinný krém, ktorý upokojí, hydratuje a zjednotí pleť so sklonom k akné.'},
-        {id:'lifting',name:'Facelifting krém Vanilka – slamienka 30 ml',price:'596 Kč',url:'https://www.originalatok.cz/facelifting-krem-vanilka-slamenka/',photo:photo('atok','lifting'),tags:['mature','balanced','cream','target','basic'],reason:'Liftingový krém s vanilkou a slamienkou pre pevnú, vyhladenú a žiarivú pleť.'},
-        {id:'serum',name:'Rozjasňujúce sérum s vitamínom C',price:'394 Kč',url:'https://www.originalatok.cz/rozjasnujici-serum-s-vitaminem-c/',photo:photo('atok','serum'),tags:['balanced','oily','clarity','serum','target','full'],reason:'Ľahké vitamínové sérum rozjasní, vyhladí a zjednotí pleť — cielený krok pod krém.'},
-        {id:'fluid',name:'Hyalurónový fluid 30 ml',price:'395 Kč',url:'https://www.originalatok.cz/hyaluronovy-fluid/',photo:photo('atok','fluid'),tags:['dry','mature','balanced','hydrate','serum','target','full'],reason:'Hyalurónový komplex hydratuje pleť od najhlbších vrstiev až po povrch — pod ktorýkoľvek krém.'},
-        {id:'voda',name:'Pleťová voda Levanduľa 200 ml',price:'208 Kč',url:'https://www.originalatok.cz/pletova-voda-levandule/',photo:photo('atok','voda'),tags:['sensitive','dry','calm','full'],reason:'Upokojujúca pleťová voda s levanduľou pre suchú, citlivú a podráždenú pleť — krok po odlíčení.'},
-        {id:'gel',name:'Jemný odličovací gél Aloe vera 150 ml',price:'385 Kč',url:'https://www.originalatok.cz/jemny-odlicovaci-gel-aloe-vera/',photo:photo('atok','gel'),tags:['sensitive','balanced','oily','full'],reason:'Hodvábne jemný gél s aloe vera šetrne odlíči všetky typy pleti vrátane veľmi citlivej.'}
       ]
     },
     purity: {

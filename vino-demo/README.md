@@ -27,7 +27,6 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | vinárstvo | web | ukážka |
 | --- | --- | --- |
 | Vinařství Skoupil | [eshop.skoupil.com](https://eshop.skoupil.com/) | `/skoupil/` · `skoupil.mojchatbot.sk` |
-| Vinařství Nechory | [vinarstvinechory.cz](https://eshop.vinarstvinechory.cz/) | `/nechory/` · `nechory.mojchatbot.sk` |
 | Dobrá Vinice | [dobravinice.cz](https://www.dobravinice.cz/) | `/dobravinice/` · `dobravinice.mojchatbot.sk` |
 | Vinárstvo Magula | [vinomagula.sk](https://www.vinomagula.sk/) | `/magula/` · `magula.mojchatbot.sk` |
 | Víno Jurášek | [vinojurasek.sk](https://vinojurasek.sk/) | `/jurasek/` · `jurasek.mojchatbot.sk` |
@@ -37,11 +36,9 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Vinárstvo Dubovský & Grančič | [dubovskygrancic.sk](https://dubovskygrancic.sk/) | `/dubovskygrancic/` · `dubovskygrancic.mojchatbot.sk` |
 | Vinařství Mikulica | [vinarstvimikulica.cz](https://www.vinarstvimikulica.cz/) | `/mikulica/` · `mikulica.mojchatbot.sk` |
 | Vinařství Paulus | [vinarstvipaulus.cz](https://vinarstvipaulus.cz/eshop/) | `/paulus/` · `paulus.mojchatbot.sk` |
-| Vinařství Volařík | [vinarstvivolarik.cz](https://www.vinarstvivolarik.cz/cs/eshop/) | `/volarik/` · `volarik.mojchatbot.sk` |
 | Víno Rajníc | [vinorajnic.sk](https://www.vinorajnic.sk/) | `/rajnic/` · `rajnic.mojchatbot.sk` |
 | Vinařství Vajbar | [vajbar.cz](https://www.vajbar.cz/e-shop/) | `/vajbar/` · `vajbar.mojchatbot.sk` |
 | Vinařství Buchtovi | [vinobuchtovi.cz](https://www.vinobuchtovi.cz/e-shop) | `/buchtovi/` · `buchtovi.mojchatbot.sk` |
-| Vinařství Gotberg | [gotberg.cz](https://gotberg.cz/cs/eshop/) | `/gotberg/` · `gotberg.mojchatbot.sk` |
 | Víno Přistál | [znojmo.wine](https://www.znojmo.wine/) | `/pristal/` · `pristal.mojchatbot.sk` |
 | Víno Lípa | [vinolipa.cz](https://vinolipa.cz/) | `/lipa/` · `lipa.mojchatbot.sk` |
 | Vinařství Jan Plaček | [vinoplacek.cz](https://www.vinoplacek.cz/) | `/placek/` · `placek.mojchatbot.sk` |
@@ -49,5 +46,3 @@ QA: `node tools/qa.mjs <slug> <out>` a `node tools/hover.mjs <slug> <out>`.
 | Vinařství Škrobák | [vinoskrobak.cz](https://vinoskrobak.cz/internetovy-obchod/) | `/skrobak/` · `skrobak.mojchatbot.sk` |
 | Vinárstvo Vinkor | [vinkor.sk](https://vinkor.sk/obchod/) | `/vinkor/` · `vinkor.mojchatbot.sk` |
 | Carpate Diem | [carpatediem.sk](https://carpatediem.sk/nase-vina/) | `/carpatediem/` · `carpatediem.mojchatbot.sk` |
-| Karpatská perla | [karpatskaperla.sk](https://www.karpatskaperla.sk/produkty) | `/karpatskaperla/` · `karpatskaperla.mojchatbot.sk` |
-| Vinařství U Kapličky | [vinarstviukaplicky.cz](https://eshop.vinarstviukaplicky.cz/) | `/ukaplicky/` · `ukaplicky.mojchatbot.sk` |

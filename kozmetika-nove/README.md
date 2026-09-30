@@ -33,12 +33,10 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | YAGE Organics | [yageorganics.cz](https://www.yageorganics.cz/) | `/yage/` · `yage.mojchatbot.sk` |
 | OMORFIA | [omorfia.care](https://www.omorfia.care/) | `/omorfia/` · `omorfia.mojchatbot.sk` |
 | PraváJá | [pravaja.cz](https://pravaja.cz/) | `/pravaja/` · `pravaja.mojchatbot.sk` |
-| Botanica Slavica | [botanicaslavica.eu](https://www.botanicaslavica.eu/sk/) | `/botanica/` · `botanica.mojchatbot.sk` |
 | CALTHA | [caltha.cz](https://www.caltha.cz/) | `/caltha/` · `caltha.mojchatbot.sk` |
 | ZAHIR Cosmetics | [zahir.cz](https://www.zahir.cz/) | `/zahir/` · `zahir.mojchatbot.sk` |
 | Pimpinella | [pimpinella.co](https://www.pimpinella.co/) | `/pimpinella/` · `pimpinella.mojchatbot.sk` |
 | Biorythme | [biorythme.cz](https://www.biorythme.cz/) | `/biorythme/` · `biorythme.mojchatbot.sk` |
-| Original ATOK | [originalatok.cz](https://www.originalatok.cz/) | `/atok/` · `atok.mojchatbot.sk` |
 | Purity Vision | [purityvision.cz](https://www.purityvision.cz/) | `/purity/` · `purity.mojchatbot.sk` |
 | Indívo | [indivo.cz](https://www.indivo.cz/) | `/indivo/` · `indivo.mojchatbot.sk` |
 | SMYSSLY | [smyssly.com](https://www.smyssly.com/cs/) | `/smyssly/` · `smyssly.mojchatbot.sk` |
