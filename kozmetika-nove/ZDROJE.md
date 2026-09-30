@@ -590,3 +590,34 @@ svetloružová plocha ako sekcie webu.
 | FRESH pleťová esencia 250 ml | 19,50 € | https://www.iuvenio.com/sk/fresh/ |
 | RESTART peeling 10 % AHA + 1 % BHA 50 ml | 22,90 € | https://www.iuvenio.com/sk/restart/ |
 | URBAN čistiaci gél 250 ml | 17,90 € | https://www.iuvenio.com/sk/urban/ |
+
+## Dr. Sandra — doktorkasandra.sk
+
+Slovenská lekárska kozmetika dermatovenerologičky MUDr. Alexandry
+Rozborilovej, PhD., zakladateľky Kliniky Esthetic (Dr. Sandra s.r.o.,
+IČO 53254422, založená 10/2020, jediná spoločníčka a konateľka
+MUDr. Alexandra Rozborilová, PhD.; tržby 2025 ≈ 659 tis. € podľa registra
+účtovných závierok). Vlastný e-shop na WooCommerce s ponukou krémov podľa
+typu pleti, sér a troch kyslých pleťových vôd (bez alkoholu, so 6 % a s
+20 % alkoholu), ktoré sa od seba na prvý pohľad nelíšia. Ceny sú aktuálne
+ceny e-shopu k 30. 9. 2026 (`wp-json/wc/store`), všetko skladom; veľkosti
+podľa názvov na webe. Stredná voda so 6 % alkoholu je vynechaná, lebo sa
+prekrýva s vodou bez alkoholu. Fotky sú oficiálne štylizované zábery
+z e-shopu (1181–1772 px, štvorcové), orezané bližšie k produktu. Logo je
+oficiálne SVG z webu (biele) prefarbené na tmavé a vyrenderované do PNG;
+symbolom je „Dr.“ z loga. Farby: takmer čierna loga, akcent tyrkysová
+z lišty a menu webu stmavená pre biely text, teplá svetlá plocha ako
+mramor na fotkách.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Polomastný krém s vitamínmi A, E, C a kyselinou hyalurónovou 40 g | 14,50 € | https://doktorkasandra.sk/obchod/kremy/polomastny-krem/ |
+| Hydratačný krém s ureou 40 g | 14,50 € | https://doktorkasandra.sk/obchod/kremy/hydratacny-krem-s-obsahom-urey-40g/ |
+| Anti-aging sérum s bakuchiolom 30 ml | 31,00 € | https://doktorkasandra.sk/obchod/kremy/pletove-serum-s-bakuchiolom-30ml/ |
+| 24-hodinový Ultrafacial krém s ceramidmi 40 g | 27,00 € | https://doktorkasandra.sk/obchod/kremy/ultrafacial-krem/ |
+| Výživný krém s vitamínmi A, E, C a kyselinou hyalurónovou 40 g | 15,50 € | https://doktorkasandra.sk/obchod/kremy/vyzivny-krem-s-vitaminmi-aec-a-kyselinou-ha/ |
+| RevitaNAD anti-age krém s astaxantínom 40 ml | 34,00 € | https://doktorkasandra.sk/obchod/kremy/revitanad-anti-age-krem/ |
+| Sérum s vitamínom C 30 ml | 28,00 € | https://doktorkasandra.sk/obchod/kremy/pletove-olejove-serum-s-vitaminmi-a-c-e-30ml/ |
+| Olejové sérum s betakaroténom 20 ml | 23,00 € | https://doktorkasandra.sk/obchod/kremy/pletove-olejove-serum-s-betakarotenom/ |
+| Kyslá pleťová voda na citlivú pleť bez alkoholu 100 ml | 10,50 € | https://doktorkasandra.sk/obchod/pletove-vody/kysla-pletova-voda-na-citlivu-plet-bez-alkoholu/ |
+| Kyslá pleťová voda s obsahom alkoholu 100 ml | 10,50 € | https://doktorkasandra.sk/obchod/pletove-vody/kysla-pletova-voda-s-obsahom-alkoholu/ |
