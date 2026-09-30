@@ -44,6 +44,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | SMYSSLY | [smyssly.com](https://www.smyssly.com/cs/) | `/smyssly/` · `smyssly.mojchatbot.sk` |
 | LIQOIL | [liqoil.sk](https://liqoil.sk/) | `/liqoil/` · `liqoil.mojchatbot.sk` |
 | MUZURI | [muzuri.sk](https://muzuri.sk/) | `/muzuri/` · `muzuri.mojchatbot.sk` |
+| Noili | [noili.sk](https://noili.sk/) | `/noili/` · `noili.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 

@@ -448,3 +448,32 @@ obaloch, krémová plocha z ich bannerov.
 | Očný krém s peptidmi proti opuchom a tmavým kruhom 15 ml | 34,90 € | https://muzuri.sk/produkt/ocny-krem/ |
 | Enzymatický peeling Ananás & Papája | 33,90 € | https://muzuri.sk/produkt/enzymaticky-peeling/ |
 | Organická ružová voda 100 ml | 11,90 € | https://muzuri.sk/produkt/ruzova-voda/ |
+
+## Noili — noili.sk
+
+Malá slovenská značka minimalistickej aktívnej starostlivosti (Silke
+s. r. o., IČO 50195816, konateľka MUDr. Zuzana Gyárfášová, menšinoví
+spoločníci CB Beauty a CB Growth ONE; tržby 2025 ≈ 264 tis. €), vlastný
+Shopify e-shop pre SK aj CZ. Ponuka je úzka, ale rozhodovanie ťažké —
+esencia, tri séra Intensif, olejové séra a dva „beauty“ oleje s
+anglickými názvami. Ceny sú za uvedenú veľkosť (pri kréme My kind of
+cream 50 ml; odkaz vedie priamo na variant 50 ml, 15 ml je vypredaný;
+pri olejovom sére s bakuchiolom 30 ml, 15 ml stojí 39 €). Všetko
+dostupné k 30. 9. 2026 (`products.json`, `available: true`). Fotky sú
+oficiálne packshoty z e-shopu, krém ako štylizovaný záber orezaný na
+výšku. Logo je oficiálne PNG z webu (3100×1500 px); symbolom je bodliak
+z ich druhého loga a obalov. Farby: čierna obalov a webu, akcent
+tlmená sivozelená podľa sklenenej hrany z ich úvodnej fotky, chladná
+svetlosivá plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Peptides & Ferments Hydrating Essence 50 ml | 48,00 € | https://noili.sk/products/peptides-ferments-hydrating-essence |
+| My kind of cream – Antiaging jelly 50 ml | 78,00 € | https://noili.sk/products/antiaging-jelly?variant=57363071598976 |
+| Bakuchiol & Squalane Oil Serum 30 ml | 65,00 € | https://noili.sk/products/bakuchiol-squalane-oil-serum |
+| Algae³ Hydralast Serum 30 ml | 81,00 € | https://noili.sk/products/algae3-hydralast-serum |
+| Repairing PeptiFirm Gel Serum 30 ml | 97,00 € | https://noili.sk/products/repairing-peptifirm-gel-serum |
+| 10% C+Squalane Radiance Drops 30 ml | 74,00 € | https://noili.sk/products/c-squalane-radiance-drops |
+| Light Beauty Oil 30 ml | 32,00 € | https://noili.sk/products/light-beauty-oil |
+| Rich Beauty Oil 30 ml | 32,00 € | https://noili.sk/products/rich-beauty-oil |
+| Bare Balm Cleanser 50 ml | 48,00 € | https://noili.sk/products/bare-balm-cleanser |

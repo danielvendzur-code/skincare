@@ -369,6 +369,25 @@
         {id:'peeling',name:'Enzymatický peeling Ananás & Papája',price:'33,90 €',url:'https://muzuri.sk/produkt/enzymaticky-peeling/',photo:photo('muzuri','peeling'),tags:['oily','balanced','clarity','mature','target','full'],reason:'Neabrazívny gélový peeling s bromelaínom, papájou a extraktom z bielej vŕby prečistí póry a zjednotí tón — raz týždenne pre problematickú aj zrelšiu pleť.'},
         {id:'rose',name:'Organická ružová voda 100 ml',price:'11,90 €',url:'https://muzuri.sk/produkt/ruzova-voda/',photo:photo('muzuri','rose'),tags:['sensitive','dry','balanced','calm','hydrate','full','basic'],reason:'Čistý hydrolát z damascénskej ruže bez alkoholu a parfumácie — jemné tonikum, ktoré po čistení obnoví pH, hydratuje a upokojí pleť.'}
       ]
+    },
+    noili: {
+      name:'Noili', domain:'noili.sk', website:'https://noili.sk/',
+      theme:{brand:'#141414',accent:'#4d7a7e',soft:'#eef1f1',paper:'#fcfcfb',ink:'#141414',line:'#e2e5e5'},
+      wordmark:logo('noili','noili'),
+      hero:'/assets/cosmetics/noili.jpg', mark:'/assets/cosmetics/noili-mark.png',
+      ownerNote:'Esencia, tri séra Intensif, olejové séra aj dva pleťové oleje — minimalistická rutina, pri ktorej zákazníčka váha, čo z toho potrebuje práve jej pleť.',
+      benefit:['Z esencie, sér a olejov jeden konkrétny','Poskladá rutinu podľa seba v 2–4 krokoch','Odpovie aj mimo pracovného času'],
+      products:[
+        {id:'essence',name:'Peptides & Ferments Hydrating Essence 50 ml',price:'48,00 €',url:'https://noili.sk/products/peptides-ferments-hydrating-essence',photo:photo('noili','essence'),tags:['balanced','oily','sensitive','hydrate','calm','serum','basic'],reason:'Hydratačná esencia s betaglukánom a fermentmi pre všetky typy pleti — zvláčni a upokojí pleť a pripraví ju na sérum.'},
+        {id:'jelly',name:'My kind of cream – Antiaging jelly 50 ml',price:'78,00 €',url:'https://noili.sk/products/antiaging-jelly?variant=57363071598976',photo:photo('noili','jelly'),tags:['dry','mature','hydrate','cream','simple','basic'],reason:'Hodvábny gélový krém s ceramidmi, morskými riasami a skvalánom okamžite hydratuje a vyhladzuje jemné linky — najmä pre suchú a zrelšiu pleť.'},
+        {id:'bakuchiol',name:'Bakuchiol & Squalane Oil Serum 30 ml',price:'65,00 €',url:'https://noili.sk/products/bakuchiol-squalane-oil-serum',photo:photo('noili','bakuchiol'),tags:['sensitive','mature','dry','calm','oil','target','basic','full'],reason:'Biomimetické lipidy s 1 % bakuchiolu a olivovým skvalánom vyživujú kožnú bariéru, pomáhajú upokojiť podráždenie a spevniť kontúry tváre.'},
+        {id:'algae',name:'Algae³ Hydralast Serum 30 ml',price:'81,00 €',url:'https://noili.sk/products/algae3-hydralast-serum',photo:photo('noili','algae'),tags:['dry','balanced','sensitive','hydrate','serum','target','full'],reason:'Krémová emulzia s trojitým komplexom rias, ceramidmi a kyselinou hyalurónovou dlhodobo hydratuje a posilňuje odolnosť pokožky.'},
+        {id:'pepti',name:'Repairing PeptiFirm Gel Serum 30 ml',price:'97,00 €',url:'https://noili.sk/products/repairing-peptifirm-gel-serum',photo:photo('noili','pepti'),tags:['balanced','oily','mature','serum','target','full'],reason:'Ľahké gélové sérum s dvojicou peptidov podporuje tvorbu kolagénu a elastínu a pomáha redukovať jemné aj hlbšie vrásky.'},
+        {id:'vitc',name:'10% C+Squalane Radiance Drops 30 ml',price:'74,00 €',url:'https://noili.sk/products/c-squalane-radiance-drops',photo:photo('noili','vitc'),tags:['balanced','dry','mature','clarity','oil','target'],reason:'Olejové sérum s 10 % stabilného esteru vitamínu C, skvalánom a vitamínom F rozjasní pleť a zjednotí jej vzhľad.'},
+        {id:'light',name:'Light Beauty Oil 30 ml',price:'32,00 €',url:'https://noili.sk/products/light-beauty-oil',photo:photo('noili','light'),tags:['oily','balanced','clarity','oil','simple','basic'],reason:'Ľahká zmes za studena lisovaných olejov s vyšším podielom polynenasýtených mastných kyselín — vhodná aj pre pleť so sklonom k nedokonalostiam.'},
+        {id:'rich',name:'Rich Beauty Oil 30 ml',price:'32,00 €',url:'https://noili.sk/products/rich-beauty-oil',photo:photo('noili','rich'),tags:['dry','mature','oil','simple','basic'],reason:'Obzvlášť zvláčňujúca zmes vzácnych olejov a voskov dodá suchej pleti extra výživu, najmä počas chladných mesiacov.'},
+        {id:'balm',name:'Bare Balm Cleanser 50 ml',price:'48,00 €',url:'https://noili.sk/products/bare-balm-cleanser',photo:photo('noili','balm'),tags:['dry','balanced','sensitive','full'],reason:'Odličovací balzam s olejom z marhuľových jadier, morskými riasami a bielou morušou odstráni make-up, SPF aj maskaru a pleť nechá vyživenú.'}
+      ]
     }
   });
 })();
