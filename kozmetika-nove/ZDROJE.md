@@ -653,3 +653,38 @@ stmavená ružová z obalov BALANCE a LAVITA, teplá svetlá plocha.
 | HYDRABIOTIN hydratačné sérum s biotínom a exozómami 15 ml | 22,00 € | https://www.savon.sk/pletove-sera/hydrabiotin-hydratacne-pletove-serum-s-lipozomalnym-biotinom-a-exozomami/ |
 | Čistiaca pena na normálnu až suchú pleť | 12,90 € | https://www.savon.sk/odlicovanie/cistiaca-pena-na-normalnu-az-suchu-plet/ |
 | Čistiaca pena na zmiešanú až mastnú pleť 150 ml | 12,90 € | https://www.savon.sk/plet/cistiaca-pena-na-zmiesanu-az-mastnu-plet/ |
+
+## Marielli cosmetics — mariellicosmetics.cz
+
+Malá česká značka ručne vyrábanej prírodnej kozmetiky (predávajúca
+Natálie Marie Ernestová, fyzická osoba – podnikateľka, IČO 08048312,
+živnosť od 4/2019, ARES: bez zamestnancov; značka na obaloch „est.
+2020“). Vlastný e-shop na Shoptete; produkty majú dievčenské mená
+(Zázrak, Láska, Krásenka, Pěnilka, Andělka, Královna, Hortenzie,
+Pivoňka, Pomněnka, Sněženka) a masky aj pleťové vody sú delené podľa
+typu pleti — presne otázka, na ktorú odpovedá Výber starostlivosti.
+Názvy sú preložené do slovenčiny, vlastné mená produktov ostali české.
+Ceny sú aktuálne ceny e-shopu k 30. 9. 2026; pri maskách cena variantu
+60 ml (15 ml stojí 99 Kč), pri Pěnilke 60 ml (150 ml stojí 459 Kč);
+pri sérach a vodách web veľkosť neuvádza, preto je v názve bez nej.
+Všetko „Skladem“; pleťové vody Kouzelnice a Víla boli vypredané, preto
+chýbajú. Fotky sú oficiálne zábery z e-shopu (1024×768 na bielom),
+orezané na výšku bližšie k produktu. Logo je oficiálne PNG z webu
+(1236×392 px): použitý je nápis „marielli cosmetics“ bez kruhového
+emblému a prefarbený z pastelovej ružovej na tmavšiu, aby bol na
+svetlom pozadí čitateľný; symbolom je „m“ z nápisu (jemný emblém s
+tvárou je v launcheri nečitateľný). Farby: tmavá hnedoružová, akcent
+stmavená staroružová z loga, svetloružová plocha ako lišty webu.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Hyalurónové sérum Zázrak | 429 Kč | https://www.mariellicosmetics.cz/pletova-sera-a-roll-ony/hyaluronove-serum-zazrak/ |
+| Pleťové sérum Láska so šípkovým olejom | 429 Kč | https://www.mariellicosmetics.cz/pletova-sera-a-roll-ony/pletove-serum-laska/ |
+| Odličovací olejček Krásenka | 399 Kč | https://www.mariellicosmetics.cz/cisteni-pleti-a-kvetinove-vody/odlicovaci-olejicek-krasenka/ |
+| Odličovacie penivé mlieko Pěnilka 60 ml | 289 Kč | https://www.mariellicosmetics.cz/cisteni-pleti/odlicovaci-mleko-penilka/ |
+| Pleťová voda pre normálnu pleť Andělka | 289 Kč | https://www.mariellicosmetics.cz/pletove-vody-a-kvetinove-vody/pletova-voda-pro-normalni-plet-andelka/ |
+| Pleťová voda pre zrelú pleť Královna | 329 Kč | https://www.mariellicosmetics.cz/pletove-vody-a-kvetinove-vody/pletova-voda-pro-zralou-plet-kralovna/ |
+| Pleťová maska na aknóznu pleť Hortenzie 60 ml | 419 Kč | https://www.mariellicosmetics.cz/pletove-masky-a-peelingy/hortenzie/ |
+| Pleťová maska na citlivú pleť Pivoňka 60 ml | 419 Kč | https://www.mariellicosmetics.cz/pletove-masky-a-peelingy/pivonka/ |
+| Pleťová maska na zrelú pleť Pomněnka 60 ml | 419 Kč | https://www.mariellicosmetics.cz/pletove-masky-a-peelingy/pomnenka/ |
+| Pleťová maska pre všetky typy pleti Sněženka 60 ml | 419 Kč | https://www.mariellicosmetics.cz/pletove-masky-a-peelingy/snezenka/ |
