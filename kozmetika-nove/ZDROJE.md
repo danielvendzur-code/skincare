@@ -394,3 +394,31 @@ Farby: teplá espresso čierna, akcent bambus ako viečka, krémová plocha.
 | Rozjasňujúce sérum so zlatom 20 ml | 1 590 Kč | https://www.smyssly.com/cs/products/1420/rozjasnujici-serum-se-zlatem/ |
 | Revitalizačná odličovacia voda 150 ml | 950 Kč | https://www.smyssly.com/cs/products/84/revitalizacni-odlicovaci-voda/ |
 | Hydratačná hmla s kyselinou hyalurónovou 120 ml | 690 Kč | https://www.smyssly.com/cs/products/2102/hydratacni-mlha-s-kyselinou-hyaluronovou/ |
+
+## LIQOIL — liqoil.sk
+
+Malá slovenská značka (liqoil-pharm s.r.o., IČO 48078191, manželia
+Ivana Sák Dokupilová a Martin Sák; tržby 2025 ≈ 435 tis. €) s vlastným
+Shopify e-shopom a vlastnou výrobou. Vybraná je nová rada v jednotných
+obaloch — krémy a séra s anglickými názvami (Rich velvet boost,
+Probio-peptide, Ferment Renew), pri ktorých zákazník nevie, čo je pre
+jeho pleť. Veľkosti z riadku „Balenie“ na detaile (krémy v 30 ml
+airless nádobe, séra 30 ml v skle, toner 200 ml); všetko skladom
+k 30. 9. 2026 (`products.json` e-shopu, `available: true`). Fotky sú
+oficiálne packshoty z e-shopu na krémovom pozadí. Logo: web má v hlavičke
+len symbol „Q“ (`logo___alone___clay.webp`, použitý ako symbol v launcheri);
+nápis LIQOIL je prepísaný podľa obalov písmom Jost vo farbe loga z webu.
+Farby: espresso hnedá textu a loga `#484037`, akcent tlmená ružová
+podľa hlavičky webu (`#e8cdc8`, stmavená pre kontrast), krémová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Denný krém s ceramidmi – Ceramide protecting cream 30 ml | 14,90 € | https://liqoil.sk/products/hydratacia-ceramidy-krem |
+| Denný krém – Problem solving cream 30 ml | 14,90 € | https://liqoil.sk/products/problem-solving-cream |
+| Nočný krém – Rich velvet boost cream 30 ml | 19,90 € | https://liqoil.sk/products/rich-velvet-boost-krem |
+| Výživný krém – Active boost rich cream 30 ml | 19,90 € | https://liqoil.sk/products/vyzivny-krem-active-boost-rich-cream |
+| Pleťové sérum – Algae-hyaluronic face serum 30 ml | 13,90 € | https://liqoil.sk/products/algae-hyaluron-plet-serum |
+| Pleťové sérum – Probio-peptide face serum 30 ml | 13,90 € | https://liqoil.sk/products/probio-peptide-plet-serum |
+| Pleťové sérum – Recovery face dry oil 30 ml | 14,90 € | https://liqoil.sk/products/recovery-suchy-olej |
+| Jemný exfoliačný toner – Ferment Renew Toner 200 ml | 16,90 € | https://liqoil.sk/products/exfoliacny-toner |
+| Denný krém – Antioxidant face cream 30 ml | 14,90 € | https://liqoil.sk/products/antioxidant-face-cream |

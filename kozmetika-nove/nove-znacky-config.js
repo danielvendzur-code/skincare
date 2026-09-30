@@ -333,6 +333,25 @@
         {id:'voda',name:'Revitalizačná odličovacia voda 150 ml',price:'950 Kč',url:'https://www.smyssly.com/cs/products/84/revitalizacni-odlicovaci-voda/',photo:photo('smyssly','voda'),tags:['sensitive','balanced','oily','calm','full'],reason:'Bez liehu odstráni aj vodeodolný make-up a zároveň pleť tonizuje — čistenie a tonikum v jednom kroku.'},
         {id:'mlha',name:'Hydratačná hmla s kyselinou hyalurónovou 120 ml',price:'690 Kč',url:'https://www.smyssly.com/cs/products/2102/hydratacni-mlha-s-kyselinou-hyaluronovou/',photo:photo('smyssly','mlha'),tags:['dry','sensitive','hydrate','calm','full'],reason:'Aloe vera s kyselinou hyalurónovou pleť okamžite hydratuje a upokojí — pred sérom aj kedykoľvek počas dňa.'}
       ]
+    },
+    liqoil: {
+      name:'LIQOIL', domain:'liqoil.sk', website:'https://liqoil.sk/',
+      theme:{brand:'#484037',accent:'#a8746b',soft:'#f6ede9',paper:'#fdf9f2',ink:'#2f2a25',line:'#eaddd7'},
+      wordmark:logo('liqoil','LIQOIL'),
+      hero:'/assets/cosmetics/liqoil.jpg', mark:'/assets/cosmetics/liqoil-mark.png',
+      ownerNote:'Krémy, séra aj suchý olej s názvami ako Rich velvet boost, Probio-peptide či Ferment Renew — zákazník z nich nevyčíta, ktorý je pre jeho pleť.',
+      benefit:['Z krémov a sér jeden konkrétny pre pleť','Poskladá rutinu od tonika po krém','Odpovie aj mimo pracovného času'],
+      products:[
+        {id:'ceramide',name:'Denný krém s ceramidmi – Ceramide protecting cream 30 ml',price:'14,90 €',url:'https://liqoil.sk/products/hydratacia-ceramidy-krem',photo:photo('liqoil','ceramide'),tags:['dry','sensitive','hydrate','calm','cream','simple','basic'],reason:'Zmes ceramidov s bambuckým maslom a olejom z marhuľových jadier podporuje ochrannú vrstvu pokožky a jej hydratáciu — vhodný aj na suchú a citlivú pleť.'},
+        {id:'problem',name:'Denný krém – Problem solving cream 30 ml',price:'14,90 €',url:'https://liqoil.sk/products/problem-solving-cream',photo:photo('liqoil','problem'),tags:['oily','clarity','cream','simple','basic'],reason:'Probiotický lyzát a extrakt z čakanky pre zdravý mikrobióm, vŕba a hamamel regulujú činnosť mazových žliaz — krém na problematickú pleť.'},
+        {id:'velvet',name:'Nočný krém – Rich velvet boost cream 30 ml',price:'19,90 €',url:'https://liqoil.sk/products/rich-velvet-boost-krem',photo:photo('liqoil','velvet'),tags:['dry','balanced','calm','cream','full','basic'],reason:'Arganový olej a bambucké maslo vyživia, centella upokojí podráždenie a antioxidanty z kávy, čaju a goji chránia — pre zmiešanú a suchú pleť.'},
+        {id:'active',name:'Výživný krém – Active boost rich cream 30 ml',price:'19,90 €',url:'https://liqoil.sk/products/vyzivny-krem-active-boost-rich-cream',photo:photo('liqoil','active'),tags:['mature','dry','cream','simple','full'],reason:'Hexapeptid, ryžový bioferment a extrakt z morskej riasy Alaria podporujú pevnosť a elasticitu — výživa pre pleť, ktorá chce zjemniť vrásky.'},
+        {id:'algae',name:'Pleťové sérum – Algae-hyaluronic face serum 30 ml',price:'13,90 €',url:'https://liqoil.sk/products/algae-hyaluron-plet-serum',photo:photo('liqoil','algae'),tags:['dry','balanced','hydrate','serum','basic','target'],reason:'Kyselina hyalurónová s wakame biofermentom a pantenolom viaže vodu, vyplní jemné vrásky a podporí bariéru pokožky.'},
+        {id:'probio',name:'Pleťové sérum – Probio-peptide face serum 30 ml',price:'13,90 €',url:'https://liqoil.sk/products/probio-peptide-plet-serum',photo:photo('liqoil','probio'),tags:['balanced','sensitive','hydrate','mature','serum','target','full'],reason:'Fermentačný lyzát Lactobacillus s prebiotikami z čakanky, peptidy a pantenol hydratujú, podporujú obnovu pokožky a zdravý mikrobióm.'},
+        {id:'recovery',name:'Pleťové sérum – Recovery face dry oil 30 ml',price:'14,90 €',url:'https://liqoil.sk/products/recovery-suchy-olej',photo:photo('liqoil','recovery'),tags:['dry','mature','oil','target','full','basic'],reason:'Suchý olej s extraktom z hnedej morskej riasy, ceramidmi, vitamínom E a rozmarínom vyživí tvár, krk aj dekolt bez mastného filmu.'},
+        {id:'toner',name:'Jemný exfoliačný toner – Ferment Renew Toner 200 ml',price:'16,90 €',url:'https://liqoil.sk/products/exfoliacny-toner',photo:photo('liqoil','toner'),tags:['oily','sensitive','balanced','clarity','hydrate','calm','full','basic'],reason:'Biofermenty, hamamel a brezová šťava jemne exfoliujú, zjemnia póry, zjednotia tón a hydratujú — vhodný aj pre citlivejšiu či problematickú pleť.'},
+        {id:'antiox',name:'Denný krém – Antioxidant face cream 30 ml',price:'14,90 €',url:'https://liqoil.sk/products/antioxidant-face-cream',photo:photo('liqoil','antiox'),tags:['balanced','mature','hydrate','cream','simple'],reason:'Zelený čaj, riasy a vitamín E zachytávajú voľné radikály, riasy navyše hĺbkovo hydratujú a vyživujú — denný krém pre zrelšiu pleť.'}
+      ]
     }
   });
 })();
