@@ -531,3 +531,31 @@ etiketách, teplá svetlá plocha.
 | Dvojfázový odličovač 200 ml | 255 Kč | https://www.humitics.cz/humitics-pletovy-dvoufazovy-odlicovac-200ml/ |
 | SOS korektor pre zmiešanú pleť 10 ml | 245 Kč | https://www.humitics.cz/sos-korektor/ |
 | Jemný čistiaci púder/maska 100 ml | 390 Kč | https://www.humitics.cz/cistici-pudr-maska/ |
+
+## Skinium — skinium.sk
+
+Malá slovenská dermatokozmetika dermatologičky MUDr. Ruženy Sochorovej,
+CSc. (predávajúci: „MUDr. Ružena Sochorová, CSc. – LIFE STYLE“, fyzická
+osoba – podnikateľ, IČO 35444754; register účtovných závierok: 1
+zamestnanec; živnosť je z roku 1992, značka Skinium je nová a vyrába sa
+v malých šaržiach na Slovensku). Vlastný e-shop s 28 produktmi v radoch
+Anti-aging, Hydra, Natur a Anti-acne; názvy typu REBADERM, KOENZYDERM či
+PROTECTODERM zákazník bez vysvetlenia nerozlúšti. Veľkosť balenia web
+neuvádza, preto je v názvoch bez nej. Ceny sú aktuálne ceny na detaile
+k 30. 9. 2026 (REBADERM a AHA SERUM sú v zľave z 17,50 €), všetko
+„Skladom“. Fotky sú oficiálne packshoty z e-shopu (1500×1500 na bielej).
+Logo je oficiálne PNG z webu (1711×492 px, zlaté); symbolom je oblúk
+„n“ z loga. Farby: tmavá teplá čierna, akcent zlatá z loga, svetlá
+krémová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| HYDRADERM ľahký hydratačný krém | 15,50 € | https://skinium.sk/produkt/skinium-hydraderm-lahky-hydratacny-krem |
+| REBADERM ľahký protivráskový a hydratačný krém | 15,50 € | https://skinium.sk/produkt/skinium-rebaderm-lahky-protivraskovy-a-hydratacny-krem |
+| MIRACLE CREAM spevňujúci a hydratačný krém s vitamínom C | 15,50 € | https://skinium.sk/produkt/skinium-miracle-cream |
+| KOENZYDERM regeneračný krém s koenzýmom Q10 | 12,50 € | https://skinium.sk/produkt/skinium-koenzyderm-regeneracny-pletovy-krem-s-vysokym-obsahom-koenzymu-q10 |
+| SHEABUDERM krém s bambuckým maslom | 6,30 € | https://skinium.sk/produkt/sheabuderm |
+| HYALURODERM sérum s kyselinou hyalurónovou | 12,50 € | https://skinium.sk/produkt/hyaluroderm |
+| PROTECTODERM lipozómové sérum | 14,50 € | https://skinium.sk/produkt/protectoderm |
+| AHA SERUM zlupovacie sérum | 15,50 € | https://skinium.sk/produkt/skinium-aha-serum-zlupovacie-serum |
+| ACNECLEANER Zn čistiaci roztok | 5,80 € | https://skinium.sk/produkt/skinium-acnecleaner-zn-dermatokozmeticky-cistiaci-roztok-na-mastnu-a-aknoznu-plet-s-komedolytickymi-seboregulacnymi-a-antimikrobialnymi-ucinkami |

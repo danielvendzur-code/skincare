@@ -423,6 +423,25 @@
         {id:'sos',name:'SOS korektor pre zmiešanú pleť 10 ml',price:'245 Kč',url:'https://www.humitics.cz/sos-korektor/',photo:photo('humitics','sos'),tags:['oily','balanced','clarity','oil','target'],reason:'Olejové sérum v praktickom roll-one na lokálne ošetrenie nedokonalostí — malé balenie, ktoré sa zmestí do každej kabelky.'},
         {id:'pudr',name:'Jemný čistiaci púder/maska 100 ml',price:'390 Kč',url:'https://www.humitics.cz/cistici-pudr-maska/',photo:photo('humitics','pudr'),tags:['oily','sensitive','balanced','hydrate','full','target'],reason:'Viacúčelový púder na hĺbkové, no jemné čistenie — denne ako čistič alebo ako čistiaca a hydratačná maska.'}
       ]
+    },
+    skinium: {
+      name:'Skinium', domain:'skinium.sk', website:'https://skinium.sk/',
+      theme:{brand:'#2c2924',accent:'#a8862a',soft:'#f4efe3',paper:'#fdfcf8',ink:'#23211d',line:'#e8e1cf'},
+      wordmark:logo('skinium','Skinium'),
+      hero:'/assets/cosmetics/skinium.jpg', mark:'/assets/cosmetics/skinium-mark.png',
+      ownerNote:'Dermatokozmetika od dermatologičky s menami ako REBADERM, KOENZYDERM či PROTECTODERM — zákazníčka z názvu nevyčíta, ktorý krém alebo sérum patrí jej pleti.',
+      benefit:['Vysvetlí, čo znamená REBADERM či HYDRADERM','Vyberie krém a sérum podľa typu pleti','Odpovie aj mimo ordinačných hodín'],
+      products:[
+        {id:'hydraderm',name:'HYDRADERM ľahký hydratačný krém',price:'15,50 €',url:'https://skinium.sk/produkt/skinium-hydraderm-lahky-hydratacny-krem',photo:photo('skinium','hydraderm'),tags:['balanced','oily','sensitive','hydrate','calm','cream','simple','basic'],reason:'Ektoín, alantoín a skvalán hydratujú a upokoja pleť bez pocitu mastnoty — denný krém pre normálnu, zmiešanú, mastnejšiu aj citlivú pleť.'},
+        {id:'rebaderm',name:'REBADERM ľahký protivráskový a hydratačný krém',price:'15,50 €',url:'https://skinium.sk/produkt/skinium-rebaderm-lahky-protivraskovy-a-hydratacny-krem',photo:photo('skinium','rebaderm'),tags:['mature','balanced','hydrate','cream','simple','basic'],reason:'Dihydroxymetylchromón, ektoín a bambucké maslo v ľahkom kréme pre pleť so známkami starnutia a stratou pružnosti — ráno aj večer.'},
+        {id:'miracle',name:'MIRACLE CREAM spevňujúci a hydratačný krém s vitamínom C',price:'15,50 €',url:'https://skinium.sk/produkt/skinium-miracle-cream',photo:photo('skinium','miracle'),tags:['mature','dry','hydrate','cream','full','basic'],reason:'Kolagénové peptidy, stabilný vitamín C a kyselina hyalurónová spevnia a intenzívne hydratujú pleť s jemnými vráskami a známkami únavy.'},
+        {id:'koenzyderm',name:'KOENZYDERM regeneračný krém s koenzýmom Q10',price:'12,50 €',url:'https://skinium.sk/produkt/skinium-koenzyderm-regeneracny-pletovy-krem-s-vysokym-obsahom-koenzymu-q10',photo:photo('skinium','koenzyderm'),tags:['dry','mature','cream','simple','full'],reason:'Výživnejší krém s vysokým obsahom koenzýmu Q10 pre normálnu až suchú pleť s prvými známkami starnutia.'},
+        {id:'sheabu',name:'SHEABUDERM krém s bambuckým maslom',price:'6,30 €',url:'https://skinium.sk/produkt/sheabuderm',photo:photo('skinium','sheabu'),tags:['dry','sensitive','mature','calm','cream','simple'],reason:'Bambucké maslo s pupalkovým a makovým olejom obnovuje lipidovú bariéru suchej, citlivej a podráždenej pokožky.'},
+        {id:'hyaluroderm',name:'HYALURODERM sérum s kyselinou hyalurónovou',price:'12,50 €',url:'https://skinium.sk/produkt/hyaluroderm',photo:photo('skinium','hyaluroderm'),tags:['dry','balanced','oily','hydrate','serum','basic','target'],reason:'Kyselina hyalurónová v troch molekulových veľkostiach hydratuje na viacerých úrovniach — ľahké sérum aj pod make-up.'},
+        {id:'protecto',name:'PROTECTODERM lipozómové sérum',price:'14,50 €',url:'https://skinium.sk/produkt/protectoderm',photo:photo('skinium','protecto'),tags:['sensitive','dry','calm','hydrate','serum','target','full'],reason:'Lipozómy s rutínom, vitamínom C a kyselinou hyalurónovou pre citlivú, dehydrovanú pleť so sklonom k začervenaniu.'},
+        {id:'aha',name:'AHA SERUM zlupovacie sérum',price:'15,50 €',url:'https://skinium.sk/produkt/skinium-aha-serum-zlupovacie-serum',photo:photo('skinium','aha'),tags:['oily','balanced','clarity','serum','target','full'],reason:'Kyselina glykolová, mliečna a citrónová v lamelárnom géli obnovujú povrch pleti, zjednocujú tón a pomáhajú pri rozšírených póroch a čiernych bodkách.'},
+        {id:'acne',name:'ACNECLEANER Zn čistiaci roztok',price:'5,80 €',url:'https://skinium.sk/produkt/skinium-acnecleaner-zn-dermatokozmeticky-cistiaci-roztok-na-mastnu-a-aknoznu-plet-s-komedolytickymi-seboregulacnymi-a-antimikrobialnymi-ucinkami',photo:photo('skinium','acne'),tags:['oily','clarity','full'],reason:'Zinok PCA, kyselina salicylová a niacínamid čistia mastnú a problematickú pleť, uvoľňujú póry a regulujú kožný maz.'}
+      ]
     }
   });
 })();
