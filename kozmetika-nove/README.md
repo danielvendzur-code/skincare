@@ -50,6 +50,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | Skinium | [skinium.sk](https://skinium.sk/) | `/skinium/` · `skinium.mojchatbot.sk` |
 | IUVENIO | [iuvenio.com](https://www.iuvenio.com/sk/) | `/iuvenio/` · `iuvenio.mojchatbot.sk` |
 | Dr. Sandra | [doktorkasandra.sk](https://doktorkasandra.sk/) | `/drsandra/` · `drsandra.mojchatbot.sk` |
+| SAVON | [savon.sk](https://www.savon.sk/) | `/savon/` · `savon.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 

@@ -621,3 +621,35 @@ mramor na fotkách.
 | Olejové sérum s betakaroténom 20 ml | 23,00 € | https://doktorkasandra.sk/obchod/kremy/pletove-olejove-serum-s-betakarotenom/ |
 | Kyslá pleťová voda na citlivú pleť bez alkoholu 100 ml | 10,50 € | https://doktorkasandra.sk/obchod/pletove-vody/kysla-pletova-voda-na-citlivu-plet-bez-alkoholu/ |
 | Kyslá pleťová voda s obsahom alkoholu 100 ml | 10,50 € | https://doktorkasandra.sk/obchod/pletove-vody/kysla-pletova-voda-s-obsahom-alkoholu/ |
+
+## SAVON — savon.sk
+
+Malá slovenská značka prírodnej kozmetiky Ivety Burešovej s vlastnou
+výrobou kvetových vôd (SAVON care s. r. o., IČO 57503915, zapísaná 3/2026,
+spoločníci a konatelia Mário Bureš a Mgr. Iveta Burešová Mikletičová;
+spoločnosť zatiaľ nemá účtovnú závierku, register ju vedie bez
+zamestnancov). Vlastný e-shop na Shoptete s parfumami, telovou
+kozmetikou a pleťovou radou, v ktorej majú oleje, séra a krémy
+jednoslovné mená (BALANCE, FLOW, HARMONY, LAVITA, ĽÚBIVÁ, RENEW,
+REVITALUXE, HYDRABIOTIN) — z názvu nie je jasné, čo je olej a čo sérum a
+pre akú pleť. Ceny sú aktuálne ceny e-shopu k 30. 9. 2026; pri olejoch
+cena variantu 30 ml (15 ml stojí 8 €, pri FLOW 16 €; HARMONY 15 ml bol
+nedostupný), všetko uvedené „Skladom“. Tonery s koloidným zlatom a s
+uhorkou boli nedostupné, preto chýbajú. Fotky sú oficiálne packshoty
+z e-shopu (produkt s krabičkou na bielom). Logo je oficiálne PNG z webu
+(4725×2126 px), použitý je len nápis SAVON bez podpisu a podtitulu;
+symbolom je „V“ s vetvičkou z loga. Farby: čierna loga a webu, akcent
+stmavená ružová z obalov BALANCE a LAVITA, teplá svetlá plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| HARMONY hydratačný pleťový olej na suchú a citlivú pleť 30 ml | 11,00 € | https://www.savon.sk/plet/harmony-hydratacny-pletovy-olej-na-suchu-citlivu-pokozku/ |
+| BALANCE ošetrujúci pleťový olej na mastnú pleť 30 ml | 11,00 € | https://www.savon.sk/plet/balance-osetrujuci-pletovy-olej-na-mastnu-aknoznu-pokozku/ |
+| FLOW anti-aging pleťový olej s opunciou a Q10 30 ml | 27,00 € | https://www.savon.sk/plet/flow-anti-aging-pletovy-olej-s-opunciou-a-q10/ |
+| LAVITA spevňujúci pleťový krém s opunciou, Q10 a kyselinou hyalurónovou 30 ml | 22,90 € | https://www.savon.sk/plet/lavita-spevnujuci-pletovy-krem-s-opunciou-q10-a-kyselinou-ha/ |
+| ĽÚBIVÁ vyživujúci pleťový krém s kaviárom a vitamínmi A, C, E 30 ml | 23,90 € | https://www.savon.sk/plet/lubiva-vyzivujuci-pletovy-krem-s-kaviarom-a-vitaminmi-a-c-e/ |
+| RENEW bakuchiolové pleťové sérum s astaxantínom 15 ml | 22,00 € | https://www.savon.sk/pletove-sera/renew-bakuchiol-pletove-serum-s-astaxanthinom/ |
+| REVITALUXE peptidové pleťové sérum s Matrixylom 3000 15 ml | 28,00 € | https://www.savon.sk/pletove-sera/revitaluxe-peptidove-pletove-serum-matrixyl-3000-s-fytobiotikami/ |
+| HYDRABIOTIN hydratačné sérum s biotínom a exozómami 15 ml | 22,00 € | https://www.savon.sk/pletove-sera/hydrabiotin-hydratacne-pletove-serum-s-lipozomalnym-biotinom-a-exozomami/ |
+| Čistiaca pena na normálnu až suchú pleť | 12,90 € | https://www.savon.sk/odlicovanie/cistiaca-pena-na-normalnu-az-suchu-plet/ |
+| Čistiaca pena na zmiešanú až mastnú pleť 150 ml | 12,90 € | https://www.savon.sk/plet/cistiaca-pena-na-zmiesanu-az-mastnu-plet/ |
