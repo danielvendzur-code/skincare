@@ -295,6 +295,115 @@
         {id:'voda',name:'Revitalizačná odličovacia voda 150 ml',price:'950 Kč',url:'https://www.smyssly.com/cs/products/84/revitalizacni-odlicovaci-voda/',photo:photo('smyssly','voda'),tags:['sensitive','balanced','oily','calm','full'],reason:'Bez liehu odstráni aj vodeodolný make-up a zároveň pleť tonizuje — čistenie a tonikum v jednom kroku.'},
         {id:'mlha',name:'Hydratačná hmla s kyselinou hyalurónovou 120 ml',price:'690 Kč',url:'https://www.smyssly.com/cs/products/2102/hydratacni-mlha-s-kyselinou-hyaluronovou/',photo:photo('smyssly','mlha'),tags:['dry','sensitive','hydrate','calm','full'],reason:'Aloe vera s kyselinou hyalurónovou pleť okamžite hydratuje a upokojí — pred sérom aj kedykoľvek počas dňa.'}
       ]
+    },
+    liqoil: {
+      name:'LIQOIL', domain:'liqoil.sk', website:'https://liqoil.sk/',
+      theme:{brand:'#484037',accent:'#a8746b',soft:'#f6ede9',paper:'#fdf9f2',ink:'#2f2a25',line:'#eaddd7'},
+      wordmark:logo('liqoil','LIQOIL'),
+      hero:'/assets/cosmetics/liqoil.jpg', mark:'/assets/cosmetics/liqoil-mark.png',
+      ownerNote:'Krémy, séra aj suchý olej s názvami ako Rich velvet boost, Probio-peptide či Ferment Renew — zákazník z nich nevyčíta, ktorý je pre jeho pleť.',
+      benefit:['Z krémov a sér jeden konkrétny pre pleť','Poskladá rutinu od tonika po krém','Odpovie aj mimo pracovného času'],
+      products:[
+        {id:'ceramide',name:'Denný krém s ceramidmi – Ceramide protecting cream 30 ml',price:'14,90 €',url:'https://liqoil.sk/products/hydratacia-ceramidy-krem',photo:photo('liqoil','ceramide'),tags:['dry','sensitive','hydrate','calm','cream','simple','basic'],reason:'Zmes ceramidov s bambuckým maslom a olejom z marhuľových jadier podporuje ochrannú vrstvu pokožky a jej hydratáciu — vhodný aj na suchú a citlivú pleť.'},
+        {id:'problem',name:'Denný krém – Problem solving cream 30 ml',price:'14,90 €',url:'https://liqoil.sk/products/problem-solving-cream',photo:photo('liqoil','problem'),tags:['oily','clarity','cream','simple','basic'],reason:'Probiotický lyzát a extrakt z čakanky pre zdravý mikrobióm, vŕba a hamamel regulujú činnosť mazových žliaz — krém na problematickú pleť.'},
+        {id:'velvet',name:'Nočný krém – Rich velvet boost cream 30 ml',price:'19,90 €',url:'https://liqoil.sk/products/rich-velvet-boost-krem',photo:photo('liqoil','velvet'),tags:['dry','balanced','calm','cream','full','basic'],reason:'Arganový olej a bambucké maslo vyživia, centella upokojí podráždenie a antioxidanty z kávy, čaju a goji chránia — pre zmiešanú a suchú pleť.'},
+        {id:'active',name:'Výživný krém – Active boost rich cream 30 ml',price:'19,90 €',url:'https://liqoil.sk/products/vyzivny-krem-active-boost-rich-cream',photo:photo('liqoil','active'),tags:['mature','dry','cream','simple','full'],reason:'Hexapeptid, ryžový bioferment a extrakt z morskej riasy Alaria podporujú pevnosť a elasticitu — výživa pre pleť, ktorá chce zjemniť vrásky.'},
+        {id:'algae',name:'Pleťové sérum – Algae-hyaluronic face serum 30 ml',price:'13,90 €',url:'https://liqoil.sk/products/algae-hyaluron-plet-serum',photo:photo('liqoil','algae'),tags:['dry','balanced','hydrate','serum','basic','target'],reason:'Kyselina hyalurónová s wakame biofermentom a pantenolom viaže vodu, vyplní jemné vrásky a podporí bariéru pokožky.'},
+        {id:'probio',name:'Pleťové sérum – Probio-peptide face serum 30 ml',price:'13,90 €',url:'https://liqoil.sk/products/probio-peptide-plet-serum',photo:photo('liqoil','probio'),tags:['balanced','sensitive','hydrate','mature','serum','target','full'],reason:'Fermentačný lyzát Lactobacillus s prebiotikami z čakanky, peptidy a pantenol hydratujú, podporujú obnovu pokožky a zdravý mikrobióm.'},
+        {id:'recovery',name:'Pleťové sérum – Recovery face dry oil 30 ml',price:'14,90 €',url:'https://liqoil.sk/products/recovery-suchy-olej',photo:photo('liqoil','recovery'),tags:['dry','mature','oil','target','full','basic'],reason:'Suchý olej s extraktom z hnedej morskej riasy, ceramidmi, vitamínom E a rozmarínom vyživí tvár, krk aj dekolt bez mastného filmu.'},
+        {id:'toner',name:'Jemný exfoliačný toner – Ferment Renew Toner 200 ml',price:'16,90 €',url:'https://liqoil.sk/products/exfoliacny-toner',photo:photo('liqoil','toner'),tags:['oily','sensitive','balanced','clarity','hydrate','calm','full','basic'],reason:'Biofermenty, hamamel a brezová šťava jemne exfoliujú, zjemnia póry, zjednotia tón a hydratujú — vhodný aj pre citlivejšiu či problematickú pleť.'},
+        {id:'antiox',name:'Denný krém – Antioxidant face cream 30 ml',price:'14,90 €',url:'https://liqoil.sk/products/antioxidant-face-cream',photo:photo('liqoil','antiox'),tags:['balanced','mature','hydrate','cream','simple'],reason:'Zelený čaj, riasy a vitamín E zachytávajú voľné radikály, riasy navyše hĺbkovo hydratujú a vyživujú — denný krém pre zrelšiu pleť.'}
+      ]
+    },
+    muzuri: {
+      name:'MUZURI', domain:'muzuri.sk', website:'https://muzuri.sk/',
+      theme:{brand:'#1d1b1b',accent:'#9a6b3c',soft:'#f3ece4',paper:'#fdfbf8',ink:'#1d1b1b',line:'#e7ded5'},
+      wordmark:logo('muzuri','MUZURI'),
+      hero:'/assets/cosmetics/muzuri.jpg', mark:'/assets/cosmetics/muzuri-mark.png',
+      ownerNote:'Hydraserum, Nightserum, RE-HY-AN či cleanser — ručne robená kozmetika bez parfumácie, pri ktorej sa zákazníčky pýtajú, čo patrí k ich pleti a v akom poradí.',
+      benefit:['Poradí medzi sérom, krémom a olejom','Poskladá rutinu od čistenia po nočné sérum','Odpovie aj mimo pracovného času'],
+      products:[
+        {id:'rehyan',name:'RE-HY-AN Výživný krém 30 ml',price:'34,90 €',url:'https://muzuri.sk/produkt/rehyan/',photo:photo('muzuri','rehyan'),tags:['dry','sensitive','hydrate','mature','cream','simple','basic'],reason:'Výživný krém s lipidovým komplexom a astaxantínom hydratuje, regeneruje a pomáha obnovovať kožnú bariéru — pre suchú, citlivú aj mdlú pleť.'},
+        {id:'hydra',name:'Hydraserum s kyselinou hyalurónovou 2 % 30 ml',price:'31,90 €',url:'https://muzuri.sk/produkt/hydraserum',photo:photo('muzuri','hydra'),tags:['dry','sensitive','hydrate','calm','serum','basic','target'],reason:'Gélové sérum s dvoma typmi kyseliny hyalurónovej a levanduľovou vodou intenzívne hydratuje a upokojí začervenanie — bez parfumácie.'},
+        {id:'night',name:'Nightserum Bakuchiol 1 % so skvalanom 30 ml',price:'33,90 €',url:'https://muzuri.sk/produkt/nightserum-bakuchiol',photo:photo('muzuri','night'),tags:['oily','sensitive','mature','clarity','oil','target','full'],reason:'Ľahké olejové sérum s 1 % bakuchiolu a olivovým skvalánom regeneruje a pomáha pri nedokonalostiach aj začínajúcich vráskach — neupcháva póry.'},
+        {id:'cleanser',name:'Cleanser s rastlinnou kyselinou salicylovou 100 ml',price:'24,90 €',url:'https://muzuri.sk/produkt/cleanser-s-rastlinnou-kyselinou-salicylovou/',photo:photo('muzuri','cleanser'),tags:['dry','sensitive','balanced','calm','full','basic'],reason:'Hydrofilný olej rozpustí make-up aj SPF a s vodou sa zmení na jemné mlieko — čistí bez vysušenia a pomáha pri upchatých póroch.'},
+        {id:'eye',name:'Očný krém s peptidmi proti opuchom a tmavým kruhom 15 ml',price:'34,90 €',url:'https://muzuri.sk/produkt/ocny-krem/',photo:photo('muzuri','eye'),tags:['mature','cream','target','full'],reason:'Peptidy a niacínamid pomáhajú znížiť viditeľnosť tmavých kruhov a opuchov a zjemniť vrásky okolo očí — ľahká textúra aj pre citlivé očné okolie.'},
+        {id:'peeling',name:'Enzymatický peeling Ananás & Papája',price:'33,90 €',url:'https://muzuri.sk/produkt/enzymaticky-peeling/',photo:photo('muzuri','peeling'),tags:['oily','balanced','clarity','mature','target','full'],reason:'Neabrazívny gélový peeling s bromelaínom, papájou a extraktom z bielej vŕby prečistí póry a zjednotí tón — raz týždenne pre problematickú aj zrelšiu pleť.'},
+        {id:'rose',name:'Organická ružová voda 100 ml',price:'11,90 €',url:'https://muzuri.sk/produkt/ruzova-voda/',photo:photo('muzuri','rose'),tags:['sensitive','dry','balanced','calm','hydrate','full','basic'],reason:'Čistý hydrolát z damascénskej ruže bez alkoholu a parfumácie — jemné tonikum, ktoré po čistení obnoví pH, hydratuje a upokojí pleť.'}
+      ]
+    },
+    noili: {
+      name:'Noili', domain:'noili.sk', website:'https://noili.sk/',
+      theme:{brand:'#141414',accent:'#4d7a7e',soft:'#eef1f1',paper:'#fcfcfb',ink:'#141414',line:'#e2e5e5'},
+      wordmark:logo('noili','noili'),
+      hero:'/assets/cosmetics/noili.jpg', mark:'/assets/cosmetics/noili-mark.png',
+      ownerNote:'Esencia, tri séra Intensif, olejové séra aj dva pleťové oleje — minimalistická rutina, pri ktorej zákazníčka váha, čo z toho potrebuje práve jej pleť.',
+      benefit:['Z esencie, sér a olejov jeden konkrétny','Poskladá rutinu podľa seba v 2–4 krokoch','Odpovie aj mimo pracovného času'],
+      products:[
+        {id:'essence',name:'Peptides & Ferments Hydrating Essence 50 ml',price:'48,00 €',url:'https://noili.sk/products/peptides-ferments-hydrating-essence',photo:photo('noili','essence'),tags:['balanced','oily','sensitive','hydrate','calm','serum','basic'],reason:'Hydratačná esencia s betaglukánom a fermentmi pre všetky typy pleti — zvláčni a upokojí pleť a pripraví ju na sérum.'},
+        {id:'jelly',name:'My kind of cream – Antiaging jelly 50 ml',price:'78,00 €',url:'https://noili.sk/products/antiaging-jelly?variant=57363071598976',photo:photo('noili','jelly'),tags:['dry','mature','hydrate','cream','simple','basic'],reason:'Hodvábny gélový krém s ceramidmi, morskými riasami a skvalánom okamžite hydratuje a vyhladzuje jemné linky — najmä pre suchú a zrelšiu pleť.'},
+        {id:'bakuchiol',name:'Bakuchiol & Squalane Oil Serum 30 ml',price:'65,00 €',url:'https://noili.sk/products/bakuchiol-squalane-oil-serum',photo:photo('noili','bakuchiol'),tags:['sensitive','mature','dry','calm','oil','target','basic','full'],reason:'Biomimetické lipidy s 1 % bakuchiolu a olivovým skvalánom vyživujú kožnú bariéru, pomáhajú upokojiť podráždenie a spevniť kontúry tváre.'},
+        {id:'algae',name:'Algae³ Hydralast Serum 30 ml',price:'81,00 €',url:'https://noili.sk/products/algae3-hydralast-serum',photo:photo('noili','algae'),tags:['dry','balanced','sensitive','hydrate','serum','target','full'],reason:'Krémová emulzia s trojitým komplexom rias, ceramidmi a kyselinou hyalurónovou dlhodobo hydratuje a posilňuje odolnosť pokožky.'},
+        {id:'pepti',name:'Repairing PeptiFirm Gel Serum 30 ml',price:'97,00 €',url:'https://noili.sk/products/repairing-peptifirm-gel-serum',photo:photo('noili','pepti'),tags:['balanced','oily','mature','serum','target','full'],reason:'Ľahké gélové sérum s dvojicou peptidov podporuje tvorbu kolagénu a elastínu a pomáha redukovať jemné aj hlbšie vrásky.'},
+        {id:'vitc',name:'10% C+Squalane Radiance Drops 30 ml',price:'74,00 €',url:'https://noili.sk/products/c-squalane-radiance-drops',photo:photo('noili','vitc'),tags:['balanced','dry','mature','clarity','oil','target'],reason:'Olejové sérum s 10 % stabilného esteru vitamínu C, skvalánom a vitamínom F rozjasní pleť a zjednotí jej vzhľad.'},
+        {id:'light',name:'Light Beauty Oil 30 ml',price:'32,00 €',url:'https://noili.sk/products/light-beauty-oil',photo:photo('noili','light'),tags:['oily','balanced','clarity','oil','simple','basic'],reason:'Ľahká zmes za studena lisovaných olejov s vyšším podielom polynenasýtených mastných kyselín — vhodná aj pre pleť so sklonom k nedokonalostiam.'},
+        {id:'rich',name:'Rich Beauty Oil 30 ml',price:'32,00 €',url:'https://noili.sk/products/rich-beauty-oil',photo:photo('noili','rich'),tags:['dry','mature','oil','simple','basic'],reason:'Obzvlášť zvláčňujúca zmes vzácnych olejov a voskov dodá suchej pleti extra výživu, najmä počas chladných mesiacov.'},
+        {id:'balm',name:'Bare Balm Cleanser 50 ml',price:'48,00 €',url:'https://noili.sk/products/bare-balm-cleanser',photo:photo('noili','balm'),tags:['dry','balanced','sensitive','full'],reason:'Odličovací balzam s olejom z marhuľových jadier, morskými riasami a bielou morušou odstráni make-up, SPF aj maskaru a pleť nechá vyživenú.'}
+      ]
+    },
+    mujluj: {
+      name:'Můj Lůj', domain:'mujluj.cz', website:'https://www.mujluj.cz/',
+      theme:{brand:'#234d36',accent:'#5f7a70',soft:'#f1ebe1',paper:'#fffbf3',ink:'#1f2a24',line:'#e4dbcf'},
+      wordmark:logo('mujluj','Můj Lůj'),
+      hero:'/assets/cosmetics/mujluj.jpg', mark:'/assets/cosmetics/mujluj-mark.png',
+      ownerNote:'Päť krémov z hovädzieho loja a dve kvetové hmly podľa typu pleti — zákazníčka sa pýta, či pre jej pleť je levanduľový, šľahaný, nechtíkový alebo loj pre čistú pleť.',
+      benefit:['Z piatich lojov ten pravý pre jej pleť','Doplní k nemu vhodnú kvetovú hmlu','Odpovie aj mimo pracovného času'],
+      products:[
+        {id:'omlazujici',name:'Omladzujúci loj 30 ml',price:'450 Kč',url:'https://www.mujluj.cz/produkty-omlazujici-luj/',photo:photo('mujluj','omlazujici'),tags:['mature','balanced','dry','cream','simple','basic'],reason:'Šľahaný krém z hovädzieho loja so šípkovým olejom, kadidlom a vitamínom E vyživí a rozjasní unavenú a zrelú pleť a podporí jej pevnosť.'},
+        {id:'cista',name:'Loj pre čistú pleť 30 ml',price:'450 Kč',url:'https://www.mujluj.cz/luj-pro-cistou-plet/',photo:photo('mujluj','cista'),tags:['oily','balanced','clarity','calm','cream','simple','basic'],reason:'Ľahký balzam s jojobovým olejom, skvalánom a bylinkami (tea tree, rozmarín, šalvia) pre zmiešanú a mastnú pleť so sklonom k akné — reguluje maz bez vysušenia.'},
+        {id:'slehany',name:'Šľahaný loj 30 ml',price:'330 Kč',url:'https://www.mujluj.cz/produkty-slehany-luj/',photo:photo('mujluj','slehany'),tags:['sensitive','dry','hydrate','cream','simple'],reason:'Len dve suroviny — hovädzí loj a jojobový olej, bez pridanej vône. Najšetrnejšia voľba pre veľmi citlivú a atopickú pokožku.'},
+        {id:'levandule',name:'Levanduľový loj 30 ml',price:'360 Kč',url:'https://www.mujluj.cz/produkty-levandulovy-luj/',photo:photo('mujluj','levandule'),tags:['sensitive','dry','calm','hydrate','cream','simple','basic'],reason:'Upokojujúci šľahaný krém z BIO hovädzieho loja s jemnou vôňou levandule podporuje kožnú bariéru — pre suchú, citlivú aj citlivú problematickú pleť.'},
+        {id:'mesicek',name:'Nechtíkový loj s harmančekom 30 ml',price:'450 Kč',url:'https://www.mujluj.cz/produkty-mesickovy-luj-s-hermankem/',photo:photo('mujluj','mesicek'),tags:['dry','sensitive','calm','cream','target','full'],reason:'Regeneračný balzam z loja s nechtíkom a harmančekom hĺbkovo vyživí suchú a podráždenú pokožku a pomáha obnovovať jej ochrannú bariéru.'},
+        {id:'hermanek',name:'Harmančeková hmla 100 ml',price:'460 Kč',url:'https://www.mujluj.cz/hermankova-mlha/',photo:photo('mujluj','hermanek'),tags:['dry','sensitive','calm','hydrate','basic','full'],reason:'BIO kvetová voda z harmančeka s fermentom z reďkoviek, bez alkoholu — ľahké tonikum, ktoré osvieži, upokojí a hydratuje suchú a citlivú pleť.'},
+        {id:'rozmaryn',name:'Rozmarínová hmla 100 ml',price:'460 Kč',url:'https://www.mujluj.cz/rozmarynova-mlha/',photo:photo('mujluj','rozmaryn'),tags:['oily','balanced','clarity','hydrate','basic','full'],reason:'BIO kvetová voda z rozmarínu, bez alkoholu — osvieži a hydratuje zmiešanú a mastnú pleť, reguluje tvorbu mazu a stiahne póry.'}
+      ]
+    },
+    humitics: {
+      name:'Humitics', domain:'humitics.cz', website:'https://www.humitics.cz/',
+      theme:{brand:'#262322',accent:'#9c6b3e',soft:'#efe9e2',paper:'#fcfbf9',ink:'#1f1c1b',line:'#e5ded6'},
+      wordmark:logo('humitics','Humitics'),
+      hero:'/assets/cosmetics/humitics.jpg', mark:'/assets/cosmetics/humitics-mark.png',
+      ownerNote:'Prírodná kozmetika s huminovými látkami — čistiaci gél, púder, maska s peelingom, tonikum, sérum aj SOS korektor. Zákazník nevie, čo z toho patrí do jeho rutiny.',
+      benefit:['Vysvetlí, na čo je ktorý produkt s humátmi','Poskladá rutinu od čistenia po krém','Odpovie aj mimo pracovného času'],
+      products:[
+        {id:'krem',name:'Ľahký pleťový krém 50 ml',price:'445 Kč',url:'https://www.humitics.cz/lehky-pletovy-krem/',photo:photo('humitics','krem'),tags:['balanced','oily','dry','hydrate','cream','simple','basic'],reason:'Ľahký hydratačný krém s huminovými látkami a vitamínmi, ktorý nezanecháva mastný film — pre všetky typy pleti vrátane mastnej a problematickej.'},
+        {id:'serum',name:'Pleťové sérum 30 ml',price:'245 Kč',url:'https://www.humitics.cz/humitics-pletove-serum-30ml/',photo:photo('humitics','serum'),tags:['oily','balanced','clarity','serum','target','basic'],reason:'Koncentrované sérum s kyselinou salicylovou, niacínamidom a huminovými látkami zjednotí tón a obnoví rovnováhu zmiešanej a mastnej pleti.'},
+        {id:'tonikum',name:'Pleťové tonikum 150 ml',price:'295 Kč',url:'https://www.humitics.cz/humitics-pletove-tonikum-150ml/',photo:photo('humitics','tonikum'),tags:['dry','sensitive','balanced','hydrate','calm','basic','full'],reason:'Kvetové vody z medovky a pelargónie s kyselinou hyalurónovou a glykolovou pleť šetrne dočistia, hydratujú a upokoja.'},
+        {id:'maska',name:'Pleťová maska a peeling 2v1 100 ml',price:'395 Kč',url:'https://www.humitics.cz/humitics-pletova-maska-a-peeling-2v1-100ml/',photo:photo('humitics','maska'),tags:['oily','balanced','clarity','target','full'],reason:'Čistiaca maska s jemným peelingom dôkladne vyčistí póry, odstráni odumreté bunky a pleť rozjasní — pre všetky typy pleti.'},
+        {id:'gel',name:'Čistiaci gél 150 ml',price:'390 Kč',url:'https://www.humitics.cz/humitics-cistici-gel-150ml/',photo:photo('humitics','gel'),tags:['sensitive','dry','balanced','full','basic'],reason:'Jemný gél zbaví pleť make-upu a nečistôt bez vysušenia a podráždenia a pripraví ju na tonikum a krém.'},
+        {id:'odlicovac',name:'Dvojfázový odličovač 200 ml',price:'255 Kč',url:'https://www.humitics.cz/humitics-pletovy-dvoufazovy-odlicovac-200ml/',photo:photo('humitics','odlicovac'),tags:['sensitive','dry','calm','full'],reason:'Dvojfázový odličovač s huminovými látkami a hamamelom odstráni make-up, pleť hydratuje a zároveň upokojí a tonizuje.'},
+        {id:'sos',name:'SOS korektor pre zmiešanú pleť 10 ml',price:'245 Kč',url:'https://www.humitics.cz/sos-korektor/',photo:photo('humitics','sos'),tags:['oily','balanced','clarity','oil','target'],reason:'Olejové sérum v praktickom roll-one na lokálne ošetrenie nedokonalostí — malé balenie, ktoré sa zmestí do každej kabelky.'},
+        {id:'pudr',name:'Jemný čistiaci púder/maska 100 ml',price:'390 Kč',url:'https://www.humitics.cz/cistici-pudr-maska/',photo:photo('humitics','pudr'),tags:['oily','sensitive','balanced','hydrate','full','target'],reason:'Viacúčelový púder na hĺbkové, no jemné čistenie — denne ako čistič alebo ako čistiaca a hydratačná maska.'}
+      ]
+    },
+    skinium: {
+      name:'Skinium', domain:'skinium.sk', website:'https://skinium.sk/',
+      theme:{brand:'#2c2924',accent:'#a8862a',soft:'#f4efe3',paper:'#fdfcf8',ink:'#23211d',line:'#e8e1cf'},
+      wordmark:logo('skinium','Skinium'),
+      hero:'/assets/cosmetics/skinium.jpg', mark:'/assets/cosmetics/skinium-mark.png',
+      ownerNote:'Dermatokozmetika od dermatologičky s menami ako REBADERM, KOENZYDERM či PROTECTODERM — zákazníčka z názvu nevyčíta, ktorý krém alebo sérum patrí jej pleti.',
+      benefit:['Vysvetlí, čo znamená REBADERM či HYDRADERM','Vyberie krém a sérum podľa typu pleti','Odpovie aj mimo ordinačných hodín'],
+      products:[
+        {id:'hydraderm',name:'HYDRADERM ľahký hydratačný krém',price:'15,50 €',url:'https://skinium.sk/produkt/skinium-hydraderm-lahky-hydratacny-krem',photo:photo('skinium','hydraderm'),tags:['balanced','oily','sensitive','hydrate','calm','cream','simple','basic'],reason:'Ektoín, alantoín a skvalán hydratujú a upokoja pleť bez pocitu mastnoty — denný krém pre normálnu, zmiešanú, mastnejšiu aj citlivú pleť.'},
+        {id:'rebaderm',name:'REBADERM ľahký protivráskový a hydratačný krém',price:'15,50 €',url:'https://skinium.sk/produkt/skinium-rebaderm-lahky-protivraskovy-a-hydratacny-krem',photo:photo('skinium','rebaderm'),tags:['mature','balanced','hydrate','cream','simple','basic'],reason:'Dihydroxymetylchromón, ektoín a bambucké maslo v ľahkom kréme pre pleť so známkami starnutia a stratou pružnosti — ráno aj večer.'},
+        {id:'miracle',name:'MIRACLE CREAM spevňujúci a hydratačný krém s vitamínom C',price:'15,50 €',url:'https://skinium.sk/produkt/skinium-miracle-cream',photo:photo('skinium','miracle'),tags:['mature','dry','hydrate','cream','full','basic'],reason:'Kolagénové peptidy, stabilný vitamín C a kyselina hyalurónová spevnia a intenzívne hydratujú pleť s jemnými vráskami a známkami únavy.'},
+        {id:'koenzyderm',name:'KOENZYDERM regeneračný krém s koenzýmom Q10',price:'12,50 €',url:'https://skinium.sk/produkt/skinium-koenzyderm-regeneracny-pletovy-krem-s-vysokym-obsahom-koenzymu-q10',photo:photo('skinium','koenzyderm'),tags:['dry','mature','cream','simple','full'],reason:'Výživnejší krém s vysokým obsahom koenzýmu Q10 pre normálnu až suchú pleť s prvými známkami starnutia.'},
+        {id:'sheabu',name:'SHEABUDERM krém s bambuckým maslom',price:'6,30 €',url:'https://skinium.sk/produkt/sheabuderm',photo:photo('skinium','sheabu'),tags:['dry','sensitive','mature','calm','cream','simple'],reason:'Bambucké maslo s pupalkovým a makovým olejom obnovuje lipidovú bariéru suchej, citlivej a podráždenej pokožky.'},
+        {id:'hyaluroderm',name:'HYALURODERM sérum s kyselinou hyalurónovou',price:'12,50 €',url:'https://skinium.sk/produkt/hyaluroderm',photo:photo('skinium','hyaluroderm'),tags:['dry','balanced','oily','hydrate','serum','basic','target'],reason:'Kyselina hyalurónová v troch molekulových veľkostiach hydratuje na viacerých úrovniach — ľahké sérum aj pod make-up.'},
+        {id:'protecto',name:'PROTECTODERM lipozómové sérum',price:'14,50 €',url:'https://skinium.sk/produkt/protectoderm',photo:photo('skinium','protecto'),tags:['sensitive','dry','calm','hydrate','serum','target','full'],reason:'Lipozómy s rutínom, vitamínom C a kyselinou hyalurónovou pre citlivú, dehydrovanú pleť so sklonom k začervenaniu.'},
+        {id:'aha',name:'AHA SERUM zlupovacie sérum',price:'15,50 €',url:'https://skinium.sk/produkt/skinium-aha-serum-zlupovacie-serum',photo:photo('skinium','aha'),tags:['oily','balanced','clarity','serum','target','full'],reason:'Kyselina glykolová, mliečna a citrónová v lamelárnom géli obnovujú povrch pleti, zjednocujú tón a pomáhajú pri rozšírených póroch a čiernych bodkách.'},
+        {id:'acne',name:'ACNECLEANER Zn čistiaci roztok',price:'5,80 €',url:'https://skinium.sk/produkt/skinium-acnecleaner-zn-dermatokozmeticky-cistiaci-roztok-na-mastnu-a-aknoznu-plet-s-komedolytickymi-seboregulacnymi-a-antimikrobialnymi-ucinkami',photo:photo('skinium','acne'),tags:['oily','clarity','full'],reason:'Zinok PCA, kyselina salicylová a niacínamid čistia mastnú a problematickú pleť, uvoľňujú póry a regulujú kožný maz.'}
+      ]
     }
   });
 })();

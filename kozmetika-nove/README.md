@@ -40,6 +40,12 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | Purity Vision | [purityvision.cz](https://www.purityvision.cz/) | `/purity/` · `purity.mojchatbot.sk` |
 | Indívo | [indivo.cz](https://www.indivo.cz/) | `/indivo/` · `indivo.mojchatbot.sk` |
 | SMYSSLY | [smyssly.com](https://www.smyssly.com/cs/) | `/smyssly/` · `smyssly.mojchatbot.sk` |
+| LIQOIL | [liqoil.sk](https://liqoil.sk/) | `/liqoil/` · `liqoil.mojchatbot.sk` |
+| MUZURI | [muzuri.sk](https://muzuri.sk/) | `/muzuri/` · `muzuri.mojchatbot.sk` |
+| Noili | [noili.sk](https://noili.sk/) | `/noili/` · `noili.mojchatbot.sk` |
+| Můj Lůj | [mujluj.cz](https://www.mujluj.cz/) | `/mujluj/` · `mujluj.mojchatbot.sk` |
+| Humitics | [humitics.cz](https://www.humitics.cz/) | `/humitics/` · `humitics.mojchatbot.sk` |
+| Skinium | [skinium.sk](https://skinium.sk/) | `/skinium/` · `skinium.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 

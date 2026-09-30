@@ -349,3 +349,168 @@ Farby: teplá espresso čierna, akcent bambus ako viečka, krémová plocha.
 | Rozjasňujúce sérum so zlatom 20 ml | 1 590 Kč | https://www.smyssly.com/cs/products/1420/rozjasnujici-serum-se-zlatem/ |
 | Revitalizačná odličovacia voda 150 ml | 950 Kč | https://www.smyssly.com/cs/products/84/revitalizacni-odlicovaci-voda/ |
 | Hydratačná hmla s kyselinou hyalurónovou 120 ml | 690 Kč | https://www.smyssly.com/cs/products/2102/hydratacni-mlha-s-kyselinou-hyaluronovou/ |
+
+## LIQOIL — liqoil.sk
+
+Malá slovenská značka (liqoil-pharm s.r.o., IČO 48078191, manželia
+Ivana Sák Dokupilová a Martin Sák; tržby 2025 ≈ 435 tis. €) s vlastným
+Shopify e-shopom a vlastnou výrobou. Vybraná je nová rada v jednotných
+obaloch — krémy a séra s anglickými názvami (Rich velvet boost,
+Probio-peptide, Ferment Renew), pri ktorých zákazník nevie, čo je pre
+jeho pleť. Veľkosti z riadku „Balenie“ na detaile (krémy v 30 ml
+airless nádobe, séra 30 ml v skle, toner 200 ml); všetko skladom
+k 30. 9. 2026 (`products.json` e-shopu, `available: true`). Fotky sú
+oficiálne packshoty z e-shopu na krémovom pozadí. Logo: web má v hlavičke
+len symbol „Q“ (`logo___alone___clay.webp`, použitý ako symbol v launcheri);
+nápis LIQOIL je prepísaný podľa obalov písmom Jost vo farbe loga z webu.
+Farby: espresso hnedá textu a loga `#484037`, akcent tlmená ružová
+podľa hlavičky webu (`#e8cdc8`, stmavená pre kontrast), krémová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Denný krém s ceramidmi – Ceramide protecting cream 30 ml | 14,90 € | https://liqoil.sk/products/hydratacia-ceramidy-krem |
+| Denný krém – Problem solving cream 30 ml | 14,90 € | https://liqoil.sk/products/problem-solving-cream |
+| Nočný krém – Rich velvet boost cream 30 ml | 19,90 € | https://liqoil.sk/products/rich-velvet-boost-krem |
+| Výživný krém – Active boost rich cream 30 ml | 19,90 € | https://liqoil.sk/products/vyzivny-krem-active-boost-rich-cream |
+| Pleťové sérum – Algae-hyaluronic face serum 30 ml | 13,90 € | https://liqoil.sk/products/algae-hyaluron-plet-serum |
+| Pleťové sérum – Probio-peptide face serum 30 ml | 13,90 € | https://liqoil.sk/products/probio-peptide-plet-serum |
+| Pleťové sérum – Recovery face dry oil 30 ml | 14,90 € | https://liqoil.sk/products/recovery-suchy-olej |
+| Jemný exfoliačný toner – Ferment Renew Toner 200 ml | 16,90 € | https://liqoil.sk/products/exfoliacny-toner |
+| Denný krém – Antioxidant face cream 30 ml | 14,90 € | https://liqoil.sk/products/antioxidant-face-cream |
+
+## MUZURI — muzuri.sk
+
+Malá slovenská značka ručne vyrábanej kozmetiky (MaD Life s. r. o.,
+IČO 50380711, Dáša Šárközyová a Martin Miček; tržby 2025 ≈ 269 tis. €)
+s vlastným e-shopom. Pleťová rada je krátka, ale každý produkt má iný
+účel — gélové hyalurónové sérum, olejové sérum s bakuchiolom, výživný
+krém, hydrofilný cleanser, enzymatický peeling, očný krém a ružová voda,
+všetko bez parfumácie. Veľkosti z popisu produktu (pri peelingu ju web
+neuvádza, preto je v názve bez nej); všetko „Na sklade“ k 30. 9. 2026.
+Fotky sú štylizované štvorcové zábery z e-shopu (`/upload/muzuri-2026/`),
+orezané na výšku okolo produktu. Logo: na webe je len malé PNG
+(170×109 px), preto je nápis MUZURI prepísaný písmom Montserrat SemiBold
+podľa loga; symbolom je srdce s „M“ z loga v hlavičke webu. Farby:
+čierna z hlavičky a štítkov, akcent bronzová ako zlaté ornamenty na
+obaloch, krémová plocha z ich bannerov.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| RE-HY-AN Výživný krém 30 ml | 34,90 € | https://muzuri.sk/produkt/rehyan/ |
+| Hydraserum s kyselinou hyalurónovou 2 % 30 ml | 31,90 € | https://muzuri.sk/produkt/hydraserum |
+| Nightserum Bakuchiol 1 % so skvalanom 30 ml | 33,90 € | https://muzuri.sk/produkt/nightserum-bakuchiol |
+| Cleanser s rastlinnou kyselinou salicylovou 100 ml | 24,90 € | https://muzuri.sk/produkt/cleanser-s-rastlinnou-kyselinou-salicylovou/ |
+| Očný krém s peptidmi proti opuchom a tmavým kruhom 15 ml | 34,90 € | https://muzuri.sk/produkt/ocny-krem/ |
+| Enzymatický peeling Ananás & Papája | 33,90 € | https://muzuri.sk/produkt/enzymaticky-peeling/ |
+| Organická ružová voda 100 ml | 11,90 € | https://muzuri.sk/produkt/ruzova-voda/ |
+
+## Noili — noili.sk
+
+Malá slovenská značka minimalistickej aktívnej starostlivosti (Silke
+s. r. o., IČO 50195816, konateľka MUDr. Zuzana Gyárfášová, menšinoví
+spoločníci CB Beauty a CB Growth ONE; tržby 2025 ≈ 264 tis. €), vlastný
+Shopify e-shop pre SK aj CZ. Ponuka je úzka, ale rozhodovanie ťažké —
+esencia, tri séra Intensif, olejové séra a dva „beauty“ oleje s
+anglickými názvami. Ceny sú za uvedenú veľkosť (pri kréme My kind of
+cream 50 ml; odkaz vedie priamo na variant 50 ml, 15 ml je vypredaný;
+pri olejovom sére s bakuchiolom 30 ml, 15 ml stojí 39 €). Všetko
+dostupné k 30. 9. 2026 (`products.json`, `available: true`). Fotky sú
+oficiálne packshoty z e-shopu, krém ako štylizovaný záber orezaný na
+výšku. Logo je oficiálne PNG z webu (3100×1500 px); symbolom je bodliak
+z ich druhého loga a obalov. Farby: čierna obalov a webu, akcent
+tlmená sivozelená podľa sklenenej hrany z ich úvodnej fotky, chladná
+svetlosivá plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Peptides & Ferments Hydrating Essence 50 ml | 48,00 € | https://noili.sk/products/peptides-ferments-hydrating-essence |
+| My kind of cream – Antiaging jelly 50 ml | 78,00 € | https://noili.sk/products/antiaging-jelly?variant=57363071598976 |
+| Bakuchiol & Squalane Oil Serum 30 ml | 65,00 € | https://noili.sk/products/bakuchiol-squalane-oil-serum |
+| Algae³ Hydralast Serum 30 ml | 81,00 € | https://noili.sk/products/algae3-hydralast-serum |
+| Repairing PeptiFirm Gel Serum 30 ml | 97,00 € | https://noili.sk/products/repairing-peptifirm-gel-serum |
+| 10% C+Squalane Radiance Drops 30 ml | 74,00 € | https://noili.sk/products/c-squalane-radiance-drops |
+| Light Beauty Oil 30 ml | 32,00 € | https://noili.sk/products/light-beauty-oil |
+| Rich Beauty Oil 30 ml | 32,00 € | https://noili.sk/products/rich-beauty-oil |
+| Bare Balm Cleanser 50 ml | 48,00 € | https://noili.sk/products/bare-balm-cleanser |
+
+## Můj Lůj — mujluj.cz
+
+Mladá česká značka kozmetiky z hovädzieho loja (Můj Lůj s.r.o.,
+IČO 23360313, jediná spoločníčka a konateľka Ing. Lucie Misiarzová;
+na trhu od novembra 2024, s.r.o. od 2025, 6–9 zamestnancov podľa ARES).
+Vlastný e-shop na Shoptete delí krémy podľa typu pleti — presne otázka,
+na ktorú odpovedá Výber starostlivosti. Názvy sú preložené do slovenčiny
+(Omlazující lůj → Omladzujúci loj). Ceny sú za najmenšie balenie, ktoré
+e-shop ukazuje ako „od“ (krémy 30 ml; 60/120/250 ml sú drahšie), hmly za
+100 ml (50 ml kvetová voda 280 Kč). Všetky varianty „Skladem“ k
+30. 9. 2026 (`tools/radio_variants.mjs`). Fotky sú oficiálne štúdiové
+zábery variantu 30 ml (hmly 100 ml) na sivom pozadí, orezané bližšie k
+produktu. Logo z hlavičky webu (PNG 350×250 px): nápis MŮJ LŮJ 3×
+zväčšený s vyhladením, symbolom sú listy nad nápisom. Farby: tmavá
+lesná zelená z webu `#234d36`, akcent šalviová `#759087` (stmavená),
+krémová plocha `#fffbf3`.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Omladzujúci loj 30 ml | 450 Kč | https://www.mujluj.cz/produkty-omlazujici-luj/ |
+| Loj pre čistú pleť 30 ml | 450 Kč | https://www.mujluj.cz/luj-pro-cistou-plet/ |
+| Šľahaný loj 30 ml | 330 Kč | https://www.mujluj.cz/produkty-slehany-luj/ |
+| Levanduľový loj 30 ml | 360 Kč | https://www.mujluj.cz/produkty-levandulovy-luj/ |
+| Nechtíkový loj s harmančekom 30 ml | 450 Kč | https://www.mujluj.cz/produkty-mesickovy-luj-s-hermankem/ |
+| Harmančeková hmla 100 ml | 460 Kč | https://www.mujluj.cz/hermankova-mlha/ |
+| Rozmarínová hmla 100 ml | 460 Kč | https://www.mujluj.cz/rozmarynova-mlha/ |
+
+## Humitics — humitics.cz
+
+Mladá česká značka prírodnej pleťovej kozmetiky s huminovými látkami
+(Humi Cosmetics s.r.o., IČO 21835853, založená 7/2024, konatelia Tomáš
+Dvořák a Pavla Dvořáková, spoločník ich firma DVRK JMTP s.r.o.; ARES:
+bez zamestnancov). Vlastný e-shop na Shoptete; každý produkt má inú
+úlohu (čistenie, tonikum, maska, sérum, krém, SOS korektor), preto sa
+Výber opiera hlavne o typ pleti a počet krokov. Samostatný anti-age rad
+značka nemá — pri voľbe „zrelá pleť“ Výber ponúkne základnú rutinu.
+Ceny sú jediné varianty z e-shopu, všetko „Skladem“ k 30. 9. 2026.
+Fotky sú oficiálne zábery z e-shopu (štúdiové na bielej s ornamentom aj
+štylizované na drevenom podstavci), orezané na výšku. Logo je oficiálne
+PNG z webu (1250×527 px); symbolom je rastlinka z loga bez písmen.
+Farby: tmavá antracitová obalov a hlavičky, akcent medená ako písmo na
+etiketách, teplá svetlá plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Ľahký pleťový krém 50 ml | 445 Kč | https://www.humitics.cz/lehky-pletovy-krem/ |
+| Pleťové sérum 30 ml | 245 Kč | https://www.humitics.cz/humitics-pletove-serum-30ml/ |
+| Pleťové tonikum 150 ml | 295 Kč | https://www.humitics.cz/humitics-pletove-tonikum-150ml/ |
+| Pleťová maska a peeling 2v1 100 ml | 395 Kč | https://www.humitics.cz/humitics-pletova-maska-a-peeling-2v1-100ml/ |
+| Čistiaci gél 150 ml | 390 Kč | https://www.humitics.cz/humitics-cistici-gel-150ml/ |
+| Dvojfázový odličovač 200 ml | 255 Kč | https://www.humitics.cz/humitics-pletovy-dvoufazovy-odlicovac-200ml/ |
+| SOS korektor pre zmiešanú pleť 10 ml | 245 Kč | https://www.humitics.cz/sos-korektor/ |
+| Jemný čistiaci púder/maska 100 ml | 390 Kč | https://www.humitics.cz/cistici-pudr-maska/ |
+
+## Skinium — skinium.sk
+
+Malá slovenská dermatokozmetika dermatologičky MUDr. Ruženy Sochorovej,
+CSc. (predávajúci: „MUDr. Ružena Sochorová, CSc. – LIFE STYLE“, fyzická
+osoba – podnikateľ, IČO 35444754; register účtovných závierok: 1
+zamestnanec; živnosť je z roku 1992, značka Skinium je nová a vyrába sa
+v malých šaržiach na Slovensku). Vlastný e-shop s 28 produktmi v radoch
+Anti-aging, Hydra, Natur a Anti-acne; názvy typu REBADERM, KOENZYDERM či
+PROTECTODERM zákazník bez vysvetlenia nerozlúšti. Veľkosť balenia web
+neuvádza, preto je v názvoch bez nej. Ceny sú aktuálne ceny na detaile
+k 30. 9. 2026 (REBADERM a AHA SERUM sú v zľave z 17,50 €), všetko
+„Skladom“. Fotky sú oficiálne packshoty z e-shopu (1500×1500 na bielej).
+Logo je oficiálne PNG z webu (1711×492 px, zlaté); symbolom je oblúk
+„n“ z loga. Farby: tmavá teplá čierna, akcent zlatá z loga, svetlá
+krémová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| HYDRADERM ľahký hydratačný krém | 15,50 € | https://skinium.sk/produkt/skinium-hydraderm-lahky-hydratacny-krem |
+| REBADERM ľahký protivráskový a hydratačný krém | 15,50 € | https://skinium.sk/produkt/skinium-rebaderm-lahky-protivraskovy-a-hydratacny-krem |
+| MIRACLE CREAM spevňujúci a hydratačný krém s vitamínom C | 15,50 € | https://skinium.sk/produkt/skinium-miracle-cream |
+| KOENZYDERM regeneračný krém s koenzýmom Q10 | 12,50 € | https://skinium.sk/produkt/skinium-koenzyderm-regeneracny-pletovy-krem-s-vysokym-obsahom-koenzymu-q10 |
+| SHEABUDERM krém s bambuckým maslom | 6,30 € | https://skinium.sk/produkt/sheabuderm |
+| HYALURODERM sérum s kyselinou hyalurónovou | 12,50 € | https://skinium.sk/produkt/hyaluroderm |
+| PROTECTODERM lipozómové sérum | 14,50 € | https://skinium.sk/produkt/protectoderm |
+| AHA SERUM zlupovacie sérum | 15,50 € | https://skinium.sk/produkt/skinium-aha-serum-zlupovacie-serum |
+| ACNECLEANER Zn čistiaci roztok | 5,80 € | https://skinium.sk/produkt/skinium-acnecleaner-zn-dermatokozmeticky-cistiaci-roztok-na-mastnu-a-aknoznu-plet-s-komedolytickymi-seboregulacnymi-a-antimikrobialnymi-ucinkami |
