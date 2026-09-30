@@ -43,6 +43,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | Indívo | [indivo.cz](https://www.indivo.cz/) | `/indivo/` · `indivo.mojchatbot.sk` |
 | SMYSSLY | [smyssly.com](https://www.smyssly.com/cs/) | `/smyssly/` · `smyssly.mojchatbot.sk` |
 | LIQOIL | [liqoil.sk](https://liqoil.sk/) | `/liqoil/` · `liqoil.mojchatbot.sk` |
+| MUZURI | [muzuri.sk](https://muzuri.sk/) | `/muzuri/` · `muzuri.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 

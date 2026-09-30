@@ -352,6 +352,23 @@
         {id:'toner',name:'Jemný exfoliačný toner – Ferment Renew Toner 200 ml',price:'16,90 €',url:'https://liqoil.sk/products/exfoliacny-toner',photo:photo('liqoil','toner'),tags:['oily','sensitive','balanced','clarity','hydrate','calm','full','basic'],reason:'Biofermenty, hamamel a brezová šťava jemne exfoliujú, zjemnia póry, zjednotia tón a hydratujú — vhodný aj pre citlivejšiu či problematickú pleť.'},
         {id:'antiox',name:'Denný krém – Antioxidant face cream 30 ml',price:'14,90 €',url:'https://liqoil.sk/products/antioxidant-face-cream',photo:photo('liqoil','antiox'),tags:['balanced','mature','hydrate','cream','simple'],reason:'Zelený čaj, riasy a vitamín E zachytávajú voľné radikály, riasy navyše hĺbkovo hydratujú a vyživujú — denný krém pre zrelšiu pleť.'}
       ]
+    },
+    muzuri: {
+      name:'MUZURI', domain:'muzuri.sk', website:'https://muzuri.sk/',
+      theme:{brand:'#1d1b1b',accent:'#9a6b3c',soft:'#f3ece4',paper:'#fdfbf8',ink:'#1d1b1b',line:'#e7ded5'},
+      wordmark:logo('muzuri','MUZURI'),
+      hero:'/assets/cosmetics/muzuri.jpg', mark:'/assets/cosmetics/muzuri-mark.png',
+      ownerNote:'Hydraserum, Nightserum, RE-HY-AN či cleanser — ručne robená kozmetika bez parfumácie, pri ktorej sa zákazníčky pýtajú, čo patrí k ich pleti a v akom poradí.',
+      benefit:['Poradí medzi sérom, krémom a olejom','Poskladá rutinu od čistenia po nočné sérum','Odpovie aj mimo pracovného času'],
+      products:[
+        {id:'rehyan',name:'RE-HY-AN Výživný krém 30 ml',price:'34,90 €',url:'https://muzuri.sk/produkt/rehyan/',photo:photo('muzuri','rehyan'),tags:['dry','sensitive','hydrate','mature','cream','simple','basic'],reason:'Výživný krém s lipidovým komplexom a astaxantínom hydratuje, regeneruje a pomáha obnovovať kožnú bariéru — pre suchú, citlivú aj mdlú pleť.'},
+        {id:'hydra',name:'Hydraserum s kyselinou hyalurónovou 2 % 30 ml',price:'31,90 €',url:'https://muzuri.sk/produkt/hydraserum',photo:photo('muzuri','hydra'),tags:['dry','sensitive','hydrate','calm','serum','basic','target'],reason:'Gélové sérum s dvoma typmi kyseliny hyalurónovej a levanduľovou vodou intenzívne hydratuje a upokojí začervenanie — bez parfumácie.'},
+        {id:'night',name:'Nightserum Bakuchiol 1 % so skvalanom 30 ml',price:'33,90 €',url:'https://muzuri.sk/produkt/nightserum-bakuchiol',photo:photo('muzuri','night'),tags:['oily','sensitive','mature','clarity','oil','target','full'],reason:'Ľahké olejové sérum s 1 % bakuchiolu a olivovým skvalánom regeneruje a pomáha pri nedokonalostiach aj začínajúcich vráskach — neupcháva póry.'},
+        {id:'cleanser',name:'Cleanser s rastlinnou kyselinou salicylovou 100 ml',price:'24,90 €',url:'https://muzuri.sk/produkt/cleanser-s-rastlinnou-kyselinou-salicylovou/',photo:photo('muzuri','cleanser'),tags:['dry','sensitive','balanced','calm','full','basic'],reason:'Hydrofilný olej rozpustí make-up aj SPF a s vodou sa zmení na jemné mlieko — čistí bez vysušenia a pomáha pri upchatých póroch.'},
+        {id:'eye',name:'Očný krém s peptidmi proti opuchom a tmavým kruhom 15 ml',price:'34,90 €',url:'https://muzuri.sk/produkt/ocny-krem/',photo:photo('muzuri','eye'),tags:['mature','cream','target','full'],reason:'Peptidy a niacínamid pomáhajú znížiť viditeľnosť tmavých kruhov a opuchov a zjemniť vrásky okolo očí — ľahká textúra aj pre citlivé očné okolie.'},
+        {id:'peeling',name:'Enzymatický peeling Ananás & Papája',price:'33,90 €',url:'https://muzuri.sk/produkt/enzymaticky-peeling/',photo:photo('muzuri','peeling'),tags:['oily','balanced','clarity','mature','target','full'],reason:'Neabrazívny gélový peeling s bromelaínom, papájou a extraktom z bielej vŕby prečistí póry a zjednotí tón — raz týždenne pre problematickú aj zrelšiu pleť.'},
+        {id:'rose',name:'Organická ružová voda 100 ml',price:'11,90 €',url:'https://muzuri.sk/produkt/ruzova-voda/',photo:photo('muzuri','rose'),tags:['sensitive','dry','balanced','calm','hydrate','full','basic'],reason:'Čistý hydrolát z damascénskej ruže bez alkoholu a parfumácie — jemné tonikum, ktoré po čistení obnoví pH, hydratuje a upokojí pleť.'}
+      ]
     }
   });
 })();

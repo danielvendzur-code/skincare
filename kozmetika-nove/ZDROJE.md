@@ -422,3 +422,29 @@ podľa hlavičky webu (`#e8cdc8`, stmavená pre kontrast), krémová plocha.
 | Pleťové sérum – Recovery face dry oil 30 ml | 14,90 € | https://liqoil.sk/products/recovery-suchy-olej |
 | Jemný exfoliačný toner – Ferment Renew Toner 200 ml | 16,90 € | https://liqoil.sk/products/exfoliacny-toner |
 | Denný krém – Antioxidant face cream 30 ml | 14,90 € | https://liqoil.sk/products/antioxidant-face-cream |
+
+## MUZURI — muzuri.sk
+
+Malá slovenská značka ručne vyrábanej kozmetiky (MaD Life s. r. o.,
+IČO 50380711, Dáša Šárközyová a Martin Miček; tržby 2025 ≈ 269 tis. €)
+s vlastným e-shopom. Pleťová rada je krátka, ale každý produkt má iný
+účel — gélové hyalurónové sérum, olejové sérum s bakuchiolom, výživný
+krém, hydrofilný cleanser, enzymatický peeling, očný krém a ružová voda,
+všetko bez parfumácie. Veľkosti z popisu produktu (pri peelingu ju web
+neuvádza, preto je v názve bez nej); všetko „Na sklade“ k 30. 9. 2026.
+Fotky sú štylizované štvorcové zábery z e-shopu (`/upload/muzuri-2026/`),
+orezané na výšku okolo produktu. Logo: na webe je len malé PNG
+(170×109 px), preto je nápis MUZURI prepísaný písmom Montserrat SemiBold
+podľa loga; symbolom je srdce s „M“ z loga v hlavičke webu. Farby:
+čierna z hlavičky a štítkov, akcent bronzová ako zlaté ornamenty na
+obaloch, krémová plocha z ich bannerov.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| RE-HY-AN Výživný krém 30 ml | 34,90 € | https://muzuri.sk/produkt/rehyan/ |
+| Hydraserum s kyselinou hyalurónovou 2 % 30 ml | 31,90 € | https://muzuri.sk/produkt/hydraserum |
+| Nightserum Bakuchiol 1 % so skvalanom 30 ml | 33,90 € | https://muzuri.sk/produkt/nightserum-bakuchiol |
+| Cleanser s rastlinnou kyselinou salicylovou 100 ml | 24,90 € | https://muzuri.sk/produkt/cleanser-s-rastlinnou-kyselinou-salicylovou/ |
+| Očný krém s peptidmi proti opuchom a tmavým kruhom 15 ml | 34,90 € | https://muzuri.sk/produkt/ocny-krem/ |
+| Enzymatický peeling Ananás & Papája | 33,90 € | https://muzuri.sk/produkt/enzymaticky-peeling/ |
+| Organická ružová voda 100 ml | 11,90 € | https://muzuri.sk/produkt/ruzova-voda/ |
