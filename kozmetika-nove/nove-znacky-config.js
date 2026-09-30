@@ -405,6 +405,24 @@
         {id:'hermanek',name:'Harmančeková hmla 100 ml',price:'460 Kč',url:'https://www.mujluj.cz/hermankova-mlha/',photo:photo('mujluj','hermanek'),tags:['dry','sensitive','calm','hydrate','basic','full'],reason:'BIO kvetová voda z harmančeka s fermentom z reďkoviek, bez alkoholu — ľahké tonikum, ktoré osvieži, upokojí a hydratuje suchú a citlivú pleť.'},
         {id:'rozmaryn',name:'Rozmarínová hmla 100 ml',price:'460 Kč',url:'https://www.mujluj.cz/rozmarynova-mlha/',photo:photo('mujluj','rozmaryn'),tags:['oily','balanced','clarity','hydrate','basic','full'],reason:'BIO kvetová voda z rozmarínu, bez alkoholu — osvieži a hydratuje zmiešanú a mastnú pleť, reguluje tvorbu mazu a stiahne póry.'}
       ]
+    },
+    humitics: {
+      name:'Humitics', domain:'humitics.cz', website:'https://www.humitics.cz/',
+      theme:{brand:'#262322',accent:'#9c6b3e',soft:'#efe9e2',paper:'#fcfbf9',ink:'#1f1c1b',line:'#e5ded6'},
+      wordmark:logo('humitics','Humitics'),
+      hero:'/assets/cosmetics/humitics.jpg', mark:'/assets/cosmetics/humitics-mark.png',
+      ownerNote:'Prírodná kozmetika s huminovými látkami — čistiaci gél, púder, maska s peelingom, tonikum, sérum aj SOS korektor. Zákazník nevie, čo z toho patrí do jeho rutiny.',
+      benefit:['Vysvetlí, na čo je ktorý produkt s humátmi','Poskladá rutinu od čistenia po krém','Odpovie aj mimo pracovného času'],
+      products:[
+        {id:'krem',name:'Ľahký pleťový krém 50 ml',price:'445 Kč',url:'https://www.humitics.cz/lehky-pletovy-krem/',photo:photo('humitics','krem'),tags:['balanced','oily','dry','hydrate','cream','simple','basic'],reason:'Ľahký hydratačný krém s huminovými látkami a vitamínmi, ktorý nezanecháva mastný film — pre všetky typy pleti vrátane mastnej a problematickej.'},
+        {id:'serum',name:'Pleťové sérum 30 ml',price:'245 Kč',url:'https://www.humitics.cz/humitics-pletove-serum-30ml/',photo:photo('humitics','serum'),tags:['oily','balanced','clarity','serum','target','basic'],reason:'Koncentrované sérum s kyselinou salicylovou, niacínamidom a huminovými látkami zjednotí tón a obnoví rovnováhu zmiešanej a mastnej pleti.'},
+        {id:'tonikum',name:'Pleťové tonikum 150 ml',price:'295 Kč',url:'https://www.humitics.cz/humitics-pletove-tonikum-150ml/',photo:photo('humitics','tonikum'),tags:['dry','sensitive','balanced','hydrate','calm','basic','full'],reason:'Kvetové vody z medovky a pelargónie s kyselinou hyalurónovou a glykolovou pleť šetrne dočistia, hydratujú a upokoja.'},
+        {id:'maska',name:'Pleťová maska a peeling 2v1 100 ml',price:'395 Kč',url:'https://www.humitics.cz/humitics-pletova-maska-a-peeling-2v1-100ml/',photo:photo('humitics','maska'),tags:['oily','balanced','clarity','target','full'],reason:'Čistiaca maska s jemným peelingom dôkladne vyčistí póry, odstráni odumreté bunky a pleť rozjasní — pre všetky typy pleti.'},
+        {id:'gel',name:'Čistiaci gél 150 ml',price:'390 Kč',url:'https://www.humitics.cz/humitics-cistici-gel-150ml/',photo:photo('humitics','gel'),tags:['sensitive','dry','balanced','full','basic'],reason:'Jemný gél zbaví pleť make-upu a nečistôt bez vysušenia a podráždenia a pripraví ju na tonikum a krém.'},
+        {id:'odlicovac',name:'Dvojfázový odličovač 200 ml',price:'255 Kč',url:'https://www.humitics.cz/humitics-pletovy-dvoufazovy-odlicovac-200ml/',photo:photo('humitics','odlicovac'),tags:['sensitive','dry','calm','full'],reason:'Dvojfázový odličovač s huminovými látkami a hamamelom odstráni make-up, pleť hydratuje a zároveň upokojí a tonizuje.'},
+        {id:'sos',name:'SOS korektor pre zmiešanú pleť 10 ml',price:'245 Kč',url:'https://www.humitics.cz/sos-korektor/',photo:photo('humitics','sos'),tags:['oily','balanced','clarity','oil','target'],reason:'Olejové sérum v praktickom roll-one na lokálne ošetrenie nedokonalostí — malé balenie, ktoré sa zmestí do každej kabelky.'},
+        {id:'pudr',name:'Jemný čistiaci púder/maska 100 ml',price:'390 Kč',url:'https://www.humitics.cz/cistici-pudr-maska/',photo:photo('humitics','pudr'),tags:['oily','sensitive','balanced','hydrate','full','target'],reason:'Viacúčelový púder na hĺbkové, no jemné čistenie — denne ako čistič alebo ako čistiaca a hydratačná maska.'}
+      ]
     }
   });
 })();

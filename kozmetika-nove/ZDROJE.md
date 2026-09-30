@@ -504,3 +504,30 @@ krémová plocha `#fffbf3`.
 | Nechtíkový loj s harmančekom 30 ml | 450 Kč | https://www.mujluj.cz/produkty-mesickovy-luj-s-hermankem/ |
 | Harmančeková hmla 100 ml | 460 Kč | https://www.mujluj.cz/hermankova-mlha/ |
 | Rozmarínová hmla 100 ml | 460 Kč | https://www.mujluj.cz/rozmarynova-mlha/ |
+
+## Humitics — humitics.cz
+
+Mladá česká značka prírodnej pleťovej kozmetiky s huminovými látkami
+(Humi Cosmetics s.r.o., IČO 21835853, založená 7/2024, konatelia Tomáš
+Dvořák a Pavla Dvořáková, spoločník ich firma DVRK JMTP s.r.o.; ARES:
+bez zamestnancov). Vlastný e-shop na Shoptete; každý produkt má inú
+úlohu (čistenie, tonikum, maska, sérum, krém, SOS korektor), preto sa
+Výber opiera hlavne o typ pleti a počet krokov. Samostatný anti-age rad
+značka nemá — pri voľbe „zrelá pleť“ Výber ponúkne základnú rutinu.
+Ceny sú jediné varianty z e-shopu, všetko „Skladem“ k 30. 9. 2026.
+Fotky sú oficiálne zábery z e-shopu (štúdiové na bielej s ornamentom aj
+štylizované na drevenom podstavci), orezané na výšku. Logo je oficiálne
+PNG z webu (1250×527 px); symbolom je rastlinka z loga bez písmen.
+Farby: tmavá antracitová obalov a hlavičky, akcent medená ako písmo na
+etiketách, teplá svetlá plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Ľahký pleťový krém 50 ml | 445 Kč | https://www.humitics.cz/lehky-pletovy-krem/ |
+| Pleťové sérum 30 ml | 245 Kč | https://www.humitics.cz/humitics-pletove-serum-30ml/ |
+| Pleťové tonikum 150 ml | 295 Kč | https://www.humitics.cz/humitics-pletove-tonikum-150ml/ |
+| Pleťová maska a peeling 2v1 100 ml | 395 Kč | https://www.humitics.cz/humitics-pletova-maska-a-peeling-2v1-100ml/ |
+| Čistiaci gél 150 ml | 390 Kč | https://www.humitics.cz/humitics-cistici-gel-150ml/ |
+| Dvojfázový odličovač 200 ml | 255 Kč | https://www.humitics.cz/humitics-pletovy-dvoufazovy-odlicovac-200ml/ |
+| SOS korektor pre zmiešanú pleť 10 ml | 245 Kč | https://www.humitics.cz/sos-korektor/ |
+| Jemný čistiaci púder/maska 100 ml | 390 Kč | https://www.humitics.cz/cistici-pudr-maska/ |
