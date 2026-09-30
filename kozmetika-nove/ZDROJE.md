@@ -559,3 +559,34 @@ krémová plocha.
 | PROTECTODERM lipozómové sérum | 14,50 € | https://skinium.sk/produkt/protectoderm |
 | AHA SERUM zlupovacie sérum | 15,50 € | https://skinium.sk/produkt/skinium-aha-serum-zlupovacie-serum |
 | ACNECLEANER Zn čistiaci roztok | 5,80 € | https://skinium.sk/produkt/skinium-acnecleaner-zn-dermatokozmeticky-cistiaci-roztok-na-mastnu-a-aknoznu-plet-s-komedolytickymi-seboregulacnymi-a-antimikrobialnymi-ucinkami |
+
+## IUVENIO — iuvenio.com
+
+Česká značka anti-age pleťovej starostlivosti vyvíjanej v Česku (iuven.io
+s.r.o., IČO 04534689, založená 11/2015, jediná spoločníčka a konateľka
+Helena Hlaváčková; ARES: bez zamestnancov). Vlastný e-shop na Shoptete
+so slovenskou verziou v eurách (`/sk/`) a poradňou len 9:00 – 14:00.
+Produkty majú anglické jednoslovné názvy (CALM, MOON, RETOUCH, CROSSLINKED,
+FRESH…), z ktorých nie je jasné, čo je krém, sérum či peeling a pre akú
+pleť — preto sú v demo názvoch doplnené slovenské opisy a objem z
+parametrov e-shopu. Ceny sú aktuálne ceny slovenskej verzie k 30. 9. 2026
+(CALM je v akcii −25 % z 27,90 €), všetko „Skladom“. Fotky sú oficiálne
+zábery z e-shopu: štúdiové packshoty na bielom orezané bližšie k produktu
+a štylizované farebné zábery; z piatich boli retušou odstránené odznaky
+ocenení (Cosmopolitan, Harper's Bazaar), inak sú bez úprav. Logo je
+oficiálne PNG z webu (567×69 px) 4× zväčšené s vyhladením hrán; symbolom
+je kvapka z konca nápisu IUVENIO (rovnaká ako favicon). Farby: takmer
+čierna loga, akcent ružová z tlačidiel webu stmavená pre biely text,
+svetloružová plocha ako sekcie webu.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| CALM anti-age krém s betaglukánmi 50 ml | 20,90 € | https://www.iuvenio.com/sk/calm/ |
+| VITAL krém s kolagénovým boosterom 50 ml | 17,90 € | https://www.iuvenio.com/sk/vital/ |
+| MOON nočný anti-age krém s HyRetinom 30 ml | 24,50 € | https://www.iuvenio.com/sk/moon/ |
+| RETOUCH nočný krém proti nedokonalostiam 30 ml | 24,50 € | https://www.iuvenio.com/sk/retouch/ |
+| CROSSLINKED očné a pleťové sérum 30 ml | 28,70 € | https://www.iuvenio.com/sk/crosslinked/ |
+| NANO nanovlákenné sérum (7 dávok) | 24,50 € | https://www.iuvenio.com/sk/nano/ |
+| FRESH pleťová esencia 250 ml | 19,50 € | https://www.iuvenio.com/sk/fresh/ |
+| RESTART peeling 10 % AHA + 1 % BHA 50 ml | 22,90 € | https://www.iuvenio.com/sk/restart/ |
+| URBAN čistiaci gél 250 ml | 17,90 € | https://www.iuvenio.com/sk/urban/ |

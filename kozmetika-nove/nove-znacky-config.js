@@ -442,6 +442,25 @@
         {id:'aha',name:'AHA SERUM zlupovacie sérum',price:'15,50 €',url:'https://skinium.sk/produkt/skinium-aha-serum-zlupovacie-serum',photo:photo('skinium','aha'),tags:['oily','balanced','clarity','serum','target','full'],reason:'Kyselina glykolová, mliečna a citrónová v lamelárnom géli obnovujú povrch pleti, zjednocujú tón a pomáhajú pri rozšírených póroch a čiernych bodkách.'},
         {id:'acne',name:'ACNECLEANER Zn čistiaci roztok',price:'5,80 €',url:'https://skinium.sk/produkt/skinium-acnecleaner-zn-dermatokozmeticky-cistiaci-roztok-na-mastnu-a-aknoznu-plet-s-komedolytickymi-seboregulacnymi-a-antimikrobialnymi-ucinkami',photo:photo('skinium','acne'),tags:['oily','clarity','full'],reason:'Zinok PCA, kyselina salicylová a niacínamid čistia mastnú a problematickú pleť, uvoľňujú póry a regulujú kožný maz.'}
       ]
+    },
+    iuvenio: {
+      name:'IUVENIO', domain:'iuvenio.com', website:'https://www.iuvenio.com/sk/',
+      theme:{brand:'#2f2a2d',accent:'#bf4a6b',soft:'#fdf1f2',paper:'#fffdfd',ink:'#262326',line:'#f2dde1'},
+      wordmark:logo('iuvenio','IUVENIO'),
+      hero:'/assets/cosmetics/iuvenio.jpg', mark:'/assets/cosmetics/iuvenio-mark.png',
+      ownerNote:'Anti-age starostlivosť s menami ako CALM, MOON, RETOUCH či CROSSLINKED — zákazníčka z názvu nevyčíta, ktorý krém je na citlivú pleť a ktorý na nedokonalosti.',
+      benefit:['Vysvetlí, čo je MOON, RETOUCH či CROSSLINKED','Zostaví rutinu od čistenia po nočný krém','Poradí aj mimo poradne 9:00 – 14:00'],
+      products:[
+        {id:'calm',name:'CALM anti-age krém s betaglukánmi 50 ml',price:'20,90 €',url:'https://www.iuvenio.com/sk/calm/',photo:photo('iuvenio','calm'),tags:['sensitive','balanced','dry','calm','mature','cream','simple','basic'],reason:'Betaglukány z kvasiniek a húb posilňujú kožnú bariéru, hydratujú a upokojujú — denný aj nočný krém aj pre pleť so sklonom k začervenaniu.'},
+        {id:'vital',name:'VITAL krém s kolagénovým boosterom 50 ml',price:'17,90 €',url:'https://www.iuvenio.com/sk/vital/',photo:photo('iuvenio','vital'),tags:['dry','balanced','hydrate','mature','cream','simple','basic'],reason:'α-ketoglutarát podporuje tvorbu vlastného kolagénu, bambucké maslo a vitamín E hydratujú a vyživujú — rýchlo sa vstrebe bez mastného filmu.'},
+        {id:'moon',name:'MOON nočný anti-age krém s HyRetinom 30 ml',price:'24,50 €',url:'https://www.iuvenio.com/sk/moon/',photo:photo('iuvenio','moon'),tags:['mature','balanced','oily','dry','cream','full','target'],reason:'HyRetin, nová forma kyseliny retinovej, s peptidom Clodessine a niacínamidom cez noc vyhladzuje vrásky, spevňuje a zjednocuje tón pleti.'},
+        {id:'retouch',name:'RETOUCH nočný krém proti nedokonalostiam 30 ml',price:'24,50 €',url:'https://www.iuvenio.com/sk/retouch/',photo:photo('iuvenio','retouch'),tags:['oily','clarity','mature','cream','target','full','simple'],reason:'HyRetin znižuje tvorbu kožného mazu a začervenanie, peptid Recelline a vitamín C pôsobia proti starnutiu — nočný krém na nedokonalosti aj vrásky naraz.'},
+        {id:'crosslinked',name:'CROSSLINKED očné a pleťové sérum 30 ml',price:'28,70 €',url:'https://www.iuvenio.com/sk/crosslinked/',photo:photo('iuvenio','crosslinked'),tags:['mature','hydrate','dry','balanced','serum','basic','full'],reason:'Zosieťovaná kyselina hyalurónová postupne uvoľňuje peptidy Clodessine a Recelline — spevňuje, zmenšuje póry a pomáha aj okolo očí.'},
+        {id:'nano',name:'NANO nanovlákenné sérum (7 dávok)',price:'24,50 €',url:'https://www.iuvenio.com/sk/nano/',photo:photo('iuvenio','nano'),tags:['sensitive','mature','hydrate','calm','serum','target'],reason:'Sérum z nanovlákien bez konzervantov, parfumov a silikónov s vysokým obsahom nízkomolekulárnej kyseliny hyalurónovej a peptidov — intenzívna kúra aj pre citlivú pleť.'},
+        {id:'fresh',name:'FRESH pleťová esencia 250 ml',price:'19,50 €',url:'https://www.iuvenio.com/sk/fresh/',photo:photo('iuvenio','fresh'),tags:['balanced','oily','dry','hydrate','serum','full','basic'],reason:'Modifikovaná kyselina hyalurónová pomáha aktívnym látkam zo séra a krému preniknúť hlbšie — osvieži a zjemní pleť ako druhý krok rutiny.'},
+        {id:'restart',name:'RESTART peeling 10 % AHA + 1 % BHA 50 ml',price:'22,90 €',url:'https://www.iuvenio.com/sk/restart/',photo:photo('iuvenio','restart'),tags:['oily','balanced','clarity','serum','target','full'],reason:'Kyselina glykolová, mandľová, mliečna a salicylová obnovujú povrch pleti, čistia póry a čierne bodky; pantenol pleť počas pôsobenia upokojuje.'},
+        {id:'urban',name:'URBAN čistiaci gél 250 ml',price:'17,90 €',url:'https://www.iuvenio.com/sk/urban/',photo:photo('iuvenio','urban'),tags:['sensitive','oily','balanced','calm','full','simple'],reason:'Jemne odstráni make-up, nečistoty aj prebytočný maz; aloe vera, pantenol a kyselina hyalurónová pleť zároveň hydratujú — bez oplachovania.'}
+      ]
     }
   });
 })();
