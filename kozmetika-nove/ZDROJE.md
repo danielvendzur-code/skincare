@@ -477,3 +477,30 @@ svetlosivá plocha.
 | Light Beauty Oil 30 ml | 32,00 € | https://noili.sk/products/light-beauty-oil |
 | Rich Beauty Oil 30 ml | 32,00 € | https://noili.sk/products/rich-beauty-oil |
 | Bare Balm Cleanser 50 ml | 48,00 € | https://noili.sk/products/bare-balm-cleanser |
+
+## Můj Lůj — mujluj.cz
+
+Mladá česká značka kozmetiky z hovädzieho loja (Můj Lůj s.r.o.,
+IČO 23360313, jediná spoločníčka a konateľka Ing. Lucie Misiarzová;
+na trhu od novembra 2024, s.r.o. od 2025, 6–9 zamestnancov podľa ARES).
+Vlastný e-shop na Shoptete delí krémy podľa typu pleti — presne otázka,
+na ktorú odpovedá Výber starostlivosti. Názvy sú preložené do slovenčiny
+(Omlazující lůj → Omladzujúci loj). Ceny sú za najmenšie balenie, ktoré
+e-shop ukazuje ako „od“ (krémy 30 ml; 60/120/250 ml sú drahšie), hmly za
+100 ml (50 ml kvetová voda 280 Kč). Všetky varianty „Skladem“ k
+30. 9. 2026 (`tools/radio_variants.mjs`). Fotky sú oficiálne štúdiové
+zábery variantu 30 ml (hmly 100 ml) na sivom pozadí, orezané bližšie k
+produktu. Logo z hlavičky webu (PNG 350×250 px): nápis MŮJ LŮJ 3×
+zväčšený s vyhladením, symbolom sú listy nad nápisom. Farby: tmavá
+lesná zelená z webu `#234d36`, akcent šalviová `#759087` (stmavená),
+krémová plocha `#fffbf3`.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Omladzujúci loj 30 ml | 450 Kč | https://www.mujluj.cz/produkty-omlazujici-luj/ |
+| Loj pre čistú pleť 30 ml | 450 Kč | https://www.mujluj.cz/luj-pro-cistou-plet/ |
+| Šľahaný loj 30 ml | 330 Kč | https://www.mujluj.cz/produkty-slehany-luj/ |
+| Levanduľový loj 30 ml | 360 Kč | https://www.mujluj.cz/produkty-levandulovy-luj/ |
+| Nechtíkový loj s harmančekom 30 ml | 450 Kč | https://www.mujluj.cz/produkty-mesickovy-luj-s-hermankem/ |
+| Harmančeková hmla 100 ml | 460 Kč | https://www.mujluj.cz/hermankova-mlha/ |
+| Rozmarínová hmla 100 ml | 460 Kč | https://www.mujluj.cz/rozmarynova-mlha/ |

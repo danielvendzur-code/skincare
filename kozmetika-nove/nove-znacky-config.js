@@ -388,6 +388,23 @@
         {id:'rich',name:'Rich Beauty Oil 30 ml',price:'32,00 €',url:'https://noili.sk/products/rich-beauty-oil',photo:photo('noili','rich'),tags:['dry','mature','oil','simple','basic'],reason:'Obzvlášť zvláčňujúca zmes vzácnych olejov a voskov dodá suchej pleti extra výživu, najmä počas chladných mesiacov.'},
         {id:'balm',name:'Bare Balm Cleanser 50 ml',price:'48,00 €',url:'https://noili.sk/products/bare-balm-cleanser',photo:photo('noili','balm'),tags:['dry','balanced','sensitive','full'],reason:'Odličovací balzam s olejom z marhuľových jadier, morskými riasami a bielou morušou odstráni make-up, SPF aj maskaru a pleť nechá vyživenú.'}
       ]
+    },
+    mujluj: {
+      name:'Můj Lůj', domain:'mujluj.cz', website:'https://www.mujluj.cz/',
+      theme:{brand:'#234d36',accent:'#5f7a70',soft:'#f1ebe1',paper:'#fffbf3',ink:'#1f2a24',line:'#e4dbcf'},
+      wordmark:logo('mujluj','Můj Lůj'),
+      hero:'/assets/cosmetics/mujluj.jpg', mark:'/assets/cosmetics/mujluj-mark.png',
+      ownerNote:'Päť krémov z hovädzieho loja a dve kvetové hmly podľa typu pleti — zákazníčka sa pýta, či pre jej pleť je levanduľový, šľahaný, nechtíkový alebo loj pre čistú pleť.',
+      benefit:['Z piatich lojov ten pravý pre jej pleť','Doplní k nemu vhodnú kvetovú hmlu','Odpovie aj mimo pracovného času'],
+      products:[
+        {id:'omlazujici',name:'Omladzujúci loj 30 ml',price:'450 Kč',url:'https://www.mujluj.cz/produkty-omlazujici-luj/',photo:photo('mujluj','omlazujici'),tags:['mature','balanced','dry','cream','simple','basic'],reason:'Šľahaný krém z hovädzieho loja so šípkovým olejom, kadidlom a vitamínom E vyživí a rozjasní unavenú a zrelú pleť a podporí jej pevnosť.'},
+        {id:'cista',name:'Loj pre čistú pleť 30 ml',price:'450 Kč',url:'https://www.mujluj.cz/luj-pro-cistou-plet/',photo:photo('mujluj','cista'),tags:['oily','balanced','clarity','calm','cream','simple','basic'],reason:'Ľahký balzam s jojobovým olejom, skvalánom a bylinkami (tea tree, rozmarín, šalvia) pre zmiešanú a mastnú pleť so sklonom k akné — reguluje maz bez vysušenia.'},
+        {id:'slehany',name:'Šľahaný loj 30 ml',price:'330 Kč',url:'https://www.mujluj.cz/produkty-slehany-luj/',photo:photo('mujluj','slehany'),tags:['sensitive','dry','hydrate','cream','simple'],reason:'Len dve suroviny — hovädzí loj a jojobový olej, bez pridanej vône. Najšetrnejšia voľba pre veľmi citlivú a atopickú pokožku.'},
+        {id:'levandule',name:'Levanduľový loj 30 ml',price:'360 Kč',url:'https://www.mujluj.cz/produkty-levandulovy-luj/',photo:photo('mujluj','levandule'),tags:['sensitive','dry','calm','hydrate','cream','simple','basic'],reason:'Upokojujúci šľahaný krém z BIO hovädzieho loja s jemnou vôňou levandule podporuje kožnú bariéru — pre suchú, citlivú aj citlivú problematickú pleť.'},
+        {id:'mesicek',name:'Nechtíkový loj s harmančekom 30 ml',price:'450 Kč',url:'https://www.mujluj.cz/produkty-mesickovy-luj-s-hermankem/',photo:photo('mujluj','mesicek'),tags:['dry','sensitive','calm','cream','target','full'],reason:'Regeneračný balzam z loja s nechtíkom a harmančekom hĺbkovo vyživí suchú a podráždenú pokožku a pomáha obnovovať jej ochrannú bariéru.'},
+        {id:'hermanek',name:'Harmančeková hmla 100 ml',price:'460 Kč',url:'https://www.mujluj.cz/hermankova-mlha/',photo:photo('mujluj','hermanek'),tags:['dry','sensitive','calm','hydrate','basic','full'],reason:'BIO kvetová voda z harmančeka s fermentom z reďkoviek, bez alkoholu — ľahké tonikum, ktoré osvieži, upokojí a hydratuje suchú a citlivú pleť.'},
+        {id:'rozmaryn',name:'Rozmarínová hmla 100 ml',price:'460 Kč',url:'https://www.mujluj.cz/rozmarynova-mlha/',photo:photo('mujluj','rozmaryn'),tags:['oily','balanced','clarity','hydrate','basic','full'],reason:'BIO kvetová voda z rozmarínu, bez alkoholu — osvieži a hydratuje zmiešanú a mastnú pleť, reguluje tvorbu mazu a stiahne póry.'}
+      ]
     }
   });
 })();

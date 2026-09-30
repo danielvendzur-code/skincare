@@ -45,6 +45,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | LIQOIL | [liqoil.sk](https://liqoil.sk/) | `/liqoil/` · `liqoil.mojchatbot.sk` |
 | MUZURI | [muzuri.sk](https://muzuri.sk/) | `/muzuri/` · `muzuri.mojchatbot.sk` |
 | Noili | [noili.sk](https://noili.sk/) | `/noili/` · `noili.mojchatbot.sk` |
+| Můj Lůj | [mujluj.cz](https://www.mujluj.cz/) | `/mujluj/` · `mujluj.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 
