@@ -688,3 +688,32 @@ stmavená staroružová z loga, svetloružová plocha ako lišty webu.
 | Pleťová maska na citlivú pleť Pivoňka 60 ml | 419 Kč | https://www.mariellicosmetics.cz/pletove-masky-a-peelingy/pivonka/ |
 | Pleťová maska na zrelú pleť Pomněnka 60 ml | 419 Kč | https://www.mariellicosmetics.cz/pletove-masky-a-peelingy/pomnenka/ |
 | Pleťová maska pre všetky typy pleti Sněženka 60 ml | 419 Kč | https://www.mariellicosmetics.cz/pletove-masky-a-peelingy/snezenka/ |
+
+## Delibutus — delibutus.cz
+
+Malá česká značka prírodnej kozmetiky z rastlinných olejov a masiel
+(Delibutus s.r.o., IČO 05201799, založená 6/2016, konatelia Kateřina
+Mašínová a Tomáš Mašín, spoločníci Tomáš Mašín, Jitka Klezlová Rydvalová
+a Jan Humplík; ARES: bez zamestnancov). Vlastný e-shop na WooCommerce;
+pleťová rada sú štyri olejové séra v rovnakých fľaštičkách s menami
+Rozjasněnka, Zlatokráska, Rovnovážka a Čistokráska plus výživné maslá —
+rozdiel je len v zložení a type pleti, preto ich Výber starostlivosti
+triedi podľa pleti a cieľa. Ceny sú aktuálne ceny e-shopu k 1. 10. 2026
+(`wp-json/wc/store`), všetko skladom; sérum Matcha Anti-Age bolo
+vypredané, preto chýba. Pri Zlatokráske, Matcha Karité a nechtíkovom
+masle sa veľkosť v názve na webe (30/60 ml) nezhoduje s etiketou na
+fotke (50 ml), preto je v názve bez nej. Fotky sú oficiálne packshoty
+z e-shopu na bielom. Logo je oficiálne PNG z webu (600×200 px,
+vlastnoručný podpis) 4× zväčšené s vyhladením a zhrubnutým ťahom, aby
+bolo čitateľné; symbolom je srdiečko z konca podpisu. Farby: tmavá teplá
+hnedá, akcent horčicová zlatá z tlačidiel webu stmavená pre biely text,
+krémová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Olejové sérum Rozjasněnka 30 ml | 699 Kč | https://delibutus.cz/produkt/rozjasnenka-30-ml/ |
+| Olejové sérum Zlatokráska | 699 Kč | https://delibutus.cz/produkt/zlatokraska-30-ml/ |
+| Olejové sérum Rovnovážka 30 ml | 649 Kč | https://delibutus.cz/produkt/rovnovazka-30-ml/ |
+| Olejové sérum Čistokráska 30 ml | 649 Kč | https://delibutus.cz/produkt/cistokraska-30-ml/ |
+| Šľahané maslo Matcha Karité | 649 Kč | https://delibutus.cz/produkt/matcha-karite-60-ml/ |
+| Nechtíkové maslo (Měsíčková mastička) | 449 Kč | https://delibutus.cz/produkt/mesickova-masticka-60-ml/ |

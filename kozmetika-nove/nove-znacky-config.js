@@ -521,6 +521,22 @@
         {id:'pomnenka',name:'Pleťová maska na zrelú pleť Pomněnka 60 ml',price:'419 Kč',url:'https://www.mariellicosmetics.cz/pletove-masky-a-peelingy/pomnenka/',photo:photo('marielli','pomnenka'),tags:['mature','dry','cream','target'],reason:'Modrý íl zlepšuje mikrocirkuláciu a obnovu štruktúry pokožky, olej z hroznových semienok hydratuje zrelú pleť.'},
         {id:'snezenka',name:'Pleťová maska pre všetky typy pleti Sněženka 60 ml',price:'419 Kč',url:'https://www.mariellicosmetics.cz/pletove-masky-a-peelingy/snezenka/',photo:photo('marielli','snezenka'),tags:['balanced','hydrate','cream','target'],reason:'Hydratačná maska s bielym ílom, ktorý šetrne odstráni odumreté bunky, a mandľovým olejom, ktorý pleť zjemní.'}
       ]
+    },
+    delibutus: {
+      name:'Delibutus', domain:'delibutus.cz', website:'https://delibutus.cz/',
+      theme:{brand:'#2f2b26',accent:'#86691c',soft:'#f7f3e8',paper:'#fffefa',ink:'#26231f',line:'#ece4cf'},
+      wordmark:logo('delibutus','Delibutus'),
+      hero:'/assets/cosmetics/delibutus.jpg', mark:'/assets/cosmetics/delibutus-mark.png',
+      ownerNote:'Štyri olejové séra s menami Rozjasněnka, Zlatokráska, Rovnovážka a Čistokráska — na prvý pohľad rovnaká fľaštička, zákazníčka nevie, ktorá patrí jej pleti.',
+      benefit:['Vysvetlí rozdiel medzi štyrmi olejovými sérami','Vyberie sérum a maslo podľa typu pleti','Odpovie aj večer a cez víkend'],
+      products:[
+        {id:'rozjasnenka',name:'Olejové sérum Rozjasněnka 30 ml',price:'699 Kč',url:'https://delibutus.cz/produkt/rozjasnenka-30-ml/',photo:photo('delibutus','rozjasnenka'),tags:['dry','sensitive','calm','hydrate','oil','serum','simple','basic'],reason:'Konopný, pupalkový, makadamiový a mandľový olej upokojí a vyživí suchú, citlivú a unavenú pleť a vráti jej prirodzený jas.'},
+        {id:'zlatokraska',name:'Olejové sérum Zlatokráska',price:'699 Kč',url:'https://delibutus.cz/produkt/zlatokraska-30-ml/',photo:photo('delibutus','zlatokraska'),tags:['dry','mature','sensitive','hydrate','oil','serum','basic','full'],reason:'Šípkový a pupalkový olej, maceráty nechtíka a levandule, skvalán a koloidný ovos rozjasňujú a regenerujú suchú, citlivú aj unavenú pleť.'},
+        {id:'rovnovazka',name:'Olejové sérum Rovnovážka 30 ml',price:'649 Kč',url:'https://delibutus.cz/produkt/rovnovazka-30-ml/',photo:photo('delibutus','rovnovazka'),tags:['balanced','sensitive','calm','hydrate','oil','serum','simple','basic'],reason:'Mandľový, hroznový, jojobový a konopný olej vyrovnávajú zmiešanú pleť, ktorá kolíše medzi suchom a mastnotou — ľahko, bez zaťaženia.'},
+        {id:'cistokraska',name:'Olejové sérum Čistokráska 30 ml',price:'649 Kč',url:'https://delibutus.cz/produkt/cistokraska-30-ml/',photo:photo('delibutus','cistokraska'),tags:['oily','balanced','clarity','oil','serum','target','simple'],reason:'Ľahký olej so šípkovým, ľanovým a konopným olejom a čajovníkom pre nepokojnú pleť s nedokonalosťami; rýchlo sa vstrebe a nezanecháva mastný film.'},
+        {id:'matcha',name:'Šľahané maslo Matcha Karité',price:'649 Kč',url:'https://delibutus.cz/produkt/matcha-karite-60-ml/',photo:photo('delibutus','matcha'),tags:['dry','mature','sensitive','cream','simple','full'],reason:'Bambucké maslo s makadamiovým a kokosovým olejom a antioxidantmi z čaju matcha intenzívne vyživí náročnú, suchú pleť tváre aj dekoltu.'},
+        {id:'mesickova',name:'Nechtíkové maslo (Měsíčková mastička)',price:'449 Kč',url:'https://delibutus.cz/produkt/mesickova-masticka-60-ml/',photo:photo('delibutus','mesickova'),tags:['sensitive','dry','calm','cream','simple','full'],reason:'Bambucké maslo, mandľový olej a macerát z nechtíka pre citlivú a podráždenú pokožku; dá sa použiť aj ako jemný odličovací balzam.'}
+      ]
     }
   });
 })();
