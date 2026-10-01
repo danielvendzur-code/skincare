@@ -537,6 +537,26 @@
         {id:'matcha',name:'Šľahané maslo Matcha Karité',price:'649 Kč',url:'https://delibutus.cz/produkt/matcha-karite-60-ml/',photo:photo('delibutus','matcha'),tags:['dry','mature','sensitive','cream','simple','full'],reason:'Bambucké maslo s makadamiovým a kokosovým olejom a antioxidantmi z čaju matcha intenzívne vyživí náročnú, suchú pleť tváre aj dekoltu.'},
         {id:'mesickova',name:'Nechtíkové maslo (Měsíčková mastička)',price:'449 Kč',url:'https://delibutus.cz/produkt/mesickova-masticka-60-ml/',photo:photo('delibutus','mesickova'),tags:['sensitive','dry','calm','cream','simple','full'],reason:'Bambucké maslo, mandľový olej a macerát z nechtíka pre citlivú a podráždenú pokožku; dá sa použiť aj ako jemný odličovací balzam.'}
       ]
+    },
+    almara: {
+      name:'Almara Soap', domain:'almarasoap.com', website:'https://www.almarasoap.com/cs/',
+      theme:{brand:'#3a3836',accent:'#8f5747',soft:'#f5efe8',paper:'#fffdfa',ink:'#2b2a28',line:'#e8dfd4'},
+      wordmark:logo('almara','Almara Soap'),
+      hero:'/assets/cosmetics/almara.jpg', mark:'/assets/cosmetics/almara-mark.png',
+      ownerNote:'Ručne vyrábaná kozmetika, kde sa pleťové oleje volajú GLOW, SHINE a BLOOM a masky Pink či Clean Face — zákazníčka nevie, ktorý olej, maska a kvetová voda patria k sebe.',
+      benefit:['Vysvetlí rozdiel medzi GLOW, SHINE a BLOOM','Poskladá olej, kvetovú vodu a masku podľa pleti','Poradí aj mimo otváracích hodín obchodu'],
+      products:[
+        {id:'glow',name:'GLOW pleťový olej pre suchú a citlivú pleť 30 ml',price:'499 Kč',url:'https://www.almarasoap.com/cs/glow',photo:photo('almara','glow'),tags:['dry','sensitive','calm','hydrate','oil','simple','basic'],reason:'Konopný, makadamiový, makový a arganový olej s macerátom z nechtíka, ďateliny a ruže namiesto krému pre suchú a citlivú pleť — vo dne aj v noci.'},
+        {id:'shine',name:'SHINE pleťový olej pre mastnú pleť s nedokonalosťami 30 ml',price:'499 Kč',url:'https://www.almarasoap.com/cs/shine',photo:photo('almara','shine'),tags:['oily','balanced','clarity','oil','simple','basic','target'],reason:'Ľahké konopný, hroznový, lieskový a arganový olej s macerátom zo šalvie a materinej dúšky a tea tree pre mastnú pleť — výživa bez upchávania pórov.'},
+        {id:'bloom',name:'BLOOM pleťový olej pre zrelú pleť 30 ml',price:'499 Kč',url:'https://www.almarasoap.com/cs/bloom',photo:photo('almara','bloom'),tags:['mature','dry','oil','simple','basic','full'],reason:'Hutnejšie makadamiový, para orechový, pšeničný a makový olej s olivovým pre zrelú, bezproblémovú pleť — vyhladzuje a udržiava pružnosť.'},
+        {id:'pure-face',name:'PURE FACE odličovací olej pre všetky typy pleti 100 ml',price:'599 Kč',url:'https://www.almarasoap.com/cs/pure-face',photo:photo('almara','pure-face'),tags:['balanced','dry','sensitive','oily','calm','oil','full'],reason:'Jojobový, arganový, konopný a ricínový olej s bylinným macerátom zotrú aj vodeodolný make-up z tváre aj očí a pleť pritom vyživia.'},
+        {id:'pink',name:'Pleťová maska Ružový íl a ruža (Pink Face) 20 g',price:'229 Kč',url:'https://www.almarasoap.com/cs/pink-face',photo:photo('almara','pink'),tags:['mature','dry','sensitive','calm','cream','target'],reason:'Ružový íl, prášok zo šípok a ruža damašská jemne vyčistia, zjemnia, projasnia a upokoja zrelú, suchú aj citlivú pleť.'},
+        {id:'clean',name:'Pleťová maska Zelený íl a kurkuma (Clean Face) 20 g',price:'229 Kč',url:'https://www.almarasoap.com/cs/clean-face',photo:photo('almara','clean'),tags:['oily','clarity','cream','target'],reason:'Zelený íl, bio kurkuma a santalový prášok prečistia a stiahnu mastnú pleť s nedokonalosťami; práškovú masku stačí zmiešať s kvetovou vodou.'},
+        {id:'kakao',name:'Pleťová maska Kakao a ovos 20 g',price:'229 Kč',url:'https://www.almarasoap.com/cs/pletova-maska-kakao-oves',photo:photo('almara','kakao'),tags:['balanced','dry','sensitive','hydrate','calm','cream','target'],reason:'Biely íl, koloidný ovos, kokosové mlieko a jemne mleté kakaové šupky šetrne čistia a jemne exfoliujú normálnu, suchú aj citlivú pleť; bez parfumácie.'},
+        {id:'ruze',name:'Kvetová voda Ruža 100 ml',price:'229 Kč',url:'https://www.almarasoap.com/cs/herbal-mist-ruze',photo:photo('almara','ruze'),tags:['dry','mature','sensitive','hydrate','calm','full','basic'],reason:'Čistý bio hydrolát z ruže damašskej bez alkoholu pre suchú, zrelú a citlivú pleť — dočistí ju a pripraví na olej GLOW alebo BLOOM.'},
+        {id:'levandule',name:'Kvetová voda Levanduľa 100 ml',price:'229 Kč',url:'https://www.almarasoap.com/cs/herbal-mist-levandule',photo:photo('almara','levandule'),tags:['balanced','oily','sensitive','calm','full','basic'],reason:'Bio levanduľový hydrolát pre všetky typy pleti: upokojí podráždenie, pomáha regulovať maz a jemne dočistí pleť.'},
+        {id:'salvej',name:'Kvetová voda Šalvia 100 ml',price:'229 Kč',url:'https://www.almarasoap.com/cs/herbal-mist-salvej',photo:photo('almara','salvej'),tags:['oily','clarity','full','basic'],reason:'Bio hydrolát zo šalvie s čistiacim a sťahujúcim účinkom pre mastnú a problematickú pleť — ideálny pod olej SHINE.'}
+      ]
     }
   });
 })();

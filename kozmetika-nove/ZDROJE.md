@@ -717,3 +717,34 @@ krémová plocha.
 | Olejové sérum Čistokráska 30 ml | 649 Kč | https://delibutus.cz/produkt/cistokraska-30-ml/ |
 | Šľahané maslo Matcha Karité | 649 Kč | https://delibutus.cz/produkt/matcha-karite-60-ml/ |
 | Nechtíkové maslo (Měsíčková mastička) | 449 Kč | https://delibutus.cz/produkt/mesickova-masticka-60-ml/ |
+
+## Almara Soap — almarasoap.com
+
+Česká manufaktúra ručne vyrábanej prírodnej kozmetiky (Almara Soap,
+s.r.o., IČO 08730601, založená 11/2019, jediná spoločníčka a konateľka
+Veronika Machková; ARES: 6–9 zamestnancov, tržby v ARES neuvedené).
+Vlastný e-shop s mydlami, telovou kozmetikou a pleťovou radou:
+pleťové oleje GLOW, SHINE a BLOOM nahrádzajú krém a každý je pre iný
+typ pleti, práškové masky (Pink Face, Clean Face, Kakao a ovos) a päť
+kvetových vôd — e-shop sám odporúča, ktorá voda patrí ku ktorému oleju,
+čo je presne práca pre Výber starostlivosti. Názvy sú preložené do
+slovenčiny, mená olejov a masiek ostali. Ceny sú aktuálne ceny českého
+e-shopu k 1. 10. 2026, všetko „Skladem“; veľkosti podľa parametra
+Objem/Obsah na detaile. Fotky sú oficiálne packshoty z e-shopu (pôvodné
+rozlíšenie 1200–2953 px na bielom). Logo je oficiálne SVG z webu
+vyrenderované do PNG; symbolom je srdce z nápisu ALMARA♥SOAP. Farby:
+tmavosivá loga, akcent terakotová z obalov masiek a hlinených tónov
+webu, teplá svetlá plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| GLOW pleťový olej pre suchú a citlivú pleť 30 ml | 499 Kč | https://www.almarasoap.com/cs/glow |
+| SHINE pleťový olej pre mastnú pleť s nedokonalosťami 30 ml | 499 Kč | https://www.almarasoap.com/cs/shine |
+| BLOOM pleťový olej pre zrelú pleť 30 ml | 499 Kč | https://www.almarasoap.com/cs/bloom |
+| PURE FACE odličovací olej pre všetky typy pleti 100 ml | 599 Kč | https://www.almarasoap.com/cs/pure-face |
+| Pleťová maska Ružový íl a ruža (Pink Face) 20 g | 229 Kč | https://www.almarasoap.com/cs/pink-face |
+| Pleťová maska Zelený íl a kurkuma (Clean Face) 20 g | 229 Kč | https://www.almarasoap.com/cs/clean-face |
+| Pleťová maska Kakao a ovos 20 g | 229 Kč | https://www.almarasoap.com/cs/pletova-maska-kakao-oves |
+| Kvetová voda Ruža 100 ml | 229 Kč | https://www.almarasoap.com/cs/herbal-mist-ruze |
+| Kvetová voda Levanduľa 100 ml | 229 Kč | https://www.almarasoap.com/cs/herbal-mist-levandule |
+| Kvetová voda Šalvia 100 ml | 229 Kč | https://www.almarasoap.com/cs/herbal-mist-salvej |

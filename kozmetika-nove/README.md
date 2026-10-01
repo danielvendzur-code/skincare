@@ -53,6 +53,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | SAVON | [savon.sk](https://www.savon.sk/) | `/savon/` · `savon.mojchatbot.sk` |
 | Marielli cosmetics | [mariellicosmetics.cz](https://www.mariellicosmetics.cz/) | `/marielli/` · `marielli.mojchatbot.sk` |
 | Delibutus | [delibutus.cz](https://delibutus.cz/) | `/delibutus/` · `delibutus.mojchatbot.sk` |
+| Almara Soap | [almarasoap.com](https://www.almarasoap.com/cs/) | `/almara/` · `almara.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 
