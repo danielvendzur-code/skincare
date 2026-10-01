@@ -6,7 +6,7 @@ Verceli, rovnako ako doterajšie kávové a kozmetické ukážky.
 | priečinok | čo je v ňom | subdomény |
 | --- | --- | --- |
 | `vino-demo/` | 20 vinárstiev, výber vína | skoupil dobravinice magula jurasek vican valka sabata dubovskygrancic mikulica paulus rajnic vajbar buchtovi pristal lipa placek skovajsa skrobak vinkor carpatediem |
-| `kozmetika-nove/` | 16 kozmetických značiek, výber starostlivosti | dulcia yemna namy mymkech anela klararott yage omorfia pravaja caltha zahir pimpinella biorythme purity indivo smyssly |
+| `kozmetika-nove/` | 22 kozmetických značiek, výber starostlivosti | dulcia yemna namy mymkech anela klararott yage omorfia pravaja caltha zahir pimpinella biorythme purity indivo smyssly liqoil muzuri noili mujluj humitics skinium |
 
 Každá subdoména je `<názov>.mojchatbot.sk`. Stránka si ukážku vyberie podľa
 subdomény (`vercel.json`). Na Websupport hosting sa nič nenahráva: Websupport
@@ -40,17 +40,18 @@ Projekt vino-demo → Settings → Domains. Pridaj týchto 20 domén, každú ak
   skoupil dobravinice magula jurasek vican valka sabata dubovskygrancic
   mikulica paulus rajnic vajbar buchtovi pristal lipa placek skovajsa skrobak
   vinkor carpatediem
-Projekt kozmetika-nove → Settings → Domains. Pridaj týchto 16:
+Projekt kozmetika-nove → Settings → Domains. Pridaj týchto 22:
   dulcia yemna namy mymkech anela klararott yage omorfia pravaja caltha zahir
-  pimpinella biorythme purity indivo smyssly
+  pimpinella biorythme purity indivo smyssly liqoil muzuri noili mujluj
+  humitics skinium
 Pri každej si zapíš presnú CNAME hodnotu, ktorú Vercel ukáže.
 
 ČASŤ C — DNS VO WEBSUPPORTE (mojchatbot.sk)
-Pre každú z 36 subdomén pridaj CNAME: názov = <názov>, hodnota = tá
+Pre každú zo 42 subdomén pridaj CNAME: názov = <názov>, hodnota = tá
 z Vercelu, TTL predvolené.
 Nič nemaž ani neupravuj: ani wildcard *, ani www/chat, ani existujúce CNAME
 ďalších ukážok, ani e-mailové záznamy (MX, SPF, DKIM, DMARC, TXT).
-Ak niektorá z 36 subdomén už má vlastný záznam, nemeň ho a povedz mi to.
+Ak niektorá zo 42 subdomén už má vlastný záznam, nemeň ho a povedz mi to.
 
 ČASŤ D — AK EŠTE NIE JE HOTOVÉ Z MINULA
 Over v projekte kava-chatbot-backend → Settings → Domains, či je tam týchto
