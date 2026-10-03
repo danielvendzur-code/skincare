@@ -12,6 +12,10 @@
       "destination": "/cosmetics.html"
     },
     {
+      "source": "/",
+      "destination": "/zoznam.html"
+    },
+    {
       "source": "/vino/:slug",
       "destination": "/cosmetics.html"
     },
