@@ -278,7 +278,7 @@
       ]
     },
     smyssly: {
-      name:'SMYSSLY', domain:'smyssly.com', website:'https://www.smyssly.com/cs/',
+      name:'SMYSSLY', domain:'smyssly.com', heroProduct:'perly', website:'https://www.smyssly.com/cs/',
       theme:{brand:'#2b2622',accent:'#a8773f',soft:'#f4f1ec',paper:'#fdfcfa',ink:'#1f1d1b',line:'#e7e1d8'},
       wordmark:logo('smyssly','SMYSSLY'),
       hero:'/assets/cosmetics/smyssly.jpg', mark:'/assets/cosmetics/smyssly-mark.png',
@@ -424,9 +424,9 @@
       ]
     },
     atok: {
-      name:'Original ATOK', domain:'originalatok.cz', website:'https://www.originalatok.cz/',
+      name:'ATOK', fullName:'Original ATOK', domain:'originalatok.cz', heroProduct:'lifting', website:'https://www.originalatok.cz/',
       theme:{brand:'#3f7a1f',accent:'#c9564f',soft:'#f2f7ec',paper:'#fcfdfa',ink:'#2f3431',line:'#dfe9d4'},
-      wordmark:logo('atok','Original ATOK'),
+      wordmark:'<img class="cx-wordmark cx-logo" src="/assets/cosmetics/atok-logo-short.png" alt="ATOK">',
       hero:'/assets/cosmetics/atok.jpg', mark:'/assets/cosmetics/atok-mark.png', headerLogo:'/assets/cosmetics/atok-logo-header.png',
       markColor:{reverse:'/assets/cosmetics/atok-mark-reverse.png',bg:'#7ab62f',bgHover:'#ffffff'},
       ownerNote:'Desiatky krémov, fluidov a pleťových vôd — granátové jablko, ruža, levanduľa, ženšen… Zákazník sa v nich stráca a nevie, čo patrí k jeho pleti.',
@@ -503,9 +503,9 @@
       ]
     },
     marielli: {
-      name:'Marielli cosmetics', domain:'mariellicosmetics.cz', website:'https://www.mariellicosmetics.cz/',
+      name:'Marielli', fullName:'Marielli cosmetics', domain:'mariellicosmetics.cz', website:'https://www.mariellicosmetics.cz/',
       theme:{brand:'#4a3434',accent:'#a8564f',soft:'#fbf1ef',paper:'#fffdfc',ink:'#2e2323',line:'#f0dfdb'},
-      wordmark:logo('marielli','Marielli cosmetics'),
+      wordmark:'<img class="cx-wordmark cx-logo" src="/assets/cosmetics/marielli-logo-short.png" alt="Marielli">',
       hero:'/assets/cosmetics/marielli.jpg', mark:'/assets/cosmetics/marielli-mark.png',
       ownerNote:'Ručne robená česká kozmetika s menami ako Zázrak, Láska, Andělka či Pomněnka — zákazníčka z názvu nevyčíta, ktorá maska a pleťová voda patrí jej pleti.',
       benefit:['Vysvetlí, čo je Andělka, Královna či Pivoňka','Vyberie masku a pleťovú vodu podľa typu pleti','Poradí aj večer, keď dielňa nezdvíha telefón'],
