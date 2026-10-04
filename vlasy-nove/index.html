@@ -4,6 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow,noarchive">
+<script>
+  (() => {
+    const host = location.hostname.toLowerCase();
+    const match = /^(dixi|vivaco|kapyderm|medarek|andreine|voono|navlasil|ryor|venira|havlikova|haaro)\.mojchatbot\.sk$/.exec(host);
+    if (match) location.replace('/cosmetics.html?demo=' + encodeURIComponent(match[1]));
+  })();
+</script>
 <title>Nové vlasové ukážky</title>
 <link rel="stylesheet" href="/assets/fonts/fonts.css?v=43ec8a95">
 <style>
