@@ -243,7 +243,7 @@
   if (!root || (!brand && !coffee?.brand)) return;
   const name = brand?.name || coffee.brand.name;
   const header = root.querySelector('.cx-widget-brand img.cx-logo');
-  const original = brand?.mark || header?.getAttribute('src') || coffee?.demo?.logoAvatar || coffee?.demo?.logoHeader;
+  const original = header?.getAttribute('src') || coffee?.demo?.logoHeader || brand?.mark || coffee?.demo?.logoAvatar;
   if (!original) return;
   const style = document.createElement('style');
   style.dataset.companyMessageLogo = 'black-real-logo-v1';
