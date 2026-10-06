@@ -232,10 +232,11 @@
      back to the overview instead of a skincare page with hair questions. */
   const match = location.pathname.match(/\/kozmetika\/([a-z0-9-]+)/i);
   const hostSlug = location.hostname.endsWith('.mojchatbot.sk') ? location.hostname.split('.')[0] : '';
-  const slug = String(match?.[1] || new URLSearchParams(location.search).get('demo') || hostSlug || '').toLowerCase();
+  const asked = String(match?.[1] || new URLSearchParams(location.search).get('demo') || '').toLowerCase();
+  const slug = hair[hostSlug] ? hostSlug : asked;
   if (!hair[slug]) {
     delete window.COSMETICS_DEMOS;
-    location.replace('/');
+    location.replace('/zoznam.html');
     return;
   }
   Object.assign(data.brands, hair);

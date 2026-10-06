@@ -18,6 +18,9 @@
   a:hover { border-color:var(--ink); }
   span { color:var(--muted); font-size:13px; }
 </style>
+<script>/* Open the exact company's demo when a filesystem index takes precedence over a host rewrite. */
+(() => { const host=location.hostname.toLowerCase(); const slug=host.endsWith('.mojchatbot.sk') ? host.split('.')[0] : ''; if (["skoupil","dobravinice","magula","jurasek","vican","valka","sabata","dubovskygrancic","mikulica","paulus","rajnic","vajbar","buchtovi","pristal","lipa","placek","skovajsa","skrobak","vinkor","carpatediem","nechory","volarik","gotberg","karpatskaperla","ukaplicky"].includes(slug)) location.replace('/cosmetics.html?demo='+encodeURIComponent(slug)); })();
+</script>
 </head>
 <body>
   <main>
