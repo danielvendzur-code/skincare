@@ -52,7 +52,16 @@ export default async function handler(req,res){
   const messages=(Array.isArray(body.messages)?body.messages:[]).filter(m=>m&&(m.role==='user'||m.role==='assistant')).slice(-10).map(m=>({role:m.role,content:String(m.content||'').slice(0,700)})).filter(m=>m.content.trim());
   const latest=messages.filter(m=>m.role==='user').at(-1)?.content||'';if(!latest)return res.status(400).json({error:'Missing user message'});
   const fallback=()=>res.status(200).json({reply:fallbackReply(demo,latest),fallback:true});
-  if(!ANTHROPIC_API_KEY)return fallback();
+  if(!ANTHROPIC_API_KEY){
+    try {
+      const upstream=await fetch('https://kava-chatbot-backend.vercel.app/api/cosmetics-chat',{
+        method:'POST',headers:{'content-type':'application/json'},
+        body:JSON.stringify({demoId:String(body.demoId),messages}),signal:AbortSignal.timeout(9000)
+      });
+      if(upstream.ok){const result=await upstream.json();if(!result.fallback&&String(result.reply||'').trim())return res.status(200).json({reply:String(result.reply).trim()});}
+    } catch (_) { /* Keep the company-specific offline reply when the provider is unavailable. */ }
+    return fallback();
+  }
   const system=[
     `Ste stručný poradca vo vinárstve ${demo.brand} a pomáhate vybrať víno z jeho e-shopu.`,
     'Odpovedajte jednoduchou slovenčinou, maximálne dvoma krátkymi vetami.',
@@ -69,3 +78,5 @@ export default async function handler(req,res){
     return res.status(200).json({reply:clean});
   }catch(error){console.error('wine chat provider error',error);return fallback();}
 }
+
+
