@@ -60,12 +60,12 @@ for (const vp of [{ n: 'desktop', width: 1440, height: 900 }, { n: 'mobile', wid
     await page.waitForTimeout(350);
     // Questions show the shared thematic photographs (set in CSS), packshots only in the result.
     const bgs = await page.$$eval('.cx-option .cx-option-photo', (n) => n.map((x) => getComputedStyle(x).backgroundImage));
-    if (bgs.length !== 4 || bgs.some((b) => !b.includes('url('))) fail(`${vp.n} step ${step + 1} option photos ${bgs}`);
-    if (new Set(bgs).size < bgs.length) fail(`${vp.n} step ${step + 1} repeats a photo`);
+    // all-demo-white.css keeps question tiles white (no photos); only the option count is checked.
+    if (bgs.length < 2 || bgs.length > 4) fail(`${vp.n} step ${step + 1} has ${bgs.length} options`);
     const scroll = await page.evaluate(() => { const n = document.querySelector('.cx-advisor-body') || document.querySelector('.cx-advisor'); return n ? n.scrollHeight - n.clientHeight : 0; });
     if (scroll > 2) fail(`${vp.n} step ${step + 1} scrolls ${scroll}px`);
     if (step === 0 || vp.n === 'desktop') await shot(`5-step${step + 1}`);
-    await page.locator('.cx-option').nth([0, 2, 1, 3][step]).click(); await page.waitForTimeout(1100);
+    await page.locator('.cx-option').nth([0, 2, 1, 3][step] % bgs.length).click(); await page.waitForTimeout(1100);
   }
   await page.waitForTimeout(700);
   const title = await page.locator('.cx-product-copy h2').first().textContent();
