@@ -96,7 +96,9 @@
   };
   const rankedProducts = (selected) => {
     const matchingForm = selected.texture && selected.texture !== 'any' ? brand.products.filter((product) => product.tags.includes(selected.texture)) : brand.products;
-    const formPool = matchingForm.length ? matchingForm : brand.products;
+    // A form with nothing for this skin or goal (a brand's only cream is for dry skin) must not hand oily skin that cream.
+    const fits = (list) => list.some((product) => product.tags.includes(selected.skin) || product.tags.includes(selected.goal));
+    const formPool = matchingForm.length && (fits(matchingForm) || !fits(brand.products)) ? matchingForm : brand.products;
     const matchingSkin = formPool.filter((product) => product.tags.includes(selected.skin));
     const pool = matchingSkin.length ? matchingSkin : formPool;
     return pool.map((product, index) => ({ product, index, score: recommendationScore(product, selected) }))
