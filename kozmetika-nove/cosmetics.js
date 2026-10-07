@@ -255,9 +255,16 @@
     requestAnimationFrame(() => { const messages=stage.querySelector('#cx-messages'); if(messages) messages.scrollTop=messages.scrollHeight; });
   }
 
+  // Name only the forms this brand sells; a brand without oils must not offer 'olej'.
+  function formsOffered(brand) {
+    const forms = [['cream','krém'],['serum','sérum'],['oil','olej']]
+      .filter(([tag]) => brand.products.some((p) => p.tags.includes(tag))).map(([, label]) => label);
+    return forms.length > 1 ? `${forms.slice(0, -1).join(', ')} alebo ${forms.at(-1)}` : 'krém, sérum alebo olej';
+  }
+
   function localReply(text) {
     const q = String(text||'').toLocaleLowerCase('sk');
-    if (/such|pnut|dehyd/.test(q)) return `Pri suchej alebo napnutej pleti by som začal produktom ${brand.products.find(p=>p.tags.includes('dry'))?.name || brand.products[0].name}. Cez Výber starostlivosti ešte zohľadníme, či chcete krém, sérum alebo olej.`;
+    if (/such|pnut|dehyd/.test(q)) return `Pri suchej alebo napnutej pleti by som začal produktom ${brand.products.find(p=>p.tags.includes('dry'))?.name || brand.products[0].name}. Cez Výber starostlivosti ešte zohľadníme, či chcete ${formsOffered(brand)}.`;
     if (/mast|lesk|nedokonal|akné/.test(q)) return `Pri vyššej tvorbe mazu sa oplatí pozrieť na ${brand.products.find(p=>p.tags.includes('oily'))?.name || brand.products[0].name}. Výber starostlivosti vám pomôže zúžiť výsledok bez skúšania naslepo.`;
     if (/citliv|reakt|štíp|podráž/.test(q)) return `Pri citlivejšej pleti by som volil jednoduchšiu starostlivosť a začal produktom ${brand.products.find(p=>p.tags.includes('sensitive'))?.name || brand.products[0].name}. Ak pokožka výrazne reaguje, vhodnosť produktu je lepšie konzultovať s odborníkom.`;
     if (/zrel|vrásk|pruž/.test(q)) return `Pre zrelšiu pleť je z ponuky vhodný smer ${brand.products.find(p=>p.tags.includes('mature'))?.name || brand.products[0].name}. Krátky výber ešte zohľadní, ako komplexnú rutinu chcete.`;
