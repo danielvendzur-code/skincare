@@ -578,6 +578,24 @@
         {id:'babiccin',name:'Babičkin mandľový krém 30 ml',price:'399 Kč',url:'https://www.naturamedic.eu/babiccin-mandlovy-krem/',photo:photo('naturamedic','babiccin'),tags:['dry','sensitive','calm','hydrate','cream','simple'],reason:'Mandľový olej, bambucké maslo, aloe vera a D-pantenol vyživia a upokoja suchú a citlivú pleť; s vitamínmi A a E.'},
         {id:'ruze',name:'Krém s bambuckým maslom – Ruža z Damasku 150 ml',price:'349 Kč',url:'https://www.naturamedic.eu/krem-s-bambuckym-maslem-ruze-z-damasku/',photo:photo('naturamedic','ruze'),tags:['dry','mature','cream','simple','full'],reason:'Hustejší krém so šípkovým a olivovým olejom, bambuckým maslom a damašskou ružou pre suchú pleť s prvými vráskami; vitamíny A a E.'}
       ]
+    },
+    sisi: {
+      name:'SiSi', domain:'sisikosmetika.cz', website:'https://www.sisikosmetika.cz/',
+      theme:{brand:'#3e4847',accent:'#3d7774',soft:'#eef5f4',paper:'#fcfdfd',ink:'#283030',line:'#dbe7e5'},
+      wordmark:logo('sisi','SiSi kosmetika'),
+      hero:'/assets/cosmetics/sisi.jpg', mark:'/assets/cosmetics/sisi-mark.png',
+      ownerNote:'Ručne vyrábaná česká kozmetika s viac ako 98 % bio surovín. Každý produkt má štyri veľkosti od testera po 200 ml a zákazníčka nevie, či začať elixírom, olejovým sérom alebo krémom.',
+      benefit:['Poradí, či na zrelú pleť siahnuť po peptidovom elixíre alebo po sére s vitamínom C','Poskladá odlíčenie, tonizáciu a krém do jednej rutiny','Odpovie aj večer, keď výroba nezdvíha telefón'],
+      products:[
+        {id:'krem',name:'Den & noc Hydratační krém 24h 50 ml',price:'1 550 Kč',url:'https://www.sisikosmetika.cz/sisi-den-noc--hydratacni-krem-24h/',photo:photo('sisi','krem'),tags:['dry','sensitive','mature','hydrate','calm','cream','simple','basic','full'],reason:'Jeden ľahký krém na deň aj noc pre citlivú, suchú a zrelú pleť: Tremella, Juvenessence™ a Antileukine 6™ hydratujú a posilňujú bariéru; bez parfumácie, len s ylang-ylang.'},
+        {id:'elixir',name:'Elixír mládí 30 ml',price:'540 Kč',url:'https://www.sisikosmetika.cz/sisi-elixir-mladi/',photo:photo('sisi','elixir'),tags:['mature','balanced','dry','hydrate','serum','basic','full','target'],reason:'Luxusné peptidové sérum pre zrelú a unavenú pleť s kmeňovými bunkami PhytoCellTec™ a extraktom z malachitu Mala\'Kîte™ — spevňuje a vyhladzuje jemné vrásky.'},
+        {id:'serum',name:'Olejové sérum s vit. C a Bakuchiolem 30 ml',price:'1 190 Kč',url:'https://www.sisikosmetika.cz/sisi-olejove-serum-s-vit--c-a-bakuchiolem/',photo:photo('sisi','serum'),tags:['mature','oily','balanced','clarity','calm','serum','oil','full','target'],reason:'Olejové sérum s vitamínom C a bakuchiolom (bio-retinol) zjednocuje tón a rozjasňuje; vhodné pre zrelú pleť, pigmentové škvrny aj pleť so sklonom k akné.'},
+        {id:'micelarni',name:'Micelární voda 200 ml',price:'930 Kč',url:'https://www.sisikosmetika.cz/sisi-micelarni-voda/',photo:photo('sisi','micelarni'),tags:['sensitive','dry','balanced','calm','simple','basic','full'],reason:'Šetrné odlíčenie bez pocitu napätia s bio hydrolátmi z ruže damašskej a hamamelu — pre pleť náchylnú na podráždenie.'},
+        {id:'toner',name:'Pleťový toner 100 ml',price:'590 Kč',url:'https://www.sisikosmetika.cz/sisi-pletovy-toner/',photo:photo('sisi','toner'),tags:['balanced','oily','dry','hydrate','basic','full'],reason:'Po odlíčení vyrovná pH, spevní a zvláčni pleť a podporí obnovu kožnej bariéry; aktívne látky v synergii s bio hydrolátmi.'},
+        {id:'pudr',name:'Čisticí enzymatický pudr 40 ml',price:'560 Kč',url:'https://www.sisikosmetika.cz/sisi-cistici-enzymaticky-pudr/',photo:photo('sisi','pudr'),tags:['oily','balanced','clarity','full','target'],reason:'S vodou vytvorí penu, ktorá rozpúšťa odumreté bunky a zmenšuje rozšírené póry bez narušenia bariéry; hustotu si regulujete sami.'},
+        {id:'odlicovac',name:'Dvoufázový odličovač očí 100 ml',price:'560 Kč',url:'https://www.sisikosmetika.cz/sisi-dvoufazovy-odlicovac-oci/',photo:photo('sisi','odlicovac'),tags:['sensitive','balanced','dry','calm','full'],reason:'Vyvinutý pre citlivé oči: jemne odstráni make-up, vyživí riasy a bio hydrolát z nevädze upokojí unavené oči.'},
+        {id:'rty',name:'Olej na rty s Astaxanthinem 10 ml',price:'540 Kč',url:'https://www.sisikosmetika.cz/sisi-olej-na-rty-s-astaxanthinem/',photo:photo('sisi','rty'),tags:['dry','sensitive','calm','oil','full'],reason:'Bio baobabový a kukui olej s bisabololom zvláčnia suché pery, astaxantín im dá jemný odtieň — lesk bez lepivosti a s jemnou kávovou chuťou.'}
+      ]
     }
   });
 })();

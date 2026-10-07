@@ -47,6 +47,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | Humitics | [humitics.cz](https://www.humitics.cz/) | `/humitics/` · `humitics.mojchatbot.sk` |
 | Skinium | [skinium.sk](https://skinium.sk/) | `/skinium/` · `skinium.mojchatbot.sk` |
 | Natura Medic | [naturamedic.eu](https://www.naturamedic.eu/) | `/naturamedic/` · `naturamedic.mojchatbot.sk` |
+| SiSi | [sisikosmetika.cz](https://www.sisikosmetika.cz/) | `/sisi/` · `sisi.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 

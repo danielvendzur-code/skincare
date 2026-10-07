@@ -545,3 +545,27 @@ stmavená pre biely text, svetlá zelenkastá plocha.
 | Čistiace pleťové tonikum 200 ml | 379 Kč | https://www.naturamedic.eu/cistici-pletove-tonikum/ |
 | Babičkin mandľový krém 30 ml | 399 Kč | https://www.naturamedic.eu/babiccin-mandlovy-krem/ |
 | Krém s bambuckým maslom – Ruža z Damasku 150 ml | 349 Kč | https://www.naturamedic.eu/krem-s-bambuckym-maslem-ruze-z-damasku/ |
+
+## SiSi — sisikosmetika.cz
+
+Česká ručne vyrábaná prírodná kozmetika (podľa webu viac ako 98 %
+certifikovaných bio surovín). Prevádzkovateľka je živnostníčka
+Mgr. Silvia Szymeczek (IČO 10993720, živnosť od 6/2021; ARES: 1–5
+zamestnancov). Vlastný e-shop na Shoptete; každý produkt sa predáva v
+3–4 veľkostiach od testera, preto demo uvádza plnú veľkosť. Ceny a
+dostupnosť („Skladem“) z detailov produktov k 7. 10. 2026. Fotky sú
+oficiálne packshoty z e-shopu v pôvodnom rozlíšení, orezané k produktu.
+Logo SiSi je štvorcové, preto je bez úprav aj v launcheri a pri správach.
+Farby: tmavá bridlicová zo šedého loga, akcent tyrkysová zo štítkov
+(stmavená pre biely text), svetlá mätová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Den & noc Hydratační krém 24h 50 ml | 1 550 Kč | https://www.sisikosmetika.cz/sisi-den-noc--hydratacni-krem-24h/ |
+| Elixír mládí 30 ml | 540 Kč | https://www.sisikosmetika.cz/sisi-elixir-mladi/ |
+| Olejové sérum s vit. C a Bakuchiolem 30 ml | 1 190 Kč | https://www.sisikosmetika.cz/sisi-olejove-serum-s-vit--c-a-bakuchiolem/ |
+| Micelární voda 200 ml | 930 Kč | https://www.sisikosmetika.cz/sisi-micelarni-voda/ |
+| Pleťový toner 100 ml | 590 Kč | https://www.sisikosmetika.cz/sisi-pletovy-toner/ |
+| Čisticí enzymatický pudr 40 ml | 560 Kč | https://www.sisikosmetika.cz/sisi-cistici-enzymaticky-pudr/ |
+| Dvoufázový odličovač očí 100 ml | 560 Kč | https://www.sisikosmetika.cz/sisi-dvoufazovy-odlicovac-oci/ |
+| Olej na rty s Astaxanthinem 10 ml | 540 Kč | https://www.sisikosmetika.cz/sisi-olej-na-rty-s-astaxanthinem/ |
