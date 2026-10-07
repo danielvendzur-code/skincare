@@ -514,3 +514,34 @@ krémová plocha.
 | PROTECTODERM lipozómové sérum | 14,50 € | https://skinium.sk/produkt/protectoderm |
 | AHA SERUM zlupovacie sérum | 15,50 € | https://skinium.sk/produkt/skinium-aha-serum-zlupovacie-serum |
 | ACNECLEANER Zn čistiaci roztok | 5,80 € | https://skinium.sk/produkt/skinium-acnecleaner-zn-dermatokozmeticky-cistiaci-roztok-na-mastnu-a-aknoznu-plet-s-komedolytickymi-seboregulacnymi-a-antimikrobialnymi-ucinkami |
+
+## Natura Medic — naturamedic.eu
+
+Česká rodinná značka prírodnej pleťovej kozmetiky (NATURA MEDIC APO
+s.r.o., IČO 07549873, založená 10/2018, jediná spoločníčka a konateľka
+Veronika Horáková; ARES: 6–9 zamestnancov). Vlastný e-shop na Shoptete
+s pleťovými krémami, liftingovými sérami, starostlivosťou pre mastnú
+pleť, balzamami na pery a mydlami. Krémy aj séra majú podobné obaly a
+mená (Bioaktívny krém, Kolagénová, Protivrásková starostlivosť, denné a
+nočné liftingové sérum), zákazníčka nevie, čo je pre jej pleť. Ceny a
+veľkosti z detailov produktov k 7. 10. 2026, všetko „Skladem“. Fotky sú
+oficiálne packshoty z e-shopu (produkt s krabičkou), orezané k produktu.
+Logo na webe je len 100×62 px: nápis NATURA MEDIC je prepísaný písmom
+Josefin Sans podobným logu a symbol (palica s lístkami) je z loga
+zväčšený s vyhladením; ten istý symbol je v launcheri a pri správach.
+Farby: tmavá šedozelená, akcent šalviová zelená z tlačidiel webu
+stmavená pre biely text, svetlá zelenkastá plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Bioaktívny krém s tripeptidmi 30 ml | 599 Kč | https://www.naturamedic.eu/bioaktivni-krem-s-tripeptidy/ |
+| Kolagénová starostlivosť 30 ml | 599 Kč | https://www.naturamedic.eu/kolagenova-pece-2/ |
+| Protivrásková starostlivosť VEGAN s Q10 a ženšenom 30 ml | 599 Kč | https://www.naturamedic.eu/protivraskova-pece-vegan/ |
+| Denné liftingové sérum 30 ml | 599 Kč | https://www.naturamedic.eu/denni-liftingujici-serum-2/ |
+| Nočné liftingové sérum 30 ml | 529 Kč | https://www.naturamedic.eu/nocni-liftingujici-serum-2/ |
+| Hyalurónové sérum s aktívnymi tripeptidmi 20 ml | 399 Kč | https://www.naturamedic.eu/hyaluronove-serum-s-aktivnimi-tripeptidy/ |
+| Hĺbková obnovujúca starostlivosť pre mastnú pleť 30 ml | 391 Kč | https://www.naturamedic.eu/hloubkova-obnovujici-pece-pro-mastnou-plet-2/ |
+| Lokálna starostlivosť pre aknóznu pleť 20 ml | 391 Kč | https://www.naturamedic.eu/lokalni-pece-pro-aknozni-plet-2/ |
+| Čistiace pleťové tonikum 200 ml | 379 Kč | https://www.naturamedic.eu/cistici-pletove-tonikum/ |
+| Babičkin mandľový krém 30 ml | 399 Kč | https://www.naturamedic.eu/babiccin-mandlovy-krem/ |
+| Krém s bambuckým maslom – Ruža z Damasku 150 ml | 349 Kč | https://www.naturamedic.eu/krem-s-bambuckym-maslem-ruze-z-damasku/ |
