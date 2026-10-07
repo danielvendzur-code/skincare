@@ -569,3 +569,38 @@ Farby: tmavá bridlicová zo šedého loga, akcent tyrkysová zo štítkov
 | Čisticí enzymatický pudr 40 ml | 560 Kč | https://www.sisikosmetika.cz/sisi-cistici-enzymaticky-pudr/ |
 | Dvoufázový odličovač očí 100 ml | 560 Kč | https://www.sisikosmetika.cz/sisi-dvoufazovy-odlicovac-oci/ |
 | Olej na rty s Astaxanthinem 10 ml | 540 Kč | https://www.sisikosmetika.cz/sisi-olej-na-rty-s-astaxanthinem/ |
+
+## TIOMI — tiomi.cz
+
+Česká pleťová kozmetika TIOMI cosmetics; e-shop prevádzkuje živnostník
+Daniel Bláha, Beroun (IČO 88817636, živnosť od 5/2012; ARES: 1–5
+zamestnancov). Živnostník neukladá účtovnú závierku, tržby preto
+nie sú verejné — veľkosť je odhadnutá z počtu zamestnancov a sortimentu.
+Vlastný e-shop na Shoptete so zoznamom salónov, ktoré produkty
+používajú. Krémy majú anglické mená (Rich Tea, Delicate Repair Balsam,
+Master Therapy), z ktorých typ pleti nevyčítať — preto poradca.
+Ceny a dostupnosť („Skladem“) z e-shopu k 7. 10. 2026; objemy e-shop
+neuvádza, preto ich demo neuvádza. Fotky sú oficiálne packshoty
+(dóza s krabičkou), pri krémoch na citlivú pleť bol svetlosivý
+podklad vybielený. Logo je oficiálne; v avatare pri správach je len
+nápis TIOMI bez riadku COSMETICS, aby bol čitateľný. Farby: tmavomodrá
+z krabičiek sér, svetlá modrastá plocha.
+
+Popisy sú skrátené a bez zdravotných tvrdení (napr. pri krémoch na
+citlivú pleť a sére na akné e-shop sľubuje účinky, ktoré demo neopakuje).
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Krém na suchou pleť – Multi Active Cream Natural | 360 Kč | https://www.tiomi.cz/krem-na-suchou-plet/ |
+| Krém pro mastnou pleť – Delicate Repair Balsam | 440 Kč | https://www.tiomi.cz/krem-pro-mastnou-plet/ |
+| Krém na normální a smíšenou pleť – Rich Tea Cream | 420 Kč | https://www.tiomi.cz/krem-na-normalni-a-smisenou-plet/ |
+| Krém na citlivou pleť – Intensive Almond Care | 420 Kč | https://www.tiomi.cz/krem-na-citlivou-plet-a-na-popraskane-zilky/ |
+| Krém s kyselinou hyaluronovou – Rejuvenating Hyaluronic Cream | 620 Kč | https://www.tiomi.cz/krem-s-kyselinou-hyaluronovou/ |
+| Hydratační krém s koenzymem Q10 – Aqua Altum Q-10 | 440 Kč | https://www.tiomi.cz/hydratacni-krem-s-koenzymem-q10/ |
+| Denní krém s peptidy – Master Therapy Cream Day | 992 Kč | https://www.tiomi.cz/denni-krem-s-peptidy-pro-zralou-plet-master-therapy-cream-day/ |
+| Noční krém s retinolem – Renewal Night Elixir | 560 Kč | https://www.tiomi.cz/nocni-krem-s-retinolem/ |
+| Sérum s peptidy – Peptide Therapy Serum | 672 Kč | https://www.tiomi.cz/serum-s-peptidy-peptide-therapy-serum/ |
+| Liftingové sérum – Lifting Serum Hyaluronic Gel | 580 Kč | https://www.tiomi.cz/liftingove-serum/ |
+| Sérum na všechny formy akné – Acne Control Serum | 230 Kč | https://www.tiomi.cz/serum-na-vsechny-formy-akne-acne-control-serum/ |
+| Čistící mléko – Daisy Cleansing Milk Emulsion | 180 Kč | https://www.tiomi.cz/cistici-mleko/ |
+| Čistící bylinná voda – Herbal Cleansing Water | 150 Kč | https://www.tiomi.cz/cistici-bylinna-voda/ |
