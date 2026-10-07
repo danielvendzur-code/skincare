@@ -6,7 +6,7 @@
       "has": [
         {
           "type": "host",
-          "value": "^(?<sub>dulcia|yemna|namy|mymkech|anela|klararott|yage|omorfia|pravaja|caltha|zahir|pimpinella|biorythme|purity|indivo|smyssly|liqoil|muzuri|noili|mujluj|humitics|skinium|botanica|atok|iuvenio|drsandra|savon|marielli|delibutus|almara|naturamedic|sisi|tiomi)\\.mojchatbot\\.sk$"
+          "value": "^(?<sub>dulcia|yemna|namy|mymkech|anela|klararott|yage|omorfia|pravaja|caltha|zahir|pimpinella|biorythme|purity|indivo|smyssly|liqoil|muzuri|noili|mujluj|humitics|skinium|botanica|atok|iuvenio|drsandra|savon|marielli|delibutus|almara|naturamedic|sisi|tiomi|puaree)\\.mojchatbot\\.sk$"
         }
       ],
       "destination": "/cosmetics.html"

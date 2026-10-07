@@ -604,3 +604,28 @@ citlivú pleť a sére na akné e-shop sľubuje účinky, ktoré demo neopakuje)
 | Sérum na všechny formy akné – Acne Control Serum | 230 Kč | https://www.tiomi.cz/serum-na-vsechny-formy-akne-acne-control-serum/ |
 | Čistící mléko – Daisy Cleansing Milk Emulsion | 180 Kč | https://www.tiomi.cz/cistici-mleko/ |
 | Čistící bylinná voda – Herbal Cleansing Water | 150 Kč | https://www.tiomi.cz/cistici-bylinna-voda/ |
+
+## Puaree — puaree.cz
+
+Mladá česká značka prírodnej kozmetiky (Puaree s.r.o., IČO 07734921,
+založená 12/2018, jediná spoločníčka a konateľka Adriana Šoltésová;
+ARES: 6–9 zamestnancov). Vlastný e-shop na Shoptete; okrem pleťovej
+kozmetiky predáva aj vlasovú, telovú a dekoratívnu kozmetiku a sviečky,
+demo berie len pleťovú starostlivosť. Ceny a dostupnosť z detailov
+produktov k 7. 10. 2026 (plná veľkosť, nie vzorka); Denný krém Intense
+Nutrition 50 ml a sérum Magnolia & Algae 30 ml boli „Momentálně
+nedostupné“, preto v deme nie sú. Fotky sú oficiálne štylizované fotky
+z e-shopu; pri kréme Plumeria a sére je použitá fotka z galérie bez
+odznaku ocenenia Cosmopolitan, maska je priblížená. Symbol pri
+správach je písmeno „p“ z oficiálneho loga (ten istý znak ako favicon
+e-shopu). Farby: tmavá slivková z loga, svetlá ružovofialová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Pleťový krém Plumeria 50 ml | 790 Kč | https://www.puaree.cz/pletova-kosmetika/pletovy-krem-plumerie/ |
+| Pleťové sérum Bakuchiol & Acai & Moroccan Tansy 30 ml | 990 Kč | https://www.puaree.cz/pletove-serum/pletove-serum-bakuchiol-acai-moroccan-tansy/ |
+| Oční krém Rich Oils & Coffee & Coenzyme Q10 15 ml | 629 Kč | https://www.puaree.cz/pletove-kremy/ocni-krem-rich-oils-coffee-coenzym-q10/ |
+| Oční sérum Cucumber & Echium & Ceramides 15 ml | 629 Kč | https://www.puaree.cz/pletove-serum/ocni-serum-cucumber-echium-ceramides/ |
+| Pleťová maska Roses & Pearl & Saké 50 ml | 659 Kč | https://www.puaree.cz/pletova-maska/pletova-maska-roses-pearl-sake/ |
+| Hydrofilní čistící olej Lavender & Ylang 120 ml | 439 Kč | https://www.puaree.cz/hydrofilni-cistici-olej/hydrofilni-cistici-olej-lavender-ylang/ |
+| Dvoufázový odličovací olej Cucumber & Chamomile 100 ml | 369 Kč | https://www.puaree.cz/pletovy-odlicovac/dvoufazovy-odlicovaci-olej-cucumber-chamomile/ |

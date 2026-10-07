@@ -619,6 +619,23 @@
         {id:'mleko',name:'Čistící mléko – Daisy Cleansing Milk Emulsion',price:'180 Kč',url:'https://www.tiomi.cz/cistici-mleko/',photo:photo('tiomi','mleko'),tags:['sensitive','dry','balanced','calm','basic','full'],reason:'Jemná emulzia odstráni aj vodeodolnú maskaru a zvyšky make-upu bez vysušenia; výťažok zo sedmokrásky, aj pre veľmi citlivú pleť.'},
         {id:'voda',name:'Čistící bylinná voda – Herbal Cleansing Water',price:'150 Kč',url:'https://www.tiomi.cz/cistici-bylinna-voda/',photo:photo('tiomi','voda'),tags:['balanced','oily','dry','sensitive','basic','full'],reason:'Bylinná čistiaca voda na dočistenie všetkých typov pleti s prasličkou, zeleným čajom a panthenolom — bez alkoholu.'}
       ]
+    },
+    puaree: {
+      name:'Puaree', domain:'puaree.cz', website:'https://www.puaree.cz/',
+      theme:{brand:'#4a1f46',accent:'#7b3a74',soft:'#f6eff5',paper:'#fefcfd',ink:'#2d1a2b',line:'#ebdfe9'},
+      wordmark:logo('puaree','Puaree'),
+      hero:'/assets/cosmetics/puaree.jpg', mark:'/assets/cosmetics/puaree-mark.png', messageLogo:'/assets/cosmetics/puaree-mark.png',
+      ownerNote:'Mladá česká značka prírodnej kozmetiky z Brna s ocenenými pleťovými produktmi v takmer rovnakých fialových dózach a fľaštičkách — zákazníčka nevie, či k Plumeria krému patrí olejové sérum, maska alebo očný krém.',
+      benefit:['Vysvetlí rozdiel medzi hydrofilným a dvojfázovým odličovacím olejom','Poskladá krém, sérum a starostlivosť o oči do jednej rutiny','Odpovie aj večer, keď dielňa nezdvíha telefón'],
+      products:[
+        {id:'plumeria',name:'Pleťový krém Plumeria 50 ml',price:'790 Kč',url:'https://www.puaree.cz/pletova-kosmetika/pletovy-krem-plumerie/',photo:photo('puaree','plumeria'),tags:['dry','balanced','oily','sensitive','mature','hydrate','cream','simple','basic','full'],reason:'Krém pre každý typ pleti: olej z plumérie, bio arganový olej, extrakt z tremelly, šípka, granátové jablko a ženšen vyživia a rozjasnia; 99,4 % prírodných zložiek.'},
+        {id:'serum',name:'Pleťové sérum Bakuchiol & Acai & Moroccan Tansy 30 ml',price:'990 Kč',url:'https://www.puaree.cz/pletove-serum/pletove-serum-bakuchiol-acai-moroccan-tansy/',photo:photo('puaree','serum'),tags:['mature','dry','balanced','sensitive','calm','serum','oil','basic','full','target'],reason:'Olejové sérum s liftingovým efektom: bakuchiol (prírodný retinol) vyhladzuje jemné linky, acai olej dodá antioxidanty a marocký harmanček pleť upokojí.'},
+        {id:'ocni-krem',name:'Oční krém Rich Oils & Coffee & Coenzyme Q10 15 ml',price:'629 Kč',url:'https://www.puaree.cz/pletove-kremy/ocni-krem-rich-oils-coffee-coenzym-q10/',photo:photo('puaree','ocni-krem'),tags:['mature','dry','balanced','cream','full','target'],reason:'Očný krém s revitalizačným efektom: koenzým Q10 a kofeín na jemné linky, kávový, uhorkový a opunciový olej očné okolie vyživia.'},
+        {id:'ocni-serum',name:'Oční sérum Cucumber & Echium & Ceramides 15 ml',price:'629 Kč',url:'https://www.puaree.cz/pletove-serum/ocni-serum-cucumber-echium-ceramides/',photo:photo('puaree','ocni-serum'),tags:['sensitive','mature','balanced','hydrate','serum','full','target'],reason:'Svieže sérum pre jemné očné okolie: echium olej, uhorková šťava a komplex ceramidov s kyselinou hyalurónovou hydratujú a vyhladzujú.'},
+        {id:'maska',name:'Pleťová maska Roses & Pearl & Saké 50 ml',price:'659 Kč',url:'https://www.puaree.cz/pletova-maska/pletova-maska-roses-pearl-sake/',photo:photo('puaree','maska'),tags:['oily','balanced','clarity','full','target'],reason:'Maska s ovocnými kyselinami, saké, perlovým a lotosovým práškom prečistí pleť od čiernych bodiek, stiahne póry a zjednotí tón.'},
+        {id:'hydrofilni',name:'Hydrofilní čistící olej Lavender & Ylang 120 ml',price:'439 Kč',url:'https://www.puaree.cz/hydrofilni-cistici-olej/hydrofilni-cistici-olej-lavender-ylang/',photo:photo('puaree','hydrofilni'),tags:['dry','balanced','oily','hydrate','oil','basic','full'],reason:'S vodou vytvorí jemnú mliečnu emulziu, ktorá pleť vyčistí a nenechá mastný pocit; šípkový a kokosový extrakt posilnia kožnú bariéru.'},
+        {id:'odlicovac',name:'Dvoufázový odličovací olej Cucumber & Chamomile 100 ml',price:'369 Kč',url:'https://www.puaree.cz/pletovy-odlicovac/dvoufazovy-odlicovaci-olej-cucumber-chamomile/',photo:photo('puaree','odlicovac'),tags:['sensitive','dry','balanced','calm','oil','basic','full'],reason:'Odlíči tvár aj oči vrátane vodeodolného make-upu; uhorková šťava, harmančeková a lipová voda osviežia — bez parfumácie.'}
+      ]
     }
   });
 })();
