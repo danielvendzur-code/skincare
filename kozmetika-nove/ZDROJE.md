@@ -683,3 +683,29 @@ zelenkastá plocha.
 | Face Wash 100 ml | 22,50 € | https://malinna.com/products/face-wash |
 | Cleansing Foam 150 ml | 17,00 € | https://malinna.com/products/cleansing-foam |
 | Skin Toner Neroli 30 ml | 15,80 € | https://malinna.com/products/skin-toner-neroli |
+
+## Darinčino mýdlo — darincinomydlo.cz
+
+Česká manufaktúra prírodných mydiel a pleťovej kozmetiky; e-shop
+prevádzkuje živnostníčka Darina Slintáková (IČO 06746900, živnosť od
+1/2018; ARES: 6–9 zamestnancov; živnostník neukladá účtovnú závierku,
+tržby nie sú verejné). Vlastný e-shop na Shoptete. Demo berie pleťovú
+radu a dve mydlá, ktoré e-shop odporúča na pleť; mydlo DEAD SEA MUD
+vynecháva, lebo jeho popis spomína kožné choroby. Ceny, objemy a
+dostupnosť („Skladem“) z detailov produktov k 8. 10. 2026; pri sérach
+plná veľkosť 30 ml (5 ml je vzorka). Fotky sú oficiálne fotky produktu
+v ruke z e-shopu, orezané na výšku. Logo je oficiálne, na webe len biele;
+v deme je prefarbené na tmavú farbu značky. Pri správach je písmeno „d“
+vyrezané z loga. Farby: takmer čierna z fľaštičiek, akcent hnedá z
+kraftových etikiet (stmavená pre biely text), svetlá béžová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Pleťový krém granátové jablko 60 ml | 740 Kč | https://www.darincinomydlo.cz/pletovy-krem/ |
+| Pleťový krém niacinamid, boswelie, konopí 60 ml | 870 Kč | https://www.darincinomydlo.cz/pletovy-krem-niacinamid/ |
+| Hydratační pleťové sérum 30 ml | 890 Kč | https://www.darincinomydlo.cz/hydratacni-pletove-serum/ |
+| Revitalizační pleťové sérum 30 ml | 870 Kč | https://www.darincinomydlo.cz/revitalizacni-pletove-serum/ |
+| Pleťové tonikum 100 ml | 770 Kč | https://www.darincinomydlo.cz/pletove-tonikum/ |
+| Čistící pleťový gel 150 ml | 645 Kč | https://www.darincinomydlo.cz/cistici-gel/ |
+| Mýdlo CHARCOAL & TEA TREE 110 g | 220 Kč | https://www.darincinomydlo.cz/charcoal-tea-tree/ |
+| Mýdlo VELVET SOAP 110 g | 220 Kč | https://www.darincinomydlo.cz/velvet-soap/ |

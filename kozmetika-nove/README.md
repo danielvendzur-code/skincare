@@ -52,6 +52,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | Puaree | [puaree.cz](https://www.puaree.cz/) | `/puaree/` · `puaree.mojchatbot.sk` |
 | NATUREVITAL | [naturevital.cz](https://www.naturevital.cz/) | `/naturevital/` · `naturevital.mojchatbot.sk` |
 | MALINNA | [malinna.com](https://malinna.com/) | `/malinna/` · `malinna.mojchatbot.sk` |
+| Darinčino mýdlo | [darincinomydlo.cz](https://www.darincinomydlo.cz/) | `/darincino/` · `darincino.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 

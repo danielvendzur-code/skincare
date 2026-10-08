@@ -673,6 +673,24 @@
         {id:'foam',name:'Cleansing Foam 150 ml',price:'17,00 €',url:'https://malinna.com/products/cleansing-foam',photo:photo('malinna','foam'),tags:['sensitive','oily','balanced','clarity','calm','basic','full'],reason:'Jemná antioxidačná pena na každodenné čistenie pleti aj tela — uvoľní póry a nevysušuje.'},
         {id:'toner',name:'Skin Toner Neroli 30 ml',price:'15,80 €',url:'https://malinna.com/products/skin-toner-neroli',photo:photo('malinna','toner'),tags:['balanced','sensitive','calm','hydrate','basic','full'],reason:'Prírodné tonikum v hmle s esenciálnymi olejmi a morskou soľou pre normálnu a citlivú pleť, s vôňou neroli.'}
       ]
+    },
+    darincino: {
+      name:'Darinčino mýdlo', domain:'darincinomydlo.cz', website:'https://www.darincinomydlo.cz/',
+      theme:{brand:'#2b2826',accent:'#86663f',soft:'#f5f1ec',paper:'#fdfcfa',ink:'#24211f',line:'#e7e0d7'},
+      wordmark:logo('darincino','Darinčino mýdlo'),
+      hero:'/assets/cosmetics/darincino.jpg', mark:'/assets/cosmetics/darincino-mark.png', messageLogo:'/assets/cosmetics/darincino-mark.png',
+      ownerNote:'Česká manufaktúra prírodných mydiel s vlastnou pleťovou radou: dva krémy, dve séra, tonikum, čistiaci gél a pleťové mydlá v rovnakých tmavých fľaštičkách s kraftovou etiketou. Zákazníčka nevie, ktoré sérum a ktorý krém sú pre jej pleť.',
+      benefit:['Vysvetlí rozdiel medzi hydratačným a revitalizačným sérom','Poradí krém s granátovým jablkom alebo s niacínamidom podľa pleti','Poskladá čistenie, tonikum a krém do jednej rutiny, aj večer'],
+      products:[
+        {id:'krem',name:'Pleťový krém granátové jablko 60 ml',price:'740 Kč',url:'https://www.darincinomydlo.cz/pletovy-krem/',photo:photo('darincino','krem'),tags:['mature','dry','balanced','hydrate','cream','simple','basic','full'],reason:'Výživný krém s extraktom z granátového jablka dodá pleti vitamíny, podporí jej elasticitu a chráni ju pred dehydratáciou; zjemňuje vrásky.'},
+        {id:'krem-niacinamid',name:'Pleťový krém niacinamid, boswelie, konopí 60 ml',price:'870 Kč',url:'https://www.darincinomydlo.cz/pletovy-krem-niacinamid/',photo:photo('darincino','krem-niacinamid'),tags:['oily','sensitive','balanced','clarity','calm','cream','simple','basic','full'],reason:'Ľahký regeneračný krém s niacínamidom, boswéliou a konopou pre pleť so sklonom k akné a nadmernému mazaniu; rýchlo sa vstrebe a nezaťaží.'},
+        {id:'serum-hydratacni',name:'Hydratační pleťové sérum 30 ml',price:'890 Kč',url:'https://www.darincinomydlo.cz/hydratacni-pletove-serum/',photo:photo('darincino','serum-hydratacni'),tags:['dry','balanced','oily','mature','hydrate','serum','basic','full','target'],reason:'Fermentovaná zmes vysoko- a nízkomolekulárnej kyseliny hyalurónovej s morskými minerálmi okamžite aj dlhodobo hydratuje; pre každý typ pleti.'},
+        {id:'serum-revitalizacni',name:'Revitalizační pleťové sérum 30 ml',price:'870 Kč',url:'https://www.darincinomydlo.cz/revitalizacni-pletove-serum/',photo:photo('darincino','serum-revitalizacni'),tags:['mature','dry','sensitive','calm','serum','oil','full','target'],reason:'Olejové sérum z BIO malinového, šípkového, pupalkového a kaméliového oleja so skvalánom — omladzuje a upokojuje; s pipetkou alebo pumpičkou.'},
+        {id:'tonikum',name:'Pleťové tonikum 100 ml',price:'770 Kč',url:'https://www.darincinomydlo.cz/pletove-tonikum/',photo:photo('darincino','tonikum'),tags:['sensitive','balanced','dry','hydrate','calm','basic','full'],reason:'Tri kvetové hydroláty — neroli, zelený čaj a harmanček — s aloe vera pleť osviežia, hydratujú a upokoja podráždenie.'},
+        {id:'gel',name:'Čistící pleťový gel 150 ml',price:'645 Kč',url:'https://www.darincinomydlo.cz/cistici-gel/',photo:photo('darincino','gel'),tags:['balanced','oily','sensitive','dry','clarity','basic','full'],reason:'Jemný gél na každodenné čistenie všetkých typov pleti vrátane citlivej — odstráni make-up a maz a pleť nevysuší.'},
+        {id:'charcoal',name:'Mýdlo CHARCOAL & TEA TREE 110 g',price:'220 Kč',url:'https://www.darincinomydlo.cz/charcoal-tea-tree/',photo:photo('darincino','charcoal'),tags:['oily','clarity','simple','basic'],reason:'Prírodné mydlo s aktívnym uhlím a tea tree olejom hĺbkovo čistí, uvoľňuje póry a reguluje maz — pre mastnú a problematickú pleť.'},
+        {id:'velvet',name:'Mýdlo VELVET SOAP 110 g',price:'220 Kč',url:'https://www.darincinomydlo.cz/velvet-soap/',photo:photo('darincino','velvet'),tags:['sensitive','dry','calm','simple','basic'],reason:'Zamatovo jemné mydlo s jogurtom, hodvábom a bielym ílom bez éterických olejov a vonných alergénov — pre citlivú a suchú pleť.'}
+      ]
     }
   });
 })();
