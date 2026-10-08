@@ -691,6 +691,25 @@
         {id:'charcoal',name:'Mýdlo CHARCOAL & TEA TREE 110 g',price:'220 Kč',url:'https://www.darincinomydlo.cz/charcoal-tea-tree/',photo:photo('darincino','charcoal'),tags:['oily','clarity','simple','basic'],reason:'Prírodné mydlo s aktívnym uhlím a tea tree olejom hĺbkovo čistí, uvoľňuje póry a reguluje maz — pre mastnú a problematickú pleť.'},
         {id:'velvet',name:'Mýdlo VELVET SOAP 110 g',price:'220 Kč',url:'https://www.darincinomydlo.cz/velvet-soap/',photo:photo('darincino','velvet'),tags:['sensitive','dry','calm','simple','basic'],reason:'Zamatovo jemné mydlo s jogurtom, hodvábom a bielym ílom bez éterických olejov a vonných alergénov — pre citlivú a suchú pleť.'}
       ]
+    },
+    mydlenka: {
+      name:'MýdLenka', domain:'mydlenka.cz', website:'https://www.mydlenka.cz/',
+      theme:{brand:'#2a2522',accent:'#94505f',soft:'#f8f0f1',paper:'#fffdfd',ink:'#262122',line:'#ecdfe2'},
+      wordmark:logo('mydlenka','MýdLenka'),
+      hero:'/assets/cosmetics/mydlenka.jpg', mark:'/assets/cosmetics/mydlenka-mark.png', messageLogo:'/assets/cosmetics/mydlenka-mark.png',
+      ownerNote:'Prírodná kozmetika zo Šumavy ručne vyrábaná v malých šaržiach: štyri pleťové séra, dve kvetové vody, odličovač, arganový olej a pleťové mydlo v rovnakých hnedých fľaštičkách s čiernou etiketou. Zákazníčka nevie, ktoré sérum je pre ňu.',
+      benefit:['Vysvetlí rozdiel medzi sérami Kapka rosy, Lipový květ a Neroli','Poradí kvetovú vodu a sérum do jednej rutiny','Odpovie aj večer, keď výroba nezdvíha telefón'],
+      products:[
+        {id:'kapka-rosy',name:'Kapka rosy Hydrobalance sérum 30 ml',price:'990 Kč',url:'https://www.mydlenka.cz/pece-o-plet/kapka-rosy-hydrobalance-serum/',photo:photo('mydlenka','kapka-rosy'),tags:['dry','mature','balanced','hydrate','serum','simple','basic','full','target'],reason:'Sérum pre suchú pleť a prvé známky starnutia — intenzívne hydratuje a pleť vyzerá sviežejšia už po prvom použití.'},
+        {id:'lipovy-kvet',name:'Pleťové sérum Lipový květ 30 ml',price:'990 Kč',url:'https://www.mydlenka.cz/pece-o-plet/pletove-serum-lipovy-kvet/',photo:photo('mydlenka','lipovy-kvet'),tags:['balanced','sensitive','dry','calm','hydrate','serum','simple','basic','full'],reason:'Aktívne látky, výživné oleje a vôňa lipového kvetu — sérum pleť hydratuje, vyživí, rozjasní a vráti jej rovnováhu.'},
+        {id:'neroli-serum',name:'Pleťové sérum Neroli 30 ml',price:'890 Kč',url:'https://www.mydlenka.cz/pece-o-plet/pletove-serum-neroli/',photo:photo('mydlenka','neroli-serum'),tags:['balanced','sensitive','calm','serum','oil','simple','basic','full'],reason:'Ľahké olejové sérum s éterickým olejom z kvetov horkého pomarančovníka pre normálnu a mladšiu pleť — upokojí a rozjasní.'},
+        {id:'akne',name:'AKNÉ Sérum na problematickou pleť 10 ml',price:'385 Kč',url:'https://www.mydlenka.cz/pece-o-plet/akne-serum-na-problematickou-plet/',photo:photo('mydlenka','akne'),tags:['oily','clarity','calm','serum','target','full'],reason:'Ľahké sérum pre pleť so sklonom k akné s extraktom z bielej vŕby, ovsa a dračej krvi — upokojí začervenanie.'},
+        {id:'argan',name:'Arganový olej BIO 50 ml',price:'370 Kč',url:'https://www.mydlenka.cz/pece-o-plet/arganovy-olej-bio--lzs/',photo:photo('mydlenka','argan'),tags:['dry','mature','hydrate','oil','simple','basic','full'],reason:'Za studena lisovaný marocký arganový olej s vitamínom E vyživí a zjemní pleť; hodí sa aj na vlasy a nechty.'},
+        {id:'odlicovac',name:'Jemný odličovač 100 ml',price:'390 Kč',url:'https://www.mydlenka.cz/pece-o-plet/jemny-odlicovac/',photo:photo('mydlenka','odlicovac'),tags:['sensitive','dry','balanced','calm','basic','full'],reason:'Dvojfázový odličovač s aloe a slivkovým olejom odstráni aj vodeodolný make-up bez pálenia a pnutia.'},
+        {id:'neroli-voda',name:'Květová voda Neroli BIO 100 ml',price:'440 Kč',url:'https://www.mydlenka.cz/pece-o-plet/kvetova-voda-neroli-bio/',photo:photo('mydlenka','neroli-voda'),tags:['balanced','oily','sensitive','calm','hydrate','basic','full'],reason:'Kvetová voda z pomarančovníka tonizuje a upokojí pleť — prvý krok pred olejom alebo sérom.'},
+        {id:'ruze-voda',name:'Květová voda Růže damašská BIO 100 ml',price:'300 Kč',url:'https://www.mydlenka.cz/pece-o-plet/kvetova-voda-ruze-damasska-bio/',photo:photo('mydlenka','ruze-voda'),tags:['dry','sensitive','mature','hydrate','basic','full'],reason:'Čistá ružová voda z bulharského Kazanlaku hydratuje, tonizuje a pomáha udržať prirodzené pH pleti.'},
+        {id:'mydlo',name:'Černý samet pleťové mýdlo 70 g',price:'290 Kč',url:'https://www.mydlenka.cz/mydla/cerny-samet-pletove-mydlo/',photo:photo('mydlenka','mydlo'),tags:['oily','sensitive','clarity','simple','basic'],reason:'Jemné pleťové mydlo s aktívnym uhlím bez parfumácie a kokosového oleja hĺbkovo čistí a pomáha pri nadmernom mastení.'}
+      ]
     }
   });
 })();

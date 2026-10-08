@@ -709,3 +709,29 @@ kraftových etikiet (stmavená pre biely text), svetlá béžová plocha.
 | Čistící pleťový gel 150 ml | 645 Kč | https://www.darincinomydlo.cz/cistici-gel/ |
 | Mýdlo CHARCOAL & TEA TREE 110 g | 220 Kč | https://www.darincinomydlo.cz/charcoal-tea-tree/ |
 | Mýdlo VELVET SOAP 110 g | 220 Kč | https://www.darincinomydlo.cz/velvet-soap/ |
+
+## MýdLenka — mydlenka.cz
+
+Prírodná kozmetika zo Šumavy ručne vyrábaná v malých šaržiach; e-shop
+prevádzkuje živnostníčka Lenka Sojková, Bezděkov u Klatov (IČO 72218533;
+ARES: 6–9 zamestnancov; živnostník neukladá účtovnú závierku, tržby
+nie sú verejné). Vlastný e-shop na Shoptete; demo berie kategóriu
+Péče o pleť a pleťové mydlo Černý samet. Ceny, objemy a dostupnosť
+(„Skladem“) z detailov produktov k 8. 10. 2026; pri sérach plná
+veľkosť 30 ml (AKNÉ sérum sa predáva len v 10 ml). Fotky sú oficiálne
+štylizované fotky z e-shopu orezané na výšku. Logo je oficiálne, ale
+na webe len 195×100 px; pri správach je srdce z loga (favicon e-shopu,
+256 px), prefarbené na tmavú farbu značky. Farby: takmer čierna z
+etikiet, akcent stmavená staroružová z fotiek, svetlá ružová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Kapka rosy Hydrobalance sérum 30 ml | 990 Kč | https://www.mydlenka.cz/pece-o-plet/kapka-rosy-hydrobalance-serum/ |
+| Pleťové sérum Lipový květ 30 ml | 990 Kč | https://www.mydlenka.cz/pece-o-plet/pletove-serum-lipovy-kvet/ |
+| Pleťové sérum Neroli 30 ml | 890 Kč | https://www.mydlenka.cz/pece-o-plet/pletove-serum-neroli/ |
+| AKNÉ Sérum na problematickou pleť 10 ml | 385 Kč | https://www.mydlenka.cz/pece-o-plet/akne-serum-na-problematickou-plet/ |
+| Arganový olej BIO 50 ml | 370 Kč | https://www.mydlenka.cz/pece-o-plet/arganovy-olej-bio--lzs/ |
+| Jemný odličovač 100 ml | 390 Kč | https://www.mydlenka.cz/pece-o-plet/jemny-odlicovac/ |
+| Květová voda Neroli BIO 100 ml | 440 Kč | https://www.mydlenka.cz/pece-o-plet/kvetova-voda-neroli-bio/ |
+| Květová voda Růže damašská BIO 100 ml | 300 Kč | https://www.mydlenka.cz/pece-o-plet/kvetova-voda-ruze-damasska-bio/ |
+| Černý samet pleťové mýdlo 70 g | 290 Kč | https://www.mydlenka.cz/mydla/cerny-samet-pletove-mydlo/ |
