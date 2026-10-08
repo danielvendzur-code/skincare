@@ -660,3 +660,26 @@ akcent purpurová z bodiek pod logom, svetlá ružová plocha.
 | Levandule, regenerační pleťový olej 50 ml | 420 Kč | https://www.naturevital.cz/pletova-kosmetika/levandule-regeneracni-pletovy-olej-50-ml |
 | MIBIO Rose velvet, revitalizační pleťový olej 30 ml | 580 Kč | https://www.naturevital.cz/pletova-kosmetika/mibio-rose-velvet-revitalizing-face-oil |
 | MIBIO Younger you, anti-age vyhlazující pleťový olej 30 ml | 690 Kč | https://www.naturevital.cz/pletova-kosmetika/mibio-younger-you-anti-age-nourishing-face-oil |
+
+## MALINNA — malinna.com
+
+Malá značka prírodnej kozmetiky (MALINNA Products s.r.o., IČO 08082391,
+založená 4/2019, jediný spoločník a konateľ Jakub Beňo; ARES: 6–9
+zamestnancov; tržby nie sú vo verejnom registri bez zbierky listín).
+Vlastný e-shop na Shopify (slovenská verzia v eurách); okrem pleti
+predáva telové séra, mydlá, zubné gély a čistiace prostriedky — demo
+berie len pleťovú starostlivosť bez setov a náhradných náplní. Ceny,
+objemy a dostupnosť z e-shopu k 8. 10. 2026 (Skin Toner Neroli len
+30 ml, 50 ml bolo vypredané). Fotky sú oficiálne priehľadné packshoty
+z e-shopu. Pri správach je oficiálne štvorcové logo „M°“ (to isté ako
+favicon e-shopu). Farby: tmavozelená z pozadia fotiek na webe, svetlá
+zelenkastá plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Lavender Sensitive Cream 30 ml | 49,00 € | https://malinna.com/products/lavender-sensitive-cream |
+| Rose Repairing Cream 30 ml | 59,00 € | https://malinna.com/products/rose-repairing-cream |
+| Immortelle Anti-Aging Cream 30 ml | 59,00 € | https://malinna.com/products/immortelle-anti-aging-cream |
+| Face Wash 100 ml | 22,50 € | https://malinna.com/products/face-wash |
+| Cleansing Foam 150 ml | 17,00 € | https://malinna.com/products/cleansing-foam |
+| Skin Toner Neroli 30 ml | 15,80 € | https://malinna.com/products/skin-toner-neroli |

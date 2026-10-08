@@ -657,6 +657,22 @@
         {id:'rose',name:'MIBIO Rose velvet, revitalizační pleťový olej 30 ml',price:'580 Kč',url:'https://www.naturevital.cz/pletova-kosmetika/mibio-rose-velvet-revitalizing-face-oil',photo:photo('naturevital','rose'),tags:['dry','sensitive','mature','calm','oil','basic','full','target'],reason:'Ružový olej pre suchú, dehydrovanú, podráždenú aj citlivú pleť — upokojí ju, vráti jej jas a zjemní vrásky.'},
         {id:'younger',name:'MIBIO Younger you, anti-age vyhlazující pleťový olej 30 ml',price:'690 Kč',url:'https://www.naturevital.cz/pletova-kosmetika/mibio-younger-you-anti-age-nourishing-face-oil',photo:photo('naturevital','younger'),tags:['mature','dry','sensitive','oil','full','target'],reason:'Vyhladzujúce olejové sérum s Acmella Spilanthes pre suchú, zrelú a ochabnutú pleť s jemnými aj hlbšími vráskami.'}
       ]
+    },
+    malinna: {
+      name:'MALINNA', domain:'malinna.com', website:'https://malinna.com/',
+      theme:{brand:'#2f4a33',accent:'#47704c',soft:'#f1f4ef',paper:'#fdfdfb',ink:'#1f231f',line:'#dfe6dc'},
+      wordmark:logo('malinna','MALINNA'),
+      hero:'/assets/cosmetics/malinna.jpg', mark:'/assets/cosmetics/malinna-mark.png', messageLogo:'/assets/cosmetics/malinna-mark.png',
+      ownerNote:'Malá značka prírodnej kozmetiky s tromi pleťovými krémami v rovnakých bielych fľaštičkách — Lavender, Rose a Immortelle — a dvoma spôsobmi čistenia. Zákazníčka nevie, ktorý krém je pre citlivú a ktorý pre zrelú pleť.',
+      benefit:['Vysvetlí rozdiel medzi krémami Lavender, Rose a Immortelle','Poradí, či čistiť Face Wash alebo penou','Odpovie aj večer a cez víkend'],
+      products:[
+        {id:'lavender',name:'Lavender Sensitive Cream 30 ml',price:'49,00 €',url:'https://malinna.com/products/lavender-sensitive-cream',photo:photo('malinna','lavender'),tags:['sensitive','oily','balanced','calm','hydrate','clarity','cream','simple','basic','full'],reason:'Výživný krém s levanduľou a olejmi spracovanými pre lepšiu vstrebateľnosť — hydratuje a upokojuje aj veľmi citlivú, problematickú či mladistvú pleť.'},
+        {id:'rose',name:'Rose Repairing Cream 30 ml',price:'59,00 €',url:'https://malinna.com/products/rose-repairing-cream',photo:photo('malinna','rose'),tags:['dry','sensitive','mature','balanced','hydrate','cream','simple','basic','full'],reason:'Regeneračný krém s esenciou ruže damašskej pre všetky typy pleti, najmä suchú, citlivú a zrelú — vyživí a rozjasní.'},
+        {id:'immortelle',name:'Immortelle Anti-Aging Cream 30 ml',price:'59,00 €',url:'https://malinna.com/products/immortelle-anti-aging-cream',photo:photo('malinna','immortelle'),tags:['mature','balanced','sensitive','oily','clarity','cream','simple','basic','full'],reason:'Regeneračný krém so slamienkou, nimbovým olejom a hlohom zjednocuje tón a chráni pred oxidačným stresom; pre normálnu, citlivú, zrelú aj aknóznu pleť.'},
+        {id:'face-wash',name:'Face Wash 100 ml',price:'22,50 €',url:'https://malinna.com/products/face-wash',photo:photo('malinna','face-wash'),tags:['dry','balanced','oily','mature','hydrate','basic','full'],reason:'Koncentrované čistiace sérum s antioxidantmi, ktoré sa s vodou zmení na jemný gél — čistí a nenarúša prirodzenú rovnováhu pleti.'},
+        {id:'foam',name:'Cleansing Foam 150 ml',price:'17,00 €',url:'https://malinna.com/products/cleansing-foam',photo:photo('malinna','foam'),tags:['sensitive','oily','balanced','clarity','calm','basic','full'],reason:'Jemná antioxidačná pena na každodenné čistenie pleti aj tela — uvoľní póry a nevysušuje.'},
+        {id:'toner',name:'Skin Toner Neroli 30 ml',price:'15,80 €',url:'https://malinna.com/products/skin-toner-neroli',photo:photo('malinna','toner'),tags:['balanced','sensitive','calm','hydrate','basic','full'],reason:'Prírodné tonikum v hmle s esenciálnymi olejmi a morskou soľou pre normálnu a citlivú pleť, s vôňou neroli.'}
+      ]
     }
   });
 })();

@@ -2,7 +2,7 @@ Options -MultiViews
 RewriteEngine On
 
 # <slug>.mojchatbot.sk opens that brand's demo at the root.
-RewriteCond %{HTTP_HOST} ^(dulcia|yemna|namy|mymkech|anela|klararott|yage|omorfia|pravaja|caltha|zahir|pimpinella|biorythme|purity|indivo|smyssly|liqoil|muzuri|noili|mujluj|humitics|skinium|botanica|atok|iuvenio|drsandra|savon|marielli|delibutus|almara|naturamedic|sisi|tiomi|puaree|naturevital)\.mojchatbot\.sk$ [NC]
+RewriteCond %{HTTP_HOST} ^(dulcia|yemna|namy|mymkech|anela|klararott|yage|omorfia|pravaja|caltha|zahir|pimpinella|biorythme|purity|indivo|smyssly|liqoil|muzuri|noili|mujluj|humitics|skinium|botanica|atok|iuvenio|drsandra|savon|marielli|delibutus|almara|naturamedic|sisi|tiomi|puaree|naturevital|malinna)\.mojchatbot\.sk$ [NC]
 RewriteRule ^$ cosmetics.html [L]
 
 # /kozmetika/<slug> works too; the page reads the slug from the path.

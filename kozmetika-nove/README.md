@@ -51,6 +51,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | TIOMI | [tiomi.cz](https://www.tiomi.cz/) | `/tiomi/` · `tiomi.mojchatbot.sk` |
 | Puaree | [puaree.cz](https://www.puaree.cz/) | `/puaree/` · `puaree.mojchatbot.sk` |
 | NATUREVITAL | [naturevital.cz](https://www.naturevital.cz/) | `/naturevital/` · `naturevital.mojchatbot.sk` |
+| MALINNA | [malinna.com](https://malinna.com/) | `/malinna/` · `malinna.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 
