@@ -629,3 +629,34 @@ e-shopu). Farby: tmavá slivková z loga, svetlá ružovofialová plocha.
 | Pleťová maska Roses & Pearl & Saké 50 ml | 659 Kč | https://www.puaree.cz/pletova-maska/pletova-maska-roses-pearl-sake/ |
 | Hydrofilní čistící olej Lavender & Ylang 120 ml | 439 Kč | https://www.puaree.cz/hydrofilni-cistici-olej/hydrofilni-cistici-olej-lavender-ylang/ |
 | Dvoufázový odličovací olej Cucumber & Chamomile 100 ml | 369 Kč | https://www.puaree.cz/pletovy-odlicovac/dvoufazovy-odlicovaci-olej-cucumber-chamomile/ |
+
+## NATUREVITAL — naturevital.cz
+
+Český výrobca profesionálnej a domácej kozmetiky z Chrudimi
+(NATUREVITAL s.r.o., IČO 02443562, založená 12/2013, spoločníci a
+konatelia Jan Hrkal a Lenka Hudová; ARES: 6–9 zamestnancov). Tržby
+nie sú vo verejnom registri dostupné bez zbierky listín, veľkosť je
+odhadnutá z počtu zamestnancov. Vlastný e-shop (OpenCart) s radami
+DERMAPRO, MIBIO a NATULI; demo berie pleťovú kozmetiku bez
+zvýhodnených setov a XXL profi balenia. Ceny, objemy a dostupnosť
+(„Skladem“) z detailov produktov k 8. 10. 2026. Fotky sú oficiálne
+packshoty z e-shopu; pri dvoch krémoch je odrezaná krabička vľavo,
+aby bola dóza väčšia. Logo je oficiálne (nápis bez kvetov vpravo);
+favicon e-shopu je farebná fotka kvetov, ktorá sa v bielom avatare
+nedá čítať, preto je pri správach monogram „nv“ prepísaný písmom
+Cormorant Garamond podobným logu. Farby: tmavá antracitová z loga,
+akcent purpurová z bodiek pod logom, svetlá ružová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Denní ochranný UV anti-age krém 100 ml | 710 Kč | https://www.naturevital.cz/pletova-kosmetika/pletovy-krem-denni-ochranny-uv-anti-age-krem |
+| Energizující Q10 anti-age krém 50 ml | 470 Kč | https://www.naturevital.cz/pletova-kosmetika/pletovy-krem-energizujici-q10-anti-age-krem |
+| Noční anti-age krém s kaviárem 50 ml | 470 Kč | https://www.naturevital.cz/pletova-kosmetika/pletovy-krem-nocni-anti-age-krem-s-kaviarem |
+| 3% BIO hyaluron sérum s koenzymem Q10 30 ml | 490 Kč | https://www.naturevital.cz/pletova-kosmetika/pletovy-koncentrat-3-bio-hyaluron-serum-s-koenzymem-q10 |
+| 3% BIO hyaluron sérum s kaviárem 30 ml | 490 Kč | https://www.naturevital.cz/pletova-kosmetika/pletovy-koncentrat-3-bio-hyaluron-serum-s-kaviarem |
+| Hyaluron a Salixin®, vyrovnávací zklidňující gel 50 ml | 390 Kč | https://www.naturevital.cz/pletova-kosmetika/hyaluron-a-salixin-vyrovnavaci-zklidnujici-pletovy-a-telovy-gel |
+| Čistící a pečující micelární voda 200 ml | 250 Kč | https://www.naturevital.cz/pletova-kosmetika/cistici-micelarni-voda-s-anti-age-peci |
+| Argan a Chia, anti-age pleťový olej 50 ml | 490 Kč | https://www.naturevital.cz/pletova-kosmetika/argan-a-chia-anti-age-pletovy-olej |
+| Levandule, regenerační pleťový olej 50 ml | 420 Kč | https://www.naturevital.cz/pletova-kosmetika/levandule-regeneracni-pletovy-olej-50-ml |
+| MIBIO Rose velvet, revitalizační pleťový olej 30 ml | 580 Kč | https://www.naturevital.cz/pletova-kosmetika/mibio-rose-velvet-revitalizing-face-oil |
+| MIBIO Younger you, anti-age vyhlazující pleťový olej 30 ml | 690 Kč | https://www.naturevital.cz/pletova-kosmetika/mibio-younger-you-anti-age-nourishing-face-oil |
