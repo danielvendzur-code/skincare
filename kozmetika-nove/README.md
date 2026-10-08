@@ -54,6 +54,7 @@ kde sa formulár predvyplní (vyžaduje `danielvendzur-code/vne-n` PR #173).
 | MALINNA | [malinna.com](https://malinna.com/) | `/malinna/` · `malinna.mojchatbot.sk` |
 | Darinčino mýdlo | [darincinomydlo.cz](https://www.darincinomydlo.cz/) | `/darincino/` · `darincino.mojchatbot.sk` |
 | MýdLenka | [mydlenka.cz](https://www.mydlenka.cz/) | `/mydlenka/` · `mydlenka.mojchatbot.sk` |
+| ethia | [ethia.cz](https://ethia.cz/) | `/ethia/` · `ethia.mojchatbot.sk` |
 
 Zdroje produktov, cien a fotiek: [`ZDROJE.md`](ZDROJE.md).
 

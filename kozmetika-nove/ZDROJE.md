@@ -735,3 +735,29 @@ etikiet, akcent stmavená staroružová z fotiek, svetlá ružová plocha.
 | Květová voda Neroli BIO 100 ml | 440 Kč | https://www.mydlenka.cz/pece-o-plet/kvetova-voda-neroli-bio/ |
 | Květová voda Růže damašská BIO 100 ml | 300 Kč | https://www.mydlenka.cz/pece-o-plet/kvetova-voda-ruze-damasska-bio/ |
 | Černý samet pleťové mýdlo 70 g | 290 Kč | https://www.mydlenka.cz/mydla/cerny-samet-pletove-mydlo/ |
+
+## ethia — ethia.cz
+
+Česká prírodná kozmetika vyrábaná lokálne a ručne (ethi beauty s.r.o.,
+IČO 09229230, založená 6/2020, spoločníci Lars Dittinger a Linda
+Čeřovská; ARES: bez zamestnancov; tržby nie sú vo verejnom registri
+bez zbierky listín). Vlastný e-shop na WooCommerce; okrem pleti predáva
+vlasovú kozmetiku — demo berie len pleťovú starostlivosť bez vzoriek
+a voucherov. Ceny, objemy a dostupnosť z e-shopu k 8. 10. 2026. Fotky
+sú oficiálne priehľadné packshoty z e-shopu (4000 px, pri dvoch sérach
+1254 px). Logo je oficiálne SVG z webu; pri správach je kvapkový
+emblém z loga. Farby: tmavohnedá z loga, akcent jantárová z fľaštičiek
+(stmavená pre biely text), svetlá béžová plocha.
+
+| produkt | cena | stránka |
+| --- | --- | --- |
+| Denní krém s růží damašskou 50 ml | 580 Kč | https://ethia.cz/produkt/denni-krem-s-ruzi-damasskou/ |
+| Denní krém s růžovou vodou a Q10 50 ml | 580 Kč | https://ethia.cz/produkt/denni-krem-s-ruzovou-vodou-a-q10/ |
+| Noční krém s retinolem a růží damašskou 50 ml | 720 Kč | https://ethia.cz/produkt/nocni-krem-s-ruzi-damasskou-a-retinolem/ |
+| Retinol-like noční krém s bakuchiolem 50 ml | 720 Kč | https://ethia.cz/produkt/retinol-like-nocni-krem-s-bakuchiolem/ |
+| Rozjasňující sérum – vitamín C a rakytník 50 ml | 890 Kč | https://ethia.cz/produkt/rozjasnujici-serum-vitamin-c-a-rakytnik/ |
+| Anti-age sérum s trojí kyselinou hyaluronovou 50 ml | 790 Kč | https://ethia.cz/produkt/anti-age-serum-s-troji-kyselinou-hyaluronovou/ |
+| Niacinamidové vyživující sérum 50 ml | 520 Kč | https://ethia.cz/produkt/serum/ |
+| Pleťové čisticí mléko s jojobou a olivou 200 ml | 420 Kč | https://ethia.cz/produkt/pletove-cistici-mleko-s-jojobou-a-olivou/ |
+| Pleťové čisticí mléko s jojobou a mandlí 200 ml | 420 Kč | https://ethia.cz/produkt/pletove-cistici-mleko-s-jojobou-a-mandli/ |
+| Odličovací olej 50 ml | 340 Kč | https://ethia.cz/produkt/odlicovaci-olej/ |
