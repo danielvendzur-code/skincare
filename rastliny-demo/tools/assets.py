@@ -37,12 +37,34 @@ elif slug=='lukscheiter':
  # The official banner includes a photograph and a tiny tagline. Retain the
  # original green name for headers; the banner's orchid is the circle motif.
  crop=im.crop((18,10,153,35)).resize((810,150),Image.Resampling.LANCZOS);crop.save(source/'lukscheiter-wordmark.png')
- mono_logo(str(source/'lukscheiter-wordmark.png'),out/'lukscheiter-logo.png')
+ # Isolate the original green letters from the JPEG's grey gradient plate.
+ import numpy as np
+ rgb=np.asarray(crop).astype(float);strength=np.minimum(rgb[:,:,1]-rgb[:,:,0],rgb[:,:,1]-rgb[:,:,2]);alpha=np.clip((strength-12)/65,0,1)*255
+ # Remove disconnected JPEG speckles, preserving the actual letter shapes.
+ from collections import deque
+ mask=alpha>30;seen=np.zeros(mask.shape,dtype=bool);keep=np.zeros(mask.shape,dtype='uint8');height,width=mask.shape
+ for yy,xx in zip(*np.where(mask)):
+  if seen[yy,xx]:continue
+  q=deque([(yy,xx)]);seen[yy,xx]=True;component=[]
+  while q:
+   y,x=q.popleft();component.append((y,x))
+   for dy,dx in [(-1,0),(1,0),(0,-1),(0,1),(-1,-1),(-1,1),(1,-1),(1,1)]:
+    ny,nx=y+dy,x+dx
+    if 0<=ny<height and 0<=nx<width and mask[ny,nx] and not seen[ny,nx]:seen[ny,nx]=True;q.append((ny,nx))
+  if len(component)>=300:
+   for y,x in component:keep[y,x]=255
+ from PIL import ImageFilter
+ keep=np.asarray(Image.fromarray(keep).filter(ImageFilter.MaxFilter(5)))>0;alpha=alpha*keep
+ rgba=crop.convert('RGBA');rgba.putalpha(Image.fromarray(alpha.astype('uint8')));box=rgba.getchannel('A').getbbox();rgba=rgba.crop(box);rgba.save(out/'lukscheiter-logo.png')
  motif=im.crop((230,4,289,63)).resize((354,354),Image.Resampling.LANCZOS).convert('RGBA');motif.save(out/'lukscheiter-mark.png')
 import subprocess
 soft={'plantizia':'#eef3e9','gardenholice':'#f4f0e6','lukscheiter':'#eef3e9'}[slug]
 # Botanical/price diversity in the hero, with whole products preserved.
 hero_order=[]
+if slug=='lukscheiter':
+ for name in ['Asparagus setaceus','Adiantum hispidulum','Cattleya deckerii','Echeveria']:
+  p=next((p for p,path in good if p['name'].startswith(name)),None)
+  if p:hero_order.append(p['id'])
 for kind in ['plants','plants','orchids','terrariums','outdoor','pots','airplants','succulents']:
  p=next((p for p,path in good if p['kind']==kind and p['priceValue']>8 and p['id'] not in hero_order and not any(p['name'].split()[0]==q['name'].split()[0] for q,path in good if q['id'] in hero_order)),None)
  if p:hero_order.append(p['id'])

@@ -18,4 +18,6 @@ const compound=await call(local,{demoId:slug,messages:[{role:'user',content:'Má
 assert(compound.payload.products.every(id=>{const p=brand.products.find(p=>p.id===id);return p.tags.includes('pet-safe')&&p.tags.includes('easy')&&p.tags.includes('low')&&p.priceValue<=15;}));
 assert.equal((await call(local,{demoId:slug,messages:[{role:'user',content:brand.products[0].name+' do 0 €'}]})).payload.products.length,0);
 assert.equal((await call(local,{demoId:slug,messages:[{role:'user',content:'Rastlina do úplnej tmy bez okna'}]})).payload.products.length,0);
+const diffuse=await call(local,{demoId:slug,messages:[{role:'user',content:'Rastlina na rozptýlené svetlo bez priameho slnka pod 15 €'}]});
+assert(diffuse.payload.products.every(id=>{const p=brand.products.find(p=>p.id===id);return p.tags.includes('bright')&&p.priceValue<=15;}));
 console.log('PASS API: input validation, company scope, constraints, canonical AI cards, provider fallback');

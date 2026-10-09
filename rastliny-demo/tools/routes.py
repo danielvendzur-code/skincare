@@ -2,7 +2,8 @@
 import json,html
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
-brands=[json.loads(p.read_text()) for p in (ROOT/'data').glob('*.json')]
+order=['plantizia','gardenholice','lukscheiter']
+brands=[json.loads(p.read_text()) for p in sorted((ROOT/'data').glob('*.json'),key=lambda p:order.index(p.stem) if p.stem in order else len(order))]
 slugs=[b['slug'] for b in brands]
 for b in brands:
  slug=b['slug'];target='/cosmetics.html?demo='+slug

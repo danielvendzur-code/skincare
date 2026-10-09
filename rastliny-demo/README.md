@@ -12,3 +12,4 @@ Chat funguje bez API kľúča z overeného katalógu. Voliteľný `ANTHROPIC_API
 |---|---|---:|---|---|---|---|
 | [Plantizia](https://plantizia.sk/) | [`plantizia`](./plantizia/index.html) | 112 | izbové rastliny, črepníky, substráty, teráriá | prírodno s. r. o. / 52542858 | 685 249 € tržby 2025; 5–9 zam. | PASS 1440 / 390 / 360 |
 | [Garden Holice](https://www.gardenholice.sk/) | [`gardenholice`](./gardenholice/index.html) | 69 | izbové rastliny, záhrada, črepníky, substráty | Green-Oasis, spol. s r. o. / 46658793 | 119 662 € tržby 2025; 5–9 zam. | PASS 1440 / 390 / 360 |
+| [Lukscheiter](https://www.lukscheiter.eu/) | [`lukscheiter`](./lukscheiter/index.html) | 78 | izbové rastliny, orchidey, tillandsie, sukulenty a kaktusy | Lukscheiter s.r.o. / 08714410 | Tržby nedoložené; 6–9 zam. | PASS 1440 / 390 / 360 |

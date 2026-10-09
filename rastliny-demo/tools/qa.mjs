@@ -24,12 +24,13 @@ for(const vp of[{n:'desktop',width:1440,height:900},{n:'mobile',width:390,height
  await page.locator('.cx-chip').first().click();await page.waitForFunction(()=>!document.querySelector('#cx-form button').disabled);await page.waitForTimeout(150);await images();await shot('4-chat-answer');
  const reply=await page.locator('.cx-message--assistant .cx-bubble').last().textContent();check(brand.products.some(p=>reply.includes(p.name)),`${vp.n} chip no real product`);
  const avatar=await page.locator('.cx-message--assistant').count();check(await page.locator('.cx-message--assistant .cx-message-avatar img').count()===avatar,`${vp.n} missing bot logo`);
- await page.locator('[data-mode="advisor"]').click();await page.waitForTimeout(200);
+ await page.locator('[data-mode="advisor"]').click();await page.waitForTimeout(750);
  for(let step=0;step<4;step++){
   await images();const cards=page.locator('.cx-option');check(await cards.count()>=2,`${vp.n} missing choices`);
   const scroll=await page.locator('.cx-advisor-body').evaluate(el=>el.scrollHeight-el.clientHeight);check(scroll<=2,`${vp.n} step ${step+1} scroll ${scroll}`);
   const visible=await page.locator('.cx-option-photo img').evaluateAll(ims=>ims.every(i=>getComputedStyle(i).opacity==='1'&&getComputedStyle(i).visibility==='visible'&&i.getBoundingClientRect().height>50));check(visible,`${vp.n} invisible option photos`);
-  await shot(`5-step${step+1}`);const old=await page.locator('.cx-progress>b').textContent();await cards.first().click();await page.waitForFunction(t=>document.querySelector('.cx-progress>b')?.textContent!==t,old);await page.waitForTimeout(150);
+  const settled=await cards.evaluateAll(nodes=>nodes.every(n=>Number(getComputedStyle(n).opacity)>.99));check(settled,`${vp.n} option animation unfinished`);
+  await shot(`5-step${step+1}`);const old=await page.locator('.cx-progress>b').textContent();await cards.first().click();await page.waitForFunction(t=>document.querySelector('.cx-progress>b')?.textContent!==t,old);await page.waitForTimeout(750);
  }
  await images();await overflow('result');await shot('6-result');
  const title=await page.locator('.cx-product-copy h2').textContent();const product=brand.products.find(p=>p.name===title);check(product,`${vp.n} invalid result`);

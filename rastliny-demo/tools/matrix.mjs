@@ -9,6 +9,15 @@ for(const slug of slugs){
   if(step===4){
    const ranked=rankProducts(brand,answers);assert(ranked.length,`${slug} empty ${JSON.stringify(answers)}`);
    assert(ranked.every(p=>matches(p,answers)),`${slug} constraint failure`);
+   // Independently inspect the actual recommendations; do not rely only on
+   // the same matcher which selected them.
+   for(const p of ranked){
+    assert.equal(p.kind,answers.kind,'wrong category');
+    if(answers.facet!=='any')assert(p.tags.includes(answers.facet),'wrong light/size/type');
+    if(!['any','lowest','middle','premium'].includes(answers.priority))assert(p.tags.includes(answers.priority),'wrong care/material');
+    if(answers.budget!=='any')assert(p.priceValue<=Number(answers.budget),'budget exceeded');
+    assert.equal(p.currency,brand.currency,'currency mismatch');assert.equal(p.stock,'InStock','out of stock');
+   }
    assert(new Set(ranked.map(p=>p.id)).size===ranked.length,'duplicate alternatives');
    assert.deepEqual(rankProducts(brand,answers).map(p=>p.id),ranked.map(p=>p.id),'unstable ranking');
    combinations++;const p=ranked[0];winners[p.id]=(winners[p.id]||0)+1;byKind[p.kind]=(byKind[p.kind]||0)+1;return;

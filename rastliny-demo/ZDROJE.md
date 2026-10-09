@@ -215,3 +215,106 @@ Fotografie: celý produkt zachovaný, upravené len okraje, veľkosť a pozadie 
 | Floria substrát paradajky a sadenie | substráty | 13,50 € | [detail](https://www.gardenholice.sk/floria-substrat-paradajky-a-sadenie/) |
 | Floria substrát zahradnicky s mykorhizou 40L | substráty | 14,90 € | [detail](https://www.gardenholice.sk/floria-substrat-zahradnicky-s-mykorhizou-40l/) |
 | Substrát forestina- pre stredomorské rastliny | substráty | 14,90 € | [detail](https://www.gardenholice.sk/substrat-forestina-pre-stredomorske-rastliny/) |
+
+## Lukscheiter
+
+- Web a identita predajcu: [https://www.lukscheiter.eu/](https://www.lukscheiter.eu/), [obchodné podmienky](https://www.lukscheiter.eu/obchodni-podminky/).
+- Firma: **Lukscheiter s.r.o., IČO 08714410**. Vlastníci: Antonín Lukscheiter, Ing. Ondřej Lukscheiter. Konatelia: Antonín Lukscheiter, Ing. Ondřej Lukscheiter.
+- Veľkosť: **Tržby nedoložené; 6–9 zam.**. Kód zamestnancov `120`; [primárny register](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/08714410). Český register nepreukazuje tržby; neuvádzame odhad. Záznam RES má dátum aktualizácie 5. 1. 2023; bol načítaný 9. 10. 2026. Podľa VR majú vlastníci po 50 %. [Vlastníci](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/08714410).
+- Ceny a sklad: Shoptet mikroúdaje kategórií a detailov; konkrétne varianty pomenované v produktovom názve, ceny v Kč. Mena je overená z `meta[itemprop=priceCurrency]` na detaile produktu; kontrola vyžaduje zhodu s menou firmy. Neoverené svetelné alebo toxikologické vlastnosti sa nepridávajú podľa botanických domnienok.
+- Logo: [oficiálny banner 295×65](https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/logos/banner2-295x65.jpg). Zelený wordmark je vyrezaný bez drobného sloganu, zväčšený 6× s Lanczos a transparentným pozadím vytvoreným oddelením pôvodných zelených písmen od sivého JPEG gradientu. Kruh používa orchideový motív z pravej časti toho istého bannera; nepoužíva nekvalitný 16×16 favicon. Tmavá zelená a kontrastná fialová vychádzajú z banneru.
+- Farby: `brand: #184b29`, `accent: #7b287e`, `soft: #eef3e9`, `paper: #fffefb`, `ink: #18271d`, `line: #d5dfd3`. Biela na brand aj accent dosahuje WCAG kontrast ≥ 4,5 : 1; kontroluje QA.
+- Rozsah: **78 produktov**, izbové rastliny, orchidey, tillandsie, sukulenty a kaktusy. Výber je kurátorovaný zo skladovej ponuky; nejde o tvrdenie, že bol načítaný úplne celý e-shop. Pri vyšších cenách sa hranice rozpočtu prispôsobia zostávajúcim produktom.
+- Doklady: `research/2026-10-09/lukscheiter-registry.json`, `lukscheiter-products.json`. Pri každej položke je URL, oficiálny zdroj fotografie, cena, stav, kategória a doložené fakty. QA: `qa-review/lukscheiter-qa.json`, matica `qa-review/matrix.json`, prezreté UI a produktové kontaktné hárky.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Asparagus setaceus | izbové rastliny | 120 Kč | [detail](https://www.lukscheiter.eu/asparagus-setaceus/) |
+| Adiantum hispidulum 'Bronze Venus'  (kapradina) | izbové rastliny | 130 Kč | [detail](https://www.lukscheiter.eu/adiantum-hispidulum--bronze-venus--kapradina/) |
+| Cattleya deckerii | orchidey | 270 Kč | [detail](https://www.lukscheiter.eu/cattleya-deckerii--tipo/) |
+| Echeveria 'Pearl von Nurnberg' | sukulenty a kaktusy | 60 Kč | [detail](https://www.lukscheiter.eu/echeveria--pearl-von-nurnberg/) |
+| Begonia 'Angel Wind' | izbové rastliny | 60 Kč | [detail](https://www.lukscheiter.eu/begonia--angel-wind/) |
+| Fosterella penduliflora (větší) | izbové rastliny | 100 Kč | [detail](https://www.lukscheiter.eu/fosterella-penduliflora--vetsi/) |
+| Bifrenaria harrisoniae | orchidey | 260 Kč | [detail](https://www.lukscheiter.eu/bifrenaria-harrisoniae/) |
+| Tillandsia brachycaulos v. abdita (malá) | tillandsie | 50 Kč | [detail](https://www.lukscheiter.eu/tillandsia-brachycaulos-v--abdita--mala/) |
+| Astrophytum myriostigma | sukulenty a kaktusy | 40 Kč | [detail](https://www.lukscheiter.eu/astrophytum-myriostigma/) |
+| Asparagus densiflorus 'Sprengerii' | izbové rastliny | 100 Kč | [detail](https://www.lukscheiter.eu/asparagus-sprengerii/) |
+| Cattleya bicolor | orchidey | 250 Kč | [detail](https://www.lukscheiter.eu/cattleya-bicolor/) |
+| Fosterella villosula | izbové rastliny | 120 Kč | [detail](https://www.lukscheiter.eu/fosterella-villosula/) |
+| Adiantum raddianum 'Fritz Luthi' (kapradina) | izbové rastliny | 130 Kč | [detail](https://www.lukscheiter.eu/adiantum-raddianum--fritz-luthi-kapradina/) |
+| Neoregelia 'Fuego Ancho' | izbové rastliny | 150 Kč | [detail](https://www.lukscheiter.eu/neoregelia--fuego-ancho/) |
+| Vriesea espinosae f. gigant | izbové rastliny | 150 Kč | [detail](https://www.lukscheiter.eu/vriesea-espinosae-f--gigant/) |
+| Hoya ovalifolia (ZR) | izbové rastliny | 160 Kč | [detail](https://www.lukscheiter.eu/hoya-ovalifolia--zr/) |
+| Hoya wayetii 'variegata' (ZR) | izbové rastliny | 170 Kč | [detail](https://www.lukscheiter.eu/hoya-wayetii--variegata/) |
+| Hoya cardiophylla (VR) | izbové rastliny | 180 Kč | [detail](https://www.lukscheiter.eu/hoya-cardiophylla-2/) |
+| Hoya parasitica 'splash' (Laos) (VR) | izbové rastliny | 180 Kč | [detail](https://www.lukscheiter.eu/hoya-parasitica--splash-laos/) |
+| Quesnelia humilis | izbové rastliny | 190 Kč | [detail](https://www.lukscheiter.eu/quesnelia-humilis/) |
+| Hoya amoena (VR) | izbové rastliny | 200 Kč | [detail](https://www.lukscheiter.eu/hoya-amoena-2/) |
+| Hoya brevialata (ST) | izbové rastliny | 200 Kč | [detail](https://www.lukscheiter.eu/hoya-brevialata/) |
+| Hoya cagayanensis | izbové rastliny | 200 Kč | [detail](https://www.lukscheiter.eu/hoya-cagayanensis/) |
+| Araeococcus flagellifolius | izbové rastliny | 230 Kč | [detail](https://www.lukscheiter.eu/araeococcus-flagellifolius-2/) |
+| Hoya bicknellii (VR) | izbové rastliny | 230 Kč | [detail](https://www.lukscheiter.eu/hoya-bicknellii-2/) |
+| Hoya burtoniae (ST) | izbové rastliny | 230 Kč | [detail](https://www.lukscheiter.eu/hoya-burtoniae--st/) |
+| Neoregelia 'Hades' | izbové rastliny | 230 Kč | [detail](https://www.lukscheiter.eu/neoregelia--hades-2/) |
+| Neoregelia 'Burnsie's Spiral' | izbové rastliny | 250 Kč | [detail](https://www.lukscheiter.eu/neoregelia--burnsie-s-spiral/) |
+| Vriesea saundersii (velká) | izbové rastliny | 250 Kč | [detail](https://www.lukscheiter.eu/vriesea-saundersii--velka/) |
+| Aglaonema 'White Joy' | izbové rastliny | 260 Kč | [detail](https://www.lukscheiter.eu/aglaonema--white-joy/) |
+| Hoya acuta 'variegata' (big leaf) (VR, závěs 9cm) | izbové rastliny | 300 Kč | [detail](https://www.lukscheiter.eu/hoya-acuta--variegata-big-leaf/) |
+| Araeococcus flagellifolius | izbové rastliny | 350 Kč | [detail](https://www.lukscheiter.eu/araeococcus-flagellifolius-3/) |
+| Dischidia pectinoides (závěs, prům. 9cm) | izbové rastliny | 350 Kč | [detail](https://www.lukscheiter.eu/dischidia-pectinoides--zaves/) |
+| Neoregelia camoreiana (trs XL) | izbové rastliny | 500 Kč | [detail](https://www.lukscheiter.eu/neoregelia-camoreiana--trs-xl/) |
+| Bifrenaria aureo-fulva | orchidey | 270 Kč | [detail](https://www.lukscheiter.eu/bifrenaria-aureo-fulva/) |
+| C. Peckaviensis | orchidey | 270 Kč | [detail](https://www.lukscheiter.eu/c--peckaviensis/) |
+| Cattleya intermedia var. alba | orchidey | 270 Kč | [detail](https://www.lukscheiter.eu/cattleya-intermedia-var--alba/) |
+| Dendrobium polysema | orchidey | 270 Kč | [detail](https://www.lukscheiter.eu/dendrobium-polysema/) |
+| Cattleya forbesii | orchidey | 280 Kč | [detail](https://www.lukscheiter.eu/cattleya-forbesii/) |
+| Cattleya intermedia var. coerulea | orchidey | 280 Kč | [detail](https://www.lukscheiter.eu/cattleya-intermedia-var--coerulea-2/) |
+| Cattleya mendelii | orchidey | 280 Kč | [detail](https://www.lukscheiter.eu/cattleya-mendelii/) |
+| Cattleya porphyroglossa | orchidey | 280 Kč | [detail](https://www.lukscheiter.eu/cattleya-porphyroglossa/) |
+| Stanhopea tigrina var. nigroviolacea | orchidey | 290 Kč | [detail](https://www.lukscheiter.eu/stanhopea-tigrina-var--nigroviolacea/) |
+| Cattleya schilleriana | orchidey | 300 Kč | [detail](https://www.lukscheiter.eu/cattleya-schilleriana/) |
+| Renanthera imschootiana x Vanda falcata | orchidey | 350 Kč | [detail](https://www.lukscheiter.eu/renanthera-imschootiana-x-vanda-falcata/) |
+| Vanda foetida | orchidey | 350 Kč | [detail](https://www.lukscheiter.eu/vanda-foetida/) |
+| Aerangis biloba | orchidey | 380 Kč | [detail](https://www.lukscheiter.eu/aerangis-biloba/) |
+| Tillandsia ionantha v. rubra | tillandsie | 50 Kč | [detail](https://www.lukscheiter.eu/tillandsia-ionantha-v--rubra/) |
+| Tillandsia brachycaulos v. abdita (střední) | tillandsie | 70 Kč | [detail](https://www.lukscheiter.eu/tillandsia-brachycaulos-v--abdita--stredni/) |
+| Tillandsia brachycaulos v. multiflora (střední) | tillandsie | 70 Kč | [detail](https://www.lukscheiter.eu/tillandsia-brachycaulos-v--multiflora--stredni/) |
+| Tillandsia tricolor var. melanocrater (střední) | tillandsie | 70 Kč | [detail](https://www.lukscheiter.eu/tillandsia-tricolor-var--melanocrater--stredni/) |
+| Tillandsia bandensis | tillandsie | 80 Kč | [detail](https://www.lukscheiter.eu/tillandsia-bandensis/) |
+| Tillandsia albida (forma dlouhá) | tillandsie | 100 Kč | [detail](https://www.lukscheiter.eu/tillandsia-albida--forma-dlouha/) |
+| Tillandsia brachycaulos v. abdita (velká) | tillandsie | 100 Kč | [detail](https://www.lukscheiter.eu/tillandsia-brachycaulos-v--abdita--velka/) |
+| Tillandsia balbisiana 'Guatemala' | tillandsie | 120 Kč | [detail](https://www.lukscheiter.eu/tillandsia-balbisiana--guatemala/) |
+| Tillandsia albida var. minor | tillandsie | 150 Kč | [detail](https://www.lukscheiter.eu/tillandsia-albida-var--minor/) |
+| Tillandsia bandensis (trs) | tillandsie | 150 Kč | [detail](https://www.lukscheiter.eu/tillandsia-bandensis--trs/) |
+| Tillandsia capitata (velká) | tillandsie | 150 Kč | [detail](https://www.lukscheiter.eu/tillandsia-capitata--velka/) |
+| Tillandsia loliacea (trs) | tillandsie | 150 Kč | [detail](https://www.lukscheiter.eu/tillandsia-loliacea--trs/) |
+| Tillandsia aeranthos | tillandsie | 180 Kč | [detail](https://www.lukscheiter.eu/tillandsia-aeranthos/) |
+| Tillandsia bermeojensis | tillandsie | 290 Kč | [detail](https://www.lukscheiter.eu/tillandsia-bermeojensis/) |
+| Tillandsia aeranthos f. 'Gigant' | tillandsie | 350 Kč | [detail](https://www.lukscheiter.eu/tillandsia-aeranthos-f-gigant/) |
+| Eriocactus leninghausii | sukulenty a kaktusy | 45 Kč | [detail](https://www.lukscheiter.eu/eriocactus-leninghausii/) |
+| Aloe squarrosa - menší | sukulenty a kaktusy | 50 Kč | [detail](https://www.lukscheiter.eu/aloe-squarrosa-mensi/) |
+| Aloe humilis | sukulenty a kaktusy | 60 Kč | [detail](https://www.lukscheiter.eu/aloe-humilis/) |
+| Cereus peruvianus 'Golden Monstrosus' | sukulenty a kaktusy | 60 Kč | [detail](https://www.lukscheiter.eu/cereus-peruvianus--mostrosa/) |
+| Sedum rubrotinctum 'Jelly Bean' | sukulenty a kaktusy | 60 Kč | [detail](https://www.lukscheiter.eu/sedum-rubrotinctum--jelly-bean/) |
+| Cotyledon orbiculata 'Red Edge' | sukulenty a kaktusy | 65 Kč | [detail](https://www.lukscheiter.eu/cotyledon-orbiculata--red-edge/) |
+| Aloe haworthioides | sukulenty a kaktusy | 70 Kč | [detail](https://www.lukscheiter.eu/aloe-haworthioides/) |
+| Aloinopsis schooneesii | sukulenty a kaktusy | 70 Kč | [detail](https://www.lukscheiter.eu/aloinopsis-schooneesii/) |
+| Gymnocalycium saglione | sukulenty a kaktusy | 70 Kč | [detail](https://www.lukscheiter.eu/gymnocalycium-saglione/) |
+| Anacampseros telephiastrum variegata 'Sunrise' | sukulenty a kaktusy | 120 Kč | [detail](https://www.lukscheiter.eu/anacampseros-telephiastrum-variegata--sunrise-2/) |
+| Mammillaria elongata 'Copper' | sukulenty a kaktusy | 130 Kč | [detail](https://www.lukscheiter.eu/mammillaria-elongata--copper/) |
+| Cereus peruvianus 'Monstrosus Brown' (velký) | sukulenty a kaktusy | 150 Kč | [detail](https://www.lukscheiter.eu/cereus-peruvianus--monstrosus-brown-velky/) |
+| Crassula marnieriana 'Grey' | sukulenty a kaktusy | 160 Kč | [detail](https://www.lukscheiter.eu/crassula-marnieriana--grey/) |
+| Cereus peruvianus 'Tortuosus' | sukulenty a kaktusy | 330 Kč | [detail](https://www.lukscheiter.eu/cereus-peruvianus--tortuosus/) |
+| Dorstenia gigas (v) | sukulenty a kaktusy | 3000 Kč | [detail](https://www.lukscheiter.eu/dorstenia-gigas--v/) |
+| Adenium socotranum 'Pet Baan Na' (v) | sukulenty a kaktusy | 4650 Kč | [detail](https://www.lukscheiter.eu/adenium-socotranum--pet-baan-na/) |
+
+## Kandidáti, ktorí sa nepridali
+
+| Kandidát | Dôvod |
+|---|---|
+| KYTKYshop.cz | ARES IČO 88591280 uvádza kód 210, teda 20–24 pracovníkov; pre prvú sadu sme uprednostnili menšie rodinné predajne. Tržby nie sú doložené. |
+| Lístky radosti | Pri kontrole nebolo možné spoľahlivo overiť plnohodnotný skladový katalóg; web komunikoval otvorenie 5. októbra. |
+| Gardners | Web sa prezentuje ako najväčší predajca izbových rastlín v ČR; nesedí na zameranie prvej sady malých e-shopov bez ďalšieho preukázania veľkosti. |
+| Plantizia.cz ako samostatná ukážka | Ten istý vlastník a predajca ako slovenská Plantizia; duplicitná firma sa nepočíta ako nový kandidát. |
+
+Pri overení sa nepreukázal spoločný vlastník s existujúcimi zdokumentovanými ukážkami kozmetiky, vlasovej starostlivosti ani 43 vinárstiev.

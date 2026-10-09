@@ -79,11 +79,15 @@ def detail(p,slug):
   reason=' '.join(facts[:3]) or 'Konkrétny druh a variant z ponuky predajcu.',diameter=diameter if p['kind']=='pots' else None,
   potDiameter=diameter if p['kind'] not in ['pots','substrates'] else None,sourceText=text[:7000],
   photo=f'/assets/plants/{slug}-{p["id"]}.jpg',price=(f'{p["priceValue"]:.2f}'.replace('.',',')+' €') if p['currency']=='EUR' else f'{p["priceValue"]:g} Kč')
- # Confirm price/stock on the detail too, not just the category snapshot.
- stock=s.select_one('[itemprop="availability"]');price=s.select_one('meta[itemprop="price"]')
+ # Confirm price/stock/currency on the detail, never guess the currency.
+
+ stock=s.select_one('[itemprop="availability"]');price=s.select_one('meta[itemprop="price"]');currency=s.select_one('meta[itemprop="priceCurrency"]')
+ if not currency or currency.get('content') not in ['EUR','CZK']:raise ValueError('Missing verified currency')
+ p['currency']=currency['content']
  if stock and not (stock.get('href','')+stock.get('content','')).endswith('/InStock'):return None
  if price:
   value=float(price['content']);p['priceValue']=value;p['price']=f'{value:.2f}'.replace('.',',')+' €' if p['currency']=='EUR' else f'{value:g} Kč'
+ p['price']=f'{p["priceValue"]:.2f}'.replace('.',',')+' €' if p['currency']=='EUR' else f'{p["priceValue"]:g} Kč'
  # Prefer the full official product image, if the detail exposes it.
  meta=s.select_one('meta[property="og:image"]')
  if meta and 'content' in meta.attrs and '/products/' in meta['content']:p['imageSource']=meta['content']

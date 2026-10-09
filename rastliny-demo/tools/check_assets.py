@@ -13,6 +13,9 @@ for path in (ROOT/'data').glob('*.json'):
   total+=1
   if p['id'] in seen:fail.append(b['slug']+' duplicate '+p['id'])
   seen.add(p['id'])
+  if p['currency']!=b['currency']:fail.append(p['name']+' currency mismatch')
+  if b['currency']=='EUR' and not p['price'].endswith(' €'):fail.append(p['name']+' wrong currency label')
+  if b['currency']=='CZK' and not p['price'].endswith(' Kč'):fail.append(p['name']+' wrong currency label')
   if p['stock']!='InStock' or not p['url'].startswith(b['website']) or p['priceValue']<=0:fail.append(p['name']+' bad source/stock/price')
   try:
    im=Image.open(ROOT/p['photo'].lstrip('/'));im.verify()

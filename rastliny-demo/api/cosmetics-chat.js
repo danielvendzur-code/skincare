@@ -16,7 +16,7 @@ export function createHandler({apiKey=process.env.ANTHROPIC_API_KEY,model=proces
   // Well-defined constraints, care questions and seller-service questions are
   // handled locally. No model may replace a refusal with an unsafe product.
   const q=messages.at(-1).content.normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
-  const locallyConstrained=/polotien|polostin|menej svetla|malo svetla|priame slnko|slnec|nenaroc|zaciatoc|jedovat|toxick|mack|maci|pes|psov|zvierat|do\s+\d|doprava|doruc|objednav|reklamac|vraten|tmava miest|uplna tma|bez svetla|bez okn|zlt(?:e|nu|nuc).*list|list.*zlt|hnil|chorob|skodc/.test(q);
+  const locallyConstrained=/polotien|polostin|rozptylen|bez priameho sln|menej svetla|malo svetla|priame slnko|slnec|nenaroc|zaciatoc|jedovat|toxick|mack|maci|pes|psov|zvierat|(?:do|pod|max)\s+\d|doprava|doruc|objednav|reklamac|vraten|tmava miest|uplna tma|bez svetla|bez okn|zlt(?:e|nu|nuc).*list|list.*zlt|hnil|chorob|skodc/.test(q);
   if(!apiKey||locallyConstrained)return res.status(200).json({reply:fallback.text,products:fallback.products,mode:'catalogue'});
   const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),4500);
   try {

@@ -79,7 +79,7 @@ export function catalogueReply(brand,messages) {
  const exact=brand.products.filter(p=>q.includes(plain(p.name)));
  let answers={};
  if(/substrat|zemin/.test(q))answers.kind='substrates';else if(/kvetinac|crepnik|obal/.test(q))answers.kind='pots';else if(/terarium/.test(q))answers.kind='terrariums';else if(/orchide/.test(q)&&brand.kinds.includes('orchids'))answers.kind='orchids';else answers.kind=brand.kinds.includes('plants')?'plants':brand.kinds[0];
- if(/polotien|polostin|menej svetla|malo svetla|do tien/.test(q))answers.facet='low';else if(/priame slnko|slnec/.test(q))answers.facet='sun';
+ if(/polotien|polostin|menej svetla|malo svetla|do tien/.test(q))answers.facet='low';else if(/rozptylen|bez priameho sln|bez priame sln|nie.*priame.*sln|nechcem.*slnec/.test(q))answers.facet='bright';else if(/priame slnko|slnec/.test(q))answers.facet='sun';
  if(/nenaroc|zaciatoc|lahka starost/.test(q))answers.priority='easy';
  const money=q.match(/(?:do|pod|max)\s+(\d+(?:[.,]\d+)?)\s*(€|eur|kc)/);
  if(money){

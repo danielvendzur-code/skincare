@@ -1,0 +1,36 @@
+{
+  "checked": "2026-10-09",
+  "company": "Lukscheiter s.r.o.",
+  "ico": "08714410",
+  "owners": [
+    "Antonín Lukscheiter",
+    "Ing. Ondřej Lukscheiter"
+  ],
+  "shares": [
+    {
+      "owner": "Antonín Lukscheiter",
+      "percentage": "50"
+    },
+    {
+      "owner": "Ing. Ondřej Lukscheiter",
+      "percentage": "50"
+    }
+  ],
+  "executives": [
+    "Antonín Lukscheiter",
+    "Ing. Ondřej Lukscheiter"
+  ],
+  "employees": {
+    "code": "120",
+    "range": "6–9",
+    "source": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/08714410",
+    "recordUpdated": "2023-01-05"
+  },
+  "revenue": {
+    "value": null,
+    "year": null,
+    "source": null,
+    "note": "Tržby nie sú doložené použitým registrom; neuvádzame odhad."
+  },
+  "ownersSource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/08714410"
+}
