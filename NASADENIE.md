@@ -84,3 +84,7 @@ AI odpovede v chate: bez premennej `ANTHROPIC_API_KEY` chat odpovedá
 pripravenými odpoveďami z katalógu. Ak chceš živé odpovede, v oboch projektoch
 na Verceli pridaj v Settings → Environment Variables `ANTHROPIC_API_KEY`
 a sprav Redeploy.
+
+## Rastliny — nový segment
+
+Samostatný projekt s Root Directory `rastliny-demo`, pracovná vetva `codex/rastliny-ukazky`. Trasy a nastavenie: [rastliny-demo/NASADENIE.md](./rastliny-demo/NASADENIE.md). Pripravená subdoména `plantizia.mojchatbot.sk`; DNS sa nevytvára automaticky.

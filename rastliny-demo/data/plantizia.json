@@ -1,0 +1,2847 @@
+{
+  "name": "Plantizia",
+  "website": "https://plantizia.sk/",
+  "currency": "EUR",
+  "kinds": [
+    "plants",
+    "pots",
+    "substrates",
+    "terrariums"
+  ],
+  "theme": {
+    "brand": "#035d30",
+    "accent": "#035d30",
+    "soft": "#eef3e9",
+    "paper": "#fffefb",
+    "ink": "#18271d",
+    "line": "#d4dfd2"
+  },
+  "categoryNotes": {
+    "plants": "Svetlo a starostlivosť",
+    "pots": "Rozmer a materiál",
+    "substrates": "Určenie a balenie",
+    "terrariums": "Hotové rastlinné kompozície"
+  },
+  "slug": "plantizia",
+  "hero": "/assets/plants/plantizia.jpg",
+  "mobileHero": "/assets/plants/plantizia-mobile.jpg",
+  "logo": "/assets/plants/plantizia-logo.png",
+  "mark": "/assets/plants/plantizia-mark.png",
+  "products": [
+    {
+      "id": "p84606",
+      "name": "Drosera capensis",
+      "kind": "plants",
+      "price": "8,50 €",
+      "priceValue": 8.5,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/drosera-capensis/",
+      "photo": "/assets/plants/plantizia-p84606.jpg",
+      "tags": [
+        "bright"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Priemer pestovateľského črepníka: 8,5 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Priemer pestovateľského črepníka: 8,5 cm.",
+      "diameter": null,
+      "potDiameter": 8.5,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/05/drosera-capensis-plantizia.jpg"
+    },
+    {
+      "id": "p83153",
+      "name": "Asparagus setaceus malý",
+      "kind": "plants",
+      "price": "8,90 €",
+      "priceValue": 8.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/asparagus-setaceus-maly/",
+      "photo": "/assets/plants/plantizia-p83153.jpg",
+      "tags": [
+        "low"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, do tieňa.",
+        "Priemer pestovateľského črepníka: 6 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, do tieňa. Priemer pestovateľského črepníka: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/04/asparagus-setaceus-maly-plantizia.jpg"
+    },
+    {
+      "id": "p61104",
+      "name": "Tillandsia caput medusae v skle",
+      "kind": "terrariums",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/tillandsia-caput-medusae-v-skle/",
+      "photo": "/assets/plants/plantizia-p61104.jpg",
+      "tags": [
+        "airplants",
+        "bright",
+        "easy",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Terárium s tillandsiami podľa e-shopu."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/11/tillandsia-caput-medusae-v-skle-plantizia.jpg"
+    },
+    {
+      "id": "p184770",
+      "name": "Dekoračný kvetináč Terazzo",
+      "kind": "pots",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/dekoracny-kvetinac-terazzo/",
+      "photo": "/assets/plants/plantizia-p184770.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/09/dekoracny-kvetinac-terrazzo-plantizia.jpg"
+    },
+    {
+      "id": "p57859",
+      "name": "Tillandsia ionantha ružová",
+      "kind": "plants",
+      "price": "5,90 €",
+      "priceValue": 5.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/tillandsia-ionantha-ruzova/",
+      "photo": "/assets/plants/plantizia-p57859.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/10/tillandsia-ionantha-ruzova-plantizia.jpg"
+    },
+    {
+      "id": "p151528",
+      "name": "Dekoračný kvetináč Papagáj modrý 6 cm",
+      "kind": "pots",
+      "price": "5,90 €",
+      "priceValue": 5.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/dekoracny-kvetinac-papagaj-modry-6-cm/",
+      "photo": "/assets/plants/plantizia-p151528.jpg",
+      "tags": [
+        "ceramic",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 6 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 6 cm.",
+      "diameter": 6.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/06/dekoracny-kvetinac-papagaj-modry-plantizia-3.jpg"
+    },
+    {
+      "id": "p66274",
+      "name": "Hoštický substrát pre izbové rastliny 10 l",
+      "kind": "substrates",
+      "price": "5,50 €",
+      "priceValue": 5.5,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/hosticky-substrat-pre-izbove-rastliny-10-l/",
+      "photo": "/assets/plants/plantizia-p66274.jpg",
+      "tags": [
+        "indoor-mix",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre izbové rastliny.",
+        "Balenie podľa názvu: 10 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre izbové rastliny. Balenie podľa názvu: 10 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/04/substrat-pre-izbove-rastliny-10l-hosticky-substrat-plantizia.jpg"
+    },
+    {
+      "id": "p125112",
+      "name": "Brečtan / Hedera helix ‘Wonder’",
+      "kind": "plants",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/brectan-hedera-helix-wonder/",
+      "photo": "/assets/plants/plantizia-p125112.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 9 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Ťahavý rast podľa popisu predajcu.",
+      "diameter": null,
+      "potDiameter": 9.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/08/brectan-hedera-helix-wonder-plantizia.jpg"
+    },
+    {
+      "id": "p69791",
+      "name": "Opuntia microdasys albispina malá",
+      "kind": "plants",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/opuntia-microdasys-albispina/",
+      "photo": "/assets/plants/plantizia-p69791.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 5,5 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 5,5 cm.",
+      "diameter": null,
+      "potDiameter": 5.5,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/07/opuntia-microdasys-albispina-stredna-plantizia.jpg"
+    },
+    {
+      "id": "p67567",
+      "name": "Pilea peperomioides malá",
+      "kind": "plants",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/pilea-peperomioides-mini/",
+      "photo": "/assets/plants/plantizia-p67567.jpg",
+      "tags": [
+        "bright",
+        "pet-safe",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Priemer pestovateľského črepníka: 5,5 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami. Priemer pestovateľského črepníka: 5,5 cm.",
+      "diameter": null,
+      "potDiameter": 5.5,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/04/pilea-peperomioides-mala-plantizia.jpg"
+    },
+    {
+      "id": "p67202",
+      "name": "Alocasia ‘Dragon Scale’ malá",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/alocasia-dragon-scale-mala/",
+      "photo": "/assets/plants/plantizia-p67202.jpg",
+      "tags": [
+        "bright"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Priemer pestovateľského črepníka: 5 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Priemer pestovateľského črepníka: 5 cm.",
+      "diameter": null,
+      "potDiameter": 5.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/04/alocasia-dragon-scale-mala-plantizia.jpg"
+    },
+    {
+      "id": "p116579",
+      "name": "Kávovník / Coffea Arabica malá",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/kavovnik-coffea-arabica-mala/",
+      "photo": "/assets/plants/plantizia-p116579.jpg",
+      "tags": [
+        "bright"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Priemer pestovateľského črepníka: 7 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Priemer pestovateľského črepníka: 7 cm.",
+      "diameter": null,
+      "potDiameter": 7.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/04/kavovnik-Coffea-Arabica-plantizia.jpg"
+    },
+    {
+      "id": "p126274",
+      "name": "Nepenthes ‘Rebecca Soper’",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/nepenthes-rebecca-soper/",
+      "photo": "/assets/plants/plantizia-p126274.jpg",
+      "tags": [
+        "bright"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Priemer pestovateľského črepníka: 8,5 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Priemer pestovateľského črepníka: 8,5 cm.",
+      "diameter": null,
+      "potDiameter": 8.5,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/08/masozrava-rastlina-nepenthes-rebecca-soper-plantizia.jpg"
+    },
+    {
+      "id": "p94643",
+      "name": "Rodinné šťastie aurea / Soleirolia soleirolii aurea",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/rodinne-stastie-aurea-soleirolia-soleirolii-aurea/",
+      "photo": "/assets/plants/plantizia-p94643.jpg",
+      "tags": [
+        "bright",
+        "pet-safe",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 11 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami. Ťahavý rast podľa popisu predajcu.",
+      "diameter": null,
+      "potDiameter": 11.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/11/rodinne-stastie-soleirolia-soleirolii-aurea-plantizia-3.jpg"
+    },
+    {
+      "id": "p109448",
+      "name": "Starček / Senecio rowleyanus variegated malý",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/starcek-senecio-rowleyanus-variegated-maly/",
+      "photo": "/assets/plants/plantizia-p109448.jpg",
+      "tags": [
+        "bright",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 6 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Ťahavý rast podľa popisu predajcu. Priemer pestovateľského črepníka: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/03/senecio-rowleyanus-variegata-maly-plantizia.jpg"
+    },
+    {
+      "id": "p82922",
+      "name": "Ficus benjamina ‘Green Kinky’",
+      "kind": "plants",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/ficus-benjamina-green-kinky/",
+      "photo": "/assets/plants/plantizia-p82922.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/04/ficus-benjamina-green-kinky-4-plantizia.jpg"
+    },
+    {
+      "id": "p146613",
+      "name": "Lampášik / Ceropegia woodii ‘Variegata’ stredná",
+      "kind": "plants",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/lampasik-ceropegia-woodii-variegata-stredna/",
+      "photo": "/assets/plants/plantizia-p146613.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "pet-safe",
+        "sun",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 8,5 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": 8.5,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/11/lampasik-ceropegia-woodii-variegata-stredna-plantizia.jpg"
+    },
+    {
+      "id": "p57920",
+      "name": "Zamioculcas zamiifolia",
+      "kind": "plants",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/zamioculcas-zamiifolia/",
+      "photo": "/assets/plants/plantizia-p57920.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/06/zamioculcas-zamiifolia-8-plantizia.jpg"
+    },
+    {
+      "id": "p178837",
+      "name": "Hoya crassipetiolata ‘Splash’",
+      "kind": "plants",
+      "price": "13,90 €",
+      "priceValue": 13.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/hoya-crassipetiolata-splash/",
+      "photo": "/assets/plants/plantizia-p178837.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "pet-safe",
+        "sun",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 9 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": 9.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/06/voskovka-hoya-crassipetiolata-splash-stredna-plantizia.jpg"
+    },
+    {
+      "id": "p118588",
+      "name": "Monstera ‘Frozen Freckles’",
+      "kind": "plants",
+      "price": "14,90 €",
+      "priceValue": 14.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/monstera-frozen-freckles/",
+      "photo": "/assets/plants/plantizia-p118588.jpg",
+      "tags": [
+        "bright",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 6 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Ťahavý rast podľa popisu predajcu. Priemer pestovateľského črepníka: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/07/monstera-frozen-freckles-plantizia.jpg"
+    },
+    {
+      "id": "p57846",
+      "name": "Tillandsia capitata v aeráriu",
+      "kind": "plants",
+      "price": "14,90 €",
+      "priceValue": 14.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/tillandsia-capitata-v-aerariu/",
+      "photo": "/assets/plants/plantizia-p57846.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/10/tillandsia-capitata-aerarium-plantizia.jpg"
+    },
+    {
+      "id": "p136846",
+      "name": "Aranžmán s tillandsiou zelenou v guľatom skle 12 cm",
+      "kind": "plants",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/aranzman-s-tillandsiou-zelenou-v-gulatom-skle-12-cm/",
+      "photo": "/assets/plants/plantizia-p136846.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/12/aranzman-s-tillandsiami-v-skle-plantizia.jpg"
+    },
+    {
+      "id": "p71184",
+      "name": "Nepenthes gaya",
+      "kind": "plants",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/nepenthes-gaya/",
+      "photo": "/assets/plants/plantizia-p71184.jpg",
+      "tags": [
+        "bright"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Priemer pestovateľského črepníka: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/08/nepenthes-gaya-masozrava-rastlina-plantizia-scaled-1.webp"
+    },
+    {
+      "id": "p108239",
+      "name": "Zelenec / Chlorophytum orchidastrum ‘Fire Flash’",
+      "kind": "plants",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/zelenec-chlorophytum-orchidastrum-fire-flash/",
+      "photo": "/assets/plants/plantizia-p108239.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/04/zelenec-chlorophytum-orchidastrum-fire-flash-plantizia.jpg"
+    },
+    {
+      "id": "p73626",
+      "name": "Scindapsus treubii ‘Dark form’",
+      "kind": "plants",
+      "price": "17,90 €",
+      "priceValue": 17.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/scindapsus-treubii-dark-form/",
+      "photo": "/assets/plants/plantizia-p73626.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Ťahavý rast podľa popisu predajcu.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/11/scindapsus-treubii-dark-form-5-plantizia.jpg"
+    },
+    {
+      "id": "p140118",
+      "name": "Havajská palma / Brighamia insignis",
+      "kind": "plants",
+      "price": "18,90 €",
+      "priceValue": 18.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/havajska-palma-brighamia-insignis/",
+      "photo": "/assets/plants/plantizia-p140118.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/01/havajska-palma-brighamia-insignis-plantizia.jpg"
+    },
+    {
+      "id": "p79798",
+      "name": "Stephania erecta hľuza",
+      "kind": "plants",
+      "price": "18,90 €",
+      "priceValue": 18.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/stephania-erecta-hluza/",
+      "photo": "/assets/plants/plantizia-p79798.jpg",
+      "tags": [
+        "bright",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/11/hluza-stephania-erecta-plantizia-1.jpg"
+    },
+    {
+      "id": "p124636",
+      "name": "Anthurium andraeanum ‘Lilli’",
+      "kind": "plants",
+      "price": "19,90 €",
+      "priceValue": 19.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/anthurium-andraeanum-lilli/",
+      "photo": "/assets/plants/plantizia-p124636.jpg",
+      "tags": [
+        "bright",
+        "low"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, na rozptýlené svetlo.",
+        "Priemer pestovateľského črepníka: 10 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, na rozptýlené svetlo. Priemer pestovateľského črepníka: 10 cm.",
+      "diameter": null,
+      "potDiameter": 10.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/08/anthurium-andraeanum-lilli-plantizia-4-1.jpg"
+    },
+    {
+      "id": "p79206",
+      "name": "Lopatkovec / Spathiphyllum wallisii ‘Diamond’",
+      "kind": "plants",
+      "price": "19,90 €",
+      "priceValue": 19.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/lopatkovec-spathiphyllum-wallisii-diamond/",
+      "photo": "/assets/plants/plantizia-p79206.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 14 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 14 cm.",
+      "diameter": null,
+      "potDiameter": 14.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/10/lopatkovec-spathiphyllum-wallisii-diamond-plantizia.jpg"
+    },
+    {
+      "id": "p185237",
+      "name": "Orchidea Dendrobium Sa-Nook ‘White Pink’",
+      "kind": "plants",
+      "price": "19,90 €",
+      "priceValue": 19.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/orchidea-dendrobium-sa-nook-white-pink/",
+      "photo": "/assets/plants/plantizia-p185237.jpg",
+      "tags": [
+        "bright",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami. Priemer pestovateľského črepníka: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/10/orchidea-dendrobium-sa-nook-white-pink-kvet-plantizia.jpg"
+    },
+    {
+      "id": "p87179",
+      "name": "Philodendron ‘Ring of fire’",
+      "kind": "plants",
+      "price": "19,90 €",
+      "priceValue": 19.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/philodendron-ring-of-fire/",
+      "photo": "/assets/plants/plantizia-p87179.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 14 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 14 cm.",
+      "diameter": null,
+      "potDiameter": 14.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/06/philodendron-ring-of-fire-velky-plantizia-8.jpg"
+    },
+    {
+      "id": "p136950",
+      "name": "Vitrážové terárium so zelenou tillandsiou",
+      "kind": "plants",
+      "price": "19,90 €",
+      "priceValue": 19.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/vitrazove-terarium-so-zelenou-tillandsiou/",
+      "photo": "/assets/plants/plantizia-p136950.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/12/tillandsia-ionantha-zelena-vo-vitrazovom-terariu-plantizia.jpg"
+    },
+    {
+      "id": "p122619",
+      "name": "Adenium ‘Ansu Baobab’",
+      "kind": "plants",
+      "price": "24,90 €",
+      "priceValue": 24.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/adenium-ansu-baobab/",
+      "photo": "/assets/plants/plantizia-p122619.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/07/adenium-ansu-baobab-plantizia-2.jpg"
+    },
+    {
+      "id": "p95955",
+      "name": "Areca Dypsis lutescens veľká",
+      "kind": "plants",
+      "price": "24,90 €",
+      "priceValue": 24.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/areca-dypsis-lutescens-velka/",
+      "photo": "/assets/plants/plantizia-p95955.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Priemer pestovateľského črepníka: 17 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": 17.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/06/dypsis-lutescens-plantizia.jpg"
+    },
+    {
+      "id": "p182587",
+      "name": "Orchidea Oncidium ‘Charlesworthii’",
+      "kind": "plants",
+      "price": "24,90 €",
+      "priceValue": 24.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/orchidea-oncidium-charlesworthii/",
+      "photo": "/assets/plants/plantizia-p182587.jpg",
+      "tags": [
+        "bright",
+        "pet-safe",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami. Priemer pestovateľského črepníka: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/08/orchidea-oncidium-charlesworthii-kvet-plantizia.jpg"
+    },
+    {
+      "id": "p177748",
+      "name": "Zamioculcas ‘Zenzi’",
+      "kind": "plants",
+      "price": "24,90 €",
+      "priceValue": 24.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/zamioculcas-zenzi-2/",
+      "photo": "/assets/plants/plantizia-p177748.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/01/zamioculcas-zenzi-plantizia.jpg"
+    },
+    {
+      "id": "p74027",
+      "name": "Monstera obliqua",
+      "kind": "plants",
+      "price": "26,90 €",
+      "priceValue": 26.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/monstera-obliqua/",
+      "photo": "/assets/plants/plantizia-p74027.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Ťahavý rast podľa popisu predajcu.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/12/monstera-obliqua-plantizia.jpg"
+    },
+    {
+      "id": "p170487",
+      "name": "Monstera ‘Burle Marx Flame’ veľká",
+      "kind": "plants",
+      "price": "29,90 €",
+      "priceValue": 29.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/monstera-burle-marx-flame-velka-2/",
+      "photo": "/assets/plants/plantizia-p170487.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 14 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Ťahavý rast podľa popisu predajcu.",
+      "diameter": null,
+      "potDiameter": 14.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/06/monstera-burle-marx-flame-maxi-3-plantizia-1-e1773661015660.jpg"
+    },
+    {
+      "id": "p185646",
+      "name": "Aglaonema ‘Eyecatcher’ veľká",
+      "kind": "plants",
+      "price": "34,90 €",
+      "priceValue": 34.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/aglaonema-eyecatcher-red-velka/",
+      "photo": "/assets/plants/plantizia-p185646.jpg",
+      "tags": [
+        "bright",
+        "easy"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 15 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 15 cm.",
+      "diameter": null,
+      "potDiameter": 15.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/10/aglaonema-eyecatcher-velka-plantizia.jpg"
+    },
+    {
+      "id": "p185670",
+      "name": "Aglaonema ‘Red Sprinkles’ veľká",
+      "kind": "plants",
+      "price": "34,90 €",
+      "priceValue": 34.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/aglaonema-red-sprinkles-velka/",
+      "photo": "/assets/plants/plantizia-p185670.jpg",
+      "tags": [
+        "bright",
+        "easy"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 15 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 15 cm.",
+      "diameter": null,
+      "potDiameter": 15.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/10/aglaonema-red-sprinkles-velka-plantizia.jpg"
+    },
+    {
+      "id": "p68305",
+      "name": "Sansevieria trifasciata ‘Laurentii’ veľká",
+      "kind": "plants",
+      "price": "36,90 €",
+      "priceValue": 36.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/sansevieria-trifasciata-laurentii-velka/",
+      "photo": "/assets/plants/plantizia-p68305.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, do tieňa, na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 17 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, do tieňa, na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 17 cm.",
+      "diameter": null,
+      "potDiameter": 17.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/06/sansevieria-laurentii-velka-plantizia.jpg"
+    },
+    {
+      "id": "p66980",
+      "name": "Strelitzia nicolai veľká",
+      "kind": "plants",
+      "price": "59,90 €",
+      "priceValue": 59.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/strelitzia-nicolai-velka/",
+      "photo": "/assets/plants/plantizia-p66980.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 19 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 19 cm.",
+      "diameter": null,
+      "potDiameter": 19.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/05/strelitzia-nicolai-stredna-4-plantizia.jpg"
+    },
+    {
+      "id": "p174892",
+      "name": "Monstera deliciosa ‘Mint’ veľká",
+      "kind": "plants",
+      "price": "79,90 €",
+      "priceValue": 79.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/monstera-deliciosa-mint-velka-2/",
+      "photo": "/assets/plants/plantizia-p174892.jpg",
+      "tags": [
+        "bright",
+        "easy"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 15 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 15 cm.",
+      "diameter": null,
+      "potDiameter": 15.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/05/monstera-deliciosa-mint-velka-plantizia-.jpg"
+    },
+    {
+      "id": "p61119",
+      "name": "Cyperus zumula / Mačacia tráva",
+      "kind": "plants",
+      "price": "4,50 €",
+      "priceValue": 4.5,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/cyperus-zumula-macacia-trava/",
+      "photo": "/assets/plants/plantizia-p61119.jpg",
+      "tags": [
+        "bright",
+        "low",
+        "pet-safe",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, do tieňa, na priame slnko, na rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, do tieňa, na priame slnko, na rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami. Priemer pestovateľského črepníka: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/11/cyperus-zumula-macacia-trava-plantizia.jpg"
+    },
+    {
+      "id": "p57839",
+      "name": "Tillandsia capitata",
+      "kind": "plants",
+      "price": "5,90 €",
+      "priceValue": 5.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/tillandsia-capitata/",
+      "photo": "/assets/plants/plantizia-p57839.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/10/tillandsia-capitata-plantizia.jpg"
+    },
+    {
+      "id": "p57849",
+      "name": "Tillandsia caput medusae",
+      "kind": "plants",
+      "price": "5,90 €",
+      "priceValue": 5.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/tillandsia-caput-medusae/",
+      "photo": "/assets/plants/plantizia-p57849.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/10/tillandsia-caput-medusae-plantizia.jpg"
+    },
+    {
+      "id": "p168607",
+      "name": "Brečtan / Hedera Helix variegata",
+      "kind": "plants",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/brectan-hedera-helix-variegata/",
+      "photo": "/assets/plants/plantizia-p168607.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 9 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Ťahavý rast podľa popisu predajcu.",
+      "diameter": null,
+      "potDiameter": 9.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/02/brectan-hedera-helix-variegata-plantizia.jpg"
+    },
+    {
+      "id": "p178166",
+      "name": "Kaktus Hylocereus undatus",
+      "kind": "plants",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/kaktus-hylocereus-undatus/",
+      "photo": "/assets/plants/plantizia-p178166.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 5,5 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 5,5 cm.",
+      "diameter": null,
+      "potDiameter": 5.5,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/06/kaktus-hylocereus-undatus-plantizia.jpg"
+    },
+    {
+      "id": "p60556",
+      "name": "Peperomia prostrata malá",
+      "kind": "plants",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/peperomia-prostrata-mala/",
+      "photo": "/assets/plants/plantizia-p60556.jpg",
+      "tags": [
+        "bright",
+        "low",
+        "pet-safe",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, na rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 6 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, na rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami. Ťahavý rast podľa popisu predajcu.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/11/peperomia-prostrata-mala-plantizia.jpg"
+    },
+    {
+      "id": "p74319",
+      "name": "Pilea glauca aquamarine malá",
+      "kind": "plants",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/pilea-glauca-aquamarine-mala/",
+      "photo": "/assets/plants/plantizia-p74319.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "pet-safe",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Priemer pestovateľského črepníka: 5,5 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": 5.5,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/11/pilea-glauca-aquamarine-plantizia.jpg"
+    },
+    {
+      "id": "p115302",
+      "name": "Živé kamene / Lithopsy hnedé",
+      "kind": "plants",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/zive-kamene-lithopsy-hnede/",
+      "photo": "/assets/plants/plantizia-p115302.jpg",
+      "tags": [
+        "bright",
+        "pet-safe",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Priemer pestovateľského črepníka: 5 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami. Priemer pestovateľského črepníka: 5 cm.",
+      "diameter": null,
+      "potDiameter": 5.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/10/lithopsy-zive-kamene-hnede-plantizia-2.jpg"
+    },
+    {
+      "id": "p136258",
+      "name": "Alocasia scalprum malá",
+      "kind": "plants",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/alocasia-scalprum-mala/",
+      "photo": "/assets/plants/plantizia-p136258.jpg",
+      "tags": [
+        "bright"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Priemer pestovateľského črepníka: 6 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Priemer pestovateľského črepníka: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/12/alocasia-scalprum-mala-plantizia.jpg"
+    },
+    {
+      "id": "p94525",
+      "name": "Lampášik / Ceropegia woodii variegata mini",
+      "kind": "plants",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/lampasik-ceropegia-woodii-variegata-mini/",
+      "photo": "/assets/plants/plantizia-p94525.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "pet-safe",
+        "sun",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 5 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": 5.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/11/ceropegia-woodii-variegata-mini-plantizia.jpg"
+    },
+    {
+      "id": "p57893",
+      "name": "Tradescantia ‘Nanouk’",
+      "kind": "plants",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/tradescantia-nanouk/",
+      "photo": "/assets/plants/plantizia-p57893.jpg",
+      "tags": [
+        "bright",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 7 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Ťahavý rast podľa popisu predajcu. Priemer pestovateľského črepníka: 7 cm.",
+      "diameter": null,
+      "potDiameter": 7.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2020/10/tradescantia-nanouk-plantizia.jpg"
+    },
+    {
+      "id": "p140140",
+      "name": "Zelenec / Chlorophytum comosum ‘Ocean’ malý",
+      "kind": "plants",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/zelenec-chlorophytum-ocean-maly/",
+      "photo": "/assets/plants/plantizia-p140140.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Priemer pestovateľského črepníka: 5,5 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, do tieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": 5.5,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/01/zelenec-chlorophytum-comosum-ocean-maly-plantizia.jpg"
+    },
+    {
+      "id": "p97259",
+      "name": "Mäsožravá rastlina Pinguicula agnata",
+      "kind": "plants",
+      "price": "8,50 €",
+      "priceValue": 8.5,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/masozrava-rastlina-pinguicula-agnata/",
+      "photo": "/assets/plants/plantizia-p97259.jpg",
+      "tags": [
+        "bright"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Priemer pestovateľského črepníka: 8,5 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Priemer pestovateľského črepníka: 8,5 cm.",
+      "diameter": null,
+      "potDiameter": 8.5,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/12/masozrava-rastlina-pinguicula-agnata-plantizia.jpg"
+    },
+    {
+      "id": "p124010",
+      "name": "Alocasia ‘Antoro velvet’ malá",
+      "kind": "plants",
+      "price": "8,90 €",
+      "priceValue": 8.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/alocasia-antoro-velvet-stredna/",
+      "photo": "/assets/plants/plantizia-p124010.jpg",
+      "tags": [
+        "bright"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Priemer pestovateľského črepníka: 6 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Priemer pestovateľského črepníka: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/08/alocasia-antoro-velvet-stredna-plantizia.jpg"
+    },
+    {
+      "id": "p157583",
+      "name": "Aglaonema ‘White Anyamanee’ malá",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/aglaonema-white-anyamanee-mala/",
+      "photo": "/assets/plants/plantizia-p157583.jpg",
+      "tags": [
+        "bright",
+        "easy"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 6 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/09/aglaonema-white-anyamanee-plantizia.jpg"
+    },
+    {
+      "id": "p64292",
+      "name": "Alocasia cuprea ‘Red Secret’ malá",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/alocasia-cuprea-red-secret-mala/",
+      "photo": "/assets/plants/plantizia-p64292.jpg",
+      "tags": [
+        "bright"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Priemer pestovateľského črepníka: 6 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Priemer pestovateľského črepníka: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/06/alocasia-cuprea-red-secret-mala-3-plantizia.jpg"
+    },
+    {
+      "id": "p178912",
+      "name": "Hoya carnosa ‘Freckles’",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/hoya-carnosa-freckles/",
+      "photo": "/assets/plants/plantizia-p178912.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "pet-safe",
+        "sun",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 9 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": 9.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/06/voskovka-hoya-carnosa-freckles-plantizia.jpg"
+    },
+    {
+      "id": "p87181",
+      "name": "Mäsožravá rastlina Sarracenia purpurea venosa",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/sarracenia-purpurea-venosa/",
+      "photo": "/assets/plants/plantizia-p87181.jpg",
+      "tags": [
+        "bright"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Priemer pestovateľského črepníka: 8,5 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Priemer pestovateľského črepníka: 8,5 cm.",
+      "diameter": null,
+      "potDiameter": 8.5,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/06/sarracenia-purpurea-venosa-masozrava-rastlina-plantizia.jpg"
+    },
+    {
+      "id": "p108674",
+      "name": "Philodendron ‘Pink Princess Marble’ malý",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/philodendron-pink-princess-marble-maly/",
+      "photo": "/assets/plants/plantizia-p108674.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 6 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/07/philodendron-pink-princess-stredny-plantizia.jpg"
+    },
+    {
+      "id": "p82917",
+      "name": "Philodendron ‘Ring of fire’ malý",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/philodendron-ring-of-fire-maly/",
+      "photo": "/assets/plants/plantizia-p82917.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 6 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/04/philodendron-ring-of-fire-plantizia.jpg"
+    },
+    {
+      "id": "p94644",
+      "name": "Selaginella lepidophylla / Ruža z jericha",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/selaginella-lepidophylla-ruza-z-jericha/",
+      "photo": "/assets/plants/plantizia-p94644.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "low",
+        "pet-safe",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami."
+      ],
+      "reason": "Svetlo: do polotieňa, na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/11/selaginella-lepidophylla-ruza-z-jericha-plantizia.jpg"
+    },
+    {
+      "id": "p180363",
+      "name": "Slonia noha / Nolina recurvata malá",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/slonia-noha-nolina-recurvata-mala/",
+      "photo": "/assets/plants/plantizia-p180363.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "pet-safe",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Priemer pestovateľského črepníka: 6 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/02/slonia-noha-nolina-recurvata-mala-plantizia.jpg"
+    },
+    {
+      "id": "p57804",
+      "name": "Syngonium ‘Milk Confetti’",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/syngonium-milk-confetti/",
+      "photo": "/assets/plants/plantizia-p57804.jpg",
+      "tags": [
+        "bright",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Svetlo: do polotieňa, na rozptýlené svetlo.",
+        "Ťahavý rast podľa popisu predajcu.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: do polotieňa, na rozptýlené svetlo. Ťahavý rast podľa popisu predajcu. Priemer pestovateľského črepníka: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/09/syngonium-milk-confetti-plantizia.jpg"
+    },
+    {
+      "id": "p125396",
+      "name": "Adenium obesum mini / Púštna ruža",
+      "kind": "plants",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/adenium-obesum-mini/",
+      "photo": "/assets/plants/plantizia-p125396.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "sun"
+      ],
+      "facts": [
+        "Svetlo: na priame slnko, na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Priemer pestovateľského črepníka: 6 cm."
+      ],
+      "reason": "Svetlo: na priame slnko, na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Priemer pestovateľského črepníka: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/01/adenium-obesum-pustna-ruza-mini-plantizia.jpg"
+    },
+    {
+      "id": "p84608",
+      "name": "Hypoestes farebný mix",
+      "kind": "plants",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/hypoestes-farebny-mix/",
+      "photo": "/assets/plants/plantizia-p84608.jpg",
+      "tags": [
+        "bright",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Priemer pestovateľského črepníka: 12 cm."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami. Priemer pestovateľského črepníka: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/05/hypoestes-farebny-mix.jpg"
+    },
+    {
+      "id": "p151542",
+      "name": "Dekoračný kvetináč Papagáj červený 6 cm",
+      "kind": "pots",
+      "price": "5,90 €",
+      "priceValue": 5.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/dekoracny-kvetinac-papagaj-cerveny-6-cm/",
+      "photo": "/assets/plants/plantizia-p151542.jpg",
+      "tags": [
+        "ceramic",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 6 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 6 cm.",
+      "diameter": 6.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/06/dekoracny-kvetinac-papagaj-cerveny-plantizia.jpg"
+    },
+    {
+      "id": "p169787",
+      "name": "Keramický kvetináč Corym čierny 13 cm",
+      "kind": "pots",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-corym-cierny-13-cm/",
+      "photo": "/assets/plants/plantizia-p169787.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/03/keramicky-kvetinac-corym-cierny-plantizia.jpg"
+    },
+    {
+      "id": "p180383",
+      "name": "Keramický kvetináč Bubble lilac 10 cm",
+      "kind": "pots",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-bubble-lilac-10-cm/",
+      "photo": "/assets/plants/plantizia-p180383.jpg",
+      "tags": [
+        "ceramic",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 10 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 10 cm.",
+      "diameter": 10.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/02/keramicky-kvetinac-bubble-lilac-plantizia.jpg"
+    },
+    {
+      "id": "p180379",
+      "name": "Keramický kvetináč Bubble peach 10 cm",
+      "kind": "pots",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-bubble-peach-10-cm/",
+      "photo": "/assets/plants/plantizia-p180379.jpg",
+      "tags": [
+        "ceramic",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 10 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 10 cm.",
+      "diameter": 10.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/02/keramicky-kvetinac-bubble-peach-plantizia.jpg"
+    },
+    {
+      "id": "p180384",
+      "name": "Keramický kvetináč Bubble violet 10 cm",
+      "kind": "pots",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-bubble-violet-10-cm/",
+      "photo": "/assets/plants/plantizia-p180384.jpg",
+      "tags": [
+        "ceramic",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 10 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 10 cm.",
+      "diameter": 10.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/02/keramicky-kvetinac-bubble-violet-plantizia.jpg"
+    },
+    {
+      "id": "p180374",
+      "name": "Keramický kvetináč Bubble white 10 cm",
+      "kind": "pots",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-bubble-white-10-cm/",
+      "photo": "/assets/plants/plantizia-p180374.jpg",
+      "tags": [
+        "ceramic",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 10 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 10 cm.",
+      "diameter": 10.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/07/keramicky-kvetinac-bubble-white-plantizia.jpg"
+    },
+    {
+      "id": "p169779",
+      "name": "Keramický kvetináč Simple line white 13 cm",
+      "kind": "pots",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-simple-line-white-13-cm/",
+      "photo": "/assets/plants/plantizia-p169779.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/02/keramicky-kvetinac.simple-line-white-13-cm-plantizia.jpg"
+    },
+    {
+      "id": "p181649",
+      "name": "Keramický kvetináč na orchidey biely 13 cm",
+      "kind": "pots",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-na-orchidey-biely-13-cm/",
+      "photo": "/assets/plants/plantizia-p181649.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/08/keramicky-kvetinac-na-orchidey-biely-plantizia.jpg"
+    },
+    {
+      "id": "p181638",
+      "name": "Keramický kvetináč na orchidey ružový 13 cm",
+      "kind": "pots",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-na-orchidey-ruzovy-13-cm/",
+      "photo": "/assets/plants/plantizia-p181638.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/08/keramicky-kvetinac-na-orchidey-ruzovy-plantizia.jpg"
+    },
+    {
+      "id": "p185082",
+      "name": "Keramický črepník s podmiskou Aqua",
+      "kind": "pots",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-crepnik-s-podmiskou-aqua/",
+      "photo": "/assets/plants/plantizia-p185082.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot",
+        "saucer"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/10/keramicky-kvetinac-s-podmiskou-aqua-plantizia.jpg"
+    },
+    {
+      "id": "p184773",
+      "name": "Keramický črepník s podmiskou Blue Wave",
+      "kind": "pots",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-crepnik-s-podmiskou-blue-wave/",
+      "photo": "/assets/plants/plantizia-p184773.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot",
+        "saucer"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/09/keramicky-kvetinac-s-podmiskou-blue-wave-plantizia.jpg"
+    },
+    {
+      "id": "p169780",
+      "name": "Keramický kvetináč Simple line black 13 cm",
+      "kind": "pots",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-simple-line-black-13-cm/",
+      "photo": "/assets/plants/plantizia-p169780.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/02/keramicky-kvetinac.simple-line-black-13-cm-plantizia.jpg"
+    },
+    {
+      "id": "p169777",
+      "name": "Keramický kvetináč Simple line green 13 cm",
+      "kind": "pots",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-simple-line-green-13-cm/",
+      "photo": "/assets/plants/plantizia-p169777.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/02/keramicky-kvetinac.simple-line-green.13-cm-plantizia.jpg"
+    },
+    {
+      "id": "p169775",
+      "name": "Keramický kvetináč Trophy green 13 cm",
+      "kind": "pots",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-trophy-green13-cm/",
+      "photo": "/assets/plants/plantizia-p169775.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/02/keramicky-kvetinac-trophy-green-plantizia.jpg"
+    },
+    {
+      "id": "p169764",
+      "name": "Keramický kvetináč Trophy pink 13 cm",
+      "kind": "pots",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-trophy-pink-13-cm/",
+      "photo": "/assets/plants/plantizia-p169764.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/02/keramicky-kvetinac-trophy-pink-plantizia.jpg"
+    },
+    {
+      "id": "p172516",
+      "name": "Keramický kvetináč Duo Rainbow sivý",
+      "kind": "pots",
+      "price": "12,90 €",
+      "priceValue": 12.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-duo-rainbow-sivy/",
+      "photo": "/assets/plants/plantizia-p172516.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/04/keramicky-kvetinac-duo-rainbow-sivy-plantizia-2.jpg"
+    },
+    {
+      "id": "p172501",
+      "name": "Keramický kvetináč Duo Rainbow svetlozelený",
+      "kind": "pots",
+      "price": "12,90 €",
+      "priceValue": 12.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/keramicky-kvetinac-duo-rainbow-svetlozeleny/",
+      "photo": "/assets/plants/plantizia-p172501.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/04/keramicky-kvetinac-duo-rainbow-svetlozeleny-plantizia.jpg"
+    },
+    {
+      "id": "p169836",
+      "name": "Dekoračný kvetináč Antique Fig 13 cm",
+      "kind": "pots",
+      "price": "15,90 €",
+      "priceValue": 15.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/dekoracny-kvetinac-antique-fig-13-cm/",
+      "photo": "/assets/plants/plantizia-p169836.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/03/dekoracny-kvetinac-Antique-Fig-plantizia.jpg"
+    },
+    {
+      "id": "p154928",
+      "name": "Dekoračný kvetináč Origami biely 13 cm",
+      "kind": "pots",
+      "price": "15,90 €",
+      "priceValue": 15.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/dekoracny-kvetinac-origami-biely-13-cm/",
+      "photo": "/assets/plants/plantizia-p154928.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 13 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/07/dekoracny-kvetinac-origami-biely-plantizia.jpg"
+    },
+    {
+      "id": "p151739",
+      "name": "Plastový podlhovastý kvetináč čierny na nožičkách 58 cm",
+      "kind": "pots",
+      "price": "19,90 €",
+      "priceValue": 19.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/plastovy-podlhovasty-kvetinac-cierny-na-nozickach-58-cm/",
+      "photo": "/assets/plants/plantizia-p151739.jpg",
+      "tags": [
+        "large-pot",
+        "plastic"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 58 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 58 cm.",
+      "diameter": 58.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/06/plastovy-podlhovasty-cierny-na-nozickach-58cm-plantizia.jpg"
+    },
+    {
+      "id": "p178824",
+      "name": "Vysoký hrant s vkladom antracitový 77 cm",
+      "kind": "pots",
+      "price": "89,90 €",
+      "priceValue": 89.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/vysoky-hrant-s-vkladom-antracitovy-77-cm/",
+      "photo": "/assets/plants/plantizia-p178824.jpg",
+      "tags": [
+        "large-pot",
+        "plastic"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 77 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 77 cm.",
+      "diameter": 77.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/06/vysoky-hrant-s-vkladom-antracitovy-plantizia.jpg"
+    },
+    {
+      "id": "p178802",
+      "name": "Vysoký hrant s vkladom biely 77 cm",
+      "kind": "pots",
+      "price": "89,90 €",
+      "priceValue": 89.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/vysoky-hrant-s-vkladom-biely-77-cm/",
+      "photo": "/assets/plants/plantizia-p178802.jpg",
+      "tags": [
+        "large-pot",
+        "plastic"
+      ],
+      "facts": [
+        "Priemer podľa e-shopu: 77 cm."
+      ],
+      "reason": "Priemer podľa e-shopu: 77 cm.",
+      "diameter": 77.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2026/06/vysoky-hrant-s-vkladom-biely-plantizia-.jpg"
+    },
+    {
+      "id": "p58863",
+      "name": "Forestina Substrát pre orchidey 2 l",
+      "kind": "substrates",
+      "price": "2,90 €",
+      "priceValue": 2.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/substrat-pre-orchidey-2-l/",
+      "photo": "/assets/plants/plantizia-p58863.jpg",
+      "tags": [
+        "orchid-mix",
+        "volume-small"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre orchidey.",
+        "Balenie podľa názvu: 2 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre orchidey. Balenie podľa názvu: 2 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/11/substrat-pre-orchidee-a-bromelie-forestina-2l-plantizia.jpg"
+    },
+    {
+      "id": "p66271",
+      "name": "Hoštický substrát pre izbové rastliny 5 l",
+      "kind": "substrates",
+      "price": "3,90 €",
+      "priceValue": 3.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/hosticky-substrat-pre-izbove-rastliny-5-l/",
+      "photo": "/assets/plants/plantizia-p66271.jpg",
+      "tags": [
+        "indoor-mix",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre izbové rastliny.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre izbové rastliny. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/04/substrat-pre-izbove-rastliny-5l-hosticky-substrat-plantizia.jpg"
+    },
+    {
+      "id": "p66269",
+      "name": "Rosteto Substrát pre orchidey 3 l",
+      "kind": "substrates",
+      "price": "4,90 €",
+      "priceValue": 4.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/rosteto-substrat-pre-orchidey-3-l/",
+      "photo": "/assets/plants/plantizia-p66269.jpg",
+      "tags": [
+        "orchid-mix",
+        "volume-small"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre orchidey.",
+        "Balenie podľa názvu: 3 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre orchidey. Balenie podľa názvu: 3 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/04/substrat-pre-orchidee-a-bromelie-rosteto-3l-plantizia.jpg"
+    },
+    {
+      "id": "p58345",
+      "name": "Substrát Profík pre izbové rastliny 5 l",
+      "kind": "substrates",
+      "price": "4,90 €",
+      "priceValue": 4.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/substrat-profik-pre-izbove-rastliny-5-l/",
+      "photo": "/assets/plants/plantizia-p58345.jpg",
+      "tags": [
+        "indoor-mix",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre izbové rastliny.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre izbové rastliny. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/10/forestina-profik-supresivny-substrat-pre-izbove-rastliny-5l-plantizia.jpg"
+    },
+    {
+      "id": "p58353",
+      "name": "Substrát Profík pre výsev a množenie 5 l",
+      "kind": "substrates",
+      "price": "4,90 €",
+      "priceValue": 4.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/substrat-profik-pre-vysev-a-mnozenie-5-l/",
+      "photo": "/assets/plants/plantizia-p58353.jpg",
+      "tags": [
+        "indoor-mix",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre izbové rastliny.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre izbové rastliny. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/10/forestina-profik-supresivny-substrat-pre-vysev-a-mnozenie-5l-plantizia.jpg"
+    },
+    {
+      "id": "p74203",
+      "name": "Substrát pre bonsaje rašelina premium 5 l",
+      "kind": "substrates",
+      "price": "4,90 €",
+      "priceValue": 4.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/substrat-pre-bonsaje-raselina-premium-5-l/",
+      "photo": "/assets/plants/plantizia-p74203.jpg",
+      "tags": [
+        "indoor-mix",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre izbové rastliny.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre izbové rastliny. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/11/substrat-pre-bonsaje-raselina-premium-5l-plantizia.jpg"
+    },
+    {
+      "id": "p66270",
+      "name": "Substrát rašelina premium pre kaktusy a sukulenty 5 l",
+      "kind": "substrates",
+      "price": "4,90 €",
+      "priceValue": 4.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/substrat-raselina-premium-pre-kaktusy-a-sukulenty-5-l/",
+      "photo": "/assets/plants/plantizia-p66270.jpg",
+      "tags": [
+        "cactus-mix",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre kaktusy a sukulenty.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre kaktusy a sukulenty. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/04/substrat-pre-kaktusy-a-sukulenty-5l-raselina-premium-plantizia.jpg"
+    },
+    {
+      "id": "p81945",
+      "name": "Substrát Profík pre bonsaje 5 l",
+      "kind": "substrates",
+      "price": "5,90 €",
+      "priceValue": 5.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/substrat-profik-pre-bonsaje-5-l/",
+      "photo": "/assets/plants/plantizia-p81945.jpg",
+      "tags": [
+        "indoor-mix",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre izbové rastliny.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre izbové rastliny. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2023/04/substrat-profik-pre-bonsaje-5l-plantizia.sk_-1.jpg"
+    },
+    {
+      "id": "p58351",
+      "name": "Substrát Profík pre orchidey a bromélie 5 l",
+      "kind": "substrates",
+      "price": "5,90 €",
+      "priceValue": 5.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/substrat-profik-pre-orchidee-a-bromelie-5-l/",
+      "photo": "/assets/plants/plantizia-p58351.jpg",
+      "tags": [
+        "orchid-mix",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre orchidey.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre orchidey. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/10/forestina-profik-substrat-pre-orchidee-a-bromelie-5l-plantizia.jpg"
+    },
+    {
+      "id": "p58347",
+      "name": "Substrát Profík pre kaktusy a sukulenty 5 l",
+      "kind": "substrates",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/substrat-profik-pre-kaktusy-a-sukulenty-5-l/",
+      "photo": "/assets/plants/plantizia-p58347.jpg",
+      "tags": [
+        "cactus-mix",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre kaktusy a sukulenty.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre kaktusy a sukulenty. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/10/forestina-profik-substrat-pre-kaktusy-a-sukulenty-5l-plantizia.jpg"
+    },
+    {
+      "id": "p66275",
+      "name": "Hoštický substrát pre izbové rastliny 20 l",
+      "kind": "substrates",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/hosticky-substrat-pre-izbove-rastliny-20-l/",
+      "photo": "/assets/plants/plantizia-p66275.jpg",
+      "tags": [
+        "indoor-mix",
+        "volume-large"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre izbové rastliny.",
+        "Balenie podľa názvu: 20 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre izbové rastliny. Balenie podľa názvu: 20 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/03/hosticky-substrat-na-izbove-rastliny-20l-plantizia.png"
+    },
+    {
+      "id": "p114344",
+      "name": "Substrát Profík pre citrusy 15 l",
+      "kind": "substrates",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/substrat-profik-pre-citrusy-15-l/",
+      "photo": "/assets/plants/plantizia-p114344.jpg",
+      "tags": [
+        "indoor-mix",
+        "volume-large"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre balkónové rastliny, Substráty pre izbové rastliny.",
+        "Balenie podľa názvu: 15 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre balkónové rastliny, Substráty pre izbové rastliny. Balenie podľa názvu: 15 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/03/profik-substrat-pre-citrusy-a-stredomorske-rastliny-15l-plantizia.jpg"
+    },
+    {
+      "id": "p58343",
+      "name": "Substrát Profík pre izbové rastliny 15 l",
+      "kind": "substrates",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/substrat-profik-pre-izbove-rastliny-15-l/",
+      "photo": "/assets/plants/plantizia-p58343.jpg",
+      "tags": [
+        "indoor-mix",
+        "volume-large"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre izbové rastliny.",
+        "Balenie podľa názvu: 15 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre izbové rastliny. Balenie podľa názvu: 15 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/10/forestina-profik-supresivny-substrat-pre-izbove-rastliny-15l-plantizia.jpg"
+    },
+    {
+      "id": "p110803",
+      "name": "Substrát Profík pre izbové rastliny minerálny 5 l",
+      "kind": "substrates",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/substrat-profik-pre-izbove-rastliny-mineralny-5-l/",
+      "photo": "/assets/plants/plantizia-p110803.jpg",
+      "tags": [
+        "hydro-mix",
+        "indoor-mix",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre izbové rastliny.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre izbové rastliny. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/02/substrat-forestina-profik-mineralny-pre-izbove-rastliny-5-l-plantizia.jpeg"
+    },
+    {
+      "id": "p66267",
+      "name": "Substrát Profík pre výsev a množenie 15 l",
+      "kind": "substrates",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/substrat-profik-pre-vysev-a-mnozenie-15-l/",
+      "photo": "/assets/plants/plantizia-p66267.jpg",
+      "tags": [
+        "indoor-mix",
+        "volume-large"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre izbové rastliny.",
+        "Balenie podľa názvu: 15 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre izbové rastliny. Balenie podľa názvu: 15 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2022/04/substrat-profik-pre-vysev-a-mnozenie-forestina-15l-plantizia.jpg"
+    },
+    {
+      "id": "p149214",
+      "name": "Hoštický substrát pre palmy, juky, dracény 20 l",
+      "kind": "substrates",
+      "price": "8,90 €",
+      "priceValue": 8.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/hosticky-substrat-pre-palmy-juky-draceny-20-l/",
+      "photo": "/assets/plants/plantizia-p149214.jpg",
+      "tags": [
+        "indoor-mix",
+        "volume-large"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre izbové rastliny.",
+        "Balenie podľa názvu: 20 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre izbové rastliny. Balenie podľa názvu: 20 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2025/05/hosticky-substrat-pre-palmy-juky-draceny-20l-plantizia.jpg"
+    },
+    {
+      "id": "p113891",
+      "name": "Rosteto Substrát pre orchidey 8 l",
+      "kind": "substrates",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/rosteto-substrat-pre-orchidey-8-l/",
+      "photo": "/assets/plants/plantizia-p113891.jpg",
+      "tags": [
+        "orchid-mix",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie podľa predajcu: Substráty pre orchidey.",
+        "Balenie podľa názvu: 8 l."
+      ],
+      "reason": "Určenie podľa predajcu: Substráty pre orchidey. Balenie podľa názvu: 8 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/03/rosteto-substrat-pre-orchidey-8l-plantiziaa.jpg"
+    },
+    {
+      "id": "p61103",
+      "name": "Tillandsia ionantha ružová v skle",
+      "kind": "terrariums",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/tillandsia-ionantha-ruzova-v-skle/",
+      "photo": "/assets/plants/plantizia-p61103.jpg",
+      "tags": [
+        "airplants",
+        "bright",
+        "easy",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Terárium s tillandsiami podľa e-shopu."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2021/11/tillandsia-ionantha-ruzova-v-skle-plantizia.jpg"
+    },
+    {
+      "id": "p136949",
+      "name": "Tillandsia ionantha zelená v aeráriu",
+      "kind": "terrariums",
+      "price": "14,90 €",
+      "priceValue": 14.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/tillandsia-ionantha-zelena-v-aerariu/",
+      "photo": "/assets/plants/plantizia-p136949.jpg",
+      "tags": [
+        "airplants",
+        "bright",
+        "easy",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Terárium s tillandsiami podľa e-shopu."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/12/tillandsia-ionantha-zelena-v-aerariu-plantizia.jpg"
+    },
+    {
+      "id": "p136861",
+      "name": "Aranžmán s tillandsiou ružovou v aeráriu 15 cm",
+      "kind": "terrariums",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/aranzman-s-tillandsiou-ruzovou-v-aerariu-10-cm/",
+      "photo": "/assets/plants/plantizia-p136861.jpg",
+      "tags": [
+        "airplants",
+        "bright",
+        "easy",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Terárium s tillandsiami podľa e-shopu."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/12/aranzman-s-tillandsiami-v-aerariu-plantizia.jpg"
+    },
+    {
+      "id": "p136849",
+      "name": "Aranžmán s tillandsiou ružovou v guľatom skle 12 cm",
+      "kind": "terrariums",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/aranzman-s-tillandsiou-ruzovou-v-gulatom-skle-12-cm/",
+      "photo": "/assets/plants/plantizia-p136849.jpg",
+      "tags": [
+        "airplants",
+        "bright",
+        "easy",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Terárium s tillandsiami podľa e-shopu."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/12/aranzman-s-tillandsiami-v-skle-plantizia-4.jpg"
+    },
+    {
+      "id": "p75850",
+      "name": "Vitrážové terárium s ružovou tillandsiou",
+      "kind": "terrariums",
+      "price": "21,90 €",
+      "priceValue": 21.9,
+      "currency": "EUR",
+      "url": "https://plantizia.sk/obchod/vitrazove-terarium-s-tillandsiou/",
+      "photo": "/assets/plants/plantizia-p75850.jpg",
+      "tags": [
+        "airplants",
+        "bright",
+        "easy",
+        "pet-safe"
+      ],
+      "facts": [
+        "Svetlo: na rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+        "Terárium s tillandsiami podľa e-shopu."
+      ],
+      "reason": "Svetlo: na rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://plantizia.sk/wp-content/uploads/2024/12/tillandsia-ionantha-ruzova-vo-vitrazovom-terariu-plantizia.jpg"
+    }
+  ]
+}

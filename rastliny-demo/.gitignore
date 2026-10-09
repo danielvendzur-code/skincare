@@ -1,0 +1,7 @@
+node_modules/
+qa-raw/
+research/source-images/
+__pycache__/
+research/2026-10-09/*-rpo*.json
+research/2026-10-09/*-ru-*.json
+research/2026-10-09/*-ares-*.json

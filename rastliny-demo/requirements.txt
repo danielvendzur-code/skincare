@@ -1,0 +1,5 @@
+Pillow>=10
+beautifulsoup4>=4.12
+requests>=2.31
+cairosvg>=2.7
+numpy>=1.26

@@ -1,0 +1,32 @@
+{
+  "checked": "2026-10-09",
+  "company": "prírodno s. r. o.",
+  "ico": "52542858",
+  "owners": [
+    "Mgr. Matúš Varsik"
+  ],
+  "executives": [
+    "Mgr. Matúš Varsik"
+  ],
+  "employees": {
+    "code": "05",
+    "range": "5–9",
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1870632"
+  },
+  "revenue": {
+    "year": 2025,
+    "currency": "EUR",
+    "value": 685249,
+    "method": "tržby z predaja tovaru + vlastných výrobkov a služieb; celofiremné, nie iba e-shop",
+    "source": "https://www.registeruz.sk/cruz-public/domain/financialreport/show/10255108/545",
+    "firstRows": [
+      "696561",
+      "643968",
+      "685249",
+      "629016",
+      "",
+      "10981"
+    ]
+  },
+  "rpoSource": "https://api.statistics.sk/rpo/v1/entity/10031022"
+}
