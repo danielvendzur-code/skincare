@@ -11,3 +11,4 @@ Chat funguje bez API kľúča z overeného katalógu. Voliteľný `ANTHROPIC_API
 | E-shop | Ukážka | Produkty | Kategórie | Firma / IČO | Veľkosť | QA |
 |---|---|---:|---|---|---|---|
 | [Plantizia](https://plantizia.sk/) | [`plantizia`](./plantizia/index.html) | 112 | izbové rastliny, črepníky, substráty, teráriá | prírodno s. r. o. / 52542858 | 685 249 € tržby 2025; 5–9 zam. | PASS 1440 / 390 / 360 |
+| [Garden Holice](https://www.gardenholice.sk/) | [`gardenholice`](./gardenholice/index.html) | 69 | izbové rastliny, záhrada, črepníky, substráty | Green-Oasis, spol. s r. o. / 46658793 | 119 662 € tržby 2025; 5–9 zam. | PASS 1440 / 390 / 360 |

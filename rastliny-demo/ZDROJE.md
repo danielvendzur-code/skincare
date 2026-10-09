@@ -132,3 +132,86 @@ Fotografie: celý produkt zachovaný, upravené len okraje, veľkosť a pozadie 
 | Aranžmán s tillandsiou ružovou v aeráriu 15 cm | teráriá | 16,90 € | [detail](https://plantizia.sk/obchod/aranzman-s-tillandsiou-ruzovou-v-aerariu-10-cm/) |
 | Aranžmán s tillandsiou ružovou v guľatom skle 12 cm | teráriá | 16,90 € | [detail](https://plantizia.sk/obchod/aranzman-s-tillandsiou-ruzovou-v-gulatom-skle-12-cm/) |
 | Vitrážové terárium s ružovou tillandsiou | teráriá | 21,90 € | [detail](https://plantizia.sk/obchod/vitrazove-terarium-s-tillandsiou/) |
+
+## Garden Holice
+
+- Web a identita predajcu: [https://www.gardenholice.sk/](https://www.gardenholice.sk/), [obchodné podmienky](https://www.gardenholice.sk/obchodne-podmienky/).
+- Firma: **Green-Oasis, spol. s r. o., IČO 46658793**. Vlastníci: Bc. Ľubica Osvald, Dominik Lichner. Konatelia: Bc. Ľubica Osvald, Dominik Lichner.
+- Veľkosť: **119 662 € tržby 2025; 5–9 zam.**. Kód zamestnancov `05`; [primárny register](https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1221934). [Výkaz za 2025](https://www.registeruz.sk/cruz-public/domain/financialreport/show/9985788/545); tržby sú celofiremné, nie iba e-shop. [Vlastníci](https://api.statistics.sk/rpo/v1/entity/418929).
+- Ceny a sklad: Shoptet mikroúdaje kategórií a kontrola na detailoch produktov. Vyradených 9 položiek bez skutočnej fotografie alebo s placeholderom. Vlhčená utierka nepatrí medzi substráty; Lupinus The Governor mal príliš širokú skupinovú fotografiu s drobnými produktmi. Aj tieto dve položky sú vyradené. Pri črepníkoch je šírka/priemer odlíšený od výšky; podmiska spomenutá v texte sa nepovažuje za samostatný produkt.
+- Logo: [oficiálny wordmark](https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/logos/dizajn_bez_na__zvu_(44).png), symbol [strom z faviconu](https://www.gardenholice.sk/favicon.png). Zlaté logo ostáva v pôvodnej farbe; tmavohnedá podložka zabezpečuje čitateľnosť. Téma vychádza zo zlatohnedej identity e-shopu.
+- Farby: `brand: #393225`, `accent: #75613d`, `soft: #f4f0e6`, `paper: #fffefb`, `ink: #29251d`, `line: #dfd8c8`. Biela na brand aj accent dosahuje WCAG kontrast ≥ 4,5 : 1; kontroluje QA.
+- Rozsah: **69 produktov**, izbové rastliny, záhrada, črepníky, substráty. Výber je kurátorovaný zo skladovej ponuky; nejde o tvrdenie, že bol načítaný úplne celý e-shop. Pri vyšších cenách sa hranice rozpočtu prispôsobia zostávajúcim produktom.
+- Doklady: `research/2026-10-09/gardenholice-registry.json`, `gardenholice-products.json`. Pri každej položke je URL, oficiálny zdroj fotografie, cena, stav, kategória a doložené fakty. QA: `qa-review/gardenholice-qa.json`, matica `qa-review/matrix.json`, prezreté UI a produktové kontaktné hárky.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Strelitzia reginae 5L | izbové rastliny | 15,90 € | [detail](https://www.gardenholice.sk/strelitzia-reginae-5l/) |
+| AGAVE DESMETIANA "Variegata" Clt. 7,5 | izbové rastliny | 29,00 € | [detail](https://www.gardenholice.sk/agave-desmetiana--variegata--clt--7-5/) |
+| Chamaecyparis pisifera cumulus | záhrada | 9,90 € | [detail](https://www.gardenholice.sk/chamaecyparis-pisifera-cumulus/) |
+| Betonový kvetináč 30cm | črepníky | 59,00 € | [detail](https://www.gardenholice.sk/betonovy-kvetinac-30cm/) |
+| Substrát hoštický pre izbové rastliny 10L | substráty | 5,60 € | [detail](https://www.gardenholice.sk/substrat-hosticky-pre-izbove-rastliny-10l/) |
+| Phoenix canariensis | izbové rastliny | 33,90 € | [detail](https://www.gardenholice.sk/phoenix-canariensis/) |
+| Yucca rostrata | izbové rastliny | 39,00 € | [detail](https://www.gardenholice.sk/yucca-rostrata/) |
+| Yucca variegata | izbové rastliny | 40,90 € | [detail](https://www.gardenholice.sk/yucca-variegata/) |
+| yucca gloriosa silver | izbové rastliny | 40,90 € | [detail](https://www.gardenholice.sk/yucca-gloriosa-silver/) |
+| Agave red edge compact | izbové rastliny | 49,00 € | [detail](https://www.gardenholice.sk/agave-red-edge-compact/) |
+| Citrus Chinotto mandarin | izbové rastliny | 57,90 € | [detail](https://www.gardenholice.sk/citrus-chinotto-mandarin/) |
+| Citrus ret Clementin | izbové rastliny | 57,90 € | [detail](https://www.gardenholice.sk/citrus-ret-clementin/) |
+| Quercus ilex 8/10L | izbové rastliny | 59,00 € | [detail](https://www.gardenholice.sk/quercus-ilex-8-10l/) |
+| Strelitzia reginae s | izbové rastliny | 59,90 € | [detail](https://www.gardenholice.sk/strelitzia-reginae-s/) |
+| Yucca elephantipes 8/10 L | izbové rastliny | 59,90 € | [detail](https://www.gardenholice.sk/yucca-elephantipes-8-10-l/) |
+| Chamaerops humilis / palma | izbové rastliny | 79,00 € | [detail](https://www.gardenholice.sk/chamaerops-humilis-palma/) |
+| Edgeworthia chrys. ´Grandiflora´ | izbové rastliny | 92,90 € | [detail](https://www.gardenholice.sk/edgeworthia-chrys--grandiflora/) |
+| Strelitzia reginae 15 L | izbové rastliny | 99,00 € | [detail](https://www.gardenholice.sk/strelitzia-reginae-15-l/) |
+| Trachycarpus wagnerianus | izbové rastliny | 109,00 € | [detail](https://www.gardenholice.sk/trachycarpus-wagnerianus/) |
+| CITRUS "Nobilis" [Mandarino] | izbové rastliny | 169,00 € | [detail](https://www.gardenholice.sk/citrus--nobilis-mandarino/) |
+| Cycas revoluta | izbové rastliny | 229,00 € | [detail](https://www.gardenholice.sk/cycas-revoluta-2/) |
+| Chamaerops humilis/ palma | izbové rastliny | 299,00 € | [detail](https://www.gardenholice.sk/chamaerops-humilis--palma/) |
+| Yucca rostrata 100/125cm | izbové rastliny | 790,00 € | [detail](https://www.gardenholice.sk/yucca-rostrata-100-125cm/) |
+| Olea europea Ponpon | izbové rastliny | 1350,00 € | [detail](https://www.gardenholice.sk/olea-europea-ponpon/) |
+| Olea Europaea 3kmeneI | izbové rastliny | 1490,00 € | [detail](https://www.gardenholice.sk/olea-europaea-3kmenei/) |
+| Olea Europaea 2kmene | izbové rastliny | 1850,00 € | [detail](https://www.gardenholice.sk/olea-europaea-2kmene/) |
+| Olea Europaea vysoký kmeň | izbové rastliny | 2300,00 € | [detail](https://www.gardenholice.sk/olea-europaea-vysoky-kmen/) |
+| ILEX MUTCHAGARA NELLIE R.STEVENS BONSAI | izbové rastliny | 3600,00 € | [detail](https://www.gardenholice.sk/ilex-mutchagara-nellie-r-stevens-bonsai/) |
+| Rosa (PA) Eufemia | záhrada | 12,90 € | [detail](https://www.gardenholice.sk/rosa--pa--eufemia/) |
+| Rosa pauls scarlet climber - ruža červená | záhrada | 13,50 € | [detail](https://www.gardenholice.sk/rosa-pauls-scarlet-climber-ruza-cervena/) |
+| Rosa Standard Pink | záhrada | 14,90 € | [detail](https://www.gardenholice.sk/rosa-standard-pink/) |
+| Vistéria Blue Moon | záhrada | 14,90 € | [detail](https://www.gardenholice.sk/visteria-blue-moon/) |
+| Euonymus jap. Himalaya | záhrada | 15,90 € | [detail](https://www.gardenholice.sk/euonymus-jap--himalaya/) |
+| Ilex cren. ´Dark Green´ | záhrada | 16,90 € | [detail](https://www.gardenholice.sk/ilex-cren--dark-green-2/) |
+| Levanduľa munstead | záhrada | 17,90 € | [detail](https://www.gardenholice.sk/levandula-munstead/) |
+| Cortaderia rosea | záhrada | 19,90 € | [detail](https://www.gardenholice.sk/cortaderia-rosea/) |
+| Hydrangea Mophead Pink 10+ / Hy-pe Original | záhrada | 21,90 € | [detail](https://www.gardenholice.sk/hydrangea-mophead-pink-10--hy-pe-original/) |
+| Helleborus Strawberry moon | záhrada | 24,90 € | [detail](https://www.gardenholice.sk/helleborus-strawberry-moon/) |
+| Leucothoe axillaris ´Curly Red | záhrada | 29,00 € | [detail](https://www.gardenholice.sk/leucothoe-axillaris-curly-red/) |
+| Borovica východná ´Tiny Kurls´/Pinus strobus ´Tiny Kurls´ | záhrada | 33,90 € | [detail](https://www.gardenholice.sk/borovica-vychodna-tiny-kurls-pinus-strobus-tiny-kurls/) |
+| Hibiscus syr. Tricolor | záhrada | 39,00 € | [detail](https://www.gardenholice.sk/hibiscus-syr--tricolor/) |
+| Rosa hedge-on white | záhrada | 87,90 € | [detail](https://www.gardenholice.sk/rosa-hedge-on-white/) |
+| Mandevilla pyramída | záhrada | 250,00 € | [detail](https://www.gardenholice.sk/mandevilla-pyramida/) |
+| Betonový kvetináč malý 45cm | črepníky | 89,00 € | [detail](https://www.gardenholice.sk/betonovy-kvetinac-maly-45cm/) |
+| Kvetináč Balconetta  uzka | črepníky | 99,00 € | [detail](https://www.gardenholice.sk/kvetinac-balconetta-35cm-uzka/) |
+| Kvetináč Balconetta uzka | črepníky | 149,00 € | [detail](https://www.gardenholice.sk/kvetinac-balconetta-55cm-uzka/) |
+| Kvetináč Cassetta 80 Antracit | črepníky | 169,00 € | [detail](https://www.gardenholice.sk/kvetinac-cassetta-80-antracit/) |
+| Betonový kvetináč 65cm | črepníky | 179,00 € | [detail](https://www.gardenholice.sk/betonovy-kvetinac-65cm/) |
+| Kvetináč SMOOTH ANTIK 140 | črepníky | 220,00 € | [detail](https://www.gardenholice.sk/kvetinac-smooth-antik-140/) |
+| Kvetináč SMOOTH FESTONE ANTIK 100 | črepníky | 220,00 € | [detail](https://www.gardenholice.sk/kvetinac-smooth-festone-antik-100/) |
+| Terakotový kvetináč Camelia pot 74 | črepníky | 230,00 € | [detail](https://www.gardenholice.sk/terakotovy-kvetinac-camelia-pot-74/) |
+| Kvetináč SMOOTH FESTONE ANTIK 120 | črepníky | 240,00 € | [detail](https://www.gardenholice.sk/kvetinac-smooth-festone-antik-120/) |
+| Kvetináč Titano 110 Bronzatico | črepníky | 290,00 € | [detail](https://www.gardenholice.sk/kvetinac-titano-110-bronzatico/) |
+| Betonový kvetináč veľký 95cm | črepníky | 390,00 € | [detail](https://www.gardenholice.sk/betonovy-kvetinac-velky-95cm/) |
+| Kvetináč Titano 125 Greystone | črepníky | 410,00 € | [detail](https://www.gardenholice.sk/kvetinac-titano-125-greystone/) |
+| Substrát izbové rastliny 5L | substráty | 3,30 € | [detail](https://www.gardenholice.sk/substrat-palmy-a-izbove-rastliny-5l/) |
+| ROSTETO substrát pre orchid. | substráty | 3,90 € | [detail](https://www.gardenholice.sk/rosteto-substrat-pre-orchid/) |
+| Substrát palmy 5l | substráty | 3,90 € | [detail](https://www.gardenholice.sk/substrat-palmy-5l/) |
+| Floria orchideje substrát 3l | substráty | 4,50 € | [detail](https://www.gardenholice.sk/floria-orchideje-substrat-3l/) |
+| Floria substrát na izbové rastliny 5L | substráty | 5,90 € | [detail](https://www.gardenholice.sk/floria-substrat-na-izbove-rastliny-5l/) |
+| AGRO sub na palmy a zelene rastliny 20l | substráty | 6,50 € | [detail](https://www.gardenholice.sk/agro-sub-na-palmy-a-zelene-rastliny-20l/) |
+| Substrát na pelargónie 20l | substráty | 6,50 € | [detail](https://www.gardenholice.sk/substrat-na-pelargonie-20l/) |
+| Substrát pre rajčiny, papriky, a uhorky 15 l | substráty | 6,90 € | [detail](https://www.gardenholice.sk/substrat-pre-rajciny--papriky--a-uhorky-15-l/) |
+| FLORIA SUB NA INTERIEROVE RASTLINY 18L | substráty | 7,90 € | [detail](https://www.gardenholice.sk/floria-sub-na-interierove-rastliny-18l/) |
+| Substrát pre kyslomilné rastliny 45l / NOVATERRA -Acidofile | substráty | 9,60 € | [detail](https://www.gardenholice.sk/substrat-pre-kyslomilne-rastliny-45l-novaterra-acidofile/) |
+| Substrát na modré hortenzie 20l | substráty | 9,90 € | [detail](https://www.gardenholice.sk/substrat-na-modre-hortenzie-20l/) |
+| Floria substrát paradajky a sadenie | substráty | 13,50 € | [detail](https://www.gardenholice.sk/floria-substrat-paradajky-a-sadenie/) |
+| Floria substrát zahradnicky s mykorhizou 40L | substráty | 14,90 € | [detail](https://www.gardenholice.sk/floria-substrat-zahradnicky-s-mykorhizou-40l/) |
+| Substrát forestina- pre stredomorské rastliny | substráty | 14,90 € | [detail](https://www.gardenholice.sk/substrat-forestina-pre-stredomorske-rastliny/) |

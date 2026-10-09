@@ -3,6 +3,7 @@
 export const LABELS={plants:'Izbové rastliny',outdoor:'Do záhrady',pots:'Črepníky',substrates:'Substráty',terrariums:'Rastlinné teráriá',orchids:'Orchidey',airplants:'Tillandsie',succulents:'Sukulenty a kaktusy',low:'Polotieň',bright:'Rozptýlené svetlo',sun:'Slnečné miesto',easy:'Nenáročná starostlivosť','pet-safe':'Domácnosť so zvieratami',trailing:'Previsnutý rast','small-pot':'Do 11 cm','medium-pot':'12–16 cm','large-pot':'Nad 16 cm',terracotta:'Terakota',concrete:'Betón',ceramic:'Keramika',plastic:'Plast',saucer:'Podmiska','indoor-mix':'Izbové rastliny','cactus-mix':'Kaktusy a sukulenty','orchid-mix':'Orchidey','hydro-mix':'Hydropónia','universal-mix':'Univerzálne','acid-mix':'Kyslomilné rastliny',closed:'Uzavreté',open:'Otvorené',bonsai:'S bonsajom',airplants:'S tillandsiou',perennial:'Trvalky',shrub:'Listnaté kry',conifer:'Ihličnany',grass:'Okrasné trávy','volume-small':'Do 3 litrov','volume-medium':'4–10 litrov','volume-large':'Nad 10 litrov',any:'Nechám si poradiť',lowest:'Nižšia cena',middle:'Stred ponuky',premium:'Vyššia cena'};
 export function matches(product,answers={}) {
   if(answers.kind && product.kind!==answers.kind)return false;
+  if(answers.required?.some(tag=>!product.tags.includes(tag)))return false;
   for(const key of ['facet','priority']) {
     const value=answers[key];
     if(value && value!=='any' && !['lowest','middle','premium'].includes(value) && !product.tags.includes(value))return false;
@@ -74,20 +75,29 @@ export function catalogueReply(brand,messages) {
  const last=messages.filter(m=>m.role==='user').at(-1)?.content||'';const q=plain(last);
  if(/doprava|doruc|objednav|reklamac|vraten|otvarac|kedy pride/.test(q))return {text:`Aktuálne podmienky dopravy, objednávok a reklamácií nájdete na ${brand.website}. V tejto ukážke nemám prístup k objednávkam. Môžem pomôcť vybrať konkrétny produkt.`,products:[]};
  if(/zlt(?:e|nu|nuc).*list|list.*zlt|hnil|chorob|skodc|preliat|usych/.test(q))return {text:'Napíšte názov rastliny, koľko má svetla a ako ju polievate. Zo samotného príznaku neviem spoľahlivo určiť príčinu. Overené pokyny predajcu nájdete na detaile konkrétnej rastliny.',products:[]};
- if(/jedovat|toxick|mack|maci|pes|psov|zvierat/.test(q)) {
-  const p=brand.products.filter(p=>p.kind==='plants'&&p.tags.includes('pet-safe')).slice(0,2);
-  return p.length?{text:`Predajca medzi rastliny vhodné do domácnosti so zvieratami zaraďuje: ${p.map(x=>`${x.name} (${x.price})`).join('; ')}. Ide o zaradenie predajcu; rastliny nie sú určené na konzumáciu.`,products:p.map(x=>x.id)}:{text:'V overenom katalógu nemám doložené zaradenie rastlín ako bezpečných pre zvieratá. Bez tohto podkladu ich nebudem odporúčať na tento účel.',products:[]};
- }
+ if(/tmava miest|uplna tma|bez svetla|bez okn/.test(q))return {text:'Polotieň neznamená úplnú tmu. Bez denného svetla alebo pestovateľského osvetlenia vám z tejto ponuky vhodnú živú rastlinu neodporučím. Vyberme najprv miesto so svetlom.',products:[]};
  const exact=brand.products.filter(p=>q.includes(plain(p.name)));
  let answers={};
  if(/substrat|zemin/.test(q))answers.kind='substrates';else if(/kvetinac|crepnik|obal/.test(q))answers.kind='pots';else if(/terarium/.test(q))answers.kind='terrariums';else if(/orchide/.test(q)&&brand.kinds.includes('orchids'))answers.kind='orchids';else answers.kind=brand.kinds.includes('plants')?'plants':brand.kinds[0];
  if(/polotien|polostin|menej svetla|malo svetla|do tien/.test(q))answers.facet='low';else if(/priame slnko|slnec/.test(q))answers.facet='sun';
  if(/nenaroc|zaciatoc|lahka starost/.test(q))answers.priority='easy';
- const money=q.match(/do\s+(\d+(?:[.,]\d+)?)\s*(?:€|eur|kc)/);if(money)answers.budget=money[1].replace(',','.');
+ const money=q.match(/(?:do|pod|max)\s+(\d+(?:[.,]\d+)?)\s*(€|eur|kc)/);
+ if(money){
+  const currency=money[2]==='kc'?'CZK':'EUR';
+  if(currency!==brand.currency)return {text:`Tento e-shop uvádza ceny v ${brand.currency==='CZK'?'Kč':'eurách'}. Zadajte prosím rozpočet v rovnakej mene; kurz v tejto ukážke neprepočítavam.`,products:[]};
+  answers.budget=money[1].replace(',','.');
+ }
  const genus=brand.products.filter(p=>plain(p.name).split(' ')[0].length>3&&q.includes(plain(p.name).split(' ')[0]));
- const ranked=exact.length?exact:genus.length?genus.filter(p=>matches(p,{...answers,kind:p.kind})):rankProducts(brand,answers);
+ if(/jedovat|toxick|mack|maci|pes|psov|zvierat/.test(q)) {
+  answers.kind='plants';answers.required=['pet-safe'];
+  const named=exact.length?exact:genus;
+  const p=(named.length?named.filter(p=>matches(p,answers)):rankProducts(brand,answers)).slice(0,2);
+  return p.length?{text:`Predajca medzi rastliny vhodné do domácnosti so zvieratami zaraďuje: ${p.map(x=>`${x.name} (${x.price})`).join('; ')}. Tieto položky spĺňajú aj uvedené svetlo a rozpočet. Rastliny nie sú určené na konzumáciu.`,products:p.map(x=>x.id)}:{text:'Pre tieto podmienky alebo pomenovaný druh nemám doložené zaradenie ako bezpečný pre zvieratá. Bez tohto podkladu ho nebudem odporúčať na tento účel.',products:[]};
+ }
+ const named=exact.length?exact:genus;
+ let ranked=named.length?named.filter(p=>matches(p,{...answers,kind:p.kind})):rankProducts(brand,answers);
+ if(/cena|ceny|kolko|lacne/.test(q)&&!exact.length)ranked=[...ranked].sort((a,b)=>a.priceValue-b.priceValue);
  if(!ranked.length)return {text:'V overenej ponuke nemám produkt, ktorý by spĺňal tieto podmienky. Skúste upraviť rozpočet alebo prejdite Výber rastlín a doplnkov.',products:[]};
  const selected=ranked.slice(0,/porovnaj|porovnanie|rozdiel/.test(q)?2:1);
- if(/cena|ceny|kolko|lacne/.test(q)&&!exact.length)selected.sort((a,b)=>a.priceValue-b.priceValue);
  return {text:selected.map(p=>`${p.name} — ${p.price}. ${p.reason}`).join('\n\n')+'\n\nCeny sú zo snímky ponuky z 9. 10. 2026. Dostupnosť si overte na detaile produktu. Výber v štyroch krokoch zohľadní ďalšie podmienky.',products:selected.map(p=>p.id)};
 }

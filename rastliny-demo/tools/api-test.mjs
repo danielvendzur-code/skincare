@@ -14,4 +14,8 @@ for(const b of Object.values(BRANDS))for(const content of ['Mám mačku','Do 0 �
  if(content.includes('mačku'))assert(r.payload.products.every(id=>b.products.find(p=>p.id===id)?.tags.includes('pet-safe')));
  if(content.includes('žltnú')||content.includes('objednávka')||content==='Do 0 €')assert.equal(r.payload.products.length,0);
 }
+const compound=await call(local,{demoId:slug,messages:[{role:'user',content:'Mám mačku, hľadám nenáročnú rastlinu do polotieňa do 15 €'}]});
+assert(compound.payload.products.every(id=>{const p=brand.products.find(p=>p.id===id);return p.tags.includes('pet-safe')&&p.tags.includes('easy')&&p.tags.includes('low')&&p.priceValue<=15;}));
+assert.equal((await call(local,{demoId:slug,messages:[{role:'user',content:brand.products[0].name+' do 0 €'}]})).payload.products.length,0);
+assert.equal((await call(local,{demoId:slug,messages:[{role:'user',content:'Rastlina do úplnej tmy bez okna'}]})).payload.products.length,0);
 console.log('PASS API: input validation, company scope, constraints, canonical AI cards, provider fallback');

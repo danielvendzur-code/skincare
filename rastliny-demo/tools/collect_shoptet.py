@@ -58,12 +58,15 @@ def detail(p,slug):
   facts.append({'perennial':'Trvalka','grass':'Okrasná tráva','conifer':'Ihličnatý ker','shrub':'Listnatý ker'}[tags[-1]]+' podľa kategórie e-shopu.')
  if p['kind']=='pots':
   name=p['name'].lower()
-  if not diameter:
-   m=re.search(r'(\d+(?:[.,]\d+)?)\s*cm',name)
-   if m:diameter=float(m[1].replace(',','.'))
-  if diameter:tags.append('small-pot' if diameter<=11 else 'medium-pot' if diameter<=16 else 'large-pot');facts.append(f'Rozmer uvedený v názve alebo popise: {diameter:g} cm.')
-  for pattern,tag in [('plast','plastic'),('keram','ceramic'),('podmi','saucer')]:
-   if pattern in name+' '+t:tags.append(tag)
+  m=re.search(r'(\d+(?:[.,]\d+)?)\s*cm',name)
+  if m:diameter=float(m[1].replace(',','.'))
+  else:
+   m=re.search(r'(?:šírka/priemer|priemer)\s*:?\s*(\d+(?:[.,]\d+)?)\s*cm',t)
+   diameter=float(m[1].replace(',','.')) if m else None
+  if diameter:tags.append('small-pot' if diameter<=11 else 'medium-pot' if diameter<=16 else 'large-pot');facts.append(f'Priemer alebo šírka podľa e-shopu: {diameter:g} cm.')
+  for pattern,tag,label in [('terakot','terracotta','terakota'),('bet[oó]n','concrete','betón'),('polyetylén|plastov','plastic','plast'),('keram','ceramic','keramika')]:
+   if re.search(pattern,name+' '+t):tags.append(tag);facts.append('Materiál podľa predajcu: '+label+'.')
+  if 'podmisk' in name:tags.append('saucer')
   facts.append('Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.')
  if p['kind']=='substrates':
   for pattern,tag in [('orchid','orchid-mix'),('kaktus|sukulent','cactus-mix'),('izbov|pokojov','indoor-mix'),('univerz','universal-mix'),('kyslomil|rododend|rhododend','acid-mix')]:

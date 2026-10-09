@@ -1,0 +1,1742 @@
+{
+  "name": "Garden Holice",
+  "website": "https://www.gardenholice.sk/",
+  "currency": "EUR",
+  "kinds": [
+    "plants",
+    "outdoor",
+    "pots",
+    "substrates"
+  ],
+  "kindLabels": {
+    "plants": "Domov a terasa"
+  },
+  "theme": {
+    "brand": "#393225",
+    "accent": "#75613d",
+    "soft": "#f4f0e6",
+    "paper": "#fffefb",
+    "ink": "#29251d",
+    "line": "#dfd8c8"
+  },
+  "categoryNotes": {
+    "plants": "Do interiéru a na letnú terasu",
+    "outdoor": "Kry, trvalky a okrasné trávy",
+    "pots": "Samostatné obaly a črepníky",
+    "substrates": "Zmesi podľa skupiny rastlín"
+  },
+  "slug": "gardenholice",
+  "hero": "/assets/plants/gardenholice.jpg",
+  "mobileHero": "/assets/plants/gardenholice-mobile.jpg",
+  "logo": "/assets/plants/gardenholice-logo.png",
+  "mark": "/assets/plants/gardenholice-mark.png",
+  "products": [
+    {
+      "id": "p5506",
+      "name": "Strelitzia reginae 5L",
+      "kind": "plants",
+      "price": "15,90 €",
+      "priceValue": 15.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/strelitzia-reginae-5l/",
+      "photo": "/assets/plants/gardenholice-p5506.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:strelitzia",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5506_untitled-design-2026-05-19t115332-643.png?ff=1&x=1024&y=1536&q=85&ts=6a0c3344&sg=fdee715b"
+    },
+    {
+      "id": "p4059",
+      "name": "AGAVE DESMETIANA \"Variegata\" Clt. 7,5",
+      "kind": "plants",
+      "price": "29,00 €",
+      "priceValue": 29.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/agave-desmetiana--variegata--clt--7-5/",
+      "photo": "/assets/plants/gardenholice-p4059.jpg",
+      "tags": [
+        "bright",
+        "genus:agave",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo, slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4059_untitled-design--50.png?ff=1&x=1024&y=1536&q=85&ts=69aff402&sg=fdee715b"
+    },
+    {
+      "id": "p4053",
+      "name": "Chamaecyparis pisifera cumulus",
+      "kind": "outdoor",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/chamaecyparis-pisifera-cumulus/",
+      "photo": "/assets/plants/gardenholice-p4053.jpg",
+      "tags": [
+        "conifer",
+        "genus:chamaecyparis",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Ihličnatý ker podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: polotieň. Ihličnatý ker podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4053_828a3c31-dc25-4ed2-8824-d4de9417f742.jpg?ff=1&x=1024&y=1536&q=85&ts=69a98034&sg=fdee715b"
+    },
+    {
+      "id": "p5662",
+      "name": "Betonový kvetináč 30cm",
+      "kind": "pots",
+      "price": "59,00 €",
+      "priceValue": 59.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/betonovy-kvetinac-30cm/",
+      "photo": "/assets/plants/gardenholice-p5662.jpg",
+      "tags": [
+        "genus:betonový",
+        "large-pot",
+        "concrete"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 30 cm.",
+        "Materiál podľa predajcu: betón."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 30 cm. Materiál podľa predajcu: betón.",
+      "diameter": 30.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5662-1_rustikalny-sivy-kameninovy-kvetinac.png?ff=1&x=1024&y=1536&q=85&ts=6ac646b4&sg=fdee715b"
+    },
+    {
+      "id": "p3312",
+      "name": "Substrát hoštický pre izbové rastliny 10L",
+      "kind": "substrates",
+      "price": "5,60 €",
+      "priceValue": 5.6,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/substrat-hosticky-pre-izbove-rastliny-10l/",
+      "photo": "/assets/plants/gardenholice-p3312.jpg",
+      "tags": [
+        "genus:substrát",
+        "indoor-mix",
+        "universal-mix",
+        "volume-medium",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Substrát hoštický pre izbové rastliny 10L.",
+        "Balenie podľa názvu: 10 l.",
+        "Balenie podľa názvu: 10 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Substrát hoštický pre izbové rastliny 10L. Balenie podľa názvu: 10 l. Balenie podľa názvu: 10 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3312_untitled-design.png?ff=1&x=1024&y=1536&q=85&ts=698f4bc5&sg=fdee715b"
+    },
+    {
+      "id": "p5380",
+      "name": "Phoenix canariensis",
+      "kind": "plants",
+      "price": "33,90 €",
+      "priceValue": 33.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/phoenix-canariensis/",
+      "photo": "/assets/plants/gardenholice-p5380.jpg",
+      "tags": [
+        "genus:phoenix",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5380_im431152-res.jpg?ff=1&x=1024&y=1536&q=85&ts=69f460a4&sg=fdee715b"
+    },
+    {
+      "id": "p4474",
+      "name": "Yucca rostrata",
+      "kind": "plants",
+      "price": "39,00 €",
+      "priceValue": 39.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/yucca-rostrata/",
+      "photo": "/assets/plants/gardenholice-p4474.jpg",
+      "tags": [
+        "easy",
+        "genus:yucca",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4474_untitled-design--63.png?ff=1&x=1024&y=1536&q=85&ts=69c672b1&sg=fdee715b"
+    },
+    {
+      "id": "p5557",
+      "name": "Yucca variegata",
+      "kind": "plants",
+      "price": "40,90 €",
+      "priceValue": 40.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/yucca-variegata/",
+      "photo": "/assets/plants/gardenholice-p5557.jpg",
+      "tags": [
+        "easy",
+        "genus:yucca",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5557_yucca-variegata.jpg?ff=1&x=1024&y=1536&q=85&ts=6a0c35f6&sg=fdee715b"
+    },
+    {
+      "id": "p5560",
+      "name": "yucca gloriosa silver",
+      "kind": "plants",
+      "price": "40,90 €",
+      "priceValue": 40.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/yucca-gloriosa-silver/",
+      "photo": "/assets/plants/gardenholice-p5560.jpg",
+      "tags": [
+        "easy",
+        "genus:yucca",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5560_yucca-gloriosa-silver.jpg?ff=1&x=1024&y=1536&q=85&ts=6a0c3589&sg=fdee715b"
+    },
+    {
+      "id": "p4429",
+      "name": "Agave red edge compact",
+      "kind": "plants",
+      "price": "49,00 €",
+      "priceValue": 49.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/agave-red-edge-compact/",
+      "photo": "/assets/plants/gardenholice-p4429.jpg",
+      "tags": [
+        "easy",
+        "genus:agave",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4429_imf65632-res.jpg?ff=1&x=1024&y=1536&q=85&ts=69c2746f&sg=fdee715b"
+    },
+    {
+      "id": "p5125",
+      "name": "Citrus Chinotto mandarin",
+      "kind": "plants",
+      "price": "57,90 €",
+      "priceValue": 57.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/citrus-chinotto-mandarin/",
+      "photo": "/assets/plants/gardenholice-p5125.jpg",
+      "tags": [
+        "genus:citrus",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5125_untitled-design--100.png?ff=1&x=1024&y=1536&q=85&ts=69d8f6b1&sg=fdee715b"
+    },
+    {
+      "id": "p5086",
+      "name": "Citrus ret Clementin",
+      "kind": "plants",
+      "price": "57,90 €",
+      "priceValue": 57.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/citrus-ret-clementin/",
+      "photo": "/assets/plants/gardenholice-p5086.jpg",
+      "tags": [
+        "genus:citrus",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5086_untitled-design--96.png?ff=1&x=1024&y=1536&q=85&ts=69d8d735&sg=fdee715b"
+    },
+    {
+      "id": "p5482",
+      "name": "Quercus ilex 8/10L",
+      "kind": "plants",
+      "price": "59,00 €",
+      "priceValue": 59.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/quercus-ilex-8-10l/",
+      "photo": "/assets/plants/gardenholice-p5482.jpg",
+      "tags": [
+        "genus:quercus",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: polotieň, slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5482_untitled-design-2026-05-19t114700-707.png?ff=1&x=1024&y=1536&q=85&ts=6a0c31a7&sg=fdee715b"
+    },
+    {
+      "id": "p5122",
+      "name": "Strelitzia reginae s",
+      "kind": "plants",
+      "price": "59,90 €",
+      "priceValue": 59.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/strelitzia-reginae-s/",
+      "photo": "/assets/plants/gardenholice-p5122.jpg",
+      "tags": [
+        "genus:strelitzia",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5122_untitled-design--95.png?ff=1&x=1024&y=1536&q=85&ts=69d8dc99&sg=fdee715b"
+    },
+    {
+      "id": "p5485",
+      "name": "Yucca elephantipes 8/10 L",
+      "kind": "plants",
+      "price": "59,90 €",
+      "priceValue": 59.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/yucca-elephantipes-8-10-l/",
+      "photo": "/assets/plants/gardenholice-p5485.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:yucca"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5485_9a4569bb-96bd-4098-8368-6e64bcd71c5c.png?ff=1&x=1024&y=1536&q=85&ts=6a044391&sg=fdee715b"
+    },
+    {
+      "id": "p3597",
+      "name": "Chamaerops humilis / palma",
+      "kind": "plants",
+      "price": "79,00 €",
+      "priceValue": 79.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/chamaerops-humilis-palma/",
+      "photo": "/assets/plants/gardenholice-p3597.jpg",
+      "tags": [
+        "genus:chamaerops"
+      ],
+      "facts": [
+        "Botanický názov a variant podľa e-shopu: Chamaerops humilis / palma."
+      ],
+      "reason": "Konkrétny druh a variant z ponuky predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3597_im408778-res.jpg?ff=1&x=1024&y=1536&q=85&ts=6995b8af&sg=fdee715b"
+    },
+    {
+      "id": "p3570",
+      "name": "Edgeworthia chrys. ´Grandiflora´",
+      "kind": "plants",
+      "price": "92,90 €",
+      "priceValue": 92.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/edgeworthia-chrys--grandiflora/",
+      "photo": "/assets/plants/gardenholice-p3570.jpg",
+      "tags": [
+        "genus:edgeworthia",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň."
+      ],
+      "reason": "Predajca uvádza: polotieň.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3570_ga1fhjzqrh-rshkqqzxmuzdll4sctfntohzrqb3vrzdez5-opj5djb-75jviarq6b-ldcpgsn3z7mkk1ui41j2uagdmp9lug6peuapexcd8.jpg?ff=1&x=1024&y=1536&q=85&ts=6995cad7&sg=fdee715b"
+    },
+    {
+      "id": "p5503",
+      "name": "Strelitzia reginae 15 L",
+      "kind": "plants",
+      "price": "99,00 €",
+      "priceValue": 99.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/strelitzia-reginae-15-l/",
+      "photo": "/assets/plants/gardenholice-p5503.jpg",
+      "tags": [
+        "bright",
+        "genus:strelitzia",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo, slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5503_reginae-15l--1.jpg?ff=1&x=1024&y=1536&q=85&ts=6a0c3a5b&sg=fdee715b"
+    },
+    {
+      "id": "p4558",
+      "name": "Trachycarpus wagnerianus",
+      "kind": "plants",
+      "price": "109,00 €",
+      "priceValue": 109.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/trachycarpus-wagnerianus/",
+      "photo": "/assets/plants/gardenholice-p4558.jpg",
+      "tags": [
+        "genus:trachycarpus",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: polotieň, slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4558_im418800-res.jpg?ff=1&x=1024&y=1536&q=85&ts=69c7b979&sg=fdee715b"
+    },
+    {
+      "id": "p4498",
+      "name": "CITRUS \"Nobilis\" [Mandarino]",
+      "kind": "plants",
+      "price": "169,00 €",
+      "priceValue": 169.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/citrus--nobilis-mandarino/",
+      "photo": "/assets/plants/gardenholice-p4498.jpg",
+      "tags": [
+        "genus:citrus"
+      ],
+      "facts": [
+        "Botanický názov a variant podľa e-shopu: CITRUS \"Nobilis\" [Mandarino]."
+      ],
+      "reason": "Konkrétny druh a variant z ponuky predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4498_untitled-design.png?ff=1&x=1024&y=1536&q=85&ts=69c2d8b6&sg=fdee715b"
+    },
+    {
+      "id": "p4216",
+      "name": "Cycas revoluta",
+      "kind": "plants",
+      "price": "229,00 €",
+      "priceValue": 229.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/cycas-revoluta-2/",
+      "photo": "/assets/plants/gardenholice-p4216.jpg",
+      "tags": [
+        "easy",
+        "genus:cycas"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4216_imf62995-res.jpg?ff=1&x=1024&y=1536&q=85&ts=69bd0cad&sg=fdee715b"
+    },
+    {
+      "id": "p3588",
+      "name": "Chamaerops humilis/ palma",
+      "kind": "plants",
+      "price": "299,00 €",
+      "priceValue": 299.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/chamaerops-humilis--palma/",
+      "photo": "/assets/plants/gardenholice-p3588.jpg",
+      "tags": [
+        "genus:chamaerops"
+      ],
+      "facts": [
+        "Botanický názov a variant podľa e-shopu: Chamaerops humilis/ palma."
+      ],
+      "reason": "Konkrétny druh a variant z ponuky predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3588_im406808-res.jpg?ff=1&x=1024&y=1536&q=85&ts=6995b846&sg=fdee715b"
+    },
+    {
+      "id": "p5497",
+      "name": "Yucca rostrata 100/125cm",
+      "kind": "plants",
+      "price": "790,00 €",
+      "priceValue": 790.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/yucca-rostrata-100-125cm/",
+      "photo": "/assets/plants/gardenholice-p5497.jpg",
+      "tags": [
+        "genus:yucca",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5497_yucca-rostrata-100-125cm.jpg?ff=1&x=1024&y=1536&q=85&ts=6a0c3676&sg=fdee715b"
+    },
+    {
+      "id": "p4396",
+      "name": "Olea europea Ponpon",
+      "kind": "plants",
+      "price": "1350,00 €",
+      "priceValue": 1350.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/olea-europea-ponpon/",
+      "photo": "/assets/plants/gardenholice-p4396.jpg",
+      "tags": [
+        "easy",
+        "genus:olea",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4396_olea-europea-ponpon.jpg?ff=1&x=1024&y=1536&q=85&ts=69be8d70&sg=fdee715b"
+    },
+    {
+      "id": "p4125",
+      "name": "Olea Europaea 3kmeneI",
+      "kind": "plants",
+      "price": "1490,00 €",
+      "priceValue": 1490.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/olea-europaea-3kmenei/",
+      "photo": "/assets/plants/gardenholice-p4125.jpg",
+      "tags": [
+        "genus:olea"
+      ],
+      "facts": [
+        "Botanický názov a variant podľa e-shopu: Olea Europaea 3kmeneI."
+      ],
+      "reason": "Konkrétny druh a variant z ponuky predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4125_untitled-design--48.png?ff=1&x=1024&y=1536&q=85&ts=69aebd1b&sg=fdee715b"
+    },
+    {
+      "id": "p4119",
+      "name": "Olea Europaea 2kmene",
+      "kind": "plants",
+      "price": "1850,00 €",
+      "priceValue": 1850.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/olea-europaea-2kmene/",
+      "photo": "/assets/plants/gardenholice-p4119.jpg",
+      "tags": [
+        "genus:olea"
+      ],
+      "facts": [
+        "Botanický názov a variant podľa e-shopu: Olea Europaea 2kmene."
+      ],
+      "reason": "Konkrétny druh a variant z ponuky predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4119_untitled-design--47.png?ff=1&x=1024&y=1536&q=85&ts=69aebb4f&sg=fdee715b"
+    },
+    {
+      "id": "p4113",
+      "name": "Olea Europaea vysoký kmeň",
+      "kind": "plants",
+      "price": "2300,00 €",
+      "priceValue": 2300.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/olea-europaea-vysoky-kmen/",
+      "photo": "/assets/plants/gardenholice-p4113.jpg",
+      "tags": [
+        "genus:olea"
+      ],
+      "facts": [
+        "Botanický názov a variant podľa e-shopu: Olea Europaea vysoký kmeň."
+      ],
+      "reason": "Konkrétny druh a variant z ponuky predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4113_untitled-design--49.png?ff=1&x=1024&y=1536&q=85&ts=69aebe03&sg=fdee715b"
+    },
+    {
+      "id": "p4143",
+      "name": "ILEX MUTCHAGARA NELLIE R.STEVENS BONSAI",
+      "kind": "plants",
+      "price": "3600,00 €",
+      "priceValue": 3600.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/ilex-mutchagara-nellie-r-stevens-bonsai/",
+      "photo": "/assets/plants/gardenholice-p4143.jpg",
+      "tags": [
+        "genus:ilex",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: polotieň, slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4143_ilex-mutchagara-nellie-r-stevens-bonsai.jpg?ff=1&x=1024&y=1536&q=85&ts=69afec88&sg=fdee715b"
+    },
+    {
+      "id": "p4005",
+      "name": "Rosa (PA) Eufemia",
+      "kind": "outdoor",
+      "price": "12,90 €",
+      "priceValue": 12.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/rosa--pa--eufemia/",
+      "photo": "/assets/plants/gardenholice-p4005.jpg",
+      "tags": [
+        "genus:rosa",
+        "perennial",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Trvalka podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Trvalka podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4005_untitled-design--42.png?ff=1&x=1024&y=1536&q=85&ts=69aeb765&sg=fdee715b"
+    },
+    {
+      "id": "p5107",
+      "name": "Rosa pauls scarlet climber - ruža červená",
+      "kind": "outdoor",
+      "price": "13,50 €",
+      "priceValue": 13.5,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/rosa-pauls-scarlet-climber-ruza-cervena/",
+      "photo": "/assets/plants/gardenholice-p5107.jpg",
+      "tags": [
+        "genus:rosa",
+        "shrub",
+        "sun",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+        "Listnatý ker podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Popínavý alebo previsnutý rast podľa popisu predajcu. Listnatý ker podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5107_ime25883-res.jpg?ff=1&x=1024&y=1536&q=85&ts=69d8cace&sg=fdee715b"
+    },
+    {
+      "id": "p5212",
+      "name": "Rosa Standard Pink",
+      "kind": "outdoor",
+      "price": "14,90 €",
+      "priceValue": 14.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/rosa-standard-pink/",
+      "photo": "/assets/plants/gardenholice-p5212.jpg",
+      "tags": [
+        "genus:rosa",
+        "shrub"
+      ],
+      "facts": [
+        "Listnatý ker podľa kategórie e-shopu."
+      ],
+      "reason": "Listnatý ker podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5212_imf69318-res.jpg?ff=1&x=1024&y=1536&q=85&ts=69ef227f&sg=fdee715b"
+    },
+    {
+      "id": "p3837",
+      "name": "Vistéria Blue Moon",
+      "kind": "outdoor",
+      "price": "14,90 €",
+      "priceValue": 14.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/visteria-blue-moon/",
+      "photo": "/assets/plants/gardenholice-p3837.jpg",
+      "tags": [
+        "easy",
+        "genus:vistéria",
+        "low",
+        "perennial",
+        "sun",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+        "Trvalka podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: polotieň, slnečné stanovište. Predajca uvádza nenáročnú starostlivosť. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3837_untitled-design--55.png?ff=1&x=1024&y=1536&q=85&ts=69aff8d5&sg=fdee715b"
+    },
+    {
+      "id": "p3957",
+      "name": "Euonymus jap. Himalaya",
+      "kind": "outdoor",
+      "price": "15,90 €",
+      "priceValue": 15.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/euonymus-jap--himalaya/",
+      "photo": "/assets/plants/gardenholice-p3957.jpg",
+      "tags": [
+        "genus:euonymus",
+        "low",
+        "shrub"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Listnatý ker podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: polotieň. Listnatý ker podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3957_euonymus-jap--himalaya.jpg?ff=1&x=1024&y=1536&q=85&ts=69aeb585&sg=fdee715b"
+    },
+    {
+      "id": "p4552",
+      "name": "Ilex cren. ´Dark Green´",
+      "kind": "outdoor",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/ilex-cren--dark-green-2/",
+      "photo": "/assets/plants/gardenholice-p4552.jpg",
+      "tags": [
+        "genus:ilex",
+        "low",
+        "shrub",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, slnečné stanovište.",
+        "Listnatý ker podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: polotieň, slnečné stanovište. Listnatý ker podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4552-1_ilcdgree-4972-31004-19012024105958.jpg?ff=1&x=1024&y=1536&q=85&ts=69c7b3c5&sg=fdee715b"
+    },
+    {
+      "id": "p4453",
+      "name": "Levanduľa munstead",
+      "kind": "outdoor",
+      "price": "17,90 €",
+      "priceValue": 17.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/levandula-munstead/",
+      "photo": "/assets/plants/gardenholice-p4453.jpg",
+      "tags": [
+        "easy",
+        "genus:levanduľa",
+        "perennial",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Trvalka podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť. Trvalka podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4453_untitled-design--61.png?ff=1&x=1024&y=1536&q=85&ts=69c66fab&sg=fdee715b"
+    },
+    {
+      "id": "p4438",
+      "name": "Cortaderia rosea",
+      "kind": "outdoor",
+      "price": "19,90 €",
+      "priceValue": 19.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/cortaderia-rosea/",
+      "photo": "/assets/plants/gardenholice-p4438.jpg",
+      "tags": [
+        "easy",
+        "genus:cortaderia",
+        "grass",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Okrasná tráva podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť. Okrasná tráva podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4438_imf43442-res.jpg?ff=1&x=1024&y=1536&q=85&ts=69c27721&sg=fdee715b"
+    },
+    {
+      "id": "p5197",
+      "name": "Hydrangea Mophead Pink 10+ | Hy-pe Original",
+      "kind": "outdoor",
+      "price": "21,90 €",
+      "priceValue": 21.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/hydrangea-mophead-pink-10--hy-pe-original/",
+      "photo": "/assets/plants/gardenholice-p5197.jpg",
+      "tags": [
+        "genus:hydrangea",
+        "low",
+        "shrub"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Listnatý ker podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: polotieň. Listnatý ker podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5197_imf69389-res.jpg?ff=1&x=1024&y=1536&q=85&ts=69ef1fff&sg=fdee715b"
+    },
+    {
+      "id": "p4011",
+      "name": "Helleborus Strawberry moon",
+      "kind": "outdoor",
+      "price": "24,90 €",
+      "priceValue": 24.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/helleborus-strawberry-moon/",
+      "photo": "/assets/plants/gardenholice-p4011.jpg",
+      "tags": [
+        "easy",
+        "genus:helleborus",
+        "low",
+        "perennial"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Trvalka podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť. Trvalka podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4011_f2579fcb-0a84-43f8-b23d-0e31a34ba94e.jpg?ff=1&x=1024&y=1536&q=85&ts=69a977c5&sg=fdee715b"
+    },
+    {
+      "id": "p2804",
+      "name": "Leucothoe axillaris ´Curly Red",
+      "kind": "outdoor",
+      "price": "29,00 €",
+      "priceValue": 29.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/leucothoe-axillaris-curly-red/",
+      "photo": "/assets/plants/gardenholice-p2804.jpg",
+      "tags": [
+        "easy",
+        "genus:leucothoe",
+        "low",
+        "shrub",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Listnatý ker podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: polotieň, slnečné stanovište. Predajca uvádza nenáročnú starostlivosť. Listnatý ker podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/2804_leucothoe-axillaris-curly-red.jpg?ff=1&x=1024&y=1536&q=85&ts=679cb794&sg=fdee715b"
+    },
+    {
+      "id": "p5071",
+      "name": "Borovica východná ´Tiny Kurls´/Pinus strobus ´Tiny Kurls´",
+      "kind": "outdoor",
+      "price": "33,90 €",
+      "priceValue": 33.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/borovica-vychodna-tiny-kurls-pinus-strobus-tiny-kurls/",
+      "photo": "/assets/plants/gardenholice-p5071.jpg",
+      "tags": [
+        "conifer",
+        "genus:borovica",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, slnečné stanovište.",
+        "Ihličnatý ker podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: polotieň, slnečné stanovište. Ihličnatý ker podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5071-1_d.jpg?ff=1&x=1024&y=1536&q=85&ts=69d8bf30&sg=fdee715b"
+    },
+    {
+      "id": "p5404",
+      "name": "Hibiscus syr. Tricolor",
+      "kind": "outdoor",
+      "price": "39,00 €",
+      "priceValue": 39.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/hibiscus-syr--tricolor/",
+      "photo": "/assets/plants/gardenholice-p5404.jpg",
+      "tags": [
+        "genus:hibiscus",
+        "shrub",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Listnatý ker podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Listnatý ker podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5404_hibiscus-syr--tricolor.jpg?ff=1&x=1024&y=1536&q=85&ts=6a01e1c8&sg=fdee715b"
+    },
+    {
+      "id": "p5374",
+      "name": "Rosa hedge-on white",
+      "kind": "outdoor",
+      "price": "87,90 €",
+      "priceValue": 87.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/rosa-hedge-on-white/",
+      "photo": "/assets/plants/gardenholice-p5374.jpg",
+      "tags": [
+        "genus:rosa",
+        "shrub",
+        "sun",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+        "Listnatý ker podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Popínavý alebo previsnutý rast podľa popisu predajcu. Listnatý ker podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5374_im435417-res.jpg?ff=1&x=1024&y=1536&q=85&ts=69f45fac&sg=fdee715b"
+    },
+    {
+      "id": "p5137",
+      "name": "Mandevilla pyramída",
+      "kind": "outdoor",
+      "price": "250,00 €",
+      "priceValue": 250.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/mandevilla-pyramida/",
+      "photo": "/assets/plants/gardenholice-p5137.jpg",
+      "tags": [
+        "genus:mandevilla",
+        "low",
+        "shrub",
+        "sun",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, slnečné stanovište.",
+        "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+        "Listnatý ker podľa kategórie e-shopu."
+      ],
+      "reason": "Predajca uvádza: polotieň, slnečné stanovište. Popínavý alebo previsnutý rast podľa popisu predajcu. Listnatý ker podľa kategórie e-shopu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5137_untitled-design-2026-04-16t155119-846.png?ff=1&x=1024&y=1536&q=85&ts=69e0e96a&sg=fdee715b"
+    },
+    {
+      "id": "p5653",
+      "name": "Betonový kvetináč malý 45cm",
+      "kind": "pots",
+      "price": "89,00 €",
+      "priceValue": 89.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/betonovy-kvetinac-maly-45cm/",
+      "photo": "/assets/plants/gardenholice-p5653.jpg",
+      "tags": [
+        "genus:betonový",
+        "large-pot",
+        "concrete"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 45 cm.",
+        "Materiál podľa predajcu: betón."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 45 cm. Materiál podľa predajcu: betón.",
+      "diameter": 45.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5653_rustikalny-terakotovy-kvetinac-45-cm.png?ff=1&x=1024&y=1536&q=85&ts=6ac6446c&sg=fdee715b"
+    },
+    {
+      "id": "p3852",
+      "name": "Kvetináč Balconetta  uzka",
+      "kind": "pots",
+      "price": "99,00 €",
+      "priceValue": 99.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/kvetinac-balconetta-35cm-uzka/",
+      "photo": "/assets/plants/gardenholice-p3852.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "plastic"
+      ],
+      "facts": [
+        "Materiál podľa predajcu: polyetylén."
+      ],
+      "reason": "Materiál podľa predajcu: polyetylén.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3852_untitled-design--38.png?ff=1&x=1024&y=1536&q=85&ts=69a9502f&sg=fdee715b"
+    },
+    {
+      "id": "p3855",
+      "name": "Kvetináč Balconetta uzka",
+      "kind": "pots",
+      "price": "149,00 €",
+      "priceValue": 149.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/kvetinac-balconetta-55cm-uzka/",
+      "photo": "/assets/plants/gardenholice-p3855.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "plastic"
+      ],
+      "facts": [
+        "Materiál podľa predajcu: polyetylén."
+      ],
+      "reason": "Materiál podľa predajcu: polyetylén.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3855_untitled-design--31.png?ff=1&x=1024&y=1536&q=85&ts=69a9470b&sg=fdee715b"
+    },
+    {
+      "id": "p3840",
+      "name": "Kvetináč Cassetta 80 Antracit",
+      "kind": "pots",
+      "price": "169,00 €",
+      "priceValue": 169.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/kvetinac-cassetta-80-antracit/",
+      "photo": "/assets/plants/gardenholice-p3840.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "plastic"
+      ],
+      "facts": [
+        "Materiál podľa predajcu: polyetylén."
+      ],
+      "reason": "Materiál podľa predajcu: polyetylén.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3840_untitled-design--37.png?ff=1&x=1024&y=1536&q=85&ts=69a94d24&sg=fdee715b"
+    },
+    {
+      "id": "p5656",
+      "name": "Betonový kvetináč 65cm",
+      "kind": "pots",
+      "price": "179,00 €",
+      "priceValue": 179.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/betonovy-kvetinac-65cm/",
+      "photo": "/assets/plants/gardenholice-p5656.jpg",
+      "tags": [
+        "genus:betonový",
+        "large-pot",
+        "concrete"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 65 cm.",
+        "Materiál podľa predajcu: betón."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 65 cm. Materiál podľa predajcu: betón.",
+      "diameter": 65.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5656_rustikalny-kamenny-kvetinac-na-bielom-pozadi.png?ff=1&x=1024&y=1536&q=85&ts=6ac64082&sg=fdee715b"
+    },
+    {
+      "id": "p3657",
+      "name": "Kvetináč SMOOTH ANTIK 140",
+      "kind": "pots",
+      "price": "220,00 €",
+      "priceValue": 220.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/kvetinac-smooth-antik-140/",
+      "photo": "/assets/plants/gardenholice-p3657.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "plastic"
+      ],
+      "facts": [
+        "Materiál podľa predajcu: polyetylén."
+      ],
+      "reason": "Materiál podľa predajcu: polyetylén.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3657_493a266d-0765-4b58-a297-ed5bbf8a79dd.png?ff=1&x=1024&y=1536&q=85&ts=699588a0&sg=fdee715b"
+    },
+    {
+      "id": "p3660",
+      "name": "Kvetináč SMOOTH FESTONE ANTIK 100",
+      "kind": "pots",
+      "price": "220,00 €",
+      "priceValue": 220.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/kvetinac-smooth-festone-antik-100/",
+      "photo": "/assets/plants/gardenholice-p3660.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "plastic"
+      ],
+      "facts": [
+        "Materiál podľa predajcu: polyetylén."
+      ],
+      "reason": "Materiál podľa predajcu: polyetylén.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3660_chatgpt-image-18--2--2026--10-29-00.png?ff=1&x=1024&y=1536&q=85&ts=69958b9b&sg=fdee715b"
+    },
+    {
+      "id": "p629",
+      "name": "Terakotový kvetináč Camelia pot 74",
+      "kind": "pots",
+      "price": "230,00 €",
+      "priceValue": 230.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/terakotovy-kvetinac-camelia-pot-74/",
+      "photo": "/assets/plants/gardenholice-p629.jpg",
+      "tags": [
+        "genus:terakotový",
+        "terracotta"
+      ],
+      "facts": [
+        "Materiál podľa predajcu: terakota."
+      ],
+      "reason": "Materiál podľa predajcu: terakota.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/629_terakotovy-kvetinac-camelia-pot-74.jpg?ff=1&x=1024&y=1536&q=85&ts=69a9508c&sg=fdee715b"
+    },
+    {
+      "id": "p3663",
+      "name": "Kvetináč SMOOTH FESTONE ANTIK 120",
+      "kind": "pots",
+      "price": "240,00 €",
+      "priceValue": 240.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/kvetinac-smooth-festone-antik-120/",
+      "photo": "/assets/plants/gardenholice-p3663.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "plastic"
+      ],
+      "facts": [
+        "Materiál podľa predajcu: polyetylén."
+      ],
+      "reason": "Materiál podľa predajcu: polyetylén.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3663_chatgpt-image-18--2--2026--10-29-00.png?ff=1&x=1024&y=1536&q=85&ts=69958bad&sg=fdee715b"
+    },
+    {
+      "id": "p2262",
+      "name": "Kvetináč Titano 110 Bronzatico",
+      "kind": "pots",
+      "price": "290,00 €",
+      "priceValue": 290.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/kvetinac-titano-110-bronzatico/",
+      "photo": "/assets/plants/gardenholice-p2262.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "plastic"
+      ],
+      "facts": [
+        "Materiál podľa predajcu: polyetylén."
+      ],
+      "reason": "Materiál podľa predajcu: polyetylén.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/2262_dc422129-7a8e-40ea-b2a5-32c5caac123f.jpg?ff=1&x=1024&y=1536&q=85&ts=696fda50&sg=fdee715b"
+    },
+    {
+      "id": "p5647",
+      "name": "Betonový kvetináč veľký 95cm",
+      "kind": "pots",
+      "price": "390,00 €",
+      "priceValue": 390.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/betonovy-kvetinac-velky-95cm/",
+      "photo": "/assets/plants/gardenholice-p5647.jpg",
+      "tags": [
+        "genus:betonový",
+        "large-pot",
+        "concrete"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 95 cm.",
+        "Materiál podľa predajcu: betón."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 95 cm. Materiál podľa predajcu: betón.",
+      "diameter": 95.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5647_texturovany-pieskovy-kvetinac.png?ff=1&x=1024&y=1536&q=85&ts=6ac63be5&sg=fdee715b"
+    },
+    {
+      "id": "p2265",
+      "name": "Kvetináč Titano 125 Greystone",
+      "kind": "pots",
+      "price": "410,00 €",
+      "priceValue": 410.0,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/kvetinac-titano-125-greystone/",
+      "photo": "/assets/plants/gardenholice-p2265.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "plastic"
+      ],
+      "facts": [
+        "Materiál podľa predajcu: polyetylén."
+      ],
+      "reason": "Materiál podľa predajcu: polyetylén.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/2265_untitled-design--10.png?ff=1&x=1024&y=1536&q=85&ts=698f1eec&sg=fdee715b"
+    },
+    {
+      "id": "p3309",
+      "name": "Substrát izbové rastliny 5L",
+      "kind": "substrates",
+      "price": "3,30 €",
+      "priceValue": 3.3,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/substrat-palmy-a-izbove-rastliny-5l/",
+      "photo": "/assets/plants/gardenholice-p3309.jpg",
+      "tags": [
+        "genus:substrát",
+        "indoor-mix",
+        "universal-mix",
+        "volume-medium",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Substrát izbové rastliny 5L.",
+        "Balenie podľa názvu: 5 l.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Substrát izbové rastliny 5L. Balenie podľa názvu: 5 l. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3309_substrat-izbove-rastliny-5l.jpg?ff=1&x=1024&y=1536&q=85&ts=698f4d4a&sg=fdee715b"
+    },
+    {
+      "id": "p3345",
+      "name": "ROSTETO substrát pre orchid.",
+      "kind": "substrates",
+      "price": "3,90 €",
+      "priceValue": 3.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/rosteto-substrat-pre-orchid/",
+      "photo": "/assets/plants/gardenholice-p3345.jpg",
+      "tags": [
+        "genus:rosteto",
+        "orchid-mix"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. ROSTETO substrát pre orchid.."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. ROSTETO substrát pre orchid..",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3345_snimka-obrazovky-2026-02-14-105213.png?ff=1&x=1024&y=1536&q=85&ts=699045dc&sg=fdee715b"
+    },
+    {
+      "id": "p3279",
+      "name": "Substrát palmy 5l",
+      "kind": "substrates",
+      "price": "3,90 €",
+      "priceValue": 3.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/substrat-palmy-5l/",
+      "photo": "/assets/plants/gardenholice-p3279.jpg",
+      "tags": [
+        "genus:substrát",
+        "volume-medium",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Substrát palmy 5l.",
+        "Balenie podľa názvu: 5 l.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Substrát palmy 5l. Balenie podľa názvu: 5 l. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/3279_untitled-design.png?ff=1&x=1024&y=1536&q=85&ts=698f4ce0&sg=fdee715b"
+    },
+    {
+      "id": "p4182",
+      "name": "Floria orchideje substrát 3l",
+      "kind": "substrates",
+      "price": "4,50 €",
+      "priceValue": 4.5,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/floria-orchideje-substrat-3l/",
+      "photo": "/assets/plants/gardenholice-p4182.jpg",
+      "tags": [
+        "genus:floria",
+        "orchid-mix",
+        "volume-small",
+        "volume-small"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Floria orchideje substrát 3l.",
+        "Balenie podľa názvu: 3 l.",
+        "Balenie podľa názvu: 3 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Floria orchideje substrát 3l. Balenie podľa názvu: 3 l. Balenie podľa názvu: 3 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4182_a598dede-1330-4200-818a-9f77001406d4.jpg?ff=1&x=1024&y=1536&q=85&ts=69b91442&sg=fdee715b"
+    },
+    {
+      "id": "p4327",
+      "name": "Floria substrát na izbové rastliny 5L",
+      "kind": "substrates",
+      "price": "5,90 €",
+      "priceValue": 5.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/floria-substrat-na-izbove-rastliny-5l/",
+      "photo": "/assets/plants/gardenholice-p4327.jpg",
+      "tags": [
+        "genus:floria",
+        "indoor-mix",
+        "volume-medium",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Floria substrát na izbové rastliny 5L.",
+        "Balenie podľa názvu: 5 l.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Floria substrát na izbové rastliny 5L. Balenie podľa názvu: 5 l. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4327_vyr-4178floria-premium-mineralny-substrat-na-izbove-rastliny-5-l.jpg?ff=1&x=1024&y=1536&q=85&ts=69bc23bd&sg=fdee715b"
+    },
+    {
+      "id": "p4336",
+      "name": "AGRO sub na palmy a zelene rastliny 20l",
+      "kind": "substrates",
+      "price": "6,50 €",
+      "priceValue": 6.5,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/agro-sub-na-palmy-a-zelene-rastliny-20l/",
+      "photo": "/assets/plants/gardenholice-p4336.jpg",
+      "tags": [
+        "genus:agro",
+        "indoor-mix",
+        "volume-large",
+        "volume-large"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. AGRO sub na palmy a zelene rastliny 20l.",
+        "Balenie podľa názvu: 20 l.",
+        "Balenie podľa názvu: 20 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. AGRO sub na palmy a zelene rastliny 20l. Balenie podľa názvu: 20 l. Balenie podľa názvu: 20 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4336_vyr-90500114a-agro-substrat-pre-palmy-20l.jpg?ff=1&x=1024&y=1536&q=85&ts=69bd0469&sg=fdee715b"
+    },
+    {
+      "id": "p5170",
+      "name": "Substrát na pelargónie 20l",
+      "kind": "substrates",
+      "price": "6,50 €",
+      "priceValue": 6.5,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/substrat-na-pelargonie-20l/",
+      "photo": "/assets/plants/gardenholice-p5170.jpg",
+      "tags": [
+        "genus:substrát",
+        "volume-large",
+        "volume-large"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Substrát na pelargónie 20l.",
+        "Balenie podľa názvu: 20 l.",
+        "Balenie podľa názvu: 20 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Substrát na pelargónie 20l. Balenie podľa názvu: 20 l. Balenie podľa názvu: 20 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5170_snimka-obrazovky-2026-04-27-110640.png?ff=1&x=1024&y=1536&q=85&ts=69ef2735&sg=fdee715b"
+    },
+    {
+      "id": "p4525",
+      "name": "Substrát pre rajčiny, papriky, a uhorky 15 l",
+      "kind": "substrates",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/substrat-pre-rajciny--papriky--a-uhorky-15-l/",
+      "photo": "/assets/plants/gardenholice-p4525.jpg",
+      "tags": [
+        "genus:substrát",
+        "volume-large",
+        "volume-large"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Substrát pre rajčiny, papriky, a uhorky 15 l.",
+        "Balenie podľa názvu: 15 l.",
+        "Balenie podľa názvu: 15 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Substrát pre rajčiny, papriky, a uhorky 15 l. Balenie podľa názvu: 15 l. Balenie podľa názvu: 15 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4525_profik-supresivni-rajcata-15l.jpg?ff=1&x=1024&y=1536&q=85&ts=69c7c2c2&sg=fdee715b"
+    },
+    {
+      "id": "p4318",
+      "name": "FLORIA SUB NA INTERIEROVE RASTLINY 18L",
+      "kind": "substrates",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/floria-sub-na-interierove-rastliny-18l/",
+      "photo": "/assets/plants/gardenholice-p4318.jpg",
+      "tags": [
+        "genus:floria",
+        "indoor-mix",
+        "volume-large",
+        "volume-large"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. FLORIA SUB NA INTERIEROVE RASTLINY 18L.",
+        "Balenie podľa názvu: 18 l.",
+        "Balenie podľa názvu: 18 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. FLORIA SUB NA INTERIEROVE RASTLINY 18L. Balenie podľa názvu: 18 l. Balenie podľa názvu: 18 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4318_vyr-408900838a-floria-premium-substrat-pre-interier-18-l.jpg?ff=1&x=1024&y=1536&q=85&ts=69bd051c&sg=fdee715b"
+    },
+    {
+      "id": "p1976",
+      "name": "Substrát pre kyslomilné rastliny 45l / NOVATERRA -Acidofile",
+      "kind": "substrates",
+      "price": "9,60 €",
+      "priceValue": 9.6,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/substrat-pre-kyslomilne-rastliny-45l-novaterra-acidofile/",
+      "photo": "/assets/plants/gardenholice-p1976.jpg",
+      "tags": [
+        "acid-mix",
+        "genus:substrát",
+        "volume-large",
+        "volume-large"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Substrát pre kyslomilné rastliny 45l / NOVATERRA -Acidofile.",
+        "Balenie podľa názvu: 45 l.",
+        "Balenie podľa názvu: 45 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Substrát pre kyslomilné rastliny 45l / NOVATERRA -Acidofile. Balenie podľa názvu: 45 l. Balenie podľa názvu: 45 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/1976_obrazok.jpg?ff=1&x=1024&y=1536&q=85&ts=65d5c066&sg=fdee715b"
+    },
+    {
+      "id": "p5173",
+      "name": "Substrát na modré hortenzie 20l",
+      "kind": "substrates",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/substrat-na-modre-hortenzie-20l/",
+      "photo": "/assets/plants/gardenholice-p5173.jpg",
+      "tags": [
+        "acid-mix",
+        "genus:substrát",
+        "volume-large",
+        "volume-large"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Substrát na modré hortenzie 20l.",
+        "Balenie podľa názvu: 20 l.",
+        "Balenie podľa názvu: 20 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Substrát na modré hortenzie 20l. Balenie podľa názvu: 20 l. Balenie podľa názvu: 20 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5173_profik-substrat-hortenzie-vysev.jpg?ff=1&x=1024&y=1536&q=85&ts=69ef2663&sg=fdee715b"
+    },
+    {
+      "id": "p4921",
+      "name": "Floria substrát paradajky a sadenie",
+      "kind": "substrates",
+      "price": "13,50 €",
+      "priceValue": 13.5,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/floria-substrat-paradajky-a-sadenie/",
+      "photo": "/assets/plants/gardenholice-p4921.jpg",
+      "tags": [
+        "genus:floria"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Floria substrát paradajky a sadenie."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Floria substrát paradajky a sadenie.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4921_snimka-obrazovky-2026-04-02-145551.png?ff=1&x=1024&y=1536&q=85&ts=69ce6769&sg=fdee715b"
+    },
+    {
+      "id": "p4348",
+      "name": "Floria substrát zahradnicky s mykorhizou 40L",
+      "kind": "substrates",
+      "price": "14,90 €",
+      "priceValue": 14.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/floria-substrat-zahradnicky-s-mykorhizou-40l/",
+      "photo": "/assets/plants/gardenholice-p4348.jpg",
+      "tags": [
+        "genus:floria",
+        "universal-mix",
+        "volume-large",
+        "volume-large"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Floria substrát zahradnicky s mykorhizou 40L.",
+        "Balenie podľa názvu: 40 l.",
+        "Balenie podľa názvu: 40 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Floria substrát zahradnicky s mykorhizou 40L. Balenie podľa názvu: 40 l. Balenie podľa názvu: 40 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/4348_floriazahr40.jpg?ff=1&x=1024&y=1536&q=85&ts=69bd02fe&sg=fdee715b"
+    },
+    {
+      "id": "p5566",
+      "name": "Substrát forestina- pre stredomorské rastliny",
+      "kind": "substrates",
+      "price": "14,90 €",
+      "priceValue": 14.9,
+      "currency": "EUR",
+      "url": "https://www.gardenholice.sk/substrat-forestina-pre-stredomorske-rastliny/",
+      "photo": "/assets/plants/gardenholice-p5566.jpg",
+      "tags": [
+        "genus:substrát"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Substrát forestina- pre stredomorské rastliny."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Substrát forestina- pre stredomorské rastliny.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-09",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.gardenholice.sk/user/shop/big/5566_snimka-obrazovky-2026-05-19-134914.png?ff=1&x=1024&y=1536&q=85&ts=6a0c4e4e&sg=fdee715b"
+    }
+  ]
+}

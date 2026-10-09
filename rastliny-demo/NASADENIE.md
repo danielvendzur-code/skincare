@@ -11,3 +11,4 @@ Subdomény sú pripravené v routách. DNS a nový Vercel projekt sa touto zmeno
 | Subdoména na pripojenie | Ukážka |
 |---|---|
 | `plantizia.mojchatbot.sk` | `/cosmetics.html?demo=plantizia` |
+| `gardenholice.mojchatbot.sk` | `/cosmetics.html?demo=gardenholice` |

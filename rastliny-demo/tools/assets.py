@@ -2,7 +2,7 @@
 SVG logos are rendered at 4x. Official motifs are used for circle avatars.
 """
 import concurrent.futures as futures
-import json,sys
+import json,sys,re
 from pathlib import Path
 from PIL import Image,ImageOps
 from net import fetch,save
@@ -12,6 +12,8 @@ slug=sys.argv[1];source=ROOT/'research/source-images';source.mkdir(exist_ok=True
 rows=json.loads((ROOT/f'research/2026-10-09/{slug}-products.json').read_text());good=[]
 def download(p):
  try:
+  if p['kind']=='substrates' and not re.search(r'substr|rašel|rasel|zemin|kokos|perlit|keramzit',p['name'],re.I):raise ValueError('not a substrate or growing medium')
+  if slug=='gardenholice' and p['id']=='p4249':raise ValueError('group photo makes the individual plant unreadable')
   target=source/f'{slug}-{p["id"]}.original';target.write_bytes(fetch(p['imageSource']))
   im=Image.open(target);im.verify()
   if min(Image.open(target).size)<120:raise ValueError('tiny source photo')

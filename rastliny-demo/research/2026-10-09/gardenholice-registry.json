@@ -1,0 +1,34 @@
+{
+  "checked": "2026-10-09",
+  "company": "Green-Oasis, spol. s r. o.",
+  "ico": "46658793",
+  "owners": [
+    "Bc. Ľubica Osvald",
+    "Dominik Lichner"
+  ],
+  "executives": [
+    "Bc. Ľubica Osvald",
+    "Dominik Lichner"
+  ],
+  "employees": {
+    "code": "05",
+    "range": "5–9",
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1221934"
+  },
+  "revenue": {
+    "year": 2025,
+    "currency": "EUR",
+    "value": 119662,
+    "method": "tržby z predaja tovaru + vlastných výrobkov a služieb; celofiremné, nie iba e-shop",
+    "source": "https://www.registeruz.sk/cruz-public/domain/financialreport/show/9985788/545",
+    "firstRows": [
+      "120616",
+      "45330",
+      "58126",
+      "3976",
+      "61536",
+      "40342"
+    ]
+  },
+  "rpoSource": "https://api.statistics.sk/rpo/v1/entity/418929"
+}
