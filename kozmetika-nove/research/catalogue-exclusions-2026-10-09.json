@@ -1,0 +1,43 @@
+[
+  {
+    "slug": "biofy",
+    "reason": "Prázdne tržby v poslednom výkaze 2025; rozšírenie sa nezaradilo.",
+    "ico": "57361096"
+  },
+  {
+    "slug": "anela",
+    "reason": "ARES 220: 50–99 zamestnancov; bez rozšírenia.",
+    "ico": "07413769"
+  },
+  {
+    "slug": "biorythme",
+    "reason": "ARES 210: 25–49 zamestnancov; bez rozšírenia.",
+    "ico": "08250740"
+  },
+  {
+    "slug": "indivo",
+    "reason": "ARES 120: 6–9; nepreukázaný explicitný sklad pri nových položkách.",
+    "ico": "88734200"
+  },
+  {
+    "slug": "savon",
+    "reason": "Nový predajca; chýba dostupný výkaz tržieb.",
+    "ico": "57503915"
+  },
+  {
+    "slug": "mylo",
+    "reason": "AVA 2 ml: fotografia plného balenia; očné sérum: rozdiel 30 ml/10 ml a lifestyle obrázok; Velo: iba lifestyle fotografia. Nezaradené."
+  },
+  {
+    "slug": "liqoil",
+    "reason": "Vlasová maska: popis 180 ml a etiketa 200 ml; Melissa: nepotvrdený objem. Nezaradené."
+  },
+  {
+    "slug": "yemna",
+    "reason": "AVE a Acmella 5 ml: fotografia iného balenia; Garden: rozpor 30 g/55 g. Nezaradené."
+  },
+  {
+    "slug": "dulcia",
+    "reason": "Dve masky bez preukázaného objemu; make-up len so vzorkovníkom; duplicitná 200 ml položka s rozličnými cenami. Nezaradené."
+  }
+]

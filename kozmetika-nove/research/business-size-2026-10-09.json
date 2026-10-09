@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "mylo",
+    "ico": "51003198",
+    "country": "SK",
+    "verifiedOn": "2026-10-09",
+    "turnover": 53210,
+    "currency": "EUR",
+    "period": "2025",
+    "sizeCode": "02",
+    "rpoUrl": "https://api.statistics.sk/rpo/v1/entity/9280062",
+    "financialReportUrl": "https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10361187",
+    "unitUrl": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1716456"
+  },
+  {
+    "slug": "ponio",
+    "ico": "46424342",
+    "country": "SK",
+    "verifiedOn": "2026-10-09",
+    "turnover": 223841,
+    "currency": "EUR",
+    "period": "2025",
+    "sizeCode": "03",
+    "rpoUrl": "https://api.statistics.sk/rpo/v1/entity/204453",
+    "financialReportUrl": "https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10342418",
+    "unitUrl": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1113525"
+  },
+  {
+    "slug": "bellcoria",
+    "ico": "48311456",
+    "country": "SK",
+    "verifiedOn": "2026-10-09",
+    "turnover": 16941,
+    "currency": "EUR",
+    "period": "2025",
+    "sizeCode": "02",
+    "rpoUrl": "https://api.statistics.sk/rpo/v1/entity/699122",
+    "financialReportUrl": "https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10315689",
+    "unitUrl": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1603296"
+  },
+  {
+    "slug": "liqoil",
+    "ico": "48078191",
+    "country": "SK",
+    "verifiedOn": "2026-10-09",
+    "turnover": 452915,
+    "currency": "EUR",
+    "period": "2025",
+    "sizeCode": "04",
+    "rpoUrl": "https://api.statistics.sk/rpo/v1/entity/812991",
+    "financialReportUrl": "https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10251486",
+    "unitUrl": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1586799"
+  },
+  {
+    "slug": "yemna",
+    "ico": "50137671",
+    "country": "SK",
+    "verifiedOn": "2026-10-09",
+    "turnover": 99571,
+    "currency": "EUR",
+    "period": "2025",
+    "sizeCode": "02",
+    "rpoUrl": "https://api.statistics.sk/rpo/v1/entity/6509155",
+    "financialReportUrl": "https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10015079",
+    "unitUrl": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1607866"
+  },
+  {
+    "slug": "dulcia",
+    "ico": "44604572",
+    "country": "SK",
+    "verifiedOn": "2026-10-09",
+    "turnover": 887923,
+    "currency": "EUR",
+    "period": "2025",
+    "sizeCode": "00",
+    "rpoUrl": "https://api.statistics.sk/rpo/v1/entity/911626",
+    "financialReportUrl": "https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10114050",
+    "unitUrl": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=757525"
+  },
+  {
+    "slug": "pimpinella",
+    "ico": "74432109",
+    "country": "CZ",
+    "verifiedOn": "2026-10-09",
+    "aresEmployeeCode": "110",
+    "employees": "1–5",
+    "aresUrl": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/74432109"
+  },
+  {
+    "slug": "mujluj",
+    "ico": "23360313",
+    "country": "CZ",
+    "verifiedOn": "2026-10-09",
+    "aresEmployeeCode": "120",
+    "employees": "6–9",
+    "aresUrl": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/23360313"
+  },
+  {
+    "slug": "almara",
+    "ico": "08730601",
+    "country": "CZ",
+    "verifiedOn": "2026-10-09",
+    "aresEmployeeCode": "120",
+    "employees": "6–9",
+    "aresUrl": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/08730601"
+  }
+]

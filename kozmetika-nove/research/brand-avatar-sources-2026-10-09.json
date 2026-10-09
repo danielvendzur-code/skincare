@@ -1,0 +1,120 @@
+[
+  {
+    "slug": "mylo",
+    "homepage": "https://www.mylo.sk/",
+    "icons": [
+      "https://www.mylo.sk/wp-content/uploads/cropped-Mylo_favicon512-100x100.png",
+      "https://www.mylo.sk/wp-content/uploads/cropped-Mylo_favicon512-247x247.png"
+    ],
+    "sourceUrl": "https://www.mylo.sk/wp-content/uploads/cropped-Mylo_favicon512.png",
+    "originalSize": [
+      512,
+      512
+    ],
+    "sourceSha256": "f1fda076cdd95db4ae1aa22160340e5a13ac0f22fbe64d60665ceee24a77e7c3",
+    "assetSha256": "f3cffa943d48b48b642c0fd1058ae4140f6ac1bca4cc4e5f7d3b727bb03ed06a",
+    "asset": "/assets/catalogue/logos/mylo-symbol.png",
+    "treatment": "Oficiálny znak; orezanie okrajov a monochromatická biela pre tmavý avatar"
+  },
+  {
+    "slug": "bellcoria",
+    "homepage": "https://bellcoria.sk/",
+    "icons": [
+      "https://bellcoria.sk/wp-content/uploads/favicon-bellcoria-100x100.png",
+      "https://bellcoria.sk/wp-content/uploads/favicon-bellcoria.png"
+    ],
+    "sourceUrl": "https://bellcoria.sk/wp-content/uploads/favicon-bellcoria.png",
+    "originalSize": [
+      183,
+      183
+    ],
+    "sourceSha256": "68ab9afb3791ce140e750a64cd0b0bd89d7818f15fa106f837eda41770bafd51",
+    "assetSha256": "9ef3ccb8718bf6df0bc2e7f03700f28d6c0e275469d32a33b339673b87f7a7da",
+    "asset": "/assets/catalogue/logos/bellcoria-symbol.png",
+    "treatment": "Oficiálny znak; orezanie okrajov a monochromatická biela pre tmavý avatar"
+  },
+  {
+    "slug": "yemna",
+    "homepage": "https://www.yemna.sk/",
+    "icons": [
+      "https://www.yemna.sk/favicon.ico"
+    ],
+    "sourceUrl": "https://www.yemna.sk/favicon.ico",
+    "originalSize": [
+      256,
+      256
+    ],
+    "sourceSha256": "33311bf3717787df65a23a7837db7756d568aee351e978c01fb81f9d1915ae8c",
+    "assetSha256": "1d737cb9c3c95b3f2a9c8306fded05a6b9c9728a83ecba93351cf060bd0ef9e2",
+    "asset": "/assets/catalogue/logos/yemna-symbol.png",
+    "treatment": "Oficiálny znak; orezanie okrajov a monochromatická biela pre tmavý avatar"
+  },
+  {
+    "slug": "almara",
+    "homepage": "https://www.almarasoap.com/cs/",
+    "icons": [
+      "https://www.almarasoap.com/cdn-v72w7/images/favicon.png"
+    ],
+    "sourceUrl": "https://www.almarasoap.com/cdn-v72w7/images/favicon.png",
+    "originalSize": [
+      64,
+      64
+    ],
+    "sourceSha256": "ca983f302551d7f2a9aa56c97aa6d59208a77e5524d9c00ba3b5fb5e5e116b38",
+    "assetSha256": "f9d18ac68aeec1a19b52c587d46be9661345e20ddb79070037276742c0b9a756",
+    "asset": "/assets/catalogue/logos/almara-symbol.png",
+    "treatment": "Oficiálny znak; orezanie okrajov a monochromatická biela pre tmavý avatar"
+  },
+  {
+    "slug": "liqoil",
+    "homepage": "https://liqoil.sk/",
+    "icons": [
+      "https://liqoil.sk/cdn/shop/files/LIQOIL___logo___flavikon64.webp?crop=center&height=32&v=1763215897&width=32"
+    ],
+    "sourceUrl": "https://liqoil.sk/cdn/shop/files/LIQOIL___logo___flavikon64.webp",
+    "originalSize": [
+      64,
+      64
+    ],
+    "sourceSha256": "8a44a9140408d9772c37ba8b2467fe1a2544654a0dffa864b2db1a0a5b287d9d",
+    "assetSha256": "a62a7173809dc4574209f041f17609ca3536cc249e8061ff87538e78c4b600fc",
+    "asset": "/assets/catalogue/logos/liqoil-symbol.png",
+    "treatment": "Oficiálny znak; orezanie okrajov a monochromatická biela pre tmavý avatar"
+  },
+  {
+    "sourceAsset": "/assets/cosmetics/dulcia-logo.png",
+    "sourceSha256": "db0671bad34665caa547482885e517c8896c70b2ff5296c5d8e80a2b35bb7ecc",
+    "crop": [
+      0,
+      0,
+      112,
+      116
+    ],
+    "slug": "dulcia",
+    "asset": "/assets/catalogue/logos/dulcia-symbol.png",
+    "assetSha256": "f710998dd17a452f10dde83215e0716004e6af234aaa41548b51e0c7ca8a7dee",
+    "treatment": "Oficiálny znak; orezanie okrajov a monochromatická biela pre tmavý avatar"
+  },
+  {
+    "sourceAsset": "/assets/cosmetics/pimpinella-logo.png",
+    "sourceSha256": "03211dfc7ec3b7acad637c78003321e9d3c2102d549e3d1971ea56f9e845c868",
+    "crop": [
+      0,
+      0,
+      180,
+      220
+    ],
+    "slug": "pimpinella",
+    "asset": "/assets/catalogue/logos/pimpinella-symbol.png",
+    "assetSha256": "525ecb0e82dbd7de4df1d6edbfb348aa1370c93596d8c35f0ecda112bc3ef858",
+    "treatment": "Oficiálny znak; orezanie okrajov a monochromatická biela pre tmavý avatar"
+  },
+  {
+    "sourceUrl": "https://www.mujluj.cz/favicon.png",
+    "sourceSha256": "2d22ae388054673288f4ad4dc2ccb866a477e2dfcd836c5040e35646f2693749",
+    "slug": "mujluj",
+    "asset": "/assets/catalogue/logos/mujluj-symbol.png",
+    "assetSha256": "0d15727cabbbcdffc134eab49733764e6c51b04dc36fe806fb32d508279aa2e8",
+    "treatment": "Oficiálny favicon bez zmeny farieb"
+  }
+]

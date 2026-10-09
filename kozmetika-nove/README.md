@@ -70,3 +70,8 @@ nenačítané obrázky a horizontálne pretečenie.
 3. Záznam v `nove-znacky-config.js` a v `api/cosmetics-chat.js`.
 4. `python3 tools/routes.py` — trasy, `vercel.json`, `.htaccess`, prehľad.
 5. `python3 tools/check_assets.py` a `node tools/qa.mjs SLUG OUT`, potom prezrieť snímky.
+
+
+## Rozšírenie katalógov 9. 10. 2026
+
+[Úplný prehľad zmien po ukážkach, registre, SKU a QA](REWORK-2026-10-09.md). Pôvodné tabuľky vyššie opisujú historický stav. Pri deviatich rozšírených značkách sú aktuálne produktové fakty v `catalogue-data.js` a v `research/catalogue-expansion-2026-10-09.json`.

@@ -514,3 +514,8 @@ krémová plocha.
 | PROTECTODERM lipozómové sérum | 14,50 € | https://skinium.sk/produkt/protectoderm |
 | AHA SERUM zlupovacie sérum | 15,50 € | https://skinium.sk/produkt/skinium-aha-serum-zlupovacie-serum |
 | ACNECLEANER Zn čistiaci roztok | 5,80 € | https://skinium.sk/produkt/skinium-acnecleaner-zn-dermatokozmeticky-cistiaci-roztok-na-mastnu-a-aknoznu-plet-s-komedolytickymi-seboregulacnymi-a-antimikrobialnymi-ucinkami |
+
+
+## Rozšírenie katalógov 9. 10. 2026
+
+[Úplný prehľad zmien po ukážkach, registre, SKU a QA](REWORK-2026-10-09.md). Pôvodné tabuľky vyššie opisujú historický stav. Pri deviatich rozšírených značkách sú aktuálne produktové fakty v `catalogue-data.js` a v `research/catalogue-expansion-2026-10-09.json`.

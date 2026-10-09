@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "mylo",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 33
+  },
+  {
+    "slug": "mylo",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 33
+  },
+  {
+    "slug": "bellcoria",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 48
+  },
+  {
+    "slug": "bellcoria",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 48
+  },
+  {
+    "slug": "liqoil",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 24
+  },
+  {
+    "slug": "liqoil",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 24
+  },
+  {
+    "slug": "yemna",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 25
+  },
+  {
+    "slug": "yemna",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 25
+  },
+  {
+    "slug": "pimpinella",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 23
+  },
+  {
+    "slug": "pimpinella",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 23
+  },
+  {
+    "slug": "almara",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 77
+  },
+  {
+    "slug": "mujluj",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 15
+  },
+  {
+    "slug": "mujluj",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 15
+  },
+  {
+    "slug": "almara",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 77
+  },
+  {
+    "slug": "dulcia",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 78
+  },
+  {
+    "slug": "dulcia",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 78
+  },
+  {
+    "slug": "ponio",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 61
+  },
+  {
+    "slug": "ponio",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 61
+  }
+]

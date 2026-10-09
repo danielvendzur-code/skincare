@@ -243,7 +243,7 @@
   if (!root || (!brand && !coffee?.brand)) return;
   const name = brand?.name || coffee.brand.name;
   const header = root.querySelector('.cx-widget-brand img.cx-logo');
-  const original = header?.getAttribute('src') || coffee?.demo?.logoHeader || brand?.mark || coffee?.demo?.logoAvatar;
+  const original = brand?.avatarIcon || header?.getAttribute('src') || coffee?.demo?.logoHeader || brand?.mark || coffee?.demo?.logoAvatar;
   if (!original) return;
   const style = document.createElement('style');
   style.dataset.companyMessageLogo = 'black-real-logo-v1';
@@ -272,6 +272,7 @@
   new MutationObserver(sync).observe(root, {childList:true, subtree:true});
   const image = new Image();
   image.onload = () => {
+    if(brand?.avatarIcon)return;
     try {
       const scale = Math.min(1, 480 / Math.max(image.naturalWidth, image.naturalHeight));
       const canvas = document.createElement('canvas');

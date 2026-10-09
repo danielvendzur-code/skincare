@@ -1,0 +1,290 @@
+[
+  {
+    "slug": "mylo",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 33,
+    "categories": [
+      "face",
+      "body",
+      "beard"
+    ]
+  },
+  {
+    "slug": "mylo",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 33,
+    "categories": [
+      "face",
+      "body",
+      "beard"
+    ]
+  },
+  {
+    "slug": "mylo",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 33,
+    "categories": [
+      "face",
+      "body",
+      "beard"
+    ]
+  },
+  {
+    "slug": "ponio",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 61,
+    "categories": [
+      "face",
+      "body",
+      "hair",
+      "lips"
+    ]
+  },
+  {
+    "slug": "ponio",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 61,
+    "categories": [
+      "face",
+      "body",
+      "hair",
+      "lips"
+    ]
+  },
+  {
+    "slug": "ponio",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 61,
+    "categories": [
+      "face",
+      "body",
+      "hair",
+      "lips"
+    ]
+  },
+  {
+    "slug": "bellcoria",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 48,
+    "categories": [
+      "face",
+      "body",
+      "hair",
+      "sets"
+    ]
+  },
+  {
+    "slug": "bellcoria",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 48,
+    "categories": [
+      "face",
+      "body",
+      "hair",
+      "sets"
+    ]
+  },
+  {
+    "slug": "bellcoria",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 48,
+    "categories": [
+      "face",
+      "body",
+      "hair",
+      "sets"
+    ]
+  },
+  {
+    "slug": "liqoil",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 24,
+    "categories": [
+      "face"
+    ]
+  },
+  {
+    "slug": "liqoil",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 24,
+    "categories": [
+      "face"
+    ]
+  },
+  {
+    "slug": "liqoil",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 24,
+    "categories": [
+      "face"
+    ]
+  },
+  {
+    "slug": "yemna",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 25,
+    "categories": [
+      "face",
+      "body",
+      "hair"
+    ]
+  },
+  {
+    "slug": "yemna",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 25,
+    "categories": [
+      "face",
+      "body",
+      "hair"
+    ]
+  },
+  {
+    "slug": "yemna",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 25,
+    "categories": [
+      "face",
+      "body",
+      "hair"
+    ]
+  },
+  {
+    "slug": "pimpinella",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 23,
+    "categories": [
+      "face",
+      "body"
+    ]
+  },
+  {
+    "slug": "pimpinella",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 23,
+    "categories": [
+      "face",
+      "body"
+    ]
+  },
+  {
+    "slug": "pimpinella",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 23,
+    "categories": [
+      "face",
+      "body"
+    ]
+  },
+  {
+    "slug": "mujluj",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 15,
+    "categories": [
+      "face",
+      "sets"
+    ]
+  },
+  {
+    "slug": "mujluj",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 15,
+    "categories": [
+      "face",
+      "sets"
+    ]
+  },
+  {
+    "slug": "mujluj",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 15,
+    "categories": [
+      "face",
+      "sets"
+    ]
+  },
+  {
+    "slug": "almara",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 77,
+    "categories": [
+      "body",
+      "home"
+    ]
+  },
+  {
+    "slug": "almara",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 77,
+    "categories": [
+      "body",
+      "home"
+    ]
+  },
+  {
+    "slug": "almara",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 77,
+    "categories": [
+      "body",
+      "home"
+    ]
+  },
+  {
+    "slug": "dulcia",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 78,
+    "categories": [
+      "face",
+      "body",
+      "eyes"
+    ]
+  },
+  {
+    "slug": "dulcia",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 78,
+    "categories": [
+      "face",
+      "body",
+      "eyes"
+    ]
+  },
+  {
+    "slug": "dulcia",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 78,
+    "categories": [
+      "face",
+      "body",
+      "eyes"
+    ]
+  }
+]

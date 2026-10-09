@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "dixi",
+    "url": "https://www.dixi.sk/",
+    "status": 200,
+    "bytes": 298527,
+    "checkedOn": "2026-10-09",
+    "scope": "homepage only; original SKUs unchanged"
+  },
+  {
+    "slug": "vivaco",
+    "url": "https://www.vivaco.sk/",
+    "status": 200,
+    "bytes": 410564,
+    "checkedOn": "2026-10-09",
+    "scope": "homepage only; original SKUs unchanged"
+  },
+  {
+    "slug": "kapyderm",
+    "url": "https://www.kapyderm.sk/",
+    "status": 200,
+    "bytes": 206217,
+    "checkedOn": "2026-10-09",
+    "scope": "homepage only; original SKUs unchanged"
+  },
+  {
+    "slug": "medarek",
+    "url": "https://www.medarek.cz/",
+    "status": 200,
+    "bytes": 432892,
+    "checkedOn": "2026-10-09",
+    "scope": "homepage only; original SKUs unchanged"
+  },
+  {
+    "slug": "andreine",
+    "url": "https://andreine.com/",
+    "status": 200,
+    "bytes": 673492,
+    "checkedOn": "2026-10-09",
+    "scope": "homepage only; original SKUs unchanged"
+  },
+  {
+    "slug": "voono",
+    "url": "https://www.voono.sk/",
+    "status": 200,
+    "bytes": 200843,
+    "checkedOn": "2026-10-09",
+    "scope": "homepage only; original SKUs unchanged"
+  },
+  {
+    "slug": "navlasil",
+    "url": "https://www.navlasil.sk/",
+    "status": 200,
+    "bytes": 194055,
+    "checkedOn": "2026-10-09",
+    "scope": "homepage only; original SKUs unchanged"
+  },
+  {
+    "slug": "ryor",
+    "url": "https://www.ryor.sk/",
+    "status": 200,
+    "bytes": 1334067,
+    "checkedOn": "2026-10-09",
+    "scope": "homepage only; original SKUs unchanged"
+  },
+  {
+    "slug": "venira",
+    "url": "https://www.venira.sk/",
+    "status": 200,
+    "bytes": 505774,
+    "checkedOn": "2026-10-09",
+    "scope": "homepage only; original SKUs unchanged"
+  },
+  {
+    "slug": "havlikova",
+    "url": "https://www.havlikovaapoteka.cz/sk/",
+    "status": 200,
+    "bytes": 277759,
+    "checkedOn": "2026-10-09",
+    "scope": "homepage only; original SKUs unchanged"
+  },
+  {
+    "slug": "haaro",
+    "url": "https://www.haaro-naturo.cz/",
+    "status": 200,
+    "bytes": 159918,
+    "checkedOn": "2026-10-09",
+    "scope": "homepage only; original SKUs unchanged"
+  }
+]
