@@ -1,6 +1,6 @@
 # Výber ďalších rastlinných ukážok — 10. 10. 2026
 
-Pridaných **9 vhodných nových e-shopov**, spolu **369 produktov**. Segment teraz obsahuje **12 ukážok a 628 produktov** vrátane troch pôvodných ukážok. Počet sa nedopĺňal kandidátmi bez dostatočnej ponuky alebo spoľahlivého dokladu.
+Pridaných **13 vhodných nových e-shopov**, spolu **569 produktov**. Segment teraz obsahuje **16 ukážok a 828 produktov** vrátane troch pôvodných ukážok. Počet sa nedopĺňal kandidátmi bez dostatočnej ponuky alebo spoľahlivého dokladu.
 
 Podmienky: vlastný e-shop, aspoň približne 8 skladových živých rastlín, viac druhov a cenových hladín, odlišní vlastníci, malá firma podľa primárneho registra alebo doložených tržieb. Tržby nad približne 1 milión eur vylučujú kandidáta. Pri českých firmách ARES preukazuje kategóriu pracovníkov, nie výšku tržieb; nedostupný obrat sa výslovne uvádza ako nedoložený. Počet pracovníkov je posledný údaj registra, nie meranie aktuálneho personálu.
 
@@ -17,6 +17,10 @@ Podmienky: vlastný e-shop, aspoň približne 8 skladových živých rastlín, v
 | [Izbovečky](https://www.izbovecky.sk/) | 57395497 | Zuzana Abrahámová | 1 | nedoložené | 25 | Nová spoločnosť s jedným pracovníkom; bežné aj raritné izbovky. | PASS 1440/390/360 |
 | [BREST](https://www.brest.sk/) | 46243313 | Zoltán Lovász | 5–9 | 487 128 € | 50 | Malá škôlka; trvalky, okrasné a ovocné dreviny rôznych cien. | PASS 1440/390/360 |
 | [Kokedamy.cz](https://www.kokedamy.cz/) | 05753147 | Ing. Petra Smetana, Ondřej Smetana | 6–9 | nedoložené | 18 | Špecializácia na 18 živých kokedám; svetlo a nenáročnosť podľa pestovateľa. | PASS 1440/390/360 |
+| [Rastlinkovo](https://www.rastlinkovo.sk/) | 51649764 | Mgr. Matej Prokypčák | 1 | 119 447 € | 61 | Malý samostatný vlastník a 1 pracovník; pestré izbovky, sukulenty, obaly a zmesi. | PASS 1440/390/360 |
+| [Svokrine jazyky](https://svokrinejazyky.sk/) | 52096092 | Ing. Martin Buza | nezistené | 99 987 € | 59 | Nízke doložené tržby; špecializácia na bežné a zberateľské izbovky. | PASS 1440/390/360 |
+| [Sukulenty Samek](https://www.sukulenty-samek.cz/) | 09404856 | Pavel Samek | 1–5 | nedoložené | 38 | Malý vlastný pestovateľ; sukulenty, kaktusy a skalničky podľa svetla. | PASS 1440/390/360 |
+| [VšeProKaktusy](https://www.vseprokaktusy.cz/) | 66279011 | Miroslav Langr | 0 | nedoložené | 42 | Rodinné pestovanie; množstvo podobných kaktusov rôznych rodov a cien. | PASS 1440/390/360 |
 
 Firma, konatelia, jednotlivé registre, dátum aktualizácie, finančné výkazy, logo, farby a tabuľka všetkých produktov sú v [ZDROJE.md](./ZDROJE.md). Dátované, zredukované doklady bez adries a rodných údajov sú v `research/2026-10-10/*-registry.json`.
 
@@ -47,12 +51,18 @@ Dôvody odrážajú kontrolu 10. 10. 2026. Technicky neprístupný web znamená 
 
 ## Kontrola kvality
 
-Všetkých 9 nových katalógov používa oficiálne produktové fotografie a konkrétne skladové položky s cenou danej veľkosti alebo variantu. Pri BRESTe ide o odrodové fotografie, nie portrét dodávanej sadenice; výsledok to výslovne uvádza. Leaf-only fotografie, odrezané rastliny, predobjednávky, náhodné balíky a nejasné varianty sa vynechali.
+Všetkých 13 nových katalógov používa oficiálne produktové fotografie a konkrétne skladové položky s cenou danej veľkosti alebo variantu. Pri BRESTe ide o odrodové fotografie, nie portrét dodávanej sadenice; výsledok to výslovne uvádza. Leaf-only fotografie, odrezané rastliny, predobjednávky, náhodné balíky a nejasné varianty sa vynechali.
 
 WooCommerce `is_in_stock` nestačí: odstránili sa aj položky s backorderom, nedostupnosťou na nákup, variantmi alebo cenovým rozsahom. Shoptet variant musí mať overenú cenu, sklad a fotografiu; Shopify používa URL konkrétneho dostupného variantu. Kokedamy.cz má svetlo a nenáročnosť ručne prezreté z odrážok predajcu, obnoviteľné cez dátovaný `tools/curate_kokedamy.py`.
 
 Na každej novej ukážke prešiel skutočný lokálny API handler, QA na 1440, 390 a 360 px, kontrola kontrastu, obrázkov, overflow, všetkých kategórií a loga pri každej správe bota. Prezreté boli produktové hárky, desktop owner a výsledok, mobilný owner, chat, prvý krok a výsledok. Materiálne úpravy majú opakované QA.
 
-Simulácia všetkých dostupných vetiev: **865 kombinácií pre 9 nových ukážok**, **1323 kombinácií pre celý segment**, bez prázdneho výsledku a bez porušenia obmedzení. Rozdelenie víťazov je v `qa-review/matrix.json`; nejde o záruku rovnakého počtu odporúčaní pre každé SKU.
+Simulácia všetkých dostupných vetiev: **1487 kombinácií pre 13 nových ukážok**, **1945 kombinácií pre celý segment**, bez prázdneho výsledku a bez porušenia obmedzení. Rozdelenie víťazov je v `qa-review/matrix.json`; nejde o záruku rovnakého počtu odporúčaní pre každé SKU.
+
+Ďalšia séria Rastlinkovo, Svokrine jazyky, Sukulenty Samek a VšeProKaktusy pridala **200 produktov**. Pri Rastlinkove sa overil aktuálny predajca Maxspan s.r.o. po zmene názvu firmy; RPO poskytlo aktuálny vlastnícky záznam. Pri Svokriných jazykoch bol namiesto neodpovedajúceho RPO použitý aktuálny ORSR výpis. Ich tržby 2025 sú predaj tovaru plus vlastných výrobkov/služieb podľa výkazu MÚJ, nie prvý riadok všetkých výnosov. Pri Svokriných jazykoch je počet pracovníkov nezistený.
+
+Samek používa fotografiu, ktorú predajca označuje ako ponúkanú veľkosť. Štyri odrezané rastlinné zábery sa vyradili a zvyšné široké fotografie majú prezreté bližšie orezy. VšeProKaktusy má doloženú koncovú cenu a kladný sklad konkrétneho produktu v PrestaShop dátach; produkt s fotografiou 45 l pri deklarovanom balení 10 l sa vyradil. Tržby oboch českých živnostníkov sú nedoložené, nie odhadnuté z personálu.
+
+Pre posledné štyri ukážky prešlo **622 kombinácií**. Podiel najčastejšieho víťaza je podľa katalógu 8,1–17,5 %; preferencia nižšej ceny môže zvýhodniť najlacnejší vhodný produkt. Názov obsahujúci „cactus“ neprepisuje výslovnú požiadavku na inú kategóriu.
 
 Každý e-shop má samostatný commit a push na `codex/rastliny-ukazky`. PR sa neotvára. Trasy a subdomény sú pripravené v [NASADENIE.md](./NASADENIE.md); DNS ani produkčný hosting sa nemenili.

@@ -761,5 +761,60 @@
       "Opuntia monacantha",
       "Sempervivum Ependa"
     ]
+  },
+  "vseprokaktusy": {
+    "name": "VšeProKaktusy",
+    "website": "https://www.vseprokaktusy.cz/",
+    "currency": "CZK",
+    "platform": "prestashop",
+    "kinds": [
+      "cacti",
+      "succulents",
+      "substrates"
+    ],
+    "kindLabels": {
+      "succulents": "Ostatné sukulenty"
+    },
+    "categoryNotes": {
+      "cacti": "Botanický rod, veľkosť a cena",
+      "succulents": "Konkrétny druh podľa e-shopu",
+      "substrates": "Určenie zmesi a objem balenia"
+    },
+    "theme": {
+      "brand": "#274b24",
+      "accent": "#4a6b2e",
+      "soft": "#f0f4e9",
+      "paper": "#fffefa",
+      "ink": "#293225",
+      "line": "#dce5d3"
+    },
+    "logoSource": "https://www.vseprokaktusy.cz/img/vseprokaktusycz-logo-1682753643.jpg",
+    "logoCrop": [
+      118,
+      36,
+      460,
+      76
+    ],
+    "markCrop": [
+      15,
+      0,
+      110,
+      128
+    ],
+    "logoNote": "Oficiálny zelený slovný názov je vyrezaný z loga bez drobného sloganu a zväčšený s Lanczos vyhladením. Pôvodný farebný kaktus s klobúkom je vyrezaný z toho istého loga pre launcher a každý kruhový avatar bota.",
+    "themeNote": "Zelené odtiene z pôvodného loga a webu; tmavší brand a accent pre kontrast bieleho textu, svetlé zelené neutrálne plochy.",
+    "terms": "https://www.vseprokaktusy.cz/content/3-obchodni-podminky",
+    "fit": "Samostatný podnikateľ a rodinná pestovateľská prevádzka; ARES uvádza bez zamestnancov. Množstvo podobných skladových kaktusov rôznych rodov, veľkostí a cien. Tržby živnostníka nie sú doložené.",
+    "stockNote": "Oficiálne dáta konkrétneho produktu PrestaShop (#product-details[data-product]): quantity > 0, allow_oosp = 0, available_for_order, atribút variantu 0 a mikrodáta ponuky InStock. Koncová price_amount patrí tomuto pevnému produktu v Kč; nepoužíva sa price_tax_exc.",
+    "heroNames": [
+      "Echinocactus grusonii malý",
+      "Ariocarpus retusus hybrid pravokořený",
+      "Echeveria perle von nurn",
+      "Haworthia retusa"
+    ],
+    "excludeIds": [
+      "p546"
+    ],
+    "photoNote": "Produkt Substrát pro pokojové rostliny 10l NATUREGARDEN bol vyradený: priradená fotografia ukazuje obal 45 l, takže nesedí na cenu uvedenej veľkosti. Cena substrátu PROFÍK je za 5 l podľa výslovného popisu balenia."
   }
 }

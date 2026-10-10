@@ -6,7 +6,7 @@
       "has": [
         {
           "type": "host",
-          "value": "^(?<sub>plantizia|gardenholice|lukscheiter|zahradananiti|kytkasem|farmarky|plantoteka|plantbros|sever|izbovecky|brest|kokedamy|rastlinkovo|svokrinejazyky|samek)\\.mojchatbot\\.sk$"
+          "value": "^(?<sub>plantizia|gardenholice|lukscheiter|zahradananiti|kytkasem|farmarky|plantoteka|plantbros|sever|izbovecky|brest|kokedamy|rastlinkovo|svokrinejazyky|samek|vseprokaktusy)\\.mojchatbot\\.sk$"
         }
       ],
       "destination": "/cosmetics.html"

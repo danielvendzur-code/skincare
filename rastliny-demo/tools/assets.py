@@ -138,4 +138,5 @@ save(source_path,[p for p,path in good])
 # A changed curated selection must not leave photos of rejected items behind.
 keep={Path(p['photo']).name for p,path in good}
 for stale in out.glob(f'{slug}-*.jpg'):
- if re.fullmatch(re.escape(slug)+r'-[pv]\d+\.jpg',stale.name) and stale.name not in keep:stale.unlink()
+ product_id=stale.stem.removeprefix(slug+'-')
+ if product_id[:1] in ('p','v') and product_id[1:].isdigit() and stale.name not in keep:stale.unlink()

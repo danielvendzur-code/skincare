@@ -79,5 +79,5 @@ def vseprokaktusy():
  with futures.ThreadPoolExecutor(max_workers=3) as pool:rows=[p for p in pool.map(detail,urls.items()) if p]
  return uniform(rows,{'cacti':20,'succulents':16,'substrates':8})
 if __name__=='__main__':
- slug=sys.argv[1];rows={'samek':samek,'vseprokaktusy':vseprokaktusy}[slug]();out=ROOT/'research'/TODAY;out.mkdir(exist_ok=True);save(out/(slug+'-products.json'),rows);print('SAVED',slug,len(rows),{k:sum(p['kind']==k for p in rows) for k in set(p['kind'] for p in rows)},flush=True)
+ slug=sys.argv[1];rows={'samek':samek,'vseprokaktusy':vseprokaktusy}[slug]();meta=json.loads((ROOT/'tools/shops.json').read_text())[slug];rows=[r for r in rows if r['id'] not in meta.get('excludeIds',[])];out=ROOT/'research'/TODAY;out.mkdir(exist_ok=True);save(out/(slug+'-products.json'),rows);print('SAVED',slug,len(rows),{k:sum(p['kind']==k for p in rows) for k in set(p['kind'] for p in rows)},flush=True)
  for p in rows:print(p['id'],p['kind'],p['name'],p['price'],p['tags'],flush=True)

@@ -1064,3 +1064,63 @@ Svetlo a nenáročnosť všetkých 18 kokedám boli osobitne prezreté v odráž
 | Sempervivum Weisse Hochzeit | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-weisse-hochzeit-936/) |
 | Sempervivum arachnoideum Gnaphalium | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-arachnoideum-gnaphalium-1049/) |
 | Sempervivum ciliosum (Netřesk brvitý) | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-ciliosum-827/) |
+
+## VšeProKaktusy
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://www.vseprokaktusy.cz/). [Identita predajcu](https://www.vseprokaktusy.cz/content/3-obchodni-podminky).
+- Firma: **Miroslav Langr, IČO 66279011**. Vlastníci: Miroslav Langr. Konatelia / podnikateľ: Miroslav Langr.
+- Veľkosť: **Tržby nedoložené; 0 zam.**. Kód `000` v [primárnom registri](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/66279011); údaj aktualizovaný 2022-12-01, načítaný 2026-10-10. [Vlastníci](https://www.vseprokaktusy.cz/content/3-obchodni-podminky).
+- ARES RES nepublikuje tržby. Tržby samostatného podnikateľa nie sú doložené verejným výkazom a neodhaduje sa ich výška.
+- Aktuálne VOP aj kontakt identifikujú predajcu Miroslava Langra, nie syna Patrika spomínaného v rodinnom príbehu webu. Meno a IČO sa zhodujú s ARES. Kategória 000 je posledný údaj RES, nie aktuálny personálny audit.
+- Prečo sedí: Samostatný podnikateľ a rodinná pestovateľská prevádzka; ARES uvádza bez zamestnancov. Množstvo podobných skladových kaktusov rôznych rodov, veľkostí a cien. Tržby živnostníka nie sú doložené. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **42 produktov**, kaktusy, ostatné sukulenty, substráty. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: Oficiálne dáta konkrétneho produktu PrestaShop (#product-details[data-product]): quantity > 0, allow_oosp = 0, available_for_order, atribút variantu 0 a mikrodáta ponuky InStock. Koncová price_amount patrí tomuto pevnému produktu v Kč; nepoužíva sa price_tax_exc. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/vseprokaktusy-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://www.vseprokaktusy.cz/img/vseprokaktusycz-logo-1682753643.jpg); Oficiálny zelený slovný názov je vyrezaný z loga bez drobného sloganu a zväčšený s Lanczos vyhladením. Pôvodný farebný kaktus s klobúkom je vyrezaný z toho istého loga pre launcher a každý kruhový avatar bota. Produkt Substrát pro pokojové rostliny 10l NATUREGARDEN bol vyradený: priradená fotografia ukazuje obal 45 l, takže nesedí na cenu uvedenej veľkosti. Cena substrátu PROFÍK je za 5 l podľa výslovného popisu balenia.
+- Farby: `brand: #274b24`, `accent: #4a6b2e`, `soft: #f0f4e9`, `paper: #fffefa`, `ink: #293225`, `line: #dce5d3`. Zelené odtiene z pôvodného loga a webu; tmavší brand a accent pre kontrast bieleho textu, svetlé zelené neutrálne plochy. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/vseprokaktusy-qa.json`, `vseprokaktusy-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/vseprokaktusy-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Echinocactus grusonii malý | kaktusy | 45 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/39-kaktus-.html) |
+| Ariocarpus retusus hybrid pravokořený | kaktusy | 475 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/1103-ariocarpus-retusus-hybrid-pravokoreny.html) |
+| Echeveria perle von nurn | Ostatné sukulenty | 85 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/941-echeveria-perle-von-nurn.html) |
+| Haworthia retusa | Ostatné sukulenty | 45 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/37-sukulent-.html) |
+| Crassula ovata var. monstrosa | Ostatné sukulenty | 36 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/161-sukulent-echeveria-spider.html) |
+| Mammillaria prolifera | kaktusy | 26 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/149-kaktus-.html) |
+| Echinofossulocactus gladiatus | kaktusy | 32 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/626-echinofossulocactus-gladiatus.html) |
+| Mammillaria discolor | kaktusy | 32 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/709-mammillaria-discolor.html) |
+| Rebutia donald | kaktusy | 32 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/128-kaktus-.html) |
+| Echinofossulocactus pentacanthus | kaktusy | 35 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/271-kaktus-mammillaria-rhodantha-pringlei.html) |
+| Gymnocalycium riojense | kaktusy | 35 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/177-kaktus-gymnocalycium-quehlianum.html) |
+| Mammillaria centricirrha | kaktusy | 35 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/442-echeveria-lilacina.html) |
+| Notocactus glaucinus | kaktusy | 35 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/165-kaktus-.html) |
+| Rebutia fabrisii var. aureiflora | kaktusy | 35 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/796-rebutia-fabrisii-var-aureiflora.html) |
+| Mammillaria umbrina | kaktusy | 38 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/114-sukulent-.html) |
+| Gymnocalycium friedrichii | kaktusy | 45 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/204-kaktus-gymnocalycium-friedrichii.html) |
+| Mammillaria woodsii | kaktusy | 45 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/1064-mammillaria-woodsii.html) |
+| Astrophytum ornatum | kaktusy | 48 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/329-coryphantha-vivipara.html) |
+| Gymnocalycium hossei | kaktusy | 55 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/1160-gymnocalycium-hossei.html) |
+| Gymnocalycium michoga sp | kaktusy | 58 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/1163-gymnocalycium-michoga.html) |
+| Mammillaria Matudae | kaktusy | 75 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/1138-mammillaria-matudae.html) |
+| Thelocactus bicolor flavidispinus | kaktusy | 95 Kč | [detail](https://www.vseprokaktusy.cz/prodej-kaktusu/1155-thelocactus-bicolor-flavidispinus.html) |
+| Mammillaria gracilis | kaktusy | 195 Kč | [detail](https://www.vseprokaktusy.cz/sbirkove-kaktusy-a-sukulenty/1179-mammillaria-gracilis.html) |
+| Lithops bromfieldii | Ostatné sukulenty | 45 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/741-lithops-bromfieldii.html) |
+| Aloe variagata | Ostatné sukulenty | 48 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/30-sukulent-.html) |
+| Echeveria agavoides | Ostatné sukulenty | 48 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/574-echeveria-agavoides.html) |
+| Echeveria purpusorum | Ostatné sukulenty | 48 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/205-sukulent-echeveria-purpusorum.html) |
+| Lithops karasmontana | Ostatné sukulenty | 48 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/445-lithops-group.html) |
+| Aloe vitro | Ostatné sukulenty | 55 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/887-aloe-vitro-.html) |
+| Echeveria cubic frost | Ostatné sukulenty | 55 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/402-echeveria-cubic-frost.html) |
+| Pachyphytum oviferum | Ostatné sukulenty | 55 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/274-haworthia-attenuata-enon.html) |
+| Tradescantia Purple | Ostatné sukulenty | 55 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/1162-tradescantia-purple.html) |
+| Haworthia limifolia | Ostatné sukulenty | 65 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/105-sukulent-.html) |
+| Senecio herreianus | Ostatné sukulenty | 65 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/90-kaktus-.html) |
+| Crassula perforata | Ostatné sukulenty | 75 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/300-polaskia-chichipe.html) |
+| Echeveria Taurus | Ostatné sukulenty | 95 Kč | [detail](https://www.vseprokaktusy.cz/prodej-sukulentu/745-echeveria-taurus.html) |
+| Keramzit 8-16mm 5 l | substráty | 59 Kč | [detail](https://www.vseprokaktusy.cz/substraty/56-keramzit-8-16mm-.html) |
+| Substrát pro pokojové rostliny 10l AGRO | substráty | 65 Kč | [detail](https://www.vseprokaktusy.cz/substraty/307-substrat-pro-pokojove-rostliny.html) |
+| Agro Substrát pro výsev a množení 10 l | substráty | 75 Kč | [detail](https://www.vseprokaktusy.cz/substraty/472-agro-substrat-pro-vysev-a-mnozeni-10-l.html) |
+| Zahradnický substrát 20l | substráty | 89 Kč | [detail](https://www.vseprokaktusy.cz/substraty/306-zahradnicky-substrat.html) |
+| Substrát pro pokojové rostliny 20l | substráty | 105 Kč | [detail](https://www.vseprokaktusy.cz/substraty/308-substrat-pro-pokojove-rostliny-20l.html) |
+| Substrát PROFÍK pro kaktusy a sukulenty — 5 l | substráty | 120 Kč | [detail](https://www.vseprokaktusy.cz/substraty-a-hnojiva/169-kaktus-.html) |

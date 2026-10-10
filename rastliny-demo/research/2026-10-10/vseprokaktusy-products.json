@@ -1,0 +1,1391 @@
+[
+  {
+    "id": "p39",
+    "name": "Echinocactus grusonii malý",
+    "kind": "cacti",
+    "priceValue": 45.0,
+    "currency": "CZK",
+    "price": "45 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/39-kaktus-.html",
+    "photo": "/assets/plants/vseprokaktusy-p39.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1002-large_default/kaktus-.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:echinocactus"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 5cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/39-kaktus-.html",
+    "sourceStockEvidence": {
+      "quantity": 2,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 5cm.",
+    "descriptionSha256": "f600da97be8cb0e4e6992f7fb20f68c313b25ae2ef32edd82a36c612e07ad079"
+  },
+  {
+    "id": "p1103",
+    "name": "Ariocarpus retusus hybrid pravokořený",
+    "kind": "cacti",
+    "priceValue": 475.0,
+    "currency": "CZK",
+    "price": "475 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/1103-ariocarpus-retusus-hybrid-pravokoreny.html",
+    "photo": "/assets/plants/vseprokaktusy-p1103.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2363-large_default/ariocarpus-retusus-hybrid-pravokoreny.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:ariocarpus"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny : prům 6cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/1103-ariocarpus-retusus-hybrid-pravokoreny.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny : prům 6cm.",
+    "descriptionSha256": "e58aa6c12e138829f747ecf52dd600045021351f1b8541404ade75427862e5ea"
+  },
+  {
+    "id": "p941",
+    "name": "Echeveria perle von nurn",
+    "kind": "succulents",
+    "priceValue": 85.0,
+    "currency": "CZK",
+    "price": "85 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/941-echeveria-perle-von-nurn.html",
+    "photo": "/assets/plants/vseprokaktusy-p941.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2386-large_default/echeveria-perle-von-nurn.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:echeveria"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny : prům 10cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/941-echeveria-perle-von-nurn.html",
+    "sourceStockEvidence": {
+      "quantity": 2,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny : prům 10cm.",
+    "descriptionSha256": "cb96eadc46de71e3dbcfa759e9a1aeed950bd8735757cdbf89ee9c53a5879425"
+  },
+  {
+    "id": "p37",
+    "name": "Haworthia retusa",
+    "kind": "succulents",
+    "priceValue": 45.0,
+    "currency": "CZK",
+    "price": "45 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/37-sukulent-.html",
+    "photo": "/assets/plants/vseprokaktusy-p37.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2451-large_default/sukulent-.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:haworthia"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 7cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/37-sukulent-.html",
+    "sourceStockEvidence": {
+      "quantity": 2,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 7cm.",
+    "descriptionSha256": "819bf0478490a7040e8704061680ed0ced96d6925c38e16298fba7305989ce6e"
+  },
+  {
+    "id": "p161",
+    "name": "Crassula ovata var. monstrosa",
+    "kind": "succulents",
+    "priceValue": 36.0,
+    "currency": "CZK",
+    "price": "36 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/161-sukulent-echeveria-spider.html",
+    "photo": "/assets/plants/vseprokaktusy-p161.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1582-large_default/sukulent-echeveria-spider.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:crassula"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: výška 5cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/161-sukulent-echeveria-spider.html",
+    "sourceStockEvidence": {
+      "quantity": 4,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: výška 5cm.",
+    "descriptionSha256": "cf8ef8b6c770ac51bd59e17bf430903be97376838985d837fb3b6a4e3f21c13e"
+  },
+  {
+    "id": "p149",
+    "name": "Mammillaria prolifera",
+    "kind": "cacti",
+    "priceValue": 26.0,
+    "currency": "CZK",
+    "price": "26 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/149-kaktus-.html",
+    "photo": "/assets/plants/vseprokaktusy-p149.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/220-large_default/kaktus-.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:mammillaria"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 4cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/149-kaktus-.html",
+    "sourceStockEvidence": {
+      "quantity": 2,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 4cm.",
+    "descriptionSha256": "4030f9bd078473becb6eb73c67fd2632f2bef8bcbd31450f4fa8ba0dce935f94"
+  },
+  {
+    "id": "p626",
+    "name": "Echinofossulocactus gladiatus",
+    "kind": "cacti",
+    "priceValue": 32.0,
+    "currency": "CZK",
+    "price": "32 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/626-echinofossulocactus-gladiatus.html",
+    "photo": "/assets/plants/vseprokaktusy-p626.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1655-large_default/echinofossulocactus-gladiatus.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:echinofossulocactus"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 3cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/626-echinofossulocactus-gladiatus.html",
+    "sourceStockEvidence": {
+      "quantity": 3,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 3cm.",
+    "descriptionSha256": "f1a50505e4e9f76bf5da89a7f01fb1457cd1d84d89d1ab0a82145054d329303a"
+  },
+  {
+    "id": "p709",
+    "name": "Mammillaria discolor",
+    "kind": "cacti",
+    "priceValue": 32.0,
+    "currency": "CZK",
+    "price": "32 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/709-mammillaria-discolor.html",
+    "photo": "/assets/plants/vseprokaktusy-p709.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1763-large_default/mammillaria-discolor.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:mammillaria"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: výška 5cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/709-mammillaria-discolor.html",
+    "sourceStockEvidence": {
+      "quantity": 3,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: výška 5cm.",
+    "descriptionSha256": "cf8ef8b6c770ac51bd59e17bf430903be97376838985d837fb3b6a4e3f21c13e"
+  },
+  {
+    "id": "p128",
+    "name": "Rebutia donald",
+    "kind": "cacti",
+    "priceValue": 32.0,
+    "currency": "CZK",
+    "price": "32 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/128-kaktus-.html",
+    "photo": "/assets/plants/vseprokaktusy-p128.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1281-large_default/kaktus-.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:rebutia"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 4cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/128-kaktus-.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 4cm.",
+    "descriptionSha256": "4030f9bd078473becb6eb73c67fd2632f2bef8bcbd31450f4fa8ba0dce935f94"
+  },
+  {
+    "id": "p271",
+    "name": "Echinofossulocactus pentacanthus",
+    "kind": "cacti",
+    "priceValue": 35.0,
+    "currency": "CZK",
+    "price": "35 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/271-kaktus-mammillaria-rhodantha-pringlei.html",
+    "photo": "/assets/plants/vseprokaktusy-p271.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1653-large_default/kaktus-mammillaria-rhodantha-pringlei.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:echinofossulocactus"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 4cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/271-kaktus-mammillaria-rhodantha-pringlei.html",
+    "sourceStockEvidence": {
+      "quantity": 4,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 4cm.",
+    "descriptionSha256": "4030f9bd078473becb6eb73c67fd2632f2bef8bcbd31450f4fa8ba0dce935f94"
+  },
+  {
+    "id": "p177",
+    "name": "Gymnocalycium riojense",
+    "kind": "cacti",
+    "priceValue": 35.0,
+    "currency": "CZK",
+    "price": "35 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/177-kaktus-gymnocalycium-quehlianum.html",
+    "photo": "/assets/plants/vseprokaktusy-p177.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/668-large_default/kaktus-gymnocalycium-quehlianum.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:gymnocalycium"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 4cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/177-kaktus-gymnocalycium-quehlianum.html",
+    "sourceStockEvidence": {
+      "quantity": 2,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 4cm.",
+    "descriptionSha256": "4030f9bd078473becb6eb73c67fd2632f2bef8bcbd31450f4fa8ba0dce935f94"
+  },
+  {
+    "id": "p442",
+    "name": "Mammillaria centricirrha",
+    "kind": "cacti",
+    "priceValue": 35.0,
+    "currency": "CZK",
+    "price": "35 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/442-echeveria-lilacina.html",
+    "photo": "/assets/plants/vseprokaktusy-p442.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1513-large_default/echeveria-lilacina.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:mammillaria"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 4cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/442-echeveria-lilacina.html",
+    "sourceStockEvidence": {
+      "quantity": 4,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 4cm.",
+    "descriptionSha256": "4030f9bd078473becb6eb73c67fd2632f2bef8bcbd31450f4fa8ba0dce935f94"
+  },
+  {
+    "id": "p165",
+    "name": "Notocactus glaucinus",
+    "kind": "cacti",
+    "priceValue": 35.0,
+    "currency": "CZK",
+    "price": "35 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/165-kaktus-.html",
+    "photo": "/assets/plants/vseprokaktusy-p165.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/270-large_default/kaktus-.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:notocactus"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 3cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/165-kaktus-.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 3cm.",
+    "descriptionSha256": "f1a50505e4e9f76bf5da89a7f01fb1457cd1d84d89d1ab0a82145054d329303a"
+  },
+  {
+    "id": "p796",
+    "name": "Rebutia fabrisii var. aureiflora",
+    "kind": "cacti",
+    "priceValue": 35.0,
+    "currency": "CZK",
+    "price": "35 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/796-rebutia-fabrisii-var-aureiflora.html",
+    "photo": "/assets/plants/vseprokaktusy-p796.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1904-large_default/rebutia-fabrisii-var-aureiflora.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:rebutia"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny : prům 4cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/796-rebutia-fabrisii-var-aureiflora.html",
+    "sourceStockEvidence": {
+      "quantity": 3,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny : prům 4cm.",
+    "descriptionSha256": "dc6ececff03912aaf26a50cd0647f94192d0af15b516934c27d2bbc797e6324c"
+  },
+  {
+    "id": "p114",
+    "name": "Mammillaria umbrina",
+    "kind": "cacti",
+    "priceValue": 38.0,
+    "currency": "CZK",
+    "price": "38 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/114-sukulent-.html",
+    "photo": "/assets/plants/vseprokaktusy-p114.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1906-large_default/sukulent-.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:mammillaria"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 5cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/114-sukulent-.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 5cm.",
+    "descriptionSha256": "f600da97be8cb0e4e6992f7fb20f68c313b25ae2ef32edd82a36c612e07ad079"
+  },
+  {
+    "id": "p204",
+    "name": "Gymnocalycium friedrichii",
+    "kind": "cacti",
+    "priceValue": 45.0,
+    "currency": "CZK",
+    "price": "45 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/204-kaktus-gymnocalycium-friedrichii.html",
+    "photo": "/assets/plants/vseprokaktusy-p204.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1646-large_default/kaktus-gymnocalycium-friedrichii.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:gymnocalycium"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny:  prům 5cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/204-kaktus-gymnocalycium-friedrichii.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny:  prům 5cm.",
+    "descriptionSha256": "2a56e41ff78e68f9b5b22a1f25f4d5673171127205c771dcbd40f735eebab1b7"
+  },
+  {
+    "id": "p1064",
+    "name": "Mammillaria woodsii",
+    "kind": "cacti",
+    "priceValue": 45.0,
+    "currency": "CZK",
+    "price": "45 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/1064-mammillaria-woodsii.html",
+    "photo": "/assets/plants/vseprokaktusy-p1064.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2399-large_default/mammillaria-woodsii.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:mammillaria"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny : prům 4cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/1064-mammillaria-woodsii.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny : prům 4cm.",
+    "descriptionSha256": "dc6ececff03912aaf26a50cd0647f94192d0af15b516934c27d2bbc797e6324c"
+  },
+  {
+    "id": "p329",
+    "name": "Astrophytum ornatum",
+    "kind": "cacti",
+    "priceValue": 48.0,
+    "currency": "CZK",
+    "price": "48 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/329-coryphantha-vivipara.html",
+    "photo": "/assets/plants/vseprokaktusy-p329.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1980-large_default/coryphantha-vivipara.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:astrophytum"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: výška 7cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/329-coryphantha-vivipara.html",
+    "sourceStockEvidence": {
+      "quantity": 3,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: výška 7cm.",
+    "descriptionSha256": "6b489bc5e2485a6bd0b6bd75e87d8269fa0cc16f0c9971998250ad34e2d2a474"
+  },
+  {
+    "id": "p1160",
+    "name": "Gymnocalycium hossei",
+    "kind": "cacti",
+    "priceValue": 55.0,
+    "currency": "CZK",
+    "price": "55 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/1160-gymnocalycium-hossei.html",
+    "photo": "/assets/plants/vseprokaktusy-p1160.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2478-large_default/gymnocalycium-hossei.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:gymnocalycium"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny : výška 5cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/1160-gymnocalycium-hossei.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny : výška 5cm.",
+    "descriptionSha256": "c8759afe286f3424a63cde1e2b87a8e8c188771ba7cb7011f2a67886cd92db85"
+  },
+  {
+    "id": "p1163",
+    "name": "Gymnocalycium michoga sp",
+    "kind": "cacti",
+    "priceValue": 58.0,
+    "currency": "CZK",
+    "price": "58 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/1163-gymnocalycium-michoga.html",
+    "photo": "/assets/plants/vseprokaktusy-p1163.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2475-large_default/gymnocalycium-michoga.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:gymnocalycium"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny : prům 6cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/1163-gymnocalycium-michoga.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny : prům 6cm.",
+    "descriptionSha256": "e58aa6c12e138829f747ecf52dd600045021351f1b8541404ade75427862e5ea"
+  },
+  {
+    "id": "p1138",
+    "name": "Mammillaria Matudae",
+    "kind": "cacti",
+    "priceValue": 75.0,
+    "currency": "CZK",
+    "price": "75 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/1138-mammillaria-matudae.html",
+    "photo": "/assets/plants/vseprokaktusy-p1138.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2436-large_default/mammillaria-matudae.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:mammillaria"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny : výška 6cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/1138-mammillaria-matudae.html",
+    "sourceStockEvidence": {
+      "quantity": 15,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny : výška 6cm.",
+    "descriptionSha256": "c033ff162fe18a4df2a654fefc149fd68c74f06fbc4d032617668b7b816b6984"
+  },
+  {
+    "id": "p1155",
+    "name": "Thelocactus bicolor flavidispinus",
+    "kind": "cacti",
+    "priceValue": 95.0,
+    "currency": "CZK",
+    "price": "95 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-kaktusu/1155-thelocactus-bicolor-flavidispinus.html",
+    "photo": "/assets/plants/vseprokaktusy-p1155.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2466-large_default/thelocactus-bicolor-flavidispinus.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:thelocactus"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny : prům 6cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-kaktusu/1155-thelocactus-bicolor-flavidispinus.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej kaktusů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny : prům 6cm.",
+    "descriptionSha256": "e58aa6c12e138829f747ecf52dd600045021351f1b8541404ade75427862e5ea"
+  },
+  {
+    "id": "p1179",
+    "name": "Mammillaria gracilis",
+    "kind": "cacti",
+    "priceValue": 195.0,
+    "currency": "CZK",
+    "price": "195 Kč",
+    "url": "https://www.vseprokaktusy.cz/sbirkove-kaktusy-a-sukulenty/1179-mammillaria-gracilis.html",
+    "photo": "/assets/plants/vseprokaktusy-p1179.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2501-large_default/mammillaria-gracilis.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:mammillaria"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny : prům 8cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/sbirkove-kaktusy-a-sukulenty/1179-mammillaria-gracilis.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Sbírkové kaktusy a sukulenty"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny : prům 8cm.",
+    "descriptionSha256": "5336e80e54ae2562486e7c2bbb2fcbbff687b9e974c0733570706e91cb9f7976"
+  },
+  {
+    "id": "p741",
+    "name": "Lithops bromfieldii",
+    "kind": "succulents",
+    "priceValue": 45.0,
+    "currency": "CZK",
+    "price": "45 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/741-lithops-bromfieldii.html",
+    "photo": "/assets/plants/vseprokaktusy-p741.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2024-large_default/lithops-bromfieldii.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:lithops"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 4cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/741-lithops-bromfieldii.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 4cm.",
+    "descriptionSha256": "4030f9bd078473becb6eb73c67fd2632f2bef8bcbd31450f4fa8ba0dce935f94"
+  },
+  {
+    "id": "p30",
+    "name": "Aloe variagata",
+    "kind": "succulents",
+    "priceValue": 48.0,
+    "currency": "CZK",
+    "price": "48 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/30-sukulent-.html",
+    "photo": "/assets/plants/vseprokaktusy-p30.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/480-large_default/sukulent-.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:aloe"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: výška 7cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/30-sukulent-.html",
+    "sourceStockEvidence": {
+      "quantity": 9,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: výška 7cm.",
+    "descriptionSha256": "3982c1340d8eb429d1f45a3467adc4e1f640cf07c19a91c0db10fa4576ed6dde"
+  },
+  {
+    "id": "p574",
+    "name": "Echeveria agavoides",
+    "kind": "succulents",
+    "priceValue": 48.0,
+    "currency": "CZK",
+    "price": "48 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/574-echeveria-agavoides.html",
+    "photo": "/assets/plants/vseprokaktusy-p574.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1577-large_default/echeveria-agavoides.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:echeveria"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny : prům 6cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/574-echeveria-agavoides.html",
+    "sourceStockEvidence": {
+      "quantity": 2,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny : prům 6cm.",
+    "descriptionSha256": "e58aa6c12e138829f747ecf52dd600045021351f1b8541404ade75427862e5ea"
+  },
+  {
+    "id": "p205",
+    "name": "Echeveria purpusorum",
+    "kind": "succulents",
+    "priceValue": 48.0,
+    "currency": "CZK",
+    "price": "48 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/205-sukulent-echeveria-purpusorum.html",
+    "photo": "/assets/plants/vseprokaktusy-p205.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/387-large_default/sukulent-echeveria-purpusorum.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:echeveria"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 7cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/205-sukulent-echeveria-purpusorum.html",
+    "sourceStockEvidence": {
+      "quantity": 3,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 7cm.",
+    "descriptionSha256": "819bf0478490a7040e8704061680ed0ced96d6925c38e16298fba7305989ce6e"
+  },
+  {
+    "id": "p445",
+    "name": "Lithops karasmontana",
+    "kind": "succulents",
+    "priceValue": 48.0,
+    "currency": "CZK",
+    "price": "48 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/445-lithops-group.html",
+    "photo": "/assets/plants/vseprokaktusy-p445.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2004-large_default/lithops-group.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:lithops"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 5cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/445-lithops-group.html",
+    "sourceStockEvidence": {
+      "quantity": 14,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 5cm.",
+    "descriptionSha256": "f600da97be8cb0e4e6992f7fb20f68c313b25ae2ef32edd82a36c612e07ad079"
+  },
+  {
+    "id": "p887",
+    "name": "Aloe vitro",
+    "kind": "succulents",
+    "priceValue": 55.0,
+    "currency": "CZK",
+    "price": "55 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/887-aloe-vitro-.html",
+    "photo": "/assets/plants/vseprokaktusy-p887.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2336-large_default/aloe-vitro-.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:aloe"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 9cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/887-aloe-vitro-.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 9cm.",
+    "descriptionSha256": "b4b2ed7b239d98b1b7b5c4d2acd4b6844abc05efcb96128674991454393bca0d"
+  },
+  {
+    "id": "p402",
+    "name": "Echeveria cubic frost",
+    "kind": "succulents",
+    "priceValue": 55.0,
+    "currency": "CZK",
+    "price": "55 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/402-echeveria-cubic-frost.html",
+    "photo": "/assets/plants/vseprokaktusy-p402.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1866-large_default/echeveria-cubic-frost.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:echeveria"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 7cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/402-echeveria-cubic-frost.html",
+    "sourceStockEvidence": {
+      "quantity": 2,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 7cm.",
+    "descriptionSha256": "819bf0478490a7040e8704061680ed0ced96d6925c38e16298fba7305989ce6e"
+  },
+  {
+    "id": "p274",
+    "name": "Pachyphytum oviferum",
+    "kind": "succulents",
+    "priceValue": 55.0,
+    "currency": "CZK",
+    "price": "55 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/274-haworthia-attenuata-enon.html",
+    "photo": "/assets/plants/vseprokaktusy-p274.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2396-large_default/haworthia-attenuata-enon.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:pachyphytum"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 7cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/274-haworthia-attenuata-enon.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 7cm.",
+    "descriptionSha256": "819bf0478490a7040e8704061680ed0ced96d6925c38e16298fba7305989ce6e"
+  },
+  {
+    "id": "p1162",
+    "name": "Tradescantia Purple",
+    "kind": "succulents",
+    "priceValue": 55.0,
+    "currency": "CZK",
+    "price": "55 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/1162-tradescantia-purple.html",
+    "photo": "/assets/plants/vseprokaktusy-p1162.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/2474-large_default/tradescantia-purple.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:tradescantia"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny : prům 9cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/1162-tradescantia-purple.html",
+    "sourceStockEvidence": {
+      "quantity": 2,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny : prům 9cm.",
+    "descriptionSha256": "613179a60e1cfe757a79dfb66d0004341651dd2a0e4f610a06b9b1c5ac2236a3"
+  },
+  {
+    "id": "p105",
+    "name": "Haworthia limifolia",
+    "kind": "succulents",
+    "priceValue": 65.0,
+    "currency": "CZK",
+    "price": "65 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/105-sukulent-.html",
+    "photo": "/assets/plants/vseprokaktusy-p105.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1876-large_default/sukulent-.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:haworthia"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 7cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/105-sukulent-.html",
+    "sourceStockEvidence": {
+      "quantity": 2,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 7cm.",
+    "descriptionSha256": "819bf0478490a7040e8704061680ed0ced96d6925c38e16298fba7305989ce6e"
+  },
+  {
+    "id": "p90",
+    "name": "Senecio herreianus",
+    "kind": "succulents",
+    "priceValue": 65.0,
+    "currency": "CZK",
+    "price": "65 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/90-kaktus-.html",
+    "photo": "/assets/plants/vseprokaktusy-p90.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1398-large_default/kaktus-.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:senecio"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 9cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/90-kaktus-.html",
+    "sourceStockEvidence": {
+      "quantity": 4,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 9cm.",
+    "descriptionSha256": "b4b2ed7b239d98b1b7b5c4d2acd4b6844abc05efcb96128674991454393bca0d"
+  },
+  {
+    "id": "p300",
+    "name": "Crassula perforata",
+    "kind": "succulents",
+    "priceValue": 75.0,
+    "currency": "CZK",
+    "price": "75 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/300-polaskia-chichipe.html",
+    "photo": "/assets/plants/vseprokaktusy-p300.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/856-large_default/polaskia-chichipe.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:crassula"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 10cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/300-polaskia-chichipe.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 10cm.",
+    "descriptionSha256": "fa6fb4c121fbd724b7b1558ad141b9b8e2672d9d2ea11ca13fd7ef7176fe4b27"
+  },
+  {
+    "id": "p745",
+    "name": "Echeveria Taurus",
+    "kind": "succulents",
+    "priceValue": 95.0,
+    "currency": "CZK",
+    "price": "95 Kč",
+    "url": "https://www.vseprokaktusy.cz/prodej-sukulentu/745-echeveria-taurus.html",
+    "photo": "/assets/plants/vseprokaktusy-p745.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1810-large_default/echeveria-taurus.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:echeveria"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Velikost rostliny: prům 10cm."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/prodej-sukulentu/745-echeveria-taurus.html",
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Prodej sukulentů"
+    ],
+    "reason": "Veľkosť podľa predajcu: Velikost rostliny: prům 10cm.",
+    "descriptionSha256": "fa6fb4c121fbd724b7b1558ad141b9b8e2672d9d2ea11ca13fd7ef7176fe4b27"
+  },
+  {
+    "id": "p56",
+    "name": "Keramzit 8-16mm 5 l",
+    "kind": "substrates",
+    "priceValue": 59.0,
+    "currency": "CZK",
+    "price": "59 Kč",
+    "url": "https://www.vseprokaktusy.cz/substraty/56-keramzit-8-16mm-.html",
+    "photo": "/assets/plants/vseprokaktusy-p56.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/73-large_default/keramzit-8-16mm-.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:keramzit"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Expandovaný jílový granulát s hladkou povrchovou úpravou slouží k dekoračnímu zakrytí substrátu na povrchu nádob , nebo také k vytvoření drenážní vrstvy v květináčích s odtokem. Využití najde také při hydroponickém pěstování rostlin."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/substraty/56-keramzit-8-16mm-.html",
+    "sourceStockEvidence": {
+      "quantity": 8,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Substráty"
+    ],
+    "reason": "Veľkosť podľa predajcu: Expandovaný jílový granulát s hladkou povrchovou úpravou slouží k dekoračnímu zakrytí substrátu na povrchu nádob , nebo také k vytvoření drenážní vrstvy v květináčích s odtokem. Využití najde také při hydroponickém pěstování rostlin.",
+    "descriptionSha256": "9c8424d895006e645cfe85f42da51fd906d33a54453d1f2bd045d1ef3e6e9568"
+  },
+  {
+    "id": "p307",
+    "name": "Substrát pro pokojové rostliny 10l AGRO",
+    "kind": "substrates",
+    "priceValue": 65.0,
+    "currency": "CZK",
+    "price": "65 Kč",
+    "url": "https://www.vseprokaktusy.cz/substraty/307-substrat-pro-pokojove-rostliny.html",
+    "photo": "/assets/plants/vseprokaktusy-p307.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/587-large_default/substrat-pro-pokojove-rostliny.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:substrát",
+      "indoor-mix"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Kvalitní pěstební substrát určený pro přesazování a pěstování kvetoucích i nekvetoucích pokojových rostlin. Obsahuje rašelinu, jemný kůrový humus, základní živiny a stopové prvky, které podporují zdravý růst a dobré zakořenění. Je vhodný například pro africké fialky, fíkusy, šeflery, dracény a další běžné pokojové rostliny. Balení obsahuje 10 l substrátu."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/substraty/307-substrat-pro-pokojove-rostliny.html",
+    "sourceStockEvidence": {
+      "quantity": 2,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Substráty"
+    ],
+    "reason": "Veľkosť podľa predajcu: Kvalitní pěstební substrát určený pro přesazování a pěstování kvetoucích i nekvetoucích pokojových rostlin. Obsahuje rašelinu, jemný kůrový humus, základní živiny a stopové prvky, které podporují zdravý růst a dobré zakořenění. Je vhodný například pro africké fialky, fíkusy, šeflery, dracény a další běžné pokojové rostliny. Balení obsahuje 10 l substrátu.",
+    "descriptionSha256": "f70c20ba7f658aa4b897ab3c1b46c8d51dabc2f02cd4273deebe1a3a9cec8df0"
+  },
+  {
+    "id": "p472",
+    "name": "Agro Substrát pro výsev a množení 10 l",
+    "kind": "substrates",
+    "priceValue": 75.0,
+    "currency": "CZK",
+    "price": "75 Kč",
+    "url": "https://www.vseprokaktusy.cz/substraty/472-agro-substrat-pro-vysev-a-mnozeni-10-l.html",
+    "photo": "/assets/plants/vseprokaktusy-p472.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/1215-large_default/agro-substrat-pro-vysev-a-mnozeni-10-l.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:agro"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Jemný pěstební substrát vhodný pro klíčení semen, přepichování mladých rostlin a vegetativní množení. Obsahuje vybrané druhy rašeliny, jemný vyzrálý kůrový humus, živiny a stopové prvky. Přirozeně obsažené prospěšné mikroorganismy pomáhají omezovat výskyt půdních hub způsobujících odumírání klíčků. Balení obsahuje 10 l substrátu."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/substraty/472-agro-substrat-pro-vysev-a-mnozeni-10-l.html",
+    "sourceStockEvidence": {
+      "quantity": 3,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Substráty"
+    ],
+    "reason": "Veľkosť podľa predajcu: Jemný pěstební substrát vhodný pro klíčení semen, přepichování mladých rostlin a vegetativní množení. Obsahuje vybrané druhy rašeliny, jemný vyzrálý kůrový humus, živiny a stopové prvky. Přirozeně obsažené prospěšné mikroorganismy pomáhají omezovat výskyt půdních hub způsobujících odumírání klíčků. Balení obsahuje 10 l substrátu.",
+    "descriptionSha256": "af2050faa4d0a1c2b9108b4b6f137757af39a1e71fe8b789bb883f6827673fdc"
+  },
+  {
+    "id": "p306",
+    "name": "Zahradnický substrát 20l",
+    "kind": "substrates",
+    "priceValue": 89.0,
+    "currency": "CZK",
+    "price": "89 Kč",
+    "url": "https://www.vseprokaktusy.cz/substraty/306-zahradnicky-substrat.html",
+    "photo": "/assets/plants/vseprokaktusy-p306.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/586-large_default/zahradnicky-substrat.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:zahradnický"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Univerzální zahradnický substrát vhodný pro pěstování květin a zeleniny na záhonech, ve sklenících i pěstebních nádobách. Obsahuje rašelinu, kvalitní vyzrálý kůrový humus, upravené pH a zásobu živin pro první týdny růstu. Díky své struktuře vytváří vhodné podmínky pro zakořenění a zdravý vývoj rostlin. Balení obsahuje 20 l substrátu."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/substraty/306-zahradnicky-substrat.html",
+    "sourceStockEvidence": {
+      "quantity": 5,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Substráty"
+    ],
+    "reason": "Veľkosť podľa predajcu: Univerzální zahradnický substrát vhodný pro pěstování květin a zeleniny na záhonech, ve sklenících i pěstebních nádobách. Obsahuje rašelinu, kvalitní vyzrálý kůrový humus, upravené pH a zásobu živin pro první týdny růstu. Díky své struktuře vytváří vhodné podmínky pro zakořenění a zdravý vývoj rostlin. Balení obsahuje 20 l substrátu.",
+    "descriptionSha256": "d5e8ae779f4cecfd2e0e818de7f3eb5b218baa023e528becac82d8e0d71358d6"
+  },
+  {
+    "id": "p308",
+    "name": "Substrát pro pokojové rostliny 20l",
+    "kind": "substrates",
+    "priceValue": 105.0,
+    "currency": "CZK",
+    "price": "105 Kč",
+    "url": "https://www.vseprokaktusy.cz/substraty/308-substrat-pro-pokojove-rostliny-20l.html",
+    "photo": "/assets/plants/vseprokaktusy-p308.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/588-large_default/substrat-pro-pokojove-rostliny-20l.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:substrát",
+      "indoor-mix"
+    ],
+    "facts": [
+      "Veľkosť podľa predajcu: Pěstební substrát vhodný pro výsadbu a přesazování širokého sortimentu pokojových rostlin okrasných listem i květem. Směs rašeliny a jemného vyzrálého kůrového humusu je doplněna základními živinami a stopovými prvky pro správný počáteční vývoj rostlin. Substrát vytváří příznivé podmínky pro kořenový systém a následný zdravý růst. Praktické balení obsahuje 20 l substrátu."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/substraty/308-substrat-pro-pokojove-rostliny-20l.html",
+    "sourceStockEvidence": {
+      "quantity": 2,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Substráty"
+    ],
+    "reason": "Veľkosť podľa predajcu: Pěstební substrát vhodný pro výsadbu a přesazování širokého sortimentu pokojových rostlin okrasných listem i květem. Směs rašeliny a jemného vyzrálého kůrového humusu je doplněna základními živinami a stopovými prvky pro správný počáteční vývoj rostlin. Substrát vytváří příznivé podmínky pro kořenový systém a následný zdravý růst. Praktické balení obsahuje 20 l substrátu.",
+    "descriptionSha256": "4ffe15b147b2fc71881a82a4d8b349bbae58bde0c52c33d5c1802c236550c55d"
+  },
+  {
+    "id": "p169",
+    "name": "Substrát PROFÍK pro kaktusy a sukulenty — 5 l",
+    "kind": "substrates",
+    "priceValue": 120.0,
+    "currency": "CZK",
+    "price": "120 Kč",
+    "url": "https://www.vseprokaktusy.cz/substraty-a-hnojiva/169-kaktus-.html",
+    "photo": "/assets/plants/vseprokaktusy-p169.jpg",
+    "imageSource": "https://www.vseprokaktusy.cz/535-large_default/kaktus-.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "cactus-mix",
+      "genus:substrát"
+    ],
+    "facts": [
+      "Balenie podľa predajcu: 5 l."
+    ],
+    "sourceEndpoint": "https://www.vseprokaktusy.cz/substraty-a-hnojiva/169-kaktus-.html",
+    "sourceStockEvidence": {
+      "quantity": 4,
+      "allow_oosp": 0,
+      "availability": "https://schema.org/InStock",
+      "attributeId": "0"
+    },
+    "sourceCategory": [
+      "Substráty a hnojiva"
+    ],
+    "reason": "Balenie podľa predajcu: 5 l.",
+    "descriptionSha256": "8e080a5d1465a70644699e2c6f777de331f1495df5c02cf57683ddbc112c84d0"
+  }
+]
