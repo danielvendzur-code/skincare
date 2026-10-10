@@ -96,3 +96,5 @@ Rastlinná ukážka [KytkaSem](./rastliny-demo/kytkasem/index.html): pripravená
 Rastlinná ukážka [Farmářky z paneláku](./rastliny-demo/farmarky/index.html): pripravená subdoména `farmarky.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
 
 Rastlinná ukážka [Plantotéka](./rastliny-demo/plantoteka/index.html): pripravená subdoména `plantoteka.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [PlantBros](./rastliny-demo/plantbros/index.html): pripravená subdoména `plantbros.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.

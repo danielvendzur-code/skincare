@@ -1,0 +1,28 @@
+{
+  "checked": "2026-10-10",
+  "company": "Extravaganza Studio LV s.r.o.",
+  "ico": "50932632",
+  "owners": [
+    "Lukáš Halama",
+    "Viliam Lajgút"
+  ],
+  "executives": [
+    "Lukáš Halama",
+    "Viliam Lajgút"
+  ],
+  "employees": {
+    "code": "00",
+    "range": "nezistené",
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1708531",
+    "recordUpdated": "2026-07-03"
+  },
+  "revenue": {
+    "value": 24630,
+    "year": 2025,
+    "currency": "EUR",
+    "source": "https://www.registeruz.sk/cruz-public/domain/financialreport/show/10012458/687",
+    "note": "Čistý obrat: 0 € z predaja tovaru + 24 630 € z predaja výrobkov a služieb. Celofiremné tržby; podniká aj mimo e-shopu. Kód 00 znamená nezistený počet zamestnancov, nie nulu."
+  },
+  "ownersSource": "https://www.orsr.sk/vypis.asp?ID=382160&SID=3&P=0",
+  "note": "RPO pri kontrole neodpovedalo; vlastníci overení z uvedeného primárneho zdroja, veľkosť a financie z RÚZ."
+}

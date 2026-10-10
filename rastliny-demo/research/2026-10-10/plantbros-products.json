@@ -1,0 +1,2786 @@
+[
+  {
+    "id": "p50",
+    "name": "Maranta kerchoveana (Modlivka)",
+    "url": "https://www.plantbros.sk/maranta-kerchoveana-2/",
+    "kind": "plants",
+    "priceValue": 9.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/50_maranta-kerchoveana--modlivka.jpg?ff=1&x=1024&y=768&q=85&ts=69d8e47d&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-8/",
+    "sourceCategory": "vsetky-rastliny/strana-8",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:maranta",
+      "low",
+      "pet-safe"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/plantbros-p50.jpg",
+    "price": "9,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Rastliny podľa druhu"
+      ],
+      "EAN :": [
+        "8720858037929"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Stredne náročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "5a37bf34ffa79916c8977bdd102a5eb0f5878bf5fb8a2e4fa2bf56aac2106dfc",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p756",
+    "name": "Philodendron White Measure",
+    "url": "https://www.plantbros.sk/philodendron-white-measure/",
+    "kind": "plants",
+    "priceValue": 16.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/756_philodendron-white-measure.jpg?ff=1&x=1024&y=768&q=85&ts=69d8c843&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-11/",
+    "sourceCategory": "vsetky-rastliny/strana-11",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p756.jpg",
+    "price": "16,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Philodendron"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "37af9c9388c02b0011539f433d4aaede7d2fa692ca3d82fb9ca8bbef46671edc",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p1110",
+    "name": "Kvetináč \"Kafíčko\" 6cm",
+    "url": "https://www.plantbros.sk/kvetinac--kaficko--6cm/",
+    "kind": "pots",
+    "priceValue": 4.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1110_kvetinac--kaficko--6cm.jpg?ff=1&x=1024&y=768&q=85&ts=69df727c&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kvetinace/",
+    "sourceCategory": "kvetinace",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "ceramic",
+      "genus:kvetináč",
+      "small-pot"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm.",
+      "Priemer alebo šírka podľa e-shopu: 6 cm.",
+      "Materiál podľa predajcu: keramika.",
+      "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm. Priemer alebo šírka podľa e-shopu: 6 cm. Materiál podľa predajcu: keramika.",
+    "diameter": 6.0,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1110.jpg",
+    "price": "4,90 €",
+    "sourceAttributes": {},
+    "descriptionSha256": "4af5116ddf5539827ab42b2c1ab517753f178c4cc400dd09b9fba25212c9fe9b",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p71",
+    "name": "Mammillaria Elongata",
+    "url": "https://www.plantbros.sk/mammillaria-elongata/",
+    "kind": "succulents",
+    "priceValue": 3.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/71_mammillaria-elongata.jpg?ff=1&x=1024&y=768&q=85&ts=69d29b65&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/strana-3/",
+    "sourceCategory": "kaktusy/strana-3",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:mammillaria",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Črepník podľa e-shopu: 6 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/plantbros-p71.jpg",
+    "price": "3,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "803b06e8a1a1fb73d4b09aebcaf52eb38c1b92ca9789296b260f8e190e1db26c",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p396",
+    "name": "Baby Sansevieria Ehrenbergii \"Samurai\"",
+    "url": "https://www.plantbros.sk/baby-sansevieria-ehrenbergii--samurai/",
+    "kind": "plants",
+    "priceValue": 8.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/396-1_baby-sansevieria-ehrenbergii--samurai.jpg?ff=1&x=1024&y=768&q=85&ts=69ca9a86&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-3/",
+    "sourceCategory": "vsetky-rastliny/strana-3",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:baby",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 6 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/plantbros-p396.jpg",
+    "price": "8,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Rastliny podľa druhu"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Menej svetla"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "6ea318723f5f290784189f19b49332da1c057b979620d07cf1611e872b818ca3",
+    "imageCrop": [
+      0.12,
+      0.02,
+      0.95,
+      1
+    ]
+  },
+  {
+    "id": "p1479",
+    "name": "Fittonia albivenis",
+    "url": "https://www.plantbros.sk/fittonia-albivenis/",
+    "kind": "plants",
+    "priceValue": 8.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1479_fittonia-albivenis.jpg?ff=1&x=1024&y=768&q=85&ts=6a6c644b&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-6/",
+    "sourceCategory": "vsetky-rastliny/strana-6",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:fittonia",
+      "low",
+      "pet-safe"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1479.jpg",
+    "price": "8,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Stredne náročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "4b903d48e71868a90809dc0aabd8a40577f75119d8b25f88ef02259304cd58cc"
+  },
+  {
+    "id": "p101",
+    "name": "Aloe Vera",
+    "url": "https://www.plantbros.sk/aloe-vera/",
+    "kind": "succulents",
+    "priceValue": 9.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/101_aloe-vera.jpg?ff=1&x=1024&y=768&q=85&ts=6a6c80bc&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/strana-3/",
+    "sourceCategory": "kaktusy/strana-3",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:aloe",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: slnečné stanovište.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: slnečné stanovište. Črepník podľa e-shopu: 8 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p101.jpg",
+    "price": "9,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "4e0636b0ce2659d7ed73cbb9b78929d9a7e1d7a90fdc755fa0fa2e7ad094f99f"
+  },
+  {
+    "id": "p1137",
+    "name": "Kvetináč \"Pipkovia\" 10,5cm",
+    "url": "https://www.plantbros.sk/kvetinac--pipkovia/",
+    "kind": "pots",
+    "priceValue": 8.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1137_kvetinac--pipkovia--10-5cm.jpg?ff=1&x=1024&y=768&q=85&ts=69e096c7&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kvetinace/",
+    "sourceCategory": "kvetinace",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "ceramic",
+      "genus:kvetináč",
+      "small-pot"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 10.5 cm.",
+      "Priemer alebo šírka podľa e-shopu: 10.5 cm.",
+      "Materiál podľa predajcu: keramika.",
+      "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+    ],
+    "reason": "Črepník podľa e-shopu: 10.5 cm. Priemer alebo šírka podľa e-shopu: 10.5 cm. Materiál podľa predajcu: keramika.",
+    "diameter": 10.5,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1137.jpg",
+    "price": "8,90 €",
+    "sourceAttributes": {},
+    "descriptionSha256": "e5b4c44bab256b94fd252a7c2d90ba018df7dc6d30864284b395cf9f63095b3b"
+  },
+  {
+    "id": "p1595",
+    "name": "Hoya burtoniae variegata",
+    "url": "https://www.plantbros.sk/hoya-burtoniae-variegata/",
+    "kind": "plants",
+    "priceValue": 8.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1595_hoya-burtoniae-variegata.jpg?ff=1&x=1024&y=768&q=85&ts=6ab4dfc0&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-6/",
+    "sourceCategory": "vsetky-rastliny/strana-6",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:hoya",
+      "pet-safe",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 6 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 6 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/plantbros-p1595.jpg",
+    "price": "8,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Hoya"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Stredne náročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "64f06c838f07b64e962dd3b602670b19fd941429bc89e2a63ea054f281327064"
+  },
+  {
+    "id": "p1470",
+    "name": "Peperomia albov. Bambino",
+    "url": "https://www.plantbros.sk/peperomia-albov--bambino/",
+    "kind": "plants",
+    "priceValue": 8.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1470-3_peperomia-albov--bambino.jpg?ff=1&x=1024&y=768&q=85&ts=6ab62fa9&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-10/",
+    "sourceCategory": "vsetky-rastliny/strana-10",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:peperomia",
+      "low",
+      "pet-safe"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1470.jpg",
+    "price": "8,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "7c1e50f2df7303505656f49e04776dc0652959f5c65c4ff646806946f8c7ee0b"
+  },
+  {
+    "id": "p375",
+    "name": "Baby Hoya Carnosa \"Tricolor\"",
+    "url": "https://www.plantbros.sk/baby-hoya-carnosa--tricolor/",
+    "kind": "plants",
+    "priceValue": 9.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/375_baby-hoya-carnosa--tricolor.jpg?ff=1&x=1024&y=768&q=85&ts=6ab4df85&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-3/",
+    "sourceCategory": "vsetky-rastliny/strana-3",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:baby",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p375.jpg",
+    "price": "9,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Rastliny podľa druhu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "Zálievka :": [
+        "Mierna"
+      ]
+    },
+    "descriptionSha256": "b8a03b93d3f52d69c96e9d1c72b9805c3114e29c8cea9de8a9a04276499610b5"
+  },
+  {
+    "id": "p56",
+    "name": "Baby Hoya Erythrina",
+    "url": "https://www.plantbros.sk/baby-hoya-verticillata--wibergiae/",
+    "kind": "plants",
+    "priceValue": 9.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/56_baby-hoya-erythrina.jpg?ff=1&x=1024&y=768&q=85&ts=6ab4e35d&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-3/",
+    "sourceCategory": "vsetky-rastliny/strana-3",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:baby",
+      "pet-safe",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p56.jpg",
+    "price": "9,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "f9a729ff6d2d3c26948a1182a000b9837495d44227fe8f031c77d48724624af4"
+  },
+  {
+    "id": "p1586",
+    "name": "Coleus 2",
+    "url": "https://www.plantbros.sk/coleus-2/",
+    "kind": "plants",
+    "priceValue": 9.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1586_coleus-2.jpg?ff=1&x=1024&y=768&q=85&ts=6aab790a&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-4/",
+    "sourceCategory": "vsetky-rastliny/strana-4",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:coleus"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/plantbros-p1586.jpg",
+    "price": "9,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Rastliny podľa druhu"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "1289225288e566bc5b1ddc100ac1bea449e85c384f6e8393442a19532dfa152b"
+  },
+  {
+    "id": "p1571",
+    "name": "Coleus decurrens",
+    "url": "https://www.plantbros.sk/coleus-decurrens/",
+    "kind": "plants",
+    "priceValue": 9.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1571_coleus-decurrens.jpg?ff=1&x=1024&y=768&q=85&ts=6aab786a&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-4/",
+    "sourceCategory": "vsetky-rastliny/strana-4",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:coleus"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/plantbros-p1571.jpg",
+    "price": "9,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Rastliny podľa druhu"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "d8a6c8c8376399e52989e0a8c87e3e1751647cc68ea353f68884982589c56b20"
+  },
+  {
+    "id": "p1613",
+    "name": "Hoya Callistophylla Sabah malá",
+    "url": "https://www.plantbros.sk/hoya-callistophylla-sabah-mala/",
+    "kind": "plants",
+    "priceValue": 9.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1613_hoya-callistophylla-sabah-mala.jpg?ff=1&x=1024&y=768&q=85&ts=6ac6338f&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-6/",
+    "sourceCategory": "vsetky-rastliny/strana-6",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:hoya",
+      "pet-safe",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p1613.jpg",
+    "price": "9,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Rastliny podľa druhu"
+      ],
+      "EAN :": [
+        "8720858272160"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "0c3ea75785ae989cc586dee860cdfb27d0ebf49207bac5c48f598e07bcd19dd1"
+  },
+  {
+    "id": "p1541",
+    "name": "Ctenanthe burle-marxii ‘Amagris’",
+    "url": "https://www.plantbros.sk/ctenanthe-burle-marxii-amagris/",
+    "kind": "plants",
+    "priceValue": 10.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1541_ctenanthe-burle-marxii--amagris-.jpg?ff=1&x=1024&y=768&q=85&ts=6a9040a4&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-4/",
+    "sourceCategory": "vsetky-rastliny/strana-4",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:ctenanthe",
+      "low",
+      "pet-safe"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/plantbros-p1541.jpg",
+    "price": "10,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Stromanthe & Ctenanthe & Goeppertia"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Stredne náročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ],
+      "Priemer črepníka :": [
+        "12 cm"
+      ],
+      "Výška rastliny :": [
+        "približne 40 cm"
+      ]
+    },
+    "descriptionSha256": "6918f381d2c566566060f9befba1995f8eeced11a6a83c13288a533b4c52cf09"
+  },
+  {
+    "id": "p993",
+    "name": "Philodendron Micans",
+    "url": "https://www.plantbros.sk/philodendron-micans/",
+    "kind": "plants",
+    "priceValue": 10.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/993_philodendron-micans.jpg?ff=1&x=1024&y=768&q=85&ts=6ab63544&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-11/",
+    "sourceCategory": "vsetky-rastliny/strana-11",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:philodendron",
+      "low",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p993.jpg",
+    "price": "10,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Rastliny podľa druhu"
+      ],
+      "EAN :": [
+        "8717777576042"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "4841a3240e7fff3c4b9d1392aa95caa98adb76bfa234ccb1f1958ff06748b9db"
+  },
+  {
+    "id": "p1032",
+    "name": "Zamioculcas Zenzi baby",
+    "url": "https://www.plantbros.sk/zamioculcas-zenzi-baby/",
+    "kind": "plants",
+    "priceValue": 12.5,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1032_zamioculcas-zenzi-baby.jpg?ff=1&x=1024&y=768&q=85&ts=6a7ebbdc&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-13/",
+    "sourceCategory": "vsetky-rastliny/strana-13",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:zamioculcas",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň.",
+      "Črepník podľa e-shopu: 6 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/plantbros-p1032.jpg",
+    "price": "12,50 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Zamioculcasy"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Menej svetla"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "acb4e09c9d7485effe3c7eef86df2f97a79a707453287aaf76359b38d3f3e6d5"
+  },
+  {
+    "id": "p1562",
+    "name": "Dracaena fragrans ‘Lemon Lime’",
+    "url": "https://www.plantbros.sk/dracaena-fragrans--lemon-lime/",
+    "kind": "plants",
+    "priceValue": 12.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1562-3_dracaena-fragrans--lemon-lime.jpg?ff=1&x=1024&y=768&q=85&ts=6aa2976b&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-4/",
+    "sourceCategory": "vsetky-rastliny/strana-4",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:dracaena",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 21 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 21 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 21.0,
+    "photo": "/assets/plants/plantbros-p1562.jpg",
+    "price": "12,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Dracaena & Ficus"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "061645f0d73a68fc494d3e44a0da7dbc9d22b0daf94ebc31ac860c4fa5001574"
+  },
+  {
+    "id": "p1485",
+    "name": "Tradescantia zebrina Purple Passion",
+    "url": "https://www.plantbros.sk/tradescantia-zebrina-purple-passion/",
+    "kind": "plants",
+    "priceValue": 12.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1485_tradescantia-zebrina-purple-passion.jpg?ff=1&x=1024&y=768&q=85&ts=6a6c656e&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-13/",
+    "sourceCategory": "vsetky-rastliny/strana-13",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:tradescantia",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1485.jpg",
+    "price": "12,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "eb8a1db8df407929e0460da00d40b1caa9500bab89c2ee0d721ca8040fa7465c"
+  },
+  {
+    "id": "p1458",
+    "name": "Begonia conchifolia",
+    "url": "https://www.plantbros.sk/begonia-conchifolia/",
+    "kind": "plants",
+    "priceValue": 14.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1458_begonia-conchifolia.jpg?ff=1&x=1024&y=768&q=85&ts=6a68a60c&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-3/",
+    "sourceCategory": "vsetky-rastliny/strana-3",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:begonia"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/plantbros-p1458.jpg",
+    "price": "14,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Begonia & Oxalis"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Stredne náročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "d9606d0622699b6ac9355fc21977e001d97731a4171e391d0aa50f93553c0570"
+  },
+  {
+    "id": "p1544",
+    "name": "Gynura aurantiaca ‘Purple Passion’",
+    "url": "https://www.plantbros.sk/gynura-aurantiaca-purple-passion/",
+    "kind": "plants",
+    "priceValue": 14.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1544_gynura-aurantiaca--purple-passion.jpg?ff=1&x=1024&y=768&q=85&ts=6a904295&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-6/",
+    "sourceCategory": "vsetky-rastliny/strana-6",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:gynura",
+      "pet-safe"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 7 cm.",
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 7 cm. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "diameter": null,
+    "potDiameter": 7.0,
+    "photo": "/assets/plants/plantbros-p1544.jpg",
+    "price": "14,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Rastliny podľa druhu"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ],
+      "Priemer črepníka :": [
+        "7 cm"
+      ],
+      "Výška rastliny :": [
+        "približne 20 cm"
+      ]
+    },
+    "descriptionSha256": "bb945b47fef69741841315cafb3d6a811005940962531d993f0fb34c5c0457d6"
+  },
+  {
+    "id": "p372",
+    "name": "Asparagus Plumosus",
+    "url": "https://www.plantbros.sk/asparagus-plumosus/",
+    "kind": "plants",
+    "priceValue": 15.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/372_asparagus-plumosus.jpg?ff=1&x=1024&y=768&q=85&ts=6a8c6714&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-3/",
+    "sourceCategory": "vsetky-rastliny/strana-3",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:asparagus",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/plantbros-p372.jpg",
+    "price": "15,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Rastliny podľa druhu"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Veľká nad 60 cm"
+      ]
+    },
+    "descriptionSha256": "64bb28396a7622e0b417ff3e076c626612bc15e0a7d0b3711aeffb9878bad515"
+  },
+  {
+    "id": "p897",
+    "name": "Hoya Callistophylla Sabah",
+    "url": "https://www.plantbros.sk/hoya-callistophylla-sabah/",
+    "kind": "plants",
+    "priceValue": 16.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/897_hoya-callistophylla-sabah.jpg?ff=1&x=1024&y=768&q=85&ts=6ac6333e&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-6/",
+    "sourceCategory": "vsetky-rastliny/strana-6",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:hoya",
+      "pet-safe",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p897.jpg",
+    "price": "16,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Rastliny podľa druhu"
+      ],
+      "EAN :": [
+        "8720858272160"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "78cb5dea139a2961b0dccd40c09664c0aba35d900e17cfdd16441be7b93194e9"
+  },
+  {
+    "id": "p1416",
+    "name": "Peperomia glabella",
+    "url": "https://www.plantbros.sk/peperomia-glabela/",
+    "kind": "plants",
+    "priceValue": 16.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1416_peperomia-glabella.jpg?ff=1&x=1024&y=768&q=85&ts=6aa284c1&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-10/",
+    "sourceCategory": "vsetky-rastliny/strana-10",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:peperomia",
+      "low",
+      "pet-safe",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p1416.jpg",
+    "price": "16,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Pilea & Peperomia"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "7982d660070cb5dcffcb7c29c853f7efe39ddc3f42eaa379e08f21514fc14b56"
+  },
+  {
+    "id": "p1413",
+    "name": "Peperomia pixie",
+    "url": "https://www.plantbros.sk/peperomia-pixie/",
+    "kind": "plants",
+    "priceValue": 16.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1413_peperomia-pixie.jpg?ff=1&x=1024&y=768&q=85&ts=6a563dbf&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-10/",
+    "sourceCategory": "vsetky-rastliny/strana-10",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:peperomia",
+      "low",
+      "pet-safe"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p1413.jpg",
+    "price": "16,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Pilea & Peperomia"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "890734e6a4a72e6ea909dfe9c810a0a9f62a7cb8b130c68bcee54b8324a8cfb6"
+  },
+  {
+    "id": "p966",
+    "name": "Philodendron Imperial Red",
+    "url": "https://www.plantbros.sk/philodendron-imperial-red/",
+    "kind": "plants",
+    "priceValue": 16.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/966_philodendron-imperial-red.jpg?ff=1&x=1024&y=768&q=85&ts=69dcb373&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-11/",
+    "sourceCategory": "vsetky-rastliny/strana-11",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:philodendron",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p966.jpg",
+    "price": "16,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "d2a15cf3e505abf711a448f65f69d4690118c46bdf562b6537331b802fd18197",
+    "imageCrop": [
+      0.12,
+      0.02,
+      0.95,
+      1
+    ]
+  },
+  {
+    "id": "p987",
+    "name": "Philodendron Narrow",
+    "url": "https://www.plantbros.sk/philodendron-narrow/",
+    "kind": "plants",
+    "priceValue": 16.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/987_philodendron-narrow.jpg?ff=1&x=1024&y=768&q=85&ts=69dcc869&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-11/",
+    "sourceCategory": "vsetky-rastliny/strana-11",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:philodendron",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p987.jpg",
+    "price": "16,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "dfba3f4aa32488078495c487c1620968d6e241db3d7d71da263b9b911efdb498",
+    "imageCrop": [
+      0.12,
+      0.02,
+      0.95,
+      1
+    ]
+  },
+  {
+    "id": "p999",
+    "name": "Philodendron tortum",
+    "url": "https://www.plantbros.sk/philodendron-tortum/",
+    "kind": "plants",
+    "priceValue": 16.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/999-2_philodendron-tortum.jpg?ff=1&x=1024&y=768&q=85&ts=69dcd483&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-11/",
+    "sourceCategory": "vsetky-rastliny/strana-11",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p999.jpg",
+    "price": "16,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "e9592c6ded89e8aec3266434494748771606dee17078a7305d7023ec729f2255"
+  },
+  {
+    "id": "p1365",
+    "name": "Papraď Nephrolepis exaltata Green Lady",
+    "url": "https://www.plantbros.sk/nephrolepis-exaltata--paprad-nefrolepka/",
+    "kind": "plants",
+    "priceValue": 18.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1365_paprad-nephrolepis-exaltata-green-lady.jpg?ff=1&x=1024&y=768&q=85&ts=6a7eee4f&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-10/",
+    "sourceCategory": "vsetky-rastliny/strana-10",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:papraď",
+      "low",
+      "pet-safe",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/plantbros-p1365.jpg",
+    "price": "18,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Stredne náročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "ee0302791e6c1273adf1156fe9fc350adcfe8f66afbb6cdf35b177c3356e15d9"
+  },
+  {
+    "id": "p1362",
+    "name": "Papraď nefrolepka-Nephrolepis exaltata",
+    "url": "https://www.plantbros.sk/paprad-nefrolepka-nephrolepis-exaltata/",
+    "kind": "plants",
+    "priceValue": 18.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1362-2_paprad-nefrolepka-nephrolepis-exaltata.jpg?ff=1&x=1024&y=768&q=85&ts=6a325631&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-10/",
+    "sourceCategory": "vsetky-rastliny/strana-10",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:papraď",
+      "low",
+      "pet-safe",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/plantbros-p1362.jpg",
+    "price": "18,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Stredne náročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "ee0302791e6c1273adf1156fe9fc350adcfe8f66afbb6cdf35b177c3356e15d9"
+  },
+  {
+    "id": "p969",
+    "name": "Philodendron melanochrysum",
+    "url": "https://www.plantbros.sk/philodendron-melanochrysum/",
+    "kind": "plants",
+    "priceValue": 19.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/969_philodendron-melanochrysum.jpg?ff=1&x=1024&y=768&q=85&ts=6a7b28d9&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-11/",
+    "sourceCategory": "vsetky-rastliny/strana-11",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:philodendron",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/plantbros-p969.jpg",
+    "price": "19,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Stredne náročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Veľká nad 60 cm"
+      ]
+    },
+    "descriptionSha256": "f103fee8f6341b2ce8313bd82d3ade35d26d277c785f30bfb037afca22b4001a"
+  },
+  {
+    "id": "p164",
+    "name": "Zamioculcas ‘Pixie’",
+    "url": "https://www.plantbros.sk/zamioculcas-zenzi/",
+    "kind": "plants",
+    "priceValue": 19.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/164_zamioculcas--pixie.jpg?ff=1&x=1024&y=768&q=85&ts=69dd0e83&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-13/",
+    "sourceCategory": "vsetky-rastliny/strana-13",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:zamioculcas",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň.",
+      "Črepník podľa e-shopu: 16 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 16 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 16.0,
+    "photo": "/assets/plants/plantbros-p164.jpg",
+    "price": "19,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Menej svetla"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "d2d032f72c88810680dd098430c641e66112c3a3f8845d1e3c95cc5e470c3946",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p1332",
+    "name": "Strelitzia Nicolai 3pp 105cm",
+    "url": "https://www.plantbros.sk/strelitzia-nicolai-105cm/",
+    "kind": "plants",
+    "priceValue": 30.0,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1332_strelitzia-nicolai-3pp-105cm.jpg?ff=1&x=1024&y=768&q=85&ts=69fdc6c8&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-13/",
+    "sourceCategory": "vsetky-rastliny/strana-13",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:strelitzia",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: slnečné stanovište.",
+      "Črepník podľa e-shopu: 18 cm.",
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca uvádza: slnečné stanovište. Črepník podľa e-shopu: 18 cm. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "diameter": null,
+    "potDiameter": 18.0,
+    "photo": "/assets/plants/plantbros-p1332.jpg",
+    "price": "30,00 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Veľká nad 60 cm"
+      ]
+    },
+    "descriptionSha256": "5ed77de36d6252c97b0ba418b67780069caac4acde60a79da493cb6b63591dde",
+    "imageCrop": [
+      0.12,
+      0.02,
+      0.95,
+      1
+    ]
+  },
+  {
+    "id": "p1314",
+    "name": "Zamioculcas zamiifolia",
+    "url": "https://www.plantbros.sk/zamioculcas-zamiifolia/",
+    "kind": "plants",
+    "priceValue": 39.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1314_zamioculcas-zamiifolia.jpg?ff=1&x=1024&y=768&q=85&ts=69fdca9c&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/vsetky-rastliny/strana-13/",
+    "sourceCategory": "vsetky-rastliny/strana-13",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:zamioculcas",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň.",
+      "Črepník podľa e-shopu: 16 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 16 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 16.0,
+    "photo": "/assets/plants/plantbros-p1314.jpg",
+    "price": "39,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Menej svetla"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "eb09e9dbfadb7dab67af1ab55e10963e472287e2ac832c819ba3543e61f07f23",
+    "imageCrop": [
+      0.12,
+      0.02,
+      0.95,
+      1
+    ]
+  },
+  {
+    "id": "p795",
+    "name": "Mammillaria bombycina",
+    "url": "https://www.plantbros.sk/mammillaria-bombycina/",
+    "kind": "succulents",
+    "priceValue": 4.5,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/795_mammillaria-bombycina.jpg?ff=1&x=1024&y=768&q=85&ts=69d8de6c&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/strana-2/",
+    "sourceCategory": "kaktusy/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:mammillaria",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Črepník podľa e-shopu: 6 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/plantbros-p795.jpg",
+    "price": "4,50 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kaktusy a sukulenty"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "793beafaa44689351434d239ac7eacfd140d0c019f512b058ff5e469e1b12b1a",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p780",
+    "name": "Stenocereus pruinosis",
+    "url": "https://www.plantbros.sk/stenocereus-pruinosis/",
+    "kind": "succulents",
+    "priceValue": 4.5,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/780_stenocereus-pruinosis.jpg?ff=1&x=1024&y=768&q=85&ts=69d8fc0f&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/strana-2/",
+    "sourceCategory": "kaktusy/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:stenocereus",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Črepník podľa e-shopu: 6 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/plantbros-p780.jpg",
+    "price": "4,50 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kaktusy a sukulenty"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "137b5c4f05a7bf8d6f09471c756ef44c9ae79413fce5ad185284a8430a840409",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p918",
+    "name": "Echinopsis",
+    "url": "https://www.plantbros.sk/echinopsis/",
+    "kind": "succulents",
+    "priceValue": 5.0,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/918_echinopsis.jpg?ff=1&x=1024&y=768&q=85&ts=69d299e5&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/strana-2/",
+    "sourceCategory": "kaktusy/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:echinopsis",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Črepník podľa e-shopu: 6 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/plantbros-p918.jpg",
+    "price": "5,00 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Rastliny podľa druhu"
+      ],
+      "EAN :": [
+        "8717777174972"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "54117f34d972b6f0e11c7ae8c60a6478c27dfad87c692faad80cb8deccbec5e5",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p927",
+    "name": "Opuntia Monacantha",
+    "url": "https://www.plantbros.sk/opuntia-monacantha/",
+    "kind": "succulents",
+    "priceValue": 5.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/927_opuntia-monacantha.jpg?ff=1&x=1024&y=768&q=85&ts=69d2a1b3&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/strana-2/",
+    "sourceCategory": "kaktusy/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:opuntia",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Črepník podľa e-shopu: 6 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/plantbros-p927.jpg",
+    "price": "5,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kaktusy a sukulenty"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "a59a4e7d337de166a847e8fbf0ab0c8b6c3fe0f8c2ab3e07ac12f8bface71f44",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p789",
+    "name": "Ferocactus histrix",
+    "url": "https://www.plantbros.sk/ferocactus-histrix/",
+    "kind": "succulents",
+    "priceValue": 6.0,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/789_ferocactus-histrix.jpg?ff=1&x=1024&y=768&q=85&ts=69d79b35&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/strana-2/",
+    "sourceCategory": "kaktusy/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:ferocactus",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Črepník podľa e-shopu: 6 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/plantbros-p789.jpg",
+    "price": "6,00 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kaktusy a sukulenty"
+      ],
+      "EAN :": [
+        "8717777379971"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "7028cf99403f448b2f83cd631d233bb728b1c9bf1db8c086b7f7d3ba3db53a8e",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p924",
+    "name": "Maihueniopsis boliviana",
+    "url": "https://www.plantbros.sk/austrocylindropuntia-subulata/",
+    "kind": "succulents",
+    "priceValue": 7.0,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/924_maihueniopsis-boliviana.jpg?ff=1&x=1024&y=768&q=85&ts=69d2a06a&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/strana-2/",
+    "sourceCategory": "kaktusy/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:maihueniopsis",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Črepník podľa e-shopu: 6 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/plantbros-p924.jpg",
+    "price": "7,00 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kaktusy a sukulenty"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "24b973791e47510452db77a2251543d8799d07817a8bdb9f8ba6b51e36042ead",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p122",
+    "name": "Hylocereus undatus (Dračie ovocie - Pitahaya)",
+    "url": "https://www.plantbros.sk/hylocereus-undatus--dracie-ovocie-pitahaya-/",
+    "kind": "succulents",
+    "priceValue": 9.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/122_hylocereus-undatus--dracie-ovocie-pitahaya-.jpg?ff=1&x=1024&y=768&q=85&ts=69d8b9b7&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/strana-2/",
+    "sourceCategory": "kaktusy/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:hylocereus",
+      "sun",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Črepník podľa e-shopu: 12 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/plantbros-p122.jpg",
+    "price": "9,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "dc5631ebcfa7c29d7e57ec694107aa2501646508e369bc0cb52def4b0d45f103"
+  },
+  {
+    "id": "p1497",
+    "name": "Sedum burrito — Bez keramického kvetináča",
+    "url": "https://www.plantbros.sk/sedum-burrito/",
+    "kind": "succulents",
+    "priceValue": 9.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1497_sedum-burrito.jpg?ff=1&x=1024&y=768&q=85&ts=6a6c6daa&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/",
+    "sourceCategory": "kaktusy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:sedum",
+      "trailing"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Bez keramického kvetináča.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 9 cm.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Variant podľa e-shopu: Bez keramického kvetináča. Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/plantbros-p1497.jpg",
+    "price": "9,90 €",
+    "variantId": 2243,
+    "variantLabel": "Bez keramického kvetináča",
+    "variantCode": "1497/BEZ",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "f2563ab4ffbf6976ae9bf8ec5440545476749c8c5bf0dbe650e61578d580b169"
+  },
+  {
+    "id": "p945",
+    "name": "Pilosocereus chrysostele",
+    "url": "https://www.plantbros.sk/pilosocereus-chrysostele/",
+    "kind": "succulents",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/945-2_pilosocereus-chrysostele.jpg?ff=1&x=1024&y=768&q=85&ts=69d8f1e1&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/strana-2/",
+    "sourceCategory": "kaktusy/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:pilosocereus",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Črepník podľa e-shopu: 8.5 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Črepník podľa e-shopu: 8.5 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 8.5,
+    "photo": "/assets/plants/plantbros-p945.jpg",
+    "price": "12,00 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kaktusy a sukulenty"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "94836d3a7d1e2c527f1be711b5cfa01e7eed9a94cefcad5449a2bf4cb262f427",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p1556",
+    "name": "Rhipsalis burchellii — Bez keramického kvetináča",
+    "url": "https://www.plantbros.sk/rhipsalis-burchellii/",
+    "kind": "succulents",
+    "priceValue": 12.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1556_rhipsalis-burchellii.jpg?ff=1&x=1024&y=768&q=85&ts=6aa27a1c&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/",
+    "sourceCategory": "kaktusy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:rhipsalis",
+      "low",
+      "pet-safe",
+      "trailing"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Bez keramického kvetináča.",
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 9 cm.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+    ],
+    "reason": "Variant podľa e-shopu: Bez keramického kvetináča. Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/plantbros-p1556.jpg",
+    "price": "12,90 €",
+    "variantId": 2213,
+    "variantLabel": "Bez keramického kvetináča",
+    "variantCode": "1556/BEZ",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Rhipsalis"
+      ],
+      "? Domáce zvieratá :": [
+        "Netoxická podľa zdroja"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Rozptýlené svetlo"
+      ],
+      "? Veľkosť rastliny :": [
+        "Malá do 25 cm"
+      ]
+    },
+    "descriptionSha256": "a1501216141fec9b0b16c1f3afbd10c8b4533ef02c7ba12ac96de98bb33198f2"
+  },
+  {
+    "id": "p1500",
+    "name": "Kalanchoe luciae 'Lady Fingers'",
+    "url": "https://www.plantbros.sk/kalanchoe-luciae--lady-fingers/",
+    "kind": "succulents",
+    "priceValue": 26.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1500_kalanchoe-luciae--lady-fingers.jpg?ff=1&x=1024&y=768&q=85&ts=6a6c6ff8&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/",
+    "sourceCategory": "kaktusy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kalanchoe"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1500.jpg",
+    "price": "26,90 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Izbové rastliny do bytu a kancelárie"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "ceaee87e444c9feb2d8a6527308bfd6087c1a5b3983290f780f452ef53b877ea"
+  },
+  {
+    "id": "p1305",
+    "name": "Hildewintera colademonis (Opičí chvost)",
+    "url": "https://www.plantbros.sk/hildewintera-colademonis--opici-chvost/",
+    "kind": "succulents",
+    "priceValue": 75.0,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1305-2_hildewintera-colademonis--opici-chvost.jpg?ff=1&x=1024&y=768&q=85&ts=6a4d226a&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kaktusy/",
+    "sourceCategory": "kaktusy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:hildewintera",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/plantbros-p1305.jpg",
+    "price": "75,00 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kaktusy a sukulenty"
+      ],
+      "? Domáce zvieratá :": [
+        "Mimo dosahu"
+      ],
+      "? Náročnosť :": [
+        "Nenáročná"
+      ],
+      "? Svetlo :": [
+        "Slnečné miesto"
+      ],
+      "? Veľkosť rastliny :": [
+        "Stredná 25–60 cm"
+      ]
+    },
+    "descriptionSha256": "462e4cd563c96fa40a14592f27919dbade83e1cf41ba46099052a5536aa4da27"
+  },
+  {
+    "id": "p1122",
+    "name": "Kvetináč \"Cencúľ\" 6cm",
+    "url": "https://www.plantbros.sk/kvetinac--cencul--6cm/",
+    "kind": "pots",
+    "priceValue": 5.5,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1122_kvetinac--cencul--6cm.jpg?ff=1&x=1024&y=768&q=85&ts=69df70f9&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kvetinace/",
+    "sourceCategory": "kvetinace",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "ceramic",
+      "genus:kvetináč",
+      "small-pot"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm.",
+      "Priemer alebo šírka podľa e-shopu: 6 cm.",
+      "Materiál podľa predajcu: keramika.",
+      "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm. Priemer alebo šírka podľa e-shopu: 6 cm. Materiál podľa predajcu: keramika.",
+    "diameter": 6.0,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1122.jpg",
+    "price": "5,50 €",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kvetináče"
+      ],
+      "EAN :": [
+        "8720858278926"
+      ]
+    },
+    "descriptionSha256": "4af5116ddf5539827ab42b2c1ab517753f178c4cc400dd09b9fba25212c9fe9b",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p591",
+    "name": "Kvetináč \"Vlnky\" 6cm — Biela",
+    "url": "https://www.plantbros.sk/kvetinac--a--uz-viem/",
+    "kind": "pots",
+    "priceValue": 5.5,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/591-4_kvetinac--vlnky--6cm.jpg?ff=1&x=1024&y=768&q=85&ts=69d8c45d&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kvetinace/strana-3/",
+    "sourceCategory": "kvetinace/strana-3",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "ceramic",
+      "genus:kvetináč",
+      "small-pot"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Biela.",
+      "Črepník podľa e-shopu: 6 cm.",
+      "Priemer alebo šírka podľa e-shopu: 6 cm.",
+      "Materiál podľa predajcu: keramika.",
+      "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+    ],
+    "reason": "Variant podľa e-shopu: Biela. Črepník podľa e-shopu: 6 cm. Priemer alebo šírka podľa e-shopu: 6 cm.",
+    "diameter": 6.0,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p591.jpg",
+    "price": "5,50 €",
+    "variantId": 1320,
+    "variantLabel": "Biela",
+    "variantCode": "591/BIE",
+    "sourceAttributes": {},
+    "descriptionSha256": "4af5116ddf5539827ab42b2c1ab517753f178c4cc400dd09b9fba25212c9fe9b",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p1113",
+    "name": "Kvetináč \"Košíček\" 13cm",
+    "url": "https://www.plantbros.sk/kvetinac--kosicek--13-cm/",
+    "kind": "pots",
+    "priceValue": 6.5,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1113_kvetinac--kosicek--13cm.jpg?ff=1&x=1024&y=768&q=85&ts=69e0937b&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kvetinace/",
+    "sourceCategory": "kvetinace",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:kvetináč",
+      "medium-pot"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 13 cm.",
+      "Priemer alebo šírka podľa e-shopu: 13 cm.",
+      "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+    ],
+    "reason": "Črepník podľa e-shopu: 13 cm. Priemer alebo šírka podľa e-shopu: 13 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+    "diameter": 13.0,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1113.jpg",
+    "price": "6,50 €",
+    "sourceAttributes": {},
+    "descriptionSha256": "0d206904a70c095ac6b25acd6f4d1271222a85a0e94a307cea652775d0a80410",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p1101",
+    "name": "Kvetináč \"Poistka\" 7cm — Biela",
+    "url": "https://www.plantbros.sk/kvetinac--poistka--7cm/",
+    "kind": "pots",
+    "priceValue": 6.5,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1101-2_kvetinac--poistka--7cm.jpg?ff=1&x=1024&y=768&q=85&ts=69df6c4a&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kvetinace/strana-2/",
+    "sourceCategory": "kvetinace/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "ceramic",
+      "genus:kvetináč",
+      "small-pot"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Biela.",
+      "Črepník podľa e-shopu: 7 cm.",
+      "Priemer alebo šírka podľa e-shopu: 7 cm.",
+      "Materiál podľa predajcu: keramika.",
+      "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+    ],
+    "reason": "Variant podľa e-shopu: Biela. Črepník podľa e-shopu: 7 cm. Priemer alebo šírka podľa e-shopu: 7 cm.",
+    "diameter": 7.0,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1101.jpg",
+    "price": "6,50 €",
+    "variantId": 1677,
+    "variantLabel": "Biela",
+    "variantCode": "1101/BIE",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kvetináče"
+      ],
+      "EAN :": [
+        "Zvoľte variant"
+      ]
+    },
+    "descriptionSha256": "555b48cc2b232a38e38c647f8fd0f7f13f0db7d725b751eca1a3ad61d3b5b6c9",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p1020",
+    "name": "Kvetináč Nálada 9cm — Zelená",
+    "url": "https://www.plantbros.sk/kvetinac-nalada-9-cm/",
+    "kind": "pots",
+    "priceValue": 8.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1020-3_kvetinac-nalada-9cm.jpg?ff=1&x=1024&y=768&q=85&ts=69dcfb0d&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kvetinace/strana-2/",
+    "sourceCategory": "kvetinace/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "ceramic",
+      "genus:kvetináč",
+      "small-pot"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Zelená.",
+      "Črepník podľa e-shopu: 9 cm.",
+      "Priemer alebo šírka podľa e-shopu: 9 cm.",
+      "Materiál podľa predajcu: keramika.",
+      "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+    ],
+    "reason": "Variant podľa e-shopu: Zelená. Črepník podľa e-shopu: 9 cm. Priemer alebo šírka podľa e-shopu: 9 cm.",
+    "diameter": 9.0,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1020.jpg",
+    "price": "8,90 €",
+    "variantId": 1467,
+    "variantLabel": "Zelená",
+    "variantCode": "1020/ZEL",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kvetináče"
+      ],
+      "EAN :": [
+        "Zvoľte variant"
+      ]
+    },
+    "descriptionSha256": "538266dedc22392baed4a39e3edda4dbcf22dfed679c66d5cacd35ff9889b66e",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p1029",
+    "name": "Kvetináč \"Tatiana\" 12cm — Biela",
+    "url": "https://www.plantbros.sk/kvetinac-tatiana-12-cm/",
+    "kind": "pots",
+    "priceValue": 9.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1029-1_kvetinac--tatiana--12cm.jpg?ff=1&x=1024&y=768&q=85&ts=69dd003c&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kvetinace/strana-2/",
+    "sourceCategory": "kvetinace/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "ceramic",
+      "genus:kvetináč",
+      "medium-pot"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Biela.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Priemer alebo šírka podľa e-shopu: 12 cm.",
+      "Materiál podľa predajcu: keramika.",
+      "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+    ],
+    "reason": "Variant podľa e-shopu: Biela. Črepník podľa e-shopu: 12 cm. Priemer alebo šírka podľa e-shopu: 12 cm.",
+    "diameter": 12.0,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1029.jpg",
+    "price": "9,90 €",
+    "variantId": 1524,
+    "variantLabel": "Biela",
+    "variantCode": "1029/BIE",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kvetináče"
+      ],
+      "EAN :": [
+        "Zvoľte variant"
+      ]
+    },
+    "descriptionSha256": "19315292c0f6c17f6cd5a5bfd2649c8896a9ecb7f71bd9e0ac02f9e2f06189f9",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p1008",
+    "name": "Kvetináč Krupica 12cm — Biela",
+    "url": "https://www.plantbros.sk/kvetinac-krupica/",
+    "kind": "pots",
+    "priceValue": 9.9,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1008-1_kvetinac-krupica-12cm.jpg?ff=1&x=1024&y=768&q=85&ts=69dcf0ad&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kvetinace/strana-2/",
+    "sourceCategory": "kvetinace/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "ceramic",
+      "genus:kvetináč",
+      "medium-pot"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Biela.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Priemer alebo šírka podľa e-shopu: 12 cm.",
+      "Materiál podľa predajcu: keramika.",
+      "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+    ],
+    "reason": "Variant podľa e-shopu: Biela. Črepník podľa e-shopu: 12 cm. Priemer alebo šírka podľa e-shopu: 12 cm.",
+    "diameter": 12.0,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1008.jpg",
+    "price": "9,90 €",
+    "variantId": 1389,
+    "variantLabel": "Biela",
+    "variantCode": "1008/BIE",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kvetináče"
+      ],
+      "EAN :": [
+        "Zvoľte variant"
+      ]
+    },
+    "descriptionSha256": "4ad89fd24fef91ae7ead202fdacd9960e91cdeb8b157d61712c6161fce09dd2e",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p597",
+    "name": "Kvetináč Rokoko 12cm — Kapučíno",
+    "url": "https://www.plantbros.sk/kvetinac-rokoko/",
+    "kind": "pots",
+    "priceValue": 10.5,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/597-2_kvetinac-rokoko-12cm.jpg?ff=1&x=1024&y=768&q=85&ts=69dcec61&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/kvetinace/strana-3/",
+    "sourceCategory": "kvetinace/strana-3",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "ceramic",
+      "genus:kvetináč",
+      "medium-pot"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Kapučíno.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Priemer alebo šírka podľa e-shopu: 12 cm.",
+      "Materiál podľa predajcu: keramika.",
+      "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+    ],
+    "reason": "Variant podľa e-shopu: Kapučíno. Črepník podľa e-shopu: 12 cm. Priemer alebo šírka podľa e-shopu: 12 cm.",
+    "diameter": 12.0,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p597.jpg",
+    "price": "10,50 €",
+    "variantId": 1377,
+    "variantLabel": "Kapučíno",
+    "variantCode": "597/KAP",
+    "sourceAttributes": {
+      "Kategória :": [
+        "Kvetináče"
+      ],
+      "EAN :": [
+        "Zvoľte variant"
+      ]
+    },
+    "descriptionSha256": "4ad89fd24fef91ae7ead202fdacd9960e91cdeb8b157d61712c6161fce09dd2e",
+    "imageCrop": [
+      0.24,
+      0.08,
+      0.78,
+      1
+    ]
+  },
+  {
+    "id": "p1446",
+    "name": "Perlit — 2l",
+    "url": "https://www.plantbros.sk/perlit/",
+    "kind": "substrates",
+    "priceValue": 3.99,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/1446_perlit.jpg?ff=1&x=1024&y=768&q=85&ts=6a6729a8&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/substraty/",
+    "sourceCategory": "substraty",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:perlit"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: 2l.",
+      "Určenie z názvu a popisu e-shopu. Perlit."
+    ],
+    "reason": "Variant podľa e-shopu: 2l. Určenie z názvu a popisu e-shopu. Perlit.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p1446.jpg",
+    "price": "3,99 €",
+    "variantId": 2091,
+    "variantLabel": "2l",
+    "variantCode": "1446/2L",
+    "sourceAttributes": {},
+    "descriptionSha256": "e4e4ad397e130182c8254f0194e29355903869a627a8b7e9032565e56a79b161"
+  },
+  {
+    "id": "p137",
+    "name": "Vzdušný substrát SoilBros \"Tropical Mix\" — 2l",
+    "url": "https://www.plantbros.sk/vzdusny-substrat-soilbros--tropical-mix/",
+    "kind": "substrates",
+    "priceValue": 4.5,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/137_vzdusny-substrat-soilbros--tropical-mix.jpg?ff=1&x=1024&y=768&q=85&ts=6a6725c7&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/substraty/",
+    "sourceCategory": "substraty",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:vzdušný"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: 2l.",
+      "Určenie z názvu a popisu e-shopu. Vzdušný substrát SoilBros \"Tropical Mix\"."
+    ],
+    "reason": "Variant podľa e-shopu: 2l. Určenie z názvu a popisu e-shopu. Vzdušný substrát SoilBros \"Tropical Mix\".",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p137.jpg",
+    "price": "4,50 €",
+    "variantId": 2094,
+    "variantLabel": "2l",
+    "variantCode": "137/2L",
+    "sourceAttributes": {},
+    "descriptionSha256": "123dc775ef992c1c01fd88084b6b1373858fae6d14c6c53f48f00f4869a69f12"
+  },
+  {
+    "id": "p774",
+    "name": "Vzdušný substrát SoilBros \"Dreviny Mix\" — 3l",
+    "url": "https://www.plantbros.sk/vzdusny-substrat-soilbros--dreviny-mix/",
+    "kind": "substrates",
+    "priceValue": 5.8,
+    "currency": "EUR",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/shop/big/774_vzdusny-substrat-soilbros--dreviny-mix.jpg?ff=1&x=1024&y=768&q=85&ts=6a673238&sg=161563f2",
+    "sourceEndpoint": "https://www.plantbros.sk/substraty/",
+    "sourceCategory": "substraty",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:vzdušný"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: 3l.",
+      "Určenie z názvu a popisu e-shopu. Vzdušný substrát SoilBros \"Dreviny Mix\"."
+    ],
+    "reason": "Variant podľa e-shopu: 3l. Určenie z názvu a popisu e-shopu. Vzdušný substrát SoilBros \"Dreviny Mix\".",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/plantbros-p774.jpg",
+    "price": "5,80 €",
+    "variantId": 1044,
+    "variantLabel": "3l",
+    "variantCode": "774/3L",
+    "sourceAttributes": {},
+    "descriptionSha256": "d0c02a51f4fc1523befb2970b7badee8d6d11c65b612cea14331a10f95d15294"
+  }
+]

@@ -331,6 +331,7 @@ Pri overení sa nepreukázal spoločný vlastník s existujúcimi zdokumentovan�
 - Ceny a sklad: mikrodáta výpisu aj detailu (`InStock`, cena a mena); pri variantoch navyše oficiálne Shoptet variantové dáta viažu cenu, sklad a fotografiu k uvedenému variantu. Na detaile treba vybrať pomenovaný variant. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
 - Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/zahradananiti-products.json`.
 - Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/logos/layer_1.svg); Oficiálne SVG vyrenderované vo vysokej veľkosti. Do kruhu je vyrezané pôvodné písmeno Z z loga a upravené na bielu monochromatickú verziu pre kontrast.
+- Logo: tvary originálnych písmen sú pre čitateľnosť stmavené do zelenej témy; nejde o prepis názvu novým fontom.
 - Farby: `brand: #2c5130`, `accent: #38683b`, `soft: #f2f1e9`, `paper: #fffefb`, `ink: #25281f`, `line: #dedfd3`. Zelená #48844B z oficiálneho SVG; brand a accent sú jej tmavšie verzie pre kontrast bieleho textu. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
 - QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/zahradananiti-qa.json`, `zahradananiti-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/zahradananiti-registry.json`.
 
@@ -589,3 +590,83 @@ Pri overení sa nepreukázal spoločný vlastník s existujúcimi zdokumentovan�
 | Substrát Profík Orchidea 5l | substráty | 6,20 € | [detail](https://www.plantoteka.sk/substrat-profik-orchidea-5l/) |
 | Terrabloom prémiový substrát ORCHIDEA | substráty | 6,90 € | [detail](https://www.plantoteka.sk/premiovy-substrat-orchid/) |
 | Hydroponický substrát SOIL.NINJA | substráty | 10,90 € | [detail](https://www.plantoteka.sk/hydroponicky-substrat-soil-ninja/) |
+
+### Kontrola negovaných odporúčaní svetla (10.10.2026)
+
+Pri pridaní PlantBros sa opravili tagy pri vetách typu „priame slnko listy poškodí“, „nesnese přímé slunce“ a „neľúbi priame slnko“. Spätne sa odstránilo nesprávne slnko pri troch filodendronoch a troch tillandsiových produktoch Zahrady na niti a pri Calathea Triostar z KytkaSem. Ceny a sklad sa nemenili. QA a všetky kombinácie sa znova spustili, výsledky PASS.
+
+## PlantBros
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://www.plantbros.sk/). [Identita predajcu](https://www.plantbros.sk/obchodne-podmienky/).
+- Firma: **Extravaganza Studio LV s.r.o., IČO 50932632**. Vlastníci: Lukáš Halama, Viliam Lajgút. Konatelia / podnikateľ: Lukáš Halama, Viliam Lajgút.
+- Veľkosť: **24 630 € tržby 2025; nezistené zam.**. Kód `00` v [primárnom registri](https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1708531); údaj aktualizovaný 2026-07-03, načítaný 2026-10-10. [Vlastníci](https://www.orsr.sk/vypis.asp?ID=382160&SID=3&P=0).
+- [Finančný výkaz](https://www.registeruz.sk/cruz-public/domain/financialreport/show/10012458/687): Čistý obrat: 0 € z predaja tovaru + 24 630 € z predaja výrobkov a služieb. Celofiremné tržby; podniká aj mimo e-shopu. Kód 00 znamená nezistený počet zamestnancov, nie nulu.
+- RPO pri kontrole neodpovedalo; vlastníci overení z uvedeného primárneho zdroja, veľkosť a financie z RÚZ.
+- Prečo sedí: Malý vlastný obchod dvoch konateľov; overené celofiremné tržby hlboko pod miliónom eur. Rastliny, kaktusy a substráty vytvárajú zmysluplné poradenstvo. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **58 produktov**, izbové rastliny, sukulenty a kaktusy, črepníky, substráty. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: mikrodáta výpisu aj detailu (`InStock`, cena a mena); pri variantoch navyše oficiálne Shoptet variantové dáta viažu cenu, sklad a fotografiu k uvedenému variantu. Na detaile treba vybrať pomenovaný variant. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/plantbros-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://cdn.myshoptet.com/usr/www.plantbros.sk/user/logos/wwww.png); Oficiálne rasterové logo; symbol je vyrezané pôvodné písmeno B a prevedené na bielu verziu pre kontrast v kruhu. Produktové štúdiové fotografie priblížené individuálnym PIL orezom; výsledky prezreté.
+- Farby: `brand: #00362b`, `accent: #246649`, `soft: #f0f4eb`, `paper: #fffefa`, `ink: #243029`, `line: #d7e1d5`. Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/plantbros-qa.json`, `plantbros-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/plantbros-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Maranta kerchoveana (Modlivka) | izbové rastliny | 9,90 € | [detail](https://www.plantbros.sk/maranta-kerchoveana-2/) |
+| Philodendron White Measure | izbové rastliny | 16,90 € | [detail](https://www.plantbros.sk/philodendron-white-measure/) |
+| Kvetináč "Kafíčko" 6cm | črepníky | 4,90 € | [detail](https://www.plantbros.sk/kvetinac--kaficko--6cm/) |
+| Mammillaria Elongata | sukulenty a kaktusy | 3,90 € | [detail](https://www.plantbros.sk/mammillaria-elongata/) |
+| Baby Sansevieria Ehrenbergii "Samurai" | izbové rastliny | 8,90 € | [detail](https://www.plantbros.sk/baby-sansevieria-ehrenbergii--samurai/) |
+| Fittonia albivenis | izbové rastliny | 8,90 € | [detail](https://www.plantbros.sk/fittonia-albivenis/) |
+| Aloe Vera | sukulenty a kaktusy | 9,90 € | [detail](https://www.plantbros.sk/aloe-vera/) |
+| Kvetináč "Pipkovia" 10,5cm | črepníky | 8,90 € | [detail](https://www.plantbros.sk/kvetinac--pipkovia/) |
+| Hoya burtoniae variegata | izbové rastliny | 8,90 € | [detail](https://www.plantbros.sk/hoya-burtoniae-variegata/) |
+| Peperomia albov. Bambino | izbové rastliny | 8,90 € | [detail](https://www.plantbros.sk/peperomia-albov--bambino/) |
+| Baby Hoya Carnosa "Tricolor" | izbové rastliny | 9,90 € | [detail](https://www.plantbros.sk/baby-hoya-carnosa--tricolor/) |
+| Baby Hoya Erythrina | izbové rastliny | 9,90 € | [detail](https://www.plantbros.sk/baby-hoya-verticillata--wibergiae/) |
+| Coleus 2 | izbové rastliny | 9,90 € | [detail](https://www.plantbros.sk/coleus-2/) |
+| Coleus decurrens | izbové rastliny | 9,90 € | [detail](https://www.plantbros.sk/coleus-decurrens/) |
+| Hoya Callistophylla Sabah malá | izbové rastliny | 9,90 € | [detail](https://www.plantbros.sk/hoya-callistophylla-sabah-mala/) |
+| Ctenanthe burle-marxii ‘Amagris’ | izbové rastliny | 10,90 € | [detail](https://www.plantbros.sk/ctenanthe-burle-marxii-amagris/) |
+| Philodendron Micans | izbové rastliny | 10,90 € | [detail](https://www.plantbros.sk/philodendron-micans/) |
+| Zamioculcas Zenzi baby | izbové rastliny | 12,50 € | [detail](https://www.plantbros.sk/zamioculcas-zenzi-baby/) |
+| Dracaena fragrans ‘Lemon Lime’ | izbové rastliny | 12,90 € | [detail](https://www.plantbros.sk/dracaena-fragrans--lemon-lime/) |
+| Tradescantia zebrina Purple Passion | izbové rastliny | 12,90 € | [detail](https://www.plantbros.sk/tradescantia-zebrina-purple-passion/) |
+| Begonia conchifolia | izbové rastliny | 14,90 € | [detail](https://www.plantbros.sk/begonia-conchifolia/) |
+| Gynura aurantiaca ‘Purple Passion’ | izbové rastliny | 14,90 € | [detail](https://www.plantbros.sk/gynura-aurantiaca-purple-passion/) |
+| Asparagus Plumosus | izbové rastliny | 15,90 € | [detail](https://www.plantbros.sk/asparagus-plumosus/) |
+| Hoya Callistophylla Sabah | izbové rastliny | 16,90 € | [detail](https://www.plantbros.sk/hoya-callistophylla-sabah/) |
+| Peperomia glabella | izbové rastliny | 16,90 € | [detail](https://www.plantbros.sk/peperomia-glabela/) |
+| Peperomia pixie | izbové rastliny | 16,90 € | [detail](https://www.plantbros.sk/peperomia-pixie/) |
+| Philodendron Imperial Red | izbové rastliny | 16,90 € | [detail](https://www.plantbros.sk/philodendron-imperial-red/) |
+| Philodendron Narrow | izbové rastliny | 16,90 € | [detail](https://www.plantbros.sk/philodendron-narrow/) |
+| Philodendron tortum | izbové rastliny | 16,90 € | [detail](https://www.plantbros.sk/philodendron-tortum/) |
+| Papraď Nephrolepis exaltata Green Lady | izbové rastliny | 18,90 € | [detail](https://www.plantbros.sk/nephrolepis-exaltata--paprad-nefrolepka/) |
+| Papraď nefrolepka-Nephrolepis exaltata | izbové rastliny | 18,90 € | [detail](https://www.plantbros.sk/paprad-nefrolepka-nephrolepis-exaltata/) |
+| Philodendron melanochrysum | izbové rastliny | 19,90 € | [detail](https://www.plantbros.sk/philodendron-melanochrysum/) |
+| Zamioculcas ‘Pixie’ | izbové rastliny | 19,90 € | [detail](https://www.plantbros.sk/zamioculcas-zenzi/) |
+| Strelitzia Nicolai 3pp 105cm | izbové rastliny | 30,00 € | [detail](https://www.plantbros.sk/strelitzia-nicolai-105cm/) |
+| Zamioculcas zamiifolia | izbové rastliny | 39,90 € | [detail](https://www.plantbros.sk/zamioculcas-zamiifolia/) |
+| Mammillaria bombycina | sukulenty a kaktusy | 4,50 € | [detail](https://www.plantbros.sk/mammillaria-bombycina/) |
+| Stenocereus pruinosis | sukulenty a kaktusy | 4,50 € | [detail](https://www.plantbros.sk/stenocereus-pruinosis/) |
+| Echinopsis | sukulenty a kaktusy | 5,00 € | [detail](https://www.plantbros.sk/echinopsis/) |
+| Opuntia Monacantha | sukulenty a kaktusy | 5,90 € | [detail](https://www.plantbros.sk/opuntia-monacantha/) |
+| Ferocactus histrix | sukulenty a kaktusy | 6,00 € | [detail](https://www.plantbros.sk/ferocactus-histrix/) |
+| Maihueniopsis boliviana | sukulenty a kaktusy | 7,00 € | [detail](https://www.plantbros.sk/austrocylindropuntia-subulata/) |
+| Hylocereus undatus (Dračie ovocie - Pitahaya) | sukulenty a kaktusy | 9,90 € | [detail](https://www.plantbros.sk/hylocereus-undatus--dracie-ovocie-pitahaya-/) |
+| Sedum burrito — Bez keramického kvetináča | sukulenty a kaktusy | 9,90 € | [detail](https://www.plantbros.sk/sedum-burrito/) |
+| Pilosocereus chrysostele | sukulenty a kaktusy | 12,00 € | [detail](https://www.plantbros.sk/pilosocereus-chrysostele/) |
+| Rhipsalis burchellii — Bez keramického kvetináča | sukulenty a kaktusy | 12,90 € | [detail](https://www.plantbros.sk/rhipsalis-burchellii/) |
+| Kalanchoe luciae 'Lady Fingers' | sukulenty a kaktusy | 26,90 € | [detail](https://www.plantbros.sk/kalanchoe-luciae--lady-fingers/) |
+| Hildewintera colademonis (Opičí chvost) | sukulenty a kaktusy | 75,00 € | [detail](https://www.plantbros.sk/hildewintera-colademonis--opici-chvost/) |
+| Kvetináč "Cencúľ" 6cm | črepníky | 5,50 € | [detail](https://www.plantbros.sk/kvetinac--cencul--6cm/) |
+| Kvetináč "Vlnky" 6cm — Biela | črepníky | 5,50 € | [detail](https://www.plantbros.sk/kvetinac--a--uz-viem/) |
+| Kvetináč "Košíček" 13cm | črepníky | 6,50 € | [detail](https://www.plantbros.sk/kvetinac--kosicek--13-cm/) |
+| Kvetináč "Poistka" 7cm — Biela | črepníky | 6,50 € | [detail](https://www.plantbros.sk/kvetinac--poistka--7cm/) |
+| Kvetináč Nálada 9cm — Zelená | črepníky | 8,90 € | [detail](https://www.plantbros.sk/kvetinac-nalada-9-cm/) |
+| Kvetináč "Tatiana" 12cm — Biela | črepníky | 9,90 € | [detail](https://www.plantbros.sk/kvetinac-tatiana-12-cm/) |
+| Kvetináč Krupica 12cm — Biela | črepníky | 9,90 € | [detail](https://www.plantbros.sk/kvetinac-krupica/) |
+| Kvetináč Rokoko 12cm — Kapučíno | črepníky | 10,50 € | [detail](https://www.plantbros.sk/kvetinac-rokoko/) |
+| Perlit — 2l | substráty | 3,99 € | [detail](https://www.plantbros.sk/perlit/) |
+| Vzdušný substrát SoilBros "Tropical Mix" — 2l | substráty | 4,50 € | [detail](https://www.plantbros.sk/vzdusny-substrat-soilbros--tropical-mix/) |
+| Vzdušný substrát SoilBros "Dreviny Mix" — 3l | substráty | 5,80 € | [detail](https://www.plantbros.sk/vzdusny-substrat-soilbros--dreviny-mix/) |

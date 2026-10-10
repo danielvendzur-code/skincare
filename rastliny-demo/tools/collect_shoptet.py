@@ -41,7 +41,7 @@ def detail(p,slug):
  if re.search(r'rozpt[ýy]len|sv[eě]tl[eéý]\s+(m[ií]sto|stanovi|miesto)|sv[eě]tl[ýy]m?',t):tags.append('bright')
  if re.search(r'polost[ií]n|polotie[nň]|od\s+st[ií]nu|sn[aá][šs][ií]\s+st[ií]n',t):tags.append('low')
  # Strip sentences that explicitly warn against direct sun before matching it.
- suntext=' '.join(x for x in re.split(r'[.!?\n]',t) if not re.search(r'nesv[eě]d[čc]|nevyhov|nepatr|netoler|nesn[aá][šs]|vyh[nýy]|nepriame|nepřím|nepriam|chr[aá][nň]|bez\s+p[rř]ím|nevhod|nesm|nie\s+priam|nem[aá]',x))
+ suntext=' '.join(x for x in re.split(r'[.!?\n]',t) if not re.search(r'ne[ľl][úu]bi|po[šs]kod|pop[aá]l|sp[aá]l|nesv[eě]d[čc]|nevyhov|nepatr|netoler|nesn[aá][šs]|nesnes|neznes|nezn[aá][šs]|vyh[nýy]|nepriame|nepřím|nepriam|chr[aá][nň]|bez\s+p[rř]ím|nevhod|nesm|nie\s+priam|nem[aá]',x))
  if re.search(r'\bp[rř]ím[eéý]\s+slun|priam[eé]\s+sln|slunn|slne[čc]n',suntext):tags.append('sun')
  if re.search(r'nen[aá]ro[čc]n|snadn[aá]\s+p[eé][čc]e|jednoduch[aá]\s+starost',t):tags.append('easy')
  if re.search(r'pop[ií]nav|převis|previs|[ťt]ahav',t):tags.append('trailing')

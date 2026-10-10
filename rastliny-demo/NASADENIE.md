@@ -17,3 +17,4 @@ Subdomény sú pripravené v routách. DNS a nový Vercel projekt sa touto zmeno
 | `kytkasem.mojchatbot.sk` | `/cosmetics.html?demo=kytkasem` |
 | `farmarky.mojchatbot.sk` | `/cosmetics.html?demo=farmarky` |
 | `plantoteka.mojchatbot.sk` | `/cosmetics.html?demo=plantoteka` |
+| `plantbros.mojchatbot.sk` | `/cosmetics.html?demo=plantbros` |

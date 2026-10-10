@@ -389,15 +389,14 @@
       "tags": [
         "bright",
         "easy",
-        "genus:kokedama",
-        "sun"
+        "genus:kokedama"
       ],
       "facts": [
         "Variant podľa e-shopu: cca 13 cm.",
-        "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+        "Predajca uvádza: rozptýlené svetlo.",
         "Predajca uvádza nenáročnú starostlivosť."
       ],
-      "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
       "diameter": null,
       "potDiameter": null,
       "stock": "InStock",
@@ -418,16 +417,15 @@
         "easy",
         "genus:kokedama",
         "low",
-        "sun",
         "trailing"
       ],
       "facts": [
         "Variant podľa e-shopu: cca 13 cm.",
-        "Predajca uvádza: polotieň, rozptýlené svetlo, slnečné stanovište.",
+        "Predajca uvádza: polotieň, rozptýlené svetlo.",
         "Predajca uvádza nenáročnú starostlivosť.",
         "Popínavý alebo previsnutý rast podľa popisu predajcu."
       ],
-      "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: polotieň, rozptýlené svetlo, slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: polotieň, rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
       "diameter": null,
       "potDiameter": null,
       "stock": "InStock",
@@ -738,14 +736,13 @@
       "tags": [
         "bright",
         "easy",
-        "genus:kokedama",
-        "sun"
+        "genus:kokedama"
       ],
       "facts": [
-        "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+        "Predajca uvádza: rozptýlené svetlo.",
         "Predajca uvádza nenáročnú starostlivosť."
       ],
-      "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
       "diameter": null,
       "potDiameter": null,
       "stock": "InStock",
@@ -964,14 +961,12 @@
       "photo": "/assets/plants/zahradananiti-p197.jpg",
       "tags": [
         "easy",
-        "genus:tillandsia",
-        "sun"
+        "genus:tillandsia"
       ],
       "facts": [
-        "Predajca uvádza: slnečné stanovište.",
         "Predajca uvádza nenáročnú starostlivosť."
       ],
-      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "reason": "Predajca uvádza nenáročnú starostlivosť.",
       "diameter": null,
       "potDiameter": null,
       "stock": "InStock",
@@ -989,14 +984,12 @@
       "photo": "/assets/plants/zahradananiti-p158.jpg",
       "tags": [
         "easy",
-        "genus:tillandsia",
-        "sun"
+        "genus:tillandsia"
       ],
       "facts": [
-        "Predajca uvádza: slnečné stanovište.",
         "Predajca uvádza nenáročnú starostlivosť."
       ],
-      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "reason": "Predajca uvádza nenáročnú starostlivosť.",
       "diameter": null,
       "potDiameter": null,
       "stock": "InStock",
@@ -1133,14 +1126,12 @@
       "photo": "/assets/plants/zahradananiti-p868.jpg",
       "tags": [
         "easy",
-        "genus:porcelánová",
-        "sun"
+        "genus:porcelánová"
       ],
       "facts": [
-        "Predajca uvádza: slnečné stanovište.",
         "Predajca uvádza nenáročnú starostlivosť."
       ],
-      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "reason": "Predajca uvádza nenáročnú starostlivosť.",
       "diameter": null,
       "potDiameter": null,
       "stock": "InStock",

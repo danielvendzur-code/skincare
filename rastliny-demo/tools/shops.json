@@ -56,7 +56,7 @@
     "exclude": "workshop|kurz|vyrob|poukaz|prázdn|bez rostlin|bez rostlinky|dočasn",
     "logoSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/logos/layer_1.svg",
     "markSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/logos/layer_1.svg",
-    "logoNote": "Oficiálne SVG vyrenderované vo vysokej veľkosti. Do kruhu je vyrezané pôvodné písmeno Z z loga a upravené na bielu monochromatickú verziu pre kontrast.",
+    "logoNote": "Oficiálne SVG vyrenderované vo vysokej veľkosti. Do kruhu je vyrezané pôvodné písmeno Z z loga a upravené na bielu monochromatickú verziu pre kontrast. Pôvodné tvary písmen stmavené do zelenej témy pre čitateľnosť.",
     "themeNote": "Zelená #48844B z oficiálneho SVG; brand a accent sú jej tmavšie verzie pre kontrast bieleho textu.",
     "terms": "https://www.zahradananiti.cz/obchodni-podminky/",
     "fit": "Autorský butik s kokedamami a floráriami, vlastný e-shop; rozdielne svetlo, druhy a ceny robia výber náročným.",
@@ -66,7 +66,8 @@
       96,
       145
     ],
-    "markWhite": true
+    "markWhite": true,
+    "logoInk": "#315532"
   },
   "kytkasem": {
     "name": "KytkaSem",
@@ -252,5 +253,73 @@
     ],
     "terms": "https://www.plantoteka.sk/obchodne-podmienky/",
     "fit": "Malé rastlinárstvo jednej podnikateľky bez zamestnancov podľa registra; podobné izbové druhy a kultivary s doplnkami, pri ktorých záleží na svetle a rozpočte."
+  },
+  "plantbros": {
+    "theme": {
+      "brand": "#00362b",
+      "accent": "#246649",
+      "soft": "#f0f4eb",
+      "paper": "#fffefa",
+      "ink": "#243029",
+      "line": "#d7e1d5"
+    },
+    "platform": "shoptet",
+    "currency": "EUR",
+    "logoNote": "Oficiálne rasterové logo; symbol je vyrezané pôvodné písmeno B a prevedené na bielu verziu pre kontrast v kruhu. Produktové štúdiové fotografie priblížené individuálnym PIL orezom; výsledky prezreté.",
+    "themeNote": "Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu.",
+    "exclude": "poukaz|workshop|kurz|um[eě]l|řízek|rezerv|předobjedn|predobjedn|dar[čc]ekov.*box",
+    "limits": {
+      "plants": 36,
+      "succulents": 14,
+      "pots": 12,
+      "substrates": 12
+    },
+    "name": "PlantBros",
+    "website": "https://www.plantbros.sk/",
+    "kinds": [
+      "plants",
+      "succulents",
+      "pots",
+      "substrates"
+    ],
+    "categories": {
+      "plants": [
+        "vsetky-rastliny"
+      ],
+      "succulents": [
+        "kaktusy"
+      ],
+      "pots": [
+        "kvetinace"
+      ],
+      "substrates": [
+        "substraty"
+      ]
+    },
+    "categoryNotes": {
+      "plants": "Izbové druhy z vlastného e-shopu",
+      "succulents": "Kaktusy a sukulenty",
+      "pots": "Samostatné črepníky a obaly",
+      "substrates": "Pestovateľské zmesi a médiá"
+    },
+    "logoSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/logos/wwww.png",
+    "markCrop": [
+      410,
+      20,
+      525,
+      174
+    ],
+    "terms": "https://www.plantbros.sk/obchodne-podmienky/",
+    "fit": "Malý vlastný obchod dvoch konateľov; overené celofiremné tržby hlboko pod miliónom eur. Rastliny, kaktusy a substráty vytvárajú zmysluplné poradenstvo.",
+    "markWhite": true,
+    "excludeByKind": {
+      "pots": "výživ|hnojiv|macram[eé]|makram"
+    },
+    "heroNames": [
+      "Maranta kerchoveana (Modlivka)",
+      "Philodendron White Measure",
+      "Kvetináč \"Kafíčko\" 6cm",
+      "Mammillaria Elongata"
+    ]
   }
 }

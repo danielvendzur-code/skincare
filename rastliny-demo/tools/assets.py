@@ -19,6 +19,9 @@ def download(p):
   target=source/f'{slug}-{p["id"]}.original';target.write_bytes(fetch(p['imageSource']))
   im=Image.open(target);im.verify()
   if min(Image.open(target).size)<120:raise ValueError('tiny source photo')
+  if p.get('imageCrop'):
+   im=Image.open(target).convert('RGB');crop=p['imageCrop'];box=tuple(round(v*(im.width if i%2==0 else im.height)) for i,v in enumerate(crop))
+   target=source/f'{slug}-{p["id"]}-crop.png';save_png(im.crop(box),target)
   return p,str(target)
  except Exception as e:print('Image excluded:',p['name'],str(e)[-160:],flush=True);return None
 with futures.ThreadPoolExecutor(max_workers=3) as pool:
@@ -68,6 +71,8 @@ elif slug in additions:
  if b.get('logoCrop'):
   crop=Image.open(original).convert('RGBA').crop(tuple(b['logoCrop']));original=source/f'{slug}-wordmark-crop.png';save_png(crop,original)
  logo(str(original),out/f'{slug}-logo.png')
+ if b.get('logoInk'):
+  im=Image.open(out/f'{slug}-logo.png').convert('RGBA');alpha=im.getchannel('A');im=Image.new('RGBA',im.size,b['logoInk']);im.putalpha(alpha);save_png(im,out/f'{slug}-logo.png')
  img=Image.open(out/f'{slug}-logo.png')
  if img.width<600:
   img=img.resize((img.width*3,img.height*3),Image.Resampling.LANCZOS);save_png(img,out/f'{slug}-logo.png')
