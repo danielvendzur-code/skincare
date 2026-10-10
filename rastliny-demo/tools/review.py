@@ -4,6 +4,8 @@ from pathlib import Path
 from PIL import Image,ImageDraw,ImageOps
 ROOT=Path(__file__).resolve().parent.parent
 slug=sys.argv[1];data=json.loads((ROOT/f'data/{slug}.json').read_text());dest=ROOT/'qa-review';dest.mkdir(exist_ok=True)
+# Remove obsolete sheets when visual curation reduced the catalogue.
+for old in dest.glob(f'{slug}-products-*.jpg'):old.unlink()
 for page in range((len(data['products'])+29)//30):
  products=data['products'][page*30:(page+1)*30];canvas=Image.new('RGB',(1080,1050),'#efefe9');draw=ImageDraw.Draw(canvas)
  for i,p in enumerate(products):

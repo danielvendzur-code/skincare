@@ -321,5 +321,59 @@
       "Kvetináč \"Kafíčko\" 6cm",
       "Mammillaria Elongata"
     ]
+  },
+  "sever": {
+    "theme": {
+      "brand": "#275c37",
+      "accent": "#377448",
+      "soft": "#f0f4eb",
+      "paper": "#fffefa",
+      "ink": "#253124",
+      "line": "#d9e3d5"
+    },
+    "platform": "shoptet",
+    "currency": "CZK",
+    "logoNote": "Oficiálne logo; pri potrebe zväčšené s Lanczos vyhladením. Symbol v kruhu vyrezaný z pôvodného loga.",
+    "themeNote": "Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu.",
+    "exclude": "poukaz|workshop|kurz|um[eě]l|řízek|rezerv|předobjedn|predobjedn|dar[čc]ekov.*box",
+    "limits": {
+      "plants": 36,
+      "succulents": 14,
+      "pots": 12,
+      "substrates": 12
+    },
+    "name": "Pokojovky ze severu",
+    "website": "https://www.pokojovkyzeseveru.cz/",
+    "kinds": [
+      "plants",
+      "succulents",
+      "substrates"
+    ],
+    "categories": {
+      "plants": [
+        "pokojove-rostliny"
+      ],
+      "succulents": [
+        "sukulentni-rostliny"
+      ],
+      "substrates": [
+        "substraty-hnojiva"
+      ]
+    },
+    "categoryNotes": {
+      "plants": "Druhy do bytu rôznych veľkostí",
+      "succulents": "Sukulentné rastliny",
+      "substrates": "Zmesi a pestovateľské médiá"
+    },
+    "logoSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/logos/logo-6.png",
+    "markCrop": [
+      0,
+      0,
+      560,
+      600
+    ],
+    "markWhite": true,
+    "terms": "https://www.pokojovkyzeseveru.cz/obchodni-podminky/",
+    "fit": "Samostatná podnikateľka, 1–5 zamestnancov podľa ARES; bohatá skladová ponuka rastlín a médií vyžaduje výber podľa podmienok."
   }
 }

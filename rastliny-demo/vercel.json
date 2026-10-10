@@ -6,7 +6,7 @@
       "has": [
         {
           "type": "host",
-          "value": "^(?<sub>plantizia|gardenholice|lukscheiter|zahradananiti|kytkasem|farmarky|plantoteka|plantbros)\\.mojchatbot\\.sk$"
+          "value": "^(?<sub>plantizia|gardenholice|lukscheiter|zahradananiti|kytkasem|farmarky|plantoteka|plantbros|sever)\\.mojchatbot\\.sk$"
         }
       ],
       "destination": "/cosmetics.html"

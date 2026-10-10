@@ -670,3 +670,37 @@ Pri pridaní PlantBros sa opravili tagy pri vetách typu „priame slnko listy p
 | Perlit — 2l | substráty | 3,99 € | [detail](https://www.plantbros.sk/perlit/) |
 | Vzdušný substrát SoilBros "Tropical Mix" — 2l | substráty | 4,50 € | [detail](https://www.plantbros.sk/vzdusny-substrat-soilbros--tropical-mix/) |
 | Vzdušný substrát SoilBros "Dreviny Mix" — 3l | substráty | 5,80 € | [detail](https://www.plantbros.sk/vzdusny-substrat-soilbros--dreviny-mix/) |
+
+## Pokojovky ze severu
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://www.pokojovkyzeseveru.cz/). [Identita predajcu](https://www.pokojovkyzeseveru.cz/obchodni-podminky/).
+- Firma: **Iva Kolátorová, IČO 68424582**. Vlastníci: Iva Kolátorová. Konatelia / podnikateľ: Iva Kolátorová.
+- Veľkosť: **Tržby nedoložené; 1–5 zam.**. Kód `110` v [primárnom registri](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/68424582); údaj aktualizovaný 2021-12-03, načítaný 2026-10-10. [Vlastníci](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/68424582).
+- Tržby živnostníka nie sú v použitom verejnom registri doložené; veľkosť overená podľa ARES.
+- Prečo sedí: Samostatná podnikateľka, 1–5 zamestnancov podľa ARES; bohatá skladová ponuka rastlín a médií vyžaduje výber podľa podmienok. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **17 produktov**, izbové rastliny, sukulenty a kaktusy, substráty. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: mikrodáta výpisu aj detailu (`InStock`, cena a mena); pri variantoch navyše oficiálne Shoptet variantové dáta viažu cenu, sklad a fotografiu k uvedenému variantu. Na detaile treba vybrať pomenovaný variant. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/sever-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/logos/logo-6.png); Oficiálne logo; pri potrebe zväčšené s Lanczos vyhladením. Symbol v kruhu vyrezaný z pôvodného loga.
+- Farby: `brand: #275c37`, `accent: #377448`, `soft: #f0f4eb`, `paper: #fffefa`, `ink: #253124`, `line: #d9e3d5`. Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/sever-qa.json`, `sever-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/sever-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Tradescantia Unicorn Květináč 7 cm | izbové rastliny | 95 Kč | [detail](https://www.pokojovkyzeseveru.cz/tradescantia-unicorn/) |
+| Epipremnum Marble queen Průměr květináče 12 cm. | izbové rastliny | 199 Kč | [detail](https://www.pokojovkyzeseveru.cz/epipremnum-marble-queen/) |
+| Sansevieria cylindrica Květináč 12 cm. | sukulenty a kaktusy | 230 Kč | [detail](https://www.pokojovkyzeseveru.cz/sansevieria-cylindrica/) |
+| Monstera Minima Květináč 12 cm. | izbové rastliny | 230 Kč | [detail](https://www.pokojovkyzeseveru.cz/monstera-minima/) |
+| Dracaena fragrans Malaika Květináč 12 cm. | izbové rastliny | 260 Kč | [detail](https://www.pokojovkyzeseveru.cz/dracaena-fragrans-malaika/) |
+| Hoya DS70 Průměr květináče 12 cm. | izbové rastliny | 260 Kč | [detail](https://www.pokojovkyzeseveru.cz/hoya-burtoniae-variegata/) |
+| Hoya carnosa Tricolor Průměr květináče 12 nebo 14  cm. | izbové rastliny | 320 Kč | [detail](https://www.pokojovkyzeseveru.cz/hoya-carnosa-tricolor/) |
+| Philodendron Imperial red Květináč 12 cm. | izbové rastliny | 290 Kč | [detail](https://www.pokojovkyzeseveru.cz/philodendron-imperial-red/) |
+| Philodendron Brandtianum Květináč 12 cm. | izbové rastliny | 299 Kč | [detail](https://www.pokojovkyzeseveru.cz/philodendron-brandtianum/) |
+| Hoya carnosa Silver spots Květináč 12 cm. | izbové rastliny | 349 Kč | [detail](https://www.pokojovkyzeseveru.cz/hoya-carnosa-silver-spots/) |
+| Hoya crassipetiolata Splash Round Leaf Květináč 8 cm. | izbové rastliny | 380 Kč | [detail](https://www.pokojovkyzeseveru.cz/hoya-crassipetiolata-splash-round-leaf/) |
+| Monstera Burle Marx Flame Monstera Burle Marx Flame (květináč 12 cm, výška 30 cm) | izbové rastliny | 699 Kč | [detail](https://www.pokojovkyzeseveru.cz/monstera-burle-marx-flame/) |
+| Aeschynanthus Marmoratus Průměr květináče 19 cm. | izbové rastliny | 499 Kč | [detail](https://www.pokojovkyzeseveru.cz/aeschynanthus-marmoratus/) |
+| Sansevieria Black Dragon temný tchynin jazyk / květináč 12 cm | sukulenty a kaktusy | 240 Kč | [detail](https://www.pokojovkyzeseveru.cz/sansevieria-black-dragon/) |
+| Univerzální vzdušný substrát Akční cena | substráty | 45 Kč | [detail](https://www.pokojovkyzeseveru.cz/univerzalni-vzdusny-substrat/) |
+| LECHUZA PON 3l Minerální substrát LECHUZA PON 3l | substráty | 190 Kč | [detail](https://www.pokojovkyzeseveru.cz/lechuza-pon-3l/) |
+| Minerální substrát CACTUSPON 3l CACTUSPON minerální substrát pro kaktusy a sukulenty | substráty | 210 Kč | [detail](https://www.pokojovkyzeseveru.cz/mineralni-substrat-cactuspon-3l/) |

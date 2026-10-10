@@ -1,6 +1,6 @@
 Options -MultiViews
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^(plantizia|gardenholice|lukscheiter|zahradananiti|kytkasem|farmarky|plantoteka|plantbros)\.mojchatbot\.sk$ [NC]
+RewriteCond %{HTTP_HOST} ^(plantizia|gardenholice|lukscheiter|zahradananiti|kytkasem|farmarky|plantoteka|plantbros|sever)\.mojchatbot\.sk$ [NC]
 RewriteRule ^$ cosmetics.html [L]
 RewriteRule ^rastliny/[a-z0-9-]+/?$ cosmetics.html [L,NC]
 <IfModule mod_headers.c>

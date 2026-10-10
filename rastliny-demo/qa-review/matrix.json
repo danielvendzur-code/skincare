@@ -395,5 +395,33 @@
       "pots": 24,
       "substrates": 24
     }
+  },
+  "sever": {
+    "combinations": 76,
+    "empty": 0,
+    "constraintFailures": 0,
+    "uniqueWinners": 15,
+    "winners": {
+      "p790": 10,
+      "p559": 2,
+      "p514": 6,
+      "p47": 3,
+      "p308": 1,
+      "p170": 1,
+      "p751": 2,
+      "p293": 1,
+      "p394": 1,
+      "p484": 1,
+      "p835": 15,
+      "p532": 3,
+      "p284": 7,
+      "p738": 18,
+      "p278": 5
+    },
+    "byKind": {
+      "plants": 28,
+      "succulents": 18,
+      "substrates": 30
+    }
   }
 }

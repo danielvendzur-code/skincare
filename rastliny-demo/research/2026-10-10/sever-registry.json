@@ -1,0 +1,23 @@
+{
+  "checked": "2026-10-10",
+  "company": "Iva Kolátorová",
+  "ico": "68424582",
+  "owners": [
+    "Iva Kolátorová"
+  ],
+  "executives": [
+    "Iva Kolátorová"
+  ],
+  "employees": {
+    "code": "110",
+    "range": "1–5",
+    "source": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/68424582",
+    "recordUpdated": "2021-12-03"
+  },
+  "revenue": {
+    "value": null,
+    "year": null,
+    "note": "Tržby živnostníka nie sú v použitom verejnom registri doložené; veľkosť overená podľa ARES."
+  },
+  "ownersSource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/68424582"
+}
