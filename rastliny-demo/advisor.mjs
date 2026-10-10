@@ -1,7 +1,7 @@
 export const snapshotDate=brand=>(brand.checked||brand.products[0]?.checked||'2026-10-09').split('-').reverse().map(Number).join('. ')+'.';
 // One catalogue matcher for the browser, API and exhaustive QA. Only facts
 // explicitly supplied by the seller become hard constraints.
-export const LABELS={plants:'Izbové rastliny',outdoor:'Do záhrady',pots:'Črepníky',substrates:'Substráty',terrariums:'Rastlinné teráriá',orchids:'Orchidey',airplants:'Tillandsie',succulents:'Sukulenty a kaktusy',low:'Polotieň',bright:'Rozptýlené svetlo',sun:'Slnečné miesto',easy:'Nenáročná starostlivosť','pet-safe':'Domácnosť so zvieratami',trailing:'Previsnutý rast','small-pot':'Do 11 cm','medium-pot':'12–16 cm','large-pot':'Nad 16 cm',terracotta:'Terakota',concrete:'Betón',ceramic:'Keramika',plastic:'Plast',saucer:'Podmiska','indoor-mix':'Izbové rastliny','cactus-mix':'Kaktusy a sukulenty','orchid-mix':'Orchidey','hydro-mix':'Hydropónia','universal-mix':'Univerzálne','acid-mix':'Kyslomilné rastliny',closed:'Uzavreté',open:'Otvorené',bonsai:'S bonsajom',airplants:'S tillandsiou',perennial:'Trvalky',shrub:'Listnaté kry',conifer:'Ihličnany',grass:'Okrasné trávy','volume-small':'Do 3 litrov','volume-medium':'4–10 litrov','volume-large':'Nad 10 litrov',any:'Nechám si poradiť',lowest:'Nižšia cena',middle:'Stred ponuky',premium:'Vyššia cena'};
+export const LABELS={plants:'Izbové rastliny',rareplants:'Raritné rastliny',accessories:'Pestovateľské pomôcky',support:'Opora pre rastlinu',fixing:'Držiak alebo diel opory',watering:'Kvapkanie k opore',hanging:'Záves na rastlinu',shrubs:'Okrasné kry',fruits:'Ovocné stromy',outdoor:'Do záhrady',pots:'Črepníky',substrates:'Substráty',terrariums:'Rastlinné teráriá',orchids:'Orchidey',airplants:'Tillandsie',succulents:'Sukulenty a kaktusy',low:'Polotieň',bright:'Rozptýlené svetlo',sun:'Slnečné miesto',easy:'Nenáročná starostlivosť','pet-safe':'Domácnosť so zvieratami',trailing:'Previsnutý rast','small-pot':'Do 11 cm','medium-pot':'12–16 cm','large-pot':'Nad 16 cm',terracotta:'Terakota',concrete:'Betón',ceramic:'Keramika',plastic:'Plast',saucer:'Podmiska','indoor-mix':'Izbové rastliny','cactus-mix':'Kaktusy a sukulenty','orchid-mix':'Orchidey','hydro-mix':'Hydropónia','universal-mix':'Univerzálne','acid-mix':'Kyslomilné rastliny',closed:'Uzavreté',open:'Otvorené',bonsai:'S bonsajom',airplants:'S tillandsiou',perennial:'Trvalky',shrub:'Listnaté kry',conifer:'Ihličnany',grass:'Okrasné trávy','volume-small':'Do 3 litrov','volume-medium':'4–10 litrov','volume-large':'Nad 10 litrov',any:'Nechám si poradiť',lowest:'Nižšia cena',middle:'Stred ponuky',premium:'Vyššia cena'};
 export function matches(product,answers={}) {
   if(answers.kind && product.kind!==answers.kind)return false;
   if(answers.required?.some(tag=>!product.tags.includes(tag)))return false;
@@ -38,9 +38,10 @@ export function questionsFor(brand,answers={}) {
  if(kind==='pots'){facet=tagOptions(byKind,['small-pot','medium-pot','large-pot']);title='Aký rozmer hľadáte?';}
  else if(kind==='substrates'){facet=tagOptions(byKind,['indoor-mix','cactus-mix','orchid-mix','hydro-mix','universal-mix','acid-mix']);title='Pre ktorú skupinu rastlín?';}
  else if(kind==='terrariums'){facet=tagOptions(byKind,['closed','open','bonsai','airplants']);title='Aký typ terária?';}
- else if(kind==='outdoor'){facet=tagOptions(byKind,['perennial','shrub','conifer','grass']);title='Čím doplníme záhradu?';}
+ else if(kind==='accessories'){facet=tagOptions(byKind,['support','fixing','watering','hanging']);title='Na čo pomôcku potrebujete?';}
+ else if(kind==='outdoor'){facet=tagOptions(byKind,['perennial','shrub','conifer','grass']);title='Čím doplníme záhradu?';if(facet.length<2){facet=tagOptions(byKind,['low','bright','sun']);title='Aké stanovište máte v záhrade?';}}
  else {facet=tagOptions(byKind,['low','bright','sun']);title='Koľko svetla bude mať?';}
- if(!facet.length){facet=families(byKind);title='Ktorý rod vás zaujíma?';}
+ if(!facet.length){facet=families(byKind);title=kind==='accessories'?'Akú pomôcku hľadáte?':'Ktorý rod vás zaujíma?';}
  const second={key:'facet',kicker:'02 · Podmienky',title,options:options(byKind,facet,{low:'Polotieň, nie tmavá miestnosť',bright:'Svetlé miesto bez ostrého slnka',sun:'Priame slnko podľa predajcu','small-pot':'Rozmer črepníka, nie rastliny','medium-pot':'Rozmer črepníka, nie rastliny','large-pot':'Rozmer črepníka, nie rastliny'})};
  const afterFacet=candidates(brand,{kind,facet:answers.facet});let priority,priorityTitle;
  if(kind==='pots'){priority=tagOptions(afterFacet,['ceramic','plastic','terracotta','concrete','saucer']);priorityTitle='Aký materiál preferujete?';}
@@ -79,7 +80,7 @@ export function catalogueReply(brand,messages) {
  if(/tmava miest|uplna tma|bez svetla|bez okn/.test(q))return {text:'Polotieň neznamená úplnú tmu. Bez denného svetla alebo pestovateľského osvetlenia vám z tejto ponuky vhodnú živú rastlinu neodporučím. Vyberme najprv miesto so svetlom.',products:[]};
  const exact=brand.products.filter(p=>q.includes(plain(p.name)));
  let answers={};
- if(/substrat|zemin/.test(q))answers.kind='substrates';else if(/kvetinac|crepnik|obal/.test(q))answers.kind='pots';else if(/terarium/.test(q))answers.kind='terrariums';else if(/orchide/.test(q)&&brand.kinds.includes('orchids'))answers.kind='orchids';else answers.kind=brand.kinds.includes('plants')?'plants':brand.kinds[0];
+ if(/opora|opory|raselinnikov.*tyc|drziak|kvapkadlo|korunka|macrame|zaves/.test(q)&&brand.kinds.includes('accessories'))answers.kind='accessories';else if(/rarit|zberatel|vzacn/.test(q)&&brand.kinds.includes('rareplants'))answers.kind='rareplants';else if(/ovocn|jablon|hrusk|broskyn/.test(q)&&brand.kinds.includes('fruits'))answers.kind='fruits';else if(/(?:^|\s)(?:ker|kry|krik|kriky)(?:\s|$)/.test(q)&&brand.kinds.includes('shrubs'))answers.kind='shrubs';else if(/substrat|zemin/.test(q))answers.kind='substrates';else if(/kvetinac|crepnik|obal/.test(q))answers.kind='pots';else if(/terarium/.test(q))answers.kind='terrariums';else if(/orchide/.test(q)&&brand.kinds.includes('orchids'))answers.kind='orchids';else answers.kind=brand.kinds.includes('plants')?'plants':brand.kinds[0];
  if(/polotien|polostin|menej svetla|malo svetla|do tien/.test(q))answers.facet='low';else if(/rozptylen|bez priameho sln|bez priame sln|nie.*priame.*sln|nechcem.*slnec/.test(q))answers.facet='bright';else if(/priame slnko|slnec/.test(q))answers.facet='sun';
  if(/nenaroc|zaciatoc|lahka starost/.test(q))answers.priority='easy';
  const money=q.match(/(?:do|pod|max)\s+(\d+(?:[.,]\d+)?)\s*(€|eur|kc)/);
@@ -96,7 +97,7 @@ export function catalogueReply(brand,messages) {
   return p.length?{text:`Predajca medzi rastliny vhodné do domácnosti so zvieratami zaraďuje: ${p.map(x=>`${x.name} (${x.price})`).join('; ')}. Tieto položky spĺňajú aj uvedené svetlo a rozpočet. Rastliny nie sú určené na konzumáciu.`,products:p.map(x=>x.id)}:{text:'Pre tieto podmienky alebo pomenovaný druh nemám doložené zaradenie ako bezpečný pre zvieratá. Bez tohto podkladu ho nebudem odporúčať na tento účel.',products:[]};
  }
  const named=exact.length?exact:genus;
- const explicitKind=/substrat|zemin|kvetinac|crepnik|obal|terarium/.test(q);
+ const explicitKind=/substrat|zemin|kvetinac|crepnik|obal|terarium|opora|opory|drziak|kvapkadlo|korunka|macrame|raselinnikov.*tyc|rarit|zberatel|vzacn|ovocn/.test(q);
  let ranked=named.length?named.filter(p=>matches(p,explicitKind?answers:{...answers,kind:p.kind})):rankProducts(brand,answers);
  if(/cena|ceny|kolko|lacne/.test(q)&&!exact.length)ranked=[...ranked].sort((a,b)=>a.priceValue-b.priceValue);
  if(!ranked.length)return {text:'V overenej ponuke nemám produkt, ktorý by spĺňal tieto podmienky. Skúste upraviť rozpočet alebo prejdite Výber rastlín a doplnkov.',products:[]};

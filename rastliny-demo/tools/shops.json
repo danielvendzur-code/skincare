@@ -375,5 +375,80 @@
     "markWhite": true,
     "terms": "https://www.pokojovkyzeseveru.cz/obchodni-podminky/",
     "fit": "Samostatná podnikateľka, 1–5 zamestnancov podľa ARES; bohatá skladová ponuka rastlín a médií vyžaduje výber podľa podmienok."
+  },
+  "izbovecky": {
+    "theme": {
+      "brand": "#294329",
+      "accent": "#3c6438",
+      "soft": "#f0f3e9",
+      "paper": "#fffefa",
+      "ink": "#253025",
+      "line": "#dbe0d2"
+    },
+    "platform": "woocommerce",
+    "currency": "EUR",
+    "logoNote": "Originálne biele písmená vybrané z oficiálnej fotografickej koláže a prevedené do tmavej zelenej pre čitateľnosť. Tvar písmen aj mäkčeň zachované; symbol je pôvodný list z koláže.",
+    "themeNote": "Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu.",
+    "exclude": "poukaz|workshop|kurz|um[eě]l|řízek|rezerv|předobjedn|predobjedn|dar[čc]ekov.*box",
+    "limits": {
+      "plants": 36,
+      "succulents": 14,
+      "pots": 12,
+      "substrates": 12
+    },
+    "name": "Izbovečky",
+    "website": "https://www.izbovecky.sk/",
+    "kinds": [
+      "plants",
+      "rareplants"
+    ],
+    "categories": {
+      "rareplants": [
+        38
+      ],
+      "plants": [
+        16,
+        32,
+        39,
+        57,
+        58,
+        42,
+        43,
+        44,
+        45,
+        110
+      ]
+    },
+    "categoryNotes": {
+      "plants": "Izbové rastliny podľa podmienok",
+      "rareplants": "Zberateľské druhy a kultivary"
+    },
+    "logoSource": "https://www.izbovecky.sk/wp-content/uploads/2025/11/Adobe-Express-file.png",
+    "markCrop": [
+      250,
+      70,
+      550,
+      400
+    ],
+    "terms": "https://www.izbovecky.sk/podmienky-gdpr",
+    "fit": "Nové rastlinné s.r.o. od januára 2026, 1 zamestnanec podľa registra; mnoho podobných izbových a raritných druhov, pri ktorých výber spresní svetlo a rozpočet.",
+    "logoCrop": [
+      70,
+      495,
+      1055,
+      625
+    ],
+    "logoExtractWhite": true,
+    "heroNames": [
+      "Monstera standleyana variegata (Philodendron cobra)",
+      "Epipremnum aureum neon",
+      "Maranta light veins",
+      "Anthurium crystallinum"
+    ],
+    "markCircle": true,
+    "excludeIds": [
+      "p6663",
+      "p6152"
+    ]
   }
 }

@@ -16,6 +16,7 @@ TODAY=date.today().isoformat()
 
 def eligible(p,shop):
     name=p['name']
+    if p['id'] in shop.get('excludeIds',[]):return False
     if re.search(shop.get('exclude',r'(?!)'),name,re.I):return False
     if re.search(shop.get('excludeByKind',{}).get(p['kind'],r'(?!)'),name,re.I):return False
     if p['kind'] in shop.get('include',{}) and not re.search(shop['include'][p['kind']],name,re.I):return False
@@ -142,7 +143,7 @@ def woo_products(shop,slug):
     endpoint=shop['website'].rstrip('/')+'/wp-json/wc/store/v1/products?per_page=100'
     rows=js(endpoint);result=[]
     for raw in rows:
-        if not (raw['is_in_stock'] and raw['is_purchasable'] and raw['images']) or raw.get('variations') or raw['prices'].get('price_range'):continue
+        if not (raw['is_in_stock'] and raw['is_purchasable'] and raw['images']) or raw.get('is_on_backorder') or raw.get('stock_availability',{}).get('class','in-stock')!='in-stock' or raw.get('variations') or raw['prices'].get('price_range'):continue
         cats=[c['name'] for c in raw['categories']];ids=[c['id'] for c in raw['categories']]
         kind=next((k for k,values in shop['categories'].items() if any(v in ids for v in values)),None)
         if not kind:continue
@@ -155,7 +156,7 @@ def woo_products(shop,slug):
         if re.search(r'na objedn[aá]vku|p[řr]edobjedn|predobjedn',text,re.I):continue
         attrs={a['name']:[v['name'] for v in a['terms']] for a in raw['attributes']}
         # Reuse the existing detail extractor on a synthetic description only.
-        p.update(tags=[],facts=[]);p=care(p,text,attrs,cats);p['sourceAttributes']=attrs;p['sourceCategories']=cats
+        p.update(tags=[],facts=[]);p=care(p,text,attrs,cats);p['sourceAttributes']=attrs;p['sourceCategories']=cats;p['sourceStockEvidence']={k:raw.get(k) for k in ['is_in_stock','is_on_backorder','stock_availability']}
         result.append(p)
     return result
 

@@ -100,3 +100,5 @@ Rastlinná ukážka [Plantotéka](./rastliny-demo/plantoteka/index.html): pripra
 Rastlinná ukážka [PlantBros](./rastliny-demo/plantbros/index.html): pripravená subdoména `plantbros.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
 
 Rastlinná ukážka [Pokojovky ze severu](./rastliny-demo/sever/index.html): pripravená subdoména `sever.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Izbovečky](./rastliny-demo/izbovecky/index.html): pripravená subdoména `izbovecky.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.

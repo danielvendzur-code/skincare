@@ -1,0 +1,704 @@
+{
+  "theme": {
+    "brand": "#294329",
+    "accent": "#3c6438",
+    "soft": "#f0f3e9",
+    "paper": "#fffefa",
+    "ink": "#253025",
+    "line": "#dbe0d2"
+  },
+  "currency": "EUR",
+  "name": "Izbovečky",
+  "website": "https://www.izbovecky.sk/",
+  "kinds": [
+    "plants",
+    "rareplants"
+  ],
+  "categoryNotes": {
+    "plants": "Izbové rastliny podľa podmienok",
+    "rareplants": "Zberateľské druhy a kultivary"
+  },
+  "slug": "izbovecky",
+  "hero": "/assets/plants/izbovecky.jpg",
+  "mobileHero": "/assets/plants/izbovecky-mobile.jpg",
+  "logo": "/assets/plants/izbovecky-logo.png",
+  "mark": "/assets/plants/izbovecky-mark.png",
+  "products": [
+    {
+      "id": "p6671",
+      "name": "Monstera standleyana variegata (Philodendron cobra)",
+      "kind": "rareplants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/6671",
+      "photo": "/assets/plants/izbovecky-p6671.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:monstera",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: polotieň.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: polotieň. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/10/img_6851-1-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p6668",
+      "name": "Epipremnum aureum neon",
+      "kind": "plants",
+      "price": "3,50 €",
+      "priceValue": 3.5,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/epipremnum-aureum-neon",
+      "photo": "/assets/plants/izbovecky-p6668.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:epipremnum",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: polotieň.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: polotieň.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/10/img_6853-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p6588",
+      "name": "Maranta light veins",
+      "kind": "rareplants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/maranta-light-veins",
+      "photo": "/assets/plants/izbovecky-p6588.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:maranta",
+        "low",
+        "pet-safe",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/09/img_6748-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p5231",
+      "name": "Anthurium crystallinum",
+      "kind": "plants",
+      "price": "8,90 €",
+      "priceValue": 8.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/anthurium-crystallinum",
+      "photo": "/assets/plants/izbovecky-p5231.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:anthurium",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: polotieň.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: polotieň. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/08/img_6874-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p6411",
+      "name": "Hoya mathilde splash",
+      "kind": "plants",
+      "price": "12,90 €",
+      "priceValue": 12.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/hoya-matchilde-splash",
+      "photo": "/assets/plants/izbovecky-p6411.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:hoya",
+        "low",
+        "pet-safe",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: polotieň.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: polotieň. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/09/img_6346-1-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p5604",
+      "name": "Codiaeum variegatum magnificent",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/kroton",
+      "photo": "/assets/plants/izbovecky-p5604.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:codiaeum",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/08/IMG_5214-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p6531",
+      "name": "Begónia leaf midnight sun",
+      "kind": "rareplants",
+      "price": "45,00 €",
+      "priceValue": 45.0,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/begonia-leaf-midnight-sun",
+      "photo": "/assets/plants/izbovecky-p6531.jpg",
+      "tags": [
+        "bright",
+        "genus:begónia"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/09/img_6566-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p6512",
+      "name": "Alocasia polly aurea",
+      "kind": "rareplants",
+      "price": "44,90 €",
+      "priceValue": 44.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/alocasia-polly-aurea",
+      "photo": "/assets/plants/izbovecky-p6512.jpg",
+      "tags": [
+        "bright",
+        "genus:alocasia"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/09/img_6269-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p6442",
+      "name": "Citrus limon eureka variegata",
+      "kind": "rareplants",
+      "price": "10,90 €",
+      "priceValue": 10.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/citrus-limon-eureka-variegata",
+      "photo": "/assets/plants/izbovecky-p6442.jpg",
+      "tags": [
+        "bright",
+        "genus:citrus",
+        "pet-safe",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza: rozptýlené svetlo. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/09/img_6549-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p6403",
+      "name": "Alocasia longiloba suhirmaniana purple vein",
+      "kind": "rareplants",
+      "price": "5,00 €",
+      "priceValue": 5.0,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/alocasia-longiloba-suhirmaniana-purple-vein",
+      "photo": "/assets/plants/izbovecky-p6403.jpg",
+      "tags": [
+        "bright",
+        "genus:alocasia"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/09/img_6788-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p6346",
+      "name": "Syngonium pink splash",
+      "kind": "rareplants",
+      "price": "5,50 €",
+      "priceValue": 5.5,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/syngonium-pink-splash",
+      "photo": "/assets/plants/izbovecky-p6346.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:syngonium",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: polotieň.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: polotieň.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/09/img_6488-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p6249",
+      "name": "Hoya compacta variegata",
+      "kind": "rareplants",
+      "price": "15,90 €",
+      "priceValue": 15.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/hoya-compacta-variegata",
+      "photo": "/assets/plants/izbovecky-p6249.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:hoya",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: polotieň.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: polotieň. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/09/img_6522-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p5785",
+      "name": "Epipremnum aureum/ Divý Jano",
+      "kind": "plants",
+      "price": "1,50 €",
+      "priceValue": 1.5,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/epipremnum-aureum-divy-jano",
+      "photo": "/assets/plants/izbovecky-p5785.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:epipremnum",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/08/IMG_4975-1-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p5229",
+      "name": "Epipremnum silver stripe",
+      "kind": "rareplants",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/epipremnum-silver-stripe",
+      "photo": "/assets/plants/izbovecky-p5229.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:epipremnum",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/08/IMG_4970-scaled-e1786011823161.jpeg?fit=1920%2C2146&ssl=1"
+    },
+    {
+      "id": "p5222",
+      "name": "Philodendron summer glory",
+      "kind": "rareplants",
+      "price": "12,90 €",
+      "priceValue": 12.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/philodendron-summer-glory",
+      "photo": "/assets/plants/izbovecky-p5222.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:philodendron",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/08/IMG_4950-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p5218",
+      "name": "Rhaphidophora tetrasperma",
+      "kind": "plants",
+      "price": "8,90 €",
+      "priceValue": 8.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/rhaphidophora-tetrasperma-2",
+      "photo": "/assets/plants/izbovecky-p5218.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:rhaphidophora",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/08/IMG_4923-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p5214",
+      "name": "Monstera adansonii variegata",
+      "kind": "rareplants",
+      "price": "5,00 €",
+      "priceValue": 5.0,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/monstera-adansonii-variegata-2",
+      "photo": "/assets/plants/izbovecky-p5214.jpg",
+      "tags": [
+        "bright",
+        "genus:monstera",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Previsnutý alebo ťahavý rast podľa zaradenia predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/07/IMG_4913-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p5210",
+      "name": "Spathiphyllum sensation variegata",
+      "kind": "rareplants",
+      "price": "19,90 €",
+      "priceValue": 19.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/spathiphyllum-sensation-variegata",
+      "photo": "/assets/plants/izbovecky-p5210.jpg",
+      "tags": [
+        "bright",
+        "genus:spathiphyllum",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/07/img_6325-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p5208",
+      "name": "Rhaphidophora tetrasperma variegata",
+      "kind": "rareplants",
+      "price": "19,90 €",
+      "priceValue": 19.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/rhaphidophora-tetrasperma-variegata",
+      "photo": "/assets/plants/izbovecky-p5208.jpg",
+      "tags": [
+        "bright",
+        "genus:rhaphidophora",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Previsnutý alebo ťahavý rast podľa zaradenia predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/07/img_5653-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p5206",
+      "name": "Begonia pink spot",
+      "kind": "rareplants",
+      "price": "8,90 €",
+      "priceValue": 8.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/begonia-pink-spot",
+      "photo": "/assets/plants/izbovecky-p5206.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:begonia"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/07/img_6205-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p5200",
+      "name": "Gymnocalycium variegata",
+      "kind": "rareplants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/gymnocalycium-variegata",
+      "photo": "/assets/plants/izbovecky-p5200.jpg",
+      "tags": [
+        "bright",
+        "genus:gymnocalycium",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/08/IMG_4883-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p5192",
+      "name": "Pteris albolienata",
+      "kind": "plants",
+      "price": "5,00 €",
+      "priceValue": 5.0,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/pteris-albolienata",
+      "photo": "/assets/plants/izbovecky-p5192.jpg",
+      "tags": [
+        "bright",
+        "genus:pteris",
+        "low",
+        "pet-safe"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/08/IMG_4862-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p5190",
+      "name": "Aeschynanthus bolero bicolore",
+      "kind": "rareplants",
+      "price": "24,90 €",
+      "priceValue": 24.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/aeschynanthus-bolero-bicolore",
+      "photo": "/assets/plants/izbovecky-p5190.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:aeschynanthus",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: polotieň."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: polotieň.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/08/IMG_4852-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p981",
+      "name": "Monstera obliqua peru",
+      "kind": "rareplants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/monstera-obliqua-peru",
+      "photo": "/assets/plants/izbovecky-p981.jpg",
+      "tags": [
+        "bright",
+        "genus:monstera",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Previsnutý alebo ťahavý rast podľa zaradenia predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2025/12/IMG_5664-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    },
+    {
+      "id": "p933",
+      "name": "Tillandsia andreana",
+      "kind": "plants",
+      "price": "3,90 €",
+      "priceValue": 3.9,
+      "currency": "EUR",
+      "url": "https://www.izbovecky.sk/produkt/tillandsia",
+      "photo": "/assets/plants/izbovecky-p933.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:tillandsia",
+        "low",
+        "pet-safe"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: polotieň.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: polotieň. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://i0.wp.com/www.izbovecky.sk/wp-content/uploads/2026/08/IMG_4885-scaled.jpeg?fit=1920%2C2560&ssl=1"
+    }
+  ],
+  "checked": "2026-10-10"
+}

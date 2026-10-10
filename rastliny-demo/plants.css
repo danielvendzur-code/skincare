@@ -88,3 +88,10 @@ body[data-cosmetics-demo]:not([data-cosmetics-demo="plener"]) #cosmetics-root#co
 
 body[data-cosmetics-demo="zahradananiti"] .cx-owner-brand .cx-logo{max-height:60px;max-width:150px}
 body[data-cosmetics-demo="zahradananiti"] .cx-widget-brand .cx-logo{max-height:42px;max-width:110px}
+
+/* Two choices stay large, with the whole product beside its label. */
+.cx-options[data-count="2"]{grid-template-columns:1fr;grid-template-rows:repeat(2,minmax(0,1fr))}
+.cx-options[data-count="2"] .cx-option{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);grid-template-rows:minmax(0,1fr)}
+.cx-options[data-count="2"] .cx-option-copy{align-content:center;padding:14px}
+.cx-options[data-count="2"] .cx-option-copy b{font-size:14px;line-height:1.2}
+.cx-options[data-count="2"] .cx-option-copy small{font-size:10.5px;line-height:1.35}

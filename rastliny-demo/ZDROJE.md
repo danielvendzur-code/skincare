@@ -704,3 +704,46 @@ Pri pridaní PlantBros sa opravili tagy pri vetách typu „priame slnko listy p
 | Univerzální vzdušný substrát Akční cena | substráty | 45 Kč | [detail](https://www.pokojovkyzeseveru.cz/univerzalni-vzdusny-substrat/) |
 | LECHUZA PON 3l Minerální substrát LECHUZA PON 3l | substráty | 190 Kč | [detail](https://www.pokojovkyzeseveru.cz/lechuza-pon-3l/) |
 | Minerální substrát CACTUSPON 3l CACTUSPON minerální substrát pro kaktusy a sukulenty | substráty | 210 Kč | [detail](https://www.pokojovkyzeseveru.cz/mineralni-substrat-cactuspon-3l/) |
+
+## Izbovečky
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://www.izbovecky.sk/). [Identita predajcu](https://www.izbovecky.sk/podmienky-gdpr).
+- Firma: **Izbovečky s. r. o., IČO 57395497**. Vlastníci: Zuzana Abrahámová. Konatelia / podnikateľ: Zuzana Abrahámová, Tomáš Cibuľa.
+- Veľkosť: **Tržby nedoložené; 1 zam.**. Kód `02` v [primárnom registri](https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=2537923); údaj aktualizovaný 2026-07-10, načítaný 2026-10-10. [Vlastníci](https://orsr.sk/vypis.asp?ID=745883&SID=3&P=0).
+- Spoločnosť vznikla 9.1.2026, dosiaľ bez účtovnej závierky v RÚZ. Kód veľkosti 02 znamená 1 zamestnanca, nejde o odhad tržieb.
+- RPO pri kontrole neodpovedalo; vlastníci overení z uvedeného primárneho zdroja, veľkosť a financie z RÚZ.
+- Prečo sedí: Nové rastlinné s.r.o. od januára 2026, 1 zamestnanec podľa registra; mnoho podobných izbových a raritných druhov, pri ktorých výber spresní svetlo a rozpočet. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **25 produktov**, izbové rastliny, raritné rastliny. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: WooCommerce Store API: `is_in_stock`, `is_purchasable`, pevná cena a mena. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/izbovecky-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://www.izbovecky.sk/wp-content/uploads/2025/11/Adobe-Express-file.png); Originálne biele písmená vybrané z oficiálnej fotografickej koláže a prevedené do tmavej zelenej pre čitateľnosť. Tvar písmen aj mäkčeň zachované; symbol je pôvodný list z koláže. 
+- Farby: `brand: #294329`, `accent: #3c6438`, `soft: #f0f3e9`, `paper: #fffefa`, `ink: #253025`, `line: #dbe0d2`. Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/izbovecky-qa.json`, `izbovecky-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/izbovecky-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Monstera standleyana variegata (Philodendron cobra) | raritné rastliny | 9,90 € | [detail](https://www.izbovecky.sk/produkt/6671) |
+| Epipremnum aureum neon | izbové rastliny | 3,50 € | [detail](https://www.izbovecky.sk/produkt/epipremnum-aureum-neon) |
+| Maranta light veins | raritné rastliny | 9,90 € | [detail](https://www.izbovecky.sk/produkt/maranta-light-veins) |
+| Anthurium crystallinum | izbové rastliny | 8,90 € | [detail](https://www.izbovecky.sk/produkt/anthurium-crystallinum) |
+| Hoya mathilde splash | izbové rastliny | 12,90 € | [detail](https://www.izbovecky.sk/produkt/hoya-matchilde-splash) |
+| Codiaeum variegatum magnificent | izbové rastliny | 9,90 € | [detail](https://www.izbovecky.sk/produkt/kroton) |
+| Begónia leaf midnight sun | raritné rastliny | 45,00 € | [detail](https://www.izbovecky.sk/produkt/begonia-leaf-midnight-sun) |
+| Alocasia polly aurea | raritné rastliny | 44,90 € | [detail](https://www.izbovecky.sk/produkt/alocasia-polly-aurea) |
+| Citrus limon eureka variegata | raritné rastliny | 10,90 € | [detail](https://www.izbovecky.sk/produkt/citrus-limon-eureka-variegata) |
+| Alocasia longiloba suhirmaniana purple vein | raritné rastliny | 5,00 € | [detail](https://www.izbovecky.sk/produkt/alocasia-longiloba-suhirmaniana-purple-vein) |
+| Syngonium pink splash | raritné rastliny | 5,50 € | [detail](https://www.izbovecky.sk/produkt/syngonium-pink-splash) |
+| Hoya compacta variegata | raritné rastliny | 15,90 € | [detail](https://www.izbovecky.sk/produkt/hoya-compacta-variegata) |
+| Epipremnum aureum/ Divý Jano | izbové rastliny | 1,50 € | [detail](https://www.izbovecky.sk/produkt/epipremnum-aureum-divy-jano) |
+| Epipremnum silver stripe | raritné rastliny | 11,90 € | [detail](https://www.izbovecky.sk/produkt/epipremnum-silver-stripe) |
+| Philodendron summer glory | raritné rastliny | 12,90 € | [detail](https://www.izbovecky.sk/produkt/philodendron-summer-glory) |
+| Rhaphidophora tetrasperma | izbové rastliny | 8,90 € | [detail](https://www.izbovecky.sk/produkt/rhaphidophora-tetrasperma-2) |
+| Monstera adansonii variegata | raritné rastliny | 5,00 € | [detail](https://www.izbovecky.sk/produkt/monstera-adansonii-variegata-2) |
+| Spathiphyllum sensation variegata | raritné rastliny | 19,90 € | [detail](https://www.izbovecky.sk/produkt/spathiphyllum-sensation-variegata) |
+| Rhaphidophora tetrasperma variegata | raritné rastliny | 19,90 € | [detail](https://www.izbovecky.sk/produkt/rhaphidophora-tetrasperma-variegata) |
+| Begonia pink spot | raritné rastliny | 8,90 € | [detail](https://www.izbovecky.sk/produkt/begonia-pink-spot) |
+| Gymnocalycium variegata | raritné rastliny | 9,90 € | [detail](https://www.izbovecky.sk/produkt/gymnocalycium-variegata) |
+| Pteris albolienata | izbové rastliny | 5,00 € | [detail](https://www.izbovecky.sk/produkt/pteris-albolienata) |
+| Aeschynanthus bolero bicolore | raritné rastliny | 24,90 € | [detail](https://www.izbovecky.sk/produkt/aeschynanthus-bolero-bicolore) |
+| Monstera obliqua peru | raritné rastliny | 9,90 € | [detail](https://www.izbovecky.sk/produkt/monstera-obliqua-peru) |
+| Tillandsia andreana | izbové rastliny | 3,90 € | [detail](https://www.izbovecky.sk/produkt/tillandsia) |

@@ -19,3 +19,4 @@ Chat funguje bez API kľúča z overeného katalógu. Voliteľný `ANTHROPIC_API
 | [Plantotéka](https://www.plantoteka.sk/) | [`plantoteka`](./plantoteka/index.html) | 40 | izbové rastliny, črepníky, substráty | Ing. Nikola Faturík / 55004709 | Tržby nedoložené; 0 zam. | PASS 1440 / 390 / 360 |
 | [PlantBros](https://www.plantbros.sk/) | [`plantbros`](./plantbros/index.html) | 58 | izbové rastliny, sukulenty a kaktusy, črepníky, substráty | Extravaganza Studio LV s.r.o. / 50932632 | 24 630 € tržby 2025; nezistené zam. | PASS 1440 / 390 / 360 |
 | [Pokojovky ze severu](https://www.pokojovkyzeseveru.cz/) | [`sever`](./sever/index.html) | 17 | izbové rastliny, sukulenty a kaktusy, substráty | Iva Kolátorová / 68424582 | Tržby nedoložené; 1–5 zam. | PASS 1440 / 390 / 360 |
+| [Izbovečky](https://www.izbovecky.sk/) | [`izbovecky`](./izbovecky/index.html) | 25 | izbové rastliny, raritné rastliny | Izbovečky s. r. o. / 57395497 | Tržby nedoložené; 1 zam. | PASS 1440 / 390 / 360 |

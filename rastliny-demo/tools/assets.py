@@ -69,7 +69,14 @@ elif slug in additions:
   import cairosvg
   rendered=source/f'{slug}-logo-render.png';cairosvg.svg2png(url=str(original),write_to=str(rendered),output_width=1400);original=rendered
  if b.get('logoCrop'):
-  crop=Image.open(original).convert('RGBA').crop(tuple(b['logoCrop']));original=source/f'{slug}-wordmark-crop.png';save_png(crop,original)
+  crop=Image.open(original).convert('RGBA').crop(tuple(b['logoCrop']))
+  if b.get('logoExtractWhite'):
+   import numpy as np
+   rgb=np.asarray(crop)[:,:,:3];alpha=np.clip((rgb.min(axis=2).astype(float)-195)/60,0,1)*255
+   # Keep the original Č caron, suppressing pale photographic leaves above it.
+   original_alpha=alpha.copy();alpha[:32,:]=0;alpha[:32,520:600]=original_alpha[:32,520:600]
+   crop=Image.new('RGBA',crop.size,b['theme']['brand']);crop.putalpha(Image.fromarray(alpha.astype('uint8')))
+  original=source/f'{slug}-wordmark-crop.png';save_png(crop,original)
  logo(str(original),out/f'{slug}-logo.png')
  if b.get('logoInk'):
   im=Image.open(out/f'{slug}-logo.png').convert('RGBA');alpha=im.getchannel('A');im=Image.new('RGBA',im.size,b['logoInk']);im.putalpha(alpha);save_png(im,out/f'{slug}-logo.png')
@@ -81,10 +88,18 @@ elif slug in additions:
   import cairosvg
   rendered=source/f'{slug}-mark-render.png';cairosvg.svg2png(url=str(motif),write_to=str(rendered),output_width=600);motif=rendered
  if b.get('markCrop'):
-  im=Image.open(motif).convert('RGBA').crop(tuple(b['markCrop']));im.save(source/f'{slug}-mark-crop.png');motif=source/f'{slug}-mark-crop.png'
+  im=Image.open(motif).convert('RGBA').crop(tuple(b['markCrop']))
+  if b.get('markGreenOnly'):
+   import numpy as np
+   rgb=np.asarray(im);mask=(rgb[:,:,1]>140)&(rgb[:,:,1]>rgb[:,:,0]*1.5)&(rgb[:,:,1]>rgb[:,:,2]*1.5)
+   alpha=rgb[:,:,3]*mask;im.putalpha(Image.fromarray(alpha.astype('uint8')))
+  save_png(im,source/f'{slug}-mark-crop.png');motif=source/f'{slug}-mark-crop.png'
  logo(str(motif),out/f'{slug}-mark.png')
  if b.get('markWhite'):
   im=Image.open(out/f'{slug}-mark.png').convert('RGBA');alpha=im.getchannel('A');im=Image.new('RGBA',im.size,'white');im.putalpha(alpha);save_png(im,out/f'{slug}-mark.png')
+if additions.get(slug,{}).get('markCircle'):
+ from PIL import ImageDraw,ImageChops
+ im=Image.open(out/f'{slug}-mark.png').convert('RGBA');mask=Image.new('L',im.size);ImageDraw.Draw(mask).ellipse((0,0,im.width-1,im.height-1),fill=255);im.putalpha(ImageChops.multiply(im.getchannel('A'),mask));save_png(im,out/f'{slug}-mark.png')
 import subprocess
 soft=additions[slug]['theme']['soft'] if slug in additions else {'plantizia':'#eef3e9','gardenholice':'#f4f0e6','lukscheiter':'#eef3e9'}[slug]
 # Botanical/price diversity in the hero, with whole products preserved.
