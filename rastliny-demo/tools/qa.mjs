@@ -33,8 +33,12 @@ for(const vp of[{n:'desktop',width:1440,height:900},{n:'mobile',width:390,height
   await shot(`5-step${step+1}`);const old=await page.locator('.cx-progress>b').textContent();await cards.first().click();await page.waitForFunction(t=>document.querySelector('.cx-progress>b')?.textContent!==t,old);await page.waitForTimeout(750);
  }
  await images();await overflow('result');await shot('6-result');
- const title=await page.locator('.cx-product-copy h2').textContent();const product=brand.products.find(p=>p.name===title);check(product,`${vp.n} invalid result`);
- check(await page.locator('.cx-product-price a').getAttribute('href')===product?.url,`${vp.n} wrong URL`);
+ const title=await page.locator('.cx-product-copy h2').textContent();
+ // Different individual plants can legitimately share the seller's name.
+ // Their exact product/variant URL identifies the offered SKU.
+ const resultUrl=await page.locator('.cx-product-price a').getAttribute('href');
+ const product=brand.products.find(p=>p.url===resultUrl);check(product&&product.name===title,`${vp.n} invalid result`);
+ check(await page.locator('.cx-product-photo img').getAttribute('src')===product?.photo,`${vp.n} wrong variant photo`);
  check((await page.locator('.cx-product-price strong').textContent()).trim()===product?.price,`${vp.n} wrong price`);
  // Back preserves the branch, restart clears it, every other branch finishes.
  await page.locator('#cx-result-back').click();check((await page.locator('.cx-progress>b').textContent())==='4/4',`${vp.n} back`);
@@ -42,7 +46,7 @@ for(const vp of[{n:'desktop',width:1440,height:900},{n:'mobile',width:390,height
  if(vp.n==='desktop')for(const kind of brand.kinds.slice(1)){
   await page.locator(`.cx-option[data-value="${kind}"]`).click();await page.waitForTimeout(600);
   for(let step=1;step<4;step++){await page.locator('.cx-option').last().click();await page.waitForTimeout(600);}
-  const t=await page.locator('.cx-product-copy h2').textContent();check(brand.products.find(p=>p.name===t)?.kind===kind,`category leaked ${kind}`);await shot(`7-${kind}-result`);await page.locator('#cx-restart').click();
+  const u=await page.locator('.cx-product-price a').getAttribute('href');check(brand.products.find(p=>p.url===u)?.kind===kind,`category leaked ${kind}`);await shot(`7-${kind}-result`);await page.locator('#cx-restart').click();
  }
  await page.keyboard.press('Escape');check(await page.locator('#cx-widget').getAttribute('aria-hidden')==='true',`${vp.n} escape`);await page.close();
 }

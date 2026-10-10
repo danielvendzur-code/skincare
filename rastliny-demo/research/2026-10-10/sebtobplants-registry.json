@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-10",
+  "company": "Sebastian Ditl",
+  "ico": "22174966",
+  "owners": [
+    "Sebastian Ditl"
+  ],
+  "executives": [
+    "Sebastian Ditl"
+  ],
+  "employees": {
+    "code": "110",
+    "range": "1–5",
+    "source": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/22174966",
+    "recordUpdated": "2026-01-10"
+  },
+  "revenue": {
+    "value": null,
+    "year": 2025,
+    "note": "ARES nezverejňuje tržby živnostníka. Nedoložený obrat sa neprezentuje ako nula ani ako dôkaz obratu pod milión eur."
+  },
+  "ownersSource": "https://sebtobplants.cz/pages/obchodni-podminky-a-ochrana-osobnich-udaju",
+  "note": "Homepage opisuje spoločný projekt dvoch bratov; právny predajca a samostatný podnikateľ je podľa VOP a ARES Sebastian Ditl. Druhý brat sa bez dokladu o vlastníctve nevydáva za spolumajiteľa. Pracovníci sú posledný zverejnený údaj registra."
+}

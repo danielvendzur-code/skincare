@@ -118,3 +118,5 @@ Rastlinná ukážka [VšeProKaktusy](./rastliny-demo/vseprokaktusy/index.html): 
 Rastlinná ukážka [Green Hunters](./rastliny-demo/greenhunters/index.html): pripravená subdoména `greenhunters.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
 
 Rastliny majú aj samostatný súkromný [statický náhľad](https://rastlinne-chatbot-ukazky.vendzurd.chatgpt.site) pre vlastníka. Funguje v ňom výber aj katalógový chat bez serverového AI API; DNS existujúcich projektov sa tým nemení.
+
+Rastlinná ukážka [Sebtob Plants](./rastliny-demo/sebtobplants/index.html): pripravená subdoména `sebtobplants.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.

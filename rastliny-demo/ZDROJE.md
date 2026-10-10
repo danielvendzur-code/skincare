@@ -1157,3 +1157,51 @@ Svetlo a nenáročnosť všetkých 18 kokedám boli osobitne prezreté v odráž
 | Rašelina bílá HAWITA 0-5 mm — 5 l | substráty | 65 Kč | [detail](https://greenhunters.cz/eshop/produkt/raselina-bila-hawita-0-5-mm/?currency=CZK&attribute_pa_mnozstvi=5-l) |
 | Rašelina bílá HAWITA 5-10 mm — 5 l | substráty | 65 Kč | [detail](https://greenhunters.cz/eshop/produkt/raselina-bila-hawita-5-10-mm/?currency=CZK&attribute_pa_mnozstvi=5-l) |
 | Perlit 2-6 mm — 5 l | substráty | 80 Kč | [detail](https://greenhunters.cz/eshop/produkt/perlit/?currency=CZK&attribute_pa_mnozstvi=5-l) |
+
+## Sebtob Plants
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://sebtobplants.cz/). [Identita predajcu](https://sebtobplants.cz/pages/obchodni-podminky-a-ochrana-osobnich-udaju).
+- Firma: **Sebastian Ditl, IČO 22174966**. Vlastníci: Sebastian Ditl. Konatelia / podnikateľ: Sebastian Ditl.
+- Veľkosť: **Tržby nedoložené; 1–5 zam.**. Kód `110` v [primárnom registri](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/22174966); údaj aktualizovaný 2026-01-10, načítaný 2026-10-10. [Vlastníci](https://sebtobplants.cz/pages/obchodni-podminky-a-ochrana-osobnich-udaju).
+- ARES nezverejňuje tržby živnostníka. Nedoložený obrat sa neprezentuje ako nula ani ako dôkaz obratu pod milión eur.
+- Homepage opisuje spoločný projekt dvoch bratov; právny predajca a samostatný podnikateľ je podľa VOP a ARES Sebastian Ditl. Druhý brat sa bez dokladu o vlastníctve nevydáva za spolumajiteľa. Pracovníci sú posledný zverejnený údaj registra.
+- Prečo sedí: Osobný e-shop dvoch bratov s aktuálne doloženým predajcom Sebastianom Ditlom a kategóriou 1–5 pracovníkov; konkrétne zberateľské izbovky viacerých rodov a cien. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **30 produktov**, ďalšie izbovky, filodendrony, monstery. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: Verejný Shopify katalóg: konkrétny variant available=true, jeho cena v CZK a priradená featured_image. URL obsahuje ID dostupného variantu. Pre varianty bez vlastnej fotografie sa použije priradená prvá produktová fotografia; nejde o cenu od. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/sebtobplants-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://sebtobplants.cz/cdn/shop/files/Logo_png.jpg?v=1753975293&width=600); Oficiálny čiernobiely kruhový symbol; svetlé pozadie odstránené a zväčšený s Lanczos vyhladením. Pôvodný list je vyrezaný pre launcher a každú správu bota a prevedený na bielu verziu, bez vymýšľania nového loga. Osobné produktové zábery konkrétnych rastlín. Variantové fotografie zostávajú viazané na daný variant; prezreté bližšie orezy zachovávajú rastlinu a nádobu. Odrezky, samostatné listy, materské rastliny a odrezané zábery boli vylúčené.
+- Farby: `brand: #222b24`, `accent: #3b513e`, `soft: #f0f3ed`, `paper: #fffefb`, `ink: #202620`, `line: #dbe2d6`. Čierna oficiálneho loga a zelené odtiene rastlín na webe; brand a accent stmavené pre čitateľný biely text. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/sebtobplants-qa.json`, `sebtobplants-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/sebtobplants-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Monstera albo | Monstery | 265 Kč | [detail](https://sebtobplants.cz/products/monstera-albo-2?variant=54843895284058) |
+| Anthurium michelle | Ďalšie izbovky | 1500 Kč | [detail](https://sebtobplants.cz/products/a?variant=54766914896218) |
+| ficus lyrata variegated | Ďalšie izbovky | 750 Kč | [detail](https://sebtobplants.cz/products/ficus-lyrata-variegated?variant=54766568374618) |
+| Syngonium mijito | Ďalšie izbovky | 120 Kč | [detail](https://sebtobplants.cz/products/syngonium-mijito-1?variant=54766925087066) |
+| Zamioculcas chameleon — Č 3 | Ďalšie izbovky | 200 Kč | [detail](https://sebtobplants.cz/products/zamioculcas-chameleon?variant=54819058188634) |
+| Amydrium Medium Silver | Ďalšie izbovky | 85 Kč | [detail](https://sebtobplants.cz/products/amydrium-medium-silver-1?variant=54766843003226) |
+| Philodendron Emerald Queen — Č 4 | Filodendrony | 150 Kč | [detail](https://sebtobplants.cz/products/philodendron-emerald-queen?variant=54844135899482) |
+| PHILODENDRON PAINTED LADY | Filodendrony | 45 Kč | [detail](https://sebtobplants.cz/products/philodendron-painted-lady?variant=54844125839706) |
+| Philodendron florida ghost | Filodendrony | 50 Kč | [detail](https://sebtobplants.cz/products/philodendron-florida-ghost-1?variant=54844099166554) |
+| Monstera thai | Monstery | 220 Kč | [detail](https://sebtobplants.cz/products/monstera-thai-1?variant=54844029141338) |
+| Monstera albo | Monstery | 250 Kč | [detail](https://sebtobplants.cz/products/monstera-albo-1?variant=54843890860378) |
+| Monstera burle marx flame — Č 10 | Monstery | 330 Kč | [detail](https://sebtobplants.cz/products/monstera-burle-marx-flame-1?variant=54819900719450) |
+| Philodendron burle marx variegated — Č 12 | Filodendrony | 120 Kč | [detail](https://sebtobplants.cz/products/philodendron-burle-marx-variegated-2?variant=54819076931930) |
+| Monstera adansonii mint | Monstery | 50 Kč | [detail](https://sebtobplants.cz/products/monstera-adansonii-mint-1?variant=54819062579546) |
+| Syngonium Pink Perfection — Č 1 | Ďalšie izbovky | 100 Kč | [detail](https://sebtobplants.cz/products/syngonium-pink-perfection?variant=54766932001114) |
+| Syngonium Strawberry Milk | Ďalšie izbovky | 100 Kč | [detail](https://sebtobplants.cz/products/s-1?variant=54766928920922) |
+| Monstera thai — Č 6 | Monstery | 180 Kč | [detail](https://sebtobplants.cz/products/monstera-thai?variant=54766927479130) |
+| Monstera adansonii mint | Monstery | 150 Kč | [detail](https://sebtobplants.cz/products/monstera-adansonii-mint-3?variant=54766925349210) |
+| Philodendron caramel marble | Filodendrony | 1640 Kč | [detail](https://sebtobplants.cz/products/philodendron-caramel-marble?variant=54766917058906) |
+| Philodendron cream splash | Filodendrony | 160 Kč | [detail](https://sebtobplants.cz/products/philodendron-cream-splash-2?variant=54766851391834) |
+| Alocasia frydek variegated — Č 2 | Ďalšie izbovky | 250 Kč | [detail](https://sebtobplants.cz/products/alocasia-frydek-variegated-1?variant=54766596456794) |
+| Epipremnum pinnatum yellow mint variegated | Ďalšie izbovky | 250 Kč | [detail](https://sebtobplants.cz/products/epipremnum-pinnatum-yellow-mint-variegated-3?variant=54766594523482) |
+| Zamioculcas chameleon variegated | Ďalšie izbovky | 300 Kč | [detail](https://sebtobplants.cz/products/zamioculcas-chameleon-variegated?variant=54766592000346) |
+| Anthurium Red Crystallinum — Č 1 | Ďalšie izbovky | 500 Kč | [detail](https://sebtobplants.cz/products/y-1?variant=54766588035418) |
+| syngonium pink rolli | Ďalšie izbovky | 300 Kč | [detail](https://sebtobplants.cz/products/syngonium-pink-rolli-1?variant=54766584824154) |
+| Epipremnum pinnatum yellow mint variegated | Ďalšie izbovky | 235 Kč | [detail](https://sebtobplants.cz/products/epipremnum-pinnatum-yellow-mint-variegated-2?variant=54766583939418) |
+| Epipremnum pinnatum yellow mint variegated | Ďalšie izbovky | 350 Kč | [detail](https://sebtobplants.cz/products/epipremnum-pinnatum-yellow-mint-variegated-1?variant=54766583644506) |
+| Epipremnum pinnatum yellow mint variegated | Ďalšie izbovky | 500 Kč | [detail](https://sebtobplants.cz/products/epipremnum-pinnatum-yellow-mint-variegated?variant=54766581285210) |
+| Anthurium Michelle x (Zara x Michelle) | Ďalšie izbovky | 730 Kč | [detail](https://sebtobplants.cz/products/anthurium-michelle-x-zara-x-michelle?variant=54766575976794) |
+| Monstera adansonii mint — Č 1 | Monstery | 100 Kč | [detail](https://sebtobplants.cz/products/monstera-adansonii-mint?variant=54056895938906) |

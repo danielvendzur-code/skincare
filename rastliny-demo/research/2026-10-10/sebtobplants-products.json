@@ -1,0 +1,1151 @@
+[
+  {
+    "id": "v54843895284058",
+    "name": "Monstera albo",
+    "kind": "monsteras",
+    "priceValue": 265.0,
+    "currency": "CZK",
+    "price": "265 Kč",
+    "url": "https://sebtobplants.cz/products/monstera-albo-2?variant=54843895284058",
+    "photo": "/assets/plants/sebtobplants-v54843895284058.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/1CFEE2BE-6604-41DC-995F-C475F7635205.jpg?v=1790284784&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:monstera"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Monstera.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Monstera. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.25,
+      1,
+      0.95
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54843895284058"
+    }
+  },
+  {
+    "id": "v54766914896218",
+    "name": "Anthurium michelle",
+    "kind": "plants",
+    "priceValue": 1500.0,
+    "currency": "CZK",
+    "price": "1500 Kč",
+    "url": "https://sebtobplants.cz/products/a?variant=54766914896218",
+    "photo": "/assets/plants/sebtobplants-v54766914896218.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/C3EE804B-6FE5-4633-83AA-5B2A7E7901B5.jpg?v=1789071167&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:anthurium"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Anthurium.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Anthurium. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766914896218"
+    }
+  },
+  {
+    "id": "v54766568374618",
+    "name": "ficus lyrata variegated",
+    "kind": "plants",
+    "priceValue": 750.0,
+    "currency": "CZK",
+    "price": "750 Kč",
+    "url": "https://sebtobplants.cz/products/ficus-lyrata-variegated?variant=54766568374618",
+    "photo": "/assets/plants/sebtobplants-v54766568374618.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/8B0E6D58-E6FD-478B-9EE6-AAFAEEC49180.jpg?v=1789069038&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:ficus"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Ficus.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Ficus. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0.02,
+      0.24,
+      0.98,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766568374618"
+    }
+  },
+  {
+    "id": "v54766925087066",
+    "name": "Syngonium mijito",
+    "kind": "plants",
+    "priceValue": 120.0,
+    "currency": "CZK",
+    "price": "120 Kč",
+    "url": "https://sebtobplants.cz/products/syngonium-mijito-1?variant=54766925087066",
+    "photo": "/assets/plants/sebtobplants-v54766925087066.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/3E5B233B-2F55-48D3-8F56-3FE943523599.jpg?v=1789071795&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:syngonium"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Syngonium.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Syngonium. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766925087066"
+    }
+  },
+  {
+    "id": "v54819058188634",
+    "name": "Zamioculcas chameleon — Č 3",
+    "kind": "plants",
+    "priceValue": 200.0,
+    "currency": "CZK",
+    "price": "200 Kč",
+    "url": "https://sebtobplants.cz/products/zamioculcas-chameleon?variant=54819058188634",
+    "photo": "/assets/plants/sebtobplants-v54819058188634.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/734B884C-ABB1-491D-BFB3-F8844E78845A.jpg?v=1789810329&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:zamioculcas"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Zamioculcas.",
+      "Variant podľa predajcu: Č 3.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Zamioculcas. Variant podľa predajcu: Č 3. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0.1,
+      0.42,
+      0.9,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54819058188634"
+    }
+  },
+  {
+    "id": "v54766843003226",
+    "name": "Amydrium Medium Silver",
+    "kind": "plants",
+    "priceValue": 85.0,
+    "currency": "CZK",
+    "price": "85 Kč",
+    "url": "https://sebtobplants.cz/products/amydrium-medium-silver-1?variant=54766843003226",
+    "photo": "/assets/plants/sebtobplants-v54766843003226.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/B37FE202-0A88-40C5-AEFC-C8C0DE35983A.jpg?v=1789070779&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:amydrium"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Amydrium.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Amydrium. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0.1,
+      0.35,
+      0.88,
+      0.99
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766843003226"
+    }
+  },
+  {
+    "id": "v54844135899482",
+    "name": "Philodendron Emerald Queen — Č 4",
+    "kind": "philodendrons",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "price": "150 Kč",
+    "url": "https://sebtobplants.cz/products/philodendron-emerald-queen?variant=54844135899482",
+    "photo": "/assets/plants/sebtobplants-v54844135899482.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/440731B9-77D8-471A-83C1-631A458D1CD3.jpg?v=1790286579&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Philodendron.",
+      "Variant podľa predajcu: Č 4.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Philodendron. Variant podľa predajcu: Č 4. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54844135899482"
+    }
+  },
+  {
+    "id": "v54844125839706",
+    "name": "PHILODENDRON PAINTED LADY",
+    "kind": "philodendrons",
+    "priceValue": 45.0,
+    "currency": "CZK",
+    "price": "45 Kč",
+    "url": "https://sebtobplants.cz/products/philodendron-painted-lady?variant=54844125839706",
+    "photo": "/assets/plants/sebtobplants-v54844125839706.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/F0A6BF8A-E0E8-4BE3-A83C-AA10F27E19F1.jpg?v=1790286176&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Philodendron.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Philodendron. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54844125839706"
+    }
+  },
+  {
+    "id": "v54844099166554",
+    "name": "Philodendron florida ghost",
+    "kind": "philodendrons",
+    "priceValue": 50.0,
+    "currency": "CZK",
+    "price": "50 Kč",
+    "url": "https://sebtobplants.cz/products/philodendron-florida-ghost-1?variant=54844099166554",
+    "photo": "/assets/plants/sebtobplants-v54844099166554.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/D32B07A1-5235-4464-850B-3842B7DEA720.jpg?v=1790285960&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Philodendron.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Philodendron. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54844099166554"
+    }
+  },
+  {
+    "id": "v54844029141338",
+    "name": "Monstera thai",
+    "kind": "monsteras",
+    "priceValue": 220.0,
+    "currency": "CZK",
+    "price": "220 Kč",
+    "url": "https://sebtobplants.cz/products/monstera-thai-1?variant=54844029141338",
+    "photo": "/assets/plants/sebtobplants-v54844029141338.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/081748E6-CA56-489E-83AF-616A20A1FC95.jpg?v=1790285317&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:monstera"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Monstera.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Monstera. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54844029141338"
+    }
+  },
+  {
+    "id": "v54843890860378",
+    "name": "Monstera albo",
+    "kind": "monsteras",
+    "priceValue": 250.0,
+    "currency": "CZK",
+    "price": "250 Kč",
+    "url": "https://sebtobplants.cz/products/monstera-albo-1?variant=54843890860378",
+    "photo": "/assets/plants/sebtobplants-v54843890860378.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/D6667B7E-14AA-44B2-8C98-6B6841BBE9C0.jpg?v=1790284787&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:monstera"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Monstera.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Monstera. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.27,
+      1,
+      0.97
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54843890860378"
+    }
+  },
+  {
+    "id": "v54819900719450",
+    "name": "Monstera burle marx flame — Č 10",
+    "kind": "monsteras",
+    "priceValue": 330.0,
+    "currency": "CZK",
+    "price": "330 Kč",
+    "url": "https://sebtobplants.cz/products/monstera-burle-marx-flame-1?variant=54819900719450",
+    "photo": "/assets/plants/sebtobplants-v54819900719450.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/BE12F46B-F4D7-4AE1-8247-C0A15A9403BC.jpg?v=1789832330&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:monstera"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Monstera.",
+      "Variant podľa predajcu: Č 10.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Monstera. Variant podľa predajcu: Č 10. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.24,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54819900719450"
+    }
+  },
+  {
+    "id": "v54819076931930",
+    "name": "Philodendron burle marx variegated — Č 12",
+    "kind": "philodendrons",
+    "priceValue": 120.0,
+    "currency": "CZK",
+    "price": "120 Kč",
+    "url": "https://sebtobplants.cz/products/philodendron-burle-marx-variegated-2?variant=54819076931930",
+    "photo": "/assets/plants/sebtobplants-v54819076931930.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/2EC9C3CB-9DCC-4FEE-9B58-A736411921CD.jpg?v=1789811041&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Philodendron.",
+      "Variant podľa predajcu: Č 12.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Philodendron. Variant podľa predajcu: Č 12. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0.05,
+      0.49,
+      0.92,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54819076931930"
+    }
+  },
+  {
+    "id": "v54819062579546",
+    "name": "Monstera adansonii mint",
+    "kind": "monsteras",
+    "priceValue": 50.0,
+    "currency": "CZK",
+    "price": "50 Kč",
+    "url": "https://sebtobplants.cz/products/monstera-adansonii-mint-1?variant=54819062579546",
+    "photo": "/assets/plants/sebtobplants-v54819062579546.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/641CE696-49E8-46A6-9A58-F88387CE5255.jpg?v=1789810508&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:monstera"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Monstera.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Monstera. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0.08,
+      0.25,
+      0.92,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54819062579546"
+    }
+  },
+  {
+    "id": "v54766932001114",
+    "name": "Syngonium Pink Perfection — Č 1",
+    "kind": "plants",
+    "priceValue": 100.0,
+    "currency": "CZK",
+    "price": "100 Kč",
+    "url": "https://sebtobplants.cz/products/syngonium-pink-perfection?variant=54766932001114",
+    "photo": "/assets/plants/sebtobplants-v54766932001114.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/E8656807-FBD1-452F-A485-565D7E5C9953.jpg?v=1789072369&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:syngonium"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Syngonium.",
+      "Variant podľa predajcu: Č 1.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Syngonium. Variant podľa predajcu: Č 1. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766932001114"
+    }
+  },
+  {
+    "id": "v54766928920922",
+    "name": "Syngonium Strawberry Milk",
+    "kind": "plants",
+    "priceValue": 100.0,
+    "currency": "CZK",
+    "price": "100 Kč",
+    "url": "https://sebtobplants.cz/products/s-1?variant=54766928920922",
+    "photo": "/assets/plants/sebtobplants-v54766928920922.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/7914B0A2-A2EE-4750-87AB-3AA8FD956B22.jpg?v=1789072370&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:syngonium"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Syngonium.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Syngonium. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766928920922"
+    }
+  },
+  {
+    "id": "v54766927479130",
+    "name": "Monstera thai — Č 6",
+    "kind": "monsteras",
+    "priceValue": 180.0,
+    "currency": "CZK",
+    "price": "180 Kč",
+    "url": "https://sebtobplants.cz/products/monstera-thai?variant=54766927479130",
+    "photo": "/assets/plants/sebtobplants-v54766927479130.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/2C22D2E2-C38F-45CD-84EB-3AF9C1D0031B.jpg?v=1789072036&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:monstera"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Monstera.",
+      "Variant podľa predajcu: Č 6.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Monstera. Variant podľa predajcu: Č 6. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766927479130"
+    }
+  },
+  {
+    "id": "v54766925349210",
+    "name": "Monstera adansonii mint",
+    "kind": "monsteras",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "price": "150 Kč",
+    "url": "https://sebtobplants.cz/products/monstera-adansonii-mint-3?variant=54766925349210",
+    "photo": "/assets/plants/sebtobplants-v54766925349210.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/CAB3CFC6-8CFB-47E7-A7C9-014D8E1B1092.jpg?v=1789071794&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:monstera"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Monstera.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Monstera. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766925349210"
+    }
+  },
+  {
+    "id": "v54766917058906",
+    "name": "Philodendron caramel marble",
+    "kind": "philodendrons",
+    "priceValue": 1640.0,
+    "currency": "CZK",
+    "price": "1640 Kč",
+    "url": "https://sebtobplants.cz/products/philodendron-caramel-marble?variant=54766917058906",
+    "photo": "/assets/plants/sebtobplants-v54766917058906.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/6CFFBD6E-F652-42A9-A904-DE7749A6601B.jpg?v=1789071166&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Philodendron.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Philodendron. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766917058906"
+    }
+  },
+  {
+    "id": "v54766851391834",
+    "name": "Philodendron cream splash",
+    "kind": "philodendrons",
+    "priceValue": 160.0,
+    "currency": "CZK",
+    "price": "160 Kč",
+    "url": "https://sebtobplants.cz/products/philodendron-cream-splash-2?variant=54766851391834",
+    "photo": "/assets/plants/sebtobplants-v54766851391834.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/5AF92468-FE52-4ACB-9476-4F69EA1A58B5.jpg?v=1789070968&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Philodendron.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Philodendron. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766851391834"
+    }
+  },
+  {
+    "id": "v54766596456794",
+    "name": "Alocasia frydek variegated — Č 2",
+    "kind": "plants",
+    "priceValue": 250.0,
+    "currency": "CZK",
+    "price": "250 Kč",
+    "url": "https://sebtobplants.cz/products/alocasia-frydek-variegated-1?variant=54766596456794",
+    "photo": "/assets/plants/sebtobplants-v54766596456794.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/665AA002-66BE-4C23-8542-2F7546004D4D.jpg?v=1789070243&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:alocasia"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Alocasia.",
+      "Variant podľa predajcu: Č 2.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Alocasia. Variant podľa predajcu: Č 2. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0.1,
+      0.28,
+      0.96,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766596456794"
+    }
+  },
+  {
+    "id": "v54766594523482",
+    "name": "Epipremnum pinnatum yellow mint variegated",
+    "kind": "plants",
+    "priceValue": 250.0,
+    "currency": "CZK",
+    "price": "250 Kč",
+    "url": "https://sebtobplants.cz/products/epipremnum-pinnatum-yellow-mint-variegated-3?variant=54766594523482",
+    "photo": "/assets/plants/sebtobplants-v54766594523482.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/E81F0369-48A1-4B27-8C11-32AB52D6CF9A.jpg?v=1789070190&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:epipremnum"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Epipremnum.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Epipremnum. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0.03,
+      0.05,
+      1,
+      0.95
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766594523482"
+    }
+  },
+  {
+    "id": "v54766592000346",
+    "name": "Zamioculcas chameleon variegated",
+    "kind": "plants",
+    "priceValue": 300.0,
+    "currency": "CZK",
+    "price": "300 Kč",
+    "url": "https://sebtobplants.cz/products/zamioculcas-chameleon-variegated?variant=54766592000346",
+    "photo": "/assets/plants/sebtobplants-v54766592000346.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/7A41DE6B-C4C4-4B95-8B8B-CBE8687F674F.jpg?v=1789070133&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:zamioculcas"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Zamioculcas.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Zamioculcas. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766592000346"
+    }
+  },
+  {
+    "id": "v54766588035418",
+    "name": "Anthurium Red Crystallinum — Č 1",
+    "kind": "plants",
+    "priceValue": 500.0,
+    "currency": "CZK",
+    "price": "500 Kč",
+    "url": "https://sebtobplants.cz/products/y-1?variant=54766588035418",
+    "photo": "/assets/plants/sebtobplants-v54766588035418.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/D50F5356-815C-466C-968A-8CCF87F35030.jpg?v=1789069885&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:anthurium"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Anthurium.",
+      "Variant podľa predajcu: Č 1.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Anthurium. Variant podľa predajcu: Č 1. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0.02,
+      0.35,
+      0.98,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766588035418"
+    }
+  },
+  {
+    "id": "v54766584824154",
+    "name": "syngonium pink rolli",
+    "kind": "plants",
+    "priceValue": 300.0,
+    "currency": "CZK",
+    "price": "300 Kč",
+    "url": "https://sebtobplants.cz/products/syngonium-pink-rolli-1?variant=54766584824154",
+    "photo": "/assets/plants/sebtobplants-v54766584824154.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/11D247CA-FA68-44DC-BC17-A03526D1454E.jpg?v=1789069805&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:syngonium"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Syngonium.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Syngonium. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0.04,
+      0.52,
+      0.92,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766584824154"
+    }
+  },
+  {
+    "id": "v54766583939418",
+    "name": "Epipremnum pinnatum yellow mint variegated",
+    "kind": "plants",
+    "priceValue": 235.0,
+    "currency": "CZK",
+    "price": "235 Kč",
+    "url": "https://sebtobplants.cz/products/epipremnum-pinnatum-yellow-mint-variegated-2?variant=54766583939418",
+    "photo": "/assets/plants/sebtobplants-v54766583939418.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/DE9AAAB6-D499-448A-832D-B2D2A4F000E4.jpg?v=1789069749&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:epipremnum"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Epipremnum.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Epipremnum. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766583939418"
+    }
+  },
+  {
+    "id": "v54766583644506",
+    "name": "Epipremnum pinnatum yellow mint variegated",
+    "kind": "plants",
+    "priceValue": 350.0,
+    "currency": "CZK",
+    "price": "350 Kč",
+    "url": "https://sebtobplants.cz/products/epipremnum-pinnatum-yellow-mint-variegated-1?variant=54766583644506",
+    "photo": "/assets/plants/sebtobplants-v54766583644506.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/AF4B3D63-EBF1-46A5-8253-DD493E5C685A.jpg?v=1789069707&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:epipremnum"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Epipremnum.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Epipremnum. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766583644506"
+    }
+  },
+  {
+    "id": "v54766581285210",
+    "name": "Epipremnum pinnatum yellow mint variegated",
+    "kind": "plants",
+    "priceValue": 500.0,
+    "currency": "CZK",
+    "price": "500 Kč",
+    "url": "https://sebtobplants.cz/products/epipremnum-pinnatum-yellow-mint-variegated?variant=54766581285210",
+    "photo": "/assets/plants/sebtobplants-v54766581285210.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/ABD0B25A-A920-4244-AB58-5AD3DB31F976.jpg?v=1789069636&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:epipremnum"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Epipremnum.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Epipremnum. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766581285210"
+    }
+  },
+  {
+    "id": "v54766575976794",
+    "name": "Anthurium Michelle x (Zara x Michelle)",
+    "kind": "plants",
+    "priceValue": 730.0,
+    "currency": "CZK",
+    "price": "730 Kč",
+    "url": "https://sebtobplants.cz/products/anthurium-michelle-x-zara-x-michelle?variant=54766575976794",
+    "photo": "/assets/plants/sebtobplants-v54766575976794.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/F7ED498F-8193-4F16-98EE-C68F0DCD212A.jpg?v=1789832832&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:anthurium"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Anthurium.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Anthurium. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0,
+      0.2,
+      1,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54766575976794"
+    }
+  },
+  {
+    "id": "v54056895938906",
+    "name": "Monstera adansonii mint — Č 1",
+    "kind": "monsteras",
+    "priceValue": 100.0,
+    "currency": "CZK",
+    "price": "100 Kč",
+    "url": "https://sebtobplants.cz/products/monstera-adansonii-mint?variant=54056895938906",
+    "photo": "/assets/plants/sebtobplants-v54056895938906.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0816/2017/3146/files/2E043B27-7116-477D-B29D-2DF2554291BD.jpg?v=1777009195&width=1600",
+    "sourceEndpoint": "https://sebtobplants.cz/products.json?limit=250",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:monstera"
+    ],
+    "facts": [
+      "Botanický rod podľa názvu predajcu: Monstera.",
+      "Variant podľa predajcu: Č 1.",
+      "Cena a fotografia patria konkrétnej dostupnej položke."
+    ],
+    "currencySource": "https://sebtobplants.cz/",
+    "sourceCategories": [],
+    "reason": "Botanický rod podľa názvu predajcu: Monstera. Variant podľa predajcu: Č 1. Cena a fotografia patria konkrétnej dostupnej položke.",
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imageCrop": [
+      0.04,
+      0.32,
+      0.94,
+      0.98
+    ],
+    "photoSelection": "Reviewed whole-plant product/variant photo; closer crop preserves the whole plant and pot.",
+    "sourceStockEvidence": {
+      "available": true,
+      "variantId": "54056895938906"
+    }
+  }
+]

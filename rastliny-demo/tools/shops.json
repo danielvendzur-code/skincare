@@ -916,5 +916,64 @@
       "v2211",
       "v2793"
     ]
+  },
+  "sebtobplants": {
+    "name": "Sebtob Plants",
+    "website": "https://sebtobplants.cz/",
+    "currency": "CZK",
+    "platform": "shopify",
+    "kinds": [
+      "plants",
+      "philodendrons",
+      "monsteras"
+    ],
+    "categories": {
+      "philodendrons": "^Philodendron",
+      "monsteras": "^Monstera",
+      "plants": "^Epipremnum|^Zamioculcas|^Syngonium|^Anthurium|^Ficus|^Amydrium|^Alocasia"
+    },
+    "limits": {
+      "plants": 70
+    },
+    "exclude": "řízek|rizek|vrchol|mystery|předplat|voucher|poukaz",
+    "categoryNotes": {
+      "plants": "Syngóniá, antúriá a ďalšie rody",
+      "philodendrons": "Rôzne kultivary a konkrétne rastliny",
+      "monsteras": "Panašované listy a zberateľské kultivary"
+    },
+    "theme": {
+      "brand": "#222b24",
+      "accent": "#3b513e",
+      "soft": "#f0f3ed",
+      "paper": "#fffefb",
+      "ink": "#202620",
+      "line": "#dbe2d6"
+    },
+    "logoSource": "https://sebtobplants.cz/cdn/shop/files/Logo_png.jpg?v=1753975293&width=600",
+    "markCrop": [
+      119,
+      110,
+      482,
+      518
+    ],
+    "markWhite": true,
+    "logoNote": "Oficiálny čiernobiely kruhový symbol; svetlé pozadie odstránené a zväčšený s Lanczos vyhladením. Pôvodný list je vyrezaný pre launcher a každú správu bota a prevedený na bielu verziu, bez vymýšľania nového loga.",
+    "themeNote": "Čierna oficiálneho loga a zelené odtiene rastlín na webe; brand a accent stmavené pre čitateľný biely text.",
+    "photoNote": "Osobné produktové zábery konkrétnych rastlín. Variantové fotografie zostávajú viazané na daný variant; prezreté bližšie orezy zachovávajú rastlinu a nádobu. Odrezky, samostatné listy, materské rastliny a odrezané zábery boli vylúčené.",
+    "photoBackdrop": "#f0f3ed",
+    "heroNames": [
+      "Monstera albo",
+      "Anthurium michelle",
+      "ficus lyrata variegated",
+      "Syngonium mijito"
+    ],
+    "terms": "https://sebtobplants.cz/pages/obchodni-podminky-a-ochrana-osobnich-udaju",
+    "fit": "Osobný e-shop dvoch bratov s aktuálne doloženým predajcom Sebastianom Ditlom a kategóriou 1–5 pracovníkov; konkrétne zberateľské izbovky viacerých rodov a cien.",
+    "stockNote": "Verejný Shopify katalóg: konkrétny variant available=true, jeho cena v CZK a priradená featured_image. URL obsahuje ID dostupného variantu. Pre varianty bez vlastnej fotografie sa použije priradená prvá produktová fotografia; nejde o cenu od.",
+    "kindLabels": {
+      "plants": "Ďalšie izbovky",
+      "philodendrons": "Filodendrony",
+      "monsteras": "Monstery"
+    }
   }
 }

@@ -29,3 +29,4 @@ Chat funguje bez API kľúča z overeného katalógu. Voliteľný `ANTHROPIC_API
 | [Sukulenty Samek](https://www.sukulenty-samek.cz/) | [`samek`](./samek/index.html) | 38 | ostatné sukulenty, kaktusy, skalničky | Pavel Samek / 09404856 | Tržby nedoložené; 1–5 zam. | PASS 1440 / 390 / 360 |
 | [VšeProKaktusy](https://www.vseprokaktusy.cz/) | [`vseprokaktusy`](./vseprokaktusy/index.html) | 42 | kaktusy, ostatné sukulenty, substráty | Miroslav Langr / 66279011 | Tržby nedoložené; 0 zam. | PASS 1440 / 390 / 360 |
 | [Green Hunters](https://greenhunters.cz/eshop/) | [`greenhunters`](./greenhunters/index.html) | 15 | rosnatky, tučnice, substráty | Libor Lešek / 09750720 | Tržby nedoložené; 1–5 zam. | PASS 1440 / 390 / 360 |
+| [Sebtob Plants](https://sebtobplants.cz/) | [`sebtobplants`](./sebtobplants/index.html) | 30 | ďalšie izbovky, filodendrony, monstery | Sebastian Ditl / 22174966 | Tržby nedoložené; 1–5 zam. | PASS 1440 / 390 / 360 |
