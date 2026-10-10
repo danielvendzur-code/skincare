@@ -450,5 +450,66 @@
       "p6663",
       "p6152"
     ]
+  },
+  "brest": {
+    "name": "BREST",
+    "website": "https://www.brest.sk/",
+    "currency": "EUR",
+    "platform": "eshoprychle",
+    "kinds": [
+      "outdoor",
+      "shrubs",
+      "fruits"
+    ],
+    "kindLabels": {
+      "outdoor": "Trvalky a skalničky",
+      "shrubs": "Okrasné dreviny",
+      "fruits": "Ovocné dreviny"
+    },
+    "categoryNotes": {
+      "outdoor": "Druhy na záhon a do skalky",
+      "shrubs": "Listnaté kry, stromy a popínavé dreviny",
+      "fruits": "Ovocné druhy a odrody"
+    },
+    "theme": {
+      "brand": "#315229",
+      "accent": "#46703a",
+      "soft": "#f1f3e9",
+      "paper": "#fffefa",
+      "ink": "#293024",
+      "line": "#dce1d1"
+    },
+    "logoSource": "https://www.brest.sk/fotky3971/design_setup/template/v4.0/geneva/prod/1767682304brest_logoG.gif?0_137830193",
+    "markCrop": [
+      505,
+      0,
+      1209,
+      554
+    ],
+    "markWhite": true,
+    "logoNote": "Originálny nápis BREST.sk vyrezaný zo spodnej časti oficiálneho loga a zväčšený s Lanczos vyhladením. Do kruhu použitá pôvodná jasne zelená silueta stromu; prevedená na bielu pre kontrast.",
+    "themeNote": "Zelená z oficiálneho loga a rastlinného webu; tmavšie odtiene brand a accent pre biely text.",
+    "terms": "https://www.brest.sk/OBCHODNE-PODMIENKY-a3_0.htm",
+    "fit": "Rodinný rastlinný e-shop jedného vlastníka, 5–9 zamestnancov a overené tržby pod pol miliónom eur; množstvo podobných odrôd na rôzne miesta v záhrade.",
+    "heading": "Vyberie rastlinu, ktorá sadne do jeho záhrady.",
+    "lead": "Zákazník si vyberie podľa druhu, stanovišťa a rozpočtu. Poradca pozná konkrétne odrody a ceny z vášho katalógu.",
+    "logoCrop": [
+      0,
+      330,
+      1209,
+      554
+    ],
+    "markGreenOnly": true,
+    "heroNames": [
+      "Convallaria majalis",
+      "Lonicera nitida 'Maigrün'",
+      "Ficus carica 'Brown Turkey' krík",
+      "Hemerocallis 'Autumn Red'"
+    ],
+    "photoNote": "Oficiálne odrodové zábery z detailov e-shopu zobrazujú vzhľad rastliny; nejde o fotografiu presnej dodávanej sadenice. Veľkosť dodávky treba čítať v detaile produktu.",
+    "excludeIds": [
+      "p997",
+      "p3180"
+    ]
   }
 }

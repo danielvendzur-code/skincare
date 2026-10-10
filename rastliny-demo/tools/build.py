@@ -9,7 +9,7 @@ META={
  'lukscheiter':dict(name='Lukscheiter',website='https://www.lukscheiter.eu/',currency='CZK',kinds=['plants','orchids','airplants','succulents'],theme=dict(brand='#184b29',accent='#7b287e',soft='#eef3e9',paper='#fffefb',ink='#18271d',line='#d5dfd3'),categoryNotes={'plants':'Izbové rastliny, hoye a bromélie','orchids':'Botanické druhy a kultivary','airplants':'Vzdušné rastliny','succulents':'Kaktusy, sukulenty a adéniá'})
 }
 ADDITIONS=json.loads((ROOT/'tools/shops.json').read_text()) if (ROOT/'tools/shops.json').exists() else {}
-META.update({k:{x:v for x,v in b.items() if x in ['name','website','currency','kinds','kindLabels','theme','categoryNotes']} for k,b in ADDITIONS.items()})
+META.update({k:{x:v for x,v in b.items() if x in ['name','website','currency','kinds','kindLabels','theme','categoryNotes','heading','lead']} for k,b in ADDITIONS.items()})
 for slug in sys.argv[1:]:
  source_path=sorted((ROOT/'research').glob(f'*/{slug}-products.json'))[-1]
  source=json.loads(source_path.read_text());products=[]

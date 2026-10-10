@@ -82,8 +82,8 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,s
 
   /* Headline and lead are the same on every page; the coffee pages read the
      same words. */
-  const HEADING = 'Vyberie rastlinu, ktorá sadne do jeho domova.';
-  const LEAD = 'Zákazník si vyberie podľa svetla, starostlivosti a rozpočtu. Poradca pozná konkrétne produkty a ceny z vášho katalógu.';
+  const HEADING = brand.heading || 'Vyberie rastlinu, ktorá sadne do jeho domova.';
+  const LEAD = brand.lead || 'Zákazník si vyberie podľa svetla, starostlivosti a rozpočtu. Poradca pozná konkrétne produkty a ceny z vášho katalógu.';
 
   /* The sheet behind "Chcem to na svoj web" listed what the owner gets, but the
      page itself said none of it — the conversation history among it. Four of

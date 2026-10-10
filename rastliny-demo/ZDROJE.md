@@ -747,3 +747,71 @@ Pri pridaní PlantBros sa opravili tagy pri vetách typu „priame slnko listy p
 | Aeschynanthus bolero bicolore | raritné rastliny | 24,90 € | [detail](https://www.izbovecky.sk/produkt/aeschynanthus-bolero-bicolore) |
 | Monstera obliqua peru | raritné rastliny | 9,90 € | [detail](https://www.izbovecky.sk/produkt/monstera-obliqua-peru) |
 | Tillandsia andreana | izbové rastliny | 3,90 € | [detail](https://www.izbovecky.sk/produkt/tillandsia) |
+
+## BREST
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://www.brest.sk/). [Identita predajcu](https://www.brest.sk/OBCHODNE-PODMIENKY-a3_0.htm).
+- Firma: **STROMČEKY s. r. o., IČO 46243313**. Vlastníci: Zoltán Lovász. Konatelia / podnikateľ: Zoltán Lovász.
+- Veľkosť: **487 128 € tržby 2025; 5–9 zam.**. Kód `05` v [primárnom registri](https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1100190); údaj aktualizovaný 2026-07-03, načítaný 2026-10-10. [Vlastníci](https://www.orsr.sk/vypis.asp?ID=210806&SID=9&P=0).
+- [Finančný výkaz](https://www.registeruz.sk/cruz-public/domain/financialreport/show/9891443/687): Čistý obrat: 487 038 € z predaja tovaru + 90 € z predaja výrobkov a služieb. Celofiremné tržby, nie iba e-shop.
+- RPO pri kontrole neodpovedalo; vlastníci overení z uvedeného primárneho zdroja, veľkosť a financie z RÚZ.
+- Prečo sedí: Rodinný rastlinný e-shop jedného vlastníka, 5–9 zamestnancov a overené tržby pod pol miliónom eur; množstvo podobných odrôd na rôzne miesta v záhrade. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **50 produktov**, trvalky a skalničky, okrasné dreviny, ovocné dreviny. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: Oficiálne Product/Offer JSON-LD na detaile: InStock, cena a mena konkrétneho produktu. Nepoužíva sa cena bez DPH z data-price výpisu. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/brest-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://www.brest.sk/fotky3971/design_setup/template/v4.0/geneva/prod/1767682304brest_logoG.gif?0_137830193); Originálny nápis BREST.sk vyrezaný zo spodnej časti oficiálneho loga a zväčšený s Lanczos vyhladením. Do kruhu použitá pôvodná jasne zelená silueta stromu; prevedená na bielu pre kontrast. Oficiálne odrodové zábery z detailov e-shopu zobrazujú vzhľad rastliny; nejde o fotografiu presnej dodávanej sadenice. Veľkosť dodávky treba čítať v detaile produktu.
+- Farby: `brand: #315229`, `accent: #46703a`, `soft: #f1f3e9`, `paper: #fffefa`, `ink: #293024`, `line: #dce1d1`. Zelená z oficiálneho loga a rastlinného webu; tmavšie odtiene brand a accent pre biely text. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/brest-qa.json`, `brest-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/brest-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Convallaria majalis | Trvalky a skalničky | 1,99 € | [detail](https://www.brest.sk/Convallaria-majalis-d96.htm) |
+| Lonicera nitida 'Maigrün' | Okrasné dreviny | 1,99 € | [detail](https://www.brest.sk/LONICERA-nitida-Maigrun-d433.htm) |
+| Ficus carica 'Brown Turkey' krík | Ovocné dreviny | 9,90 € | [detail](https://www.brest.sk/ficus-carica-brown-turkey-krik) |
+| Hemerocallis 'Autumn Red' | Trvalky a skalničky | 2,85 € | [detail](https://www.brest.sk/hemerocallis-autumn-red) |
+| Hydrangea quercifolia 'Alice' | Trvalky a skalničky | 8,99 € | [detail](https://www.brest.sk/hydrangea-quercifolia-alice) |
+| Lobelia fulgens, red | Trvalky a skalničky | 2,79 € | [detail](https://www.brest.sk/Lobelia-fulgens-red-d1440.htm) |
+| Sanguisorba minor | Trvalky a skalničky | 2,82 € | [detail](https://www.brest.sk/sanguisorba-minor) |
+| Campanula glomerata  'Dahurica' superba odessa | Trvalky a skalničky | 2,87 € | [detail](https://www.brest.sk/Campanula-glomerata-Dahurica-superba-odessa-d1420.htm) |
+| Helichrysum italicum | Trvalky a skalničky | 2,89 € | [detail](https://www.brest.sk/helichrysum-italicum) |
+| Armeria maritima splendens | Trvalky a skalničky | 2,90 € | [detail](https://www.brest.sk/Armeria-maritima-splendens-d75.htm) |
+| Verbena bonariensis 'Lollipop' | Trvalky a skalničky | 2,93 € | [detail](https://www.brest.sk/Verbena-bonariensis-Lollipop-d593.htm) |
+| Lobelia pedunculata ‘County Park’ | Trvalky a skalničky | 2,95 € | [detail](https://www.brest.sk/lobelia-pedunculata-county-park) |
+| Veronica spicata 'Nana Blauteppich' | Trvalky a skalničky | 2,95 € | [detail](https://www.brest.sk/veronica-spicata-nana-blauteppich) |
+| Hypericum polyphyllum | Trvalky a skalničky | 2,99 € | [detail](https://www.brest.sk/Hypericum-polyphyllum-d1136.htm) |
+| Verbena bonariensis | Trvalky a skalničky | 2,99 € | [detail](https://www.brest.sk/verbena-bonariensis) |
+| Convallaria majalis Rosea | Trvalky a skalničky | 3,20 € | [detail](https://www.brest.sk/convallaria-majalis-rosea-d368.htm) |
+| Polystichum setiferum 'Herrenhausen' | Trvalky a skalničky | 3,45 € | [detail](https://www.brest.sk/polystichum-setiferum-herrenhausen) |
+| Sedum telephium 'Yellow Delicat' | Trvalky a skalničky | 3,59 € | [detail](https://www.brest.sk/sedum-telephium-yellow-delicat) |
+| Liriope muscari 'Big Blue' | Trvalky a skalničky | 3,94 € | [detail](https://www.brest.sk/Liriope-muscari-big-blue-d39.htm) |
+| Lupinus polyphyllus 'Yellow Shades' | Trvalky a skalničky | 3,99 € | [detail](https://www.brest.sk/lupinus-polyphyllus-yellow-shades) |
+| Asplenium scolopendrium ‘Angustifolia’ | Trvalky a skalničky | 4,35 € | [detail](https://www.brest.sk/asplenium-scolopendrium-angustifolia) |
+| Matteuccia pensylvanica | Trvalky a skalničky | 4,50 € | [detail](https://www.brest.sk/matteuccia-pensylvanica) |
+| Phyllitis scolopendrium | Trvalky a skalničky | 4,90 € | [detail](https://www.brest.sk/Phyllitis-scolopendrium-d15.htm) |
+| Hosta sieboldiana 'Elegans' | Trvalky a skalničky | 5,53 € | [detail](https://www.brest.sk/Hosta-sieboldiana-Elegans-d1002.htm) |
+| Osmunda regalis 2 lit. | Trvalky a skalničky | 5,90 € | [detail](https://www.brest.sk/osmunda-regalis-2-lit) |
+| Persicaria chinensis  ‘Indian Summer’ | Trvalky a skalničky | 6,45 € | [detail](https://www.brest.sk/persicaria-chinensis-indian-summer) |
+| Hibiscus moscheutos 'Perfect Storm' | Trvalky a skalničky | 9,90 € | [detail](https://www.brest.sk/hibiscus-moscheutos-perfect-storm) |
+| Phormium tenax 'aureovariegata | Trvalky a skalničky | 14,70 € | [detail](https://www.brest.sk/phormium-tenax-atropurpureum) |
+| Záhon do tieňa bez údržby "Pokojný Tieň" | Trvalky a skalničky | 79,00 € | [detail](https://www.brest.sk/mix-trvaliek-pokojny-tien-pre-miesta-bez-priameho-upeku) |
+| Ilex crenata 'Fastigiata' | Okrasné dreviny | 3,20 € | [detail](https://www.brest.sk/ilex-crenata-fastigiata) |
+| Buxus Sempervirens | Okrasné dreviny | 3,95 € | [detail](https://www.brest.sk/Buxus-Sempervirens-Extra-d1129.htm) |
+| Ceanothus thyrsiflorus var. repens | Okrasné dreviny | 4,85 € | [detail](https://www.brest.sk/ceanothus-thyrsiflorus-var-repens) |
+| Tamarix | Okrasné dreviny | 6,50 € | [detail](https://www.brest.sk/Tamarix-d470.htm) |
+| Euonymus alatus 'Compactus' | Okrasné dreviny | 8,90 € | [detail](https://www.brest.sk/Euonymus-alatus-Compactus-d683.htm) |
+| Hydrangea macrophylla Saxon® 'Schloss Wackerbarth' | Okrasné dreviny | 9,99 € | [detail](https://www.brest.sk/hydrangea-macrophylla-saxon-schloss-wackerbarth) |
+| Nandina domestica 'Gulf Stream' | Okrasné dreviny | 14,90 € | [detail](https://www.brest.sk/Nandina-domestica-Gulf-Stream-d1520.htm) |
+| Trachelospermum jasminoides 'Variegatum' | Okrasné dreviny | 19,90 € | [detail](https://www.brest.sk/rhyncospermum-jasmine-variegata) |
+| Wisteria floribunda 'Vignoli's White' | Okrasné dreviny | 33,50 € | [detail](https://www.brest.sk/wisteria-kvitnuca) |
+| Aronia melanocarpa 'Hugin' 120 cm kmeň | Okrasné dreviny | 54,00 € | [detail](https://www.brest.sk/aronia-melanocarpa-hugin-120-cm-kmen) |
+| Liquidambar styraciflua 'Gum Ball'  kmeň 140cm | Okrasné dreviny | 119,00 € | [detail](https://www.brest.sk/liquidambar-styraciflua-gum-ball-kmen-140cm3) |
+| Carya ovata | Ovocné dreviny | 21,00 € | [detail](https://www.brest.sk/Carya-ovata-d897.htm) |
+| Morus rubra 'Illinois Everbearing' | Ovocné dreviny | 23,90 € | [detail](https://www.brest.sk/morus-rubra-illinois-everbearing) |
+| Hruška červená vilmoska | Ovocné dreviny | 27,90 € | [detail](https://www.brest.sk/Hruska-cervena-vilmoska-d376.htm) |
+| Ficus carica 'Brown Turkey' (Brogiotto nero) 100-120cm | Ovocné dreviny | 28,90 € | [detail](https://www.brest.sk/Ficus-carica-Brown-Turkey-d708.htm) |
+| Jabloň 'Golden Delicious' | Ovocné dreviny | 29,90 € | [detail](https://www.brest.sk/Jablon-Golden-Delicious-d1017.htm) |
+| Pyrus pyrifolia ‘Kosui’ | Ovocné dreviny | 29,90 € | [detail](https://www.brest.sk/pyrus-pyrifolia-kosui) |
+| Čerešňa 'Sunburst' | Ovocné dreviny | 29,90 € | [detail](https://www.brest.sk/ceresna-sunburst) |
+| Marhuľa 'Sungiant' | Ovocné dreviny | 32,50 € | [detail](https://www.brest.sk/marhula-sungiant) |
+| Ziziphus jujuba ‘Gheri’s Géant’ 2 ročná | Ovocné dreviny | 39,90 € | [detail](https://www.brest.sk/ziziphus-jujuba-gheri-s-geant-2-rocna) |
+| Ficus carica 'Brown Turkey'  Strom (Brogiotto nero) | Ovocné dreviny | 49,00 € | [detail](https://www.brest.sk/Ficus-carica-Brown-Turkey-Strom-d1140.htm) |

@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-10",
+  "company": "STROMČEKY s. r. o.",
+  "ico": "46243313",
+  "owners": [
+    "Zoltán Lovász"
+  ],
+  "executives": [
+    "Zoltán Lovász"
+  ],
+  "employees": {
+    "code": "05",
+    "range": "5–9",
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1100190",
+    "recordUpdated": "2026-07-03"
+  },
+  "revenue": {
+    "value": 487128,
+    "year": 2025,
+    "currency": "EUR",
+    "source": "https://www.registeruz.sk/cruz-public/domain/financialreport/show/9891443/687",
+    "note": "Čistý obrat: 487 038 € z predaja tovaru + 90 € z predaja výrobkov a služieb. Celofiremné tržby, nie iba e-shop."
+  },
+  "ownersSource": "https://www.orsr.sk/vypis.asp?ID=210806&SID=9&P=0",
+  "note": "RPO pri kontrole neodpovedalo; vlastníci overení z uvedeného primárneho zdroja, veľkosť a financie z RÚZ."
+}
