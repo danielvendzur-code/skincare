@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-10",
+  "company": "Svokrine jazyky s. r. o.",
+  "ico": "52096092",
+  "owners": [
+    "Ing. Martin Buza"
+  ],
+  "executives": [
+    "Ing. Martin Buza",
+    "JUDr. Jakub Buza"
+  ],
+  "employees": {
+    "code": "00",
+    "range": "nezistené",
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1815068",
+    "recordUpdated": "2026-07-03"
+  },
+  "revenue": {
+    "value": 99987,
+    "year": 2025,
+    "source": "https://www.registeruz.sk/cruz-public/domain/financialreport/show/10052560/687",
+    "note": "Výkaz MÚJ: tržby z predaja tovaru 99 987 €, tržby vlastných výrobkov a služieb nevyplnené. Prvý riadok 111 944 € zahŕňa aj predaj majetku a materiálu a ostatné výnosy; nie je použitý ako tržby. Sumy sú celofiremné."
+  },
+  "ownersSource": "https://www.orsr.sk/vypis.asp?ID=449113&SID=2&P=0",
+  "note": "IČO potvrdené v aktuálnych obchodných podmienkach. RPO pri kontrole neodpovedal, vlastníci a konatelia overení v aktuálnom výpise ORSR. Kód veľkosti 00 znamená nezistený počet zamestnancov, nie nulu; vhodnosť vychádza z doložených tržieb a špecializovanej ponuky."
+}

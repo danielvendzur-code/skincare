@@ -1,0 +1,2489 @@
+[
+  {
+    "id": "p33631",
+    "name": "Gasteria sp.",
+    "kind": "plants",
+    "priceValue": 10.0,
+    "currency": "EUR",
+    "price": "10,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/gasteria-sp/",
+    "photo": "/assets/plants/svokrinejazyky-p33631.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/09/gasteria-sp.-2-15.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:gasteria"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Gasteria sp.."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Gasteria sp..",
+    "descriptionSha256": "8d1bf2a2e7875c4f291e490b9a422f2c85f75419acd77dd9f9ff2a28d79898c4",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p35593",
+    "name": "Roldana petasitis",
+    "kind": "plants",
+    "priceValue": 11.0,
+    "currency": "EUR",
+    "price": "11,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/roldana-petasitis/",
+    "photo": "/assets/plants/svokrinejazyky-p35593.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/08/roldana-petasitis-new-2-1.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:roldana"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Roldana petasitis."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Roldana petasitis.",
+    "descriptionSha256": "ff91e5d2f4a047065d235b6a6b4b9ba87e6d63ea28b576d206ffb38b79067956",
+    "sourceAttributes": {
+      "exemplár": [
+        "1",
+        "2"
+      ]
+    },
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p35119",
+    "name": "Aglaonema ‘Slim Jim‘",
+    "kind": "plants",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "price": "12,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/aglaonema-slim-jim/",
+    "photo": "/assets/plants/svokrinejazyky-p35119.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/03/aglaonema-slim-jim-1-1.jpg?fit=900%2C1200&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:aglaonema"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Aglaonema ‘Slim Jim‘."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Aglaonema ‘Slim Jim‘.",
+    "descriptionSha256": "a1bf9f4523c92994b2d0a2100706e19d8433dc463360e30d85c0bec010b832f0",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p18953",
+    "name": "Homalomena humilis",
+    "kind": "plants",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "price": "12,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/homalomena-humilis/",
+    "photo": "/assets/plants/svokrinejazyky-p18953.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/08/homalomena-humilis-37.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:homalomena"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Homalomena humilis."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Homalomena humilis.",
+    "descriptionSha256": "1bd6a5b30ff0b0e897694a21adcd12b5b68d418001e9db3110f9fe1033003030",
+    "sourceAttributes": {
+      "exemplár": [
+        "1",
+        "2"
+      ]
+    },
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p7652",
+    "name": "Hoya australis ‘Lisa‘",
+    "kind": "plants",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "price": "12,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/hoya-australis-lisa/",
+    "photo": "/assets/plants/svokrinejazyky-p7652.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2020/01/hoya-australis-lisa-7.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:hoya",
+      "low",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+    ],
+    "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "f7bb4c0de6849a32eb1c7d92dac252bee937c04542fb2049662222e3752e36dc",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Izbovky",
+      "Pre začiatočníkov",
+      "Ťahavé a plazivé"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p19153",
+    "name": "Philodendron hastatum + Epipremnum ‘Neon‘",
+    "kind": "plants",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "price": "12,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/philodendron-hastatum-epipremnum-neon/",
+    "photo": "/assets/plants/svokrinejazyky-p19153.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/09/epipremnum-lemon-philodendron-hastatum-1-1.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Philodendron hastatum + Epipremnum ‘Neon‘."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Philodendron hastatum + Epipremnum ‘Neon‘.",
+    "descriptionSha256": "fa2df15b3b02e874700dcb1613889f476eca001b8fe77b62968ea3c7ea93640f",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 2 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p3854",
+    "name": "Philodendron ‘Birkin‘",
+    "kind": "plants",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "price": "12,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/philodendron-birkin/",
+    "photo": "/assets/plants/svokrinejazyky-p3854.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2021/07/philo-birkin-p12-3-1.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "a756fd22ba30f46869c2f796ce06521395ba4ba582bd1fd1c4514442818451ed",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Izbovky",
+      "Na prečistenie vzduchu",
+      "Obľúbené",
+      "Pre začiatočníkov"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p1035",
+    "name": "Sansevieria trifasciata ‘Laurentii‘",
+    "kind": "plants",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "price": "12,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/sansevieria-trifasciata-laurentii/",
+    "photo": "/assets/plants/svokrinejazyky-p1035.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2019/01/sensevieria-trif-laurentii-2-1.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:sansevieria"
+    ],
+    "facts": [
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "ba0cca0fcebef374c075ad00b379f707a1382431efb907992f829c9d9af054dd",
+    "sourceAttributes": {
+      "Veľkosť": [
+        "cca 30 cm",
+        "cca 50 cm"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Na prečistenie vzduchu",
+      "Nenáročné na svetlo",
+      "Obľúbené",
+      "Pre začiatočníkov"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade Viac ks na objednávku do cca 2 týždňov. ",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p68419",
+    "name": "Sansevieria ‘Comet Canoe no. 3‘",
+    "kind": "plants",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "price": "12,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/sansevieria-comet-canoe-no-3/",
+    "photo": "/assets/plants/svokrinejazyky-p68419.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/02/sansevieria-comet-canoe-no3-p7-1-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:sansevieria"
+    ],
+    "facts": [
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "76ab38fafd231ecedd5ddd4108e39b464f425816de24d5679f2676b287bc05ce",
+    "sourceAttributes": {
+      "Veľkosť": [
+        "malá - cca 50 cm",
+        "veľká - cca 65 cm"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Mini &amp; malé",
+      "Na prečistenie vzduchu",
+      "Nenáročné na svetlo",
+      "Obľúbené",
+      "Pre začiatočníkov"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p20278",
+    "name": "Coleotrype goudotii",
+    "kind": "plants",
+    "priceValue": 15.0,
+    "currency": "EUR",
+    "price": "15,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/coleotrype-goudotii/",
+    "photo": "/assets/plants/svokrinejazyky-p20278.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/06/Coleotrype-goudotii-3-12.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:coleotrype"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Coleotrype goudotii."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Coleotrype goudotii.",
+    "descriptionSha256": "6e579a1208b8128ddf62082699e43774bf87e72c1db74095ba1916f02fb83db7",
+    "sourceAttributes": {
+      "veľkosť": [
+        "menši",
+        "väčší"
+      ]
+    },
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p19107",
+    "name": "Spathiphyllum wallisii",
+    "kind": "plants",
+    "priceValue": 15.0,
+    "currency": "EUR",
+    "price": "15,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/spathiphyllum-wallisii/",
+    "photo": "/assets/plants/svokrinejazyky-p19107.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/09/spathiphyllum-wallisii-2-16.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:spathiphyllum"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Spathiphyllum wallisii."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Spathiphyllum wallisii.",
+    "descriptionSha256": "5d68186eda0742ddc6e0c35dc1995ccb6f8cdff3a38b793c99c2f11f54b467eb",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p19178",
+    "name": "Alocasia wongii",
+    "kind": "plants",
+    "priceValue": 17.0,
+    "currency": "EUR",
+    "price": "17,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/alocasia-wongii/",
+    "photo": "/assets/plants/svokrinejazyky-p19178.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/09/alocaia-wongii-new-oct-1-3.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:alocasia"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Alocasia wongii."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Alocasia wongii.",
+    "descriptionSha256": "b0dc4e276c04250bf965a4e730baba336287dc667bcea7f489f4445cb825082a",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p20350",
+    "name": "Gasteria retusa",
+    "kind": "plants",
+    "priceValue": 17.0,
+    "currency": "EUR",
+    "price": "17,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/gasteria-retusa/",
+    "photo": "/assets/plants/svokrinejazyky-p20350.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/09/gasteria-retusa-2-11.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:gasteria"
+    ],
+    "facts": [
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "716a4cf905bdb913d5627ccee95d60150423e52796a58813b2e9ee72dd74995f",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p43273",
+    "name": "Jatropha podagrica „Orange“",
+    "kind": "plants",
+    "priceValue": 17.0,
+    "currency": "EUR",
+    "price": "17,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/jatropha-podagrica/",
+    "photo": "/assets/plants/svokrinejazyky-p43273.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/04/jatropha-podagrica-orange-p12-7-1.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:jatropha"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "11b2921fee374026d6be7d826e9666f4e77d0f64977dd26d009520d032d115fb",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Izbovky",
+      "Kaktusy &amp; Sukulenty",
+      "Mini &amp; malé",
+      "Pre začiatočníkov"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p18916",
+    "name": "Philodendron ‘Majesty‘",
+    "kind": "plants",
+    "priceValue": 18.0,
+    "currency": "EUR",
+    "price": "18,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/philodendron-majesty/",
+    "photo": "/assets/plants/svokrinejazyky-p18916.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/09/philodendron-majesty-12.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Philodendron ‘Majesty‘."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Philodendron ‘Majesty‘.",
+    "descriptionSha256": "748eafb97d07afd34cec4d9b737f4b87206ea115e2270d5577031965499078cd",
+    "sourceAttributes": {
+      "Variant": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p2436",
+    "name": "Zamioculcas zamiifolia ‘Raven’",
+    "kind": "plants",
+    "priceValue": 18.0,
+    "currency": "EUR",
+    "price": "18,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/zamioculcas-zamiifolia-raven/",
+    "photo": "/assets/plants/svokrinejazyky-p2436.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2022/04/zamioculcas-super-nova-1-1.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:zamioculcas"
+    ],
+    "facts": [
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "72d1e6eca8ba9d3515ec02e7b3310f628628191aa2ba6fa911341c1e2582e643",
+    "sourceAttributes": {
+      "Výška": [
+        "cca 40 cm",
+        "cca 70 cm",
+        "cca 85 cm"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Na prečistenie vzduchu",
+      "Nenáročné na svetlo",
+      "Obľúbené",
+      "Pre začiatočníkov"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p26894",
+    "name": "Philodendron gigas",
+    "kind": "plants",
+    "priceValue": 19.0,
+    "currency": "EUR",
+    "price": "19,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/philodendron-gigas/",
+    "photo": "/assets/plants/svokrinejazyky-p26894.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/09/philodendron-gigas-p17-1-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "22e0e12b565e724bb4cda1b4c458c765849efa390bcd058889913696efb8c75e",
+    "sourceAttributes": {
+      "vyberte veľkosť": [
+        "veľký"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Na prečistenie vzduchu",
+      "Obľúbené",
+      "Pre začiatočníkov"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p7769",
+    "name": "Philodendron ‘Lemon Lime‘ (závesný kvetináč)",
+    "kind": "plants",
+    "priceValue": 19.0,
+    "currency": "EUR",
+    "price": "19,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/philodendron-lemon-lime/",
+    "photo": "/assets/plants/svokrinejazyky-p7769.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/07/philodendron-lemon-lime-p14-3-1-7.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:philodendron",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+    ],
+    "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov. Previsnutý alebo ťahavý rast podľa zaradenia predajcu.",
+    "descriptionSha256": "ef69d016773cda5ee411c90b312510760106fc59283ec5b8a889e2dfc19dd54f",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Izbovky",
+      "Na prečistenie vzduchu",
+      "Obľúbené",
+      "Pre začiatočníkov",
+      "Ťahavé a plazivé"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p14050",
+    "name": "Monstera deliciosa (cca 70 cm)",
+    "kind": "plants",
+    "priceValue": 24.0,
+    "currency": "EUR",
+    "price": "24,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/monstera-deliciosa-velka/",
+    "photo": "/assets/plants/svokrinejazyky-p14050.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2020/09/monstera-deliciosa-stredna-2-1.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:monstera"
+    ],
+    "facts": [
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "2c84212a4405264e9c7b72ebbd7281292b213bdc295d47f733aea0e392e182a8",
+    "sourceAttributes": {
+      "Výška": [
+        "cca 60 cm",
+        "cca 75 cm"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Na prečistenie vzduchu",
+      "Obľúbené",
+      "Pre začiatočníkov"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p14273",
+    "name": "Philodendron hastatum ‘Silver Sword’ (dospelé listy)",
+    "kind": "plants",
+    "priceValue": 24.0,
+    "currency": "EUR",
+    "price": "24,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/philodendron-hastatum-silver-sword-velky/",
+    "photo": "/assets/plants/svokrinejazyky-p14273.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/09/philodendron-hastatum-p15-1-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Philodendron hastatum ‘Silver Sword’ (dospelé listy)."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Philodendron hastatum ‘Silver Sword’ (dospelé listy).",
+    "descriptionSha256": "c09e2b0f15d534070f52c1420ac8e25df38aedf96fd615969c05ab66548a6ef4",
+    "sourceAttributes": {
+      "Kvetináč": [
+        "hlinený kvetináč",
+        "plastový kvetináč"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Na prečistenie vzduchu",
+      "Obľúbené"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 2 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p34433",
+    "name": "Begonia chloroneura",
+    "kind": "plants",
+    "priceValue": 25.0,
+    "currency": "EUR",
+    "price": "25,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/begonia-chloroneura/",
+    "photo": "/assets/plants/svokrinejazyky-p34433.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/07/begonia-chloroneura-1.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:begonia"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Begonia chloroneura."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Begonia chloroneura.",
+    "descriptionSha256": "0ad840d1d714784f6ca8f035f51a2736eb390efc41499dc82ee0538f8d7cbdc5",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p19103",
+    "name": "Campyloneurum nitidum",
+    "kind": "plants",
+    "priceValue": 25.0,
+    "currency": "EUR",
+    "price": "25,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/campyloneurum-nitidum/",
+    "photo": "/assets/plants/svokrinejazyky-p19103.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/09/Niphidium-crassifolium-p15-1-1.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:campyloneurum"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Campyloneurum nitidum."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Campyloneurum nitidum.",
+    "descriptionSha256": "f5642f11bbc17675e225fc673dc9b90b45433c7b36ebd5a4610fdb83457ae17b",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p25512",
+    "name": "Sansevieria trifasciata ‘Laurentii‘ (veľká)",
+    "kind": "plants",
+    "priceValue": 26.0,
+    "currency": "EUR",
+    "price": "26,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/sansevieria-trifasciata-laurentii-velka/",
+    "photo": "/assets/plants/svokrinejazyky-p25512.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2022/10/sansevieria-trifasciata-p17-4-1.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:sansevieria"
+    ],
+    "facts": [
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "3bd79547fb7ff41e1a11413e82280c81cfe5e531c8506d171cb8971aac0a1df2",
+    "sourceAttributes": {
+      "Veľkosť": [
+        "cca 30 cm",
+        "cca 50 cm"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Na prečistenie vzduchu",
+      "Nenáročné na svetlo",
+      "Obľúbené",
+      "Pre začiatočníkov"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p20310",
+    "name": "Dieffenbachia seguine ‘Sterling‘",
+    "kind": "plants",
+    "priceValue": 29.0,
+    "currency": "EUR",
+    "price": "29,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/dieffenbachia-seguine-sterling/",
+    "photo": "/assets/plants/svokrinejazyky-p20310.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/09/dieffenbachia-sterling-p17-2-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:dieffenbachia"
+    ],
+    "facts": [
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "26cfc87e5fdc2b2dfb8a4a46be794ed07094e7fac471ac296e5da6e290c77d95",
+    "sourceAttributes": {
+      "exemplár": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Na prečistenie vzduchu",
+      "Nenáročné na svetlo",
+      "Obľúbené",
+      "Pre začiatočníkov"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p24554",
+    "name": "Ficus montana (veľký)",
+    "kind": "plants",
+    "priceValue": 29.0,
+    "currency": "EUR",
+    "price": "29,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/ficus-montana-velky/",
+    "photo": "/assets/plants/svokrinejazyky-p24554.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/09/ficus-montana-velky-1.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:ficus"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Ficus montana (veľký)."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Ficus montana (veľký).",
+    "descriptionSha256": "99933e1ab65e2dc8c594123edc369df5d2a5ce7b53164df61b99342525f409f3",
+    "sourceAttributes": {
+      "veľkosť": [
+        "malá (cca 10 cm výška)",
+        "veľká (cca 35 cm výška, viac rastlín v kvetináči)"
+      ]
+    },
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p34421",
+    "name": "Nephthytis swainei",
+    "kind": "plants",
+    "priceValue": 29.0,
+    "currency": "EUR",
+    "price": "29,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/nephthytis-swainei/",
+    "photo": "/assets/plants/svokrinejazyky-p34421.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/07/Nephthytis-swainei-1-30.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:nephthytis"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Nephthytis swainei."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Nephthytis swainei.",
+    "descriptionSha256": "1892269d56906f45dfe6943de1afdc66cfbcb2a64b64b213e59675018613c679",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p33362",
+    "name": "Anthurium clidemioides",
+    "kind": "plants",
+    "priceValue": 35.0,
+    "currency": "EUR",
+    "price": "35,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/anthurium-clidemioides/",
+    "photo": "/assets/plants/svokrinejazyky-p33362.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/09/anthurium-clidemioides-2-20.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:anthurium"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Anthurium clidemioides."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Anthurium clidemioides.",
+    "descriptionSha256": "284b86f77042f3fce2dd64626628fcf1786210d91c5a90cee489563640d8fac8",
+    "sourceAttributes": {
+      "exemplár": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p35584",
+    "name": "Caladium sp. Colombia „White Spots“ XL",
+    "kind": "plants",
+    "priceValue": 39.0,
+    "currency": "EUR",
+    "price": "39,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/caladium-sp-colombia-white-spots/",
+    "photo": "/assets/plants/svokrinejazyky-p35584.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/05/caladium-aff.-bicolor-santa-anna-colombia-XL-1-57.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:caladium"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Caladium sp. Colombia „White Spots“ XL."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Caladium sp. Colombia „White Spots“ XL.",
+    "descriptionSha256": "30c96e98e2c2cc4f20e7ad2d9f17d6067ecab5efa6a18297918c7a485cb1bfca",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p19184",
+    "name": "Aglaonema commutatum ‘Tricolor‘",
+    "kind": "plants",
+    "priceValue": 42.0,
+    "currency": "EUR",
+    "price": "42,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/aglaonema-commutatum-tricolor/",
+    "photo": "/assets/plants/svokrinejazyky-p19184.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/01/aglaonema-commutatum-tricolor-1-14.jpg?fit=900%2C1200&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:aglaonema"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Aglaonema commutatum ‘Tricolor‘."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Aglaonema commutatum ‘Tricolor‘.",
+    "descriptionSha256": "4280169fd1109782905771eeae906adde59319fc62a4aaa481bb9593aa00bce9",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p64145",
+    "name": "Monstera deliciosa ‘Bulbasaur‘",
+    "kind": "plants",
+    "priceValue": 49.0,
+    "currency": "EUR",
+    "price": "49,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/monstera-deliciosa-bulbasaur-mala/",
+    "photo": "/assets/plants/svokrinejazyky-p64145.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/09/monstera-bulbasaur-p8-1-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:monstera",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+    ],
+    "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov. Previsnutý alebo ťahavý rast podľa zaradenia predajcu.",
+    "descriptionSha256": "b5b8a05cc1ab1be683bd9c1cad0fa3a42ed1e2d5d2e5f007e0f57869a71378bb",
+    "sourceAttributes": {
+      "vyberte exemplár": [
+        "1",
+        "2"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Mini &amp; malé",
+      "Na prečistenie vzduchu",
+      "Obľúbené",
+      "Pre začiatočníkov",
+      "Ťahavé a plazivé"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p20312",
+    "name": "Philodendron atratum (veľký)",
+    "kind": "plants",
+    "priceValue": 49.0,
+    "currency": "EUR",
+    "price": "49,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/philodendron-atratum/",
+    "photo": "/assets/plants/svokrinejazyky-p20312.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/01/philodendron-atratum-4-49.jpg?fit=900%2C1200&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Philodendron atratum (veľký)."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Philodendron atratum (veľký).",
+    "descriptionSha256": "544acedf7aef9dd69bdc7971d8a96a7ff747cae00c50dd3182e639e863903cda",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p18226",
+    "name": "Sansevieria ‚Rudal‘",
+    "kind": "plants",
+    "priceValue": 49.0,
+    "currency": "EUR",
+    "price": "49,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/sansevieria-rudal/",
+    "photo": "/assets/plants/svokrinejazyky-p18226.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/05/sansevieria-rudal-3-3.jpg?fit=1125%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=20&page=2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:sansevieria"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Sansevieria ‚Rudal‘."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Sansevieria ‚Rudal‘.",
+    "descriptionSha256": "99fa000bb03c4fce0dcd2ac4404d081a5eae477be8da9c7d79967a6114247ab9",
+    "sourceAttributes": {
+      "Kultivar": [
+        "‘Carolyn Whorton‘",
+        "‘Red Flash‘",
+        "‘Miss Muffet‘",
+        "‘Spring Fling‘",
+        "‘Party Punch‘",
+        "‘Bubble‘"
+      ]
+    },
+    "sourceCategories": [
+      "Špeciality"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p44387",
+    "name": "Dracaena draco",
+    "kind": "rareplants",
+    "priceValue": 9.0,
+    "currency": "EUR",
+    "price": "9,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/dracaena-draco/",
+    "photo": "/assets/plants/svokrinejazyky-p44387.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/06/dracaena-draco-p8-8-13.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:dracaena"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "7ac906e96e250c0a8b4dc0f710ead68a99d311a241a79f15f41a13da93723290",
+    "sourceAttributes": {
+      "Priemer kvetináča / výška": [
+        "8,5 cm / 15 cm",
+        "12 cm / 35 cm"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Mini &amp; malé",
+      "Na prečistenie vzduchu",
+      "Pre začiatočníkov",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p22894",
+    "name": "Alocasia azlanii (malá)",
+    "kind": "rareplants",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "price": "12,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/alocasia-azlanii-mala/",
+    "photo": "/assets/plants/svokrinejazyky-p22894.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2023/10/alocasia-azlanii-p8-1-1-jpg.webp?fit=800%2C1200&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:alocasia"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Alocasia azlanii (malá)."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Alocasia azlanii (malá).",
+    "descriptionSha256": "93d4357c842f89be24d514450468a4f0c2dbef5214bd1d172720ef6dc9d0f19f",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Izbovky",
+      "Mini &amp; malé",
+      "Obľúbené",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p18270",
+    "name": "Philodendron brandtianum (viac rastlín v kvetináči)",
+    "kind": "rareplants",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "price": "12,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/philodendron-brandtianum/",
+    "photo": "/assets/plants/svokrinejazyky-p18270.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2021/11/philo-brandtianum-p12-3-1.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "07ff1fbf133cfc69bd3500b93557f2c1ba383a9adbb506bf52c0fe44386b9069",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Izbovky",
+      "Na prečistenie vzduchu",
+      "Obľúbené",
+      "Pre začiatočníkov",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p69864",
+    "name": "Sansevieria ‘Almond Silver‘",
+    "kind": "rareplants",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "price": "12,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/sansevieria-almond-silver/",
+    "photo": "/assets/plants/svokrinejazyky-p69864.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/09/sansevieria-almond-silve-p7-1-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:sansevieria"
+    ],
+    "facts": [
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "1f9732d2cda1b040c3377e36d24970acf6af87f746eec55b696a3c3e01686085",
+    "sourceAttributes": {
+      "Veľkosť": [
+        "Malá (cca do 10 cm)"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Mini &amp; malé",
+      "Na prečistenie vzduchu",
+      "Nenáročné na svetlo",
+      "Obľúbené",
+      "Pre začiatočníkov",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p67995",
+    "name": "Hoya heuschkeliana ‘Outer Variegata‘",
+    "kind": "rareplants",
+    "priceValue": 14.0,
+    "currency": "EUR",
+    "price": "14,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/hoya-heuschkeliana-outer-variegata/",
+    "photo": "/assets/plants/svokrinejazyky-p67995.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/07/hoya-heuschkeliana-outer-var-p7-2-1-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:hoya",
+      "low",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+    ],
+    "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "7cb867658c0ea0dad21e2a546a4c1efec328c8e1a9b7406fd95c31a66d1a6fdb",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Izbovky",
+      "Mini &amp; malé",
+      "Pre začiatočníkov",
+      "Ťahavé a plazivé",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 2 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p69133",
+    "name": "Hoya lacunosa ‘Tricolor Bruno‘",
+    "kind": "rareplants",
+    "priceValue": 15.0,
+    "currency": "EUR",
+    "price": "15,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/hoya-lacunosa-tricolor-bruno/",
+    "photo": "/assets/plants/svokrinejazyky-p69133.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/09/hoya-lacunosa-tricolor-bruno-p8-1-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:hoya",
+      "low",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+    ],
+    "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "8b26288e7452140a4e39def2ff3891276a7f25ff5d66486e19cbe78f22e20852",
+    "sourceAttributes": {
+      "vyberte veľkosť": [
+        "malá"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Mini &amp; malé",
+      "Pre začiatočníkov",
+      "Ťahavé a plazivé",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 3 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p34990",
+    "name": "Begonia barsalouxiae",
+    "kind": "rareplants",
+    "priceValue": 16.0,
+    "currency": "EUR",
+    "price": "16,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/begonia-barsalouxiae/",
+    "photo": "/assets/plants/svokrinejazyky-p34990.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/09/begonia-barsalouxiae-p8-1-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "genus:begonia"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo.",
+    "descriptionSha256": "650534c2ceb6fa1b8053c9eb5911f55db0a45c54471353608adfeab4fa2f0df3",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Izbovky",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 2 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p54880",
+    "name": "Philodendron hopkinsianum (Burle-Marx Fantasy)",
+    "kind": "rareplants",
+    "priceValue": 16.0,
+    "currency": "EUR",
+    "price": "16,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/philodendron-hopkinsianum-burle-marx-fantasy/",
+    "photo": "/assets/plants/svokrinejazyky-p54880.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/08/philodendron-hopkinsianum-p8-3-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Philodendron hopkinsianum (Burle-Marx Fantasy)."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Philodendron hopkinsianum (Burle-Marx Fantasy).",
+    "descriptionSha256": "39436d87d17264f6f6304d766bd2209fb467041ec2c1f7679b479e092575a79c",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Izbovky",
+      "Na prečistenie vzduchu",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 2 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p19475",
+    "name": "Alocasia ‘Platinum‘",
+    "kind": "rareplants",
+    "priceValue": 18.0,
+    "currency": "EUR",
+    "price": "18,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/alocasia-platinum/",
+    "photo": "/assets/plants/svokrinejazyky-p19475.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2021/10/alocasia-platinum-7-1.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:alocasia"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Alocasia ‘Platinum‘."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Alocasia ‘Platinum‘.",
+    "descriptionSha256": "12a237eac20ada4b81417254e1889964c0045d459f4e5a9854bc1b3df393dcd9",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Izbovky",
+      "Obľúbené",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p36229",
+    "name": "Anthurium luxurians × radicans",
+    "kind": "rareplants",
+    "priceValue": 19.0,
+    "currency": "EUR",
+    "price": "19,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/anthurium-luxurians-x-radicans/",
+    "photo": "/assets/plants/svokrinejazyky-p36229.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2024/08/anthurium-radicans-x-lux-p12-6-1.jpg?fit=800%2C1200&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:anthurium"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Anthurium luxurians × radicans."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Anthurium luxurians × radicans.",
+    "descriptionSha256": "e227eaf7cb812d5c122fc129e2da198b3b7c0ebf70eb00fc42781af5ab5ee54b",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Izbovky",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p19247",
+    "name": "Syngonium podophyllum ‘Albo-Variegatum‘",
+    "kind": "rareplants",
+    "priceValue": 19.0,
+    "currency": "EUR",
+    "price": "19,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/syngonium-albo-variegatum/",
+    "photo": "/assets/plants/svokrinejazyky-p19247.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/08/syngonium-albo-sept-26-1-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:syngonium"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "bfc141a90424949888c4f2c77f5fcdac7e8d820664d8d40f84fec55339a91fa6",
+    "sourceAttributes": {
+      "vyberte exemplár": [
+        "1"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Na prečistenie vzduchu",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 2 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p69126",
+    "name": "Anthurium ‘Red Crystallinum‘",
+    "kind": "rareplants",
+    "priceValue": 25.0,
+    "currency": "EUR",
+    "price": "25,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/anthurium-red-crystallinum/",
+    "photo": "/assets/plants/svokrinejazyky-p69126.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/09/anthurium-crystallinum-red-p8-1-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:anthurium"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Anthurium ‘Red Crystallinum‘."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Anthurium ‘Red Crystallinum‘.",
+    "descriptionSha256": "e91517941eb76c59b54326e66dad1c882787839f0266b2e7f84b44e13a6bccd6",
+    "sourceAttributes": {
+      "vyberte exemplár": [
+        "1 (spodok)"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Obľúbené",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 2 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p62421",
+    "name": "Hoya occultata ‘Splash‘",
+    "kind": "rareplants",
+    "priceValue": 28.0,
+    "currency": "EUR",
+    "price": "28,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/hoya-occultata-splash/",
+    "photo": "/assets/plants/svokrinejazyky-p62421.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/02/hoya-occultata-splash-p7-1-1-2.jpg?fit=800%2C1200&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:hoya",
+      "low",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+    ],
+    "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "7006a65cc2035c6c69f91e06c5f74ead407fb74f5e55f8265c18527f22c3a64d",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Izbovky",
+      "Mini &amp; malé",
+      "Pre začiatočníkov",
+      "Ťahavé a plazivé",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p41562",
+    "name": "Sansevieria ‘Blue Leaf Variegata‘",
+    "kind": "rareplants",
+    "priceValue": 33.0,
+    "currency": "EUR",
+    "price": "33,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/sansevieria-blue-leaf-variegata/",
+    "photo": "/assets/plants/svokrinejazyky-p41562.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/06/sansevieria-blue-leaf-new-sep-26-2-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:sansevieria"
+    ],
+    "facts": [
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "00a2f366d627b03362ab35375c346f72136c5ddae03140b87ddd83a2d3e8323e",
+    "sourceAttributes": {
+      "Veľkosť": [
+        "malá - cca 50 cm",
+        "veľká - cca 65 cm"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Mini &amp; malé",
+      "Na prečistenie vzduchu",
+      "Nenáročné na svetlo",
+      "Obľúbené",
+      "Pre začiatočníkov",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p62428",
+    "name": "Anthurium ‘Dark Mama‘ × ‘Ace of Spades‘",
+    "kind": "rareplants",
+    "priceValue": 44.0,
+    "currency": "EUR",
+    "price": "44,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/anthurium-dark-mama-x-ace-of-spades/",
+    "photo": "/assets/plants/svokrinejazyky-p62428.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/02/Anthurium-Dark-Mama-x-Ace-of-Spades-p9-1-1.jpg?fit=800%2C1200&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:anthurium"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Anthurium ‘Dark Mama‘ × ‘Ace of Spades‘."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Anthurium ‘Dark Mama‘ × ‘Ace of Spades‘.",
+    "descriptionSha256": "65987394f94a1124c515e7f89eae2b74435b82b0846012fe611794f9c25df0a3",
+    "sourceAttributes": {
+      "vyberte exemplár": [
+        "1 (spodok)"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Obľúbené",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p65976",
+    "name": "Sansevieria ’Ghea’",
+    "kind": "rareplants",
+    "priceValue": 49.0,
+    "currency": "EUR",
+    "price": "49,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/sansevieria-ghea/",
+    "photo": "/assets/plants/svokrinejazyky-p65976.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/06/sansevieria-ghea-new-3-1.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=224&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:sansevieria"
+    ],
+    "facts": [
+      "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+    ],
+    "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+    "descriptionSha256": "21cf0f8411cf4d6fba189b092f18d5a476e0a08692ad372db28da9cad842e667",
+    "sourceAttributes": {
+      "Veľkosť": [
+        "malá - cca 50 cm",
+        "veľká - cca 65 cm"
+      ]
+    },
+    "sourceCategories": [
+      "Izbovky",
+      "Mini &amp; malé",
+      "Na prečistenie vzduchu",
+      "Nenáročné na svetlo",
+      "Obľúbené",
+      "Pre začiatočníkov",
+      "Zberateľské kúsky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p68355",
+    "name": "Samozavlažovací kvetináč s priehľadnou vložkou – závesný",
+    "kind": "pots",
+    "priceValue": 10.9,
+    "currency": "EUR",
+    "price": "10,90 €",
+    "url": "https://svokrinejazyky.sk/obchod/samozavlazovaci-kvetinac-s-priehladnou-vlozkou-zavesny/",
+    "photo": "/assets/plants/svokrinejazyky-p68355.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/08/samozavlazovaci-zavesny-kvetinac-.jpg?fit=1000%2C1500&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=24&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": 15.0,
+    "potDiameter": null,
+    "tags": [
+      "genus:samozavlažovací",
+      "medium-pot",
+      "plastic"
+    ],
+    "facts": [
+      "Priemer alebo šírka podľa predajcu: 15 cm.",
+      "Materiál podľa predajcu: plast."
+    ],
+    "reason": "Priemer alebo šírka podľa predajcu: 15 cm. Materiál podľa predajcu: plast.",
+    "descriptionSha256": "8baa710e6988b52e408e6e3e31c5365f6d3cf810d656e1b0281fc5248370dfe1",
+    "sourceAttributes": {
+      "Priemer / výška": [
+        "7,5 / 8,5",
+        "9,5 / 11,5 cm",
+        "12,5 / 15 cm",
+        "15 / 18 cm",
+        "23 / 27 cm"
+      ],
+      "Farba": [
+        "Biela",
+        "Čierna"
+      ]
+    },
+    "sourceCategories": [
+      "Kvetináče",
+      "Plastové",
+      "Pre nadšencov a zberateľov",
+      "Závesné"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p1458",
+    "name": "Smalťák „nevyrušuj, rastiem“",
+    "kind": "pots",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "price": "12,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/smaltak-nevyrusuj-rastiem/",
+    "photo": "/assets/plants/svokrinejazyky-p1458.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/01/smaltak-nevyrusuj-rastiem-new-3-1.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=24&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": 8.5,
+    "potDiameter": null,
+    "tags": [
+      "genus:smalťák",
+      "small-pot"
+    ],
+    "facts": [
+      "Priemer alebo šírka podľa predajcu: 8.5 cm."
+    ],
+    "reason": "Priemer alebo šírka podľa predajcu: 8.5 cm.",
+    "descriptionSha256": "76c113b202577eac6688c47536419f7e7db7323864f8cdce97a70dc37b1893a3",
+    "sourceAttributes": {
+      "Priemer": [
+        "9 cm",
+        "10 cm"
+      ]
+    },
+    "sourceCategories": [
+      "Hand made",
+      "Kvetináče",
+      "Smalťáky"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 2 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p39562",
+    "name": "Valcový obal s drevenou podstavou (zelený)",
+    "kind": "pots",
+    "priceValue": 12.0,
+    "currency": "EUR",
+    "price": "12,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/valcovy-obal-s-drevenou-podstavou-zeleny/",
+    "photo": "/assets/plants/svokrinejazyky-p39562.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2024/10/valec-s-drevenou-podstavou-zeleny-3-1.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=24&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": 12.5,
+    "potDiameter": null,
+    "tags": [
+      "ceramic",
+      "genus:valcový",
+      "medium-pot"
+    ],
+    "facts": [
+      "Priemer alebo šírka podľa predajcu: 12.5 cm.",
+      "Materiál podľa predajcu: keramika."
+    ],
+    "reason": "Priemer alebo šírka podľa predajcu: 12.5 cm. Materiál podľa predajcu: keramika.",
+    "descriptionSha256": "66a30cbd9375b4d93952760eaae9059b444a0c137408482d60a3b1b181d1d5c7",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Keramické",
+      "Kvetináče"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p29803",
+    "name": "Valcový obal s drevenou podstavou (šedý)",
+    "kind": "pots",
+    "priceValue": 15.0,
+    "currency": "EUR",
+    "price": "15,00 €",
+    "url": "https://svokrinejazyky.sk/obchod/valcovy-obal-s-drevenou-podstavou-sedy/",
+    "photo": "/assets/plants/svokrinejazyky-p29803.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2024/10/valec-s-drevenou-podstavou-sedy-2-1.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=24&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": 12.5,
+    "potDiameter": null,
+    "tags": [
+      "ceramic",
+      "genus:valcový",
+      "medium-pot"
+    ],
+    "facts": [
+      "Priemer alebo šírka podľa predajcu: 12.5 cm.",
+      "Materiál podľa predajcu: keramika."
+    ],
+    "reason": "Priemer alebo šírka podľa predajcu: 12.5 cm. Materiál podľa predajcu: keramika.",
+    "descriptionSha256": "66a30cbd9375b4d93952760eaae9059b444a0c137408482d60a3b1b181d1d5c7",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Keramické",
+      "Kvetináče"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 2 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p4994",
+    "name": "Substrát Forestina profík na kaktusy a sukulenty (5l)",
+    "kind": "substrates",
+    "priceValue": 5.9,
+    "currency": "EUR",
+    "price": "5,90 €",
+    "url": "https://svokrinejazyky.sk/obchod/substrat-forestina-profik-na-kaktusy-a-sukulenty-5l/",
+    "photo": "/assets/plants/svokrinejazyky-p4994.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2021/06/substrat-na-kaktusy-a-sukulenty-forestina-product-pic.jpg?fit=800%2C1200&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=493&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "cactus-mix",
+      "genus:substrát"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Substrát Forestina profík na kaktusy a sukulenty (5l)."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Substrát Forestina profík na kaktusy a sukulenty (5l).",
+    "descriptionSha256": "538459c0822b2235079d60c449ea1fd5ab4723014918129007c7dec1399b4809",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Pôdne substráty",
+      "Substráty a hnojivá",
+      "Všetky substráty"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p31027",
+    "name": "Substrát Forestina profík na orchidey a bromélie (5l)",
+    "kind": "substrates",
+    "priceValue": 5.9,
+    "currency": "EUR",
+    "price": "5,90 €",
+    "url": "https://svokrinejazyky.sk/obchod/substrat-forestina-profik-na-orchidey-a-bromelie-5l/",
+    "photo": "/assets/plants/svokrinejazyky-p31027.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2023/10/substrat-na-orchidey-forestina-product-pic.jpg?fit=800%2C1200&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=493&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:substrát",
+      "orchid-mix"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Substrát Forestina profík na orchidey a bromélie (5l)."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Substrát Forestina profík na orchidey a bromélie (5l).",
+    "descriptionSha256": "ce0b1cc26abb2a6daeb3e9fd75ac8afb1f05ca8adc5c4d9ec23899dff901579a",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Pôdne substráty",
+      "Substráty a hnojivá",
+      "Všetky substráty"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p24831",
+    "name": "Substrát SERAMIS na izbové rastliny 2,5l",
+    "kind": "substrates",
+    "priceValue": 6.9,
+    "currency": "EUR",
+    "price": "6,90 €",
+    "url": "https://svokrinejazyky.sk/obchod/substrat-seramis-na-izbove-rastliny-25l/",
+    "photo": "/assets/plants/svokrinejazyky-p24831.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2023/12/seramis-25-product-pic.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=493&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:substrát",
+      "indoor-mix"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Substrát SERAMIS na izbové rastliny 2,5l."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Substrát SERAMIS na izbové rastliny 2,5l.",
+    "descriptionSha256": "f8602a2ccc810826c991a9e757b2484d435b13bca5a7115a078c534296436d27",
+    "sourceAttributes": {
+      "Objem": [
+        "2,5l (1 kg)",
+        "7,5l (3 kg)",
+        "15l (6 kg)"
+      ]
+    },
+    "sourceCategories": [
+      "Semihydro substráty",
+      "Substráty a hnojivá",
+      "Všetky substráty"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladom iba 1 ks ⚠️",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p61659",
+    "name": "Perlit SYBAsoil Premium (2-6 mm) 3 l",
+    "kind": "substrates",
+    "priceValue": 9.9,
+    "currency": "EUR",
+    "price": "9,90 €",
+    "url": "https://svokrinejazyky.sk/obchod/perlit-sybasoil-premium-2-6-mm-3-l/",
+    "photo": "/assets/plants/svokrinejazyky-p61659.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2026/02/syba-perlit-3l-product-pic.jpg?fit=800%2C1200&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=493&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:perlit"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Perlit SYBAsoil Premium (2-6 mm) 3 l."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Perlit SYBAsoil Premium (2-6 mm) 3 l.",
+    "descriptionSha256": "37ea90635b6d2f6595f17aafc29d1a3bf02ac7bdeb6c79714b5b2a506da32d17",
+    "sourceAttributes": {
+      "objem": [
+        "2,5l",
+        "5l"
+      ]
+    },
+    "sourceCategories": [
+      "Pre nadšencov a zberateľov",
+      "Prímesy do substrátov",
+      "Substráty a hnojivá",
+      "Všetky substráty"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p32058",
+    "name": "Substrát SERAMIS na izbové rastliny 7,5l",
+    "kind": "substrates",
+    "priceValue": 12.9,
+    "currency": "EUR",
+    "price": "12,90 €",
+    "url": "https://svokrinejazyky.sk/obchod/substrat-seramis-na-izbove-rastliny-75l/",
+    "photo": "/assets/plants/svokrinejazyky-p32058.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2023/12/seramis-75-product-pic.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=493&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:substrát",
+      "indoor-mix"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Substrát SERAMIS na izbové rastliny 7,5l."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Substrát SERAMIS na izbové rastliny 7,5l.",
+    "descriptionSha256": "df5b4f3023f510dd23f10da36d27228c487ae5db8ef9e6d7b277fc54f2555521",
+    "sourceAttributes": {
+      "Objem": [
+        "2,5l (1 kg)",
+        "7,5l (3 kg)",
+        "15l (6 kg)"
+      ]
+    },
+    "sourceCategories": [
+      "Semihydro substráty",
+      "Substráty a hnojivá",
+      "Všetky substráty"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p32060",
+    "name": "Substrát SERAMIS na izbové rastliny 15l",
+    "kind": "substrates",
+    "priceValue": 19.9,
+    "currency": "EUR",
+    "price": "19,90 €",
+    "url": "https://svokrinejazyky.sk/obchod/substrat-seramis-na-izbove-rastliny-15l/",
+    "photo": "/assets/plants/svokrinejazyky-p32060.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2023/12/seramis-15-product-pic.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=493&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:substrát",
+      "indoor-mix"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Substrát SERAMIS na izbové rastliny 15l."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Substrát SERAMIS na izbové rastliny 15l.",
+    "descriptionSha256": "7db7bedaa2b917c588ded7d19a33699231127e7719202617bdbb804c7190b375",
+    "sourceAttributes": {
+      "Objem": [
+        "2,5l (1 kg)",
+        "7,5l (3 kg)",
+        "15l (6 kg)"
+      ]
+    },
+    "sourceCategories": [
+      "Semihydro substráty",
+      "Substráty a hnojivá",
+      "Všetky substráty"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade",
+        "class": "in-stock"
+      }
+    }
+  },
+  {
+    "id": "p55700",
+    "name": "Substrát PLANTSCRAPER Premium Aroid Mix 8,5 l",
+    "kind": "substrates",
+    "priceValue": 19.95,
+    "currency": "EUR",
+    "price": "19,95 €",
+    "url": "https://svokrinejazyky.sk/obchod/substrat-plantscraper-premium-aroid-mix-85-l/",
+    "photo": "/assets/plants/svokrinejazyky-p55700.jpg",
+    "imageSource": "https://i0.wp.com/svokrinejazyky.sk/wp-content/uploads/2025/09/plantscraper-aroid-mix-1800x1200-1.jpg?fit=1200%2C1800&ssl=1",
+    "sourceEndpoint": "https://svokrinejazyky.sk/wp-json/wc/store/v1/products?per_page=100&category=493&page=1",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "genus:substrát",
+      "indoor-mix"
+    ],
+    "facts": [
+      "Konkrétny druh a variant podľa e-shopu: Substrát PLANTSCRAPER Premium Aroid Mix 8,5 l."
+    ],
+    "reason": "Konkrétny druh a variant podľa e-shopu: Substrát PLANTSCRAPER Premium Aroid Mix 8,5 l.",
+    "descriptionSha256": "42b3ce540f7a4f600f09dee7a4b2810840d4c9d952210fc2247c43c4d37b1906",
+    "sourceAttributes": {
+      "Objem": [
+        "2,5l (1 kg)",
+        "7,5l (3 kg)",
+        "15l (6 kg)"
+      ]
+    },
+    "sourceCategories": [
+      "Pôdne substráty",
+      "Pre nadšencov a zberateľov",
+      "Substráty a hnojivá",
+      "Všetky substráty"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Na sklade Viac ks na objednávku do cca 2 týždňov. ",
+        "class": "in-stock"
+      }
+    }
+  }
+]

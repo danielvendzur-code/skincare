@@ -638,5 +638,78 @@
     "heroNames": [],
     "markLightOnly": true,
     "markWhite": true
+  },
+  "svokrinejazyky": {
+    "name": "Svokrine jazyky",
+    "website": "https://svokrinejazyky.sk/",
+    "currency": "EUR",
+    "platform": "woocommerce",
+    "kinds": [
+      "plants",
+      "rareplants",
+      "pots",
+      "substrates"
+    ],
+    "kindLabels": {
+      "rareplants": "Zberateľské rastliny"
+    },
+    "categories": {
+      "substrates": [
+        493
+      ],
+      "pots": [
+        24
+      ],
+      "rareplants": [
+        224
+      ],
+      "plants": [
+        20
+      ]
+    },
+    "categoryFetch": true,
+    "limits": {
+      "plants": 32,
+      "rareplants": 16,
+      "pots": 12,
+      "substrates": 8
+    },
+    "exclude": "mystery|poukaz|predplat|workshop|kurz|bal[ií][čc]|balík|set|semen|semien|odrez|prázd|krhl|postrek|darček|darcekov|heatpack|podper|podmisk|rastliny v skle|terári|terar|tillandsia",
+    "excludeByKind": {
+      "pots": "váza|podmisk|misk|sviet|príslu|terári|pohár"
+    },
+    "theme": {
+      "brand": "#1b3d33",
+      "accent": "#267660",
+      "soft": "#edf6f0",
+      "paper": "#fffefa",
+      "ink": "#23322b",
+      "line": "#d4e4d9"
+    },
+    "categoryNotes": {
+      "plants": "Svetlo, starostlivosť a obľúbený rod",
+      "rareplants": "Konkrétny zberateľský druh a cena",
+      "pots": "Rozmer a materiál obalu",
+      "substrates": "Určenie a objem balenia"
+    },
+    "logoSource": "https://svokrinejazyky.sk/wp-content/uploads/2018/12/svokrinejazyky_logo_final_RGB-e1544914260595.png",
+    "markCrop": [
+      2630,
+      450,
+      2908,
+      952
+    ],
+    "markWhite": true,
+    "logoNote": "Oficiálne logo zväčšené s Lanczos vyhladením. Pôvodné zelené listy sú vyrezané z loga; okolité znaky a obrys sa odfiltrovali, listy sa prefarbili na bielu pre čitateľnosť na tmavozelenom kruhu.",
+    "themeNote": "Zelená z listov oficiálneho loga; tmavší brand a accent pre kontrast bieleho textu, svetlé zelené plochy.",
+    "terms": "https://svokrinejazyky.sk/obchodne-podmienky/",
+    "fit": "Samostatný vlastník a doložené tržby 99 987 € za 2025; počet zamestnancov register neuvádza. Vlastný špecializovaný e-shop s mnohými podobnými izbovými a zberateľskými rastlinami.",
+    "heroNames": [
+      "Monstera deliciosa (cca 70 cm)",
+      "Sansevieria trifasciata ‘Laurentii‘",
+      "Begonia barsalouxiae",
+      "Hoya australis ‘Lisa‘"
+    ],
+    "markGreenOnly": true
   }
 }

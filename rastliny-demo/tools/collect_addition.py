@@ -31,7 +31,7 @@ def care(p,text,attributes=None,categories=None):
     if not p.get('facts'):
         # Care comes from affirmative seller clauses, never guessed by genus.
         clauses=[c for c in re.split(r'[.!?\n]',t) if not re.search(r'ne[ľl][úu]bi|neob[ľl][úu]b|nevy[žz]ad|po[šs]kod|pop[aá]l|sp[aá]l|degrad|nesv[eě]d[čc]|nevyhov|nepatr|netoler|nesn[aá][šs]|nesnes|neznes|nezn[aá][šs]|vyh[nýy]|chr[aá][nň]|bez\s+(?:p[rř]ím|priam)|nevhod|nesm|nem[aá]|nevystav|pop[aá]l|sp[aá]len|[šs]kod|nie\s+(?:však\s+)?priam|niektor[eé]|v[aä][čc][šs]ina|aklimatizovan',c)]
-        for pattern,tag,label in [(r'polost[ií]n|polotie[nň]|sn[aá][šs][ií]\s+st[ií]n','low','polotieň'),(r'rozpt[ýy]len|nep[rř]ím[eé]\s+slun|nepriam[eé]\s+sln|sv[eě]tl[eéý]\s+(?:m[ií]sto|stanovi|miesto)','bright','rozptýlené svetlo'),(r'(?<!ne)\bp[rř]ím[eéý]\s+slun|(?<!ne)\bpriam[eé]\s+sln|slunn[eé]\s+stanovi|slne[čc]n[eé]\s+stanovi','sun','slnečné stanovište')]:
+        for pattern,tag,label in [(r'polost[ií]n|polotie[nň]|sn[aá][šs][ií]\s+st[ií]n|zvládne aj tmav[šs]ie','low','polotieň'),(r'rozpt[ýy]len|filtrovan|filtrov[aá]n|nep[rř]ím[eé]\s+slun|nepriam[eé]\s+sln|sv[eě]tl[eéý]\s+(?:m[ií]sto|stanovi|miesto)','bright','rozptýlené svetlo'),(r'(?<!ne)\bp[rř]ím[eéý]\s+slun|(?<!ne)\bpriam[eé]\s+sln|slunn[eé]\s+stanovi|slne[čc]n[eé]\s+stanovi','sun','slnečné stanovište')]:
             if any(re.search(pattern,c) for c in clauses):tags.append(tag);facts.append('Predajca uvádza: '+label+'.')
         if any(re.search(r'nen[aá]ro[čc]n|snadn[aá]\s+p[eé][čc]e|jednoduch[aá]\s+starost',c) for c in clauses):tags.append('easy');facts.append('Predajca uvádza nenáročnú starostlivosť.')
     # Category/attribute labels are positive statements, unlike prose warnings.
@@ -68,7 +68,7 @@ def care(p,text,attributes=None,categories=None):
         for pattern,tag,label in [(r'uzav[řr]en|uzavret','closed','uzavreté'),(r'otev[řr]en|otvoren','open','otvorené'),('tilland','airplants','s tillandsiou'),('bonsai|bonsaj','bonsai','s bonsajom')]:
             if re.search(pattern,text+' '+p['name'],re.I):tags.append(tag);facts.append('Typ kompozície podľa predajcu: '+label+'.')
     if p['kind']=='pots':
-        size=re.search(r'(?:[øØ]|pr[ií]emer(?:\s+majú)?|pr[uů]m[eě]r|ší[řr]ka)\s*:?\s*(\d+(?:[.,]\d+)?)\s*cm',p['name']+' '+text,re.I)
+        size=re.search(r'(?:[øØ]|pr[ií]emer(?:om|e|\s+majú)?|pr[uů]m[eě]r|ší[řr]ka)\s*:?\s*(\d+(?:[.,]\d+)?)\s*cm',p['name']+' '+text,re.I)
         if size:
             diameter=float(size[1].replace(',','.'));p['diameter']=diameter;tags.append('small-pot' if diameter<=11 else 'medium-pot' if diameter<=16 else 'large-pot');facts.append(f'Priemer alebo šírka podľa predajcu: {diameter:g} cm.')
         for pattern,tag,label in [('keramik|keramick','ceramic','keramika'),('terakot','terracotta','terakota'),('plast','plastic','plast'),('bet[oó]n','concrete','betón')]:

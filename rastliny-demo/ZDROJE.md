@@ -931,3 +931,80 @@ Svetlo a nenáročnosť všetkých 18 kokedám boli osobitne prezreté v odráž
 | Rastlinkovo substrát Calathea & Maranta 3 litre | substráty | 10,63 € | [detail](https://www.rastlinkovo.sk/rastlinkovo-substrat-calathea-maranta-3-litre/) |
 | PlantNest Kaktus a Sukulent substrát 3 litre | substráty | 12,59 € | [detail](https://www.rastlinkovo.sk/plantnest-kaktus-a-sukulent-substrat-3-litre/) |
 | Forestina Profík Substrát pre izbové rastliny minerálny 15 litrov | substráty | 16,49 € | [detail](https://www.rastlinkovo.sk/forestina-profik-substrat-pre-izbove-rastliny-mineralny-15-litrov/) |
+
+## Svokrine jazyky
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://svokrinejazyky.sk/). [Identita predajcu](https://svokrinejazyky.sk/obchodne-podmienky/).
+- Firma: **Svokrine jazyky s. r. o., IČO 52096092**. Vlastníci: Ing. Martin Buza. Konatelia / podnikateľ: Ing. Martin Buza, JUDr. Jakub Buza.
+- Veľkosť: **99 987 € tržby 2025; nezistené zam.**. Kód `00` v [primárnom registri](https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1815068); údaj aktualizovaný 2026-07-03, načítaný 2026-10-10. [Vlastníci](https://www.orsr.sk/vypis.asp?ID=449113&SID=2&P=0).
+- [Finančný výkaz](https://www.registeruz.sk/cruz-public/domain/financialreport/show/10052560/687): Výkaz MÚJ: tržby z predaja tovaru 99 987 €, tržby vlastných výrobkov a služieb nevyplnené. Prvý riadok 111 944 € zahŕňa aj predaj majetku a materiálu a ostatné výnosy; nie je použitý ako tržby. Sumy sú celofiremné.
+- IČO potvrdené v aktuálnych obchodných podmienkach. RPO pri kontrole neodpovedal, vlastníci a konatelia overení v aktuálnom výpise ORSR. Kód veľkosti 00 znamená nezistený počet zamestnancov, nie nulu; vhodnosť vychádza z doložených tržieb a špecializovanej ponuky.
+- Prečo sedí: Samostatný vlastník a doložené tržby 99 987 € za 2025; počet zamestnancov register neuvádza. Vlastný špecializovaný e-shop s mnohými podobnými izbovými a zberateľskými rastlinami. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **59 produktov**, izbové rastliny, zberateľské rastliny, črepníky, substráty. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: WooCommerce Store API: `is_in_stock` a `is_purchasable` sú true, `is_on_backorder` je false, `stock_availability.class` je in-stock; pevná cena a mena, bez variantov a cenového rozsahu. Koncová cena Hoya australis Lisa (12 €) a závesného samozavlažovacieho kvetináča (10,90 €) bola navyše porovnaná s viditeľnou cenou na detaile; zhodné. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/svokrinejazyky-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://svokrinejazyky.sk/wp-content/uploads/2018/12/svokrinejazyky_logo_final_RGB-e1544914260595.png); Oficiálne logo zväčšené s Lanczos vyhladením. Pôvodné zelené listy sú vyrezané z loga; okolité znaky a obrys sa odfiltrovali, listy sa prefarbili na bielu pre čitateľnosť na tmavozelenom kruhu.
+- Farby: `brand: #1b3d33`, `accent: #267660`, `soft: #edf6f0`, `paper: #fffefa`, `ink: #23322b`, `line: #d4e4d9`. Zelená z listov oficiálneho loga; tmavší brand a accent pre kontrast bieleho textu, svetlé zelené plochy. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/svokrinejazyky-qa.json`, `svokrinejazyky-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/svokrinejazyky-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Gasteria sp. | izbové rastliny | 10,00 € | [detail](https://svokrinejazyky.sk/obchod/gasteria-sp/) |
+| Roldana petasitis | izbové rastliny | 11,00 € | [detail](https://svokrinejazyky.sk/obchod/roldana-petasitis/) |
+| Aglaonema ‘Slim Jim‘ | izbové rastliny | 12,00 € | [detail](https://svokrinejazyky.sk/obchod/aglaonema-slim-jim/) |
+| Homalomena humilis | izbové rastliny | 12,00 € | [detail](https://svokrinejazyky.sk/obchod/homalomena-humilis/) |
+| Hoya australis ‘Lisa‘ | izbové rastliny | 12,00 € | [detail](https://svokrinejazyky.sk/obchod/hoya-australis-lisa/) |
+| Philodendron hastatum + Epipremnum ‘Neon‘ | izbové rastliny | 12,00 € | [detail](https://svokrinejazyky.sk/obchod/philodendron-hastatum-epipremnum-neon/) |
+| Philodendron ‘Birkin‘ | izbové rastliny | 12,00 € | [detail](https://svokrinejazyky.sk/obchod/philodendron-birkin/) |
+| Sansevieria trifasciata ‘Laurentii‘ | izbové rastliny | 12,00 € | [detail](https://svokrinejazyky.sk/obchod/sansevieria-trifasciata-laurentii/) |
+| Sansevieria ‘Comet Canoe no. 3‘ | izbové rastliny | 12,00 € | [detail](https://svokrinejazyky.sk/obchod/sansevieria-comet-canoe-no-3/) |
+| Coleotrype goudotii | izbové rastliny | 15,00 € | [detail](https://svokrinejazyky.sk/obchod/coleotrype-goudotii/) |
+| Spathiphyllum wallisii | izbové rastliny | 15,00 € | [detail](https://svokrinejazyky.sk/obchod/spathiphyllum-wallisii/) |
+| Alocasia wongii | izbové rastliny | 17,00 € | [detail](https://svokrinejazyky.sk/obchod/alocasia-wongii/) |
+| Gasteria retusa | izbové rastliny | 17,00 € | [detail](https://svokrinejazyky.sk/obchod/gasteria-retusa/) |
+| Jatropha podagrica „Orange“ | izbové rastliny | 17,00 € | [detail](https://svokrinejazyky.sk/obchod/jatropha-podagrica/) |
+| Philodendron ‘Majesty‘ | izbové rastliny | 18,00 € | [detail](https://svokrinejazyky.sk/obchod/philodendron-majesty/) |
+| Zamioculcas zamiifolia ‘Raven’ | izbové rastliny | 18,00 € | [detail](https://svokrinejazyky.sk/obchod/zamioculcas-zamiifolia-raven/) |
+| Philodendron gigas | izbové rastliny | 19,00 € | [detail](https://svokrinejazyky.sk/obchod/philodendron-gigas/) |
+| Philodendron ‘Lemon Lime‘ (závesný kvetináč) | izbové rastliny | 19,00 € | [detail](https://svokrinejazyky.sk/obchod/philodendron-lemon-lime/) |
+| Monstera deliciosa (cca 70 cm) | izbové rastliny | 24,00 € | [detail](https://svokrinejazyky.sk/obchod/monstera-deliciosa-velka/) |
+| Philodendron hastatum ‘Silver Sword’ (dospelé listy) | izbové rastliny | 24,00 € | [detail](https://svokrinejazyky.sk/obchod/philodendron-hastatum-silver-sword-velky/) |
+| Begonia chloroneura | izbové rastliny | 25,00 € | [detail](https://svokrinejazyky.sk/obchod/begonia-chloroneura/) |
+| Campyloneurum nitidum | izbové rastliny | 25,00 € | [detail](https://svokrinejazyky.sk/obchod/campyloneurum-nitidum/) |
+| Sansevieria trifasciata ‘Laurentii‘ (veľká) | izbové rastliny | 26,00 € | [detail](https://svokrinejazyky.sk/obchod/sansevieria-trifasciata-laurentii-velka/) |
+| Dieffenbachia seguine ‘Sterling‘ | izbové rastliny | 29,00 € | [detail](https://svokrinejazyky.sk/obchod/dieffenbachia-seguine-sterling/) |
+| Ficus montana (veľký) | izbové rastliny | 29,00 € | [detail](https://svokrinejazyky.sk/obchod/ficus-montana-velky/) |
+| Nephthytis swainei | izbové rastliny | 29,00 € | [detail](https://svokrinejazyky.sk/obchod/nephthytis-swainei/) |
+| Anthurium clidemioides | izbové rastliny | 35,00 € | [detail](https://svokrinejazyky.sk/obchod/anthurium-clidemioides/) |
+| Caladium sp. Colombia „White Spots“ XL | izbové rastliny | 39,00 € | [detail](https://svokrinejazyky.sk/obchod/caladium-sp-colombia-white-spots/) |
+| Aglaonema commutatum ‘Tricolor‘ | izbové rastliny | 42,00 € | [detail](https://svokrinejazyky.sk/obchod/aglaonema-commutatum-tricolor/) |
+| Monstera deliciosa ‘Bulbasaur‘ | izbové rastliny | 49,00 € | [detail](https://svokrinejazyky.sk/obchod/monstera-deliciosa-bulbasaur-mala/) |
+| Philodendron atratum (veľký) | izbové rastliny | 49,00 € | [detail](https://svokrinejazyky.sk/obchod/philodendron-atratum/) |
+| Sansevieria ‚Rudal‘ | izbové rastliny | 49,00 € | [detail](https://svokrinejazyky.sk/obchod/sansevieria-rudal/) |
+| Dracaena draco | Zberateľské rastliny | 9,00 € | [detail](https://svokrinejazyky.sk/obchod/dracaena-draco/) |
+| Alocasia azlanii (malá) | Zberateľské rastliny | 12,00 € | [detail](https://svokrinejazyky.sk/obchod/alocasia-azlanii-mala/) |
+| Philodendron brandtianum (viac rastlín v kvetináči) | Zberateľské rastliny | 12,00 € | [detail](https://svokrinejazyky.sk/obchod/philodendron-brandtianum/) |
+| Sansevieria ‘Almond Silver‘ | Zberateľské rastliny | 12,00 € | [detail](https://svokrinejazyky.sk/obchod/sansevieria-almond-silver/) |
+| Hoya heuschkeliana ‘Outer Variegata‘ | Zberateľské rastliny | 14,00 € | [detail](https://svokrinejazyky.sk/obchod/hoya-heuschkeliana-outer-variegata/) |
+| Hoya lacunosa ‘Tricolor Bruno‘ | Zberateľské rastliny | 15,00 € | [detail](https://svokrinejazyky.sk/obchod/hoya-lacunosa-tricolor-bruno/) |
+| Begonia barsalouxiae | Zberateľské rastliny | 16,00 € | [detail](https://svokrinejazyky.sk/obchod/begonia-barsalouxiae/) |
+| Philodendron hopkinsianum (Burle-Marx Fantasy) | Zberateľské rastliny | 16,00 € | [detail](https://svokrinejazyky.sk/obchod/philodendron-hopkinsianum-burle-marx-fantasy/) |
+| Alocasia ‘Platinum‘ | Zberateľské rastliny | 18,00 € | [detail](https://svokrinejazyky.sk/obchod/alocasia-platinum/) |
+| Anthurium luxurians × radicans | Zberateľské rastliny | 19,00 € | [detail](https://svokrinejazyky.sk/obchod/anthurium-luxurians-x-radicans/) |
+| Syngonium podophyllum ‘Albo-Variegatum‘ | Zberateľské rastliny | 19,00 € | [detail](https://svokrinejazyky.sk/obchod/syngonium-albo-variegatum/) |
+| Anthurium ‘Red Crystallinum‘ | Zberateľské rastliny | 25,00 € | [detail](https://svokrinejazyky.sk/obchod/anthurium-red-crystallinum/) |
+| Hoya occultata ‘Splash‘ | Zberateľské rastliny | 28,00 € | [detail](https://svokrinejazyky.sk/obchod/hoya-occultata-splash/) |
+| Sansevieria ‘Blue Leaf Variegata‘ | Zberateľské rastliny | 33,00 € | [detail](https://svokrinejazyky.sk/obchod/sansevieria-blue-leaf-variegata/) |
+| Anthurium ‘Dark Mama‘ × ‘Ace of Spades‘ | Zberateľské rastliny | 44,00 € | [detail](https://svokrinejazyky.sk/obchod/anthurium-dark-mama-x-ace-of-spades/) |
+| Sansevieria ’Ghea’ | Zberateľské rastliny | 49,00 € | [detail](https://svokrinejazyky.sk/obchod/sansevieria-ghea/) |
+| Samozavlažovací kvetináč s priehľadnou vložkou – závesný | črepníky | 10,90 € | [detail](https://svokrinejazyky.sk/obchod/samozavlazovaci-kvetinac-s-priehladnou-vlozkou-zavesny/) |
+| Smalťák „nevyrušuj, rastiem“ | črepníky | 12,00 € | [detail](https://svokrinejazyky.sk/obchod/smaltak-nevyrusuj-rastiem/) |
+| Valcový obal s drevenou podstavou (zelený) | črepníky | 12,00 € | [detail](https://svokrinejazyky.sk/obchod/valcovy-obal-s-drevenou-podstavou-zeleny/) |
+| Valcový obal s drevenou podstavou (šedý) | črepníky | 15,00 € | [detail](https://svokrinejazyky.sk/obchod/valcovy-obal-s-drevenou-podstavou-sedy/) |
+| Substrát Forestina profík na kaktusy a sukulenty (5l) | substráty | 5,90 € | [detail](https://svokrinejazyky.sk/obchod/substrat-forestina-profik-na-kaktusy-a-sukulenty-5l/) |
+| Substrát Forestina profík na orchidey a bromélie (5l) | substráty | 5,90 € | [detail](https://svokrinejazyky.sk/obchod/substrat-forestina-profik-na-orchidey-a-bromelie-5l/) |
+| Substrát SERAMIS na izbové rastliny 2,5l | substráty | 6,90 € | [detail](https://svokrinejazyky.sk/obchod/substrat-seramis-na-izbove-rastliny-25l/) |
+| Perlit SYBAsoil Premium (2-6 mm) 3 l | substráty | 9,90 € | [detail](https://svokrinejazyky.sk/obchod/perlit-sybasoil-premium-2-6-mm-3-l/) |
+| Substrát SERAMIS na izbové rastliny 7,5l | substráty | 12,90 € | [detail](https://svokrinejazyky.sk/obchod/substrat-seramis-na-izbove-rastliny-75l/) |
+| Substrát SERAMIS na izbové rastliny 15l | substráty | 19,90 € | [detail](https://svokrinejazyky.sk/obchod/substrat-seramis-na-izbove-rastliny-15l/) |
+| Substrát PLANTSCRAPER Premium Aroid Mix 8,5 l | substráty | 19,95 € | [detail](https://svokrinejazyky.sk/obchod/substrat-plantscraper-premium-aroid-mix-85-l/) |

@@ -135,3 +135,7 @@ for i,(p,path) in enumerate(good[:2]):
 canvas.save(out/f'{slug}-mobile.jpg',quality=90,optimize=True)
 # Keep the download exclusions out of the public catalogue.
 save(source_path,[p for p,path in good])
+# A changed curated selection must not leave photos of rejected items behind.
+keep={Path(p['photo']).name for p,path in good}
+for stale in out.glob(f'{slug}-*.jpg'):
+ if re.fullmatch(re.escape(slug)+r'-[pv]\d+\.jpg',stale.name) and stale.name not in keep:stale.unlink()
