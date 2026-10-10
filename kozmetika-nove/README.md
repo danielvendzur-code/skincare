@@ -82,3 +82,5 @@ nenačítané obrázky a horizontálne pretečenie.
 [Zmeny po ukážkach, registre, zdroje produktov a QA](REWORK-2026-10-10.md). Aktuálne doplnené fakty sú v `research/catalogue-expansion-2026-10-10.json`; predchádzajúce rozšírenia zostávajú v audite z 9. 10.
 
 - **Puaree**: `/puaree/` alebo `/cosmetics.html?demo=puaree`; 78 dostupných balení, IČO 07734921, ARES 120: 6–9. Oficiálne fotky aj vo výbere. Zdroje: `ZDROJE.md`.
+
+- **Mydlitto**: `/mydlitto/` alebo `/cosmetics.html?demo=mydlitto`; 51 dostupných balení, IČO 07652917, ARES 120: 6–9. Oficiálne fotky aj vo výbere. Zdroje: `ZDROJE.md`.

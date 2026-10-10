@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "mydlitto",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 51,
+    "categories": [
+      "face",
+      "body"
+    ]
+  },
+  {
+    "slug": "mydlitto",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 51,
+    "categories": [
+      "face",
+      "body"
+    ]
+  },
+  {
+    "slug": "mydlitto",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 51,
+    "categories": [
+      "face",
+      "body"
+    ]
+  }
+]

@@ -617,3 +617,69 @@ krémová plocha.
 | Měsíčková mast s heřmánkem | 50ml | 289 Kč | [e-shop](https://www.puaree.cz/masticky/hermankovo-mesickova-mast/) |
 
 QA: desktop 1440 × 900, mobil 390 × 844 a 360 × 800 — PASS. Vizuálne skontrolované screenshoty výberu, výsledkov a chatu; bez vodorovného pretečenia, všetky lokálne fotografie načítané. Záznam: `research/qa-new-demos-2026-10-10/puaree.json`.
+
+
+## Mydlitto — overené 10. 10. 2026
+
+- Prevádzkovateľ: Mydlitto, IČO **07652917**; vlastník: Josef Šternberg.
+- Veľkosť: **ARES 120: 6–9**. [Primárny register](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/07652917). Kód 120 znamená 6–9, nie nulový počet zamestnancov.
+- Vlastný e-shop: https://www.mydlitto.cz/; 51 dostupných balení. Prieskum domén, IČO a vlastníkov v existujúcich konfigoch nevykázal duplicitu.
+- Zachovaný spoločný engine, rozšírený katalóg a fotografie v každom kroku; lokálne oficiálne fotografie, bez generovaných produktových obrázkov. Symbol pri každej správe je výrez oficiálneho loga.
+- Ceny platia pre uvedené balenie. Vzorky, vypredané varianty a neoverené veľkosti sú vynechané. Identická fotografia viacerých variantov pochádza z oficiálnej spoločnej galérie produktu.
+- Dostupnosť, konkrétny variant, URL a SHA-256 obrázkov: `research/new-demos-2026-10-10.json`. UI neopakuje zdravotné tvrdenia zo zdrojových popisov.
+
+| Produkt | Balenie | Cena | Zdroj |
+|---|---|---|---|
+| Chmelový  šampon s lípou | 120 ml | 145 Kč | [e-shop](https://www.mydlitto.cz/Chmelovy-sampon-s-lipou-d153.htm) |
+| HAMMAM - Černé peelingové mýdlo - 30% AKCE | 100 ml | 109 Kč | [e-shop](https://www.mydlitto.cz/HAMMAM-Cerne-peelingove-mydlo-30-AKCE-d2354.htm) |
+| Hedvábný Bavlník - jemné mýdlo 100 g | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Hedvabny-Bavlnik-jemne-mydlo-100-g-d689.htm) |
+| Dubové mýdlo 100 g | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Dubove-mydlo-100-g-d22.htm) |
+| Dračí mýdlo  - 100 g | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Draci-mydlo-100-g-d2336.htm) |
+| Badyánové mýdlo 100 g | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Badyanove-mydlo-100-g-d1386.htm) |
+| Neem mýdlo 100 g | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Neem-mydlo-100-g-d167.htm) |
+| Olivové mýdlo 100 g | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Olivove-mydlo-100-g-d31.htm) |
+| Onneton Soap 100 g - Smolné mýdlo | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Onneton-Soap-100-g-Smolne-mydlo-d417.htm) |
+| Kakaiba - Konjakové mýdlo s rýžovým proteinem 100 g | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Kakaiba-Konjakove-mydlo-s-ryzovym-proteinem-100-g-d1989.htm) |
+| Jemné  KOZÍ mýdlo s magneziem 100 g | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Jemne-KOZI-mydlo-s-magneziem-100-g-d2184.htm) |
+| Vavřínové mýdlo 100 g | 100 g | 155 Kč | [e-shop](https://www.mydlitto.cz/Vavrinove-mydlo-100-g-d119.htm) |
+| Propolisové mýdlo 100 g | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Propolisove-mydlo-100-g-d28.htm) |
+| Sopečné mýdlo ELDBY - 100 g | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Sopecne-mydlo-ELDBY-100-g-d1826.htm) |
+| Růžové mýdlo 100 g | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Ruzove-mydlo-100-g-d165.htm) |
+| Šípkové mýdlo 100 g | 100 g | 145 Kč | [e-shop](https://www.mydlitto.cz/Sipkove-mydlo-100-g-d1173.htm) |
+| Norkový krém 25 ml sklo | 25 ml | 185 Kč | [e-shop](https://www.mydlitto.cz/Norkovy-krem-25-ml-sklo-d433.htm) |
+| Norkový krém - Airless balení 50 ml | 50 ml | 355 Kč | [e-shop](https://www.mydlitto.cz/Norkovy-krem-Airless-baleni-50-ml-d412.htm) |
+| Hedvábný krém na ruce - dóza 50 ml | 50 ml | 255 Kč | [e-shop](https://www.mydlitto.cz/Hedvabny-krem-na-ruce-doza-50-ml-d1686.htm) |
+| Šípkové mléko -120 ml - 40%  AKCE | 120 ml | 155 Kč | [e-shop](https://www.mydlitto.cz/Sipkove-mleko-120-ml-40-AKCE-d2138.htm) |
+| Zvláčňující krém na nohy s deodorantem - 30 ml tuba | 30 ml | 130 Kč | [e-shop](https://www.mydlitto.cz/Zvlacnujici-krem-na-nohy-s-deodorantem-30-ml-tuba-d1707.htm) |
+| Hedvábný krém na ruce - 30 ml  akce! | 30 ml | 99 Kč | [e-shop](https://www.mydlitto.cz/Hedvabny-krem-na-ruce-30-ml-akce-d1687.htm) |
+| Castaneis - Kaštanové sérum 50 ml | 50 ml | 245 Kč | [e-shop](https://www.mydlitto.cz/Castaneis-Kastanove-serum-50-ml-d1653.htm) |
+| Zvláčňující krém na nohy s deodorantem - 50 ml | 50 ml | 255 Kč | [e-shop](https://www.mydlitto.cz/Zvlacnujici-krem-na-nohy-s-deodorantem-50-ml-d1705.htm) |
+| Rýžový oleogel - LAVA DE OREZ | 50 ml | 199 Kč | [e-shop](https://www.mydlitto.cz/Ryzovy-oleogel-LAVA-DE-OREZ-d319.htm) |
+| Foam Kleopatra Face - mycí pěna 50 ml | 50 ml | 145 Kč | [e-shop](https://www.mydlitto.cz/Foam-Kleopatra-Face-myci-pena-50-ml-d27.htm) |
+| Arganové olejové sérum - 60% AKCE | 30 ml | 360 Kč | [e-shop](https://www.mydlitto.cz/Arganove-olejove-serum-60-AKCE-d2410.htm) |
+| Odličovací mléko "Wilde Roos"  115 ml | 115 ml | 245 Kč | [e-shop](https://www.mydlitto.cz/Odlicovaci-mleko-Wilde-Roos-115-ml-d1697.htm) |
+| 2% Kyselina Hyaluronová 30 ml | 30 ml | 749 Kč | [e-shop](https://www.mydlitto.cz/2-Kyselina-Hyaluronova-30-ml-d207.htm) |
+| Castaneis - Kaštanové sérum 115 ml | 115 ml | 399 Kč | [e-shop](https://www.mydlitto.cz/Castaneis-Kastanove-serum-115-ml-d1654.htm) |
+| Šípkové Tonizační Sérum 60 ml - sprej | 60 ml | 299 Kč | [e-shop](https://www.mydlitto.cz/Sipkove-Tonizacni-Serum-60-ml-sprej-d988.htm) |
+| 2% Kyselina Hyaluronová 15 ml | 15 ml | 389 Kč | [e-shop](https://www.mydlitto.cz/2-Kyselina-Hyaluronova-15-ml-d152.htm) |
+| DETOX - Jílová maska | 10 g | 55 Kč | [e-shop](https://www.mydlitto.cz/DETOX-Jilova-maska-d66.htm) |
+| ZINKOVÁ - Jílová maska | 10 g | 55 Kč | [e-shop](https://www.mydlitto.cz/ZINKOVA-Jilova-maska-d45.htm) |
+| ALABASTER FACE - Jílová maska | 10 g | 65 Kč | [e-shop](https://www.mydlitto.cz/ALABASTER-FACE-Jilova-maska-d46.htm) |
+| MYRRH DAY - Myrhové tonikum | 115 ml | 175 Kč | [e-shop](https://www.mydlitto.cz/MYRRH-DAY-Myrhove-tonikum-d16.htm) |
+| Růžový olej - 15 ml | 15 ml | 85 Kč | [e-shop](https://www.mydlitto.cz/Ruzovy-olej-15-ml-d1904.htm) |
+| Měsíčkový olej - 50 ml | 50 ml | 165 Kč | [e-shop](https://www.mydlitto.cz/Mesickovy-olej-50-ml-d2049.htm) |
+| Kaštanový olej 50 ml | 50 ml | 165 Kč | [e-shop](https://www.mydlitto.cz/Kastanovy-olej-50-ml-d1561.htm) |
+| Měsíčkový olej - 15 ml | 15 ml | 85 Kč | [e-shop](https://www.mydlitto.cz/Mesickovy-olej-15-ml-d1903.htm) |
+| Kaštanový olej 15 ml | 15 ml | 85 Kč | [e-shop](https://www.mydlitto.cz/Kastanovy-olej-15-ml-d1945.htm) |
+| Deodorant Deo Tea - 50 ml | 50 ml | 199 Kč | [e-shop](https://www.mydlitto.cz/Deodorant-Deo-Tea-50-ml-d779.htm) |
+| Deo Zinc - deodorant 100 ml | 100 ml | 285 Kč | [e-shop](https://www.mydlitto.cz/Deo-Zinc-deodorant-100-ml-d2598.htm) |
+| Růžový olej - 50 ml | 50 ml | 199 Kč | [e-shop](https://www.mydlitto.cz/Ruzovy-olej-50-ml-d2048.htm) |
+| Magnezium Comfort Mist - hořčíkový sprej s mentolem | 50 ml | 155 Kč | [e-shop](https://www.mydlitto.cz/Magnezium-Comfort-Mist-horcikovy-sprej-s-mentolem-d2504.htm) |
+| Deo Zinc - deodorant 50 ml | 50 ml | 199 Kč | [e-shop](https://www.mydlitto.cz/Deo-Zinc-deodorant-50-ml-d63.htm) |
+| Deodorant Deo Tea - 100 ml | 100 ml | 285 Kč | [e-shop](https://www.mydlitto.cz/Deodorant-Deo-Tea-100-ml-d811.htm) |
+| Sůl z mrtvého moře - solný gel - 400 g | 400 g | 320 Kč | [e-shop](https://www.mydlitto.cz/Sul-z-mrtveho-more-solny-gel-400-g-d809.htm) |
+| Pivní sladová sůl 3 x 100 G | 100 G | 135 Kč | [e-shop](https://www.mydlitto.cz/Pivni-sladova-sul-3-x-100-G-d1906.htm) |
+| Sůl z mrtvého moře - solný gel - 50 ml | 50 ml | 55 Kč | [e-shop](https://www.mydlitto.cz/Sul-z-mrtveho-more-solny-gel-50-ml-d1477.htm) |
+| Pivní sladová sůl 100 G | 100 G | 45 Kč | [e-shop](https://www.mydlitto.cz/Pivni-sladova-sul-100-G-d1905.htm) |
+
+QA Mydlitto: desktop 1440 × 900, mobil 390 × 844 a 360 × 800 — PASS. Vizuálne skontrolované screenshoty; chodidlové krémy patria do tela, nie do pleti. Oficiálny znak je čitateľný v hlavičke aj pri každej správe. Záznam: `research/qa-new-demos-2026-10-10/mydlitto.json`.

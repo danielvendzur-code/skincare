@@ -105,3 +105,6 @@ body[data-cosmetics-demo="zahir"] .cx-owner-brand .cx-logo {
 body[data-cosmetics-demo="zahir"] .cx-widget-brand .cx-logo {
   max-height: 40px !important;
 }
+
+/* The official Mydlitto badge retains its black artwork on the white plate. */
+body[data-cosmetics-demo="mydlitto"] .cx-widget-brand .cx-logo {filter:none!important;width:34px!important;height:34px!important;object-fit:contain!important;background:#fff!important;border-radius:50%;}
