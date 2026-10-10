@@ -198,5 +198,59 @@
       "Kokosový květináč (8 cm)",
       "Sansevieria Laurentii \"S\""
     ]
+  },
+  "plantoteka": {
+    "theme": {
+      "brand": "#235e49",
+      "accent": "#2b7258",
+      "soft": "#f4eeea",
+      "paper": "#fffefa",
+      "ink": "#253229",
+      "line": "#dedfd5"
+    },
+    "platform": "shoptet",
+    "currency": "EUR",
+    "logoNote": "Oficiálne logo; pri potrebe zväčšené s Lanczos vyhladením. Symbol v kruhu vyrezaný z pôvodného loga.",
+    "themeNote": "Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu.",
+    "exclude": "poukaz|workshop|kurz|um[eě]l|řízek|rezerv|předobjedn|predobjedn|dar[čc]ekov.*box",
+    "limits": {
+      "plants": 36,
+      "succulents": 14,
+      "pots": 12,
+      "substrates": 12
+    },
+    "name": "Plantotéka",
+    "website": "https://www.plantoteka.sk/",
+    "kinds": [
+      "plants",
+      "pots",
+      "substrates"
+    ],
+    "categories": {
+      "plants": [
+        "vsetky-rastliny"
+      ],
+      "pots": [
+        "kvetinace-2"
+      ],
+      "substrates": [
+        "hotove-substraty",
+        "prisady-do-substratov"
+      ]
+    },
+    "categoryNotes": {
+      "plants": "Izbové rastliny a zberateľské kultivary",
+      "pots": "Samostatné črepníky a obaly",
+      "substrates": "Hotové zmesi a ich prísady"
+    },
+    "logoSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/logos/plantot__ka_logo.jpg",
+    "markCrop": [
+      0,
+      0,
+      385,
+      400
+    ],
+    "terms": "https://www.plantoteka.sk/obchodne-podmienky/",
+    "fit": "Malé rastlinárstvo jednej podnikateľky bez zamestnancov podľa registra; podobné izbové druhy a kultivary s doplnkami, pri ktorých záleží na svetle a rozpočte."
   }
 }

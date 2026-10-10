@@ -16,3 +16,4 @@ Chat funguje bez API kľúča z overeného katalógu. Voliteľný `ANTHROPIC_API
 | [Zahrada na niti](https://www.zahradananiti.cz/) | [`zahradananiti`](./zahradananiti/index.html) | 50 | kokedamy, tillandsie, rastlinné teráriá, substráty | koke no koke s.r.o. / 06096221 | Tržby nedoložené; 6–9 zam. | PASS 1440 / 390 / 360 |
 | [KytkaSem](https://www.kytkasem.cz/) | [`kytkasem`](./kytkasem/index.html) | 61 | izbové rastliny, sukulenty a kaktusy, črepníky, substráty | Eva Balašová / 02204452 | Tržby nedoložené; 1–5 zam. | PASS 1440 / 390 / 360 |
 | [Farmářky z paneláku](https://farmarkyzpanelaku.cz/) | [`farmarky`](./farmarky/index.html) | 50 | izbové rastliny, črepníky, substráty | Jolana Šádková / 09315543 | Tržby nedoložené; 1–5 zam. | PASS 1440 / 390 / 360 |
+| [Plantotéka](https://www.plantoteka.sk/) | [`plantoteka`](./plantoteka/index.html) | 40 | izbové rastliny, črepníky, substráty | Ing. Nikola Faturík / 55004709 | Tržby nedoložené; 0 zam. | PASS 1440 / 390 / 360 |

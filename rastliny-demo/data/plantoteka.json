@@ -1,0 +1,1017 @@
+{
+  "theme": {
+    "brand": "#235e49",
+    "accent": "#2b7258",
+    "soft": "#f4eeea",
+    "paper": "#fffefa",
+    "ink": "#253229",
+    "line": "#dedfd5"
+  },
+  "currency": "EUR",
+  "name": "Plantotéka",
+  "website": "https://www.plantoteka.sk/",
+  "kinds": [
+    "plants",
+    "pots",
+    "substrates"
+  ],
+  "categoryNotes": {
+    "plants": "Izbové rastliny a zberateľské kultivary",
+    "pots": "Samostatné črepníky a obaly",
+    "substrates": "Hotové zmesi a ich prísady"
+  },
+  "slug": "plantoteka",
+  "hero": "/assets/plants/plantoteka.jpg",
+  "mobileHero": "/assets/plants/plantoteka-mobile.jpg",
+  "logo": "/assets/plants/plantoteka-logo.png",
+  "mark": "/assets/plants/plantoteka-mark.png",
+  "products": [
+    {
+      "id": "p4787",
+      "name": "Monstera adansonii",
+      "kind": "plants",
+      "price": "8,90 €",
+      "priceValue": 8.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/monstera-adansonii/",
+      "photo": "/assets/plants/plantoteka-p4787.jpg",
+      "tags": [
+        "bright",
+        "genus:monstera",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 12 cm.",
+        "Popínavý alebo previsnutý rast podľa popisu predajcu."
+      ],
+      "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4787_monstera-adansonii.jpg?ff=1&x=1024&y=1024&q=85&ts=6a8f1cca&sg=38cb01fe"
+    },
+    {
+      "id": "p5087",
+      "name": "Peperomia Sarcophylla",
+      "kind": "plants",
+      "price": "8,90 €",
+      "priceValue": 8.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/peperomia/",
+      "photo": "/assets/plants/plantoteka-p5087.jpg",
+      "tags": [
+        "genus:peperomia"
+      ],
+      "facts": [
+        "Črepník podľa e-shopu: 12 cm."
+      ],
+      "reason": "Črepník podľa e-shopu: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5087_peperomia-sarcophylla.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab4343b&sg=38cb01fe"
+    },
+    {
+      "id": "p4520",
+      "name": "Kvetináč Bria",
+      "kind": "pots",
+      "price": "8,90 €",
+      "priceValue": 8.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/kvetinac-bria/",
+      "photo": "/assets/plants/plantoteka-p4520.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 12 cm.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+        "Priemer alebo šírka podľa predajcu: 12 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 12 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline. Priemer alebo šírka podľa predajcu: 12 cm.",
+      "diameter": 12.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4520_kvetinac-bria.jpg?ff=1&x=1024&y=1024&q=85&ts=67a354cb&sg=38cb01fe"
+    },
+    {
+      "id": "p4382",
+      "name": "Begonia Listrada",
+      "kind": "plants",
+      "price": "4,90 €",
+      "priceValue": 4.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/begonia-3/",
+      "photo": "/assets/plants/plantoteka-p4382.jpg",
+      "tags": [
+        "bright",
+        "genus:begonia"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 6 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4382_begonia-listrada.jpg?ff=1&x=1024&y=1024&q=85&ts=6a985fd2&sg=38cb01fe"
+    },
+    {
+      "id": "p4778",
+      "name": "Aglaonema Rich Red",
+      "kind": "plants",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/aglaonema-7/",
+      "photo": "/assets/plants/plantoteka-p4778.jpg",
+      "tags": [
+        "genus:aglaonema",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Črepník podľa e-shopu: 6 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4778-1_aglaonema-rich-red.jpg?ff=1&x=1024&y=1024&q=85&ts=6a4e66ef&sg=38cb01fe"
+    },
+    {
+      "id": "p4352",
+      "name": "Aglaonema pictum Tricolor",
+      "kind": "plants",
+      "price": "7,90 €",
+      "priceValue": 7.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/aglaonema-13/",
+      "photo": "/assets/plants/plantoteka-p4352.jpg",
+      "tags": [
+        "bright",
+        "genus:aglaonema",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 6 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4352-1_aglaonema-pictum-tricolor.jpg?ff=1&x=1024&y=1024&q=85&ts=6ac67871&sg=38cb01fe"
+    },
+    {
+      "id": "p5200",
+      "name": "Begonia leaf Looking Glass",
+      "kind": "plants",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/begonia-6/",
+      "photo": "/assets/plants/plantoteka-p5200.jpg",
+      "tags": [
+        "bright",
+        "genus:begonia"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 8 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm.",
+      "diameter": null,
+      "potDiameter": 8.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5200_begonia-leaf-looking-glass.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab43b11&sg=38cb01fe"
+    },
+    {
+      "id": "p5108",
+      "name": "Aglaonema Peach Pearl",
+      "kind": "plants",
+      "price": "12,90 €",
+      "priceValue": 12.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/aglaonema-peach-pearl/",
+      "photo": "/assets/plants/plantoteka-p5108.jpg",
+      "tags": [
+        "bright",
+        "genus:aglaonema",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 12 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5108_aglaonema-peach-pearl.jpg?ff=1&x=1024&y=1024&q=85&ts=6a98631c&sg=38cb01fe"
+    },
+    {
+      "id": "p5342",
+      "name": "Ceropegia woodii variegata",
+      "kind": "plants",
+      "price": "12,90 €",
+      "priceValue": 12.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/ceropegia-woodii-variegata/",
+      "photo": "/assets/plants/plantoteka-p5342.jpg",
+      "tags": [
+        "genus:ceropegia",
+        "sun",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Črepník podľa e-shopu: 12 cm.",
+        "Popínavý alebo previsnutý rast podľa popisu predajcu."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Črepník podľa e-shopu: 12 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5342-1_ceropegia-woodii-variegata.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab4326f&sg=38cb01fe"
+    },
+    {
+      "id": "p5348",
+      "name": "Aeonium Anna",
+      "kind": "plants",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/aeonium-anna/",
+      "photo": "/assets/plants/plantoteka-p5348.jpg",
+      "tags": [
+        "bright",
+        "genus:aeonium"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 12 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5348-1_aeonium-anna.jpg?ff=1&x=1024&y=1024&q=85&ts=6ac67813&sg=38cb01fe"
+    },
+    {
+      "id": "p5351",
+      "name": "Aeonium Medusa",
+      "kind": "plants",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/aeonium-medusa/",
+      "photo": "/assets/plants/plantoteka-p5351.jpg",
+      "tags": [
+        "bright",
+        "genus:aeonium"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 12 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5351-2_aeonium-medusa.jpg?ff=1&x=1024&y=1024&q=85&ts=6ac677fa&sg=38cb01fe"
+    },
+    {
+      "id": "p5182",
+      "name": "Alocasia lauterbachiana variegata",
+      "kind": "plants",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/alocasia-13/",
+      "photo": "/assets/plants/plantoteka-p5182.jpg",
+      "tags": [
+        "genus:alocasia",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Črepník podľa e-shopu: 6 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5182-1_alocasia-lauterbachiana-variegata.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab44187&sg=38cb01fe"
+    },
+    {
+      "id": "p4254",
+      "name": "Labisia obtusifolia Turtle Back",
+      "kind": "plants",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/labisia-turtle-back/",
+      "photo": "/assets/plants/plantoteka-p4254.jpg",
+      "tags": [
+        "genus:labisia",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Črepník podľa e-shopu: 8 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 8 cm.",
+      "diameter": null,
+      "potDiameter": 8.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4254_labisia-obtusifolia-turtle-back.jpg?ff=1&x=1024&y=1024&q=85&ts=6ac67eb1&sg=38cb01fe"
+    },
+    {
+      "id": "p4697",
+      "name": "Philodendron Cherry Red",
+      "kind": "plants",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/philodendron-15/",
+      "photo": "/assets/plants/plantoteka-p4697.jpg",
+      "tags": [
+        "genus:philodendron",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Črepník podľa e-shopu: 14 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 14 cm.",
+      "diameter": null,
+      "potDiameter": 14.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4697_philodendron-cherry-red.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab434d3&sg=38cb01fe"
+    },
+    {
+      "id": "p4433",
+      "name": "Philodendron Summer Glory veľký",
+      "kind": "plants",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/philodendron-16/",
+      "photo": "/assets/plants/plantoteka-p4433.jpg",
+      "tags": [
+        "genus:philodendron",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Črepník podľa e-shopu: 17 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 17 cm.",
+      "diameter": null,
+      "potDiameter": 17.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4433_philodendron-summer-glory-velky.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab429ba&sg=38cb01fe"
+    },
+    {
+      "id": "p5066",
+      "name": "Streptocarpus - viacero druhov",
+      "kind": "plants",
+      "price": "16,90 €",
+      "priceValue": 16.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/streptocarpus-viacero-druhov/",
+      "photo": "/assets/plants/plantoteka-p5066.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:streptocarpus"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 12 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5066_a--35.jpg?ff=1&x=1024&y=1024&q=85&ts=67ff7abd&sg=38cb01fe"
+    },
+    {
+      "id": "p4364",
+      "name": "Aglaonema White Joy",
+      "kind": "plants",
+      "price": "18,90 €",
+      "priceValue": 18.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/aglaonema-white-joy/",
+      "photo": "/assets/plants/plantoteka-p4364.jpg",
+      "tags": [
+        "bright",
+        "genus:aglaonema",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 12 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4364-2_aglaonema-white-joy.jpg?ff=1&x=1024&y=1024&q=85&ts=6ac67888&sg=38cb01fe"
+    },
+    {
+      "id": "p4391",
+      "name": "Monstera adansonii variegata",
+      "kind": "plants",
+      "price": "18,90 €",
+      "priceValue": 18.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/monstera-adansonii-variegata/",
+      "photo": "/assets/plants/plantoteka-p4391.jpg",
+      "tags": [
+        "genus:monstera",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Črepník podľa e-shopu: 6 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4391_monstera-adansonii-variegata.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab440c7&sg=38cb01fe"
+    },
+    {
+      "id": "p4361",
+      "name": "Aglaonema Buttercup Pink",
+      "kind": "plants",
+      "price": "19,90 €",
+      "priceValue": 19.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/aglaonema-4/",
+      "photo": "/assets/plants/plantoteka-p4361.jpg",
+      "tags": [
+        "genus:aglaonema",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Črepník podľa e-shopu: 12 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4361_aglaonema-buttercup-pink.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab43ba5&sg=38cb01fe"
+    },
+    {
+      "id": "p5345",
+      "name": "Rhipsalis burchellii viacero druhov",
+      "kind": "plants",
+      "price": "21,90 €",
+      "priceValue": 21.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/rhipsalis-burchellii-viacero-druhov/",
+      "photo": "/assets/plants/plantoteka-p5345.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:rhipsalis",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 15 cm.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Popínavý alebo previsnutý rast podľa popisu predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 15 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 15.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5345-2_rhipsalis-burchellii-viacero-druhov.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab4365c&sg=38cb01fe"
+    },
+    {
+      "id": "p4814",
+      "name": "Anthurium Silver Blush Mint",
+      "kind": "plants",
+      "price": "24,90 €",
+      "priceValue": 24.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/anthurium-9/",
+      "photo": "/assets/plants/plantoteka-p4814.jpg",
+      "tags": [
+        "bright",
+        "genus:anthurium",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň, rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 6 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4814_anthurium-silver-blush-mint.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab43d83&sg=38cb01fe"
+    },
+    {
+      "id": "p5274",
+      "name": "Ficus lyrata variegata",
+      "kind": "plants",
+      "price": "24,90 €",
+      "priceValue": 24.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/ficus-lyrata-variegata/",
+      "photo": "/assets/plants/plantoteka-p5274.jpg",
+      "tags": [
+        "bright",
+        "genus:ficus"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 8 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm.",
+      "diameter": null,
+      "potDiameter": 8.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5274_ficus-lyrata-variegata.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab43bd4&sg=38cb01fe"
+    },
+    {
+      "id": "p4751",
+      "name": "Philodendron Caramel Marble",
+      "kind": "plants",
+      "price": "29,00 €",
+      "priceValue": 29.0,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/philodendron-12/",
+      "photo": "/assets/plants/plantoteka-p4751.jpg",
+      "tags": [
+        "genus:philodendron",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Črepník podľa e-shopu: 6 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4751-1_philodendron-caramel-marble.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab43d08&sg=38cb01fe"
+    },
+    {
+      "id": "p5081",
+      "name": "Alocasia venom",
+      "kind": "plants",
+      "price": "29,90 €",
+      "priceValue": 29.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/alocasia-venom/",
+      "photo": "/assets/plants/plantoteka-p5081.jpg",
+      "tags": [
+        "genus:alocasia",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Črepník podľa e-shopu: 8 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 8 cm.",
+      "diameter": null,
+      "potDiameter": 8.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5081-1_alocasia-venom.jpg?ff=1&x=1024&y=1024&q=85&ts=6a4e76cd&sg=38cb01fe"
+    },
+    {
+      "id": "p5284",
+      "name": "Monstera deliciosa albo variegata",
+      "kind": "plants",
+      "price": "34,90 €",
+      "priceValue": 34.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/monstera-deliciosa-albo-variegata/",
+      "photo": "/assets/plants/plantoteka-p5284.jpg",
+      "tags": [
+        "genus:monstera",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Črepník podľa e-shopu: 17 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 17 cm.",
+      "diameter": null,
+      "potDiameter": 17.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5284-1_monstera-deliciosa-albo-variegata.jpg?ff=1&x=1024&y=1024&q=85&ts=6aa198dc&sg=38cb01fe"
+    },
+    {
+      "id": "p4931",
+      "name": "Alocasia Shattered Glass",
+      "kind": "plants",
+      "price": "45,00 €",
+      "priceValue": 45.0,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/alocasia-6/",
+      "photo": "/assets/plants/plantoteka-p4931.jpg",
+      "tags": [
+        "genus:alocasia",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Črepník podľa e-shopu: 8 cm."
+      ],
+      "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 8 cm.",
+      "diameter": null,
+      "potDiameter": 8.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4931_alocasia-shattered-glass.jpg?ff=1&x=1024&y=1024&q=85&ts=6ab43c65&sg=38cb01fe"
+    },
+    {
+      "id": "p5168",
+      "name": "Euphorbia mauritanica Mayuranthii Variegata",
+      "kind": "plants",
+      "price": "54,90 €",
+      "priceValue": 54.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/euphorbia-2/",
+      "photo": "/assets/plants/plantoteka-p5168.jpg",
+      "tags": [
+        "easy",
+        "genus:euphorbia",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Črepník podľa e-shopu: 17 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Črepník podľa e-shopu: 17 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 17.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/5168_euphorbia-mauritanica-mayuranthii-variegata.jpg?ff=1&x=1024&y=1024&q=85&ts=6a731613&sg=38cb01fe"
+    },
+    {
+      "id": "p4598",
+      "name": "Plastový priehľadný kvetináč 17 cm",
+      "kind": "pots",
+      "price": "1,29 €",
+      "priceValue": 1.29,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/plastovy-priehladny-kvetinac-17-cm/",
+      "photo": "/assets/plants/plantoteka-p4598.jpg",
+      "tags": [
+        "genus:plastový",
+        "large-pot",
+        "plastic"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 17 cm.",
+        "Materiál podľa predajcu: plast.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 17 cm. Materiál podľa predajcu: plast. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": 17.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4598_a---kopia.jpg?ff=1&x=1024&y=1024&q=85&ts=678e995c&sg=38cb01fe"
+    },
+    {
+      "id": "p2201",
+      "name": "Kvetináč Abby",
+      "kind": "pots",
+      "price": "3,20 €",
+      "priceValue": 3.2,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/kvetinac/",
+      "photo": "/assets/plants/plantoteka-p2201.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 12.5 cm.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+        "Priemer alebo šírka podľa predajcu: 12.5 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 12.5 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline. Priemer alebo šírka podľa predajcu: 12.5 cm.",
+      "diameter": 12.5,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/2201_a--17.jpg?ff=1&x=1024&y=1024&q=85&ts=678e9356&sg=38cb01fe"
+    },
+    {
+      "id": "p4538",
+      "name": "Kvetináč Caro",
+      "kind": "pots",
+      "price": "3,50 €",
+      "priceValue": 3.5,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/kvetinac-caro/",
+      "photo": "/assets/plants/plantoteka-p4538.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 12.5 cm.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+        "Priemer alebo šírka podľa predajcu: 12.5 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 12.5 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline. Priemer alebo šírka podľa predajcu: 12.5 cm.",
+      "diameter": 12.5,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4538_kvetinac-caro.jpg?ff=1&x=1024&y=1024&q=85&ts=678e9561&sg=38cb01fe"
+    },
+    {
+      "id": "p4730",
+      "name": "Kvetináč Ashley",
+      "kind": "pots",
+      "price": "4,90 €",
+      "priceValue": 4.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/kvetinac-ashley/",
+      "photo": "/assets/plants/plantoteka-p4730.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 13 cm.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+        "Priemer alebo šírka podľa predajcu: 13 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 13 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline. Priemer alebo šírka podľa predajcu: 13 cm.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4730_kvetinac-ashley.jpg?ff=1&x=1024&y=1024&q=85&ts=67a360be&sg=38cb01fe"
+    },
+    {
+      "id": "p4514",
+      "name": "Kvetináč Rainbow",
+      "kind": "pots",
+      "price": "4,90 €",
+      "priceValue": 4.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/kvetinac-rainbow/",
+      "photo": "/assets/plants/plantoteka-p4514.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 9.5 cm.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+        "Priemer alebo šírka podľa predajcu: 9.5 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 9.5 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline. Priemer alebo šírka podľa predajcu: 9.5 cm.",
+      "diameter": 9.5,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4514_kvetinac-rainbow.jpg?ff=1&x=1024&y=1024&q=85&ts=678e9462&sg=38cb01fe"
+    },
+    {
+      "id": "p4727",
+      "name": "Kvetináč Farah",
+      "kind": "pots",
+      "price": "5,90 €",
+      "priceValue": 5.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/kvetinac-farah/",
+      "photo": "/assets/plants/plantoteka-p4727.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 6 cm.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+        "Priemer alebo šírka podľa predajcu: 6 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 6 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline. Priemer alebo šírka podľa predajcu: 6 cm.",
+      "diameter": 6.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4727_kvetinac-farah.jpg?ff=1&x=1024&y=1024&q=85&ts=67a3602e&sg=38cb01fe"
+    },
+    {
+      "id": "p4574",
+      "name": "Kvetináč Davina",
+      "kind": "pots",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/kvetinac-davina/",
+      "photo": "/assets/plants/plantoteka-p4574.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 12 cm.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+        "Priemer alebo šírka podľa predajcu: 12 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 12 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline. Priemer alebo šírka podľa predajcu: 12 cm.",
+      "diameter": 12.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4574_kvetinac-davina.jpg?ff=1&x=1024&y=1024&q=85&ts=678e97e0&sg=38cb01fe"
+    },
+    {
+      "id": "p4706",
+      "name": "Kvetináč Sadie",
+      "kind": "pots",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/kvetinac-sadie/",
+      "photo": "/assets/plants/plantoteka-p4706.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 12.5 cm.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+        "Priemer alebo šírka podľa predajcu: 12.5 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 12.5 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline. Priemer alebo šírka podľa predajcu: 12.5 cm.",
+      "diameter": 12.5,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4706_kvetinac-sadie.jpg?ff=1&x=1024&y=1024&q=85&ts=67a35e0a&sg=38cb01fe"
+    },
+    {
+      "id": "p4532",
+      "name": "Kvetináč Cali",
+      "kind": "pots",
+      "price": "9,90 €",
+      "priceValue": 9.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/kvetinac-cali/",
+      "photo": "/assets/plants/plantoteka-p4532.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 14 cm.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+        "Priemer alebo šírka podľa predajcu: 14 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 14 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline. Priemer alebo šírka podľa predajcu: 14 cm.",
+      "diameter": 14.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4532_kvetinac-cali.jpg?ff=1&x=1024&y=1024&q=85&ts=67a35514&sg=38cb01fe"
+    },
+    {
+      "id": "p4493",
+      "name": "Kvetináč Aisha",
+      "kind": "pots",
+      "price": "11,90 €",
+      "priceValue": 11.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/kvetinac-aisha/",
+      "photo": "/assets/plants/plantoteka-p4493.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 15.5 cm.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+        "Priemer alebo šírka podľa predajcu: 15.5 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 15.5 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline. Priemer alebo šírka podľa predajcu: 15.5 cm.",
+      "diameter": 15.5,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4493_kvetinac-aisha.jpg?ff=1&x=1024&y=1024&q=85&ts=678e93b5&sg=38cb01fe"
+    },
+    {
+      "id": "p255",
+      "name": "Substrát Profík Orchidea 5l",
+      "kind": "substrates",
+      "price": "6,20 €",
+      "priceValue": 6.2,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/substrat-profik-orchidea-5l/",
+      "photo": "/assets/plants/plantoteka-p255.jpg",
+      "tags": [
+        "genus:substrát",
+        "orchid-mix",
+        "volume-medium"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Substrát Profík Orchidea 5l.",
+        "Balenie podľa názvu: 5 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Substrát Profík Orchidea 5l. Balenie podľa názvu: 5 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/255_substrat-profik-orchidea-5l.jpg?ff=1&x=1024&y=1024&q=85&ts=6754a52a&sg=38cb01fe"
+    },
+    {
+      "id": "p4343",
+      "name": "Terrabloom prémiový substrát ORCHIDEA",
+      "kind": "substrates",
+      "price": "6,90 €",
+      "priceValue": 6.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/premiovy-substrat-orchid/",
+      "photo": "/assets/plants/plantoteka-p4343.jpg",
+      "tags": [
+        "genus:terrabloom",
+        "orchid-mix"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Terrabloom prémiový substrát ORCHIDEA."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Terrabloom prémiový substrát ORCHIDEA.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4343-3_a--10.jpg?ff=1&x=1024&y=1024&q=85&ts=69a7365f&sg=38cb01fe"
+    },
+    {
+      "id": "p4337",
+      "name": "Hydroponický substrát SOIL.NINJA",
+      "kind": "substrates",
+      "price": "10,90 €",
+      "priceValue": 10.9,
+      "currency": "EUR",
+      "url": "https://www.plantoteka.sk/hydroponicky-substrat-soil-ninja/",
+      "photo": "/assets/plants/plantoteka-p4337.jpg",
+      "tags": [
+        "genus:hydroponický",
+        "hydro-mix"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Hydroponický substrát SOIL.NINJA."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Hydroponický substrát SOIL.NINJA.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/shop/big/4337_hydroponicky-substrat-soil-ninja.jpg?ff=1&x=1024&y=1024&q=85&ts=6783e41e&sg=38cb01fe"
+    }
+  ],
+  "checked": "2026-10-10"
+}

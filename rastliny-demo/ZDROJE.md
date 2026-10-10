@@ -531,3 +531,61 @@ Pri overení sa nepreukázal spoločný vlastník s existujúcimi zdokumentovan�
 | Substrát pro vlhkomilné rostliny — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-vlhkomilne-rostliny?variant=55869651714374) |
 | Substrát pro voskovky — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-voskovky?variant=53726982930758) |
 | Substrát pro zamioculcasy a sansevierie — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-zamioculcas?variant=53726995415366) |
+
+## Plantotéka
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://www.plantoteka.sk/). [Identita predajcu](https://www.plantoteka.sk/obchodne-podmienky/).
+- Firma: **Ing. Nikola Faturík, IČO 55004709**. Vlastníci: Ing. Nikola Faturík. Konatelia / podnikateľ: Ing. Nikola Faturík.
+- Veľkosť: **Tržby nedoložené; 0 zam.**. Kód `01` v [primárnom registri](https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=2133611); údaj aktualizovaný 2026-07-03, načítaný 2026-10-10. [Vlastníci](https://www.plantoteka.sk/obchodne-podmienky/).
+- [Finančný výkaz](https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=9984960): Výkaz za rok 2025 je v RÚZ označený Neverejné; sumy nie sú dostupné. Veľkosť organizácie 01 znamená 0 zamestnancov.
+- RPO pri kontrole neodpovedalo; vlastníci overení z uvedeného primárneho zdroja, veľkosť a financie z RÚZ.
+- Prečo sedí: Malé rastlinárstvo jednej podnikateľky bez zamestnancov podľa registra; podobné izbové druhy a kultivary s doplnkami, pri ktorých záleží na svetle a rozpočte. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **40 produktov**, izbové rastliny, črepníky, substráty. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: mikrodáta výpisu aj detailu (`InStock`, cena a mena); pri variantoch navyše oficiálne Shoptet variantové dáta viažu cenu, sklad a fotografiu k uvedenému variantu. Na detaile treba vybrať pomenovaný variant. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/plantoteka-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/logos/plantot__ka_logo.jpg); Oficiálne logo; pri potrebe zväčšené s Lanczos vyhladením. Symbol v kruhu vyrezaný z pôvodného loga.
+- Farby: `brand: #235e49`, `accent: #2b7258`, `soft: #f4eeea`, `paper: #fffefa`, `ink: #253229`, `line: #dedfd5`. Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/plantoteka-qa.json`, `plantoteka-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/plantoteka-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Monstera adansonii | izbové rastliny | 8,90 € | [detail](https://www.plantoteka.sk/monstera-adansonii/) |
+| Peperomia Sarcophylla | izbové rastliny | 8,90 € | [detail](https://www.plantoteka.sk/peperomia/) |
+| Kvetináč Bria | črepníky | 8,90 € | [detail](https://www.plantoteka.sk/kvetinac-bria/) |
+| Begonia Listrada | izbové rastliny | 4,90 € | [detail](https://www.plantoteka.sk/begonia-3/) |
+| Aglaonema Rich Red | izbové rastliny | 7,90 € | [detail](https://www.plantoteka.sk/aglaonema-7/) |
+| Aglaonema pictum Tricolor | izbové rastliny | 7,90 € | [detail](https://www.plantoteka.sk/aglaonema-13/) |
+| Begonia leaf Looking Glass | izbové rastliny | 9,90 € | [detail](https://www.plantoteka.sk/begonia-6/) |
+| Aglaonema Peach Pearl | izbové rastliny | 12,90 € | [detail](https://www.plantoteka.sk/aglaonema-peach-pearl/) |
+| Ceropegia woodii variegata | izbové rastliny | 12,90 € | [detail](https://www.plantoteka.sk/ceropegia-woodii-variegata/) |
+| Aeonium Anna | izbové rastliny | 16,90 € | [detail](https://www.plantoteka.sk/aeonium-anna/) |
+| Aeonium Medusa | izbové rastliny | 16,90 € | [detail](https://www.plantoteka.sk/aeonium-medusa/) |
+| Alocasia lauterbachiana variegata | izbové rastliny | 16,90 € | [detail](https://www.plantoteka.sk/alocasia-13/) |
+| Labisia obtusifolia Turtle Back | izbové rastliny | 16,90 € | [detail](https://www.plantoteka.sk/labisia-turtle-back/) |
+| Philodendron Cherry Red | izbové rastliny | 16,90 € | [detail](https://www.plantoteka.sk/philodendron-15/) |
+| Philodendron Summer Glory veľký | izbové rastliny | 16,90 € | [detail](https://www.plantoteka.sk/philodendron-16/) |
+| Streptocarpus - viacero druhov | izbové rastliny | 16,90 € | [detail](https://www.plantoteka.sk/streptocarpus-viacero-druhov/) |
+| Aglaonema White Joy | izbové rastliny | 18,90 € | [detail](https://www.plantoteka.sk/aglaonema-white-joy/) |
+| Monstera adansonii variegata | izbové rastliny | 18,90 € | [detail](https://www.plantoteka.sk/monstera-adansonii-variegata/) |
+| Aglaonema Buttercup Pink | izbové rastliny | 19,90 € | [detail](https://www.plantoteka.sk/aglaonema-4/) |
+| Rhipsalis burchellii viacero druhov | izbové rastliny | 21,90 € | [detail](https://www.plantoteka.sk/rhipsalis-burchellii-viacero-druhov/) |
+| Anthurium Silver Blush Mint | izbové rastliny | 24,90 € | [detail](https://www.plantoteka.sk/anthurium-9/) |
+| Ficus lyrata variegata | izbové rastliny | 24,90 € | [detail](https://www.plantoteka.sk/ficus-lyrata-variegata/) |
+| Philodendron Caramel Marble | izbové rastliny | 29,00 € | [detail](https://www.plantoteka.sk/philodendron-12/) |
+| Alocasia venom | izbové rastliny | 29,90 € | [detail](https://www.plantoteka.sk/alocasia-venom/) |
+| Monstera deliciosa albo variegata | izbové rastliny | 34,90 € | [detail](https://www.plantoteka.sk/monstera-deliciosa-albo-variegata/) |
+| Alocasia Shattered Glass | izbové rastliny | 45,00 € | [detail](https://www.plantoteka.sk/alocasia-6/) |
+| Euphorbia mauritanica Mayuranthii Variegata | izbové rastliny | 54,90 € | [detail](https://www.plantoteka.sk/euphorbia-2/) |
+| Plastový priehľadný kvetináč 17 cm | črepníky | 1,29 € | [detail](https://www.plantoteka.sk/plastovy-priehladny-kvetinac-17-cm/) |
+| Kvetináč Abby | črepníky | 3,20 € | [detail](https://www.plantoteka.sk/kvetinac/) |
+| Kvetináč Caro | črepníky | 3,50 € | [detail](https://www.plantoteka.sk/kvetinac-caro/) |
+| Kvetináč Ashley | črepníky | 4,90 € | [detail](https://www.plantoteka.sk/kvetinac-ashley/) |
+| Kvetináč Rainbow | črepníky | 4,90 € | [detail](https://www.plantoteka.sk/kvetinac-rainbow/) |
+| Kvetináč Farah | črepníky | 5,90 € | [detail](https://www.plantoteka.sk/kvetinac-farah/) |
+| Kvetináč Davina | črepníky | 6,90 € | [detail](https://www.plantoteka.sk/kvetinac-davina/) |
+| Kvetináč Sadie | črepníky | 6,90 € | [detail](https://www.plantoteka.sk/kvetinac-sadie/) |
+| Kvetináč Cali | črepníky | 9,90 € | [detail](https://www.plantoteka.sk/kvetinac-cali/) |
+| Kvetináč Aisha | črepníky | 11,90 € | [detail](https://www.plantoteka.sk/kvetinac-aisha/) |
+| Substrát Profík Orchidea 5l | substráty | 6,20 € | [detail](https://www.plantoteka.sk/substrat-profik-orchidea-5l/) |
+| Terrabloom prémiový substrát ORCHIDEA | substráty | 6,90 € | [detail](https://www.plantoteka.sk/premiovy-substrat-orchid/) |
+| Hydroponický substrát SOIL.NINJA | substráty | 10,90 € | [detail](https://www.plantoteka.sk/hydroponicky-substrat-soil-ninja/) |
