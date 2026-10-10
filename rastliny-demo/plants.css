@@ -95,3 +95,5 @@ body[data-cosmetics-demo="zahradananiti"] .cx-widget-brand .cx-logo{max-height:4
 .cx-options[data-count="2"] .cx-option-copy{align-content:center;padding:14px}
 .cx-options[data-count="2"] .cx-option-copy b{font-size:14px;line-height:1.2}
 .cx-options[data-count="2"] .cx-option-copy small{font-size:10.5px;line-height:1.35}
+
+body[data-cosmetics-demo="rastlinkovo"] .cx-widget-head .cx-logo{filter:none;background:#fff;border-radius:7px;padding:3px 7px;max-height:36px}

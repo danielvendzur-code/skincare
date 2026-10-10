@@ -26,11 +26,11 @@ def eligible(p,shop):
 def care(p,text,attributes=None,categories=None):
     """Only explicit seller wording and classifications produce constraints."""
     attributes=attributes or {};categories=categories or []
-    t=text.lower();tags=list(p.get('tags',[]));facts=list(p.get('facts',[]))
+    t=text.lower().replace(', nie však ','. nie však ');tags=list(p.get('tags',[]));facts=list(p.get('facts',[]))
     tokens=' '.join(categories+[str(v) for v in attributes.values()]).lower()
     if not p.get('facts'):
         # Care comes from affirmative seller clauses, never guessed by genus.
-        clauses=[c for c in re.split(r'[.!?\n]',t) if not re.search(r'ne[ľl][úu]bi|po[šs]kod|pop[aá]l|sp[aá]l|nesv[eě]d[čc]|nevyhov|nepatr|netoler|nesn[aá][šs]|nesnes|neznes|nezn[aá][šs]|vyh[nýy]|chr[aá][nň]|bez\s+p[rř]ím|nevhod|nesm|nem[aá]|nevystav|pop[aá]l|sp[aá]len|[šs]kod|nie\s+priam',c)]
+        clauses=[c for c in re.split(r'[.!?\n]',t) if not re.search(r'ne[ľl][úu]bi|neob[ľl][úu]b|nevy[žz]ad|po[šs]kod|pop[aá]l|sp[aá]l|degrad|nesv[eě]d[čc]|nevyhov|nepatr|netoler|nesn[aá][šs]|nesnes|neznes|nezn[aá][šs]|vyh[nýy]|chr[aá][nň]|bez\s+(?:p[rř]ím|priam)|nevhod|nesm|nem[aá]|nevystav|pop[aá]l|sp[aá]len|[šs]kod|nie\s+(?:však\s+)?priam|niektor[eé]|v[aä][čc][šs]ina|aklimatizovan',c)]
         for pattern,tag,label in [(r'polost[ií]n|polotie[nň]|sn[aá][šs][ií]\s+st[ií]n','low','polotieň'),(r'rozpt[ýy]len|nep[rř]ím[eé]\s+slun|nepriam[eé]\s+sln|sv[eě]tl[eéý]\s+(?:m[ií]sto|stanovi|miesto)','bright','rozptýlené svetlo'),(r'(?<!ne)\bp[rř]ím[eéý]\s+slun|(?<!ne)\bpriam[eé]\s+sln|slunn[eé]\s+stanovi|slne[čc]n[eé]\s+stanovi','sun','slnečné stanovište')]:
             if any(re.search(pattern,c) for c in clauses):tags.append(tag);facts.append('Predajca uvádza: '+label+'.')
         if any(re.search(r'nen[aá]ro[čc]n|snadn[aá]\s+p[eé][čc]e|jednoduch[aá]\s+starost',c) for c in clauses):tags.append('easy');facts.append('Predajca uvádza nenáročnú starostlivosť.')
@@ -41,6 +41,19 @@ def care(p,text,attributes=None,categories=None):
         if re.search('rozpt[ýy]len|nep[rř]ím|nepriam',value):lights.append('bright')
         elif re.search('polost[ií]n|polotie[nň]|do tie[nň]a',value):lights.append('low')
         elif re.search(r'p[rř]ím[eé]\s+slun|priam[eé]\s+sln|slunn|slne[čc]',value):lights.append('sun')
+    # Product-specific placement attributes take precedence over generic genus
+    # paragraphs that may discuss other plants' tolerance of direct sunshine.
+    explicit_lights=[]
+    for key,values in attributes.items():
+        if re.search(r'sv[eě]tlo|umiest|stanovi',key,re.I):
+            for value in values:
+                if re.search(r'rozpt[ýy]len|nep[rř]ím|nepriam|svetl[eé]\s+stanov',value,re.I):explicit_lights.append('bright')
+                elif re.search(r'polost[ií]n|polotie[nň]|do tie[nň]a',value,re.I):explicit_lights.append('low')
+                elif re.search(r'p[rř]ím[eé]\s+slun|priam[eé]\s+sln|slunn|slne[čc]',value,re.I):explicit_lights.append('sun')
+    if explicit_lights:
+        tags=[tag for tag in tags if tag not in ['low','bright','sun']]
+        facts=[fact for fact in facts if fact not in ['Predajca uvádza: polotieň.','Predajca uvádza: rozptýlené svetlo.','Predajca uvádza: slnečné stanovište.']]
+        lights=explicit_lights
     for tag in lights:
         if tag not in tags:
             tags.append(tag);facts.append('Predajca uvádza: '+{'low':'polotieň','bright':'rozptýlené svetlo','sun':'slnečné stanovište'}[tag]+'.')
@@ -55,16 +68,19 @@ def care(p,text,attributes=None,categories=None):
         for pattern,tag,label in [(r'uzav[řr]en|uzavret','closed','uzavreté'),(r'otev[řr]en|otvoren','open','otvorené'),('tilland','airplants','s tillandsiou'),('bonsai|bonsaj','bonsai','s bonsajom')]:
             if re.search(pattern,text+' '+p['name'],re.I):tags.append(tag);facts.append('Typ kompozície podľa predajcu: '+label+'.')
     if p['kind']=='pots':
-        size=re.search(r'(?:[øØ]|pr[ií]emer|pr[uů]m[eě]r|ší[řr]ka)\s*:?\s*(\d+(?:[.,]\d+)?)\s*cm',p['name']+' '+text,re.I)
+        size=re.search(r'(?:[øØ]|pr[ií]emer(?:\s+majú)?|pr[uů]m[eě]r|ší[řr]ka)\s*:?\s*(\d+(?:[.,]\d+)?)\s*cm',p['name']+' '+text,re.I)
         if size:
             diameter=float(size[1].replace(',','.'));p['diameter']=diameter;tags.append('small-pot' if diameter<=11 else 'medium-pot' if diameter<=16 else 'large-pot');facts.append(f'Priemer alebo šírka podľa predajcu: {diameter:g} cm.')
-        for pattern,tag,label in [('keram','ceramic','keramika'),('terakot','terracotta','terakota'),('plast','plastic','plast'),('bet[oó]n','concrete','betón')]:
+        for pattern,tag,label in [('keramik|keramick','ceramic','keramika'),('terakot','terracotta','terakota'),('plast','plastic','plast'),('bet[oó]n','concrete','betón')]:
+            if tag=='concrete' and re.search(r'bet[oó]n.*(?:effect|efekt)|imit\w*.{0,30}bet[oó]n|vzh[ľl][ae]d\w*.{0,20}bet[oó]n',p['name']+' '+text,re.I):continue
             if re.search(pattern,p['name']+' '+text,re.I):tags.append(tag);facts.append('Materiál podľa predajcu: '+label+'.')
     if p['kind']=='substrates':
         tags=[t for t in tags if not t.endswith('-mix')]
         purpose=(p['variantLabel'] if p.get('variantLabel') and re.search(r'na |pro ',p['variantLabel'],re.I) else p['name'])+' '+ ' '.join(v for k,vals in attributes.items() if re.search(r'ur[čc]en|pou[žz]it',k,re.I) for v in vals)
         for pattern,tag in [('orchid','orchid-mix'),('kaktus|sukulent','cactus-mix'),('izbov|pokojov|aroid','indoor-mix'),('univerz','universal-mix'),('hydropon','hydro-mix')]:
             if re.search(pattern,purpose,re.I):tags.append(tag)
+        if 'cactus-mix' in tags and not re.search(r'izbov|pokojov|aroid',p['name'],re.I):
+            tags=[tag for tag in tags if tag!='indoor-mix']
     if not any(x.startswith('genus:') for x in tags):tags.append('genus:'+re.sub(r'^Kokedama\s+', '', p['name'], flags=re.I).split()[0].lower())
     p.update(tags=sorted(set(tags)),facts=list(dict.fromkeys(facts)) or ['Konkrétny druh a variant podľa e-shopu: '+p['name']+'.'])
     p['reason']=' '.join(p['facts'][:3]);p['descriptionSha256']=hashlib.sha256(text.encode()).hexdigest()
@@ -141,16 +157,32 @@ def shoptet_products(shop,slug):
 
 def woo_products(shop,slug):
     endpoint=shop['website'].rstrip('/')+'/wp-json/wc/store/v1/products?per_page=100'
-    rows=js(endpoint);result=[]
-    for raw in rows:
+    # Large mixed shops need plant-category pages rather than the newest 100
+    # products, which may all be unrelated goods. Keep each item source URL.
+    rows={}
+    if shop.get('categoryFetch'):
+        for category in dict.fromkeys(v for values in shop['categories'].values() for v in values):
+            page=1
+            while True:
+                source=endpoint+f'&category={category}&page={page}'
+                batch=js(source)
+                for raw in batch:rows.setdefault(raw['id'],(raw,source,category))
+                if len(batch)<100:break
+                page+=1
+    else:
+        rows={raw['id']:(raw,endpoint,None) for raw in js(endpoint)}
+    result=[]
+    for raw,source,category in rows.values():
         if not (raw['is_in_stock'] and raw['is_purchasable'] and raw['images']) or raw.get('is_on_backorder') or raw.get('stock_availability',{}).get('class','in-stock')!='in-stock' or raw.get('variations') or raw['prices'].get('price_range'):continue
         cats=[c['name'] for c in raw['categories']];ids=[c['id'] for c in raw['categories']]
         kind=next((k for k,values in shop['categories'].items() if any(v in ids for v in values)),None)
+        if not kind and category is not None:
+            kind=next((k for k,values in shop['categories'].items() if category in values),None)
         if not kind:continue
         currency=raw['prices']['currency_code']
         if currency!=shop['currency']:raise ValueError('Unexpected currency')
         value=int(raw['prices']['price'])/(10**raw['prices']['currency_minor_unit'])
-        p=dict(id='p'+str(raw['id']),name=plain(raw['name']),kind=kind,priceValue=value,currency=currency,price=f'{value:.2f}'.replace('.',',')+' €' if currency=='EUR' else f'{value:g} Kč',url=raw['permalink'],photo=f'/assets/plants/{slug}-p{raw["id"]}.jpg',imageSource=raw['images'][0]['src'],sourceEndpoint=endpoint,stock='InStock',checked=TODAY,diameter=None,potDiameter=None)
+        p=dict(id='p'+str(raw['id']),name=plain(raw['name']),kind=kind,priceValue=value,currency=currency,price=f'{value:.2f}'.replace('.',',')+' €' if currency=='EUR' else f'{value:g} Kč',url=raw['permalink'],photo=f'/assets/plants/{slug}-p{raw["id"]}.jpg',imageSource=raw['images'][0]['src'],sourceEndpoint=source,stock='InStock',checked=TODAY,diameter=None,potDiameter=None)
         if not eligible(p,shop):continue
         text=plain(raw.get('short_description','')+' '+raw.get('description',''))
         if re.search(r'na objedn[aá]vku|p[řr]edobjedn|predobjedn',text,re.I):continue
@@ -165,7 +197,14 @@ def woo_products(shop,slug):
             fact=shop.get('descriptionKindFacts',{}).get(description_kind)
             if fact:p['facts'].append(fact);p['reason']=' '.join(p['facts'][:3])
         result.append(p)
-    return result
+    if not shop.get('limits'):return result
+    selected=[]
+    for kind in shop['kinds']:
+        group=sorted([p for p in result if p['kind']==kind],key=lambda p:(p['priceValue'],p['name']))
+        limit=shop['limits'].get(kind,len(group))
+        if len(group)>limit:group=[group[round(i*(len(group)-1)/(limit-1))] for i in range(limit)]
+        selected.extend(group)
+    return selected
 
 def shopify_products(shop,slug):
     endpoint=shop['website'].rstrip('/')+'/products.json?limit=250';rows=js(endpoint)['products'];result=[]

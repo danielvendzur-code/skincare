@@ -573,5 +573,70 @@
     "logoInk": "#374f2d",
     "markColoredOnly": true,
     "markWhite": true
+  },
+  "rastlinkovo": {
+    "name": "Rastlinkovo",
+    "website": "https://www.rastlinkovo.sk/",
+    "currency": "EUR",
+    "platform": "woocommerce",
+    "kinds": [
+      "plants",
+      "succulents",
+      "pots",
+      "substrates"
+    ],
+    "categories": {
+      "substrates": [
+        84
+      ],
+      "pots": [
+        43
+      ],
+      "succulents": [
+        545
+      ],
+      "plants": [
+        41
+      ]
+    },
+    "categoryFetch": true,
+    "limits": {
+      "plants": 32,
+      "succulents": 10,
+      "pots": 12,
+      "substrates": 8
+    },
+    "theme": {
+      "brand": "#393954",
+      "accent": "#565481",
+      "soft": "#f1f0f6",
+      "paper": "#fffefa",
+      "ink": "#292a35",
+      "line": "#dddae8"
+    },
+    "categoryNotes": {
+      "plants": "Svetlo, starostlivosť a konkrétny druh",
+      "succulents": "Suchomilné druhy podľa ponuky predajcu",
+      "pots": "Rozmer a materiál samostatného obalu",
+      "substrates": "Určenie a veľkosť balenia"
+    },
+    "logoSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/10/rastlinkovo-logo-mobil.webp",
+    "markCrop": [
+      95,
+      45,
+      177,
+      253
+    ],
+    "logoNote": "Oficiálne logo zväčšené s Lanczos vyhladením. Pôvodný list je vyrezaný z loga, tmavé pozadie sa odfiltrovalo a obrys sa jemne zosilnil o jeden zdrojový pixel a prefarbil na bielu kvôli čitateľnosti v brand kruhu. Hlavička chatu zobrazuje celé originálne logo na bielej podložke.",
+    "themeNote": "Tmavá fialová z oficiálneho loga; sýtejší accent pre kontrast bieleho textu, svetlé fialové neutrálne plochy.",
+    "terms": "https://www.rastlinkovo.sk/obchodne-podmienky/",
+    "fit": "Samostatný vlastník, 1 zamestnanec a 119 447 € doložených tržieb za 2025; rastlinný výber je dostatočne pestrý aj bez nesúvisiacich produktov rozšíreného e-shopu.",
+    "exclude": "set|predplatn|mystery|box|poukaz|odrezok|semien|semen|cibuľ|cibul|machov[yý]|machový obraz|klips|stráž|držiak|prianie|venovanie|balík|tillandsia|calend|kalend|heatpack",
+    "excludeByKind": {
+      "pots": "podmisk|košík|tyč|podper|rozpraš|krhl|samozavlažovací systém"
+    },
+    "heroNames": [],
+    "markLightOnly": true,
+    "markWhite": true
   }
 }

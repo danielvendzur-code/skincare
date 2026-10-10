@@ -1,0 +1,1564 @@
+{
+  "name": "Rastlinkovo",
+  "website": "https://www.rastlinkovo.sk/",
+  "currency": "EUR",
+  "kinds": [
+    "plants",
+    "succulents",
+    "pots",
+    "substrates"
+  ],
+  "theme": {
+    "brand": "#393954",
+    "accent": "#565481",
+    "soft": "#f1f0f6",
+    "paper": "#fffefa",
+    "ink": "#292a35",
+    "line": "#dddae8"
+  },
+  "categoryNotes": {
+    "plants": "Svetlo, starostlivosť a konkrétny druh",
+    "succulents": "Suchomilné druhy podľa ponuky predajcu",
+    "pots": "Rozmer a materiál samostatného obalu",
+    "substrates": "Určenie a veľkosť balenia"
+  },
+  "slug": "rastlinkovo",
+  "hero": "/assets/plants/rastlinkovo.jpg",
+  "mobileHero": "/assets/plants/rastlinkovo-mobile.jpg",
+  "logo": "/assets/plants/rastlinkovo-logo.png",
+  "mark": "/assets/plants/rastlinkovo-mark.png",
+  "products": [
+    {
+      "id": "p17161",
+      "name": "Dieffenbachia mac Amy baby",
+      "kind": "plants",
+      "price": "8,68 €",
+      "priceValue": 8.68,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/dieffenbachia-mac-amy-baby/",
+      "photo": "/assets/plants/rastlinkovo-p17161.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:dieffenbachia"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2023/08/IMG_5785-scaled.jpg"
+    },
+    {
+      "id": "p9154",
+      "name": "Hypoestes phyllostachya červený baby",
+      "kind": "plants",
+      "price": "8,68 €",
+      "priceValue": 8.68,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/hypoestes-phyllostachya-cerveny-baby/",
+      "photo": "/assets/plants/rastlinkovo-p9154.jpg",
+      "tags": [
+        "easy",
+        "genus:hypoestes"
+      ],
+      "facts": [
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2023/06/IMG_5066-scaled.jpg"
+    },
+    {
+      "id": "p25056",
+      "name": "Prosperplast plastový kvetináč Tubo P light grey Ø 18 cm",
+      "kind": "pots",
+      "price": "8,68 €",
+      "priceValue": 8.68,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/prosperplast-plastovy-kvetinac-tubo-p-light-grey-18-cm/",
+      "photo": "/assets/plants/rastlinkovo-p25056.jpg",
+      "tags": [
+        "genus:prosperplast",
+        "large-pot",
+        "plastic"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa predajcu: 18 cm.",
+        "Materiál podľa predajcu: plast."
+      ],
+      "reason": "Priemer alebo šírka podľa predajcu: 18 cm. Materiál podľa predajcu: plast.",
+      "diameter": 18.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/08/IMG_8899-scaled.jpg"
+    },
+    {
+      "id": "p15581",
+      "name": "Crassula Buddhas temple baby",
+      "kind": "succulents",
+      "price": "9,66 €",
+      "priceValue": 9.66,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/crassula-buddhas-temple-baby/",
+      "photo": "/assets/plants/rastlinkovo-p15581.jpg",
+      "tags": [
+        "easy",
+        "genus:crassula"
+      ],
+      "facts": [
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2023/07/IMG_0292-scaled.jpg"
+    },
+    {
+      "id": "p11475",
+      "name": "Hoya Kerrii Variegata baby",
+      "kind": "plants",
+      "price": "6,73 €",
+      "priceValue": 6.73,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/hoya-kerrii-variegata-baby/",
+      "photo": "/assets/plants/rastlinkovo-p11475.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:hoya",
+        "pet-safe"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: rozptýlené svetlo. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2023/02/IMG_5024-scaled.jpg"
+    },
+    {
+      "id": "p34048",
+      "name": "Dracaena marginata baby",
+      "kind": "plants",
+      "price": "7,71 €",
+      "priceValue": 7.71,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/dracaena-marginata-baby/",
+      "photo": "/assets/plants/rastlinkovo-p34048.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:dracaena"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/09/IMG_9202-scaled.jpg"
+    },
+    {
+      "id": "p14445",
+      "name": "Philodendron Scandens Brasil baby",
+      "kind": "plants",
+      "price": "7,71 €",
+      "priceValue": 7.71,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/philodendron-scandens-brasil-baby/",
+      "photo": "/assets/plants/rastlinkovo-p14445.jpg",
+      "tags": [
+        "easy",
+        "genus:philodendron",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť. Previsnutý alebo ťahavý rast podľa zaradenia predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/02/IMG_7678-scaled.jpg"
+    },
+    {
+      "id": "p3063",
+      "name": "Pilea Peperomioides baby",
+      "kind": "plants",
+      "price": "8,68 €",
+      "priceValue": 8.68,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/pilea-peperomioides-baby/",
+      "photo": "/assets/plants/rastlinkovo-p3063.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:pilea",
+        "pet-safe"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: rozptýlené svetlo. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/02/IMG_7694-scaled.jpg"
+    },
+    {
+      "id": "p18280",
+      "name": "Aglaonema Red Zirkon baby",
+      "kind": "plants",
+      "price": "9,66 €",
+      "priceValue": 9.66,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/aglaonema-red-zirkon-baby/",
+      "photo": "/assets/plants/rastlinkovo-p18280.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:aglaonema",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: polotieň.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: polotieň. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2023/09/IMG_7152-scaled.jpg"
+    },
+    {
+      "id": "p10226",
+      "name": "Calathea Freddie Red baby",
+      "kind": "plants",
+      "price": "9,66 €",
+      "priceValue": 9.66,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/calathea-freddie-red-baby/",
+      "photo": "/assets/plants/rastlinkovo-p10226.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:calathea",
+        "low",
+        "pet-safe"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: polotieň.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: polotieň. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2022/10/IMG_4655-scaled.jpg"
+    },
+    {
+      "id": "p13010",
+      "name": "Epipremnum Pothos Aureum zlatý",
+      "kind": "plants",
+      "price": "9,66 €",
+      "priceValue": 9.66,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/epipremnum-pothos-aureum-zlaty/",
+      "photo": "/assets/plants/rastlinkovo-p13010.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:epipremnum",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Previsnutý alebo ťahavý rast podľa zaradenia predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/10/IMG_9360-scaled.webp"
+    },
+    {
+      "id": "p34313",
+      "name": "Philodendron Pink bikini baby",
+      "kind": "plants",
+      "price": "9,66 €",
+      "priceValue": 9.66,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/philodendron-pink-bikini-baby/",
+      "photo": "/assets/plants/rastlinkovo-p34313.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:philodendron",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/10/IMG_9307-scaled.webp"
+    },
+    {
+      "id": "p4533",
+      "name": "Syngonium Pixie baby",
+      "kind": "plants",
+      "price": "9,66 €",
+      "priceValue": 9.66,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/syngonium-pixie-baby/",
+      "photo": "/assets/plants/rastlinkovo-p4533.jpg",
+      "tags": [
+        "easy",
+        "genus:syngonium"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2021/10/IMG_9113-scaled.jpeg"
+    },
+    {
+      "id": "p4159",
+      "name": "Philodendron Scandens baby",
+      "kind": "plants",
+      "price": "10,63 €",
+      "priceValue": 10.63,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/philodendron-scandens-baby/",
+      "photo": "/assets/plants/rastlinkovo-p4159.jpg",
+      "tags": [
+        "easy",
+        "genus:philodendron",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2021/09/IMG_8687-2-scaled.jpg"
+    },
+    {
+      "id": "p361",
+      "name": "Rhapidophora Tetrasperma",
+      "kind": "plants",
+      "price": "11,61 €",
+      "priceValue": 11.61,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/rhapidophora-tetrasperma/",
+      "photo": "/assets/plants/rastlinkovo-p361.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:rhapidophora",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: rozptýlené svetlo. Previsnutý alebo ťahavý rast podľa zaradenia predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2022/02/IMG_0011-scaled.jpg"
+    },
+    {
+      "id": "p11336",
+      "name": "Epipremnum Pothos neon",
+      "kind": "plants",
+      "price": "12,59 €",
+      "priceValue": 12.59,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/epipremnum-pothos-neon/",
+      "photo": "/assets/plants/rastlinkovo-p11336.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:epipremnum",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Previsnutý alebo ťahavý rast podľa zaradenia predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2023/02/IMG_7356-scaled.jpg"
+    },
+    {
+      "id": "p11896",
+      "name": "Philodendron Gloriosum baby",
+      "kind": "plants",
+      "price": "12,59 €",
+      "priceValue": 12.59,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/philodendron-gloriosum-baby/",
+      "photo": "/assets/plants/rastlinkovo-p11896.jpg",
+      "tags": [
+        "easy",
+        "genus:philodendron",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2023/02/IMG_5107-scaled.jpg"
+    },
+    {
+      "id": "p16127",
+      "name": "Syngonium Mottled Mojito baby",
+      "kind": "plants",
+      "price": "13,56 €",
+      "priceValue": 13.56,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/syngonium-mottled-mojito-baby/",
+      "photo": "/assets/plants/rastlinkovo-p16127.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:syngonium",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: rozptýlené svetlo. Previsnutý alebo ťahavý rast podľa zaradenia predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2023/08/IMG_5378-scaled.jpg"
+    },
+    {
+      "id": "p6884",
+      "name": "Epipremnum Pothos Global Green",
+      "kind": "plants",
+      "price": "14,54 €",
+      "priceValue": 14.54,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/epipremnum-pothos-global-green/",
+      "photo": "/assets/plants/rastlinkovo-p6884.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:epipremnum",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/12/IMG_8869-scaled.webp"
+    },
+    {
+      "id": "p63215",
+      "name": "Hoya Mathilde splash",
+      "kind": "plants",
+      "price": "14,54 €",
+      "priceValue": 14.54,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/hoya-mathilde-splash/",
+      "photo": "/assets/plants/rastlinkovo-p63215.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:hoya",
+        "pet-safe",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: rozptýlené svetlo. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2026/03/IMG_9112-scaled.webp"
+    },
+    {
+      "id": "p19179",
+      "name": "Philodendron Pink Princess marble",
+      "kind": "plants",
+      "price": "14,54 €",
+      "priceValue": 14.54,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/philodendron-pink-princess-marble/",
+      "photo": "/assets/plants/rastlinkovo-p19179.jpg",
+      "tags": [
+        "easy",
+        "genus:philodendron",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2026/03/IMG_9133-scaled.webp"
+    },
+    {
+      "id": "p39029",
+      "name": "Alocasia Scalprum baby",
+      "kind": "plants",
+      "price": "15,51 €",
+      "priceValue": 15.51,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/alocasia-scalprum-baby/",
+      "photo": "/assets/plants/rastlinkovo-p39029.jpg",
+      "tags": [
+        "bright",
+        "genus:alocasia",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: polotieň."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: polotieň.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/02/IMG_5991-scaled.webp"
+    },
+    {
+      "id": "p7947",
+      "name": "Caladium Pearl Blush",
+      "kind": "plants",
+      "price": "15,51 €",
+      "priceValue": 15.51,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/caladium-pearl-blush/",
+      "photo": "/assets/plants/rastlinkovo-p7947.jpg",
+      "tags": [
+        "bright",
+        "genus:caladium"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2022/06/IMG_0665-scaled.jpg"
+    },
+    {
+      "id": "p10292",
+      "name": "Sansevieria Svokrine jazyky Trifasciata Futura Superba",
+      "kind": "plants",
+      "price": "15,51 €",
+      "priceValue": 15.51,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/sansevieria-svokrine-jazyky-trifasciata-futura-superba/",
+      "photo": "/assets/plants/rastlinkovo-p10292.jpg",
+      "tags": [
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2021/07/IMG_8056-scaled.jpg"
+    },
+    {
+      "id": "p6914",
+      "name": "Scindapsus Treubii Moonlight",
+      "kind": "plants",
+      "price": "15,51 €",
+      "priceValue": 15.51,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/scindapsus-treubii-moonlight/",
+      "photo": "/assets/plants/rastlinkovo-p6914.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:scindapsus",
+        "low",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2023/01/IMG_7358-scaled.jpg"
+    },
+    {
+      "id": "p10046",
+      "name": "Orchidea phalaenopsis multiflora fialová",
+      "kind": "plants",
+      "price": "16,49 €",
+      "priceValue": 16.49,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/orchidea-phalaenopsis-multiflora-fialova-hviezda/",
+      "photo": "/assets/plants/rastlinkovo-p10046.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:orchidea"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2026/01/IMG_8931-scaled.webp"
+    },
+    {
+      "id": "p18523",
+      "name": "Monstera Deliciosa veľká",
+      "kind": "plants",
+      "price": "17,46 €",
+      "priceValue": 17.46,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/monstera-deliciosa/",
+      "photo": "/assets/plants/rastlinkovo-p18523.jpg",
+      "tags": [
+        "easy",
+        "genus:monstera"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2021/04/IMG_0038-scaled.jpg"
+    },
+    {
+      "id": "p6227",
+      "name": "Alocasia Stingray",
+      "kind": "plants",
+      "price": "18,44 €",
+      "priceValue": 18.44,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/alocasia-stingray/",
+      "photo": "/assets/plants/rastlinkovo-p6227.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:alocasia"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2022/02/IMG_9739-scaled.jpg"
+    },
+    {
+      "id": "p3373",
+      "name": "Strelitzia kráľovská Reginae",
+      "kind": "plants",
+      "price": "18,44 €",
+      "priceValue": 18.44,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/strelitzia-kralovska-reginae/",
+      "photo": "/assets/plants/rastlinkovo-p3373.jpg",
+      "tags": [
+        "bright",
+        "genus:strelitzia"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2022/09/IMG_3926-scaled.jpg"
+    },
+    {
+      "id": "p11868",
+      "name": "Aglaonema Lemon Mint",
+      "kind": "plants",
+      "price": "22,34 €",
+      "priceValue": 22.34,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/aglaonema-lemon-mint/",
+      "photo": "/assets/plants/rastlinkovo-p11868.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:aglaonema",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: polotieň.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: polotieň. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2026/08/c43fe556-e855-49be-bc55-48080607ed8c.png"
+    },
+    {
+      "id": "p54539",
+      "name": "Alocasia Jacklyn",
+      "kind": "plants",
+      "price": "27,22 €",
+      "priceValue": 27.22,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/alocasia-jacklyn/",
+      "photo": "/assets/plants/rastlinkovo-p54539.jpg",
+      "tags": [
+        "bright",
+        "genus:alocasia"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/06/IMG_7100-scaled.webp"
+    },
+    {
+      "id": "p59966",
+      "name": "Aglaonema Rose Parakeet",
+      "kind": "plants",
+      "price": "29,17 €",
+      "priceValue": 29.17,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/aglaonema-rose-parakeet/",
+      "photo": "/assets/plants/rastlinkovo-p59966.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:aglaonema",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/11/5ba5a05d-e4b4-4906-9f8f-86bb48efcc14.png"
+    },
+    {
+      "id": "p63410",
+      "name": "Dracaena Janet Craig XXL",
+      "kind": "plants",
+      "price": "97,46 €",
+      "priceValue": 97.46,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/dracaena-janet-craig-xxl/",
+      "photo": "/assets/plants/rastlinkovo-p63410.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:dracaena"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2026/03/IMG_9181-scaled.webp"
+    },
+    {
+      "id": "p66518",
+      "name": "Haworthia Big Band baby",
+      "kind": "succulents",
+      "price": "4,78 €",
+      "priceValue": 4.78,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/haworthia-big-band-baby/",
+      "photo": "/assets/plants/rastlinkovo-p66518.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:haworthia",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2026/08/284613b5-f85f-4af1-9b98-d70f80a2a265.png"
+    },
+    {
+      "id": "p35433",
+      "name": "Kalanchoe Tomentosa baby",
+      "kind": "succulents",
+      "price": "6,73 €",
+      "priceValue": 6.73,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/kalanchoe-tomentosa-baby/",
+      "photo": "/assets/plants/rastlinkovo-p35433.jpg",
+      "tags": [
+        "easy",
+        "genus:kalanchoe"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/10/IMG_9542-scaled.webp"
+    },
+    {
+      "id": "p35436",
+      "name": "Kalanchoe Zebra baby",
+      "kind": "succulents",
+      "price": "6,73 €",
+      "priceValue": 6.73,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/kalanchoe-zebra-baby/",
+      "photo": "/assets/plants/rastlinkovo-p35436.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:kalanchoe"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/10/IMG_9539-scaled.webp"
+    },
+    {
+      "id": "p67322",
+      "name": "Kalanchoe Grandiva biele baby",
+      "kind": "succulents",
+      "price": "7,71 €",
+      "priceValue": 7.71,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/kalanchoe-grandiva-biele-baby/",
+      "photo": "/assets/plants/rastlinkovo-p67322.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:kalanchoe"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/11/IMG_8615-scaled.webp"
+    },
+    {
+      "id": "p67323",
+      "name": "Kalanchoe Grandiva ružové baby",
+      "kind": "succulents",
+      "price": "7,71 €",
+      "priceValue": 7.71,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/kalanchoe-grandiva-ruzove-baby/",
+      "photo": "/assets/plants/rastlinkovo-p67323.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:kalanchoe"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/11/IMG_8612-scaled.webp"
+    },
+    {
+      "id": "p67324",
+      "name": "Kalanchoe Grandiva žlté baby",
+      "kind": "succulents",
+      "price": "7,71 €",
+      "priceValue": 7.71,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/kalanchoe-grandiva-zlte-baby/",
+      "photo": "/assets/plants/rastlinkovo-p67324.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:kalanchoe"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/09/IMG_9065-scaled.jpg"
+    },
+    {
+      "id": "p52366",
+      "name": "Lithops hallii živé kamene baby",
+      "kind": "succulents",
+      "price": "7,71 €",
+      "priceValue": 7.71,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/lithops-hallii-zive-kamene-baby/",
+      "photo": "/assets/plants/rastlinkovo-p52366.jpg",
+      "tags": [
+        "easy",
+        "genus:lithops",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/04/IMG_6745-scaled.webp"
+    },
+    {
+      "id": "p66514",
+      "name": "Sedum Rubrotinctum Aurora baby",
+      "kind": "succulents",
+      "price": "9,66 €",
+      "priceValue": 9.66,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/sedum-rubrotinctum-aurora-baby/",
+      "photo": "/assets/plants/rastlinkovo-p66514.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sedum"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2026/08/e2e34071-398c-4dd1-90f5-0f5b6c14d14f.png"
+    },
+    {
+      "id": "p12289",
+      "name": "Senecio starček Rowleyanus baby",
+      "kind": "succulents",
+      "price": "9,66 €",
+      "priceValue": 9.66,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/senecio-starcek-rowleyanus-baby/",
+      "photo": "/assets/plants/rastlinkovo-p12289.jpg",
+      "tags": [
+        "bright",
+        "genus:senecio",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Previsnutý alebo ťahavý rast podľa zaradenia predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Previsnutý alebo ťahavý rast podľa zaradenia predajcu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2022/02/IMG_0153-2-scaled.jpg"
+    },
+    {
+      "id": "p25322",
+      "name": "Prosperplast plastový kvetináč Cube Beton effect sivý Ø 9 cm",
+      "kind": "pots",
+      "price": "2,83 €",
+      "priceValue": 2.83,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/prosperplast-plastovy-kvetinac-cube-beton-effect-sivy-9-cm/",
+      "photo": "/assets/plants/rastlinkovo-p25322.jpg",
+      "tags": [
+        "genus:prosperplast",
+        "plastic",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa predajcu: 9 cm.",
+        "Materiál podľa predajcu: plast."
+      ],
+      "reason": "Priemer alebo šírka podľa predajcu: 9 cm. Materiál podľa predajcu: plast.",
+      "diameter": 9.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/08/IMG_8986-scaled.jpg"
+    },
+    {
+      "id": "p25157",
+      "name": "Prosperplast plastový kvetináč Milly round copper Ø 12 cm",
+      "kind": "pots",
+      "price": "3,80 €",
+      "priceValue": 3.8,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/prosperplast-plastovy-kvetinac-milly-round-copper-12-cm/",
+      "photo": "/assets/plants/rastlinkovo-p25157.jpg",
+      "tags": [
+        "genus:prosperplast",
+        "medium-pot",
+        "plastic"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa predajcu: 12 cm.",
+        "Materiál podľa predajcu: plast."
+      ],
+      "reason": "Priemer alebo šírka podľa predajcu: 12 cm. Materiál podľa predajcu: plast.",
+      "diameter": 12.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/08/IMG_8820-scaled.jpg"
+    },
+    {
+      "id": "p25167",
+      "name": "Prosperplast plastový kvetináč Milly round copper Ø 14 cm",
+      "kind": "pots",
+      "price": "4,78 €",
+      "priceValue": 4.78,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/prosperplast-plastovy-kvetinac-milly-round-copper-14-cm/",
+      "photo": "/assets/plants/rastlinkovo-p25167.jpg",
+      "tags": [
+        "genus:prosperplast",
+        "medium-pot",
+        "plastic"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa predajcu: 14 cm.",
+        "Materiál podľa predajcu: plast."
+      ],
+      "reason": "Priemer alebo šírka podľa predajcu: 14 cm. Materiál podľa predajcu: plast.",
+      "diameter": 14.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/08/IMG_8820-scaled.jpg"
+    },
+    {
+      "id": "p25179",
+      "name": "Prosperplast plastový kvetináč Milly round copper Ø 17 cm",
+      "kind": "pots",
+      "price": "5,76 €",
+      "priceValue": 5.76,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/prosperplast-plastovy-kvetinac-milly-round-copper-17-cm/",
+      "photo": "/assets/plants/rastlinkovo-p25179.jpg",
+      "tags": [
+        "genus:prosperplast",
+        "large-pot",
+        "plastic"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa predajcu: 17 cm.",
+        "Materiál podľa predajcu: plast."
+      ],
+      "reason": "Priemer alebo šírka podľa predajcu: 17 cm. Materiál podľa predajcu: plast.",
+      "diameter": 17.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/08/IMG_8960-scaled.jpg"
+    },
+    {
+      "id": "p23011",
+      "name": "Kvetináč Eno Duo dusty green Ø 7 cm",
+      "kind": "pots",
+      "price": "6,73 €",
+      "priceValue": 6.73,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/kvetinac-eno-duo-dusty-green-7-cm/",
+      "photo": "/assets/plants/rastlinkovo-p23011.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa predajcu: 7 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa predajcu: 7 cm.",
+      "diameter": 7.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/02/kvetinac-eno-duo-dusty-green-6-cm-rastlinkovo1-scaled-e1709112071958.jpg"
+    },
+    {
+      "id": "p23054",
+      "name": "Kvetináč Eno Matt olive Ø 7 cm",
+      "kind": "pots",
+      "price": "6,73 €",
+      "priceValue": 6.73,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/kvetinac-eno-matt-olive-7-cm/",
+      "photo": "/assets/plants/rastlinkovo-p23054.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa predajcu: 7 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa predajcu: 7 cm.",
+      "diameter": 7.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/02/kvetinac-eno-matt-olive-7-cm-rastlinkovo-scaled-e1709124171764.jpg"
+    },
+    {
+      "id": "p58281",
+      "name": "Kvetináč Vintage keramický béžový Ø 6 cm",
+      "kind": "pots",
+      "price": "6,73 €",
+      "priceValue": 6.73,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/kvetinac-vintage-keramicky-bezovy-o-6-cm/",
+      "photo": "/assets/plants/rastlinkovo-p58281.jpg",
+      "tags": [
+        "ceramic",
+        "genus:kvetináč",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa predajcu: 6 cm.",
+        "Materiál podľa predajcu: keramika."
+      ],
+      "reason": "Priemer alebo šírka podľa predajcu: 6 cm. Materiál podľa predajcu: keramika.",
+      "diameter": 6.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/09/IMG_7572-scaled-e1758630071973.webp"
+    },
+    {
+      "id": "p29509",
+      "name": "Prosperplast plastový kvetináč Milly round pine green Ø 19 cm",
+      "kind": "pots",
+      "price": "6,73 €",
+      "priceValue": 6.73,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/prosperplast-plastovy-kvetinac-milly-round-pine-green-o-19-cm/",
+      "photo": "/assets/plants/rastlinkovo-p29509.jpg",
+      "tags": [
+        "genus:prosperplast",
+        "large-pot",
+        "plastic"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa predajcu: 19 cm.",
+        "Materiál podľa predajcu: plast."
+      ],
+      "reason": "Priemer alebo šírka podľa predajcu: 19 cm. Materiál podľa predajcu: plast.",
+      "diameter": 19.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/08/IMG_8941-scaled.jpg"
+    },
+    {
+      "id": "p23074",
+      "name": "Kvetináč Eno Matt dusty petrol Ø 10 cm",
+      "kind": "pots",
+      "price": "7,71 €",
+      "priceValue": 7.71,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/kvetinac-eno-matt-dusty-petrol-10-cm/",
+      "photo": "/assets/plants/rastlinkovo-p23074.jpg",
+      "tags": [
+        "genus:kvetináč",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa predajcu: 10 cm."
+      ],
+      "reason": "Priemer alebo šírka podľa predajcu: 10 cm.",
+      "diameter": 10.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/02/kvetinac-eno-matt-dusty-petrol-10-cm-rastlinkovo-scaled-e1709128471543.jpg"
+    },
+    {
+      "id": "p63846",
+      "name": "Kvetináč DOG Ø 9 cm",
+      "kind": "pots",
+      "price": "9,66 €",
+      "priceValue": 9.66,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/kvetinac-dog-o-9-cm/",
+      "photo": "/assets/plants/rastlinkovo-p63846.jpg",
+      "tags": [
+        "ceramic",
+        "genus:kvetináč",
+        "small-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa predajcu: 9 cm.",
+        "Materiál podľa predajcu: keramika."
+      ],
+      "reason": "Priemer alebo šírka podľa predajcu: 9 cm. Materiál podľa predajcu: keramika.",
+      "diameter": 9.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2026/03/26.webp"
+    },
+    {
+      "id": "p22720",
+      "name": "Plastia samozavlažovací kvetináč Tolita ružový Ø 15 cm",
+      "kind": "pots",
+      "price": "16,49 €",
+      "priceValue": 16.49,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/plastia-samozavlazovaci-kvetinac-tolita-ruzovy-15-cm/",
+      "photo": "/assets/plants/rastlinkovo-p22720.jpg",
+      "tags": [
+        "genus:plastia",
+        "medium-pot",
+        "plastic"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa predajcu: 15 cm.",
+        "Materiál podľa predajcu: plast."
+      ],
+      "reason": "Priemer alebo šírka podľa predajcu: 15 cm. Materiál podľa predajcu: plast.",
+      "diameter": 15.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/02/plastia-kvetinac-tolita-ruzovy-16-cm-rastlinkovo.jpeg"
+    },
+    {
+      "id": "p16748",
+      "name": "Rosteto Keramzit 1 liter",
+      "kind": "substrates",
+      "price": "2,15 €",
+      "priceValue": 2.15,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/rosteto-keramzit-1-liter/",
+      "photo": "/assets/plants/rastlinkovo-p16748.jpg",
+      "tags": [
+        "genus:rosteto",
+        "hydro-mix",
+        "indoor-mix",
+        "universal-mix"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Rosteto Keramzit 1 liter."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Rosteto Keramzit 1 liter.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2023/08/rosteto-keramzit-1-liter-rastlinkovo.jpeg"
+    },
+    {
+      "id": "p4466",
+      "name": "Rastlinkovo Keramzit 1 liter",
+      "kind": "substrates",
+      "price": "4,78 €",
+      "priceValue": 4.78,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/rastlinkovo-keramzit-1-liter/",
+      "photo": "/assets/plants/rastlinkovo-p4466.jpg",
+      "tags": [
+        "genus:rastlinkovo",
+        "indoor-mix",
+        "universal-mix"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Rastlinkovo Keramzit 1 liter."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Rastlinkovo Keramzit 1 liter.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/10/keramzit-2.webp"
+    },
+    {
+      "id": "p15724",
+      "name": "Forestina Profík Substrát pre kaktusy a sukulenty 5 litrov",
+      "kind": "substrates",
+      "price": "5,76 €",
+      "priceValue": 5.76,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/forestina-profik-substrat-pre-kaktusy-a-sukulenty-5-litrov/",
+      "photo": "/assets/plants/rastlinkovo-p15724.jpg",
+      "tags": [
+        "cactus-mix",
+        "genus:forestina"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Forestina Profík Substrát pre kaktusy a sukulenty 5 litrov."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Forestina Profík Substrát pre kaktusy a sukulenty 5 litrov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2023/07/forestina-profik-substrat-pre-kaktusy-a-sukulenty-5-litrov-rastlinkovo-1.png"
+    },
+    {
+      "id": "p58677",
+      "name": "Rastlinkovo substrát Sukulenty a Kaktusy 1 liter",
+      "kind": "substrates",
+      "price": "6,73 €",
+      "priceValue": 6.73,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/rastlinkovo-substrat-sukulenty-a-kaktusy-1-liter/",
+      "photo": "/assets/plants/rastlinkovo-p58677.jpg",
+      "tags": [
+        "cactus-mix",
+        "genus:rastlinkovo"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Rastlinkovo substrát Sukulenty a Kaktusy 1 liter."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Rastlinkovo substrát Sukulenty a Kaktusy 1 liter.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/10/sukulenty-a-kaktusy-2.webp"
+    },
+    {
+      "id": "p58660",
+      "name": "Rastlinkovo Keramzit 3 litre",
+      "kind": "substrates",
+      "price": "8,68 €",
+      "priceValue": 8.68,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/rastlinkovo-keramzit-3-litre/",
+      "photo": "/assets/plants/rastlinkovo-p58660.jpg",
+      "tags": [
+        "genus:rastlinkovo",
+        "indoor-mix",
+        "universal-mix"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Rastlinkovo Keramzit 3 litre."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Rastlinkovo Keramzit 3 litre.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/10/keramzit-2.webp"
+    },
+    {
+      "id": "p58685",
+      "name": "Rastlinkovo substrát Calathea & Maranta 3 litre",
+      "kind": "substrates",
+      "price": "10,63 €",
+      "priceValue": 10.63,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/rastlinkovo-substrat-calathea-maranta-3-litre/",
+      "photo": "/assets/plants/rastlinkovo-p58685.jpg",
+      "tags": [
+        "genus:rastlinkovo",
+        "indoor-mix"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Rastlinkovo substrát Calathea & Maranta 3 litre."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Rastlinkovo substrát Calathea & Maranta 3 litre.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/10/calathea-a-maranta-2.webp"
+    },
+    {
+      "id": "p65862",
+      "name": "PlantNest Kaktus a Sukulent substrát 3 litre",
+      "kind": "substrates",
+      "price": "12,59 €",
+      "priceValue": 12.59,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/plantnest-kaktus-a-sukulent-substrat-3-litre/",
+      "photo": "/assets/plants/rastlinkovo-p65862.jpg",
+      "tags": [
+        "cactus-mix",
+        "genus:plantnest"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: PlantNest Kaktus a Sukulent substrát 3 litre."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: PlantNest Kaktus a Sukulent substrát 3 litre.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2026/07/PlantNest_cacti_succulent_product_photo_stvorec.webp"
+    },
+    {
+      "id": "p22600",
+      "name": "Forestina Profík Substrát pre izbové rastliny minerálny 15 litrov",
+      "kind": "substrates",
+      "price": "16,49 €",
+      "priceValue": 16.49,
+      "currency": "EUR",
+      "url": "https://www.rastlinkovo.sk/forestina-profik-substrat-pre-izbove-rastliny-mineralny-15-litrov/",
+      "photo": "/assets/plants/rastlinkovo-p22600.jpg",
+      "tags": [
+        "genus:forestina",
+        "hydro-mix",
+        "indoor-mix",
+        "universal-mix"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Forestina Profík Substrát pre izbové rastliny minerálny 15 litrov."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Forestina Profík Substrát pre izbové rastliny minerálny 15 litrov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.rastlinkovo.sk/wp-content/uploads/2024/02/forestina-profik-mineralny-substrat-pre-izbove-rastliny-15-litrov-rastlinkovo.jpg"
+    }
+  ],
+  "checked": "2026-10-10"
+}

@@ -852,3 +852,82 @@ Svetlo a nenáročnosť všetkých 18 kokedám boli osobitne prezreté v odráž
 | Kokedama Ficus microcarpa Ginseng | Listové kokedamy | 749 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-ficus-microcarpa-ginseng/) |
 | Kokedama Asparagus falcatus | Listové kokedamy | 599 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-asparagus-falcatus/) |
 | Kokedama Haworthia | Sukulentné kokedamy | 509 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-haworthia/) |
+
+## Rastlinkovo
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://www.rastlinkovo.sk/). [Identita predajcu](https://www.rastlinkovo.sk/obchodne-podmienky/).
+- Firma: **Maxspan s.r.o., IČO 51649764**. Vlastníci: Mgr. Matej Prokypčák. Konatelia / podnikateľ: Lenka Čeplová, Mgr. Matej Prokypčák.
+- Veľkosť: **119 447 € tržby 2025; 1 zam.**. Kód `02` v [primárnom registri](https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1772733); údaj aktualizovaný 2026-07-03, načítaný 2026-10-10. [Vlastníci](https://api.statistics.sk/rpo/v1/entity/9571971).
+- [Finančný výkaz](https://www.registeruz.sk/cruz-public/domain/financialreport/show/10167583/687): Výkaz MÚJ: tržby z predaja tovaru 112 209 € + vlastných výrobkov a služieb 7 238 € = 119 447 €. Prvý riadok 121 111 € zahŕňa aj ostatné výnosy, nie je použitý ako tržby. Sumy sú celofiremné.
+- Predajca Maxspan s.r.o. podľa aktuálnych VOP; v rokoch 2021–2023 sa firma volala Rastlinkovo s.r.o. IČO je rovnaké. RPO záznam aktualizovaný 7.7.2025, načítaný 10.10.2026; ORSR pri kontrole neodpovedal.
+- Prečo sedí: Samostatný vlastník, 1 zamestnanec a 119 447 € doložených tržieb za 2025; rastlinný výber je dostatočne pestrý aj bez nesúvisiacich produktov rozšíreného e-shopu. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **61 produktov**, izbové rastliny, sukulenty a kaktusy, črepníky, substráty. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: WooCommerce Store API: `is_in_stock` a `is_purchasable` sú true, `is_on_backorder` je false, `stock_availability.class` je in-stock; pevná cena a mena, bez variantov a cenového rozsahu. Ceny Oxalis (6,73 €) a Dracaena Janet Craig XXL (97,46 €) boli navyše porovnané s koncovou cenou na detaile; zhodné. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/rastlinkovo-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://www.rastlinkovo.sk/wp-content/uploads/2025/10/rastlinkovo-logo-mobil.webp); Oficiálne logo zväčšené s Lanczos vyhladením. Pôvodný list je vyrezaný z loga, tmavé pozadie sa odfiltrovalo a obrys sa jemne zosilnil o jeden zdrojový pixel a prefarbil na bielu kvôli čitateľnosti v brand kruhu. Hlavička chatu zobrazuje celé originálne logo na bielej podložke.
+- Farby: `brand: #393954`, `accent: #565481`, `soft: #f1f0f6`, `paper: #fffefa`, `ink: #292a35`, `line: #dddae8`. Tmavá fialová z oficiálneho loga; sýtejší accent pre kontrast bieleho textu, svetlé fialové neutrálne plochy. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/rastlinkovo-qa.json`, `rastlinkovo-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/rastlinkovo-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Dieffenbachia mac Amy baby | izbové rastliny | 8,68 € | [detail](https://www.rastlinkovo.sk/dieffenbachia-mac-amy-baby/) |
+| Hypoestes phyllostachya červený baby | izbové rastliny | 8,68 € | [detail](https://www.rastlinkovo.sk/hypoestes-phyllostachya-cerveny-baby/) |
+| Prosperplast plastový kvetináč Tubo P light grey Ø 18 cm | črepníky | 8,68 € | [detail](https://www.rastlinkovo.sk/prosperplast-plastovy-kvetinac-tubo-p-light-grey-18-cm/) |
+| Crassula Buddhas temple baby | sukulenty a kaktusy | 9,66 € | [detail](https://www.rastlinkovo.sk/crassula-buddhas-temple-baby/) |
+| Hoya Kerrii Variegata baby | izbové rastliny | 6,73 € | [detail](https://www.rastlinkovo.sk/hoya-kerrii-variegata-baby/) |
+| Dracaena marginata baby | izbové rastliny | 7,71 € | [detail](https://www.rastlinkovo.sk/dracaena-marginata-baby/) |
+| Philodendron Scandens Brasil baby | izbové rastliny | 7,71 € | [detail](https://www.rastlinkovo.sk/philodendron-scandens-brasil-baby/) |
+| Pilea Peperomioides baby | izbové rastliny | 8,68 € | [detail](https://www.rastlinkovo.sk/pilea-peperomioides-baby/) |
+| Aglaonema Red Zirkon baby | izbové rastliny | 9,66 € | [detail](https://www.rastlinkovo.sk/aglaonema-red-zirkon-baby/) |
+| Calathea Freddie Red baby | izbové rastliny | 9,66 € | [detail](https://www.rastlinkovo.sk/calathea-freddie-red-baby/) |
+| Epipremnum Pothos Aureum zlatý | izbové rastliny | 9,66 € | [detail](https://www.rastlinkovo.sk/epipremnum-pothos-aureum-zlaty/) |
+| Philodendron Pink bikini baby | izbové rastliny | 9,66 € | [detail](https://www.rastlinkovo.sk/philodendron-pink-bikini-baby/) |
+| Syngonium Pixie baby | izbové rastliny | 9,66 € | [detail](https://www.rastlinkovo.sk/syngonium-pixie-baby/) |
+| Philodendron Scandens baby | izbové rastliny | 10,63 € | [detail](https://www.rastlinkovo.sk/philodendron-scandens-baby/) |
+| Rhapidophora Tetrasperma | izbové rastliny | 11,61 € | [detail](https://www.rastlinkovo.sk/rhapidophora-tetrasperma/) |
+| Epipremnum Pothos neon | izbové rastliny | 12,59 € | [detail](https://www.rastlinkovo.sk/epipremnum-pothos-neon/) |
+| Philodendron Gloriosum baby | izbové rastliny | 12,59 € | [detail](https://www.rastlinkovo.sk/philodendron-gloriosum-baby/) |
+| Syngonium Mottled Mojito baby | izbové rastliny | 13,56 € | [detail](https://www.rastlinkovo.sk/syngonium-mottled-mojito-baby/) |
+| Epipremnum Pothos Global Green | izbové rastliny | 14,54 € | [detail](https://www.rastlinkovo.sk/epipremnum-pothos-global-green/) |
+| Hoya Mathilde splash | izbové rastliny | 14,54 € | [detail](https://www.rastlinkovo.sk/hoya-mathilde-splash/) |
+| Philodendron Pink Princess marble | izbové rastliny | 14,54 € | [detail](https://www.rastlinkovo.sk/philodendron-pink-princess-marble/) |
+| Alocasia Scalprum baby | izbové rastliny | 15,51 € | [detail](https://www.rastlinkovo.sk/alocasia-scalprum-baby/) |
+| Caladium Pearl Blush | izbové rastliny | 15,51 € | [detail](https://www.rastlinkovo.sk/caladium-pearl-blush/) |
+| Sansevieria Svokrine jazyky Trifasciata Futura Superba | izbové rastliny | 15,51 € | [detail](https://www.rastlinkovo.sk/sansevieria-svokrine-jazyky-trifasciata-futura-superba/) |
+| Scindapsus Treubii Moonlight | izbové rastliny | 15,51 € | [detail](https://www.rastlinkovo.sk/scindapsus-treubii-moonlight/) |
+| Orchidea phalaenopsis multiflora fialová | izbové rastliny | 16,49 € | [detail](https://www.rastlinkovo.sk/orchidea-phalaenopsis-multiflora-fialova-hviezda/) |
+| Monstera Deliciosa veľká | izbové rastliny | 17,46 € | [detail](https://www.rastlinkovo.sk/monstera-deliciosa/) |
+| Alocasia Stingray | izbové rastliny | 18,44 € | [detail](https://www.rastlinkovo.sk/alocasia-stingray/) |
+| Strelitzia kráľovská Reginae | izbové rastliny | 18,44 € | [detail](https://www.rastlinkovo.sk/strelitzia-kralovska-reginae/) |
+| Aglaonema Lemon Mint | izbové rastliny | 22,34 € | [detail](https://www.rastlinkovo.sk/aglaonema-lemon-mint/) |
+| Alocasia Jacklyn | izbové rastliny | 27,22 € | [detail](https://www.rastlinkovo.sk/alocasia-jacklyn/) |
+| Aglaonema Rose Parakeet | izbové rastliny | 29,17 € | [detail](https://www.rastlinkovo.sk/aglaonema-rose-parakeet/) |
+| Dracaena Janet Craig XXL | izbové rastliny | 97,46 € | [detail](https://www.rastlinkovo.sk/dracaena-janet-craig-xxl/) |
+| Haworthia Big Band baby | sukulenty a kaktusy | 4,78 € | [detail](https://www.rastlinkovo.sk/haworthia-big-band-baby/) |
+| Kalanchoe Tomentosa baby | sukulenty a kaktusy | 6,73 € | [detail](https://www.rastlinkovo.sk/kalanchoe-tomentosa-baby/) |
+| Kalanchoe Zebra baby | sukulenty a kaktusy | 6,73 € | [detail](https://www.rastlinkovo.sk/kalanchoe-zebra-baby/) |
+| Kalanchoe Grandiva biele baby | sukulenty a kaktusy | 7,71 € | [detail](https://www.rastlinkovo.sk/kalanchoe-grandiva-biele-baby/) |
+| Kalanchoe Grandiva ružové baby | sukulenty a kaktusy | 7,71 € | [detail](https://www.rastlinkovo.sk/kalanchoe-grandiva-ruzove-baby/) |
+| Kalanchoe Grandiva žlté baby | sukulenty a kaktusy | 7,71 € | [detail](https://www.rastlinkovo.sk/kalanchoe-grandiva-zlte-baby/) |
+| Lithops hallii živé kamene baby | sukulenty a kaktusy | 7,71 € | [detail](https://www.rastlinkovo.sk/lithops-hallii-zive-kamene-baby/) |
+| Sedum Rubrotinctum Aurora baby | sukulenty a kaktusy | 9,66 € | [detail](https://www.rastlinkovo.sk/sedum-rubrotinctum-aurora-baby/) |
+| Senecio starček Rowleyanus baby | sukulenty a kaktusy | 9,66 € | [detail](https://www.rastlinkovo.sk/senecio-starcek-rowleyanus-baby/) |
+| Prosperplast plastový kvetináč Cube Beton effect sivý Ø 9 cm | črepníky | 2,83 € | [detail](https://www.rastlinkovo.sk/prosperplast-plastovy-kvetinac-cube-beton-effect-sivy-9-cm/) |
+| Prosperplast plastový kvetináč Milly round copper Ø 12 cm | črepníky | 3,80 € | [detail](https://www.rastlinkovo.sk/prosperplast-plastovy-kvetinac-milly-round-copper-12-cm/) |
+| Prosperplast plastový kvetináč Milly round copper Ø 14 cm | črepníky | 4,78 € | [detail](https://www.rastlinkovo.sk/prosperplast-plastovy-kvetinac-milly-round-copper-14-cm/) |
+| Prosperplast plastový kvetináč Milly round copper Ø 17 cm | črepníky | 5,76 € | [detail](https://www.rastlinkovo.sk/prosperplast-plastovy-kvetinac-milly-round-copper-17-cm/) |
+| Kvetináč Eno Duo dusty green Ø 7 cm | črepníky | 6,73 € | [detail](https://www.rastlinkovo.sk/kvetinac-eno-duo-dusty-green-7-cm/) |
+| Kvetináč Eno Matt olive Ø 7 cm | črepníky | 6,73 € | [detail](https://www.rastlinkovo.sk/kvetinac-eno-matt-olive-7-cm/) |
+| Kvetináč Vintage keramický béžový Ø 6 cm | črepníky | 6,73 € | [detail](https://www.rastlinkovo.sk/kvetinac-vintage-keramicky-bezovy-o-6-cm/) |
+| Prosperplast plastový kvetináč Milly round pine green Ø 19 cm | črepníky | 6,73 € | [detail](https://www.rastlinkovo.sk/prosperplast-plastovy-kvetinac-milly-round-pine-green-o-19-cm/) |
+| Kvetináč Eno Matt dusty petrol Ø 10 cm | črepníky | 7,71 € | [detail](https://www.rastlinkovo.sk/kvetinac-eno-matt-dusty-petrol-10-cm/) |
+| Kvetináč DOG Ø 9 cm | črepníky | 9,66 € | [detail](https://www.rastlinkovo.sk/kvetinac-dog-o-9-cm/) |
+| Plastia samozavlažovací kvetináč Tolita ružový Ø 15 cm | črepníky | 16,49 € | [detail](https://www.rastlinkovo.sk/plastia-samozavlazovaci-kvetinac-tolita-ruzovy-15-cm/) |
+| Rosteto Keramzit 1 liter | substráty | 2,15 € | [detail](https://www.rastlinkovo.sk/rosteto-keramzit-1-liter/) |
+| Rastlinkovo Keramzit 1 liter | substráty | 4,78 € | [detail](https://www.rastlinkovo.sk/rastlinkovo-keramzit-1-liter/) |
+| Forestina Profík Substrát pre kaktusy a sukulenty 5 litrov | substráty | 5,76 € | [detail](https://www.rastlinkovo.sk/forestina-profik-substrat-pre-kaktusy-a-sukulenty-5-litrov/) |
+| Rastlinkovo substrát Sukulenty a Kaktusy 1 liter | substráty | 6,73 € | [detail](https://www.rastlinkovo.sk/rastlinkovo-substrat-sukulenty-a-kaktusy-1-liter/) |
+| Rastlinkovo Keramzit 3 litre | substráty | 8,68 € | [detail](https://www.rastlinkovo.sk/rastlinkovo-keramzit-3-litre/) |
+| Rastlinkovo substrát Calathea & Maranta 3 litre | substráty | 10,63 € | [detail](https://www.rastlinkovo.sk/rastlinkovo-substrat-calathea-maranta-3-litre/) |
+| PlantNest Kaktus a Sukulent substrát 3 litre | substráty | 12,59 € | [detail](https://www.rastlinkovo.sk/plantnest-kaktus-a-sukulent-substrat-3-litre/) |
+| Forestina Profík Substrát pre izbové rastliny minerálny 15 litrov | substráty | 16,49 € | [detail](https://www.rastlinkovo.sk/forestina-profik-substrat-pre-izbove-rastliny-mineralny-15-litrov/) |

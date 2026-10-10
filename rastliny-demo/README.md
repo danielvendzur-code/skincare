@@ -22,3 +22,4 @@ Chat funguje bez API kľúča z overeného katalógu. Voliteľný `ANTHROPIC_API
 | [Izbovečky](https://www.izbovecky.sk/) | [`izbovecky`](./izbovecky/index.html) | 25 | izbové rastliny, raritné rastliny | Izbovečky s. r. o. / 57395497 | Tržby nedoložené; 1 zam. | PASS 1440 / 390 / 360 |
 | [BREST](https://www.brest.sk/) | [`brest`](./brest/index.html) | 50 | trvalky a skalničky, okrasné dreviny, ovocné dreviny | STROMČEKY s. r. o. / 46243313 | 487 128 € tržby 2025; 5–9 zam. | PASS 1440 / 390 / 360 |
 | [Kokedamy.cz](https://www.kokedamy.cz/) | [`kokedamy`](./kokedamy/index.html) | 18 | listové kokedamy, sukulentné kokedamy | NAVONA Gardens, s.r.o. / 05753147 | Tržby nedoložené; 6–9 zam. | PASS 1440 / 390 / 360 |
+| [Rastlinkovo](https://www.rastlinkovo.sk/) | [`rastlinkovo`](./rastlinkovo/index.html) | 61 | izbové rastliny, sukulenty a kaktusy, črepníky, substráty | Maxspan s.r.o. / 51649764 | 119 447 € tržby 2025; 1 zam. | PASS 1440 / 390 / 360 |
