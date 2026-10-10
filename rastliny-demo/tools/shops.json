@@ -134,5 +134,69 @@
       "succulents": "mix|uměl",
       "pots": "lamp|pleten|použit|závěs|úplet"
     }
+  },
+  "farmarky": {
+    "theme": {
+      "brand": "#275c37",
+      "accent": "#377448",
+      "soft": "#f0f4eb",
+      "paper": "#fffefa",
+      "ink": "#253124",
+      "line": "#d9e3d5"
+    },
+    "platform": "shopify",
+    "currency": "CZK",
+    "logoNote": "Oficiálne logo; pre hlavičku vyrezaný pôvodný trojriadkový text a zväčšený s Lanczos vyhladením. Pôvodný kvetinový motív je v kruhu v bielej verzii.",
+    "themeNote": "Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu.",
+    "exclude": "poukaz|workshop|kurz|um[eě]l|řízek|rezerv|předobjedn|predobjedn|dar[čc]ekov.*box",
+    "limits": {
+      "plants": 36,
+      "succulents": 14,
+      "pots": 12,
+      "substrates": 12
+    },
+    "name": "Farmářky z paneláku",
+    "website": "https://farmarkyzpanelaku.cz/",
+    "kinds": [
+      "plants",
+      "pots",
+      "substrates"
+    ],
+    "categories": {
+      "substrates": "Substráty|Substrát",
+      "pots": "Květináče|kv[eě]tin[aá][čc]",
+      "plants": "Pokojovky"
+    },
+    "categoryNotes": {
+      "plants": "Druhy do bytu a na policu",
+      "succulents": "Sukulenty a kaktusy",
+      "pots": "Kokosové a ďalšie črepníky",
+      "substrates": "Zmesi podľa druhu rastliny"
+    },
+    "logoSource": "https://farmarkyzpanelaku.cz/cdn/shop/files/1.png?v=1719496145&width=600",
+    "markCrop": [
+      50,
+      55,
+      310,
+      310
+    ],
+    "markWhite": true,
+    "terms": "https://farmarkyzpanelaku.cz/policies/contact-information",
+    "fit": "Vlastný obchod jednej živnostníčky, 1–5 zamestnancov; mnoho podobných izbových druhov, pestovateľské médiá a črepníky.",
+    "excludeByKind": {
+      "plants": "police|opora|náhodn|p[řr][ií]slu[šs]en"
+    },
+    "logoCrop": [
+      270,
+      250,
+      570,
+      460
+    ],
+    "heroNames": [
+      "Fittonia 4",
+      "Pilea peperomides \"M\"",
+      "Kokosový květináč (8 cm)",
+      "Sansevieria Laurentii \"S\""
+    ]
   }
 }

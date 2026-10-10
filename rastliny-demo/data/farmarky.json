@@ -1,0 +1,1222 @@
+{
+  "theme": {
+    "brand": "#275c37",
+    "accent": "#377448",
+    "soft": "#f0f4eb",
+    "paper": "#fffefa",
+    "ink": "#253124",
+    "line": "#d9e3d5"
+  },
+  "currency": "CZK",
+  "name": "Farmářky z paneláku",
+  "website": "https://farmarkyzpanelaku.cz/",
+  "kinds": [
+    "plants",
+    "pots",
+    "substrates"
+  ],
+  "categoryNotes": {
+    "plants": "Druhy do bytu a na policu",
+    "succulents": "Sukulenty a kaktusy",
+    "pots": "Kokosové a ďalšie črepníky",
+    "substrates": "Zmesi podľa druhu rastliny"
+  },
+  "slug": "farmarky",
+  "hero": "/assets/plants/farmarky.jpg",
+  "mobileHero": "/assets/plants/farmarky-mobile.jpg",
+  "logo": "/assets/plants/farmarky-logo.png",
+  "mark": "/assets/plants/farmarky-mark.png",
+  "products": [
+    {
+      "id": "v54102593470790",
+      "name": "Fittonia 4",
+      "kind": "plants",
+      "price": "69 Kč",
+      "priceValue": 69.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/fittonia-3-kopie?variant=54102593470790",
+      "photo": "/assets/plants/farmarky-v54102593470790.jpg",
+      "tags": [
+        "easy",
+        "genus:fittonia",
+        "pet-safe"
+      ],
+      "facts": [
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/fitonia_4_cc2ab248-cd12-4c3a-8f5f-093ccabb7882.jpg?v=1739282421"
+    },
+    {
+      "id": "v54314087973190",
+      "name": "Pilea peperomides \"M\"",
+      "kind": "plants",
+      "price": "149 Kč",
+      "priceValue": 149.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/pilea-peperomides-m?variant=54314087973190",
+      "photo": "/assets/plants/farmarky-v54314087973190.jpg",
+      "tags": [
+        "easy",
+        "genus:pilea",
+        "pet-safe"
+      ],
+      "facts": [
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/pilea_rostlina_obchod_farmarky_z_panelaku.jpg?v=1743443857"
+    },
+    {
+      "id": "v53383176290630",
+      "name": "Kokosový květináč (8 cm)",
+      "kind": "pots",
+      "price": "45 Kč",
+      "priceValue": 45.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/kokosovy-kvetinac-8-cm?variant=53383176290630",
+      "photo": "/assets/plants/farmarky-v53383176290630.jpg",
+      "tags": [
+        "genus:kokosový",
+        "plastic"
+      ],
+      "facts": [
+        "Materiál podľa predajcu: plast."
+      ],
+      "reason": "Materiál podľa predajcu: plast.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/kokosovy_kvetinac_obchod_farmarky_z_panelaku3.jpg?v=1730655957"
+    },
+    {
+      "id": "v50438503825734",
+      "name": "Sansevieria Laurentii \"S\"",
+      "kind": "plants",
+      "price": "149 Kč",
+      "priceValue": 149.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/sansevieria-laurentii-s?variant=50438503825734",
+      "photo": "/assets/plants/farmarky-v50438503825734.jpg",
+      "tags": [
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/tchynin_jazyk_obchod_farmarky_z_panelaku.jpg?v=1724064675"
+    },
+    {
+      "id": "v50283133927750",
+      "name": "Zelenec panašovaný (Chlorophytum) \"M\"",
+      "kind": "plants",
+      "price": "119 Kč",
+      "priceValue": 119.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/zelenec-panasovany-chlorophytum?variant=50283133927750",
+      "photo": "/assets/plants/farmarky-v50283133927750.jpg",
+      "tags": [
+        "easy",
+        "genus:zelenec",
+        "pet-safe"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/chlorophytum_zelenec_obchod_farmarky_z_panelaku.jpg?v=1727631874"
+    },
+    {
+      "id": "v50082460139846",
+      "name": "Epipremnum Neon \"S\"",
+      "kind": "plants",
+      "price": "149 Kč",
+      "priceValue": 149.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/epipremnum-njoy?variant=50082460139846",
+      "photo": "/assets/plants/farmarky-v50082460139846.jpg",
+      "tags": [
+        "easy",
+        "genus:epipremnum"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/epipremnum_neon_farmarky_z_panelaku_obchod.jpg?v=1720606895"
+    },
+    {
+      "id": "v53786514424134",
+      "name": "Květináč - Brontosauří vejce (8 cm) — Půlka vejce",
+      "kind": "pots",
+      "price": "999 Kč",
+      "priceValue": 999.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/kvetnik-brontosauri-vejce-8-cm?variant=53786514424134",
+      "photo": "/assets/plants/farmarky-v53786514424134.jpg",
+      "tags": [
+        "genus:květináč"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Květináč - Brontosauří vejce (8 cm) — Půlka vejce."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Květináč - Brontosauří vejce (8 cm) — Půlka vejce.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/pul_vejce_obchod_farmarky_z_panelaku_dira.jpg?v=1732619441"
+    },
+    {
+      "id": "v54518007365958",
+      "name": "Fittonia 10",
+      "kind": "plants",
+      "price": "109 Kč",
+      "priceValue": 109.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/fittonia-10?variant=54518007365958",
+      "photo": "/assets/plants/farmarky-v54518007365958.jpg",
+      "tags": [
+        "genus:fittonia"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Fittonia 10."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Fittonia 10.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/fittonia_10_obchod_farmarky_z_panelaku_rostlina.jpg?v=1747656737"
+    },
+    {
+      "id": "v56493358186822",
+      "name": "Hoya carnosa tricolor \"S\"",
+      "kind": "plants",
+      "price": "149 Kč",
+      "priceValue": 149.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/hoya-carnosa-tricolor-s?variant=56493358186822",
+      "photo": "/assets/plants/farmarky-v56493358186822.jpg",
+      "tags": [
+        "genus:hoya",
+        "pet-safe"
+      ],
+      "facts": [
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/hoya_carnosa_m_farmarky_z_panelaku.jpg?v=1777822876"
+    },
+    {
+      "id": "v54314010247494",
+      "name": "Chamaedorea elegans \"M\"",
+      "kind": "plants",
+      "price": "159 Kč",
+      "priceValue": 159.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/chamaedorea-elegans-m?variant=54314010247494",
+      "photo": "/assets/plants/farmarky-v54314010247494.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:chamaedorea",
+        "pet-safe"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/chamaedorea_elegans_obchod_farmarky_z_panelaku_19a6ec41-a706-40e8-b097-ed2ebfadd81d.jpg?v=1743442385"
+    },
+    {
+      "id": "v54102607429958",
+      "name": "Ficus Belize \"M\"",
+      "kind": "plants",
+      "price": "169 Kč",
+      "priceValue": 169.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/ficus-belize-stredni?variant=54102607429958",
+      "photo": "/assets/plants/farmarky-v54102607429958.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:ficus"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/ficus_belize_maly_1.jpg?v=1739285043"
+    },
+    {
+      "id": "v50439895482694",
+      "name": "Ficus Pumila \"M\"",
+      "kind": "plants",
+      "price": "169 Kč",
+      "priceValue": 169.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/ficus-pumila-m?variant=50439895482694",
+      "photo": "/assets/plants/farmarky-v50439895482694.jpg",
+      "tags": [
+        "easy",
+        "genus:ficus"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/Ficus_pumila_obchodfarmarky_z_panelaku.jpg?v=1726336462"
+    },
+    {
+      "id": "v56493370540358",
+      "name": "Peperomia pereskiifolia \"M\"",
+      "kind": "plants",
+      "price": "169 Kč",
+      "priceValue": 169.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/peperomia-pereskiifolia-m?variant=56493370540358",
+      "photo": "/assets/plants/farmarky-v56493370540358.jpg",
+      "tags": [
+        "genus:peperomia",
+        "pet-safe"
+      ],
+      "facts": [
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/Peperomia_pereskiifolia_M_farmarky_z_panelaku.jpg?v=1777823326"
+    },
+    {
+      "id": "v50438278742342",
+      "name": "Philodendron White Princess \"S\"",
+      "kind": "plants",
+      "price": "169 Kč",
+      "priceValue": 169.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/philodendron-white-princess?variant=50438278742342",
+      "photo": "/assets/plants/farmarky-v50438278742342.jpg",
+      "tags": [
+        "bright",
+        "genus:philodendron"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/philodendron_white_princess_maly_obchod_farmarky_z_panelaku.jpg?v=1726318519"
+    },
+    {
+      "id": "v54517849424198",
+      "name": "Philodendron pink princess \"S\"",
+      "kind": "plants",
+      "price": "169 Kč",
+      "priceValue": 169.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/philodendron-pink-princess-s?variant=54517849424198",
+      "photo": "/assets/plants/farmarky-v54517849424198.jpg",
+      "tags": [
+        "bright",
+        "genus:philodendron"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/philodendron_pink_princess_s_obchod_farmarky_z_panelaku.jpg?v=1747653911"
+    },
+    {
+      "id": "v50082522136902",
+      "name": "Philodendron Lemon Lime \"M\"",
+      "kind": "plants",
+      "price": "179 Kč",
+      "priceValue": 179.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/philodendron-lemon-lime?variant=50082522136902",
+      "photo": "/assets/plants/farmarky-v50082522136902.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:philodendron"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/philodendron_lemon_lime_rostlina.jpg?v=1739285886"
+    },
+    {
+      "id": "v54076595044678",
+      "name": "Scindapsus pictus trebi \"M\"",
+      "kind": "plants",
+      "price": "179 Kč",
+      "priceValue": 179.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/scindapsus-pictus-trebi?variant=54076595044678",
+      "photo": "/assets/plants/farmarky-v54076595044678.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:scindapsus",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/scindapsus_exotica.jpg?v=1739290017"
+    },
+    {
+      "id": "v50283124457798",
+      "name": "Scindapsus Pictus \"M\"",
+      "kind": "plants",
+      "price": "189 Kč",
+      "priceValue": 189.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/scindapsus-pictus?variant=50283124457798",
+      "photo": "/assets/plants/farmarky-v50283124457798.jpg",
+      "tags": [
+        "easy",
+        "genus:scindapsus"
+      ],
+      "facts": [
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/scindapsus_pictus_listy.jpg?v=1739289935"
+    },
+    {
+      "id": "v54794218078534",
+      "name": "Epipremnum Aureum \"M\" (šetrné k přírodě)",
+      "kind": "plants",
+      "price": "199 Kč",
+      "priceValue": 199.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/epipremnum-aureum-m-setrne-k-prirode?variant=54794218078534",
+      "photo": "/assets/plants/farmarky-v54794218078534.jpg",
+      "tags": [
+        "easy",
+        "genus:epipremnum"
+      ],
+      "facts": [
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/epipremnum_aureum_pokojovka_setrne_k_prirode_farmarky_z_panelaku_8ae4184b-6c5c-4461-a179-88a7bb722efc.jpg?v=1752238480"
+    },
+    {
+      "id": "v54788751262022",
+      "name": "Epipremnum Neon \"M\" (šetrné k přírodě)",
+      "kind": "plants",
+      "price": "199 Kč",
+      "priceValue": 199.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/epipremnum-neon-m-setrne-k-prirode?variant=54788751262022",
+      "photo": "/assets/plants/farmarky-v54788751262022.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:epipremnum",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/epipremnum_neon_cela_pokojovka_setrne_k_prirode_farmarky_z_panelaku_e80c9705-f621-4d17-a025-b8055ed2167b.jpg?v=1752133188"
+    },
+    {
+      "id": "v56493371359558",
+      "name": "Peperomia pereskiifolia (šetrné k přírodě)",
+      "kind": "plants",
+      "price": "199 Kč",
+      "priceValue": 199.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/peperomia-pereskiifolia-m-kopie?variant=56493371359558",
+      "photo": "/assets/plants/farmarky-v56493371359558.jpg",
+      "tags": [
+        "genus:peperomia",
+        "pet-safe"
+      ],
+      "facts": [
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/Peperomia_pereskiifolia_setrne_k_prirode_farmarky_z_panelaku.jpg?v=1777823438"
+    },
+    {
+      "id": "v50438492782918",
+      "name": "Philodendron Birkin \"L\"",
+      "kind": "plants",
+      "price": "199 Kč",
+      "priceValue": 199.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/philodendron-birkin-l?variant=50438492782918",
+      "photo": "/assets/plants/farmarky-v50438492782918.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:philodendron"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/philodendron_birkin_obchod_farmarky_z_panelaku.jpg?v=1726323258"
+    },
+    {
+      "id": "v54788724752710",
+      "name": "Tchýnin jazyk \"M\" (šetrné k přírodě)",
+      "kind": "plants",
+      "price": "199 Kč",
+      "priceValue": 199.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/tchynin-jazyk-m-setrne-k-prirode?variant=54788724752710",
+      "photo": "/assets/plants/farmarky-v54788724752710.jpg",
+      "tags": [
+        "genus:tchýnin"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Tchýnin jazyk \"M\" (šetrné k přírodě)."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Tchýnin jazyk \"M\" (šetrné k přírodě).",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/tchynin_jazyk_setrne_k_prirode_farmarky_z_panelaku_03df4fa3-f199-40cc-ab39-44591b6471ec.jpg?v=1752132997"
+    },
+    {
+      "id": "v56540154298694",
+      "name": "Schefflera arboricola Gerda \"L\"",
+      "kind": "plants",
+      "price": "229 Kč",
+      "priceValue": 229.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/schefflera-arboricola-gerda-l?variant=56540154298694",
+      "photo": "/assets/plants/farmarky-v56540154298694.jpg",
+      "tags": [
+        "bright",
+        "genus:schefflera"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/schefflera_arboricola_gerda_farmarky_z_panelaku_l.jpg?v=1778343212"
+    },
+    {
+      "id": "v55983937225030",
+      "name": "Alocasia Scalprum \"S\"",
+      "kind": "plants",
+      "price": "239 Kč",
+      "priceValue": 239.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/alocasia-scalprum-s?variant=55983937225030",
+      "photo": "/assets/plants/farmarky-v55983937225030.jpg",
+      "tags": [
+        "genus:alocasia"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Alocasia Scalprum \"S\"."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Alocasia Scalprum \"S\".",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/alocasia_scalprum_s_farmarky_z_panelaku.jpg?v=1771332783"
+    },
+    {
+      "id": "v56781099172166",
+      "name": "Peperomia Green Bean",
+      "kind": "plants",
+      "price": "249 Kč",
+      "priceValue": 249.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/peperomia-green-bean?variant=56781099172166",
+      "photo": "/assets/plants/farmarky-v56781099172166.jpg",
+      "tags": [
+        "genus:peperomia",
+        "pet-safe"
+      ],
+      "facts": [
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/peperomia_green_bean_farmarky_z_panelaku.jpg?v=1781443913"
+    },
+    {
+      "id": "v54106803568966",
+      "name": "Philodendron Cream Splash \"M\"",
+      "kind": "plants",
+      "price": "249 Kč",
+      "priceValue": 249.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/philodendron-cream-splash-s?variant=54106803568966",
+      "photo": "/assets/plants/farmarky-v54106803568966.jpg",
+      "tags": [
+        "bright",
+        "genus:philodendron"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/philodendron_cream_splash_maly_6d86e4e7-a84c-4274-b52e-23c5c7599c74.jpg?v=1739291120"
+    },
+    {
+      "id": "v56493347995974",
+      "name": "Sansevieria Laurentii \"L\"",
+      "kind": "plants",
+      "price": "249 Kč",
+      "priceValue": 249.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/sansevieria-laurentii-l?variant=56493347995974",
+      "photo": "/assets/plants/farmarky-v56493347995974.jpg",
+      "tags": [
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/Sansevieria_Laurentii_L_farmarky_z_panelaku.jpg?v=1777822120"
+    },
+    {
+      "id": "v54794248683846",
+      "name": "Scindapsus Pictus Trebi \"M\" (šetrné k přírodě)",
+      "kind": "plants",
+      "price": "249 Kč",
+      "priceValue": 249.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/scindapsus-pictus-trebi-m-setrne-k-prirode?variant=54794248683846",
+      "photo": "/assets/plants/farmarky-v54794248683846.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:scindapsus",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/scindapsus_pictus_exotica_setrne_k_prirode_farmarky_z_panelaku.jpg?v=1752089734"
+    },
+    {
+      "id": "v53383152042310",
+      "name": "Ficus Bambino \"L\"",
+      "kind": "plants",
+      "price": "279 Kč",
+      "priceValue": 279.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/ficus-bambino?variant=53383152042310",
+      "photo": "/assets/plants/farmarky-v53383152042310.jpg",
+      "tags": [
+        "easy",
+        "genus:ficus"
+      ],
+      "facts": [
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/ficus_bambino_obchod_farmarky_z_panelaku_zblizka.jpg?v=1730655337"
+    },
+    {
+      "id": "v55984078389574",
+      "name": "Peperomia obtusifolia green \"L\"",
+      "kind": "plants",
+      "price": "299 Kč",
+      "priceValue": 299.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/peperomia-obtusifolia-green-l?variant=55984078389574",
+      "photo": "/assets/plants/farmarky-v55984078389574.jpg",
+      "tags": [
+        "genus:peperomia",
+        "pet-safe"
+      ],
+      "facts": [
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/peperomia_obtusifolia_green_farmarky_z_panelaku.jpg?v=1771332249"
+    },
+    {
+      "id": "v54517745975622",
+      "name": "Monstera siltepecana \"L\"",
+      "kind": "plants",
+      "price": "329 Kč",
+      "priceValue": 329.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/monstera-siltepecana-l?variant=54517745975622",
+      "photo": "/assets/plants/farmarky-v54517745975622.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:monstera"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/monstera_siltepecana_l_obchod_farmarky_z_panelaku.jpg?v=1747652678"
+    },
+    {
+      "id": "v54788687593798",
+      "name": "Philodendron Cream Splash \"M\" (šetrné k přírodě)",
+      "kind": "plants",
+      "price": "349 Kč",
+      "priceValue": 349.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/philodendron-cream-splash-m-setrne-k-prirode?variant=54788687593798",
+      "photo": "/assets/plants/farmarky-v54788687593798.jpg",
+      "tags": [
+        "bright",
+        "genus:philodendron"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/philodendron_cream_splash_setrne_k_prirode_farmarky_z_panelaku_69643f37-3117-4fe4-88f9-b3d97bacfc20.jpg?v=1752132677"
+    },
+    {
+      "id": "v56781095338310",
+      "name": "Ficus Benjamina variegated \"L\"",
+      "kind": "plants",
+      "price": "359 Kč",
+      "priceValue": 359.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/ficus-benjamina-variegated-l?variant=56781095338310",
+      "photo": "/assets/plants/farmarky-v56781095338310.jpg",
+      "tags": [
+        "genus:ficus"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Ficus Benjamina variegated \"L\"."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Ficus Benjamina variegated \"L\".",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/ficus_benjamina_panasovany_farmarky_z_panelaku.jpg?v=1781443831"
+    },
+    {
+      "id": "v54313979576646",
+      "name": "Nephrolepis Exaltata Green Lady \"M\"",
+      "kind": "plants",
+      "price": "399 Kč",
+      "priceValue": 399.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/neprolepis-exaltata-green-lady-m?variant=54313979576646",
+      "photo": "/assets/plants/farmarky-v54313979576646.jpg",
+      "tags": [
+        "easy",
+        "genus:nephrolepis",
+        "pet-safe"
+      ],
+      "facts": [
+        "Predajca ju zaraďuje medzi rastliny pre začiatočníkov.",
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Predajca ju zaraďuje medzi rastliny pre začiatočníkov. Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/ledvinik_obchod_farmarky_z_panelaku.jpg?v=1743441581"
+    },
+    {
+      "id": "v54313967124806",
+      "name": "Hoya Macrophylla Variegata \"M\"",
+      "kind": "plants",
+      "price": "449 Kč",
+      "priceValue": 449.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/hoya-macrophylla-variegata-m?variant=54313967124806",
+      "photo": "/assets/plants/farmarky-v54313967124806.jpg",
+      "tags": [
+        "genus:hoya",
+        "pet-safe"
+      ],
+      "facts": [
+        "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu."
+      ],
+      "reason": "Zaradenie predajcu: vhodná do domácnosti so zvieratami; nie na konzumáciu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/Hoyamacrophyllavariegata_m_rostlina_obchod_farmarky_z_panelaku.jpg?v=1743441189"
+    },
+    {
+      "id": "v53786524713286",
+      "name": "Květináč - Brontosauří vejce (10 cm) — Půlka vejce",
+      "kind": "pots",
+      "price": "1349 Kč",
+      "priceValue": 1349.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/kvetnik-brontosauri-vejce-10-cm?variant=53786524713286",
+      "photo": "/assets/plants/farmarky-v53786524713286.jpg",
+      "tags": [
+        "genus:květináč"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Květináč - Brontosauří vejce (10 cm) — Půlka vejce."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Květináč - Brontosauří vejce (10 cm) — Půlka vejce.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/pul_vejce_brontosaurus_obchod_farmarky_z_panelaku.jpg?v=1732619440"
+    },
+    {
+      "id": "v53740043108678",
+      "name": "Květináč - Brontosauří vejce (11 cm) — Půlka vejce",
+      "kind": "pots",
+      "price": "1799 Kč",
+      "priceValue": 1799.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/kvetnik-brontosauri-vejce-11-cm?variant=53740043108678",
+      "photo": "/assets/plants/farmarky-v53740043108678.jpg",
+      "tags": [
+        "genus:květináč"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Květináč - Brontosauří vejce (11 cm) — Půlka vejce."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Květináč - Brontosauří vejce (11 cm) — Půlka vejce.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/pul_vejce_obchod_farmarky_z_panelaku.jpg?v=1732619440"
+    },
+    {
+      "id": "v50438851035462",
+      "name": "Kokosové vlákno — 1l",
+      "kind": "substrates",
+      "price": "29 Kč",
+      "priceValue": 29.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/kokosove-vlakno?variant=50438851035462",
+      "photo": "/assets/plants/farmarky-v50438851035462.jpg",
+      "tags": [
+        "genus:kokosové",
+        "volume-small"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Kokosové vlákno — 1l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Kokosové vlákno — 1l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/kokosove_vlakno_obchod_farmarky_z_panelaku.jpg?v=1721911425"
+    },
+    {
+      "id": "v50438851985734",
+      "name": "Perlit — 1l",
+      "kind": "substrates",
+      "price": "29 Kč",
+      "priceValue": 29.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/perlit?variant=50438851985734",
+      "photo": "/assets/plants/farmarky-v50438851985734.jpg",
+      "tags": [
+        "genus:perlit",
+        "volume-small"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Perlit — 1l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Perlit — 1l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/perlit_obchod_farmarky_z_panelaku.jpg?v=1721910799"
+    },
+    {
+      "id": "v55869662626118",
+      "name": "Substrát pro Alocasie a Anthuria — 1l",
+      "kind": "substrates",
+      "price": "39 Kč",
+      "priceValue": 39.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/substrat-pro-alocasie-a-anthuria?variant=55869662626118",
+      "photo": "/assets/plants/farmarky-v55869662626118.jpg",
+      "tags": [
+        "genus:substrát",
+        "volume-small"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Substrát pro Alocasie a Anthuria — 1l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Substrát pro Alocasie a Anthuria — 1l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/substrat_pro_alocasie_a_anthuria_farmarky_z_panelaku.jpg?v=1769351327"
+    },
+    {
+      "id": "v50089707143494",
+      "name": "Substrát pro Aroidy — 1l",
+      "kind": "substrates",
+      "price": "39 Kč",
+      "priceValue": 39.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/substrat-pro-aroidy?variant=50089707143494",
+      "photo": "/assets/plants/farmarky-v50089707143494.jpg",
+      "tags": [
+        "genus:substrát",
+        "indoor-mix",
+        "volume-small"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Substrát pro Aroidy — 1l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Substrát pro Aroidy — 1l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/38.jpg?v=1726329183"
+    },
+    {
+      "id": "v53726971068742",
+      "name": "Substrát pro fíkusy — 1l",
+      "kind": "substrates",
+      "price": "39 Kč",
+      "priceValue": 39.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/substrat-pro-fikusy?variant=53726971068742",
+      "photo": "/assets/plants/farmarky-v53726971068742.jpg",
+      "tags": [
+        "genus:substrát",
+        "volume-small"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Substrát pro fíkusy — 1l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Substrát pro fíkusy — 1l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/substrat_pro_fikusy_obchod_farmarky_z_panelaku.jpg?v=1732382459"
+    },
+    {
+      "id": "v53727074025798",
+      "name": "Substrát pro kapradiny — 1l",
+      "kind": "substrates",
+      "price": "39 Kč",
+      "priceValue": 39.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/substrat-pro-kapradiny?variant=53727074025798",
+      "photo": "/assets/plants/farmarky-v53727074025798.jpg",
+      "tags": [
+        "genus:substrát",
+        "volume-small"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Substrát pro kapradiny — 1l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Substrát pro kapradiny — 1l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/substrat_pro_kapradiny_obchod_farmarky_z_panelaku.jpg?v=1732381962"
+    },
+    {
+      "id": "v53727041782086",
+      "name": "Substrát pro pilei a pepřince — 1l",
+      "kind": "substrates",
+      "price": "39 Kč",
+      "priceValue": 39.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/substrat-pro-pilei-a-peprince?variant=53727041782086",
+      "photo": "/assets/plants/farmarky-v53727041782086.jpg",
+      "tags": [
+        "genus:substrát",
+        "volume-small"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Substrát pro pilei a pepřince — 1l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Substrát pro pilei a pepřince — 1l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/substrat_pro_pilei_peprince_obchod_farmarky_z-panelaku.jpg?v=1732381059"
+    },
+    {
+      "id": "v55800118575430",
+      "name": "Substrát pro pokojovky — 1l",
+      "kind": "substrates",
+      "price": "39 Kč",
+      "priceValue": 39.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/substrat-pro-pokojovky?variant=55800118575430",
+      "photo": "/assets/plants/farmarky-v55800118575430.jpg",
+      "tags": [
+        "genus:substrát",
+        "indoor-mix",
+        "volume-small"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Substrát pro pokojovky — 1l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Substrát pro pokojovky — 1l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/substrat_pro_aroidy_obchod_farmarky_z_panelaku.jpg?v=1720959243"
+    },
+    {
+      "id": "v50442402758982",
+      "name": "Substrát pro sukulenty a kaktusy — 1l",
+      "kind": "substrates",
+      "price": "39 Kč",
+      "priceValue": 39.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/substrat-pro-suchomilne-rostliny?variant=50442402758982",
+      "photo": "/assets/plants/farmarky-v50442402758982.jpg",
+      "tags": [
+        "cactus-mix",
+        "genus:substrát",
+        "volume-small"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Substrát pro sukulenty a kaktusy — 1l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Substrát pro sukulenty a kaktusy — 1l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/37.jpg?v=1726401439"
+    },
+    {
+      "id": "v55869651714374",
+      "name": "Substrát pro vlhkomilné rostliny — 1l",
+      "kind": "substrates",
+      "price": "39 Kč",
+      "priceValue": 39.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/substrat-pro-vlhkomilne-rostliny?variant=55869651714374",
+      "photo": "/assets/plants/farmarky-v55869651714374.jpg",
+      "tags": [
+        "genus:substrát",
+        "volume-small"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Substrát pro vlhkomilné rostliny — 1l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Substrát pro vlhkomilné rostliny — 1l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/substrat_pro_vlhkomilne_rostliny_farmarky_z_panelaku.jpg?v=1769350532"
+    },
+    {
+      "id": "v53726982930758",
+      "name": "Substrát pro voskovky — 1l",
+      "kind": "substrates",
+      "price": "39 Kč",
+      "priceValue": 39.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/substrat-pro-voskovky?variant=53726982930758",
+      "photo": "/assets/plants/farmarky-v53726982930758.jpg",
+      "tags": [
+        "genus:substrát",
+        "volume-small"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Substrát pro voskovky — 1l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Substrát pro voskovky — 1l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/substrat_pro_voskovky_obchod_farmarky_z-panelaku.jpg?v=1732382137"
+    },
+    {
+      "id": "v53726995415366",
+      "name": "Substrát pro zamioculcasy a sansevierie — 1l",
+      "kind": "substrates",
+      "price": "39 Kč",
+      "priceValue": 39.0,
+      "currency": "CZK",
+      "url": "https://farmarkyzpanelaku.cz/products/substrat-pro-zamioculcas?variant=53726995415366",
+      "photo": "/assets/plants/farmarky-v53726995415366.jpg",
+      "tags": [
+        "genus:substrát",
+        "volume-small"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Substrát pro zamioculcasy a sansevierie — 1l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Substrát pro zamioculcasy a sansevierie — 1l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0840/7783/8662/files/substrat_pro_zamioculcasy_a_sansevierie_obchod_farmarky_z_panelaku.jpg?v=1732381430"
+    }
+  ],
+  "checked": "2026-10-10"
+}

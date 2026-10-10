@@ -29,7 +29,7 @@ def care(p,text,attributes=None,categories=None):
     tokens=' '.join(categories+[str(v) for v in attributes.values()]).lower()
     if not p.get('facts'):
         # Care comes from affirmative seller clauses, never guessed by genus.
-        clauses=[c for c in re.split(r'[.!?\n]',t) if not re.search(r'nesn[aá][šs]|vyh[nýy]|chra[nň]|bez\s+p[rř]ím|nevhod|nesm|nem[aá]|nevystav|pop[aá]l|sp[aá]len|[šs]kod|nie\s+priam',c)]
+        clauses=[c for c in re.split(r'[.!?\n]',t) if not re.search(r'nesv[eě]d[čc]|nevyhov|nepatr|netoler|nesn[aá][šs]|vyh[nýy]|chr[aá][nň]|bez\s+p[rř]ím|nevhod|nesm|nem[aá]|nevystav|pop[aá]l|sp[aá]len|[šs]kod|nie\s+priam',c)]
         for pattern,tag,label in [(r'polost[ií]n|polotie[nň]|sn[aá][šs][ií]\s+st[ií]n','low','polotieň'),(r'rozpt[ýy]len|nep[rř]ím[eé]\s+slun|nepriam[eé]\s+sln|sv[eě]tl[eéý]\s+(?:m[ií]sto|stanovi|miesto)','bright','rozptýlené svetlo'),(r'(?<!ne)\bp[rř]ím[eéý]\s+slun|(?<!ne)\bpriam[eé]\s+sln|slunn[eé]\s+stanovi|slne[čc]n[eé]\s+stanovi','sun','slnečné stanovište')]:
             if any(re.search(pattern,c) for c in clauses):tags.append(tag);facts.append('Predajca uvádza: '+label+'.')
         if any(re.search(r'nen[aá]ro[čc]n|snadn[aá]\s+p[eé][čc]e|jednoduch[aá]\s+starost',c) for c in clauses):tags.append('easy');facts.append('Predajca uvádza nenáročnú starostlivosť.')

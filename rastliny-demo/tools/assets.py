@@ -65,6 +65,8 @@ elif slug in additions:
  if '.svg' in b['logoSource'].split('?')[0]:
   import cairosvg
   rendered=source/f'{slug}-logo-render.png';cairosvg.svg2png(url=str(original),write_to=str(rendered),output_width=1400);original=rendered
+ if b.get('logoCrop'):
+  crop=Image.open(original).convert('RGBA').crop(tuple(b['logoCrop']));original=source/f'{slug}-wordmark-crop.png';save_png(crop,original)
  logo(str(original),out/f'{slug}-logo.png')
  img=Image.open(out/f'{slug}-logo.png')
  if img.width<600:
@@ -82,6 +84,9 @@ import subprocess
 soft=additions[slug]['theme']['soft'] if slug in additions else {'plantizia':'#eef3e9','gardenholice':'#f4f0e6','lukscheiter':'#eef3e9'}[slug]
 # Botanical/price diversity in the hero, with whole products preserved.
 hero_order=[]
+for name in additions.get(slug,{}).get('heroNames',[]):
+ p=next((p for p,path in good if p['name']==name),None)
+ if p:hero_order.append(p['id'])
 if slug=='lukscheiter':
  for name in ['Asparagus setaceus','Adiantum hispidulum','Cattleya deckerii','Echeveria']:
   p=next((p for p,path in good if p['name'].startswith(name)),None)

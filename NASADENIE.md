@@ -92,3 +92,5 @@ Samostatný projekt s Root Directory `rastliny-demo`, pracovná vetva `codex/ras
 Rastlinná ukážka [Zahrada na niti](./rastliny-demo/zahradananiti/index.html): pripravená subdoména `zahradananiti.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
 
 Rastlinná ukážka [KytkaSem](./rastliny-demo/kytkasem/index.html): pripravená subdoména `kytkasem.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Farmářky z paneláku](./rastliny-demo/farmarky/index.html): pripravená subdoména `farmarky.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.

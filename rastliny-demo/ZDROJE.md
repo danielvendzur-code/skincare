@@ -464,3 +464,70 @@ Pri overení sa nepreukázal spoločný vlastník s existujúcimi zdokumentovan�
 | Namíchání ideálního substrátu pro Jewel orchids | substráty | 99 Kč | [detail](https://www.kytkasem.cz/namichani-idealniho-substratu-pro-jewel-orchids/) |
 | Písek BRILIANT přírodní 600g na smutnice | substráty | 99 Kč | [detail](https://www.kytkasem.cz/pisek-briliant-prirodni-600g-na-smutnice/) |
 | Kokosové vlákno 100g | substráty | 119 Kč | [detail](https://www.kytkasem.cz/kokosove-vlakno/) |
+
+## Farmářky z paneláku
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://farmarkyzpanelaku.cz/). [Identita predajcu](https://farmarkyzpanelaku.cz/policies/contact-information).
+- Firma: **Jolana Šádková, IČO 09315543**. Vlastníci: Jolana Šádková. Konatelia / podnikateľ: Jolana Šádková.
+- Veľkosť: **Tržby nedoložené; 1–5 zam.**. Kód `110` v [primárnom registri](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/09315543); údaj aktualizovaný 2022-01-31, načítaný 2026-10-10. [Vlastníci](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/09315543).
+- Tržby živnostníka nie sú v použitom verejnom registri doložené; veľkosť overená podľa ARES.
+- Prečo sedí: Vlastný obchod jednej živnostníčky, 1–5 zamestnancov; mnoho podobných izbových druhov, pestovateľské médiá a črepníky. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **50 produktov**, izbové rastliny, črepníky, substráty. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: Shopify verejný katalóg a dostupnosť konkrétneho variantu (`available`); URL obsahuje jeho ID a cena patrí uvedenému variantu. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/farmarky-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://farmarkyzpanelaku.cz/cdn/shop/files/1.png?v=1719496145&width=600); Oficiálne logo; pre hlavičku vyrezaný pôvodný trojriadkový text a zväčšený s Lanczos vyhladením. Pôvodný kvetinový motív je v kruhu v bielej verzii.
+- Farby: `brand: #275c37`, `accent: #377448`, `soft: #f0f4eb`, `paper: #fffefa`, `ink: #253124`, `line: #d9e3d5`. Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/farmarky-qa.json`, `farmarky-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/farmarky-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Fittonia 4 | izbové rastliny | 69 Kč | [detail](https://farmarkyzpanelaku.cz/products/fittonia-3-kopie?variant=54102593470790) |
+| Pilea peperomides "M" | izbové rastliny | 149 Kč | [detail](https://farmarkyzpanelaku.cz/products/pilea-peperomides-m?variant=54314087973190) |
+| Kokosový květináč (8 cm) | črepníky | 45 Kč | [detail](https://farmarkyzpanelaku.cz/products/kokosovy-kvetinac-8-cm?variant=53383176290630) |
+| Sansevieria Laurentii "S" | izbové rastliny | 149 Kč | [detail](https://farmarkyzpanelaku.cz/products/sansevieria-laurentii-s?variant=50438503825734) |
+| Zelenec panašovaný (Chlorophytum) "M" | izbové rastliny | 119 Kč | [detail](https://farmarkyzpanelaku.cz/products/zelenec-panasovany-chlorophytum?variant=50283133927750) |
+| Epipremnum Neon "S" | izbové rastliny | 149 Kč | [detail](https://farmarkyzpanelaku.cz/products/epipremnum-njoy?variant=50082460139846) |
+| Květináč - Brontosauří vejce (8 cm) — Půlka vejce | črepníky | 999 Kč | [detail](https://farmarkyzpanelaku.cz/products/kvetnik-brontosauri-vejce-8-cm?variant=53786514424134) |
+| Fittonia 10 | izbové rastliny | 109 Kč | [detail](https://farmarkyzpanelaku.cz/products/fittonia-10?variant=54518007365958) |
+| Hoya carnosa tricolor "S" | izbové rastliny | 149 Kč | [detail](https://farmarkyzpanelaku.cz/products/hoya-carnosa-tricolor-s?variant=56493358186822) |
+| Chamaedorea elegans "M" | izbové rastliny | 159 Kč | [detail](https://farmarkyzpanelaku.cz/products/chamaedorea-elegans-m?variant=54314010247494) |
+| Ficus Belize "M" | izbové rastliny | 169 Kč | [detail](https://farmarkyzpanelaku.cz/products/ficus-belize-stredni?variant=54102607429958) |
+| Ficus Pumila "M" | izbové rastliny | 169 Kč | [detail](https://farmarkyzpanelaku.cz/products/ficus-pumila-m?variant=50439895482694) |
+| Peperomia pereskiifolia "M" | izbové rastliny | 169 Kč | [detail](https://farmarkyzpanelaku.cz/products/peperomia-pereskiifolia-m?variant=56493370540358) |
+| Philodendron White Princess "S" | izbové rastliny | 169 Kč | [detail](https://farmarkyzpanelaku.cz/products/philodendron-white-princess?variant=50438278742342) |
+| Philodendron pink princess "S" | izbové rastliny | 169 Kč | [detail](https://farmarkyzpanelaku.cz/products/philodendron-pink-princess-s?variant=54517849424198) |
+| Philodendron Lemon Lime "M" | izbové rastliny | 179 Kč | [detail](https://farmarkyzpanelaku.cz/products/philodendron-lemon-lime?variant=50082522136902) |
+| Scindapsus pictus trebi "M" | izbové rastliny | 179 Kč | [detail](https://farmarkyzpanelaku.cz/products/scindapsus-pictus-trebi?variant=54076595044678) |
+| Scindapsus Pictus "M" | izbové rastliny | 189 Kč | [detail](https://farmarkyzpanelaku.cz/products/scindapsus-pictus?variant=50283124457798) |
+| Epipremnum Aureum "M" (šetrné k přírodě) | izbové rastliny | 199 Kč | [detail](https://farmarkyzpanelaku.cz/products/epipremnum-aureum-m-setrne-k-prirode?variant=54794218078534) |
+| Epipremnum Neon "M" (šetrné k přírodě) | izbové rastliny | 199 Kč | [detail](https://farmarkyzpanelaku.cz/products/epipremnum-neon-m-setrne-k-prirode?variant=54788751262022) |
+| Peperomia pereskiifolia (šetrné k přírodě) | izbové rastliny | 199 Kč | [detail](https://farmarkyzpanelaku.cz/products/peperomia-pereskiifolia-m-kopie?variant=56493371359558) |
+| Philodendron Birkin "L" | izbové rastliny | 199 Kč | [detail](https://farmarkyzpanelaku.cz/products/philodendron-birkin-l?variant=50438492782918) |
+| Tchýnin jazyk "M" (šetrné k přírodě) | izbové rastliny | 199 Kč | [detail](https://farmarkyzpanelaku.cz/products/tchynin-jazyk-m-setrne-k-prirode?variant=54788724752710) |
+| Schefflera arboricola Gerda "L" | izbové rastliny | 229 Kč | [detail](https://farmarkyzpanelaku.cz/products/schefflera-arboricola-gerda-l?variant=56540154298694) |
+| Alocasia Scalprum "S" | izbové rastliny | 239 Kč | [detail](https://farmarkyzpanelaku.cz/products/alocasia-scalprum-s?variant=55983937225030) |
+| Peperomia Green Bean | izbové rastliny | 249 Kč | [detail](https://farmarkyzpanelaku.cz/products/peperomia-green-bean?variant=56781099172166) |
+| Philodendron Cream Splash "M" | izbové rastliny | 249 Kč | [detail](https://farmarkyzpanelaku.cz/products/philodendron-cream-splash-s?variant=54106803568966) |
+| Sansevieria Laurentii "L" | izbové rastliny | 249 Kč | [detail](https://farmarkyzpanelaku.cz/products/sansevieria-laurentii-l?variant=56493347995974) |
+| Scindapsus Pictus Trebi "M" (šetrné k přírodě) | izbové rastliny | 249 Kč | [detail](https://farmarkyzpanelaku.cz/products/scindapsus-pictus-trebi-m-setrne-k-prirode?variant=54794248683846) |
+| Ficus Bambino "L" | izbové rastliny | 279 Kč | [detail](https://farmarkyzpanelaku.cz/products/ficus-bambino?variant=53383152042310) |
+| Peperomia obtusifolia green "L" | izbové rastliny | 299 Kč | [detail](https://farmarkyzpanelaku.cz/products/peperomia-obtusifolia-green-l?variant=55984078389574) |
+| Monstera siltepecana "L" | izbové rastliny | 329 Kč | [detail](https://farmarkyzpanelaku.cz/products/monstera-siltepecana-l?variant=54517745975622) |
+| Philodendron Cream Splash "M" (šetrné k přírodě) | izbové rastliny | 349 Kč | [detail](https://farmarkyzpanelaku.cz/products/philodendron-cream-splash-m-setrne-k-prirode?variant=54788687593798) |
+| Ficus Benjamina variegated "L" | izbové rastliny | 359 Kč | [detail](https://farmarkyzpanelaku.cz/products/ficus-benjamina-variegated-l?variant=56781095338310) |
+| Nephrolepis Exaltata Green Lady "M" | izbové rastliny | 399 Kč | [detail](https://farmarkyzpanelaku.cz/products/neprolepis-exaltata-green-lady-m?variant=54313979576646) |
+| Hoya Macrophylla Variegata "M" | izbové rastliny | 449 Kč | [detail](https://farmarkyzpanelaku.cz/products/hoya-macrophylla-variegata-m?variant=54313967124806) |
+| Květináč - Brontosauří vejce (10 cm) — Půlka vejce | črepníky | 1349 Kč | [detail](https://farmarkyzpanelaku.cz/products/kvetnik-brontosauri-vejce-10-cm?variant=53786524713286) |
+| Květináč - Brontosauří vejce (11 cm) — Půlka vejce | črepníky | 1799 Kč | [detail](https://farmarkyzpanelaku.cz/products/kvetnik-brontosauri-vejce-11-cm?variant=53740043108678) |
+| Kokosové vlákno — 1l | substráty | 29 Kč | [detail](https://farmarkyzpanelaku.cz/products/kokosove-vlakno?variant=50438851035462) |
+| Perlit — 1l | substráty | 29 Kč | [detail](https://farmarkyzpanelaku.cz/products/perlit?variant=50438851985734) |
+| Substrát pro Alocasie a Anthuria — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-alocasie-a-anthuria?variant=55869662626118) |
+| Substrát pro Aroidy — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-aroidy?variant=50089707143494) |
+| Substrát pro fíkusy — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-fikusy?variant=53726971068742) |
+| Substrát pro kapradiny — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-kapradiny?variant=53727074025798) |
+| Substrát pro pilei a pepřince — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-pilei-a-peprince?variant=53727041782086) |
+| Substrát pro pokojovky — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-pokojovky?variant=55800118575430) |
+| Substrát pro sukulenty a kaktusy — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-suchomilne-rostliny?variant=50442402758982) |
+| Substrát pro vlhkomilné rostliny — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-vlhkomilne-rostliny?variant=55869651714374) |
+| Substrát pro voskovky — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-voskovky?variant=53726982930758) |
+| Substrát pro zamioculcasy a sansevierie — 1l | substráty | 39 Kč | [detail](https://farmarkyzpanelaku.cz/products/substrat-pro-zamioculcas?variant=53726995415366) |

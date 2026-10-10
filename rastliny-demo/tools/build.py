@@ -14,11 +14,16 @@ for slug in sys.argv[1:]:
  source_path=sorted((ROOT/'research').glob(f'*/{slug}-products.json'))[-1]
  source=json.loads(source_path.read_text());products=[]
  for p in source:
+  p['tags']=list(dict.fromkeys(p['tags']));p['facts']=list(dict.fromkeys(p['facts']))
   n={k:p.get(k) for k in ['id','name','kind','price','priceValue','currency','url','photo','tags','facts','reason','diameter','potDiameter','stock','checked','imageSource']}
+  n['tags']=n['tags'][:];n['facts']=n['facts'][:]
   if n['kind']=='substrates':
    m=re.search(r'(\d+(?:[.,]\d+)?)\s*l\b',p['name'],re.I)
    if m:
-    volume=float(m[1].replace(',','.'));n['tags'].append('volume-small' if volume<=3 else 'volume-medium' if volume<=10 else 'volume-large');n['facts'].append(f'Balenie podľa názvu: {volume:g} l.');n['reason']=' '.join(n['facts'][:3])
+    volume=float(m[1].replace(',','.'));tag='volume-small' if volume<=3 else 'volume-medium' if volume<=10 else 'volume-large';fact=f'Balenie podľa názvu: {volume:g} l.'
+    if tag not in n['tags']:n['tags'].append(tag)
+    if fact not in n['facts']:n['facts'].append(fact)
+    n['reason']=' '.join(n['facts'][:3])
   if not (ROOT/n['photo'].lstrip('/')).exists():continue
   products.append(n)
  meta=META[slug].copy();meta.update(slug=slug,hero=f'/assets/plants/{slug}.jpg',mobileHero=f'/assets/plants/{slug}-mobile.jpg',logo=f'/assets/plants/{slug}-logo.png',mark=f'/assets/plants/{slug}-mark.png',products=products)
