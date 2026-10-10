@@ -1,5 +1,7 @@
 # Nasadenie rastliny-demo
 
+Živý súkromný náhľad pre vlastníka: [rastlinne-chatbot-ukazky.vendzurd.chatgpt.site](https://rastlinne-chatbot-ukazky.vendzurd.chatgpt.site). Výber a katalógový chat fungujú v prehliadači; tento statický náhľad neobsahuje serverové AI API. Ukážka sa otvorí cez `/cosmetics.html?demo=<slug>`.
+
 Samostatný Vercel projekt z `danielvendzur-code/skincare`, Root Directory `rastliny-demo`. Framework Other, bez build príkazu, Output Directory `.`. Produkčná vetva sa nastaví až pri zaradení zmien; pracovná vetva je `codex/rastliny-ukazky`. PR sa neotvára automaticky.
 
 `python3 tools/routes.py` vytvorí index, adresáre, `.htaccess` a `vercel.json`. Ukážka sa dá otvoriť ako `/cosmetics.html?demo=<slug>`, `/<slug>/` alebo `/rastliny/<slug>`. Host rewrite a index rozpoznajú nižšie uvedené subdomény.
@@ -26,3 +28,4 @@ Subdomény sú pripravené v routách. DNS a nový Vercel projekt sa touto zmeno
 | `svokrinejazyky.mojchatbot.sk` | `/cosmetics.html?demo=svokrinejazyky` |
 | `samek.mojchatbot.sk` | `/cosmetics.html?demo=samek` |
 | `vseprokaktusy.mojchatbot.sk` | `/cosmetics.html?demo=vseprokaktusy` |
+| `greenhunters.mojchatbot.sk` | `/cosmetics.html?demo=greenhunters` |

@@ -712,5 +712,32 @@
       "succulents": 64,
       "substrates": 32
     }
+  },
+  "greenhunters": {
+    "combinations": 64,
+    "empty": 0,
+    "constraintFailures": 0,
+    "uniqueWinners": 14,
+    "winners": {
+      "v3311": 4,
+      "v3526": 6,
+      "v3023": 2,
+      "v3353": 4,
+      "v283": 8,
+      "v946": 2,
+      "v4192": 2,
+      "v4383": 7,
+      "v4380": 5,
+      "v98": 6,
+      "v106": 4,
+      "v102": 8,
+      "v606": 4,
+      "v96": 2
+    },
+    "byKind": {
+      "plants": 16,
+      "rareplants": 12,
+      "substrates": 36
+    }
   }
 }

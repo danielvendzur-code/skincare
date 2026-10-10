@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-10",
+  "company": "Libor Lešek",
+  "ico": "09750720",
+  "owners": [
+    "Libor Lešek"
+  ],
+  "executives": [
+    "Libor Lešek"
+  ],
+  "employees": {
+    "code": "110",
+    "range": "1–5",
+    "source": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/09750720",
+    "recordUpdated": "2022-12-01"
+  },
+  "revenue": {
+    "value": null,
+    "year": 2025,
+    "note": "ARES RES nezverejňuje tržby samostatného podnikateľa; chýbajúci obrat sa nevydáva za nulu ani odhad pod milión eur."
+  },
+  "ownersSource": "https://greenhunters.cz/eshop/obchodni-podminky/",
+  "note": "VOP a primárny ARES zhodne identifikujú Libora Lešeka. Nejde o nesúvisiacu GREEN HUNTERS k.s. 05062098. Kategória pracovníkov je posledný zverejnený údaj ARES, nie aktuálny personálny audit."
+}

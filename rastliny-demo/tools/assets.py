@@ -70,6 +70,11 @@ elif slug in additions:
   rendered=source/f'{slug}-logo-render.png';cairosvg.svg2png(url=str(original),write_to=str(rendered),output_width=1400);original=rendered
  if b.get('logoCrop'):
   crop=Image.open(original).convert('RGBA').crop(tuple(b['logoCrop']))
+  if b.get('logoWhiteOnly'):
+   import numpy as np
+   rgba=np.asarray(crop)
+   strength=np.clip((rgba[:,:,:3].min(axis=2).astype(float)-155)/90,0,1)
+   crop.putalpha(Image.fromarray((rgba[:,:,3]*strength).astype('uint8')))
   if b.get('logoExtractWhite'):
    import numpy as np
    rgb=np.asarray(crop)[:,:,:3];alpha=np.clip((rgb.min(axis=2).astype(float)-195)/60,0,1)*255
@@ -128,10 +133,12 @@ for kind in ['plants','plants','orchids','terrariums','outdoor','pots','airplant
 good.sort(key=lambda row:hero_order.index(row[0]['id']) if row[0]['id'] in hero_order else 99)
 # Avoid ever reading and overwriting the same PNG through a lazy decoder.
 logo_input=source/f'{slug}-logo-final-input.png';logo_input.write_bytes((out/f'{slug}-logo.png').read_bytes())
-subprocess.run([sys.executable,str(ROOT/'tools/make_assets.py'),slug,soft,str(logo_input),*[p['id']+'='+path for p,path in good]],check=True)
+backdrop=additions.get(slug,{}).get('photoBackdrop')
+suffix='@backdrop:'+backdrop if backdrop else ''
+subprocess.run([sys.executable,str(ROOT/'tools/make_assets.py'),slug,soft,str(logo_input),*[p['id']+'='+path+suffix for p,path in good]],check=True)
 canvas=Image.new('RGB',(1000,480),soft)
 for i,(p,path) in enumerate(good[:2]):
- im=flat(Image.open(path));bg=im.getpixel((1,1));tile=fit_on(trim(im),(460,420),(430,395),bg);canvas.paste(tile,(25+490*i,30))
+ im=flat(Image.open(path));bg=backdrop or im.getpixel((1,1));tile=fit_on(trim(im),(460,420),(430,395),bg);canvas.paste(tile,(25+490*i,30))
 canvas.save(out/f'{slug}-mobile.jpg',quality=90,optimize=True)
 # Keep the download exclusions out of the public catalogue.
 save(source_path,[p for p,path in good])

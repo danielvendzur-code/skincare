@@ -1,5 +1,7 @@
 # Rastliny — nový segment ukážok
 
+Živý súkromný náhľad pre vlastníka: [rastlinne-chatbot-ukazky.vendzurd.chatgpt.site](https://rastlinne-chatbot-ukazky.vendzurd.chatgpt.site). Výber a katalógový chat fungujú v prehliadači; tento statický náhľad neobsahuje serverové AI API. Ukážka sa otvorí cez `/cosmetics.html?demo=<slug>`.
+
 Prémiové ukážky chatbota a výberu produktov pre malé SK/CZ e-shopy. Samostatný segment v repe `danielvendzur-code/skincare`, základ UX z `kozmetika-nove/` na main (`5a1dc9a`). Existujúce segmenty zostávajú samostatnými projektmi.
 
 Lokálne: `npm install`, `npm run serve` (port 8797, statika aj skutočný API handler). Na obnovu assetov: `python3 -m pip install -r requirements.txt`. Chromium dodajte cez `CHROMIUM=/cesta/k/chromium`; QA nesťahuje prehliadač.
@@ -26,3 +28,4 @@ Chat funguje bez API kľúča z overeného katalógu. Voliteľný `ANTHROPIC_API
 | [Svokrine jazyky](https://svokrinejazyky.sk/) | [`svokrinejazyky`](./svokrinejazyky/index.html) | 59 | izbové rastliny, zberateľské rastliny, črepníky, substráty | Svokrine jazyky s. r. o. / 52096092 | 99 987 € tržby 2025; nezistené zam. | PASS 1440 / 390 / 360 |
 | [Sukulenty Samek](https://www.sukulenty-samek.cz/) | [`samek`](./samek/index.html) | 38 | ostatné sukulenty, kaktusy, skalničky | Pavel Samek / 09404856 | Tržby nedoložené; 1–5 zam. | PASS 1440 / 390 / 360 |
 | [VšeProKaktusy](https://www.vseprokaktusy.cz/) | [`vseprokaktusy`](./vseprokaktusy/index.html) | 42 | kaktusy, ostatné sukulenty, substráty | Miroslav Langr / 66279011 | Tržby nedoložené; 0 zam. | PASS 1440 / 390 / 360 |
+| [Green Hunters](https://greenhunters.cz/eshop/) | [`greenhunters`](./greenhunters/index.html) | 15 | rosnatky, tučnice, substráty | Libor Lešek / 09750720 | Tržby nedoložené; 1–5 zam. | PASS 1440 / 390 / 360 |

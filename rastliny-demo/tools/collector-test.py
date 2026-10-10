@@ -14,4 +14,15 @@ p=care(product('Samozavlažovací kvetináč','pots'),'Materiál: odolný plast.
 assert 'plastic' in p['tags'] and 'ceramic' not in p['tags'] and p['diameter']==15
 p=care(product('Substrát na kaktusy a sukulenty 3 l','substrates'),'Priepustný substrát.',{'Použitie':['izbové rastliny']})
 assert 'cactus-mix' in p['tags'] and 'indoor-mix' not in p['tags']
-print('PASS collector: care negations, product placement, actual pot materials, targeted substrates')
+from collect_greenhunters import stocked_variation
+available = dict(is_in_stock=True,is_purchasable=True,variation_is_active=True,
+    variation_is_visible=True,backorders_allowed=False,display_price=300,
+    availability_html='<p class="stock in-stock">Jen 2 skladem</p>')
+assert stocked_variation(available)
+# Woo may omit quantity text for stocked products not tracking quantity.
+assert stocked_variation({**available,'availability_html':''})
+for changes in [{'is_in_stock':False},{'backorders_allowed':True},
+                {'variation_is_active':False},{'display_price':0},
+                {'availability_html':'<p class="stock onbackorder">Na objednávku</p>'}]:
+ assert not stocked_variation({**available,**changes})
+print('PASS collector: care negations, placement, materials, substrates, stocked variant guards')

@@ -63,8 +63,9 @@ def packshot(src, target, box=(670, 980)):
         cover(img, (760, 1095), (fx, fy)).save(target, quality=90, optimize=True)
         img.cover_focus = (fx, fy)
         return img
-    source = flat(Image.open(src))
-    backdrop = source.getpixel((1, 1))
+    path, marker, color = src.partition('@backdrop:')
+    source = flat(Image.open(path))
+    backdrop = hex_rgb(color) if marker else source.getpixel((1, 1))
     img = trim(source)
     img.backdrop = backdrop
     fit_on(img, (760, 1095), box, color=backdrop).save(target, quality=90, optimize=True)

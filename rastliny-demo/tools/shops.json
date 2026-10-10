@@ -816,5 +816,105 @@
       "p546"
     ],
     "photoNote": "Produkt Substrát pro pokojové rostliny 10l NATUREGARDEN bol vyradený: priradená fotografia ukazuje obal 45 l, takže nesedí na cenu uvedenej veľkosti. Cena substrátu PROFÍK je za 5 l podľa výslovného popisu balenia."
+  },
+  "greenhunters": {
+    "name": "Green Hunters",
+    "website": "https://greenhunters.cz/eshop/",
+    "currency": "CZK",
+    "platform": "woocommerce",
+    "kinds": [
+      "plants",
+      "rareplants",
+      "substrates"
+    ],
+    "kindLabels": {
+      "plants": "Rosnatky",
+      "rareplants": "Tučnice"
+    },
+    "categoryNotes": {
+      "plants": "Druhy, veľkosti a náročnosť",
+      "rareplants": "Druhy a veľkosti podľa pestovateľa",
+      "substrates": "Hotové zmesi a pestovateľské médiá"
+    },
+    "categories": {
+      "plants": [
+        35,
+        36,
+        37
+      ],
+      "rareplants": [
+        40,
+        104
+      ],
+      "substrates": [
+        93,
+        94
+      ]
+    },
+    "limits": {
+      "plants": 22,
+      "rareplants": 10,
+      "substrates": 8
+    },
+    "exclude": "semen|semín|gemm|poukaz|sáček|štítek|květináč|cedul|syngonium|rašeliník",
+    "logoSource": "https://greenhunters.cz/eshop/wp-content/uploads/2020/12/cropped-Logo_tmave-sede-2.jpg",
+    "logoCrop": [
+      153,
+      281,
+      549,
+      458
+    ],
+    "markCrop": [
+      119,
+      9,
+      548,
+      288
+    ],
+    "markColoredOnly": true,
+    "logoNote": "Z oficiálneho JPEG je vyrezaný pôvodný dvojriadkový názov bez zmeny tvarov písmen. Pozadie je odstránené a biele písmená sú pre owner stránku zafarbené do tmavej farby značky; v hlavičke chatu sú biele. Motív mucholapky z rovnakého loga je izolovaný podľa farby pre kruh pri každej správe a v launcheri; tenké okraje vyhladené Lanczos prevzorkovaním.",
+    "photoNote": "Fotografie sú priradené konkrétnemu variantu formulárom predajcu. Ide o reprezentatívne pestovateľské zábery druhu, nie tvrdenie o identickom dodávanom exemplári. Pri označení 3 ks platí cena celého uvedeného balenia. Zdrojový záber sa zachováva celý, jemne sa odstránia iba jednoliate okraje; portrétne karty a hero majú jednotné svetlé plátno #FFFEF9, bez syntetickej úpravy rastlín. Po vizuálnej kontrole sa vyradilo 20 živých rastlinných položiek s odrezaným hlavným olistením alebo neprehľadným skupinovým záberom. Ponechané rozetové zábery zobrazujú celé hlavné ružice; okolité pestovateľské nádoby nie sú predávaným doplnkom.",
+    "theme": {
+      "brand": "#070e14",
+      "accent": "#526710",
+      "soft": "#f0f3e5",
+      "paper": "#fffef9",
+      "ink": "#253019",
+      "line": "#dce2cb"
+    },
+    "themeNote": "Tmavá #070E14 je pozadie oficiálneho loga; olivová nadväzuje na zelenú mucholapku a má kontrast pre biely text.",
+    "terms": "https://greenhunters.cz/eshop/obchodni-podminky/",
+    "fit": "Samostatný pestovateľ vlastných mäsožraviek s vlastným e-shopom, podľa ARES 1–5 pracovníkov. Množstvo podobných klonov, rôzne veľkosti a náročnosť vytvárajú skutočnú potrebu poradenstva.",
+    "stockNote": "Verejný Woo Store API objavuje skladové produkty. Na detaile je explicitne zvolená mena CZK cez currency=CZK a overený symbol Kč. Oficiálne data-product_variations spája konkrétne ID/veľkosť, display_price, priradenú fotografiu, is_in_stock/is_purchasable/variation_is_active/variation_is_visible true a backorders_allowed false. Text dostupnosti nesmie uvádzať out-of-stock ani onbackorder; Woo môže pri nezverejnenom počte skladových kusov tento text vynechať. URL predvyberá presné atribúty. Jednoduché produkty majú aj sklad a aktívny košík na detaile. Semená, gemmy a varianty bez dokladu sa vylučujú.",
+    "logoInk": "#070e14",
+    "logoWhiteOnly": true,
+    "photoBackdrop": "#fffef9",
+    "heroNames": [
+      "Drosera capensis {Palmiet River, South Africa} — L",
+      "Pinguicula hybrid — L",
+      "Drosera collinsiae {Usutu River, Swaziland} — L",
+      "Drosera cuneifolia {Table Mountain, South Africa} — L"
+    ],
+    "photoExcludeIds": [
+      "v547",
+      "v5316",
+      "v4507",
+      "v5027",
+      "v154",
+      "v4580",
+      "v3520",
+      "v2596",
+      "v3848",
+      "v2887",
+      "v4589",
+      "v2754",
+      "v2614",
+      "v4111",
+      "v2216",
+      "v5162",
+      "v3090",
+      "v2907",
+      "v2211",
+      "v2793"
+    ]
   }
 }
