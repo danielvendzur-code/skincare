@@ -1008,3 +1008,59 @@ Svetlo a nenáročnosť všetkých 18 kokedám boli osobitne prezreté v odráž
 | Substrát SERAMIS na izbové rastliny 7,5l | substráty | 12,90 € | [detail](https://svokrinejazyky.sk/obchod/substrat-seramis-na-izbove-rastliny-75l/) |
 | Substrát SERAMIS na izbové rastliny 15l | substráty | 19,90 € | [detail](https://svokrinejazyky.sk/obchod/substrat-seramis-na-izbove-rastliny-15l/) |
 | Substrát PLANTSCRAPER Premium Aroid Mix 8,5 l | substráty | 19,95 € | [detail](https://svokrinejazyky.sk/obchod/substrat-plantscraper-premium-aroid-mix-85-l/) |
+
+## Sukulenty Samek
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://www.sukulenty-samek.cz/). [Identita predajcu](https://www.sukulenty-samek.cz/page/terms-and-conditions/).
+- Firma: **Pavel Samek, IČO 09404856**. Vlastníci: Pavel Samek. Konatelia / podnikateľ: Pavel Samek.
+- Veľkosť: **Tržby nedoložené; 1–5 zam.**. Kód `110` v [primárnom registri](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/09404856); údaj aktualizovaný 2021-12-03, načítaný 2026-10-10. [Vlastníci](https://www.sukulenty-samek.cz/page/terms-and-conditions/).
+- ARES RES nepublikuje tržby. Pri samostatnom podnikateľovi nie je dostupný použitý verejný finančný výkaz; výška tržieb sa neodhaduje.
+- Predajca a samostatný podnikateľ podľa vlastných VOP, IČO a meno zhodné s ARES. Údaj 1–5 je posledná kategória RES, nie aktuálny personálny audit.
+- Prečo sedí: Samostatný český pestovateľ, 1–5 zamestnancov podľa ARES; 38 doložených skladových druhov a kultivarov s pestovateľskými pokynmi. Tržby živnostníka nie sú doložené. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **38 produktov**, ostatné sukulenty, kaktusy, skalničky. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: Vlastný e-shop: konkrétny detail uvádza kladný počet ks skladem, presnú koncovú cenu v Kč a aktívny formulár Pridať do košíka bez variantového selectu. Zaradenie pochádza z oficiálnej kategórie v navigácii detailu. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/samek-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://www.sukulenty-samek.cz/logo.png); Oficiálne logo zväčšené s Lanczos vyhladením. Pôvodný biely rozvetvený rastlinný symbol je vyrezaný z červeného poľa loga; farebné pozadie sa odfiltrovalo, obrys sa jemne zosilnil o jeden zdrojový pixel pre malé kruhové avatary. Hlavička chatu zachováva celé pôvodné logo na bielej podložke. Ak predajca výslovne označuje poslednú fotografiu ako ukážku ponúkanej veľkosti, použitá je táto fotografia, nie dospelý alebo kvitnúci exemplár. Široké zábery sa ručne orezali bližšie cez PIL pri zachovaní rastliny. Štyri už odrezané rastlinné zábery sa vyradili; obnoviteľná kurácia v tools/curate_samek.py.
+- Farby: `brand: #741727`, `accent: #b81230`, `soft: #f8eef0`, `paper: #fffefa`, `ink: #33272a`, `line: #ead8dc`. Červená z oficiálneho loga, tmavšia bordová brand a červený accent s kontrastom pre biely text; svetlé ružové neutrálne plochy. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/samek-qa.json`, `samek-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/samek-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Crassula platyphylla Green Surprise | Ostatné sukulenty | 70 Kč | [detail](https://www.sukulenty-samek.cz/product/crassula-platyphylla-green-surprise-888/) |
+| Echeveria Red Velvet | Ostatné sukulenty | 85 Kč | [detail](https://www.sukulenty-samek.cz/product/echeveria-red-velvet-766/) |
+| Opuntia monacantha | Kaktusy | 75 Kč | [detail](https://www.sukulenty-samek.cz/product/opuntia-monacantha-1078/) |
+| Sempervivum Ependa | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-ependa-949/) |
+| Cylindropuntia whipplei | Skalničky | 85 Kč | [detail](https://www.sukulenty-samek.cz/product/cylindropuntia-whipplei-801/) |
+| Haworthia herbacea | Ostatné sukulenty | 70 Kč | [detail](https://www.sukulenty-samek.cz/product/haworthia-herbacea-729/) |
+| Crassula Tom Thumb | Ostatné sukulenty | 75 Kč | [detail](https://www.sukulenty-samek.cz/product/crassula-tom-thumb-865/) |
+| Crassula muscosa Fireworks | Ostatné sukulenty | 75 Kč | [detail](https://www.sukulenty-samek.cz/product/crassula-muscosa-fireworks-964/) |
+| Echeveria Costarii | Ostatné sukulenty | 75 Kč | [detail](https://www.sukulenty-samek.cz/product/echeveria-costarii-959/) |
+| Echeveria macdougallii (Stromeček) | Ostatné sukulenty | 80 Kč | [detail](https://www.sukulenty-samek.cz/product/echeveria-macdougallii-724/) |
+| Aeonium castello-paivae var. sarae | Ostatné sukulenty | 85 Kč | [detail](https://www.sukulenty-samek.cz/product/aeonium-castello-paivae-var-sarae-727/) |
+| Aloe decaryi | Ostatné sukulenty | 85 Kč | [detail](https://www.sukulenty-samek.cz/product/aloe-decaryi-732/) |
+| Crassula subaphylla | Ostatné sukulenty | 85 Kč | [detail](https://www.sukulenty-samek.cz/product/crassula-subaphylla-1075/) |
+| Haworthia attenuata var. glabrata | Ostatné sukulenty | 85 Kč | [detail](https://www.sukulenty-samek.cz/product/haworthia-attenuata-var-glabrata-721/) |
+| Kalanchoe marnieriana | Ostatné sukulenty | 85 Kč | [detail](https://www.sukulenty-samek.cz/product/kalanchoe-marnieriana-1089/) |
+| Plectranthus socotranus | Ostatné sukulenty | 85 Kč | [detail](https://www.sukulenty-samek.cz/product/plectranthus-socotranus-856/) |
+| Sedum allantoides Goldii | Ostatné sukulenty | 90 Kč | [detail](https://www.sukulenty-samek.cz/product/sedum-allantoides-goldii-757/) |
+| Echeveria Meetup | Ostatné sukulenty | 99 Kč | [detail](https://www.sukulenty-samek.cz/product/echeveria-meetup-901/) |
+| Sedum pachyphyllum Koigokoro | Ostatné sukulenty | 140 Kč | [detail](https://www.sukulenty-samek.cz/product/sedum-pachyphyllum-koigokoro-893/) |
+| Echeveria Royal Chrysanthemum variegata | Ostatné sukulenty | 145 Kč | [detail](https://www.sukulenty-samek.cz/product/echeveria-royal-chrysanthemum-variegata-914/) |
+| Aeonium glutinosum | Ostatné sukulenty | 160 Kč | [detail](https://www.sukulenty-samek.cz/product/aeonium-glutinosum-900/) |
+| Ceropegia Merel | Ostatné sukulenty | 199 Kč | [detail](https://www.sukulenty-samek.cz/product/ceropegia-merel-736/) |
+| Portulaca werdermannii | Ostatné sukulenty | 199 Kč | [detail](https://www.sukulenty-samek.cz/product/portulaca-werdermannii-985/) |
+| Crassula Red Lips | Ostatné sukulenty | 299 Kč | [detail](https://www.sukulenty-samek.cz/product/crassula-red-lips-863/) |
+| Rhipsalis crispata | Kaktusy | 75 Kč | [detail](https://www.sukulenty-samek.cz/product/rhipsalis-crispata-718/) |
+| Puna incahuasi | Kaktusy | 85 Kč | [detail](https://www.sukulenty-samek.cz/product/puna-incahuasi-1021/) |
+| Austrocylindropuntia vestita cristata | Kaktusy | 95 Kč | [detail](https://www.sukulenty-samek.cz/product/austrocylindropuntia-vestita-cristata-1077/) |
+| Rhipsalis rosea | Kaktusy | 199 Kč | [detail](https://www.sukulenty-samek.cz/product/rhipsalis-rosea-916/) |
+| Sempervivum Fluffy Fluke | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-fluffy-fluke-931/) |
+| Sempervivum Gorges Supérieures du Cians | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-gorges-superieures-du-cians-929/) |
+| Sempervivum Green Hill | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-green-hill-928/) |
+| Sempervivum Pacaya | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-pacaya-1050/) |
+| Sempervivum Snow Baby | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-snow-baby-952/) |
+| Sempervivum Tracy Sue | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-tracy-sue-941/) |
+| Sempervivum Weberianum | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-weberianum-945/) |
+| Sempervivum Weisse Hochzeit | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-weisse-hochzeit-936/) |
+| Sempervivum arachnoideum Gnaphalium | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-arachnoideum-gnaphalium-1049/) |
+| Sempervivum ciliosum (Netřesk brvitý) | Skalničky | 55 Kč | [detail](https://www.sukulenty-samek.cz/product/sempervivum-ciliosum-827/) |

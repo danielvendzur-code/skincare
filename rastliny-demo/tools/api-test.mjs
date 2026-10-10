@@ -20,4 +20,14 @@ assert.equal((await call(local,{demoId:slug,messages:[{role:'user',content:brand
 assert.equal((await call(local,{demoId:slug,messages:[{role:'user',content:'Rastlina do úplnej tmy bez okna'}]})).payload.products.length,0);
 const diffuse=await call(local,{demoId:slug,messages:[{role:'user',content:'Rastlina na rozptýlené svetlo bez priameho slnka pod 15 €'}]});
 assert(diffuse.payload.products.every(id=>{const p=brand.products.find(p=>p.id===id);return p.tags.includes('bright')&&p.priceValue<=15;}));
+for(const b of Object.values(BRANDS).filter(b=>b.kinds.includes('cacti'))){
+ const cactus=await call(local,{demoId:b.slug,messages:[{role:'user',content:'Porovnaj kaktusy do 200 Kč'}]});
+ assert(cactus.payload.products.length>0);
+ assert(cactus.payload.products.every(id=>{const p=b.products.find(p=>p.id===id);return p.kind==='cacti'&&p.priceValue<=200;}));
+ const succulent=await call(local,{demoId:b.slug,messages:[{role:'user',content:'Porovnaj sukulenty do 200 Kč'}]});
+ assert(succulent.payload.products.length>0);
+ assert(succulent.payload.products.every(id=>b.products.find(p=>p.id===id)?.kind==='succulents'));
+ const namedCactus=b.products.find(p=>p.kind==='cacti');
+ assert.equal((await call(local,{demoId:b.slug,messages:[{role:'user',content:'Sukulent '+namedCactus.name}]})).payload.products.length,0);
+}
 console.log('PASS API: input validation, company scope, constraints, canonical AI cards, provider fallback');

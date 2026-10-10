@@ -100,3 +100,5 @@ body[data-cosmetics-demo="rastlinkovo"] .cx-widget-head .cx-logo{filter:none;bac
 
 body[data-cosmetics-demo="svokrinejazyky"] .cx-owner-brand .cx-logo{max-height:48px;max-width:155px}
 body[data-cosmetics-demo="svokrinejazyky"] .cx-widget-brand .cx-logo{max-height:38px;max-width:110px}
+
+body[data-cosmetics-demo="samek"] .cx-widget-head .cx-logo{filter:none;background:#fff;border-radius:7px;padding:3px 7px;max-height:38px}

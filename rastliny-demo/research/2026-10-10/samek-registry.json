@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-10",
+  "company": "Pavel Samek",
+  "ico": "09404856",
+  "owners": [
+    "Pavel Samek"
+  ],
+  "executives": [
+    "Pavel Samek"
+  ],
+  "employees": {
+    "code": "110",
+    "range": "1–5",
+    "source": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/09404856",
+    "recordUpdated": "2021-12-03"
+  },
+  "revenue": {
+    "value": null,
+    "year": 2025,
+    "note": "ARES RES nepublikuje tržby. Pri samostatnom podnikateľovi nie je dostupný použitý verejný finančný výkaz; výška tržieb sa neodhaduje."
+  },
+  "ownersSource": "https://www.sukulenty-samek.cz/page/terms-and-conditions/",
+  "note": "Predajca a samostatný podnikateľ podľa vlastných VOP, IČO a meno zhodné s ARES. Údaj 1–5 je posledná kategória RES, nie aktuálny personálny audit."
+}

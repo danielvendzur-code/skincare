@@ -711,5 +711,55 @@
       "Hoya australis ‘Lisa‘"
     ],
     "markGreenOnly": true
+  },
+  "samek": {
+    "name": "Sukulenty Samek",
+    "website": "https://www.sukulenty-samek.cz/",
+    "currency": "CZK",
+    "platform": "samek",
+    "kinds": [
+      "succulents",
+      "cacti",
+      "outdoor"
+    ],
+    "kindLabels": {
+      "succulents": "Ostatné sukulenty",
+      "cacti": "Kaktusy",
+      "outdoor": "Skalničky"
+    },
+    "categoryNotes": {
+      "succulents": "Svetlo a druh podľa pestovateľa",
+      "cacti": "Druhy s rozdielnym svetlom a cenou",
+      "outdoor": "Netresky a ďalšie skalničky"
+    },
+    "theme": {
+      "brand": "#741727",
+      "accent": "#b81230",
+      "soft": "#f8eef0",
+      "paper": "#fffefa",
+      "ink": "#33272a",
+      "line": "#ead8dc"
+    },
+    "logoSource": "https://www.sukulenty-samek.cz/logo.png",
+    "markCrop": [
+      22,
+      22,
+      580,
+      482
+    ],
+    "markLightOnly": true,
+    "markWhite": true,
+    "logoNote": "Oficiálne logo zväčšené s Lanczos vyhladením. Pôvodný biely rozvetvený rastlinný symbol je vyrezaný z červeného poľa loga; farebné pozadie sa odfiltrovalo, obrys sa jemne zosilnil o jeden zdrojový pixel pre malé kruhové avatary. Hlavička chatu zachováva celé pôvodné logo na bielej podložke.",
+    "themeNote": "Červená z oficiálneho loga, tmavšia bordová brand a červený accent s kontrastom pre biely text; svetlé ružové neutrálne plochy.",
+    "terms": "https://www.sukulenty-samek.cz/page/terms-and-conditions/",
+    "fit": "Samostatný český pestovateľ, 1–5 zamestnancov podľa ARES; 38 doložených skladových druhov a kultivarov s pestovateľskými pokynmi. Tržby živnostníka nie sú doložené.",
+    "photoNote": "Ak predajca výslovne označuje poslednú fotografiu ako ukážku ponúkanej veľkosti, použitá je táto fotografia, nie dospelý alebo kvitnúci exemplár. Široké zábery sa ručne orezali bližšie cez PIL pri zachovaní rastliny. Štyri už odrezané rastlinné zábery sa vyradili; obnoviteľná kurácia v tools/curate_samek.py.",
+    "stockNote": "Vlastný e-shop: konkrétny detail uvádza kladný počet ks skladem, presnú koncovú cenu v Kč a aktívny formulár Pridať do košíka bez variantového selectu. Zaradenie pochádza z oficiálnej kategórie v navigácii detailu.",
+    "heroNames": [
+      "Crassula platyphylla Green Surprise",
+      "Echeveria Red Velvet",
+      "Opuntia monacantha",
+      "Sempervivum Ependa"
+    ]
   }
 }

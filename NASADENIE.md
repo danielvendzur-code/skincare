@@ -110,3 +110,5 @@ Rastlinná ukážka [Kokedamy.cz](./rastliny-demo/kokedamy/index.html): priprave
 Rastlinná ukážka [Rastlinkovo](./rastliny-demo/rastlinkovo/index.html): pripravená subdoména `rastlinkovo.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
 
 Rastlinná ukážka [Svokrine jazyky](./rastliny-demo/svokrinejazyky/index.html): pripravená subdoména `svokrinejazyky.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Sukulenty Samek](./rastliny-demo/samek/index.html): pripravená subdoména `samek.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.

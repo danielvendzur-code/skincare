@@ -1,0 +1,990 @@
+{
+  "name": "Sukulenty Samek",
+  "website": "https://www.sukulenty-samek.cz/",
+  "currency": "CZK",
+  "kinds": [
+    "succulents",
+    "cacti",
+    "outdoor"
+  ],
+  "kindLabels": {
+    "succulents": "Ostatné sukulenty",
+    "cacti": "Kaktusy",
+    "outdoor": "Skalničky"
+  },
+  "categoryNotes": {
+    "succulents": "Svetlo a druh podľa pestovateľa",
+    "cacti": "Druhy s rozdielnym svetlom a cenou",
+    "outdoor": "Netresky a ďalšie skalničky"
+  },
+  "theme": {
+    "brand": "#741727",
+    "accent": "#b81230",
+    "soft": "#f8eef0",
+    "paper": "#fffefa",
+    "ink": "#33272a",
+    "line": "#ead8dc"
+  },
+  "slug": "samek",
+  "hero": "/assets/plants/samek.jpg",
+  "mobileHero": "/assets/plants/samek-mobile.jpg",
+  "logo": "/assets/plants/samek-logo.png",
+  "mark": "/assets/plants/samek-mark.png",
+  "products": [
+    {
+      "id": "p888",
+      "name": "Crassula platyphylla Green Surprise",
+      "kind": "succulents",
+      "price": "70 Kč",
+      "priceValue": 70.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/crassula-platyphylla-green-surprise-888/",
+      "photo": "/assets/plants/samek-p888.jpg",
+      "tags": [
+        "genus:crassula",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/3b3f6d163c0e1bc22eea0c85c036cd6f.jpg"
+    },
+    {
+      "id": "p766",
+      "name": "Echeveria Red Velvet",
+      "kind": "succulents",
+      "price": "85 Kč",
+      "priceValue": 85.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/echeveria-red-velvet-766/",
+      "photo": "/assets/plants/samek-p766.jpg",
+      "tags": [
+        "easy",
+        "genus:echeveria",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/3e1adf48b39e325bc9f9072d8f8c35fb.jpg"
+    },
+    {
+      "id": "p1078",
+      "name": "Opuntia monacantha",
+      "kind": "cacti",
+      "price": "75 Kč",
+      "priceValue": 75.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/opuntia-monacantha-1078/",
+      "photo": "/assets/plants/samek-p1078.jpg",
+      "tags": [
+        "genus:opuntia",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/7c59febd4974ca32c950095d9bf02cdf.jpg"
+    },
+    {
+      "id": "p949",
+      "name": "Sempervivum Ependa",
+      "kind": "outdoor",
+      "price": "55 Kč",
+      "priceValue": 55.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sempervivum-ependa-949/",
+      "photo": "/assets/plants/samek-p949.jpg",
+      "tags": [
+        "genus:sempervivum",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza plnú mrazuvzdornosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište. Predajca uvádza plnú mrazuvzdornosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/8a7fd7cff88c8362e57c966dd70e8263.jpg"
+    },
+    {
+      "id": "p801",
+      "name": "Cylindropuntia whipplei",
+      "kind": "outdoor",
+      "price": "85 Kč",
+      "priceValue": 85.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/cylindropuntia-whipplei-801/",
+      "photo": "/assets/plants/samek-p801.jpg",
+      "tags": [
+        "genus:cylindropuntia",
+        "sun"
+      ],
+      "facts": [
+        "Konkrétny druh a variant podľa e-shopu: Cylindropuntia whipplei.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Konkrétny druh a variant podľa e-shopu: Cylindropuntia whipplei. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/21d6e9356c5c7cec6c8f448de9a31066.jpg"
+    },
+    {
+      "id": "p729",
+      "name": "Haworthia herbacea",
+      "kind": "succulents",
+      "price": "70 Kč",
+      "priceValue": 70.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/haworthia-herbacea-729/",
+      "photo": "/assets/plants/samek-p729.jpg",
+      "tags": [
+        "easy",
+        "genus:haworthia",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/8be8b6648de8681efbeeb8095e3a411c.jpg"
+    },
+    {
+      "id": "p865",
+      "name": "Crassula Tom Thumb",
+      "kind": "succulents",
+      "price": "75 Kč",
+      "priceValue": 75.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/crassula-tom-thumb-865/",
+      "photo": "/assets/plants/samek-p865.jpg",
+      "tags": [
+        "bright",
+        "genus:crassula",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/bd71dac076ab317a032fca3df114b93f.jpg"
+    },
+    {
+      "id": "p964",
+      "name": "Crassula muscosa Fireworks",
+      "kind": "succulents",
+      "price": "75 Kč",
+      "priceValue": 75.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/crassula-muscosa-fireworks-964/",
+      "photo": "/assets/plants/samek-p964.jpg",
+      "tags": [
+        "genus:crassula",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/e45eaf136991e76508e199ec8dfa4bd4.jpg"
+    },
+    {
+      "id": "p959",
+      "name": "Echeveria Costarii",
+      "kind": "succulents",
+      "price": "75 Kč",
+      "priceValue": 75.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/echeveria-costarii-959/",
+      "photo": "/assets/plants/samek-p959.jpg",
+      "tags": [
+        "bright",
+        "genus:echeveria",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/bc673a2c12b3c70291abf5a8eeb7c1d3.jpg"
+    },
+    {
+      "id": "p724",
+      "name": "Echeveria macdougallii (Stromeček)",
+      "kind": "succulents",
+      "price": "80 Kč",
+      "priceValue": 80.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/echeveria-macdougallii-724/",
+      "photo": "/assets/plants/samek-p724.jpg",
+      "tags": [
+        "genus:echeveria",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/07d4e0908ed192b7f4770095787266c2.jpg"
+    },
+    {
+      "id": "p727",
+      "name": "Aeonium castello-paivae var. sarae",
+      "kind": "succulents",
+      "price": "85 Kč",
+      "priceValue": 85.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/aeonium-castello-paivae-var-sarae-727/",
+      "photo": "/assets/plants/samek-p727.jpg",
+      "tags": [
+        "genus:aeonium",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/a28a745dfb20c2da1aeb9ca1aea48cc1.jpg"
+    },
+    {
+      "id": "p732",
+      "name": "Aloe decaryi",
+      "kind": "succulents",
+      "price": "85 Kč",
+      "priceValue": 85.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/aloe-decaryi-732/",
+      "photo": "/assets/plants/samek-p732.jpg",
+      "tags": [
+        "genus:aloe",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň."
+      ],
+      "reason": "Predajca uvádza: polotieň.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/92da2b51ba4057e790053fa00369ad26.jpg"
+    },
+    {
+      "id": "p1075",
+      "name": "Crassula subaphylla",
+      "kind": "succulents",
+      "price": "85 Kč",
+      "priceValue": 85.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/crassula-subaphylla-1075/",
+      "photo": "/assets/plants/samek-p1075.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:crassula",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/a8bbdb2f1a905a5a4b78ca04cdf98c32.jpg"
+    },
+    {
+      "id": "p721",
+      "name": "Haworthia attenuata var. glabrata",
+      "kind": "succulents",
+      "price": "85 Kč",
+      "priceValue": 85.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/haworthia-attenuata-var-glabrata-721/",
+      "photo": "/assets/plants/samek-p721.jpg",
+      "tags": [
+        "genus:haworthia",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/986ee95fc9b3aba30f6e32241ae291ca.jpg"
+    },
+    {
+      "id": "p1089",
+      "name": "Kalanchoe marnieriana",
+      "kind": "succulents",
+      "price": "85 Kč",
+      "priceValue": 85.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/kalanchoe-marnieriana-1089/",
+      "photo": "/assets/plants/samek-p1089.jpg",
+      "tags": [
+        "easy",
+        "genus:kalanchoe",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/c4b08287d93a622b43880628d5dba2f3.jpg"
+    },
+    {
+      "id": "p856",
+      "name": "Plectranthus socotranus",
+      "kind": "succulents",
+      "price": "85 Kč",
+      "priceValue": 85.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/plectranthus-socotranus-856/",
+      "photo": "/assets/plants/samek-p856.jpg",
+      "tags": [
+        "easy",
+        "genus:plectranthus",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/f7fa813aca06699487c5073239518d75.jpg"
+    },
+    {
+      "id": "p757",
+      "name": "Sedum allantoides Goldii",
+      "kind": "succulents",
+      "price": "90 Kč",
+      "priceValue": 90.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sedum-allantoides-goldii-757/",
+      "photo": "/assets/plants/samek-p757.jpg",
+      "tags": [
+        "bright",
+        "genus:sedum",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/8f874ac0a6a5eb72b50e990f823f02b3.jpg"
+    },
+    {
+      "id": "p901",
+      "name": "Echeveria Meetup",
+      "kind": "succulents",
+      "price": "99 Kč",
+      "priceValue": 99.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/echeveria-meetup-901/",
+      "photo": "/assets/plants/samek-p901.jpg",
+      "tags": [
+        "bright",
+        "genus:echeveria",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/ed4da520f5aa3e2a22c56511d9d0f038.jpg"
+    },
+    {
+      "id": "p893",
+      "name": "Sedum pachyphyllum Koigokoro",
+      "kind": "succulents",
+      "price": "140 Kč",
+      "priceValue": 140.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sedum-pachyphyllum-koigokoro-893/",
+      "photo": "/assets/plants/samek-p893.jpg",
+      "tags": [
+        "genus:sedum",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/dc6b0f2286efa1c03317d2bd31a20e70.jpg"
+    },
+    {
+      "id": "p914",
+      "name": "Echeveria Royal Chrysanthemum variegata",
+      "kind": "succulents",
+      "price": "145 Kč",
+      "priceValue": 145.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/echeveria-royal-chrysanthemum-variegata-914/",
+      "photo": "/assets/plants/samek-p914.jpg",
+      "tags": [
+        "bright",
+        "genus:echeveria",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/f5326ff78d221cdbca51e33156bedc8c.jpg"
+    },
+    {
+      "id": "p900",
+      "name": "Aeonium glutinosum",
+      "kind": "succulents",
+      "price": "160 Kč",
+      "priceValue": 160.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/aeonium-glutinosum-900/",
+      "photo": "/assets/plants/samek-p900.jpg",
+      "tags": [
+        "genus:aeonium",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/6db6552e5f24dfaa6a9dbe20216719cb.jpg"
+    },
+    {
+      "id": "p736",
+      "name": "Ceropegia Merel",
+      "kind": "succulents",
+      "price": "199 Kč",
+      "priceValue": 199.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/ceropegia-merel-736/",
+      "photo": "/assets/plants/samek-p736.jpg",
+      "tags": [
+        "genus:ceropegia",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/b67e775be39dc14877a105fdfb9f68a8.jpg"
+    },
+    {
+      "id": "p985",
+      "name": "Portulaca werdermannii",
+      "kind": "succulents",
+      "price": "199 Kč",
+      "priceValue": 199.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/portulaca-werdermannii-985/",
+      "photo": "/assets/plants/samek-p985.jpg",
+      "tags": [
+        "bright",
+        "genus:portulaca",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: rozptýlené svetlo."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: rozptýlené svetlo.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/f7caa17d390302156631506599e7c3a8.jpg"
+    },
+    {
+      "id": "p863",
+      "name": "Crassula Red Lips",
+      "kind": "succulents",
+      "price": "299 Kč",
+      "priceValue": 299.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/crassula-red-lips-863/",
+      "photo": "/assets/plants/samek-p863.jpg",
+      "tags": [
+        "genus:crassula",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/1aff84be8ad0966c65ae25286859bee0.jpg"
+    },
+    {
+      "id": "p718",
+      "name": "Rhipsalis crispata",
+      "kind": "cacti",
+      "price": "75 Kč",
+      "priceValue": 75.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/rhipsalis-crispata-718/",
+      "photo": "/assets/plants/samek-p718.jpg",
+      "tags": [
+        "genus:rhipsalis",
+        "low"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň."
+      ],
+      "reason": "Predajca uvádza: polotieň.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/a31b2ddf883bd3c930360049d27ea26e.jpg"
+    },
+    {
+      "id": "p1021",
+      "name": "Puna incahuasi",
+      "kind": "cacti",
+      "price": "85 Kč",
+      "priceValue": 85.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/puna-incahuasi-1021/",
+      "photo": "/assets/plants/samek-p1021.jpg",
+      "tags": [
+        "genus:puna",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/345cd2c19b12fd97a2b528104d7424c2.jpg"
+    },
+    {
+      "id": "p1077",
+      "name": "Austrocylindropuntia vestita cristata",
+      "kind": "cacti",
+      "price": "95 Kč",
+      "priceValue": 95.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/austrocylindropuntia-vestita-cristata-1077/",
+      "photo": "/assets/plants/samek-p1077.jpg",
+      "tags": [
+        "bright",
+        "genus:austrocylindropuntia",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/64795005740300ee95bf7541d4fa4ff7.jpg"
+    },
+    {
+      "id": "p916",
+      "name": "Rhipsalis rosea",
+      "kind": "cacti",
+      "price": "199 Kč",
+      "priceValue": 199.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/rhipsalis-rosea-916/",
+      "photo": "/assets/plants/samek-p916.jpg",
+      "tags": [
+        "genus:rhipsalis",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/1ed99f22af69bf7ac43cc80a204a5502.jpg"
+    },
+    {
+      "id": "p931",
+      "name": "Sempervivum Fluffy Fluke",
+      "kind": "outdoor",
+      "price": "55 Kč",
+      "priceValue": 55.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sempervivum-fluffy-fluke-931/",
+      "photo": "/assets/plants/samek-p931.jpg",
+      "tags": [
+        "genus:sempervivum",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza plnú mrazuvzdornosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište. Predajca uvádza plnú mrazuvzdornosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/899224c685bcc4f6ddbd784fcd75e0d2.jpg"
+    },
+    {
+      "id": "p929",
+      "name": "Sempervivum Gorges Supérieures du Cians",
+      "kind": "outdoor",
+      "price": "55 Kč",
+      "priceValue": 55.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sempervivum-gorges-superieures-du-cians-929/",
+      "photo": "/assets/plants/samek-p929.jpg",
+      "tags": [
+        "genus:sempervivum",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza plnú mrazuvzdornosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište. Predajca uvádza plnú mrazuvzdornosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/6da1abca8fe1a87db09cf65ed03a89b6.jpg"
+    },
+    {
+      "id": "p928",
+      "name": "Sempervivum Green Hill",
+      "kind": "outdoor",
+      "price": "55 Kč",
+      "priceValue": 55.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sempervivum-green-hill-928/",
+      "photo": "/assets/plants/samek-p928.jpg",
+      "tags": [
+        "genus:sempervivum",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza plnú mrazuvzdornosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište. Predajca uvádza plnú mrazuvzdornosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/c78157a6668d63bb0479bcede93ea69b.jpg"
+    },
+    {
+      "id": "p1050",
+      "name": "Sempervivum Pacaya",
+      "kind": "outdoor",
+      "price": "55 Kč",
+      "priceValue": 55.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sempervivum-pacaya-1050/",
+      "photo": "/assets/plants/samek-p1050.jpg",
+      "tags": [
+        "genus:sempervivum",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza plnú mrazuvzdornosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište. Predajca uvádza plnú mrazuvzdornosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/ce6531cee6b2d1e2615f1f72f0685b3a.jpg"
+    },
+    {
+      "id": "p952",
+      "name": "Sempervivum Snow Baby",
+      "kind": "outdoor",
+      "price": "55 Kč",
+      "priceValue": 55.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sempervivum-snow-baby-952/",
+      "photo": "/assets/plants/samek-p952.jpg",
+      "tags": [
+        "genus:sempervivum",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza plnú mrazuvzdornosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište. Predajca uvádza plnú mrazuvzdornosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/a5947d8c26571a5c9a794cbe6ef9d12b.jpg"
+    },
+    {
+      "id": "p941",
+      "name": "Sempervivum Tracy Sue",
+      "kind": "outdoor",
+      "price": "55 Kč",
+      "priceValue": 55.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sempervivum-tracy-sue-941/",
+      "photo": "/assets/plants/samek-p941.jpg",
+      "tags": [
+        "easy",
+        "genus:sempervivum",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza plnú mrazuvzdornosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť. Predajca uvádza: slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/eecc001ea0fb8f51142ebbc038367f49.jpg"
+    },
+    {
+      "id": "p945",
+      "name": "Sempervivum Weberianum",
+      "kind": "outdoor",
+      "price": "55 Kč",
+      "priceValue": 55.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sempervivum-weberianum-945/",
+      "photo": "/assets/plants/samek-p945.jpg",
+      "tags": [
+        "genus:sempervivum",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza plnú mrazuvzdornosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište. Predajca uvádza plnú mrazuvzdornosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/92f74bc1890e3fb0404179f1fe7590f2.jpg"
+    },
+    {
+      "id": "p936",
+      "name": "Sempervivum Weisse Hochzeit",
+      "kind": "outdoor",
+      "price": "55 Kč",
+      "priceValue": 55.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sempervivum-weisse-hochzeit-936/",
+      "photo": "/assets/plants/samek-p936.jpg",
+      "tags": [
+        "genus:sempervivum",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza plnú mrazuvzdornosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište. Predajca uvádza plnú mrazuvzdornosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/e0c8e374a5769feddab141c0a57ef2ec.jpg"
+    },
+    {
+      "id": "p1049",
+      "name": "Sempervivum arachnoideum Gnaphalium",
+      "kind": "outdoor",
+      "price": "55 Kč",
+      "priceValue": 55.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sempervivum-arachnoideum-gnaphalium-1049/",
+      "photo": "/assets/plants/samek-p1049.jpg",
+      "tags": [
+        "genus:sempervivum",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza plnú mrazuvzdornosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište. Predajca uvádza plnú mrazuvzdornosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/629da2b20454b152305d5159dba617d1.jpg"
+    },
+    {
+      "id": "p827",
+      "name": "Sempervivum ciliosum (Netřesk brvitý)",
+      "kind": "outdoor",
+      "price": "55 Kč",
+      "priceValue": 55.0,
+      "currency": "CZK",
+      "url": "https://www.sukulenty-samek.cz/product/sempervivum-ciliosum-827/",
+      "photo": "/assets/plants/samek-p827.jpg",
+      "tags": [
+        "genus:sempervivum",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: polotieň.",
+        "Predajca uvádza: slnečné stanovište.",
+        "Predajca uvádza plnú mrazuvzdornosť."
+      ],
+      "reason": "Predajca uvádza: polotieň. Predajca uvádza: slnečné stanovište. Predajca uvádza plnú mrazuvzdornosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://www.sukulenty-samek.cz/images/736x460/5f073ac51558ccd7525b834e693c5c3a.jpg"
+    }
+  ],
+  "checked": "2026-10-10"
+}
