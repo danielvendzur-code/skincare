@@ -1,0 +1,30 @@
+{
+  "checked": "2026-10-10",
+  "company": "koke no koke s.r.o.",
+  "ico": "06096221",
+  "owners": [
+    "Ing. Lenka Hrubá"
+  ],
+  "executives": [
+    "Ing. Lenka Hrubá"
+  ],
+  "shares": [
+    {
+      "owner": "Ing. Lenka Hrubá",
+      "percentage": "100"
+    }
+  ],
+  "employees": {
+    "code": "120",
+    "range": "6–9",
+    "source": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/06096221",
+    "recordUpdated": "2024-12-04"
+  },
+  "revenue": {
+    "value": null,
+    "year": null,
+    "note": "Tržby nedoložené; výber podľa vlastníka, butikového sortimentu a 6–9 zamestnancov."
+  },
+  "ownersSource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/06096221",
+  "note": "Aktuálnym predajcom je koke no koke s.r.o. podľa VOP. Staršie katalógy uvádzajú osobné IČO 74490982; nekombinujeme jeho menší počet zamestnancov s touto spoločnosťou."
+}

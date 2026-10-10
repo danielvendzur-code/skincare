@@ -46,6 +46,6 @@ for(const vp of[{n:'desktop',width:1440,height:900},{n:'mobile',width:390,height
  }
  await page.keyboard.press('Escape');check(await page.locator('#cx-widget').getAttribute('aria-hidden')==='true',`${vp.n} escape`);await page.close();
 }
-await browser.close();const result={slug,status:problems.length?'FAIL':'PASS',problems:[...new Set(problems)],viewports:[1440,390,360],categories:brand.kinds,checked:'2026-10-09'};
+await browser.close();const result={slug,status:problems.length?'FAIL':'PASS',problems:[...new Set(problems)],viewports:[1440,390,360],categories:brand.kinds,checked:new Date().toISOString().slice(0,10)};
 await fs.writeFile(`${out}/report.json`,JSON.stringify(result,null,2)+'\n');
 console.log(`${result.status} ${slug}`+(problems.length?'\n'+result.problems.join('\n'):''));process.exitCode=problems.length?1:0;

@@ -318,3 +318,71 @@ Fotografie: celý produkt zachovaný, upravené len okraje, veľkosť a pozadie 
 | Plantizia.cz ako samostatná ukážka | Ten istý vlastník a predajca ako slovenská Plantizia; duplicitná firma sa nepočíta ako nový kandidát. |
 
 Pri overení sa nepreukázal spoločný vlastník s existujúcimi zdokumentovanými ukážkami kozmetiky, vlasovej starostlivosti ani 43 vinárstiev.
+
+## Zahrada na niti
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://www.zahradananiti.cz/). [Identita predajcu](https://www.zahradananiti.cz/obchodni-podminky/).
+- Firma: **koke no koke s.r.o., IČO 06096221**. Vlastníci: Ing. Lenka Hrubá. Konatelia / podnikateľ: Ing. Lenka Hrubá.
+- Veľkosť: **Tržby nedoložené; 6–9 zam.**. Kód `120` v [primárnom registri](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/06096221); údaj aktualizovaný 2024-12-04, načítaný 2026-10-10. [Vlastníci](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/06096221).
+- Tržby nedoložené; výber podľa vlastníka, butikového sortimentu a 6–9 zamestnancov.
+- Aktuálnym predajcom je koke no koke s.r.o. podľa VOP. Staršie katalógy uvádzajú osobné IČO 74490982; nekombinujeme jeho menší počet zamestnancov s touto spoločnosťou.
+- Prečo sedí: Autorský butik s kokedamami a floráriami, vlastný e-shop; rozdielne svetlo, druhy a ceny robia výber náročným. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **50 produktov**, kokedamy, tillandsie, rastlinné teráriá, substráty. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: mikrodáta výpisu aj detailu (`InStock`, cena a mena); pri variantoch navyše oficiálne Shoptet variantové dáta viažu cenu, sklad a fotografiu k uvedenému variantu. Na detaile treba vybrať pomenovaný variant. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/zahradananiti-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/logos/layer_1.svg); Oficiálne SVG vyrenderované vo vysokej veľkosti. Do kruhu je vyrezané pôvodné písmeno Z z loga a upravené na bielu monochromatickú verziu pre kontrast.
+- Farby: `brand: #2c5130`, `accent: #38683b`, `soft: #f2f1e9`, `paper: #fffefb`, `ink: #25281f`, `line: #dedfd3`. Zelená #48844B z oficiálneho SVG; brand a accent sú jej tmavšie verzie pre kontrast bieleho textu. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/zahradananiti-qa.json`, `zahradananiti-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/zahradananiti-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Kokedama mini Nolina | Kokedamy | 550 Kč | [detail](https://www.zahradananiti.cz/kokedamy/mini-kokedama-nolina/) |
+| Sputnik s řasokoulí — Ø 8 cm | rastlinné teráriá | 450 Kč | [detail](https://www.zahradananiti.cz/teraria-sputnik/sputnik-s-rasokouli/) |
+| Tillandsia brachycaulos | tillandsie | 150 Kč | [detail](https://www.zahradananiti.cz/tillandsie/tillandsia-brachycaulos/) |
+| Kokedama mini parožnatka | Kokedamy | 550 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-mini-paroznatka/) |
+| Kokedama mini tlustice | Kokedamy | 550 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-mini-tlustice/) |
+| Kokedama Asparagus falcatus — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-asparagus-falcatus/) |
+| Kokedama Asparagus plumosus — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-asparagus-plumosus/) |
+| Kokedama Asplenium-parvati — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-asplenium-parvati/) |
+| Kokedama Marble Queen — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-marble-queen/) |
+| Kokedama Nolina — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-nolina/) |
+| Kokedama Scindapsus pictus Exotica — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-scindapsus-pictus-exotica/) |
+| Kokedama africká fialka | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-africka-fialka/) |
+| Kokedama cik-cak kaktus — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-cik-cak-kaktus/) |
+| Kokedama filodendron Brazil — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-filodendron-brazil/) |
+| Kokedama filodendron scandens — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-filodendron-scandens/) |
+| Kokedama maranta — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-maranta/) |
+| Kokedama monstera Monkey Mask — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-monstera-monkey-mask/) |
+| Kokedama neonka — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-neonka/) |
+| Kokedama tlustice — cca 13 cm - mladá rostlina | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-tlustice/) |
+| Kokedama tlustice Hobbit — cca 15 cm | Kokedamy | 1490 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-tlustice-hobbit/) |
+| Kokedama zelenec — cca 13 cm | Kokedamy | 990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-zelenec/) |
+| Kokedama Aglaonema — cca 13 cm | Kokedamy | 1590 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-aglaonema/) |
+| Kokedama Ficus Ginseng — cca 13 cm | Kokedamy | 1590 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-ficus-ginseng/) |
+| Kokedama Hoya Kerii | Kokedamy | 1590 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-hoya-kerii/) |
+| Kokedama Pink Aglaonema | Kokedamy | 1590 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-pink-aglaonema/) |
+| Kokedama africká myrta — cca 13 cm | Kokedamy | 1590 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-africka-myrta/) |
+| Kokedama filodendron Birkin | Kokedamy | 1590 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-filodendron-birkin/) |
+| Kokedama listový kaktus — cca 13 cm | Kokedamy | 1590 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-listovy-kaktus/) |
+| Kokedama monstera Minima — cca 13 cm | Kokedamy | 1590 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-monstera-minima/) |
+| Kokedama sanseviera | Kokedamy | 1590 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-sanseviera/) |
+| Kokedama Aloe | Kokedamy | 1990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-aloe/) |
+| Kokedama Calathea musaica | Kokedamy | 1990 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-calathea-musaica/) |
+| Kokedama olivovník — cca 15 cm | Kokedamy | 2590 Kč | [detail](https://www.zahradananiti.cz/kokedamy/kokedama-olivovnik/) |
+| Tillandsia capitata | tillandsie | 150 Kč | [detail](https://www.zahradananiti.cz/tillandsie/tillandsia-capitata/) |
+| Tillandsia caput medusa — Malý | tillandsie | 150 Kč | [detail](https://www.zahradananiti.cz/tillandsie/tillandsia-caput-medusa/) |
+| Tillandsia fuchsii | tillandsie | 150 Kč | [detail](https://www.zahradananiti.cz/tillandsie/tillandsia-fuchsii/) |
+| Tillandsia ionantha | tillandsie | 150 Kč | [detail](https://www.zahradananiti.cz/tillandsie/tillandsia-ionantha/) |
+| Oblázkový stojánek s tillandsií | tillandsie | 220 Kč | [detail](https://www.zahradananiti.cz/tillandsie/tillandsie-na-dratku/) |
+| Tillandsia Tectorum — Malá | tillandsie | 220 Kč | [detail](https://www.zahradananiti.cz/tillandsie/tillandsia-tectorum/) |
+| Tillandsia juncefolia | tillandsie | 250 Kč | [detail](https://www.zahradananiti.cz/tillandsie/tillandsia-juncefolia/) |
+| Tillandsia usneoides | tillandsie | 450 Kč | [detail](https://www.zahradananiti.cz/tillandsie/tillandsia-usneoides/) |
+| Tillandsia streptophylla — Velká | tillandsie | 550 Kč | [detail](https://www.zahradananiti.cz/tillandsie/tillandsia-streptophylla/) |
+| Porcelánová medúzka s tillandsií | tillandsie | 680 Kč | [detail](https://www.zahradananiti.cz/tillandsie/porcelanova-meduzka-s-tillandsii/) |
+| Sputnik na Marsu — Ø 8 cm | rastlinné teráriá | 590 Kč | [detail](https://www.zahradananiti.cz/teraria-sputnik/sputnik-na-marsu-m/) |
+| Florárium Vzkaz v lahvi | rastlinné teráriá | 990 Kč | [detail](https://www.zahradananiti.cz/vlhkomilna-teraria/terarium-vzkaz-v-lahvi/) |
+| Terárium Sputnik s miniorichidejí — Bílá | rastlinné teráriá | 990 Kč | [detail](https://www.zahradananiti.cz/teraria-sputnik/terarium-sputnik-s-miniorichideji/) |
+| Erlenkové florárium | rastlinné teráriá | 1590 Kč | [detail](https://www.zahradananiti.cz/vlhkomilna-teraria/erlenkove-terarium/) |
+| Náš bezrašelinový substrát na pokojovky — Na pokojovky - 1 litr | substráty | 45 Kč | [detail](https://www.zahradananiti.cz/substraty/nas-substrat/) |
+| Říční písek | substráty | 45 Kč | [detail](https://www.zahradananiti.cz/substraty/ricni-pisek/) |
+| Rašeliník - Sphagnum | substráty | 125 Kč | [detail](https://www.zahradananiti.cz/substraty/raselinik/) |

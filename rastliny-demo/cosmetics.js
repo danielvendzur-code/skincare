@@ -1,4 +1,4 @@
-import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply} from './advisor.mjs';
+import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,snapshotDate} from './advisor.mjs';
 (() => {
   'use strict';
 
@@ -95,7 +95,8 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply} 
     ['História konverzácií', 'vidíte, na čo sa zákazníci pýtajú']
   ];
 
-  const CHIPS = brand.kinds.includes('pots') ? ['Rastlina do polotieňa', 'Som začiatočník', 'Pomôžte vybrať črepník', 'Ktorý substrát?'] : ['Rastlina do polotieňa', 'Som začiatočník', 'Porovnajte dve rastliny', 'Čo máte do 400 Kč?'];
+  const firstChip=brand.products.some(p=>p.kind==='plants'&&p.tags.includes('low'))?'Rastlina do polotieňa':brand.products.some(p=>p.kind==='plants'&&p.tags.includes('bright'))?'Rastlina na rozptýlené svetlo':brand.products[0].name;
+  const CHIPS = [firstChip,brand.products.some(p=>p.kind==='plants'&&p.tags.includes('easy'))?'Som začiatočník':'Porovnajte dve rastliny',brand.kinds.includes('pots')?'Pomôžte vybrať črepník':brand.kinds.includes('substrates')?'Ktorý substrát?':'Pomôžte mi s výberom',`Čo máte do ${brand.currency==='CZK'?'400 Kč':'30 €'}?`];
 
   const ownerFigures = '';
 
@@ -334,7 +335,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply} 
           <article class="cx-product"><div class="cx-product-photo"><img src="${product.photo || brand.hero}" alt="${esc(product.name)}" referrerpolicy="no-referrer" onerror="this.closest('.cx-product-photo')?.setAttribute('data-image-failed','true')"></div><div class="cx-product-copy"><small>${esc(brand.name)}</small><h2>${esc(product.name)}</h2>${matchedLabels(product).length?`<div class="cx-product-tags">${matchedLabels(product).map((label)=>`<span>${esc(label)}</span>`).join('')}</div>`:''}<div class="cx-product-price"><strong>${esc(product.price)}</strong><a href="${product.url}" target="_blank" rel="noreferrer">Pozrieť produkt ${icons.arrow}</a></div></div></article>
           <section class="cx-why"><small>Prečo práve toto</small><p>${esc(product.reason)}</p></section>
           ${alt && alt.id!==product.id ? `<article class="cx-alt"><span>${icons.leaf}</span><div><small>Alternatíva</small><b>${esc(alt.name)}</b></div><a href="${alt.url}" target="_blank" rel="noreferrer" aria-label="Pozrieť alternatívu">${icons.arrow}</a></article>`:''}
-          <p class="cx-result-note">Ceny a sklad overené 9. 10. 2026. Aktuálnu dostupnosť nájdete na detaile produktu.</p>
+          <p class="cx-result-note">Ceny a sklad overené ${snapshotDate(brand)} Aktuálnu dostupnosť nájdete na detaile produktu.</p>
           <button class="cx-restart" id="cx-restart" type="button">Vybrať znova</button>
         </div>
       </section>`;

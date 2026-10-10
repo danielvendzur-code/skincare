@@ -181,5 +181,42 @@
       "airplants": 48,
       "succulents": 24
     }
+  },
+  "zahradananiti": {
+    "combinations": 108,
+    "empty": 0,
+    "constraintFailures": 0,
+    "uniqueWinners": 23,
+    "winners": {
+      "p954": 3,
+      "p663": 2,
+      "p1192": 4,
+      "p630": 1,
+      "p853": 3,
+      "p603": 2,
+      "p831": 2,
+      "p729": 4,
+      "p1035": 3,
+      "p639": 1,
+      "p847": 1,
+      "p161": 16,
+      "p158": 7,
+      "p197": 5,
+      "p167": 1,
+      "p164": 2,
+      "p185": 3,
+      "p68": 8,
+      "p128": 7,
+      "p915": 1,
+      "p492": 22,
+      "p507": 5,
+      "p495": 5
+    },
+    "byKind": {
+      "plants": 26,
+      "airplants": 34,
+      "terrariums": 16,
+      "substrates": 32
+    }
   }
 }

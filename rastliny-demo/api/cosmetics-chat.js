@@ -1,5 +1,5 @@
 import {BRANDS} from '../catalog-data.mjs';
-import {catalogueReply} from '../advisor.mjs';
+import {catalogueReply,snapshotDate} from '../advisor.mjs';
 
 // Preserve the existing skincare endpoint. The model can select catalogue IDs;
 // names, prices, URLs and care facts always come from the canonical catalogue.
@@ -28,7 +28,7 @@ export function createHandler({apiKey=process.env.ANTHROPIC_API_KEY,model=proces
     const payload=await response.json();const raw=payload.content?.filter(x=>x.type==='text').map(x=>x.text).join('')||'';
     const parsed=JSON.parse(raw.replace(/^```(?:json)?\s*/,'').replace(/\s*```$/,''));
     const products=[...new Set(Array.isArray(parsed.productIds)?parsed.productIds:[])].map(id=>brand.products.find(p=>p.id===id)).filter(Boolean).slice(0,2);
-    if(products.length)return res.status(200).json({reply:products.map(p=>`${p.name} — ${p.price}. ${p.reason}`).join('\n\n')+'\n\nCeny overené 9. 10. 2026. Aktuálnu dostupnosť overte na detaile produktu.',products:products.map(p=>p.id),mode:'ai-selection'});
+    if(products.length)return res.status(200).json({reply:products.map(p=>`${p.name} — ${p.price}. ${p.reason}`).join('\n\n')+`\n\nCeny overené ${snapshotDate(brand)} Aktuálnu dostupnosť overte na detaile produktu.`,products:products.map(p=>p.id),mode:'ai-selection'});
     if(parsed.needDetails)return res.status(200).json({reply:'Spresníte, ktorý produkt hľadáte alebo aké bude mať podmienky? Môžete tiež prejsť Výber produktov v štyroch krokoch.',products:[],mode:'ai-selection'});
    }
   }catch{/* Immediate catalogue answer also covers provider failures/timeouts. */}finally{clearTimeout(timer);}

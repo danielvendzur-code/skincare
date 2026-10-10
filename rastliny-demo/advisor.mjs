@@ -1,3 +1,4 @@
+export const snapshotDate=brand=>(brand.checked||brand.products[0]?.checked||'2026-10-09').split('-').reverse().map(Number).join('. ')+'.';
 // One catalogue matcher for the browser, API and exhaustive QA. Only facts
 // explicitly supplied by the seller become hard constraints.
 export const LABELS={plants:'Izbové rastliny',outdoor:'Do záhrady',pots:'Črepníky',substrates:'Substráty',terrariums:'Rastlinné teráriá',orchids:'Orchidey',airplants:'Tillandsie',succulents:'Sukulenty a kaktusy',low:'Polotieň',bright:'Rozptýlené svetlo',sun:'Slnečné miesto',easy:'Nenáročná starostlivosť','pet-safe':'Domácnosť so zvieratami',trailing:'Previsnutý rast','small-pot':'Do 11 cm','medium-pot':'12–16 cm','large-pot':'Nad 16 cm',terracotta:'Terakota',concrete:'Betón',ceramic:'Keramika',plastic:'Plast',saucer:'Podmiska','indoor-mix':'Izbové rastliny','cactus-mix':'Kaktusy a sukulenty','orchid-mix':'Orchidey','hydro-mix':'Hydropónia','universal-mix':'Univerzálne','acid-mix':'Kyslomilné rastliny',closed:'Uzavreté',open:'Otvorené',bonsai:'S bonsajom',airplants:'S tillandsiou',perennial:'Trvalky',shrub:'Listnaté kry',conifer:'Ihličnany',grass:'Okrasné trávy','volume-small':'Do 3 litrov','volume-medium':'4–10 litrov','volume-large':'Nad 10 litrov',any:'Nechám si poradiť',lowest:'Nižšia cena',middle:'Stred ponuky',premium:'Vyššia cena'};
@@ -95,9 +96,10 @@ export function catalogueReply(brand,messages) {
   return p.length?{text:`Predajca medzi rastliny vhodné do domácnosti so zvieratami zaraďuje: ${p.map(x=>`${x.name} (${x.price})`).join('; ')}. Tieto položky spĺňajú aj uvedené svetlo a rozpočet. Rastliny nie sú určené na konzumáciu.`,products:p.map(x=>x.id)}:{text:'Pre tieto podmienky alebo pomenovaný druh nemám doložené zaradenie ako bezpečný pre zvieratá. Bez tohto podkladu ho nebudem odporúčať na tento účel.',products:[]};
  }
  const named=exact.length?exact:genus;
- let ranked=named.length?named.filter(p=>matches(p,{...answers,kind:p.kind})):rankProducts(brand,answers);
+ const explicitKind=/substrat|zemin|kvetinac|crepnik|obal|terarium/.test(q);
+ let ranked=named.length?named.filter(p=>matches(p,explicitKind?answers:{...answers,kind:p.kind})):rankProducts(brand,answers);
  if(/cena|ceny|kolko|lacne/.test(q)&&!exact.length)ranked=[...ranked].sort((a,b)=>a.priceValue-b.priceValue);
  if(!ranked.length)return {text:'V overenej ponuke nemám produkt, ktorý by spĺňal tieto podmienky. Skúste upraviť rozpočet alebo prejdite Výber rastlín a doplnkov.',products:[]};
  const selected=ranked.slice(0,/porovnaj|porovnanie|rozdiel/.test(q)?2:1);
- return {text:selected.map(p=>`${p.name} — ${p.price}. ${p.reason}`).join('\n\n')+'\n\nCeny sú zo snímky ponuky z 9. 10. 2026. Dostupnosť si overte na detaile produktu. Výber v štyroch krokoch zohľadní ďalšie podmienky.',products:selected.map(p=>p.id)};
+ return {text:selected.map(p=>`${p.name} — ${p.price}. ${p.reason}`).join('\n\n')+`\n\nCeny sú zo snímky ponuky z ${snapshotDate(brand)} Dostupnosť si overte na detaile produktu. Výber v štyroch krokoch zohľadní ďalšie podmienky.`,products:selected.map(p=>p.id)};
 }

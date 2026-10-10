@@ -1,0 +1,71 @@
+{
+  "zahradananiti": {
+    "name": "Zahrada na niti",
+    "website": "https://www.zahradananiti.cz/",
+    "currency": "CZK",
+    "platform": "shoptet",
+    "kinds": [
+      "plants",
+      "airplants",
+      "terrariums",
+      "substrates"
+    ],
+    "kindLabels": {
+      "plants": "Kokedamy"
+    },
+    "categoryNotes": {
+      "plants": "Živé rastliny v machovej guli",
+      "airplants": "Vzdušné rastliny a živé kompozície",
+      "terrariums": "Hotové rastlinné floráriá",
+      "substrates": "Zmesi a pestovateľské médiá"
+    },
+    "theme": {
+      "brand": "#2c5130",
+      "accent": "#38683b",
+      "soft": "#f2f1e9",
+      "paper": "#fffefb",
+      "ink": "#25281f",
+      "line": "#dedfd3"
+    },
+    "categories": {
+      "plants": [
+        "kokedamy"
+      ],
+      "airplants": [
+        "tillandsie"
+      ],
+      "terrariums": [
+        "floraria-rostlinna-teraria"
+      ],
+      "substrates": [
+        "substraty"
+      ]
+    },
+    "limits": {
+      "plants": 42,
+      "airplants": 18,
+      "terrariums": 18,
+      "substrates": 12
+    },
+    "include": {
+      "plants": "^Kokedama",
+      "airplants": "^Tillandsia|s tilland",
+      "terrariums": "Sputnik na Marsu|Sputnik s řasokoulí|Sputnik s mini|[Ff]lorárium",
+      "substrates": "substr[aá]t|rašelin[ií]k|perlit|keramzit|p[ií]sek"
+    },
+    "exclude": "workshop|kurz|vyrob|poukaz|prázdn|bez rostlin|bez rostlinky|dočasn",
+    "logoSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/logos/layer_1.svg",
+    "markSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/logos/layer_1.svg",
+    "logoNote": "Oficiálne SVG vyrenderované vo vysokej veľkosti. Do kruhu je vyrezané pôvodné písmeno Z z loga a upravené na bielu monochromatickú verziu pre kontrast.",
+    "themeNote": "Zelená #48844B z oficiálneho SVG; brand a accent sú jej tmavšie verzie pre kontrast bieleho textu.",
+    "terms": "https://www.zahradananiti.cz/obchodni-podminky/",
+    "fit": "Autorský butik s kokedamami a floráriami, vlastný e-shop; rozdielne svetlo, druhy a ceny robia výber náročným.",
+    "markCrop": [
+      0,
+      0,
+      96,
+      145
+    ],
+    "markWhite": true
+  }
+}

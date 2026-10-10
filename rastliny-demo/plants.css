@@ -85,3 +85,6 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--cx-accent);outline-
 /* Override the shared white-surface pricing rule at its original specificity. */
 body[data-cosmetics-demo]:not([data-cosmetics-demo="plener"]) #cosmetics-root#cosmetics-root article.cx-price{background:var(--cx-brand)!important;border-color:var(--cx-brand)!important}
 body[data-cosmetics-demo]:not([data-cosmetics-demo="plener"]) #cosmetics-root#cosmetics-root .cx-price-terms>a{background:#fff!important;color:var(--cx-brand)!important}
+
+body[data-cosmetics-demo="zahradananiti"] .cx-owner-brand .cx-logo{max-height:60px;max-width:150px}
+body[data-cosmetics-demo="zahradananiti"] .cx-widget-brand .cx-logo{max-height:42px;max-width:110px}

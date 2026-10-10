@@ -3,7 +3,8 @@ import hashlib, json, subprocess
 from pathlib import Path
 from bs4 import BeautifulSoup
 
-CACHE = Path('/tmp/rastliny-source-20261009')
+from datetime import date
+CACHE = Path('/tmp/rastliny-source-'+date.today().strftime('%Y%m%d'))
 CACHE.mkdir(exist_ok=True)
 
 def fetch(url, refresh=False):

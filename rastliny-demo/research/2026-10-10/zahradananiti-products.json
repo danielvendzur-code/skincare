@@ -1,0 +1,1817 @@
+[
+  {
+    "id": "p954",
+    "name": "Kokedama mini Nolina",
+    "url": "https://www.zahradananiti.cz/kokedamy/mini-kokedama-nolina/",
+    "kind": "plants",
+    "priceValue": 550.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/954_mini-kokedama-nolina-3.jpg?ff=1&x=1024&y=1365&q=85&ts=67f8fa72&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:kokedama",
+      "low",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p954.jpg",
+    "price": "550 Kč",
+    "sourceAttributes": {
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "af9bb9dda572c7dfb5c9be1381ba464e659a01134d6aefb95171a4a17e12a2ee"
+  },
+  {
+    "id": "p140",
+    "name": "Sputnik s řasokoulí — Ø 8 cm",
+    "url": "https://www.zahradananiti.cz/teraria-sputnik/sputnik-s-rasokouli/",
+    "kind": "terrariums",
+    "priceValue": 450.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/140-3_sputnik-s-rasokouli-zahrada-na-niti.jpg?ff=1&x=1024&y=1365&q=85&ts=64c07fcc&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/floraria-rostlinna-teraria/",
+    "sourceCategory": "floraria-rostlinna-teraria",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:sputnik"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Ø 8 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: Ø 8 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p140.jpg",
+    "price": "450 Kč",
+    "variantId": 392,
+    "variantLabel": "Ø 8 cm",
+    "variantCode": "1408",
+    "sourceAttributes": {
+      "Terárium": [
+        "Zvolte variantu Ø 8 cm Ø 12 cm Ø 10 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "b08941a182492c5a9e4fdef5510115aa99c4a2cfdcceaf1664e41d1e789f706e"
+  },
+  {
+    "id": "p161",
+    "name": "Tillandsia brachycaulos",
+    "url": "https://www.zahradananiti.cz/tillandsie/tillandsia-brachycaulos/",
+    "kind": "airplants",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/161_tillandsia-brachycaulos-01.jpg?ff=1&x=1024&y=1365&q=85&ts=64c7d14f&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/tillandsie/",
+    "sourceCategory": "tillandsie",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:tillandsia",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň."
+    ],
+    "reason": "Predajca uvádza: polotieň.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p161.jpg",
+    "price": "150 Kč",
+    "sourceAttributes": {
+      "Přidat rozprašovač": [
+        "Vyberte příplatek plastový s aforismy +95 Kč skleněný baňatý +290 Kč"
+      ]
+    },
+    "descriptionSha256": "8f1cdd70f554265cc9d27e6dee08f966e7f01bca82d3477942dfa8a657c0cef5"
+  },
+  {
+    "id": "p853",
+    "name": "Kokedama mini parožnatka",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-mini-paroznatka/",
+    "kind": "plants",
+    "priceValue": 550.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/853_kokedama-mini-paroznatka-02.jpg?ff=1&x=1024&y=1365&q=85&ts=6666211a&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p853.jpg",
+    "price": "550 Kč",
+    "sourceAttributes": {
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "99d0017e8d51153b1c5539a18c0f1f296387b113881a31042beac40c447f5c53"
+  },
+  {
+    "id": "p1192",
+    "name": "Kokedama mini tlustice",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-mini-tlustice/",
+    "kind": "plants",
+    "priceValue": 550.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/1192_mini-tlustice.jpg?ff=1&x=1024&y=1365&q=85&ts=6abb8c65&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:kokedama",
+      "low",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, slnečné stanovište.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: polotieň, slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p1192.jpg",
+    "price": "550 Kč",
+    "sourceAttributes": {},
+    "descriptionSha256": "c7825f27ff2648001f56c9fe163eb23aba30313a4dc62505e90736f318b1efad"
+  },
+  {
+    "id": "p621",
+    "name": "Kokedama Asparagus falcatus — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-asparagus-falcatus/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/621_kokedama-asparagus-falcatus.jpg?ff=1&x=1024&y=1365&q=85&ts=64e898d2&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "low"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: polotieň, rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p621.jpg",
+    "price": "990 Kč",
+    "variantId": 2091,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "621CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm cca 20 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "4407a92bb3619aaeb7df04cbee49d187158c11b5da7a831f436d4afdd9827dcf"
+  },
+  {
+    "id": "p44",
+    "name": "Kokedama Asparagus plumosus — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-asparagus-plumosus/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/44_kokedama-asparagus-plumosus-01.jpg?ff=1&x=1024&y=1365&q=85&ts=64c07fcc&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "low"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: polotieň, rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p44.jpg",
+    "price": "990 Kč",
+    "variantId": 2433,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "44CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "84498e9dcc5dadb12921c4572f1b671ac345dcdc62a8ca998dbc5058765ed554"
+  },
+  {
+    "id": "p1130",
+    "name": "Kokedama Asplenium-parvati — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-asplenium-parvati/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/1130-1_kokedama-asplenium-parvati-02.jpg?ff=1&x=1024&y=1365&q=85&ts=69a0a141&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:kokedama",
+      "low"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: polotieň.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p1130.jpg",
+    "price": "990 Kč",
+    "variantId": 5036,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "1130CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm"
+      ]
+    },
+    "descriptionSha256": "4b2d20d88d0d33c4203193a127342b9cc46a6d3e3f3b07f0d3ca58b6480cc3eb"
+  },
+  {
+    "id": "p831",
+    "name": "Kokedama Marble Queen — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-marble-queen/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/831-1_kokedama-marble-queen-2.jpg?ff=1&x=1024&y=1365&q=85&ts=6613e43f&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "trailing"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p831.jpg",
+    "price": "990 Kč",
+    "variantId": 2961,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "KOK-MARBLE-13",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "d37c20df74baad66d9cce33af9799e9bdb6c483722a60435ab97c959074a0446"
+  },
+  {
+    "id": "p654",
+    "name": "Kokedama Nolina — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-nolina/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/654_kokedama-nolina-zahrada-na-niti-2.jpg?ff=1&x=1024&y=1365&q=85&ts=64e9b08f&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:kokedama",
+      "low",
+      "trailing"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: polotieň.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p654.jpg",
+    "price": "990 Kč",
+    "variantId": 3419,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "654CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm cca 13 cm jedna cibule s více výhony"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "bd4b01d9bd23052df6d3685baa637d5ecfc5795a589c636be720c15d0817bafb"
+  },
+  {
+    "id": "p847",
+    "name": "Kokedama Scindapsus pictus Exotica — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-scindapsus-pictus-exotica/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/847-5_kokedama-scindapsus-pictus-exotica-detail-01.jpg?ff=1&x=1024&y=1365&q=85&ts=665627c4&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "low",
+      "trailing"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: polotieň, rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p847.jpg",
+    "price": "990 Kč",
+    "variantId": 3043,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "847/CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "254be2ce8e88d1cc9d75f95b125c70d2f2b9da59278a881899aa68e2ef5e4591"
+  },
+  {
+    "id": "p630",
+    "name": "Kokedama africká fialka",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-africka-fialka/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/630_kokedama-fialka-detail-01.jpg?ff=1&x=1024&y=1365&q=85&ts=64e8b18e&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p630.jpg",
+    "price": "990 Kč",
+    "sourceAttributes": {},
+    "descriptionSha256": "31d8314dd8edd6d4452c2b3b099eaf0b190459d2533046956aaf44b78a33be02"
+  },
+  {
+    "id": "p732",
+    "name": "Kokedama cik-cak kaktus — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-cik-cak-kaktus/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/732-1_kokedama-cik-cak-kaktus-3.jpg?ff=1&x=1024&y=1365&q=85&ts=652ef9ef&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "low",
+      "trailing"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: polotieň, rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p732.jpg",
+    "price": "990 Kč",
+    "variantId": 2439,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "732CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm cca 20 cm"
+      ]
+    },
+    "descriptionSha256": "7ef2c7b962bfe6c6800dcb6922269a217533050b686e8c062c021cbdd6fd7920"
+  },
+  {
+    "id": "p717",
+    "name": "Kokedama filodendron Brazil — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-filodendron-brazil/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/717_kokedama-filodendron-brazil.jpg?ff=1&x=1024&y=1365&q=85&ts=659561d7&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "sun"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p717.jpg",
+    "price": "990 Kč",
+    "variantId": 2757,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "717CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "8ed299a0465e49963faf8f3a4166144c8825d853f737f6470d9e88fbda6bc94e"
+  },
+  {
+    "id": "p729",
+    "name": "Kokedama filodendron scandens — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-filodendron-scandens/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/729-2_kokedama-filodendron.jpg?ff=1&x=1024&y=1365&q=85&ts=652c6836&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "low",
+      "sun",
+      "trailing"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: polotieň, rozptýlené svetlo, slnečné stanovište.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: polotieň, rozptýlené svetlo, slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p729.jpg",
+    "price": "990 Kč",
+    "variantId": 2487,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "729CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "ee26478f3b8eb8dc404715d84b4bc22e4f2b3cc79ff4f83e69f8ed50d4302435"
+  },
+  {
+    "id": "p663",
+    "name": "Kokedama maranta — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-maranta/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/663_kokedama-maranta-zahrada-na-niti.jpg?ff=1&x=1024&y=1365&q=85&ts=64e9cdca&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:kokedama",
+      "low",
+      "trailing"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: polotieň.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: polotieň. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p663.jpg",
+    "price": "990 Kč",
+    "variantId": 2427,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "663CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "8414e94f88b6aebef53c4efd96979a4ea8380b7e7a1bec9ced5a06cf50ab7bc3"
+  },
+  {
+    "id": "p624",
+    "name": "Kokedama monstera Monkey Mask — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-monstera-monkey-mask/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/624-4_kokedama-monstera-monkey-mask-01.jpg?ff=1&x=1024&y=1365&q=85&ts=663b52ba&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "trailing"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p624.jpg",
+    "price": "990 Kč",
+    "variantId": 2457,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "624CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "2e4701a92c705603738111cb3c436af11043cf211682df637d905adcc2960904"
+  },
+  {
+    "id": "p597",
+    "name": "Kokedama neonka — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-neonka/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/597-3_kokedama-epipremnum-aureum-01.jpg?ff=1&x=1024&y=1365&q=85&ts=663b536f&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "trailing"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p597.jpg",
+    "price": "990 Kč",
+    "variantId": 2463,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "597CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "f09509f410c265b79edf209711110c0352f9fee8a4e5649a7faa66aded9d2534"
+  },
+  {
+    "id": "p639",
+    "name": "Kokedama tlustice — cca 13 cm - mladá rostlina",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-tlustice/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/639-1_kokedama-tlustice.jpg?ff=1&x=1024&y=1365&q=85&ts=64e8d371&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:kokedama",
+      "sun"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm - mladá rostlina.",
+      "Predajca uvádza: slnečné stanovište.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm - mladá rostlina. Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p639.jpg",
+    "price": "990 Kč",
+    "variantId": 2127,
+    "variantLabel": "cca 13 cm - mladá rostlina",
+    "variantCode": "639CCA3",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 15 cm cca 20 cm cca 13 cm - mladá rostlina"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "736d766f1c3eefeca5f025f5c5e14ae2bd3c1970ac931b1db45b3c6673b1469e"
+  },
+  {
+    "id": "p862",
+    "name": "Kokedama tlustice Hobbit — cca 15 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-tlustice-hobbit/",
+    "kind": "plants",
+    "priceValue": 1490.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/862_kokedama-crassula-hobbit-01.jpg?ff=1&x=1024&y=1365&q=85&ts=667ea5f1&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:kokedama",
+      "sun"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 15 cm.",
+      "Predajca uvádza: slnečné stanovište.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: cca 15 cm. Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p862.jpg",
+    "price": "1490 Kč",
+    "variantId": 3106,
+    "variantLabel": "cca 15 cm",
+    "variantCode": "862CCA3",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm cca 20 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "0e45049810a96d0408fe1780ae57c5a724bf7b4bbbf085c601a65eb2fdc504d0"
+  },
+  {
+    "id": "p588",
+    "name": "Kokedama zelenec — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-zelenec/",
+    "kind": "plants",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/588-4_kokedama-zelenec-chlorophytum.jpg?ff=1&x=1024&y=1365&q=85&ts=652c4ef4&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p588.jpg",
+    "price": "990 Kč",
+    "variantId": 2481,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "588CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "3204fcabdbdb848156bb5e0fd68e14593a5f1326d1ba1c517a2ddbbd7ca8f32f"
+  },
+  {
+    "id": "p591",
+    "name": "Kokedama Aglaonema — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-aglaonema/",
+    "kind": "plants",
+    "priceValue": 1590.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/591-2_kokedama-aglaonema-zahrada-na-niti.jpg?ff=1&x=1024&y=1365&q=85&ts=64f6d8bf&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p591.jpg",
+    "price": "1590 Kč",
+    "variantId": 4338,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "591/CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm cca 20 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "541abc904d92510d36a5ddd8e3db3f73f40175201de470f52b67500014450380"
+  },
+  {
+    "id": "p609",
+    "name": "Kokedama Ficus Ginseng — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-ficus-ginseng/",
+    "kind": "plants",
+    "priceValue": 1590.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/609_kokedama-ficus-ginseng.jpg?ff=1&x=1024&y=1365&q=85&ts=64e7db93&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "sun"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p609.jpg",
+    "price": "1590 Kč",
+    "variantId": 2061,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "609CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm cca 20 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "ee978f86098276128819d19265edd7f0e733fce80cd5832b91bbb9df7f838fb4"
+  },
+  {
+    "id": "p1035",
+    "name": "Kokedama Hoya Kerii",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-hoya-kerii/",
+    "kind": "plants",
+    "priceValue": 1590.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/1035-1_kokedama-hoya-kerrii--1.jpg?ff=1&x=1024&y=1365&q=85&ts=6937cfe6&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "sun",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Predajca uvádza nenáročnú starostlivosť. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p1035.jpg",
+    "price": "1590 Kč",
+    "sourceAttributes": {
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "8ffbbe321a7da227ff41a8f5cd75c51a67c4f01fb53f1716dc849e3b96ff0182"
+  },
+  {
+    "id": "p828",
+    "name": "Kokedama Pink Aglaonema",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-pink-aglaonema/",
+    "kind": "plants",
+    "priceValue": 1590.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/828-5_kokedama-aglaonema-pink-02.jpg?ff=1&x=1024&y=1365&q=85&ts=66bce754&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p828.jpg",
+    "price": "1590 Kč",
+    "sourceAttributes": {
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "1643e469e68d88b97227407620aeed613839abc3769b049e3dc972c24e78c9b3"
+  },
+  {
+    "id": "p594",
+    "name": "Kokedama africká myrta — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-africka-myrta/",
+    "kind": "plants",
+    "priceValue": 1590.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/594_kokedama-myrta-zahrada-na-niti.jpg?ff=1&x=1024&y=1365&q=85&ts=64e61a68&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:kokedama"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p594.jpg",
+    "price": "1590 Kč",
+    "variantId": 2034,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "594CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "edba48edef619d485f230b3d5176c5e37abe038bb846c605d752ace4b920a2ae"
+  },
+  {
+    "id": "p618",
+    "name": "Kokedama filodendron Birkin",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-filodendron-birkin/",
+    "kind": "plants",
+    "priceValue": 1590.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/618-2_kokedama-filodendron-birkin-2.jpg?ff=1&x=1024&y=1365&q=85&ts=64e88fc8&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p618.jpg",
+    "price": "1590 Kč",
+    "sourceAttributes": {
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "95dd2ae72c48206692cbba703d0400ecd04cfb4778ec18c728d58fcf9becb965"
+  },
+  {
+    "id": "p768",
+    "name": "Kokedama listový kaktus — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-listovy-kaktus/",
+    "kind": "plants",
+    "priceValue": 1590.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/768-2_kokedama-epiphyllum-chrisocardium-05.jpg?ff=1&x=1024&y=1365&q=85&ts=6595570d&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "low"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: polotieň, rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p768.jpg",
+    "price": "1590 Kč",
+    "variantId": 2751,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "768CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm cca 20 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "9625b0301f3c726dd677dba0fe822dc1ecc1ac580e1736443be0ac69ce8dad8b"
+  },
+  {
+    "id": "p603",
+    "name": "Kokedama monstera Minima — cca 13 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-monstera-minima/",
+    "kind": "plants",
+    "priceValue": 1590.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/603-3_kokedama-monstera-minima-02.jpg?ff=1&x=1024&y=1365&q=85&ts=663b51ef&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "trailing"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 13 cm.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Variant podľa e-shopu: cca 13 cm. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p603.jpg",
+    "price": "1590 Kč",
+    "variantId": 2451,
+    "variantLabel": "cca 13 cm",
+    "variantCode": "603CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 13 cm cca 15 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "9c5ddd34e4f1a2757148cad1f9324c33b945fb7250b0d3c39b0a9dbb3c78e58d"
+  },
+  {
+    "id": "p660",
+    "name": "Kokedama sanseviera",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-sanseviera/",
+    "kind": "plants",
+    "priceValue": 1590.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/660_kokedama-sanseviera-zahrada-na-niti.jpg?ff=1&x=1024&y=1365&q=85&ts=64e9c2b4&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p660.jpg",
+    "price": "1590 Kč",
+    "sourceAttributes": {
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "8d7a92a34e19613c10e8176713a38efeb4ad47ad24440a32d794cdbda7a4876b"
+  },
+  {
+    "id": "p645",
+    "name": "Kokedama Aloe",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-aloe/",
+    "kind": "plants",
+    "priceValue": 1990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/645-1_kokedama-aloe-detail.jpg?ff=1&x=1024&y=1365&q=85&ts=64e90db1&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:kokedama",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: slnečné stanovište."
+    ],
+    "reason": "Predajca uvádza: slnečné stanovište.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p645.jpg",
+    "price": "1990 Kč",
+    "sourceAttributes": {},
+    "descriptionSha256": "f3313a9b1518d16378c3354617b667ebbe6967a9fe3f13445af53852481babc6"
+  },
+  {
+    "id": "p735",
+    "name": "Kokedama Calathea musaica",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-calathea-musaica/",
+    "kind": "plants",
+    "priceValue": 1990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/735-3_kokedama-calathea-musaica.jpg?ff=1&x=1024&y=1365&q=85&ts=652efacb&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:kokedama"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p735.jpg",
+    "price": "1990 Kč",
+    "sourceAttributes": {},
+    "descriptionSha256": "ee53397335334396c7ac39e82afdabae4dc6bf4c3fc7959ddac5bafd4bf73a3b"
+  },
+  {
+    "id": "p633",
+    "name": "Kokedama olivovník — cca 15 cm",
+    "url": "https://www.zahradananiti.cz/kokedamy/kokedama-olivovnik/",
+    "kind": "plants",
+    "priceValue": 2590.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/633_kokedama-olivovnik-zahrada-na-niti.jpg?ff=1&x=1024&y=1365&q=85&ts=64e8c0b4&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/kokedamy/",
+    "sourceCategory": "kokedamy",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:kokedama",
+      "sun"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: cca 15 cm.",
+      "Predajca uvádza: rozptýlené svetlo, slnečné stanovište."
+    ],
+    "reason": "Variant podľa e-shopu: cca 15 cm. Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p633.jpg",
+    "price": "2590 Kč",
+    "variantId": 2109,
+    "variantLabel": "cca 15 cm",
+    "variantCode": "633CCA",
+    "sourceAttributes": {
+      "Průměr balu": [
+        "Zvolte variantu cca 15 cm cca 20 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "a91dd5ec270095bfeac6842dbbb61f07c5524878d7d5ea171e2b387eac65b9e3"
+  },
+  {
+    "id": "p167",
+    "name": "Tillandsia capitata",
+    "url": "https://www.zahradananiti.cz/tillandsie/tillandsia-capitata/",
+    "kind": "airplants",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/167_tillandsia-capitata-04.jpg?ff=1&x=1024&y=1365&q=85&ts=64c7d98f&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/tillandsie/",
+    "sourceCategory": "tillandsie",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p167.jpg",
+    "price": "150 Kč",
+    "sourceAttributes": {
+      "Přidat rozprašovač": [
+        "Vyberte příplatek plastový s aforismy +95 Kč skleněný baňatý +290 Kč"
+      ]
+    },
+    "descriptionSha256": "86e3238153c98330a17eece1d0e045110a9210c490c43e5708b17cb8016e4f73"
+  },
+  {
+    "id": "p164",
+    "name": "Tillandsia caput medusa — Malý",
+    "url": "https://www.zahradananiti.cz/tillandsie/tillandsia-caput-medusa/",
+    "kind": "airplants",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/164_tillandsia-caput-medusa-02.jpg?ff=1&x=1024&y=1365&q=85&ts=64c7d726&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/tillandsie/",
+    "sourceCategory": "tillandsie",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Malý.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: Malý. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p164.jpg",
+    "price": "150 Kč",
+    "variantId": 5161,
+    "variantLabel": "Malý",
+    "variantCode": "164/MAL",
+    "sourceAttributes": {
+      "Velikost": [
+        "Zvolte variantu Malý Velký"
+      ],
+      "Přidat rozprašovač": [
+        "Vyberte příplatek plastový s aforismy +95 Kč skleněný baňatý +290 Kč"
+      ]
+    },
+    "descriptionSha256": "ec77016cf07fb43f002bb8f15349e0bd695e5449ab101a11012e8c92fb954425"
+  },
+  {
+    "id": "p197",
+    "name": "Tillandsia fuchsii",
+    "url": "https://www.zahradananiti.cz/tillandsie/tillandsia-fuchsii/",
+    "kind": "airplants",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/197-1_tillandsia-fuchsii.jpg?ff=1&x=1024&y=1365&q=85&ts=64c810f1&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/tillandsie/",
+    "sourceCategory": "tillandsie",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:tillandsia",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: slnečné stanovište.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p197.jpg",
+    "price": "150 Kč",
+    "sourceAttributes": {
+      "Přidat rozprašovač": [
+        "Vyberte příplatek plastový s aforismy +95 Kč skleněný baňatý +290 Kč"
+      ]
+    },
+    "descriptionSha256": "10dc4fcf6dcd19ca5c06dbee0c997e83c746f00262d8e147ee04f74ed5fc8acb"
+  },
+  {
+    "id": "p158",
+    "name": "Tillandsia ionantha",
+    "url": "https://www.zahradananiti.cz/tillandsie/tillandsia-ionantha/",
+    "kind": "airplants",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/158_tillandsia-ionantha-01.jpg?ff=1&x=1024&y=1365&q=85&ts=64c7ceb5&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/tillandsie/",
+    "sourceCategory": "tillandsie",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:tillandsia",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: slnečné stanovište.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p158.jpg",
+    "price": "150 Kč",
+    "sourceAttributes": {
+      "Přidat rozprašovač": [
+        "Vyberte příplatek plastový s aforismy +95 Kč skleněný baňatý +290 Kč"
+      ]
+    },
+    "descriptionSha256": "165349777808239402e875f4124804197a1598612fd069c88717e432e810983b"
+  },
+  {
+    "id": "p200",
+    "name": "Oblázkový stojánek s tillandsií",
+    "url": "https://www.zahradananiti.cz/tillandsie/tillandsie-na-dratku/",
+    "kind": "airplants",
+    "priceValue": 220.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/200-1_tillandsie-na-dratku-oblazek.jpg?ff=1&x=1024&y=1365&q=85&ts=6644f9c9&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/tillandsie/",
+    "sourceCategory": "tillandsie",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:oblázkový"
+    ],
+    "facts": [
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p200.jpg",
+    "price": "220 Kč",
+    "sourceAttributes": {
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ],
+      "Přidat rozprašovač": [
+        "Vyberte příplatek plastový s aforismy +75 Kč skleněný baňatý +390 Kč"
+      ]
+    },
+    "descriptionSha256": "8846dadd1ddc6257fbc4f83b6388b8daf559a0046e87fba0602c54733a68d600"
+  },
+  {
+    "id": "p1151",
+    "name": "Tillandsia Tectorum — Malá",
+    "url": "https://www.zahradananiti.cz/tillandsie/tillandsia-tectorum/",
+    "kind": "airplants",
+    "priceValue": 220.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/1151_tectrum-1.jpg?ff=1&x=1024&y=1365&q=85&ts=6a202838&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/tillandsie/",
+    "sourceCategory": "tillandsie",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Malá.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: Malá. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p1151.jpg",
+    "price": "220 Kč",
+    "variantId": 5362,
+    "variantLabel": "Malá",
+    "variantCode": "1151/MAL",
+    "sourceAttributes": {
+      "Velikost": [
+        "Zvolte variantu Malá Velká"
+      ]
+    },
+    "descriptionSha256": "0d51714018797df0fd5ef0dc1c8175e7ac9721d5d7355deee0e3fe9d6a89640a"
+  },
+  {
+    "id": "p176",
+    "name": "Tillandsia juncefolia",
+    "url": "https://www.zahradananiti.cz/tillandsie/tillandsia-juncefolia/",
+    "kind": "airplants",
+    "priceValue": 250.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/176_tillandsia-juncefolia.jpg?ff=1&x=1024&y=1365&q=85&ts=64c7dd93&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/tillandsie/",
+    "sourceCategory": "tillandsie",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p176.jpg",
+    "price": "250 Kč",
+    "sourceAttributes": {
+      "Přidat rozprašovač": [
+        "Vyberte příplatek plastový s aforismy +95 Kč skleněný baňatý +290 Kč"
+      ]
+    },
+    "descriptionSha256": "6db0bff566ff72baeecc49c2b053b316633bec66a3e01353bfab51788fff750d"
+  },
+  {
+    "id": "p185",
+    "name": "Tillandsia usneoides",
+    "url": "https://www.zahradananiti.cz/tillandsie/tillandsia-usneoides/",
+    "kind": "airplants",
+    "priceValue": 450.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/185-1_tillandsia-usneoides.jpg?ff=1&x=1024&y=1365&q=85&ts=663bf32c&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/tillandsie/",
+    "sourceCategory": "tillandsie",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:tillandsia",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza nenáročnú starostlivosť. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p185.jpg",
+    "price": "450 Kč",
+    "sourceAttributes": {
+      "Přidat rozprašovač": [
+        "Vyberte příplatek plastový s aforismy +95 Kč skleněný baňatý +290 Kč"
+      ]
+    },
+    "descriptionSha256": "f742e32ab93c45d6c66fc0348db4dbc907cb85404682fd28af2bdec1b332e21c"
+  },
+  {
+    "id": "p179",
+    "name": "Tillandsia streptophylla — Velká",
+    "url": "https://www.zahradananiti.cz/tillandsie/tillandsia-streptophylla/",
+    "kind": "airplants",
+    "priceValue": 550.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/179-2_tillandsia-streptophylla.jpg?ff=1&x=1024&y=1365&q=85&ts=64c7e21f&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/tillandsie/",
+    "sourceCategory": "tillandsie",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Velká.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: Velká. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p179.jpg",
+    "price": "550 Kč",
+    "variantId": 5204,
+    "variantLabel": "Velká",
+    "variantCode": "179/VEL",
+    "sourceAttributes": {
+      "Velikost": [
+        "Velká"
+      ],
+      "Přidat rozprašovač": [
+        "Vyberte příplatek plastový s aforismy +95 Kč skleněný baňatý +290 Kč"
+      ]
+    },
+    "descriptionSha256": "ea7e50055e36e95d246bd2ef9898c005ce8c1f95b6cf19b9d6876ce2459731f5"
+  },
+  {
+    "id": "p868",
+    "name": "Porcelánová medúzka s tillandsií",
+    "url": "https://www.zahradananiti.cz/tillandsie/porcelanova-meduzka-s-tillandsii/",
+    "kind": "airplants",
+    "priceValue": 680.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/868-4_porcelanova-meduzka-s-tillandsii-04.jpg?ff=1&x=1024&y=1365&q=85&ts=66a0b22e&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/tillandsie/",
+    "sourceCategory": "tillandsie",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:porcelánová",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: slnečné stanovište.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: slnečné stanovište. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p868.jpg",
+    "price": "680 Kč",
+    "sourceAttributes": {
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ],
+      "Přidat rozprašovač": [
+        "Vyberte příplatek plastový s aforismy +75 Kč skleněný baňatý +390 Kč"
+      ]
+    },
+    "descriptionSha256": "5dbf0436caf5122c8a3e76bc8bf5f124af7db494e4b6c5db607a65b065dc5fe9"
+  },
+  {
+    "id": "p128",
+    "name": "Sputnik na Marsu — Ø 8 cm",
+    "url": "https://www.zahradananiti.cz/teraria-sputnik/sputnik-na-marsu-m/",
+    "kind": "terrariums",
+    "priceValue": 590.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/128_sputnik-na-marsu.jpg?ff=1&x=1024&y=1365&q=85&ts=64c07fcc&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/floraria-rostlinna-teraria/",
+    "sourceCategory": "floraria-rostlinna-teraria",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "airplants",
+      "bright",
+      "easy",
+      "genus:sputnik"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Ø 8 cm.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Typ kompozície podľa predajcu: s tillandsiou."
+    ],
+    "reason": "Variant podľa e-shopu: Ø 8 cm. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p128.jpg",
+    "price": "590 Kč",
+    "variantId": 329,
+    "variantLabel": "Ø 8 cm",
+    "variantCode": "128O8",
+    "sourceAttributes": {
+      "Terárium": [
+        "Zvolte variantu Ø 8 cm Ø 12 cm Ø 10 cm"
+      ],
+      "Dárkové balení": [
+        "Vyberte příplatek potřebuji +55 Kč"
+      ]
+    },
+    "descriptionSha256": "496e15f792076901370cad840bbb38d64c2f3dc1e37241fa87ee548b1fe6dce2"
+  },
+  {
+    "id": "p68",
+    "name": "Florárium Vzkaz v lahvi",
+    "url": "https://www.zahradananiti.cz/vlhkomilna-teraria/terarium-vzkaz-v-lahvi/",
+    "kind": "terrariums",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/68-2_florarium-vzkaz-v-lahvi--1.jpg?ff=1&x=1024&y=1365&q=85&ts=64c07fcc&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/floraria-rostlinna-teraria/",
+    "sourceCategory": "floraria-rostlinna-teraria",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "closed",
+      "genus:florárium"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Typ kompozície podľa predajcu: uzavreté."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Typ kompozície podľa predajcu: uzavreté.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p68.jpg",
+    "price": "990 Kč",
+    "sourceAttributes": {},
+    "descriptionSha256": "21d165c29a3f6d1eaf40f73f01a0e46a5c3a5275ec13587cc07b892e6a1f34bc"
+  },
+  {
+    "id": "p915",
+    "name": "Terárium Sputnik s miniorichidejí — Bílá",
+    "url": "https://www.zahradananiti.cz/teraria-sputnik/terarium-sputnik-s-miniorichideji/",
+    "kind": "terrariums",
+    "priceValue": 990.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/915_terarium-sputnik-s-miniorchideji.jpg?ff=1&x=1024&y=1365&q=85&ts=67a5c5ee&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/floraria-rostlinna-teraria/",
+    "sourceCategory": "floraria-rostlinna-teraria",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:terárium"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Bílá.",
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Variant podľa e-shopu: Bílá. Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p915.jpg",
+    "price": "990 Kč",
+    "variantId": 3963,
+    "variantLabel": "Bílá",
+    "variantCode": "915BIL",
+    "sourceAttributes": {
+      "Barva": [
+        "Zvolte variantu Bílá Růžová Žlutá"
+      ]
+    },
+    "descriptionSha256": "2f2d365efbff47f35ada9cedd68f7e175c8db1a013c65e43a85728756c8e477d"
+  },
+  {
+    "id": "p143",
+    "name": "Erlenkové florárium",
+    "url": "https://www.zahradananiti.cz/vlhkomilna-teraria/erlenkove-terarium/",
+    "kind": "terrariums",
+    "priceValue": 1590.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/143-4_erlenkove-florarium-1.jpg?ff=1&x=1024&y=1365&q=85&ts=653ac1af&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/floraria-rostlinna-teraria/",
+    "sourceCategory": "floraria-rostlinna-teraria",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:erlenkové"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p143.jpg",
+    "price": "1590 Kč",
+    "sourceAttributes": {},
+    "descriptionSha256": "d0c09824c5ec09accd286088d99ef5e64329fa97c0b06dd87757b5c58fa0e3dd"
+  },
+  {
+    "id": "p492",
+    "name": "Náš bezrašelinový substrát na pokojovky — Na pokojovky - 1 litr",
+    "url": "https://www.zahradananiti.cz/substraty/nas-substrat/",
+    "kind": "substrates",
+    "priceValue": 45.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/492-3_nas-bezraselinovy-substrat-na-pokojovky.jpg?ff=1&x=1024&y=1365&q=85&ts=699d7700&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/substraty/",
+    "sourceCategory": "substraty",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:náš",
+      "indoor-mix"
+    ],
+    "facts": [
+      "Variant podľa e-shopu: Na pokojovky - 1 litr.",
+      "Určenie z názvu a popisu e-shopu. Náš bezrašelinový substrát na pokojovky."
+    ],
+    "reason": "Variant podľa e-shopu: Na pokojovky - 1 litr. Určenie z názvu a popisu e-shopu. Náš bezrašelinový substrát na pokojovky.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p492.jpg",
+    "price": "45 Kč",
+    "variantId": 1746,
+    "variantLabel": "Na pokojovky - 1 litr",
+    "variantCode": "492NA",
+    "sourceAttributes": {
+      "Náš substrát": [
+        "Zvolte variantu Na pokojovky - 1 litr Na pokojovky - 5 litrů Na sukulenty - 1 litr"
+      ]
+    },
+    "descriptionSha256": "7f045b68511da05bae330837caf3687f0fc092c6402e7ba145b58d57afb6adc6"
+  },
+  {
+    "id": "p507",
+    "name": "Říční písek",
+    "url": "https://www.zahradananiti.cz/substraty/ricni-pisek/",
+    "kind": "substrates",
+    "priceValue": 45.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/507_ricni-pisek-sacek-3.jpg?ff=1&x=1024&y=1365&q=85&ts=64d9c549&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/substraty/",
+    "sourceCategory": "substraty",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:říční"
+    ],
+    "facts": [
+      "Určenie z názvu a popisu e-shopu. Říční písek."
+    ],
+    "reason": "Určenie z názvu a popisu e-shopu. Říční písek.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p507.jpg",
+    "price": "45 Kč",
+    "sourceAttributes": {},
+    "descriptionSha256": "fefcef8067641501a6bfbece0477b6925d2732a99569eb105c3fb38e9a1edf90"
+  },
+  {
+    "id": "p495",
+    "name": "Rašeliník - Sphagnum",
+    "url": "https://www.zahradananiti.cz/substraty/raselinik/",
+    "kind": "substrates",
+    "priceValue": 125.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/shop/big/495_mech-raselinik-sphagnum.jpg?ff=1&x=1024&y=1365&q=85&ts=64d7b9bb&sg=b18c963d",
+    "sourceEndpoint": "https://www.zahradananiti.cz/substraty/",
+    "sourceCategory": "substraty",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:rašeliník"
+    ],
+    "facts": [
+      "Určenie z názvu a popisu e-shopu. Rašeliník - Sphagnum."
+    ],
+    "reason": "Určenie z názvu a popisu e-shopu. Rašeliník - Sphagnum.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/zahradananiti-p495.jpg",
+    "price": "125 Kč",
+    "sourceAttributes": {},
+    "descriptionSha256": "ef663e78255aa17bd4f9e3b77a45e52ed25c934f2b32c730e446ebe457546c54"
+  }
+]
