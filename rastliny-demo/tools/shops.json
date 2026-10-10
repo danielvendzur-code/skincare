@@ -67,5 +67,72 @@
       145
     ],
     "markWhite": true
+  },
+  "kytkasem": {
+    "name": "KytkaSem",
+    "website": "https://www.kytkasem.cz/",
+    "currency": "CZK",
+    "platform": "shoptet",
+    "kinds": [
+      "plants",
+      "succulents",
+      "pots",
+      "substrates"
+    ],
+    "theme": {
+      "brand": "#245c39",
+      "accent": "#347447",
+      "soft": "#f0f4eb",
+      "paper": "#fffefa",
+      "ink": "#243024",
+      "line": "#d9e3d4"
+    },
+    "categoryNotes": {
+      "plants": "Izbové druhy rôznych veľkostí",
+      "succulents": "Kaktusy a sukulentné rastliny",
+      "pots": "Samostatné črepníky a obaly",
+      "substrates": "Zmesi a pestovateľské médiá"
+    },
+    "categories": {
+      "plants": [
+        "podle-rodu"
+      ],
+      "succulents": [
+        "sukulenty-a-kaktusy"
+      ],
+      "pots": [
+        "kvetinace-a-doplnky"
+      ],
+      "substrates": [
+        "pripravky-pro-pokojovky"
+      ]
+    },
+    "limits": {
+      "plants": 36,
+      "succulents": 12,
+      "pots": 10,
+      "substrates": 10
+    },
+    "include": {
+      "pots": "kv[eě]tin[aá][čc]|obal"
+    },
+    "exclude": "poukaz|workshop|kurz|řízek|rezerv|objednávk|předobjedn",
+    "logoSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/logos/logo.png",
+    "markCrop": [
+      0,
+      0,
+      89,
+      96
+    ],
+    "markWhite": true,
+    "logoNote": "Oficiálne rasterové logo zväčšené s Lanczos vyhladením. Do kruhu je vyrezaný pôvodný list monstéry a prevedený na bielu verziu.",
+    "themeNote": "Zelená pôvodného listu v logu; tmavšie zelené brand a accent pre čitateľný biely text.",
+    "terms": "https://www.kytkasem.cz/obchodni-podminky/",
+    "fit": "Malý obchod jednej podnikateľky, pestrá ponuka izbových rastlín, sukulentov a doplnkov; poradca pomôže so svetlom, starostlivosťou a cenou.",
+    "excludeByKind": {
+      "plants": "tajem|náhodn|mix|uměl",
+      "succulents": "mix|uměl",
+      "pots": "lamp|pleten|použit|závěs|úplet"
+    }
   }
 }

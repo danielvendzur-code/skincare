@@ -1,0 +1,1530 @@
+{
+  "name": "KytkaSem",
+  "website": "https://www.kytkasem.cz/",
+  "currency": "CZK",
+  "kinds": [
+    "plants",
+    "succulents",
+    "pots",
+    "substrates"
+  ],
+  "theme": {
+    "brand": "#245c39",
+    "accent": "#347447",
+    "soft": "#f0f4eb",
+    "paper": "#fffefa",
+    "ink": "#243024",
+    "line": "#d9e3d4"
+  },
+  "categoryNotes": {
+    "plants": "Izbové druhy rôznych veľkostí",
+    "succulents": "Kaktusy a sukulentné rastliny",
+    "pots": "Samostatné črepníky a obaly",
+    "substrates": "Zmesi a pestovateľské médiá"
+  },
+  "slug": "kytkasem",
+  "hero": "/assets/plants/kytkasem.jpg",
+  "mobileHero": "/assets/plants/kytkasem-mobile.jpg",
+  "logo": "/assets/plants/kytkasem-logo.png",
+  "mark": "/assets/plants/kytkasem-mark.png",
+  "products": [
+    {
+      "id": "p2256",
+      "name": "Sansevieria \"Moonshine\"",
+      "kind": "plants",
+      "price": "209 Kč",
+      "priceValue": 209.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sansevieria-moonshine/",
+      "photo": "/assets/plants/kytkasem-p2256.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 9 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 9 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 9.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/2256-1_4fbada0f-6f67-4e21-a84c-4169433f2694.jpg?ff=1&x=1024&y=768&q=85&ts=6264567b&sg=161563f2"
+    },
+    {
+      "id": "p6345",
+      "name": "Portulacaria afra",
+      "kind": "plants",
+      "price": "239 Kč",
+      "priceValue": 239.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/portulacaria-afra/",
+      "photo": "/assets/plants/kytkasem-p6345.jpg",
+      "tags": [
+        "easy",
+        "genus:portulacaria"
+      ],
+      "facts": [
+        "Črepník podľa e-shopu: 8 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Črepník podľa e-shopu: 8 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 8.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/6345-1_81da0909-6457-4e8a-b8f6-e28dfad7d404.jpg?ff=1&x=1024&y=768&q=85&ts=6259ccd1&sg=161563f2"
+    },
+    {
+      "id": "p13026",
+      "name": "Květináč \"Lovebirds\" 13  cm",
+      "kind": "pots",
+      "price": "189 Kč",
+      "priceValue": 189.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/kvetinac--lovebirds--13--cm/",
+      "photo": "/assets/plants/kytkasem-p13026.jpg",
+      "tags": [
+        "genus:květináč",
+        "medium-pot",
+        "terracotta"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 13 cm.",
+        "Materiál podľa predajcu: terakota.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 13 cm. Materiál podľa predajcu: terakota. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/13026-1_3aa86d3d-6c3f-4037-87da-8af12b0d4fb8.jpg?ff=1&x=1024&y=768&q=85&ts=65e9f16f&sg=161563f2"
+    },
+    {
+      "id": "p6339",
+      "name": "Anacampseros Rufescens \"Sunrise\" baby",
+      "kind": "succulents",
+      "price": "209 Kč",
+      "priceValue": 209.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/anacampseros-rufescens--sunrise--baby/",
+      "photo": "/assets/plants/kytkasem-p6339.jpg",
+      "tags": [
+        "easy",
+        "genus:anacampseros"
+      ],
+      "facts": [
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/6339_anacampseros-rufescens--sunrise--baby.jpg?ff=1&x=1024&y=768&q=85&ts=61debb82&sg=161563f2"
+    },
+    {
+      "id": "p4974",
+      "name": "Sansevieria enrenbergii 'Samurai Dwarf'",
+      "kind": "plants",
+      "price": "239 Kč",
+      "priceValue": 239.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sansevieria-enrenbergii--samurai-dwarf/",
+      "photo": "/assets/plants/kytkasem-p4974.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 6 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/4974-1_sansevieria-enrenbergii--samurai-dwarf.jpg?ff=1&x=1024&y=768&q=85&ts=641b29e9&sg=161563f2"
+    },
+    {
+      "id": "p16278",
+      "name": "Philodendron \"Calkins\" baby",
+      "kind": "plants",
+      "price": "249 Kč",
+      "priceValue": 249.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/philodendron--calkins--baby/",
+      "photo": "/assets/plants/kytkasem-p16278.jpg",
+      "tags": [
+        "bright",
+        "genus:philodendron"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 12 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/16278_514cf827-f943-45cd-8ce6-87c87869e3d2.png?ff=1&x=1024&y=768&q=85&ts=6ac89fed&sg=161563f2"
+    },
+    {
+      "id": "p12966",
+      "name": "Anthurium veitchii baby",
+      "kind": "plants",
+      "price": "259 Kč",
+      "priceValue": 259.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/anthurium-veitchii/",
+      "photo": "/assets/plants/kytkasem-p12966.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:anthurium"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 6 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/12966_snimek-obrazovky-2024-06-13-191907.png?ff=1&x=1024&y=768&q=85&ts=666b2a1b&sg=161563f2"
+    },
+    {
+      "id": "p14200",
+      "name": "Anthurium villenaorum baby",
+      "kind": "plants",
+      "price": "259 Kč",
+      "priceValue": 259.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/anthurium-villenaorum-baby/",
+      "photo": "/assets/plants/kytkasem-p14200.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:anthurium"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 6 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/14200-2_anthurium-villenaorum-baby.jpg?ff=1&x=1024&y=768&q=85&ts=66d04a72&sg=161563f2"
+    },
+    {
+      "id": "p11871",
+      "name": "Sansevieria “Abbey Crown”",
+      "kind": "plants",
+      "price": "259 Kč",
+      "priceValue": 259.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sansevieria--abbey-crown/",
+      "photo": "/assets/plants/kytkasem-p11871.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 6 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/11871-2_sansevieria--abbey-crown.jpg?ff=1&x=1024&y=768&q=85&ts=6526abbe&sg=161563f2"
+    },
+    {
+      "id": "p11877",
+      "name": "Sansevieria “Rocky Crown”",
+      "kind": "plants",
+      "price": "259 Kč",
+      "priceValue": 259.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sansevieria--rocky-crown/",
+      "photo": "/assets/plants/kytkasem-p11877.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 6 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/11877-1_sansevieria--rocky-crown.jpg?ff=1&x=1024&y=768&q=85&ts=6526ac7d&sg=161563f2"
+    },
+    {
+      "id": "p1107",
+      "name": "Tradescantia Spathacea Rhoeo baby",
+      "kind": "plants",
+      "price": "259 Kč",
+      "priceValue": 259.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/tradescantia-spathacea-rhoeo-2/",
+      "photo": "/assets/plants/kytkasem-p1107.jpg",
+      "tags": [
+        "genus:tradescantia"
+      ],
+      "facts": [
+        "Črepník podľa e-shopu: 6 cm."
+      ],
+      "reason": "Črepník podľa e-shopu: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/1107-2_tradescantia-spathacea-sitara-purple-flame.jpg?ff=1&x=1024&y=768&q=85&ts=6543e058&sg=161563f2"
+    },
+    {
+      "id": "p12963",
+      "name": "Anthurium clarinervium baby",
+      "kind": "plants",
+      "price": "309 Kč",
+      "priceValue": 309.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/anthurium-clarinervium-baby-3/",
+      "photo": "/assets/plants/kytkasem-p12963.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:anthurium"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 6 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/12963_snimek-obrazovky-2023-02-18-160858.jpg?ff=1&x=1024&y=768&q=85&ts=65e36efd&sg=161563f2"
+    },
+    {
+      "id": "p7128",
+      "name": "Anthurium crystallinum",
+      "kind": "plants",
+      "price": "349 Kč",
+      "priceValue": 349.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/anthurium-crystallinum/",
+      "photo": "/assets/plants/kytkasem-p7128.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:anthurium"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 12 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/7128_c3593246-7e1c-4b28-bb7b-895e4ef58efc.jpg?ff=1&x=1024&y=768&q=85&ts=62fd2cc8&sg=161563f2"
+    },
+    {
+      "id": "p15877",
+      "name": "Anthurium peltigerum",
+      "kind": "plants",
+      "price": "399 Kč",
+      "priceValue": 399.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/anthurium-peltigerum/",
+      "photo": "/assets/plants/kytkasem-p15877.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:anthurium"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 12 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/15877_crtp3ibc3c6jjih4hj3pnisjjjvt3ul20pdbqtjn-big.jpg?ff=1&x=1024&y=768&q=85&ts=69aeecbc&sg=161563f2"
+    },
+    {
+      "id": "p11991",
+      "name": "Sansevieria trifasciata 'Laurentii'",
+      "kind": "plants",
+      "price": "419 Kč",
+      "priceValue": 419.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sansevieria-trifasciata--laurentii/",
+      "photo": "/assets/plants/kytkasem-p11991.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 12 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/11991-2_madalyn-cox-wfe0xfolauy-unsplash.jpg?ff=1&x=1024&y=768&q=85&ts=653e9d82&sg=161563f2"
+    },
+    {
+      "id": "p13306",
+      "name": "Scindapsus \"Silver Hero\"",
+      "kind": "plants",
+      "price": "419 Kč",
+      "priceValue": 419.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/scindapsus--silver-hero/",
+      "photo": "/assets/plants/kytkasem-p13306.jpg",
+      "tags": [
+        "bright",
+        "genus:scindapsus"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 10 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 10 cm.",
+      "diameter": null,
+      "potDiameter": 10.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/13306-2_snimek-obrazovky-2024-03-23-142136.png?ff=1&x=1024&y=768&q=85&ts=65fed7b8&sg=161563f2"
+    },
+    {
+      "id": "p14203",
+      "name": "Anthurium balaoanum",
+      "kind": "plants",
+      "price": "519 Kč",
+      "priceValue": 519.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/anthurium-balaoanum/",
+      "photo": "/assets/plants/kytkasem-p14203.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:anthurium"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 12 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/14203-2_whatsapp-image-2024-08-29-at-14-23-48--1.jpg?ff=1&x=1024&y=768&q=85&ts=66d069ec&sg=161563f2"
+    },
+    {
+      "id": "p2424",
+      "name": "Calathea \"Triostar\"",
+      "kind": "plants",
+      "price": "519 Kč",
+      "priceValue": 519.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/calathea--triostar--velka/",
+      "photo": "/assets/plants/kytkasem-p2424.jpg",
+      "tags": [
+        "bright",
+        "genus:calathea",
+        "sun"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo, slnečné stanovište.",
+        "Črepník podľa e-shopu: 12 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo, slnečné stanovište. Črepník podľa e-shopu: 12 cm.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/2424-2_calathea--triostar.jpg?ff=1&x=1024&y=768&q=85&ts=63ed3643&sg=161563f2"
+    },
+    {
+      "id": "p16260",
+      "name": "Aglaonema \"White Laksap\"",
+      "kind": "plants",
+      "price": "619 Kč",
+      "priceValue": 619.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/aglaonema--white-laksap-bush/",
+      "photo": "/assets/plants/kytkasem-p16260.jpg",
+      "tags": [
+        "easy",
+        "genus:aglaonema"
+      ],
+      "facts": [
+        "Črepník podľa e-shopu: 12 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/16260-1_95ed0469-5f47-4eb2-ab87-8594bc1fd850.png?ff=1&x=1024&y=768&q=85&ts=6ac61161&sg=161563f2"
+    },
+    {
+      "id": "p2208",
+      "name": "Sansevieria aubrytniana \"silver Metallica\"",
+      "kind": "plants",
+      "price": "619 Kč",
+      "priceValue": 619.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sansevieria-trif-silver-metallica/",
+      "photo": "/assets/plants/kytkasem-p2208.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 14 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 14 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 14.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/2208_snimek-obrazovky-2023-06-21-230802.png?ff=1&x=1024&y=768&q=85&ts=649366cd&sg=161563f2"
+    },
+    {
+      "id": "p16257",
+      "name": "Michaelmoelleria vietnamensis Sapphire",
+      "kind": "plants",
+      "price": "729 Kč",
+      "priceValue": 729.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/michaelmoelleria-vietnamensis-sapphire/",
+      "photo": "/assets/plants/kytkasem-p16257.jpg",
+      "tags": [
+        "genus:michaelmoelleria"
+      ],
+      "facts": [
+        "Črepník podľa e-shopu: 17 cm."
+      ],
+      "reason": "Črepník podľa e-shopu: 17 cm.",
+      "diameter": null,
+      "potDiameter": 17.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/16257-1_b5a00084-7a4b-46ee-9554-e3c158f60a94.png?ff=1&x=1024&y=768&q=85&ts=6ac61121&sg=161563f2"
+    },
+    {
+      "id": "p6954",
+      "name": "Tradescantia quadricolor XXL",
+      "kind": "plants",
+      "price": "729 Kč",
+      "priceValue": 729.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/tradescantia-quadricolor-xxl/",
+      "photo": "/assets/plants/kytkasem-p6954.jpg",
+      "tags": [
+        "genus:tradescantia"
+      ],
+      "facts": [
+        "Črepník podľa e-shopu: 20 cm."
+      ],
+      "reason": "Črepník podľa e-shopu: 20 cm.",
+      "diameter": null,
+      "potDiameter": 20.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/6954_tradescantia-quadricolor-1598448305-800x1200-61f283505c986-l.jpg?ff=1&x=1024&y=768&q=85&ts=622759a4&sg=161563f2"
+    },
+    {
+      "id": "p8415",
+      "name": "Platycerium bifurcatum \"Parožnatka\" XXL",
+      "kind": "plants",
+      "price": "799 Kč",
+      "priceValue": 799.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/platycerium-bifurcatum--paroznatka--xxl/",
+      "photo": "/assets/plants/kytkasem-p8415.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:platycerium",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 17 cm.",
+        "Predajca uvádza nenáročnú starostlivosť.",
+        "Popínavý alebo previsnutý rast podľa popisu predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 17 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 17.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/8415_platycerium-bifurcatum.png?ff=1&x=1024&y=768&q=85&ts=630a7e81&sg=161563f2"
+    },
+    {
+      "id": "p15700",
+      "name": "Scindapsus Shimmering Silver",
+      "kind": "plants",
+      "price": "849 Kč",
+      "priceValue": 849.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/scindapsus-shimmering-silver/",
+      "photo": "/assets/plants/kytkasem-p15700.jpg",
+      "tags": [
+        "bright",
+        "genus:scindapsus"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 10 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 10 cm.",
+      "diameter": null,
+      "potDiameter": 10.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/15700-2_snimek-obrazovky-2025-12-12-204904.png?ff=1&x=1024&y=768&q=85&ts=693c71cb&sg=161563f2"
+    },
+    {
+      "id": "p16248",
+      "name": "Ficus 'ginseng' XXL",
+      "kind": "plants",
+      "price": "899 Kč",
+      "priceValue": 899.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/ficus--ginseng--xxl/",
+      "photo": "/assets/plants/kytkasem-p16248.jpg",
+      "tags": [
+        "bright",
+        "genus:ficus"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 22 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 22 cm.",
+      "diameter": null,
+      "potDiameter": 22.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/16248_8d55c137-a1d8-406a-9395-868e0f363a6c.png?ff=1&x=1024&y=768&q=85&ts=6abe2509&sg=161563f2"
+    },
+    {
+      "id": "p8838",
+      "name": "Sansevieria lau. XXL",
+      "kind": "plants",
+      "price": "949 Kč",
+      "priceValue": 949.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sansevieria-lau--xxl/",
+      "photo": "/assets/plants/kytkasem-p8838.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 17 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 17 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 17.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/8838_d72d3c4a-ae0b-45b2-80c1-47559ceec330.jpg?ff=1&x=1024&y=768&q=85&ts=6348314a&sg=161563f2"
+    },
+    {
+      "id": "p16251",
+      "name": "Ficus \"Lyrata\" XXL 160 cm",
+      "kind": "plants",
+      "price": "999 Kč",
+      "priceValue": 999.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/ficus--lyrata--xxl-160-cm/",
+      "photo": "/assets/plants/kytkasem-p16251.jpg",
+      "tags": [
+        "bright",
+        "genus:ficus"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 24 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 24 cm.",
+      "diameter": null,
+      "potDiameter": 24.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/16251_58c3f8b9-698f-4318-8568-f4607660cc75.png?ff=1&x=1024&y=768&q=85&ts=6abe254f&sg=161563f2"
+    },
+    {
+      "id": "p16242",
+      "name": "Monstera “Gold compact” baby",
+      "kind": "plants",
+      "price": "999 Kč",
+      "priceValue": 999.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/monstera--gold-compact--baby/",
+      "photo": "/assets/plants/kytkasem-p16242.jpg",
+      "tags": [
+        "bright",
+        "genus:monstera"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 6 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/16242_c4ac5df0-6949-4bc6-9bc8-fc124d725ad6.png?ff=1&x=1024&y=768&q=85&ts=6abcd4d4&sg=161563f2"
+    },
+    {
+      "id": "p15160",
+      "name": "Anthurium luxurians",
+      "kind": "plants",
+      "price": "1049 Kč",
+      "priceValue": 1049.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/anthurium-luxurians-/",
+      "photo": "/assets/plants/kytkasem-p15160.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:anthurium"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 10 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 10 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 10.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/15160-1_arj5jt9pkdbpkdoq1our0qg94208jioo65ova57u-big.jpg?ff=1&x=1024&y=768&q=85&ts=68309fd9&sg=161563f2"
+    },
+    {
+      "id": "p15895",
+      "name": "Scindapsus Silver Splash Glow",
+      "kind": "plants",
+      "price": "1049 Kč",
+      "priceValue": 1049.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/scindapsus-silver-splash-glow/",
+      "photo": "/assets/plants/kytkasem-p15895.jpg",
+      "tags": [
+        "bright",
+        "genus:scindapsus"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 7 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 7 cm.",
+      "diameter": null,
+      "potDiameter": 7.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/15895-1_snimek-obrazovky-2026-03-14-164726.png?ff=1&x=1024&y=768&q=85&ts=69b58354&sg=161563f2"
+    },
+    {
+      "id": "p15709",
+      "name": "Scindapsus Stabilo Green Arrow",
+      "kind": "plants",
+      "price": "1049 Kč",
+      "priceValue": 1049.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/scindapsus-stabilo-green-arrow/",
+      "photo": "/assets/plants/kytkasem-p15709.jpg",
+      "tags": [
+        "bright",
+        "genus:scindapsus"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 9 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 9 cm.",
+      "diameter": null,
+      "potDiameter": 9.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/15709-1_snimek-obrazovky-2025-12-12-205540.png?ff=1&x=1024&y=768&q=85&ts=693c737f&sg=161563f2"
+    },
+    {
+      "id": "p16254",
+      "name": "Ficus \"Lyrata\" XXL stromek",
+      "kind": "plants",
+      "price": "1199 Kč",
+      "priceValue": 1199.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/ficus--lyrata--xxl-stromek/",
+      "photo": "/assets/plants/kytkasem-p16254.jpg",
+      "tags": [
+        "bright",
+        "genus:ficus"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 20 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 20 cm.",
+      "diameter": null,
+      "potDiameter": 20.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/16254_4384877e-e855-4b72-82cd-294d28f5230a.png?ff=1&x=1024&y=768&q=85&ts=6abe2633&sg=161563f2"
+    },
+    {
+      "id": "p15742",
+      "name": "Scindapsus treubi \"Moonlight\" variegata",
+      "kind": "plants",
+      "price": "1649 Kč",
+      "priceValue": 1649.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/scindapsus-treubi--moonlight--variegata/",
+      "photo": "/assets/plants/kytkasem-p15742.jpg",
+      "tags": [
+        "bright",
+        "genus:scindapsus"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 7 cm."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 7 cm.",
+      "diameter": null,
+      "potDiameter": 7.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/15742_snimek-obrazovky-2026-01-11-163215.png?ff=1&x=1024&y=768&q=85&ts=6963c2bb&sg=161563f2"
+    },
+    {
+      "id": "p15439",
+      "name": "Sansevieria masoniana variegata",
+      "kind": "plants",
+      "price": "1849 Kč",
+      "priceValue": 1849.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sansevieria-masoniana-variegata-/",
+      "photo": "/assets/plants/kytkasem-p15439.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 14 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 14 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 14.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/15439_snimek-obrazovky-2025-10-09-184012.png?ff=1&x=1024&y=768&q=85&ts=68e7e5ac&sg=161563f2"
+    },
+    {
+      "id": "p15956",
+      "name": "Scindapsus \"Hologram\"",
+      "kind": "plants",
+      "price": "1849 Kč",
+      "priceValue": 1849.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/scindapsus--hologram/",
+      "photo": "/assets/plants/kytkasem-p15956.jpg",
+      "tags": [
+        "bright",
+        "genus:scindapsus",
+        "trailing"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 7 cm.",
+        "Popínavý alebo previsnutý rast podľa popisu predajcu."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 7 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+      "diameter": null,
+      "potDiameter": 7.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/15956_snimek-obrazovky-2026-04-08-120645.png?ff=1&x=1024&y=768&q=85&ts=69d62909&sg=161563f2"
+    },
+    {
+      "id": "p1461",
+      "name": "Anthurium arrow XXL",
+      "kind": "plants",
+      "price": "2599 Kč",
+      "priceValue": 2599.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/anthurium-arrow/",
+      "photo": "/assets/plants/kytkasem-p1461.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:anthurium"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 30 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 30 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 30.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/1461_anthurium-arrow-xxl.jpg?ff=1&x=1024&y=768&q=85&ts=61d5b708&sg=161563f2"
+    },
+    {
+      "id": "p10835",
+      "name": "Sansevieria francissi baby",
+      "kind": "succulents",
+      "price": "209 Kč",
+      "priceValue": 209.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sansevieria-francissi-baby/",
+      "photo": "/assets/plants/kytkasem-p10835.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 6 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/10835_whatsapp-image-2023-03-09-at-18-22-51.jpg?ff=1&x=1024&y=768&q=85&ts=6440edfc&sg=161563f2"
+    },
+    {
+      "id": "p6759",
+      "name": "Sedum adolphii baby",
+      "kind": "succulents",
+      "price": "209 Kč",
+      "priceValue": 209.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sedum-adolphii-baby/",
+      "photo": "/assets/plants/kytkasem-p6759.jpg",
+      "tags": [
+        "easy",
+        "genus:sedum"
+      ],
+      "facts": [
+        "Črepník podľa e-shopu: 6 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/6759_dfasdf.jpg?ff=1&x=1024&y=768&q=85&ts=6213c85e&sg=161563f2"
+    },
+    {
+      "id": "p15388",
+      "name": "Sansevieria \"StarShine\"",
+      "kind": "succulents",
+      "price": "259 Kč",
+      "priceValue": 259.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sansevieria--starshine/",
+      "photo": "/assets/plants/kytkasem-p15388.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 6 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/15388-1_66eaba72-8fa4-4b39-a713-23ae834cdf74.jpg?ff=1&x=1024&y=768&q=85&ts=68cc42b2&sg=161563f2"
+    },
+    {
+      "id": "p13327",
+      "name": "Austrocylindropuntia subulata",
+      "kind": "succulents",
+      "price": "309 Kč",
+      "priceValue": 309.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/austrocylindropuntia-subulata/",
+      "photo": "/assets/plants/kytkasem-p13327.jpg",
+      "tags": [
+        "easy",
+        "genus:austrocylindropuntia"
+      ],
+      "facts": [
+        "Črepník podľa e-shopu: 12 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/13327-1_whatsapp-image-2024-03-28-at-15-51-10.jpg?ff=1&x=1024&y=768&q=85&ts=6605851c&sg=161563f2"
+    },
+    {
+      "id": "p3180",
+      "name": "Adenium Obesum \"pouštní růže\" malá baby rostlinka",
+      "kind": "succulents",
+      "price": "399 Kč",
+      "priceValue": 399.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/adenium-obesum--poustni-ruze--mala-baby-rostlinka/",
+      "photo": "/assets/plants/kytkasem-p3180.jpg",
+      "tags": [
+        "genus:adenium"
+      ],
+      "facts": [
+        "Črepník podľa e-shopu: 6 cm."
+      ],
+      "reason": "Črepník podľa e-shopu: 6 cm.",
+      "diameter": null,
+      "potDiameter": 6.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/3180-1_desert-rose-1.jpg?ff=1&x=1024&y=768&q=85&ts=62e842fd&sg=161563f2"
+    },
+    {
+      "id": "p7194",
+      "name": "Sansevieria \"Silver Star\"",
+      "kind": "succulents",
+      "price": "419 Kč",
+      "priceValue": 419.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sansevieria--silver-star/",
+      "photo": "/assets/plants/kytkasem-p7194.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 8 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 8.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/7194-1_sansevieria--silver-star.jpg?ff=1&x=1024&y=768&q=85&ts=6467c36a&sg=161563f2"
+    },
+    {
+      "id": "p175",
+      "name": "Zamioculcas černý \"Black Raven\"",
+      "kind": "succulents",
+      "price": "519 Kč",
+      "priceValue": 519.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/zamioculcas-cerny--black-raven/",
+      "photo": "/assets/plants/kytkasem-p175.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:zamioculcas"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 12 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 12.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/175-1_photo-1598531402973-61a7a963b9e4.jpg?ff=1&x=1024&y=768&q=85&ts=61d5b708&sg=161563f2"
+    },
+    {
+      "id": "p11916",
+      "name": "Sansevieria \"Moonshine\" XXL",
+      "kind": "succulents",
+      "price": "849 Kč",
+      "priceValue": 849.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/sansevieria--moonshine--xxl/",
+      "photo": "/assets/plants/kytkasem-p11916.jpg",
+      "tags": [
+        "bright",
+        "easy",
+        "genus:sansevieria"
+      ],
+      "facts": [
+        "Predajca uvádza: rozptýlené svetlo.",
+        "Črepník podľa e-shopu: 24 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 24 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 24.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/11916-2_ec65b944-9398-402d-86e7-4769fdeee92d.jpg?ff=1&x=1024&y=768&q=85&ts=652a7ad2&sg=161563f2"
+    },
+    {
+      "id": "p5688",
+      "name": "Schlumbergera - Vánoční kaktus XXL",
+      "kind": "succulents",
+      "price": "3449 Kč",
+      "priceValue": 3449.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/schlumbergera-vanocni-kaktus-xxl/",
+      "photo": "/assets/plants/kytkasem-p5688.jpg",
+      "tags": [
+        "easy",
+        "genus:schlumbergera"
+      ],
+      "facts": [
+        "Črepník podľa e-shopu: 45 cm.",
+        "Predajca uvádza nenáročnú starostlivosť."
+      ],
+      "reason": "Črepník podľa e-shopu: 45 cm. Predajca uvádza nenáročnú starostlivosť.",
+      "diameter": null,
+      "potDiameter": 45.0,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/5688_fb889031-44e5-46e0-a3a7-53f5dc24082d.png?ff=1&x=1024&y=768&q=85&ts=6546bc51&sg=161563f2"
+    },
+    {
+      "id": "p6123",
+      "name": "Oválný květináč \"šedý mramor\"",
+      "kind": "pots",
+      "price": "199 Kč",
+      "priceValue": 199.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/ovalny-kvetinac--sedy-mramor/",
+      "photo": "/assets/plants/kytkasem-p6123.jpg",
+      "tags": [
+        "genus:oválný",
+        "trailing"
+      ],
+      "facts": [
+        "Popínavý alebo previsnutý rast podľa popisu predajcu.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Popínavý alebo previsnutý rast podľa popisu predajcu. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/6123_ovalny-kvetinac--sedy-mramor.jpg?ff=1&x=1024&y=768&q=85&ts=61d5b708&sg=161563f2"
+    },
+    {
+      "id": "p15016",
+      "name": "Květináč \"Lovely\" 12 cm",
+      "kind": "pots",
+      "price": "249 Kč",
+      "priceValue": 249.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/kvetinac--lovely--12-cm/",
+      "photo": "/assets/plants/kytkasem-p15016.jpg",
+      "tags": [
+        "genus:květináč",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 12 cm.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 12 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": 12.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/15016-1_snimek-obrazovky-2025-03-14-124511.png?ff=1&x=1024&y=768&q=85&ts=67d41704&sg=161563f2"
+    },
+    {
+      "id": "p9225",
+      "name": "Kokedama květináč",
+      "kind": "pots",
+      "price": "299 Kč",
+      "priceValue": 299.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/kokedama-kvetinac/",
+      "photo": "/assets/plants/kytkasem-p9225.jpg",
+      "tags": [
+        "genus:kokedama"
+      ],
+      "facts": [
+        "Črepník podľa e-shopu: 12 cm.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Črepník podľa e-shopu: 12 cm. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/9225_snimek-obrazovky-2022-11-11-193018.jpg?ff=1&x=1024&y=768&q=85&ts=636e94f4&sg=161563f2"
+    },
+    {
+      "id": "p13738",
+      "name": "Květináč \"Lady\"",
+      "kind": "pots",
+      "price": "299 Kč",
+      "priceValue": 299.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/kvetinac--lady/",
+      "photo": "/assets/plants/kytkasem-p13738.jpg",
+      "tags": [
+        "genus:květináč"
+      ],
+      "facts": [
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/13738-1_whatsapp-image-2024-05-25-at-14-11-32--3--1.jpg?ff=1&x=1024&y=768&q=85&ts=6651d793&sg=161563f2"
+    },
+    {
+      "id": "p3000",
+      "name": "Květináč ze série \"Amazonka\" 13 cm",
+      "kind": "pots",
+      "price": "299 Kč",
+      "priceValue": 299.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/obaly-na-kvetinace-ze-serie--amazonka/",
+      "photo": "/assets/plants/kytkasem-p3000.jpg",
+      "tags": [
+        "ceramic",
+        "genus:květináč",
+        "medium-pot"
+      ],
+      "facts": [
+        "Priemer alebo šírka podľa e-shopu: 13 cm.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Priemer alebo šírka podľa e-shopu: 13 cm. Materiál podľa predajcu: keramika. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": 13.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/3000_4704839-2d-0001.jpg?ff=1&x=1024&y=768&q=85&ts=61d5b708&sg=161563f2"
+    },
+    {
+      "id": "p8502",
+      "name": "Květináč \"Napoli\" 24 cm",
+      "kind": "pots",
+      "price": "499 Kč",
+      "priceValue": 499.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/kvetinac--napoli--24-cm/",
+      "photo": "/assets/plants/kytkasem-p8502.jpg",
+      "tags": [
+        "ceramic",
+        "genus:květináč",
+        "large-pot"
+      ],
+      "facts": [
+        "Črepník podľa e-shopu: 24 cm.",
+        "Priemer alebo šírka podľa e-shopu: 24 cm.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Črepník podľa e-shopu: 24 cm. Priemer alebo šírka podľa e-shopu: 24 cm. Materiál podľa predajcu: keramika.",
+      "diameter": 24.0,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/8502_snimek-obrazovky-2022-09-05-170241.jpg?ff=1&x=1024&y=768&q=85&ts=63160fba&sg=161563f2"
+    },
+    {
+      "id": "p4872",
+      "name": "Bio aktivní uhlí do substrátu 500 ml",
+      "kind": "substrates",
+      "price": "59 Kč",
+      "priceValue": 59.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/aktivni-uhli-do-substratu/",
+      "photo": "/assets/plants/kytkasem-p4872.jpg",
+      "tags": [
+        "genus:bio"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Bio aktivní uhlí do substrátu 500 ml."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Bio aktivní uhlí do substrátu 500 ml.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/4872_photo-1534259434801-e3d2427ae102.png?ff=1&x=1024&y=768&q=85&ts=61d5b708&sg=161563f2"
+    },
+    {
+      "id": "p3444",
+      "name": "Keramzit 1 l",
+      "kind": "substrates",
+      "price": "59 Kč",
+      "priceValue": 59.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/keramzit-1-l/",
+      "photo": "/assets/plants/kytkasem-p3444.jpg",
+      "tags": [
+        "genus:keramzit",
+        "volume-small",
+        "volume-small",
+        "volume-small"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Keramzit 1 l.",
+        "Balenie podľa názvu: 1 l.",
+        "Balenie podľa názvu: 1 l.",
+        "Balenie podľa názvu: 1 l."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Keramzit 1 l. Balenie podľa názvu: 1 l. Balenie podľa názvu: 1 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/3444_unnamed.jpg?ff=1&x=1024&y=768&q=85&ts=61d5b708&sg=161563f2"
+    },
+    {
+      "id": "p1899",
+      "name": "Perlit na provzdušnění substrátu - 1 litr",
+      "kind": "substrates",
+      "price": "59 Kč",
+      "priceValue": 59.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/perlit-na-provzdusneni-substratu-1-litr/",
+      "photo": "/assets/plants/kytkasem-p1899.jpg",
+      "tags": [
+        "genus:perlit"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Perlit na provzdušnění substrátu - 1 litr."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Perlit na provzdušnění substrátu - 1 litr.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/1899_agroperlit.png?ff=1&x=1024&y=768&q=85&ts=61d5b708&sg=161563f2"
+    },
+    {
+      "id": "p2091",
+      "name": "Namíchání ideálního substrátu pro pokojovky",
+      "kind": "substrates",
+      "price": "63 Kč",
+      "priceValue": 63.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/substrat-pro-pokojovky-namichanisubstratu/",
+      "photo": "/assets/plants/kytkasem-p2091.jpg",
+      "tags": [
+        "genus:namíchání",
+        "indoor-mix"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Namíchání ideálního substrátu pro pokojovky."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Namíchání ideálního substrátu pro pokojovky.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/2091-2_organic-potting-soil-for-plants-500x500.jpg?ff=1&x=1024&y=768&q=85&ts=62bb4fbe&sg=161563f2"
+    },
+    {
+      "id": "p7218",
+      "name": "Kokosové coco chipsy 1 litr",
+      "kind": "substrates",
+      "price": "69 Kč",
+      "priceValue": 69.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/kokosove-coco-chipsy/",
+      "photo": "/assets/plants/kytkasem-p7218.jpg",
+      "tags": [
+        "genus:kokosové"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Kokosové coco chipsy 1 litr."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Kokosové coco chipsy 1 litr.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/7218_cocohusk.jpg?ff=1&x=1024&y=768&q=85&ts=625dcd28&sg=161563f2"
+    },
+    {
+      "id": "p8103",
+      "name": "Červený písek hrubý 750 g",
+      "kind": "substrates",
+      "price": "79 Kč",
+      "priceValue": 79.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/pisek/",
+      "photo": "/assets/plants/kytkasem-p8103.jpg",
+      "tags": [
+        "genus:červený"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Červený písek hrubý 750 g."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Červený písek hrubý 750 g.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/8103_whiteball.png?ff=1&x=1024&y=768&q=85&ts=63cec361&sg=161563f2"
+    },
+    {
+      "id": "p9999",
+      "name": "Minerální substrát pro pokojovky 1 litr",
+      "kind": "substrates",
+      "price": "89 Kč",
+      "priceValue": 89.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/-pon--smes-pro-pokojovky/",
+      "photo": "/assets/plants/kytkasem-p9999.jpg",
+      "tags": [
+        "genus:minerální",
+        "indoor-mix"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Minerální substrát pro pokojovky 1 litr."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Minerální substrát pro pokojovky 1 litr.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/9999-1_snimek-obrazovky-2023-01-30-141345.jpg?ff=1&x=1024&y=768&q=85&ts=63d7c2b0&sg=161563f2"
+    },
+    {
+      "id": "p13918",
+      "name": "Namíchání ideálního substrátu pro Jewel orchids",
+      "kind": "substrates",
+      "price": "99 Kč",
+      "priceValue": 99.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/namichani-idealniho-substratu-pro-jewel-orchids/",
+      "photo": "/assets/plants/kytkasem-p13918.jpg",
+      "tags": [
+        "genus:namíchání",
+        "orchid-mix"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Namíchání ideálního substrátu pro Jewel orchids."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Namíchání ideálního substrátu pro Jewel orchids.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/13918_bc192514-a424-418c-841a-f0334333a00d.jpg?ff=1&x=1024&y=768&q=85&ts=6675c208&sg=161563f2"
+    },
+    {
+      "id": "p16072",
+      "name": "Písek BRILIANT přírodní 600g na smutnice",
+      "kind": "substrates",
+      "price": "99 Kč",
+      "priceValue": 99.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/pisek-briliant-prirodni-600g-na-smutnice/",
+      "photo": "/assets/plants/kytkasem-p16072.jpg",
+      "tags": [
+        "genus:písek"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Písek BRILIANT přírodní 600g na smutnice."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Písek BRILIANT přírodní 600g na smutnice.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/16072_pisek-briliant-prirodni-600g-na-smutnice.jpg?ff=1&x=1024&y=768&q=85&ts=6a477b90&sg=161563f2"
+    },
+    {
+      "id": "p7221",
+      "name": "Kokosové vlákno 100g",
+      "kind": "substrates",
+      "price": "119 Kč",
+      "priceValue": 119.0,
+      "currency": "CZK",
+      "url": "https://www.kytkasem.cz/kokosove-vlakno/",
+      "photo": "/assets/plants/kytkasem-p7221.jpg",
+      "tags": [
+        "genus:kokosové"
+      ],
+      "facts": [
+        "Určenie z názvu a popisu e-shopu. Kokosové vlákno 100g."
+      ],
+      "reason": "Určenie z názvu a popisu e-shopu. Kokosové vlákno 100g.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-10",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/shop/big/7221-2_oip.jpg?ff=1&x=1024&y=768&q=85&ts=62e8fa6b&sg=161563f2"
+    }
+  ],
+  "checked": "2026-10-10"
+}

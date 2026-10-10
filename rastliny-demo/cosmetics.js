@@ -44,7 +44,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,s
   const state = {
     open:false, mode:'chat', step:0, answers:{}, result:null, alternative:null,
     interacted:false, busy:false, transitioning:false,
-    messages:[{role:'assistant',text:'Dobrý deň. Hľadáte rastlinu, črepník alebo substrát? Napíšte, čo vyberáte a aké máte podmienky. Pomôžem vám zúžiť ponuku.'}]
+    messages:[{role:'assistant',text:'Dobrý deň. Napíšte, čo vyberáte a aké máte podmienky. Pomôžem vám zúžiť ponuku tohto e-shopu.'}]
   };
 
   // What the advisor answers, how long it takes, what comes out of it. This is
@@ -83,7 +83,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,s
   /* Headline and lead are the same on every page; the coffee pages read the
      same words. */
   const HEADING = 'Vyberie rastlinu, ktorá sadne do jeho domova.';
-  const LEAD = 'Zákazník si vyberie podľa svetla, starostlivosti a rozpočtu. Poradca pozná aj črepníky a substráty z vášho katalógu.';
+  const LEAD = 'Zákazník si vyberie podľa svetla, starostlivosti a rozpočtu. Poradca pozná konkrétne produkty a ceny z vášho katalógu.';
 
   /* The sheet behind "Chcem to na svoj web" listed what the owner gets, but the
      page itself said none of it — the conversation history among it. Four of
@@ -344,7 +344,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,s
   }
 
   function resetAdvisor(){state.step=0;state.answers={};state.result=null;state.alternative=null;state.transitioning=false;renderAdvisor();}
-  function resetAll(){state.generation=(state.generation||0)+1;state.step=0;state.answers={};state.result=null;state.alternative=null;state.interacted=false;state.busy=false;state.transitioning=false;state.messages=[{role:'assistant',text:'Dobrý deň. Hľadáte rastlinu, črepník alebo substrát? Napíšte, čo vyberáte a aké máte podmienky. Pomôžem vám zúžiť ponuku.'}];setMode('chat');}
+  function resetAll(){state.generation=(state.generation||0)+1;state.step=0;state.answers={};state.result=null;state.alternative=null;state.interacted=false;state.busy=false;state.transitioning=false;state.messages=[{role:'assistant',text:'Dobrý deň. Napíšte, čo vyberáte a aké máte podmienky. Pomôžem vám zúžiť ponuku tohto e-shopu.'}];setMode('chat');}
 
   root.querySelectorAll('[data-open]').forEach((button)=>button.addEventListener('click',()=>openWidget(button.dataset.open)));
   const offerSheet = root.querySelector('[data-cx-offer="sheet"]');

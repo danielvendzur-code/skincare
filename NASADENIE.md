@@ -90,3 +90,5 @@ a sprav Redeploy.
 Samostatný projekt s Root Directory `rastliny-demo`, pracovná vetva `codex/rastliny-ukazky`. Trasy a nastavenie: [rastliny-demo/NASADENIE.md](./rastliny-demo/NASADENIE.md). Pripravené subdomény `plantizia.mojchatbot.sk`, `gardenholice.mojchatbot.sk` a `lukscheiter.mojchatbot.sk`; DNS sa nevytvára automaticky.
 
 Rastlinná ukážka [Zahrada na niti](./rastliny-demo/zahradananiti/index.html): pripravená subdoména `zahradananiti.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [KytkaSem](./rastliny-demo/kytkasem/index.html): pripravená subdoména `kytkasem.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.

@@ -8,7 +8,7 @@ import hashlib, json, re, sys
 from datetime import date
 from pathlib import Path
 from urllib.parse import urljoin
-from net import js, soup, plain, save
+from net import js, soup, plain, save, fetch
 from collect_shoptet import listing, detail
 
 ROOT=Path(__file__).resolve().parent.parent
@@ -17,6 +17,7 @@ TODAY=date.today().isoformat()
 def eligible(p,shop):
     name=p['name']
     if re.search(shop.get('exclude',r'(?!)'),name,re.I):return False
+    if re.search(shop.get('excludeByKind',{}).get(p['kind'],r'(?!)'),name,re.I):return False
     if p['kind'] in shop.get('include',{}) and not re.search(shop['include'][p['kind']],name,re.I):return False
     if p['kind']=='substrates' and not re.search(r'substr[aá]t|rašelin|raselin|perlit|keramzit|kokos|zemin|p[ií]sek',name,re.I):return False
     return True
@@ -26,6 +27,12 @@ def care(p,text,attributes=None,categories=None):
     attributes=attributes or {};categories=categories or []
     t=text.lower();tags=list(p.get('tags',[]));facts=list(p.get('facts',[]))
     tokens=' '.join(categories+[str(v) for v in attributes.values()]).lower()
+    if not p.get('facts'):
+        # Care comes from affirmative seller clauses, never guessed by genus.
+        clauses=[c for c in re.split(r'[.!?\n]',t) if not re.search(r'nesn[aá][šs]|vyh[nýy]|chra[nň]|bez\s+p[rř]ím|nevhod|nesm|nem[aá]|nevystav|pop[aá]l|sp[aá]len|[šs]kod|nie\s+priam',c)]
+        for pattern,tag,label in [(r'polost[ií]n|polotie[nň]|sn[aá][šs][ií]\s+st[ií]n','low','polotieň'),(r'rozpt[ýy]len|nep[rř]ím[eé]\s+slun|nepriam[eé]\s+sln|sv[eě]tl[eéý]\s+(?:m[ií]sto|stanovi|miesto)','bright','rozptýlené svetlo'),(r'(?<!ne)\bp[rř]ím[eéý]\s+slun|(?<!ne)\bpriam[eé]\s+sln|slunn[eé]\s+stanovi|slne[čc]n[eé]\s+stanovi','sun','slnečné stanovište')]:
+            if any(re.search(pattern,c) for c in clauses):tags.append(tag);facts.append('Predajca uvádza: '+label+'.')
+        if any(re.search(r'nen[aá]ro[čc]n|snadn[aá]\s+p[eé][čc]e|jednoduch[aá]\s+starost',c) for c in clauses):tags.append('easy');facts.append('Predajca uvádza nenáročnú starostlivosť.')
     # Category/attribute labels are positive statements, unlike prose warnings.
     lights=[]
     for value in [v for k,vals in attributes.items() if re.search(r'sv[eě]tlo|umiest|stanovi',k,re.I) for v in vals]+categories:
@@ -46,12 +53,18 @@ def care(p,text,attributes=None,categories=None):
         # These tags describe a living composition, never an empty glass vessel.
         for pattern,tag,label in [(r'uzav[řr]en|uzavret','closed','uzavreté'),(r'otev[řr]en|otvoren','open','otvorené'),('tilland','airplants','s tillandsiou'),('bonsai|bonsaj','bonsai','s bonsajom')]:
             if re.search(pattern,text+' '+p['name'],re.I):tags.append(tag);facts.append('Typ kompozície podľa predajcu: '+label+'.')
+    if p['kind']=='pots':
+        size=re.search(r'(?:[øØ]|pr[ií]emer|pr[uů]m[eě]r|ší[řr]ka)\s*:?\s*(\d+(?:[.,]\d+)?)\s*cm',p['name']+' '+text,re.I)
+        if size:
+            diameter=float(size[1].replace(',','.'));p['diameter']=diameter;tags.append('small-pot' if diameter<=11 else 'medium-pot' if diameter<=16 else 'large-pot');facts.append(f'Priemer alebo šírka podľa predajcu: {diameter:g} cm.')
+        for pattern,tag,label in [('keram','ceramic','keramika'),('terakot','terracotta','terakota'),('plast','plastic','plast'),('bet[oó]n','concrete','betón')]:
+            if re.search(pattern,p['name']+' '+text,re.I):tags.append(tag);facts.append('Materiál podľa predajcu: '+label+'.')
     if p['kind']=='substrates':
         tags=[t for t in tags if not t.endswith('-mix')]
         purpose=(p['variantLabel'] if p.get('variantLabel') and re.search(r'na |pro ',p['variantLabel'],re.I) else p['name'])+' '+ ' '.join(v for k,vals in attributes.items() if re.search(r'ur[čc]en|pou[žz]it',k,re.I) for v in vals)
         for pattern,tag in [('orchid','orchid-mix'),('kaktus|sukulent','cactus-mix'),('izbov|pokojov|aroid','indoor-mix'),('univerz','universal-mix'),('hydropon','hydro-mix')]:
             if re.search(pattern,purpose,re.I):tags.append(tag)
-    if not any(x.startswith('genus:') for x in tags):tags.append('genus:'+p['name'].split()[0].lower())
+    if not any(x.startswith('genus:') for x in tags):tags.append('genus:'+re.sub(r'^Kokedama\s+', '', p['name'], flags=re.I).split()[0].lower())
     p.update(tags=sorted(set(tags)),facts=list(dict.fromkeys(facts)) or ['Konkrétny druh a variant podľa e-shopu: '+p['name']+'.'])
     p['reason']=' '.join(p['facts'][:3]);p['descriptionSha256']=hashlib.sha256(text.encode()).hexdigest()
     return p
@@ -148,17 +161,28 @@ def woo_products(shop,slug):
 
 def shopify_products(shop,slug):
     endpoint=shop['website'].rstrip('/')+'/products.json?limit=250';rows=js(endpoint)['products'];result=[]
+    home=fetch(shop['website']).decode(errors='replace')
+    currency=re.search(r'Shopify\.currency\s*=\s*\{\s*"active"\s*:\s*"([A-Z]{3})"',home)
+    if not currency or currency[1]!=shop['currency']:raise ValueError('Shopify storefront currency not verified')
+
     for raw in rows:
         cats=raw.get('tags',[]);kind=next((k for k,pattern in shop['categories'].items() if re.search(pattern,raw['product_type']+' '+' '.join(cats)+' '+raw['title'],re.I)),None)
         if not kind or not raw['images']:continue
         text=plain(raw.get('body_html',''))
         if re.search(r'na objedn[aá]vku|p[řr]edobjedn|predobjedn',raw['title']+' '+text,re.I):continue
-        for v in raw['variants']:
-            if not v['available']:continue
+        stocked=sorted([v for v in raw['variants'] if v['available']],key=lambda v:float(v['price']))
+        for v in stocked[:1]:
             value=float(v['price']);title=raw['title']+((' — '+v['title']) if v['title']!='Default Title' else '')
             p=dict(id='v'+str(v['id']),name=title,kind=kind,priceValue=value,currency=shop['currency'],price=f'{value:g} Kč' if shop['currency']=='CZK' else f'{value:.2f}'.replace('.',',')+' €',url=shop['website'].rstrip('/')+'/products/'+raw['handle']+'?variant='+str(v['id']),photo=f'/assets/plants/{slug}-v{v["id"]}.jpg',imageSource=v.get('featured_image',{}).get('src') if v.get('featured_image') else raw['images'][0]['src'],sourceEndpoint=endpoint,stock='InStock',checked=TODAY,diameter=None,potDiameter=None,tags=[],facts=[])
-            if eligible(p,shop):result.append(care(p,text,{},cats))
-    return result
+            if eligible(p,shop):
+                p['currencySource']=shop['website'];p['sourceCategories']=cats;result.append(care(p,text,{},cats))
+    selected=[]
+    for kind in shop['kinds']:
+        group=sorted([p for p in result if p['kind']==kind],key=lambda p:(p['priceValue'],p['name']))
+        limit=shop.get('limits',{}).get(kind,40 if kind=='plants' else 18)
+        if len(group)>limit:group=[group[round(i*(len(group)-1)/(limit-1))] for i in range(limit)]
+        selected.extend(group)
+    return selected
 
 if __name__=='__main__':
     slug=sys.argv[1];shop=json.loads((ROOT/'tools/shops.json').read_text())[slug]

@@ -1,0 +1,23 @@
+{
+  "checked": "2026-10-10",
+  "company": "Eva Balašová",
+  "ico": "02204452",
+  "owners": [
+    "Eva Balašová"
+  ],
+  "executives": [
+    "Eva Balašová"
+  ],
+  "employees": {
+    "code": "110",
+    "range": "1–5",
+    "source": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/02204452",
+    "recordUpdated": "2022-12-01"
+  },
+  "revenue": {
+    "value": null,
+    "year": null,
+    "note": "Tržby živnostníčky nie sú v použitom verejnom registri doložené; veľkosť overená podľa ARES 1–5 zamestnancov."
+  },
+  "ownersSource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/02204452"
+}

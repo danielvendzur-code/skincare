@@ -9,6 +9,7 @@ python3 tools/make_assets.py SLUG SOFT_HEX LOGO_SRC id=packshot [id=packshot ...
 * assets/plants/SLUG-logo.png transparent logo, trimmed.
 """
 import sys
+from io import BytesIO
 from pathlib import Path
 from PIL import Image, ImageChops, ImageOps
 
@@ -72,6 +73,13 @@ def packshot(src, target, box=(670, 980)):
 def padded(box, size, pad=3):
     return (max(0, box[0] - pad), max(0, box[1] - pad), min(size[0], box[2] + pad), min(size[1], box[3] + pad))
 
+def save_png(img, target):
+    buffer=BytesIO();img.save(buffer,format='PNG',optimize=True)
+    payload=buffer.getvalue()
+    with open(target,'wb') as file:
+        for offset in range(0,len(payload),16384):file.write(payload[offset:offset+16384])
+    Image.open(target).load()
+
 def logo(src, target):
     img = Image.open(src).convert('RGBA')
     alpha = img.getchannel('A')
@@ -87,7 +95,7 @@ def logo(src, target):
     img = img.crop(padded(box, img.size))
     if img.height > 220:
         img = img.resize((round(img.width * 220 / img.height), 220), Image.LANCZOS)
-    img.save(target, optimize=True)
+    save_png(img, target)
 
 def hero(shots, soft, target):
     canvas = Image.new('RGB', (1000, 1120), soft)
@@ -117,7 +125,7 @@ def mark(src, box, target):
     side = max(img.size)
     square = Image.new('RGBA', (side, side), (0, 0, 0, 0))
     square.paste(img, ((side - img.width) // 2, (side - img.height) // 2))
-    square.save(target, optimize=True)
+    save_png(square, target)
 
 def mono_logo(src, target):
     """One-colour logo captured on a light background: alpha from darkness,
@@ -138,7 +146,7 @@ def mono_logo(src, target):
     out = pad.crop(padded((box[0] + 4, box[1] + 4, box[2] + 4, box[3] + 4), pad.size))
     if out.height > 220:
         out = out.resize((round(out.width * 220 / out.height), 220), Image.LANCZOS)
-    out.save(target, optimize=True)
+    save_png(out, target)
 
 def extend(src, target, size=(760, 1095)):
     """Studio photo on a soft gradient backdrop: keep the whole frame at full

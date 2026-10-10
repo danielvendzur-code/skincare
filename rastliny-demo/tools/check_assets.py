@@ -5,9 +5,10 @@ from PIL import Image
 ROOT=Path(__file__).resolve().parent.parent;fail=[];total=0
 for path in (ROOT/'data').glob('*.json'):
  b=json.loads(path.read_text());seen=set()
- for key in ['hero','logo','mark']:
+ for key in ['hero','mobileHero','logo','mark']:
   p=ROOT/b[key].lstrip('/')
-  try:Image.open(p).verify()
+  try:
+   Image.open(p).verify();Image.open(p).load()
   except Exception as e:fail.append(str(p)+': '+str(e))
  for p in b['products']:
   total+=1
@@ -18,7 +19,7 @@ for path in (ROOT/'data').glob('*.json'):
   if b['currency']=='CZK' and not p['price'].endswith(' Kč'):fail.append(p['name']+' wrong currency label')
   if p['stock']!='InStock' or not p['url'].startswith(b['website']) or p['priceValue']<=0:fail.append(p['name']+' bad source/stock/price')
   try:
-   im=Image.open(ROOT/p['photo'].lstrip('/'));im.verify()
+   im=Image.open(ROOT/p['photo'].lstrip('/'));im.verify();Image.open(ROOT/p['photo'].lstrip('/')).load()
    if im.size!=(760,1095):fail.append(p['name']+' wrong photo geometry')
   except Exception as e:fail.append(p['name']+': '+str(e))
   if not p['reason'] or not p['facts']:fail.append(p['name']+' missing facts')

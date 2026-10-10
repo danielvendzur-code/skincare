@@ -386,3 +386,81 @@ Pri overení sa nepreukázal spoločný vlastník s existujúcimi zdokumentovan�
 | Náš bezrašelinový substrát na pokojovky — Na pokojovky - 1 litr | substráty | 45 Kč | [detail](https://www.zahradananiti.cz/substraty/nas-substrat/) |
 | Říční písek | substráty | 45 Kč | [detail](https://www.zahradananiti.cz/substraty/ricni-pisek/) |
 | Rašeliník - Sphagnum | substráty | 125 Kč | [detail](https://www.zahradananiti.cz/substraty/raselinik/) |
+
+## KytkaSem
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://www.kytkasem.cz/). [Identita predajcu](https://www.kytkasem.cz/obchodni-podminky/).
+- Firma: **Eva Balašová, IČO 02204452**. Vlastníci: Eva Balašová. Konatelia / podnikateľ: Eva Balašová.
+- Veľkosť: **Tržby nedoložené; 1–5 zam.**. Kód `110` v [primárnom registri](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/02204452); údaj aktualizovaný 2022-12-01, načítaný 2026-10-10. [Vlastníci](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/02204452).
+- Tržby živnostníčky nie sú v použitom verejnom registri doložené; veľkosť overená podľa ARES 1–5 zamestnancov.
+- Prečo sedí: Malý obchod jednej podnikateľky, pestrá ponuka izbových rastlín, sukulentov a doplnkov; poradca pomôže so svetlom, starostlivosťou a cenou. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **61 produktov**, izbové rastliny, sukulenty a kaktusy, črepníky, substráty. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: mikrodáta výpisu aj detailu (`InStock`, cena a mena); pri variantoch navyše oficiálne Shoptet variantové dáta viažu cenu, sklad a fotografiu k uvedenému variantu. Na detaile treba vybrať pomenovaný variant. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/kytkasem-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/logos/logo.png); Oficiálne rasterové logo zväčšené s Lanczos vyhladením. Do kruhu je vyrezaný pôvodný list monstéry a prevedený na bielu verziu.
+- Farby: `brand: #245c39`, `accent: #347447`, `soft: #f0f4eb`, `paper: #fffefa`, `ink: #243024`, `line: #d9e3d4`. Zelená pôvodného listu v logu; tmavšie zelené brand a accent pre čitateľný biely text. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/kytkasem-qa.json`, `kytkasem-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/kytkasem-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Sansevieria "Moonshine" | izbové rastliny | 209 Kč | [detail](https://www.kytkasem.cz/sansevieria-moonshine/) |
+| Portulacaria afra | izbové rastliny | 239 Kč | [detail](https://www.kytkasem.cz/portulacaria-afra/) |
+| Květináč "Lovebirds" 13  cm | črepníky | 189 Kč | [detail](https://www.kytkasem.cz/kvetinac--lovebirds--13--cm/) |
+| Anacampseros Rufescens "Sunrise" baby | sukulenty a kaktusy | 209 Kč | [detail](https://www.kytkasem.cz/anacampseros-rufescens--sunrise--baby/) |
+| Sansevieria enrenbergii 'Samurai Dwarf' | izbové rastliny | 239 Kč | [detail](https://www.kytkasem.cz/sansevieria-enrenbergii--samurai-dwarf/) |
+| Philodendron "Calkins" baby | izbové rastliny | 249 Kč | [detail](https://www.kytkasem.cz/philodendron--calkins--baby/) |
+| Anthurium veitchii baby | izbové rastliny | 259 Kč | [detail](https://www.kytkasem.cz/anthurium-veitchii/) |
+| Anthurium villenaorum baby | izbové rastliny | 259 Kč | [detail](https://www.kytkasem.cz/anthurium-villenaorum-baby/) |
+| Sansevieria “Abbey Crown” | izbové rastliny | 259 Kč | [detail](https://www.kytkasem.cz/sansevieria--abbey-crown/) |
+| Sansevieria “Rocky Crown” | izbové rastliny | 259 Kč | [detail](https://www.kytkasem.cz/sansevieria--rocky-crown/) |
+| Tradescantia Spathacea Rhoeo baby | izbové rastliny | 259 Kč | [detail](https://www.kytkasem.cz/tradescantia-spathacea-rhoeo-2/) |
+| Anthurium clarinervium baby | izbové rastliny | 309 Kč | [detail](https://www.kytkasem.cz/anthurium-clarinervium-baby-3/) |
+| Anthurium crystallinum | izbové rastliny | 349 Kč | [detail](https://www.kytkasem.cz/anthurium-crystallinum/) |
+| Anthurium peltigerum | izbové rastliny | 399 Kč | [detail](https://www.kytkasem.cz/anthurium-peltigerum/) |
+| Sansevieria trifasciata 'Laurentii' | izbové rastliny | 419 Kč | [detail](https://www.kytkasem.cz/sansevieria-trifasciata--laurentii/) |
+| Scindapsus "Silver Hero" | izbové rastliny | 419 Kč | [detail](https://www.kytkasem.cz/scindapsus--silver-hero/) |
+| Anthurium balaoanum | izbové rastliny | 519 Kč | [detail](https://www.kytkasem.cz/anthurium-balaoanum/) |
+| Calathea "Triostar" | izbové rastliny | 519 Kč | [detail](https://www.kytkasem.cz/calathea--triostar--velka/) |
+| Aglaonema "White Laksap" | izbové rastliny | 619 Kč | [detail](https://www.kytkasem.cz/aglaonema--white-laksap-bush/) |
+| Sansevieria aubrytniana "silver Metallica" | izbové rastliny | 619 Kč | [detail](https://www.kytkasem.cz/sansevieria-trif-silver-metallica/) |
+| Michaelmoelleria vietnamensis Sapphire | izbové rastliny | 729 Kč | [detail](https://www.kytkasem.cz/michaelmoelleria-vietnamensis-sapphire/) |
+| Tradescantia quadricolor XXL | izbové rastliny | 729 Kč | [detail](https://www.kytkasem.cz/tradescantia-quadricolor-xxl/) |
+| Platycerium bifurcatum "Parožnatka" XXL | izbové rastliny | 799 Kč | [detail](https://www.kytkasem.cz/platycerium-bifurcatum--paroznatka--xxl/) |
+| Scindapsus Shimmering Silver | izbové rastliny | 849 Kč | [detail](https://www.kytkasem.cz/scindapsus-shimmering-silver/) |
+| Ficus 'ginseng' XXL | izbové rastliny | 899 Kč | [detail](https://www.kytkasem.cz/ficus--ginseng--xxl/) |
+| Sansevieria lau. XXL | izbové rastliny | 949 Kč | [detail](https://www.kytkasem.cz/sansevieria-lau--xxl/) |
+| Ficus "Lyrata" XXL 160 cm | izbové rastliny | 999 Kč | [detail](https://www.kytkasem.cz/ficus--lyrata--xxl-160-cm/) |
+| Monstera “Gold compact” baby | izbové rastliny | 999 Kč | [detail](https://www.kytkasem.cz/monstera--gold-compact--baby/) |
+| Anthurium luxurians | izbové rastliny | 1049 Kč | [detail](https://www.kytkasem.cz/anthurium-luxurians-/) |
+| Scindapsus Silver Splash Glow | izbové rastliny | 1049 Kč | [detail](https://www.kytkasem.cz/scindapsus-silver-splash-glow/) |
+| Scindapsus Stabilo Green Arrow | izbové rastliny | 1049 Kč | [detail](https://www.kytkasem.cz/scindapsus-stabilo-green-arrow/) |
+| Ficus "Lyrata" XXL stromek | izbové rastliny | 1199 Kč | [detail](https://www.kytkasem.cz/ficus--lyrata--xxl-stromek/) |
+| Scindapsus treubi "Moonlight" variegata | izbové rastliny | 1649 Kč | [detail](https://www.kytkasem.cz/scindapsus-treubi--moonlight--variegata/) |
+| Sansevieria masoniana variegata | izbové rastliny | 1849 Kč | [detail](https://www.kytkasem.cz/sansevieria-masoniana-variegata-/) |
+| Scindapsus "Hologram" | izbové rastliny | 1849 Kč | [detail](https://www.kytkasem.cz/scindapsus--hologram/) |
+| Anthurium arrow XXL | izbové rastliny | 2599 Kč | [detail](https://www.kytkasem.cz/anthurium-arrow/) |
+| Sansevieria francissi baby | sukulenty a kaktusy | 209 Kč | [detail](https://www.kytkasem.cz/sansevieria-francissi-baby/) |
+| Sedum adolphii baby | sukulenty a kaktusy | 209 Kč | [detail](https://www.kytkasem.cz/sedum-adolphii-baby/) |
+| Sansevieria "StarShine" | sukulenty a kaktusy | 259 Kč | [detail](https://www.kytkasem.cz/sansevieria--starshine/) |
+| Austrocylindropuntia subulata | sukulenty a kaktusy | 309 Kč | [detail](https://www.kytkasem.cz/austrocylindropuntia-subulata/) |
+| Adenium Obesum "pouštní růže" malá baby rostlinka | sukulenty a kaktusy | 399 Kč | [detail](https://www.kytkasem.cz/adenium-obesum--poustni-ruze--mala-baby-rostlinka/) |
+| Sansevieria "Silver Star" | sukulenty a kaktusy | 419 Kč | [detail](https://www.kytkasem.cz/sansevieria--silver-star/) |
+| Zamioculcas černý "Black Raven" | sukulenty a kaktusy | 519 Kč | [detail](https://www.kytkasem.cz/zamioculcas-cerny--black-raven/) |
+| Sansevieria "Moonshine" XXL | sukulenty a kaktusy | 849 Kč | [detail](https://www.kytkasem.cz/sansevieria--moonshine--xxl/) |
+| Schlumbergera - Vánoční kaktus XXL | sukulenty a kaktusy | 3449 Kč | [detail](https://www.kytkasem.cz/schlumbergera-vanocni-kaktus-xxl/) |
+| Oválný květináč "šedý mramor" | črepníky | 199 Kč | [detail](https://www.kytkasem.cz/ovalny-kvetinac--sedy-mramor/) |
+| Květináč "Lovely" 12 cm | črepníky | 249 Kč | [detail](https://www.kytkasem.cz/kvetinac--lovely--12-cm/) |
+| Kokedama květináč | črepníky | 299 Kč | [detail](https://www.kytkasem.cz/kokedama-kvetinac/) |
+| Květináč "Lady" | črepníky | 299 Kč | [detail](https://www.kytkasem.cz/kvetinac--lady/) |
+| Květináč ze série "Amazonka" 13 cm | črepníky | 299 Kč | [detail](https://www.kytkasem.cz/obaly-na-kvetinace-ze-serie--amazonka/) |
+| Květináč "Napoli" 24 cm | črepníky | 499 Kč | [detail](https://www.kytkasem.cz/kvetinac--napoli--24-cm/) |
+| Bio aktivní uhlí do substrátu 500 ml | substráty | 59 Kč | [detail](https://www.kytkasem.cz/aktivni-uhli-do-substratu/) |
+| Keramzit 1 l | substráty | 59 Kč | [detail](https://www.kytkasem.cz/keramzit-1-l/) |
+| Perlit na provzdušnění substrátu - 1 litr | substráty | 59 Kč | [detail](https://www.kytkasem.cz/perlit-na-provzdusneni-substratu-1-litr/) |
+| Namíchání ideálního substrátu pro pokojovky | substráty | 63 Kč | [detail](https://www.kytkasem.cz/substrat-pro-pokojovky-namichanisubstratu/) |
+| Kokosové coco chipsy 1 litr | substráty | 69 Kč | [detail](https://www.kytkasem.cz/kokosove-coco-chipsy/) |
+| Červený písek hrubý 750 g | substráty | 79 Kč | [detail](https://www.kytkasem.cz/pisek/) |
+| Minerální substrát pro pokojovky 1 litr | substráty | 89 Kč | [detail](https://www.kytkasem.cz/-pon--smes-pro-pokojovky/) |
+| Namíchání ideálního substrátu pro Jewel orchids | substráty | 99 Kč | [detail](https://www.kytkasem.cz/namichani-idealniho-substratu-pro-jewel-orchids/) |
+| Písek BRILIANT přírodní 600g na smutnice | substráty | 99 Kč | [detail](https://www.kytkasem.cz/pisek-briliant-prirodni-600g-na-smutnice/) |
+| Kokosové vlákno 100g | substráty | 119 Kč | [detail](https://www.kytkasem.cz/kokosove-vlakno/) |

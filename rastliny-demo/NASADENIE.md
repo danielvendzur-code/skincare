@@ -14,3 +14,4 @@ Subdomény sú pripravené v routách. DNS a nový Vercel projekt sa touto zmeno
 | `gardenholice.mojchatbot.sk` | `/cosmetics.html?demo=gardenholice` |
 | `lukscheiter.mojchatbot.sk` | `/cosmetics.html?demo=lukscheiter` |
 | `zahradananiti.mojchatbot.sk` | `/cosmetics.html?demo=zahradananiti` |
+| `kytkasem.mojchatbot.sk` | `/cosmetics.html?demo=kytkasem` |

@@ -6,7 +6,7 @@ import json,sys,re
 from pathlib import Path
 from PIL import Image,ImageOps
 from net import fetch,save
-from make_assets import logo,mark,mono_logo,flat,trim,fit_on
+from make_assets import logo,mark,mono_logo,flat,trim,fit_on,save_png
 ROOT=Path(__file__).resolve().parent.parent
 slug=sys.argv[1];source=ROOT/'research/source-images';source.mkdir(exist_ok=True,parents=True)
 source_path=sorted((ROOT/'research').glob(f'*/{slug}-products.json'))[-1]
@@ -68,7 +68,7 @@ elif slug in additions:
  logo(str(original),out/f'{slug}-logo.png')
  img=Image.open(out/f'{slug}-logo.png')
  if img.width<600:
-  img=img.resize((img.width*3,img.height*3),Image.Resampling.LANCZOS);img.save(out/f'{slug}-logo.png')
+  img=img.resize((img.width*3,img.height*3),Image.Resampling.LANCZOS);save_png(img,out/f'{slug}-logo.png')
  motif=source/f'{slug}-mark.original';motif.write_bytes(fetch(b.get('markSource',b['logoSource'])))
  if '.svg' in b.get('markSource',b['logoSource']).split('?')[0]:
   import cairosvg
@@ -77,7 +77,7 @@ elif slug in additions:
   im=Image.open(motif).convert('RGBA').crop(tuple(b['markCrop']));im.save(source/f'{slug}-mark-crop.png');motif=source/f'{slug}-mark-crop.png'
  logo(str(motif),out/f'{slug}-mark.png')
  if b.get('markWhite'):
-  im=Image.open(out/f'{slug}-mark.png').convert('RGBA');alpha=im.getchannel('A');im=Image.new('RGBA',im.size,'white');im.putalpha(alpha);im.save(out/f'{slug}-mark.png')
+  im=Image.open(out/f'{slug}-mark.png').convert('RGBA');alpha=im.getchannel('A');im=Image.new('RGBA',im.size,'white');im.putalpha(alpha);save_png(im,out/f'{slug}-mark.png')
 import subprocess
 soft=additions[slug]['theme']['soft'] if slug in additions else {'plantizia':'#eef3e9','gardenholice':'#f4f0e6','lukscheiter':'#eef3e9'}[slug]
 # Botanical/price diversity in the hero, with whole products preserved.
@@ -90,7 +90,9 @@ for kind in ['plants','plants','orchids','terrariums','outdoor','pots','airplant
  p=next((p for p,path in good if p['kind']==kind and p['priceValue']>8 and p['id'] not in hero_order and not any(p['name'].split()[0]==q['name'].split()[0] for q,path in good if q['id'] in hero_order)),None)
  if p:hero_order.append(p['id'])
 good.sort(key=lambda row:hero_order.index(row[0]['id']) if row[0]['id'] in hero_order else 99)
-subprocess.run([sys.executable,str(ROOT/'tools/make_assets.py'),slug,soft,str(out/f'{slug}-logo.png'),*[p['id']+'='+path for p,path in good]],check=True)
+# Avoid ever reading and overwriting the same PNG through a lazy decoder.
+logo_input=source/f'{slug}-logo-final-input.png';logo_input.write_bytes((out/f'{slug}-logo.png').read_bytes())
+subprocess.run([sys.executable,str(ROOT/'tools/make_assets.py'),slug,soft,str(logo_input),*[p['id']+'='+path for p,path in good]],check=True)
 canvas=Image.new('RGB',(1000,480),soft)
 for i,(p,path) in enumerate(good[:2]):
  im=flat(Image.open(path));bg=im.getpixel((1,1));tile=fit_on(trim(im),(460,420),(430,395),bg);canvas.paste(tile,(25+490*i,30))
