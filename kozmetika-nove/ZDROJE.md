@@ -519,3 +519,8 @@ krémová plocha.
 ## Rozšírenie katalógov 9. 10. 2026
 
 [Úplný prehľad zmien po ukážkach, registre, SKU a QA](REWORK-2026-10-09.md). Pôvodné tabuľky vyššie opisujú historický stav. Pri deviatich rozšírených značkách sú aktuálne produktové fakty v `catalogue-data.js` a v `research/catalogue-expansion-2026-10-09.json`.
+
+
+## Dokončenie katalógov 10. 10. 2026
+
+[Zmeny po ukážkach, registre, zdroje produktov a QA](REWORK-2026-10-10.md). Aktuálne doplnené fakty sú v `research/catalogue-expansion-2026-10-10.json`; predchádzajúce rozšírenia zostávajú v audite z 9. 10.

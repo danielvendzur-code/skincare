@@ -1,0 +1,419 @@
+{
+  "verifiedOn": "2026-10-10",
+  "browser": "Chromium 140 / Playwright 1.55.0",
+  "catalogues": [
+    {
+      "slug": "noili",
+      "viewport": "desktop",
+      "status": "PASS",
+      "products": 24,
+      "categories": [
+        "face",
+        "sets"
+      ],
+      "evidenceRun": "qa-skin-forms-final-20261010"
+    },
+    {
+      "slug": "noili",
+      "viewport": "mobile",
+      "status": "PASS",
+      "products": 24,
+      "categories": [
+        "face",
+        "sets"
+      ],
+      "evidenceRun": "qa-skin-forms-final-20261010"
+    },
+    {
+      "slug": "noili",
+      "viewport": "small",
+      "status": "PASS",
+      "products": 24,
+      "categories": [
+        "face",
+        "sets"
+      ],
+      "evidenceRun": "qa-skin-forms-final-20261010"
+    },
+    {
+      "slug": "two",
+      "viewport": "desktop",
+      "status": "PASS",
+      "products": 54,
+      "categories": [
+        "face",
+        "hair",
+        "sets",
+        "lips"
+      ],
+      "evidenceRun": "qa-skin-forms-final-20261010"
+    },
+    {
+      "slug": "two",
+      "viewport": "mobile",
+      "status": "PASS",
+      "products": 54,
+      "categories": [
+        "face",
+        "hair",
+        "sets",
+        "lips"
+      ],
+      "evidenceRun": "qa-skin-forms-final-20261010"
+    },
+    {
+      "slug": "two",
+      "viewport": "small",
+      "status": "PASS",
+      "products": 54,
+      "categories": [
+        "face",
+        "hair",
+        "sets",
+        "lips"
+      ],
+      "evidenceRun": "qa-skin-forms-final-20261010"
+    },
+    {
+      "slug": "liqoil",
+      "viewport": "desktop",
+      "status": "PASS",
+      "products": 24,
+      "categories": [
+        "face"
+      ],
+      "evidenceRun": "qa-skin-final-20261010"
+    },
+    {
+      "slug": "liqoil",
+      "viewport": "mobile",
+      "status": "PASS",
+      "products": 24,
+      "categories": [
+        "face"
+      ],
+      "evidenceRun": "qa-skin-final-20261010"
+    },
+    {
+      "slug": "liqoil",
+      "viewport": "small",
+      "status": "PASS",
+      "products": 24,
+      "categories": [
+        "face"
+      ],
+      "evidenceRun": "qa-skin-final-20261010"
+    },
+    {
+      "slug": "ponio",
+      "viewport": "desktop",
+      "status": "PASS",
+      "products": 61,
+      "categories": [
+        "face",
+        "body",
+        "hair",
+        "lips"
+      ],
+      "evidenceRun": "qa-skin-final-20261010"
+    },
+    {
+      "slug": "ponio",
+      "viewport": "mobile",
+      "status": "PASS",
+      "products": 61,
+      "categories": [
+        "face",
+        "body",
+        "hair",
+        "lips"
+      ],
+      "evidenceRun": "qa-skin-final-20261010"
+    },
+    {
+      "slug": "ponio",
+      "viewport": "small",
+      "status": "PASS",
+      "products": 61,
+      "categories": [
+        "face",
+        "body",
+        "hair",
+        "lips"
+      ],
+      "evidenceRun": "qa-skin-final-20261010"
+    },
+    {
+      "slug": "bellcoria",
+      "viewport": "desktop",
+      "status": "PASS",
+      "products": 48,
+      "categories": [
+        "face",
+        "body",
+        "hair",
+        "sets"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "bellcoria",
+      "viewport": "mobile",
+      "status": "PASS",
+      "products": 48,
+      "categories": [
+        "face",
+        "body",
+        "hair",
+        "sets"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "bellcoria",
+      "viewport": "small",
+      "status": "PASS",
+      "products": 48,
+      "categories": [
+        "face",
+        "body",
+        "hair",
+        "sets"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "mylo",
+      "viewport": "desktop",
+      "status": "PASS",
+      "products": 33,
+      "categories": [
+        "face",
+        "body",
+        "beard"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "mylo",
+      "viewport": "mobile",
+      "status": "PASS",
+      "products": 33,
+      "categories": [
+        "face",
+        "body",
+        "beard"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "mylo",
+      "viewport": "small",
+      "status": "PASS",
+      "products": 33,
+      "categories": [
+        "face",
+        "body",
+        "beard"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "yemna",
+      "viewport": "desktop",
+      "status": "PASS",
+      "products": 25,
+      "categories": [
+        "face",
+        "body",
+        "hair"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "yemna",
+      "viewport": "mobile",
+      "status": "PASS",
+      "products": 25,
+      "categories": [
+        "face",
+        "body",
+        "hair"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "yemna",
+      "viewport": "small",
+      "status": "PASS",
+      "products": 25,
+      "categories": [
+        "face",
+        "body",
+        "hair"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "pimpinella",
+      "viewport": "desktop",
+      "status": "PASS",
+      "products": 23,
+      "categories": [
+        "face",
+        "body"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "pimpinella",
+      "viewport": "mobile",
+      "status": "PASS",
+      "products": 23,
+      "categories": [
+        "face",
+        "body"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "pimpinella",
+      "viewport": "small",
+      "status": "PASS",
+      "products": 23,
+      "categories": [
+        "face",
+        "body"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "mujluj",
+      "viewport": "desktop",
+      "status": "PASS",
+      "products": 15,
+      "categories": [
+        "face",
+        "sets"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "mujluj",
+      "viewport": "mobile",
+      "status": "PASS",
+      "products": 15,
+      "categories": [
+        "face",
+        "sets"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "mujluj",
+      "viewport": "small",
+      "status": "PASS",
+      "products": 15,
+      "categories": [
+        "face",
+        "sets"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "almara",
+      "viewport": "desktop",
+      "status": "PASS",
+      "products": 77,
+      "categories": [
+        "body",
+        "home"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "almara",
+      "viewport": "mobile",
+      "status": "PASS",
+      "products": 77,
+      "categories": [
+        "body",
+        "home"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "almara",
+      "viewport": "small",
+      "status": "PASS",
+      "products": 77,
+      "categories": [
+        "body",
+        "home"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "dulcia",
+      "viewport": "desktop",
+      "status": "PASS",
+      "products": 78,
+      "categories": [
+        "face",
+        "body",
+        "eyes"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "dulcia",
+      "viewport": "mobile",
+      "status": "PASS",
+      "products": 78,
+      "categories": [
+        "face",
+        "body",
+        "eyes"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    },
+    {
+      "slug": "dulcia",
+      "viewport": "small",
+      "status": "PASS",
+      "products": 78,
+      "categories": [
+        "face",
+        "body",
+        "eyes"
+      ],
+      "evidenceRun": "qa-skin-20261010"
+    }
+  ],
+  "legacyStockRepair": [
+    {
+      "slug": "modrapupava",
+      "viewport": "desktop",
+      "status": "PASS",
+      "products": 3,
+      "paths": 3
+    },
+    {
+      "slug": "modrapupava",
+      "viewport": "mobile",
+      "status": "PASS",
+      "products": 3,
+      "paths": 3
+    },
+    {
+      "slug": "modrapupava",
+      "viewport": "small",
+      "status": "PASS",
+      "products": 3,
+      "paths": 3
+    }
+  ],
+  "totalChecks": 36,
+  "visualReview": "Official asset contact sheets and desktop/mobile screenshots reviewed before commit. Original form choices produce their actual SKU type; downloaded own photos and logos visible.",
+  "contracts": "catalogue-contract.mjs PASS; source/photo hashes checked; latest user API history and stock-repaired API tested."
+}
