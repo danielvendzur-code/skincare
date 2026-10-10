@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "puaree",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 78,
+    "categories": [
+      "makeup",
+      "face",
+      "body",
+      "hair",
+      "home"
+    ]
+  },
+  {
+    "slug": "puaree",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 78,
+    "categories": [
+      "makeup",
+      "face",
+      "body",
+      "hair",
+      "home"
+    ]
+  },
+  {
+    "slug": "puaree",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 78,
+    "categories": [
+      "makeup",
+      "face",
+      "body",
+      "hair",
+      "home"
+    ]
+  }
+]

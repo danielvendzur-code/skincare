@@ -7,7 +7,7 @@
   const widget = document.querySelector('#cx-widget');
   if (!widget || !products?.length) return;
   const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const labels = {face:'Pleť',body:'Telo',hair:'Vlasy',sets:'Sady',tea:'Čaje',home:'Vône do domácnosti',beard:'Brada',baby:'Deti a mamy',eyes:'Okolie očí',lips:'Pery',white:'Biele',red:'Červené',rose:'Ružové',orange:'Oranžové',wine:'Víno'};
+  const labels = {makeup:'Líčenie',face:'Pleť',body:'Telo',hair:'Vlasy',sets:'Sady',tea:'Čaje',home:'Vône do domácnosti',beard:'Brada',baby:'Deti a mamy',eyes:'Okolie očí',lips:'Pery',white:'Biele',red:'Červené',rose:'Ružové',orange:'Oranžové',wine:'Víno'};
   const isWine=brand.catalogueContext==='wine';
   const norm = v => String(v).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
   const nav = widget.querySelector('.cx-mode');

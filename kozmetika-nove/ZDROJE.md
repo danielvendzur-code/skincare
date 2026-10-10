@@ -524,3 +524,96 @@ krémová plocha.
 ## Dokončenie katalógov 10. 10. 2026
 
 [Zmeny po ukážkach, registre, zdroje produktov a QA](REWORK-2026-10-10.md). Aktuálne doplnené fakty sú v `research/catalogue-expansion-2026-10-10.json`; predchádzajúce rozšírenia zostávajú v audite z 9. 10.
+
+
+## Puaree — overené 10. 10. 2026
+
+- Prevádzkovateľ: Puaree, IČO **07734921**; vlastník: Adriana Šoltésová.
+- Veľkosť: **ARES 120: 6–9**. [Primárny register](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/07734921). Kód 120 znamená 6–9, nie nulový počet zamestnancov.
+- Vlastný e-shop: https://www.puaree.cz/; 78 dostupných balení. Prieskum domén, IČO a vlastníkov v existujúcich konfigoch nevykázal duplicitu.
+- Zachovaný spoločný engine, rozšírený katalóg a fotografie v každom kroku; lokálne oficiálne fotografie, bez generovaných produktových obrázkov. Symbol pri každej správe je výrez oficiálneho loga.
+- Ceny platia pre uvedené balenie. Vzorky, vypredané varianty a neoverené veľkosti sú vynechané. Identická fotografia viacerých variantov pochádza z oficiálnej spoločnej galérie produktu.
+- Dostupnosť, konkrétny variant, URL a SHA-256 obrázkov: `research/new-demos-2026-10-10.json`. UI neopakuje zdravotné tvrdenia zo zdrojových popisov.
+
+| Produkt | Balenie | Cena | Zdroj |
+|---|---|---|---|
+| Tónovací minerální pudr s extraktem z řas Nude | 10g | 479 Kč | [e-shop](https://www.puaree.cz/mineralni-pudry-s-extraktem-z-ras/tonovaci-mineralni-pudr-s-extraktem-z-ras-nude/) |
+| Lesk na rty s fosfolipidy Begonia | 5 ml | 489 Kč | [e-shop](https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-begonia/) |
+| Lesk na rty s fosfolipidy Dahlia | 5 ml | 90 Kč | [e-shop](https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-dahlia/) |
+| Lesk na rty s fosfolipidy Lilac | 5 ml | 489 Kč | [e-shop](https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-lilac/) |
+| Lesk na rty s fosfolipidy Frangipani | 5 ml | 489 Kč | [e-shop](https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-frangipani/) |
+| Lesk na rty s fosfolipidy Peony | 5 ml | 489 Kč | [e-shop](https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-peony/) |
+| Rtěnka s fosfolipidy Sungold | 5 ml | 489 Kč | [e-shop](https://www.puaree.cz/rtenky-s-fosfolipidy/rtenka-s-fosfolipidy-sungold/) |
+| Rtěnka s fosfolipidy Chocolate Orchid | 5 ml | 489 Kč | [e-shop](https://www.puaree.cz/dekorativni-kosmetika/rtenka-s-fosfolipidy-chocolate-orchid/) |
+| Rtěnka s fosfolipidy Red Rose | 5 ml | 489 Kč | [e-shop](https://www.puaree.cz/dekorativni-kosmetika/rtenka-s-fosfolipidy-red-rose/) |
+| Rtěnka s fosfolipidy Frangipani | 5 ml | 489 Kč | [e-shop](https://www.puaree.cz/dekorativni-kosmetika/rtenka-s-fosfolipidy-frangipani/) |
+| Rtěnka s fosfolipidy Sakura | 5 ml | 489 Kč | [e-shop](https://www.puaree.cz/dekorativni-kosmetika/rtenka-s-fosfolipidy-sakura/) |
+| Stylingový vlasový fluid Cashmere&Yucca | 60 ml | 449 Kč | [e-shop](https://www.puaree.cz/vlasova-kosmetika/stylingovy-vlasovy-fluid-cashmere-yucca/) |
+| Šampuk Grapefruit & May Chang | 65g | 329 Kč | [e-shop](https://www.puaree.cz/sampuky/sampuk-grapefruit-may-chang/) |
+| Kondicionér s keratinem Maracuja & Mango | 100 ml | 279 Kč | [e-shop](https://www.puaree.cz/vlasova-kosmetika/kondicioner-s-keratinem-maracuja-mango/) |
+| Kondicionér s keratinem Maracuja & Mango | 200 ml | 429 Kč | [e-shop](https://www.puaree.cz/vlasova-kosmetika/kondicioner-s-keratinem-maracuja-mango/) |
+| Vlasové sérum Milk & Coconut Oil | 100ml | 379 Kč | [e-shop](https://www.puaree.cz/vlasova-kosmetika/serum-na-vlasy/) |
+| Šampuk Ginger & Rice Protein | 65g | 329 Kč | [e-shop](https://www.puaree.cz/sampuky/sampuk-ginger/) |
+| Kondicionér s keratinem Grapefruit & May Chang | 100 ml | 279 Kč | [e-shop](https://www.puaree.cz/vlasova-kosmetika/kondicioner-s-keratinem-grapefruit-may-chang/) |
+| Kondicionér s keratinem Grapefruit & May Chang | 200 ml | 429 Kč | [e-shop](https://www.puaree.cz/vlasova-kosmetika/kondicioner-s-keratinem-grapefruit-may-chang/) |
+| Olej do difuzéru BALANCED | 10 ml | 269 Kč | [e-shop](https://www.puaree.cz/neco-navic/olej-do-difuzeru-balanced/) |
+| Olej do difuzéru Romance | 10 ml | 269 Kč | [e-shop](https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-romance/) |
+| Olej do difuzéru Unity | 10 ml | 269 Kč | [e-shop](https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-unity/) |
+| Olej do difuzéru Zen | 10 ml | 269 Kč | [e-shop](https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-zen/) |
+| Olej do difuzéru Femme | 10 ml | 269 Kč | [e-shop](https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-femme/) |
+| Olej do difuzéru Mystic | 10 ml | 269 Kč | [e-shop](https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-mystic/) |
+| Sójová vonná svíčka BALANCED | 90 g | 249 Kč | [e-shop](https://www.puaree.cz/neco-navic/sojova-vonna-svicka-balanced/) |
+| Sójová vonná svíčka BALANCED | 180 g | 429 Kč | [e-shop](https://www.puaree.cz/neco-navic/sojova-vonna-svicka-balanced/) |
+| Sójová vonná svíčka Femme | 90 g | 249 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-femme/) |
+| Sójová vonná svíčka Femme | 180 g | 429 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-femme/) |
+| Olej do difuzéru Oasis | 10 ml | 269 Kč | [e-shop](https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-oasis/) |
+| Sójová vonná svíčka Mystic | 90 g | 249 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-mystic/) |
+| Sójová vonná svíčka Mystic | 180 g | 429 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-mystic/) |
+| Svíčky ve výprodeji | 100 ml | 99 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-serenity/) |
+| Svíčky ve výprodeji | 100 ml | 99 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-serenity/) |
+| Svíčky ve výprodeji | 100 ml | 99 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-serenity/) |
+| Svíčky ve výprodeji | 100 ml | 99 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-serenity/) |
+| Sójová vonná svíčka Unity | 90 g | 249 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-unity/) |
+| Sójová vonná svíčka Unity | 180 g | 429 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-unity/) |
+| Olej do difuzéru Awake | 10 ml | 269 Kč | [e-shop](https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-awake/) |
+| Sójová vonná svíčka Zen | 90 g | 249 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-zen/) |
+| Sójová vonná svíčka Zen | 180 g | 429 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-zen/) |
+| Sójová vonná svíčka Awake | 90 g | 249 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-awake/) |
+| Sójová vonná svíčka Awake | 180 g | 429 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-awake/) |
+| Sójová vonná svíčka Romance | 90 g | 249 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-romance/) |
+| Sójová vonná svíčka Romance | 180 g | 429 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-romance/) |
+| Sprej na polštář Eucalyptus & Geranium | 55ml | 279 Kč | [e-shop](https://www.puaree.cz/sprej-na-polstar/sprej-na-polstar-eucalyptus-geranium/) |
+| Hydrofilní čistící olej Lavender & Ylang | 120ml | 439 Kč | [e-shop](https://www.puaree.cz/hydrofilni-cistici-olej/hydrofilni-cistici-olej-lavender-ylang/) |
+| Sójová vonná svíčka Oasis | 90 g | 249 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-oasis/) |
+| Sójová vonná svíčka Oasis | 180 g | 429 Kč | [e-shop](https://www.puaree.cz/svicky/sojova-vonna-svicka-oasis/) |
+| Sérum na růst řas s peptidy Hyaluronic acid & Yarrow | 5 ml | 690 Kč | [e-shop](https://www.puaree.cz/serum-na-rust-ras/serum-na-rust-ras-hyaluronic-acid-yarrow/) |
+| Pleťové sérum Bakuchiol & Acai & Moroccan Tansy | 30 ml | 990 Kč | [e-shop](https://www.puaree.cz/pletove-serum/pletove-serum-bakuchiol-acai-moroccan-tansy/) |
+| Pleťová maska Roses & Pearl & Saké | 50 ml | 659 Kč | [e-shop](https://www.puaree.cz/pletova-maska/pletova-maska-roses-pearl-sake/) |
+| Oční sérum Cucumber & Echium & Ceramides | 15 ml | 629 Kč | [e-shop](https://www.puaree.cz/pletove-serum/ocni-serum-cucumber-echium-ceramides/) |
+| Dvoufázový odličovací olej Cucumber & Chamomile | 100ml | 369 Kč | [e-shop](https://www.puaree.cz/pletovy-odlicovac/dvoufazovy-odlicovaci-olej-cucumber-chamomile/) |
+| Pleťové sérum Magnolia & Algae | 30 ml | 990 Kč | [e-shop](https://www.puaree.cz/pletove-serum/pletove-serum-magnolia-algae/) |
+| Pleťová mlha Lavender & Lactobacillus | 100ml | 489 Kč | [e-shop](https://www.puaree.cz/pletova-mlha/pletova-mlha/) |
+| Balzám na rty Red Berries | 6ml | 129 Kč | [e-shop](https://www.puaree.cz/balzam-na-rty/balzam-na-rty-jahoda-s-malinou/) |
+| Balzám na rty Citrus | 6ml | 129 Kč | [e-shop](https://www.puaree.cz/produkty/balzam-na-rty-citrus-mix/) |
+| Oční krém Rich Oils & Coffee & Coenzyme Q10 | 15 ml | 629 Kč | [e-shop](https://www.puaree.cz/pletove-kremy/ocni-krem-rich-oils-coffee-coenzym-q10/) |
+| Pleťový krém Plumeria | 50 ml | 790 Kč | [e-shop](https://www.puaree.cz/pletova-kosmetika/pletovy-krem-plumerie/) |
+| Deodorant Rose & Neroli | 30ml | 289 Kč | [e-shop](https://www.puaree.cz/deodorant/deodorant-rose-neroli-v-tube/) |
+| Deodorant Light Citrus | 30ml | 289 Kč | [e-shop](https://www.puaree.cz/deodorant/deodorant-light-citrus-v-tube/) |
+| Mýdlo Eucalyptus & Geranium | 100 g | 189 Kč | [e-shop](https://www.puaree.cz/mydla/mydlo-eucalyptus-geranium/) |
+| Mýdlo Eucalyptus & Geranium | 80 g | 159 Kč | [e-shop](https://www.puaree.cz/mydla/mydlo-eucalyptus-geranium/) |
+| Mýdlo Prosecco & Raspberries | 100 g | 189 Kč | [e-shop](https://www.puaree.cz/mydla/mydlo-prosecco-raspberries/) |
+| Mýdlo Prosecco & Raspberries | 80 g | 159 Kč | [e-shop](https://www.puaree.cz/mydla/mydlo-prosecco-raspberries/) |
+| Tělový peeling Vanilla & Pineapple | 200g | 399 Kč | [e-shop](https://www.puaree.cz/telovy-peeling/telovy-peeling-vanilla-pineapple/) |
+| Mýdlo Rosemary & Bergamot | 100 g | 189 Kč | [e-shop](https://www.puaree.cz/mydla/mydlo-rosemary-bergamot/) |
+| Mýdlo Rosemary & Bergamot | 80 g | 159 Kč | [e-shop](https://www.puaree.cz/mydla/mydlo-rosemary-bergamot/) |
+| Krém na ruce Raspberry & Honey | 50ml | 329 Kč | [e-shop](https://www.puaree.cz/telova-kosmetika/krem-na-ruce-raspberry-honey/) |
+| Krém na ruce Tropical Smooth | 50ml | 329 Kč | [e-shop](https://www.puaree.cz/telova-kosmetika/krem-na-ruce-tropical-smooth/) |
+| Mýdlo Silk & Honey | 100 g | 189 Kč | [e-shop](https://www.puaree.cz/mydla/mydlo-silk-honey/) |
+| Mýdlo Grapefruit & May Chang | 100 g | 189 Kč | [e-shop](https://www.puaree.cz/mydla/mydlo-grapefruit-may-chang/) |
+| Dvoufázový tělový olej Chocolate & Tiaré Infusion | 100ml | 429 Kč | [e-shop](https://www.puaree.cz/telovy-olej/dvoufazovy-telovy-olej-monoi-de-tahiti/) |
+| Mýdlo Lavender & Ylang | 80 g | 159 Kč | [e-shop](https://www.puaree.cz/mydla/mydlo-lavender-ylang/) |
+| Zinková mast | 100 ml | 469 Kč | [e-shop](https://www.puaree.cz/masticky/zinkova-mast/) |
+| Zinková mast | 50 ml | 289 Kč | [e-shop](https://www.puaree.cz/masticky/zinkova-mast/) |
+| Měsíčková mast s heřmánkem | 50ml | 289 Kč | [e-shop](https://www.puaree.cz/masticky/hermankovo-mesickova-mast/) |
+
+QA: desktop 1440 × 900, mobil 390 × 844 a 360 × 800 — PASS. Vizuálne skontrolované screenshoty výberu, výsledkov a chatu; bez vodorovného pretečenia, všetky lokálne fotografie načítané. Záznam: `research/qa-new-demos-2026-10-10/puaree.json`.

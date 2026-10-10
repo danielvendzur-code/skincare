@@ -1,0 +1,3413 @@
+{
+  "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+  "companies": {
+    "puaree": {
+      "name": "Puaree",
+      "ico": "07734921",
+      "size": "ARES 120: 6–9",
+      "website": "https://www.puaree.cz/",
+      "owner": "Adriana Šoltésová",
+      "exclusions": [
+        {
+          "name": "Balíček Wellness",
+          "url": "https://www.puaree.cz/produkty/vanocni-balicek-lavender-ylang/",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Balíček pleťové kosmetiky | Magnolia",
+          "url": "https://www.puaree.cz/produkty/vanocni-balicek-pletove-kosmetiky-magnolia/",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Balíček vlasové kosmetiky",
+          "url": "https://www.puaree.cz/produkty/vanocni-balicek-grapefruit-may-chang/",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Balíček pleťové kosmetiky | Bakuchiol",
+          "url": "https://www.puaree.cz/darkove-balicky/vanocni-balicek-pletove-kosmetiky-bakuchiol/",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Balíček pleťové kosmetiky | Magnolia",
+          "url": "https://www.puaree.cz/darkove-balicky/vanocni-balicek-pletove-kosmetiky-magnolia/",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Balíček pleťové kosmetiky | Bakuchiol",
+          "url": "https://www.puaree.cz/produkty/vanocni-balicek-pletove-kosmetiky-bakuchiol/",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Denní krém Intense Nutrition",
+          "url": "https://www.puaree.cz/pletova-kosmetika/denni-krem-intense-nutrition/",
+          "reason": "Vypredané plné balenie alebo dostupná iba vzorka."
+        }
+      ],
+      "logoEvidence": {
+        "sourceUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/logos/puaree_png_transparent_zakladni_purpurova.png",
+        "sourceSha256": "830c703ef2319f8a8f1a4d1bd9a9ec2442818b2334e3bfb260f8445363ddbba7",
+        "symbolCrop": [
+          601,
+          325,
+          1314,
+          1232
+        ],
+        "note": "Official logo symbol or letter cropped without redrawing; displayed on white."
+      }
+    }
+  },
+  "catalogues": {
+    "puaree": [
+      {
+        "id": "853-10g",
+        "sourceId": "853",
+        "name": "Tónovací minerální pudr s extraktem z řas Nude",
+        "originalName": "Tónovací minerální pudr s extraktem z řas Nude",
+        "url": "https://www.puaree.cz/mineralni-pudry-s-extraktem-z-ras/tonovaci-mineralni-pudr-s-extraktem-z-ras-nude/",
+        "priceAmount": 479.0,
+        "currency": "CZK",
+        "price": "479 Kč",
+        "volume": "10g",
+        "variantLabel": "",
+        "category": "makeup",
+        "kind": "Púdre",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky púdre. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/mineralni-pudry-s-extraktem-z-ras/tonovaci-mineralni-pudr-s-extraktem-z-ras-nude/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "10g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/853_tonovaci-mineralni-pudr-s-extraktem-z-ras-nude.jpg?ff=1&x=1024&y=1024&q=85&ts=699e3c56&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/853_tonovaci-mineralni-pudr-s-extraktem-z-ras-nude.jpg",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "sourceSha256": "3aa1b0382ef702b631aaeae2baf47eeb98e9f69a41c0e06487388bdc6498df95",
+          "assetSha256": "d9204d0e4ab5649d147d5708eb92c92724690437eba461ba478ab57f7ee1b25b"
+        },
+        "photo": "/assets/catalogue/puaree-853-10g.webp"
+      },
+      {
+        "id": "832-5ml",
+        "sourceId": "832",
+        "name": "Lesk na rty s fosfolipidy Begonia",
+        "originalName": "Lesk na rty s fosfolipidy Begonia",
+        "url": "https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-begonia/",
+        "priceAmount": 489.0,
+        "currency": "CZK",
+        "price": "489 Kč",
+        "volume": "5 ml",
+        "variantLabel": "",
+        "category": "makeup",
+        "kind": "Lesky na pery",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky lesky na pery. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-begonia/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "5 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/832_lesk-na-rty-s-fosfolipidy-begonia.jpg?ff=1&x=1024&y=1024&q=85&ts=671fcc22&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/832_lesk-na-rty-s-fosfolipidy-begonia.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "8c41afb009705621252eb2fc9a8c94a384a514b53b46cff9348747b90ea10741",
+          "assetSha256": "3bb68fa751e4d318fb8ae719309a66cc6086a8e5bbfd820db02aa7758660061b"
+        },
+        "photo": "/assets/catalogue/puaree-832-5ml.webp"
+      },
+      {
+        "id": "835-5ml",
+        "sourceId": "835",
+        "name": "Lesk na rty s fosfolipidy Dahlia",
+        "originalName": "Lesk na rty s fosfolipidy Dahlia",
+        "url": "https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-dahlia/",
+        "priceAmount": 90.0,
+        "currency": "CZK",
+        "price": "90 Kč",
+        "volume": "5 ml",
+        "variantLabel": "",
+        "category": "makeup",
+        "kind": "Lesky na pery",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky lesky na pery. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-dahlia/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "5 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/835_lesk-na-rty-s-fosfolipidy-dahlia.jpg?ff=1&x=1024&y=1024&q=85&ts=671fcd03&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/835_lesk-na-rty-s-fosfolipidy-dahlia.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "387006e148f782f3a1ce6d51bb373967f00d27bbde6323b3f9b4f2a1507a2492",
+          "assetSha256": "82d635e488950294822fe4632bbd874596194b62dbf5f6c866f0f2d063fe99c2"
+        },
+        "photo": "/assets/catalogue/puaree-835-5ml.webp"
+      },
+      {
+        "id": "844-5ml",
+        "sourceId": "844",
+        "name": "Lesk na rty s fosfolipidy Lilac",
+        "originalName": "Lesk na rty s fosfolipidy Lilac",
+        "url": "https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-lilac/",
+        "priceAmount": 489.0,
+        "currency": "CZK",
+        "price": "489 Kč",
+        "volume": "5 ml",
+        "variantLabel": "",
+        "category": "makeup",
+        "kind": "Lesky na pery",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky lesky na pery. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-lilac/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "5 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/844_lesk-na-rty-s-fosfolipidy-lilac.jpg?ff=1&x=1024&y=1024&q=85&ts=671fd04c&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/844_lesk-na-rty-s-fosfolipidy-lilac.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "112b38cad0a2a76320f9324ebf72d40dd8f421909ed2df257979d7a23e80b342",
+          "assetSha256": "d5a9a0168dd8de4377b2f3510b45406cda273f2569de78a08fa4f8197fec4b6e"
+        },
+        "photo": "/assets/catalogue/puaree-844-5ml.webp"
+      },
+      {
+        "id": "841-5ml",
+        "sourceId": "841",
+        "name": "Lesk na rty s fosfolipidy Frangipani",
+        "originalName": "Lesk na rty s fosfolipidy Frangipani",
+        "url": "https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-frangipani/",
+        "priceAmount": 489.0,
+        "currency": "CZK",
+        "price": "489 Kč",
+        "volume": "5 ml",
+        "variantLabel": "",
+        "category": "makeup",
+        "kind": "Lesky na pery",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky lesky na pery. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-frangipani/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "5 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/841_lesk-na-rty-s-fosfolipidy-frangipani.jpg?ff=1&x=1024&y=1024&q=85&ts=671fcf46&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/841_lesk-na-rty-s-fosfolipidy-frangipani.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "69b381612f6281c1ee92519adf84951ae47681ff08af3d67dee2be1acd8039c4",
+          "assetSha256": "e9eafe93cfc68c3d4a5302d0586e0c9af8779c650dd1f83539c8241ef3703862"
+        },
+        "photo": "/assets/catalogue/puaree-841-5ml.webp"
+      },
+      {
+        "id": "847-5ml",
+        "sourceId": "847",
+        "name": "Lesk na rty s fosfolipidy Peony",
+        "originalName": "Lesk na rty s fosfolipidy Peony",
+        "url": "https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-peony/",
+        "priceAmount": 489.0,
+        "currency": "CZK",
+        "price": "489 Kč",
+        "volume": "5 ml",
+        "variantLabel": "",
+        "category": "makeup",
+        "kind": "Lesky na pery",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky lesky na pery. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/lesky-na-rty-s-fosfolipidy/lesk-na-rty-s-fosfolipidy-peony/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "5 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/847_lesk-na-rty-s-fosfolipidy-peony.jpg?ff=1&x=1024&y=1024&q=85&ts=671fd09f&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/847_lesk-na-rty-s-fosfolipidy-peony.jpg",
+          "originalSize": [
+            2000,
+            1999
+          ],
+          "sourceSha256": "a68c490152ad49c6218cf2d651d96a0bb0abff398301af5ae5c8e49a61b7e094",
+          "assetSha256": "4f4a43f7b570f53b60974c2f0ba267ac19a63f9b77824b5ab0f3fe3c7f91caae"
+        },
+        "photo": "/assets/catalogue/puaree-847-5ml.webp"
+      },
+      {
+        "id": "693-5ml",
+        "sourceId": "693",
+        "name": "Rtěnka s fosfolipidy Sungold",
+        "originalName": "Rtěnka s fosfolipidy Sungold",
+        "url": "https://www.puaree.cz/rtenky-s-fosfolipidy/rtenka-s-fosfolipidy-sungold/",
+        "priceAmount": 489.0,
+        "currency": "CZK",
+        "price": "489 Kč",
+        "volume": "5 ml",
+        "variantLabel": "",
+        "category": "makeup",
+        "kind": "Rúže",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky rúže. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/rtenky-s-fosfolipidy/rtenka-s-fosfolipidy-sungold/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "5 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/693_rtenka-s-fosfolipidy-sungold.jpg?ff=1&x=1024&y=1024&q=85&ts=652a8a7f&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/693_rtenka-s-fosfolipidy-sungold.jpg",
+          "originalSize": [
+            2421,
+            2421
+          ],
+          "sourceSha256": "69e7400d47f49adf934385d85a93cfd2c75c936f7c0281bd149e77a6f90b02a3",
+          "assetSha256": "cd489e470cf1cf7bed52fd52ed26f8a07805e3b728addf5b41aa4d4ca0b83ef6"
+        },
+        "photo": "/assets/catalogue/puaree-693-5ml.webp"
+      },
+      {
+        "id": "708-5ml",
+        "sourceId": "708",
+        "name": "Rtěnka s fosfolipidy Chocolate Orchid",
+        "originalName": "Rtěnka s fosfolipidy Chocolate Orchid",
+        "url": "https://www.puaree.cz/dekorativni-kosmetika/rtenka-s-fosfolipidy-chocolate-orchid/",
+        "priceAmount": 489.0,
+        "currency": "CZK",
+        "price": "489 Kč",
+        "volume": "5 ml",
+        "variantLabel": "",
+        "category": "makeup",
+        "kind": "Rúže",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky rúže. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/dekorativni-kosmetika/rtenka-s-fosfolipidy-chocolate-orchid/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "5 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/708_rtenka-s-fosfolipidy-chocolate-orchid.jpg?ff=1&x=1024&y=1024&q=85&ts=652a91b7&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/708_rtenka-s-fosfolipidy-chocolate-orchid.jpg",
+          "originalSize": [
+            2203,
+            2204
+          ],
+          "sourceSha256": "12ffd92261f7a1bd3c74263775cfadf4998262df34f8d67a21a8d7603bc2e0e6",
+          "assetSha256": "10f36a8e6d05da3ba20854d40ddf160ffa2e357db243d54b7c9e2e6570823d22"
+        },
+        "photo": "/assets/catalogue/puaree-708-5ml.webp"
+      },
+      {
+        "id": "705-5ml",
+        "sourceId": "705",
+        "name": "Rtěnka s fosfolipidy Red Rose",
+        "originalName": "Rtěnka s fosfolipidy Red Rose",
+        "url": "https://www.puaree.cz/dekorativni-kosmetika/rtenka-s-fosfolipidy-red-rose/",
+        "priceAmount": 489.0,
+        "currency": "CZK",
+        "price": "489 Kč",
+        "volume": "5 ml",
+        "variantLabel": "",
+        "category": "makeup",
+        "kind": "Rúže",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky rúže. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/dekorativni-kosmetika/rtenka-s-fosfolipidy-red-rose/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "5 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/705_rtenka-s-fosfolipidy-red-rose.jpg?ff=1&x=1024&y=1024&q=85&ts=652a9071&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/705_rtenka-s-fosfolipidy-red-rose.jpg",
+          "originalSize": [
+            2182,
+            2181
+          ],
+          "sourceSha256": "aac90384370f0d6144d25d08e6246b217072e3dd41191ae7f871a47e52d1e722",
+          "assetSha256": "d72ebbec268ed2894801a95d16592ff30e64cbd64e9783decfbcad713c11bf5e"
+        },
+        "photo": "/assets/catalogue/puaree-705-5ml.webp"
+      },
+      {
+        "id": "699-5ml",
+        "sourceId": "699",
+        "name": "Rtěnka s fosfolipidy Frangipani",
+        "originalName": "Rtěnka s fosfolipidy Frangipani",
+        "url": "https://www.puaree.cz/dekorativni-kosmetika/rtenka-s-fosfolipidy-frangipani/",
+        "priceAmount": 489.0,
+        "currency": "CZK",
+        "price": "489 Kč",
+        "volume": "5 ml",
+        "variantLabel": "",
+        "category": "makeup",
+        "kind": "Rúže",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky rúže. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/dekorativni-kosmetika/rtenka-s-fosfolipidy-frangipani/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "5 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/699_rtenka-s-fosfolipidy-frangipani.jpg?ff=1&x=1024&y=1024&q=85&ts=652a8ecd&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/699_rtenka-s-fosfolipidy-frangipani.jpg",
+          "originalSize": [
+            2181,
+            2181
+          ],
+          "sourceSha256": "9181da4e78fdfbc8ef29a5f5b757c2698512c2e6b4d13326da6524800814505d",
+          "assetSha256": "68c67dd57eaf81ad3dac7453d82838072a21e53ee8c8f86fd314b249e6b790be"
+        },
+        "photo": "/assets/catalogue/puaree-699-5ml.webp"
+      },
+      {
+        "id": "696-5ml",
+        "sourceId": "696",
+        "name": "Rtěnka s fosfolipidy Sakura",
+        "originalName": "Rtěnka s fosfolipidy Sakura",
+        "url": "https://www.puaree.cz/dekorativni-kosmetika/rtenka-s-fosfolipidy-sakura/",
+        "priceAmount": 489.0,
+        "currency": "CZK",
+        "price": "489 Kč",
+        "volume": "5 ml",
+        "variantLabel": "",
+        "category": "makeup",
+        "kind": "Rúže",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky rúže. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/dekorativni-kosmetika/rtenka-s-fosfolipidy-sakura/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "5 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/696_rtenka-s-fosfolipidy-sakura.jpg?ff=1&x=1024&y=1024&q=85&ts=652a8e65&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/696_rtenka-s-fosfolipidy-sakura.jpg",
+          "originalSize": [
+            2280,
+            2280
+          ],
+          "sourceSha256": "caff7bb483ecfaf297b2292b99170ea61714828025e356a1339c1665ce1d1995",
+          "assetSha256": "34d39154e084915e54f49fa9596f689666f5b7ae6dde7a90415928b159f8761b"
+        },
+        "photo": "/assets/catalogue/puaree-696-5ml.webp"
+      },
+      {
+        "id": "739-60ml",
+        "sourceId": "739",
+        "name": "Stylingový vlasový fluid Cashmere&Yucca",
+        "originalName": "Stylingový vlasový fluid Cashmere&Yucca",
+        "url": "https://www.puaree.cz/vlasova-kosmetika/stylingovy-vlasovy-fluid-cashmere-yucca/",
+        "priceAmount": 449.0,
+        "currency": "CZK",
+        "price": "449 Kč",
+        "volume": "60 ml",
+        "variantLabel": "",
+        "category": "hair",
+        "kind": "Vlasové séra a styling",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vlasové séra a styling. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/vlasova-kosmetika/stylingovy-vlasovy-fluid-cashmere-yucca/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "60 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/739_stylingovy-vlasovy-fluid-cashmere-yucca.jpg?ff=1&x=1024&y=1024&q=85&ts=666a2d2e&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/739_stylingovy-vlasovy-fluid-cashmere-yucca.jpg",
+          "originalSize": [
+            1952,
+            1951
+          ],
+          "sourceSha256": "4dada311ceb6838b71cd6071375c1dffa2b0c20ef31b3ca91e487bdb902e9e44",
+          "assetSha256": "808ba5acb3941943d50230065d6efa3b618ccea5f834ff211b15682313930615"
+        },
+        "photo": "/assets/catalogue/puaree-739-60ml.webp"
+      },
+      {
+        "id": "651-65g",
+        "sourceId": "651",
+        "name": "Šampuk Grapefruit & May Chang",
+        "originalName": "Šampuk Grapefruit & May Chang",
+        "url": "https://www.puaree.cz/sampuky/sampuk-grapefruit-may-chang/",
+        "priceAmount": 329.0,
+        "currency": "CZK",
+        "price": "329 Kč",
+        "volume": "65g",
+        "variantLabel": "",
+        "category": "hair",
+        "kind": "Šampóny",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry",
+          "hydrate"
+        ],
+        "reason": "Z ponuky šampóny. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/sampuky/sampuk-grapefruit-may-chang/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "65g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/651-1_sampuk-grapefruit-may-chang.jpg?ff=1&x=1024&y=1024&q=85&ts=6373e17c&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/651-1_sampuk-grapefruit-may-chang.jpg",
+          "originalSize": [
+            1770,
+            1770
+          ],
+          "sourceSha256": "e9f2cd8e726194c0cea775612a1c4863b591b0b96a2f51078f331ed0c88cf0da",
+          "assetSha256": "8f804eaac47402c3083a0e4dabf3c12bd7ed5a5cf488c48e564c685e00ca6df4"
+        },
+        "photo": "/assets/catalogue/puaree-651-65g.webp"
+      },
+      {
+        "id": "598-100-100ml",
+        "sourceId": "598/100",
+        "name": "Kondicionér s keratinem Maracuja & Mango",
+        "originalName": "Kondicionér s keratinem Maracuja & Mango",
+        "url": "https://www.puaree.cz/vlasova-kosmetika/kondicioner-s-keratinem-maracuja-mango/",
+        "priceAmount": 279.0,
+        "currency": "CZK",
+        "price": "279 Kč",
+        "volume": "100 ml",
+        "variantLabel": "100 ml",
+        "category": "hair",
+        "kind": "Kondicionéry",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky kondicionéry. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/vlasova-kosmetika/kondicioner-s-keratinem-maracuja-mango/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/598_kondicioner-s-keratinem-maracuja-mango.png?ff=1&x=1024&y=1024&q=85&ts=6a0b8b53&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/598_kondicioner-s-keratinem-maracuja-mango.png",
+          "originalSize": [
+            2054,
+            2054
+          ],
+          "sourceSha256": "164c2425d7bce9131fb404ee876847d580af741be7d00f9bb59821762738ca12",
+          "assetSha256": "bade46b11cca4d8ae8e4f9d6bd7ad103711856abae4b6147a48f7baa9982c628"
+        },
+        "photo": "/assets/catalogue/puaree-598-100-100ml.webp"
+      },
+      {
+        "id": "598-200-200ml",
+        "sourceId": "598/200",
+        "name": "Kondicionér s keratinem Maracuja & Mango",
+        "originalName": "Kondicionér s keratinem Maracuja & Mango",
+        "url": "https://www.puaree.cz/vlasova-kosmetika/kondicioner-s-keratinem-maracuja-mango/",
+        "priceAmount": 429.0,
+        "currency": "CZK",
+        "price": "429 Kč",
+        "volume": "200 ml",
+        "variantLabel": "200 ml",
+        "category": "hair",
+        "kind": "Kondicionéry",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky kondicionéry. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/vlasova-kosmetika/kondicioner-s-keratinem-maracuja-mango/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "200 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/598_kondicioner-s-keratinem-maracuja-mango.png?ff=1&x=1024&y=1024&q=85&ts=6a0b8b53&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/598_kondicioner-s-keratinem-maracuja-mango.png",
+          "originalSize": [
+            2054,
+            2054
+          ],
+          "sourceSha256": "164c2425d7bce9131fb404ee876847d580af741be7d00f9bb59821762738ca12",
+          "assetSha256": "bade46b11cca4d8ae8e4f9d6bd7ad103711856abae4b6147a48f7baa9982c628"
+        },
+        "photo": "/assets/catalogue/puaree-598-200-200ml.webp"
+      },
+      {
+        "id": "34-100ml",
+        "sourceId": "34",
+        "name": "Vlasové sérum Milk & Coconut Oil",
+        "originalName": "Vlasové sérum Milk & Coconut Oil",
+        "url": "https://www.puaree.cz/vlasova-kosmetika/serum-na-vlasy/",
+        "priceAmount": 379.0,
+        "currency": "CZK",
+        "price": "379 Kč",
+        "volume": "100ml",
+        "variantLabel": "",
+        "category": "hair",
+        "kind": "Vlasové séra a styling",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry",
+          "serum"
+        ],
+        "reason": "Z ponuky vlasové séra a styling. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/vlasova-kosmetika/serum-na-vlasy/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/34_vlasove-serum-milk-coconut-oil.jpg?ff=1&x=1024&y=1024&q=85&ts=699382ea&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/34_vlasove-serum-milk-coconut-oil.jpg",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "sourceSha256": "da2653174db462557eff9955152c73c12ee98f9737971a204cdb072e992bdf6a",
+          "assetSha256": "cf7de86cd86010fc3e26c39cbafac79d6bf8560b96ecd264f0f649dadcc72abc"
+        },
+        "photo": "/assets/catalogue/puaree-34-100ml.webp"
+      },
+      {
+        "id": "135-65g",
+        "sourceId": "135",
+        "name": "Šampuk Ginger & Rice Protein",
+        "originalName": "Šampuk Ginger & Rice Protein",
+        "url": "https://www.puaree.cz/sampuky/sampuk-ginger/",
+        "priceAmount": 329.0,
+        "currency": "CZK",
+        "price": "329 Kč",
+        "volume": "65g",
+        "variantLabel": "",
+        "category": "hair",
+        "kind": "Šampóny",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry",
+          "hydrate"
+        ],
+        "reason": "Z ponuky šampóny. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/sampuky/sampuk-ginger/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "65g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/135_sampuk-ginger-rice-protein.jpg?ff=1&x=1024&y=1024&q=85&ts=69938463&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/135_sampuk-ginger-rice-protein.jpg",
+          "originalSize": [
+            3448,
+            3447
+          ],
+          "sourceSha256": "8c2cdf096286425ad09733d3505e56c386eeb07cdf2495a0cf3cc5f212ce708d",
+          "assetSha256": "a2a9f8ba229231e99accf45abb47449a3f9889cf5cad4e1db2931d79c2f68e93"
+        },
+        "photo": "/assets/catalogue/puaree-135-65g.webp"
+      },
+      {
+        "id": "592-100-100ml",
+        "sourceId": "592/100",
+        "name": "Kondicionér s keratinem Grapefruit & May Chang",
+        "originalName": "Kondicionér s keratinem Grapefruit & May Chang",
+        "url": "https://www.puaree.cz/vlasova-kosmetika/kondicioner-s-keratinem-grapefruit-may-chang/",
+        "priceAmount": 279.0,
+        "currency": "CZK",
+        "price": "279 Kč",
+        "volume": "100 ml",
+        "variantLabel": "100 ml",
+        "category": "hair",
+        "kind": "Kondicionéry",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky kondicionéry. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/vlasova-kosmetika/kondicioner-s-keratinem-grapefruit-may-chang/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/592-2_5be2ac82-3b64-490a-9b5d-0569232366cd.png?ff=1&x=1024&y=1024&q=85&ts=6a8e154b&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/592-2_5be2ac82-3b64-490a-9b5d-0569232366cd.png",
+          "originalSize": [
+            1254,
+            1254
+          ],
+          "sourceSha256": "2100316371bf65f669b4b91ef6134fa65642b1497dd61072762a80634faa4a0b",
+          "assetSha256": "ad24343f662da940e515d20ce860892960f154115e50cdc3ce8eab60acf81acb"
+        },
+        "photo": "/assets/catalogue/puaree-592-100-100ml.webp"
+      },
+      {
+        "id": "592-200-200ml",
+        "sourceId": "592/200",
+        "name": "Kondicionér s keratinem Grapefruit & May Chang",
+        "originalName": "Kondicionér s keratinem Grapefruit & May Chang",
+        "url": "https://www.puaree.cz/vlasova-kosmetika/kondicioner-s-keratinem-grapefruit-may-chang/",
+        "priceAmount": 429.0,
+        "currency": "CZK",
+        "price": "429 Kč",
+        "volume": "200 ml",
+        "variantLabel": "200 ml",
+        "category": "hair",
+        "kind": "Kondicionéry",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky kondicionéry. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/vlasova-kosmetika/kondicioner-s-keratinem-grapefruit-may-chang/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "200 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/592-2_5be2ac82-3b64-490a-9b5d-0569232366cd.png?ff=1&x=1024&y=1024&q=85&ts=6a8e154b&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/592-2_5be2ac82-3b64-490a-9b5d-0569232366cd.png",
+          "originalSize": [
+            1254,
+            1254
+          ],
+          "sourceSha256": "2100316371bf65f669b4b91ef6134fa65642b1497dd61072762a80634faa4a0b",
+          "assetSha256": "ad24343f662da940e515d20ce860892960f154115e50cdc3ce8eab60acf81acb"
+        },
+        "photo": "/assets/catalogue/puaree-592-200-200ml.webp"
+      },
+      {
+        "id": "965-10ml",
+        "sourceId": "965",
+        "name": "Olej do difuzéru BALANCED",
+        "originalName": "Olej do difuzéru BALANCED",
+        "url": "https://www.puaree.cz/neco-navic/olej-do-difuzeru-balanced/",
+        "priceAmount": 269.0,
+        "currency": "CZK",
+        "price": "269 Kč",
+        "volume": "10 ml",
+        "variantLabel": "",
+        "category": "home",
+        "kind": "Oleje do difuzéra",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky oleje do difuzéra. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/neco-navic/olej-do-difuzeru-balanced/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "10 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/965_olej-do-difuzeru-balanced.png?ff=1&x=1024&y=1024&q=85&ts=6a299557&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/965_olej-do-difuzeru-balanced.png",
+          "originalSize": [
+            2513,
+            2513
+          ],
+          "sourceSha256": "e05c8cb748199b11d741bb18c262778c478d0175f0ef939d8bd325f9be3c4136",
+          "assetSha256": "4f661888092ade827ffa945de152536c487ab9e70331fa98e6c990f5aeb3575f"
+        },
+        "photo": "/assets/catalogue/puaree-965-10ml.webp"
+      },
+      {
+        "id": "814-10ml",
+        "sourceId": "814",
+        "name": "Olej do difuzéru Romance",
+        "originalName": "Olej do difuzéru Romance",
+        "url": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-romance/",
+        "priceAmount": 269.0,
+        "currency": "CZK",
+        "price": "269 Kč",
+        "volume": "10 ml",
+        "variantLabel": "",
+        "category": "home",
+        "kind": "Oleje do difuzéra",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky oleje do difuzéra. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-romance/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "10 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/814_romance2.jpg?ff=1&x=1024&y=1024&q=85&ts=667c2900&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/814_romance2.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "9d5a4ef9a1b1b7028922c2ded550aceb7541be9f96acde82ed54ab8a869a4c0f",
+          "assetSha256": "eeffa1a9fce7020922cdbf61c5d065aea81383aac650fe229ced7f028c0d35c4"
+        },
+        "photo": "/assets/catalogue/puaree-814-10ml.webp"
+      },
+      {
+        "id": "829-10ml",
+        "sourceId": "829",
+        "name": "Olej do difuzéru Unity",
+        "originalName": "Olej do difuzéru Unity",
+        "url": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-unity/",
+        "priceAmount": 269.0,
+        "currency": "CZK",
+        "price": "269 Kč",
+        "volume": "10 ml",
+        "variantLabel": "",
+        "category": "home",
+        "kind": "Oleje do difuzéra",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky oleje do difuzéra. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-unity/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "10 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/829_unity2.jpg?ff=1&x=1024&y=1024&q=85&ts=667c2def&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/829_unity2.jpg",
+          "originalSize": [
+            2000,
+            1999
+          ],
+          "sourceSha256": "98f777bea6976405e60aaa245757761916192c55862c07db09463464e25cb377",
+          "assetSha256": "aa7f72bf47a513bf0ca5933b584a8fb618d2a259c220c3cf4fef2a88ec8f9fc3"
+        },
+        "photo": "/assets/catalogue/puaree-829-10ml.webp"
+      },
+      {
+        "id": "811-10ml",
+        "sourceId": "811",
+        "name": "Olej do difuzéru Zen",
+        "originalName": "Olej do difuzéru Zen",
+        "url": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-zen/",
+        "priceAmount": 269.0,
+        "currency": "CZK",
+        "price": "269 Kč",
+        "volume": "10 ml",
+        "variantLabel": "",
+        "category": "home",
+        "kind": "Oleje do difuzéra",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky oleje do difuzéra. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-zen/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "10 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/811_zen2.jpg?ff=1&x=1024&y=1024&q=85&ts=667c2887&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/811_zen2.jpg",
+          "originalSize": [
+            2000,
+            1999
+          ],
+          "sourceSha256": "d2e04b1e9a850adcaec54bd550f14d6bd8f0ad87d79f71ea5ede86b9873c3cf1",
+          "assetSha256": "af46afb966257214d83b3bf4fe457de6a3d5199ae56bfe97e3c6131d00f7e305"
+        },
+        "photo": "/assets/catalogue/puaree-811-10ml.webp"
+      },
+      {
+        "id": "820-10ml",
+        "sourceId": "820",
+        "name": "Olej do difuzéru Femme",
+        "originalName": "Olej do difuzéru Femme",
+        "url": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-femme/",
+        "priceAmount": 269.0,
+        "currency": "CZK",
+        "price": "269 Kč",
+        "volume": "10 ml",
+        "variantLabel": "",
+        "category": "home",
+        "kind": "Oleje do difuzéra",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky oleje do difuzéra. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-femme/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "10 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/820_femme2.jpg?ff=1&x=1024&y=1024&q=85&ts=667c2c35&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/820_femme2.jpg",
+          "originalSize": [
+            2000,
+            1999
+          ],
+          "sourceSha256": "570ce1699e3ae9f76826c4e7a454a00706640dd46708cfba3e47390c789e3c04",
+          "assetSha256": "51f2b383f30ae05ed99bc504146f95043fc5d0668ed81b7b12e394c6b98a7ab8"
+        },
+        "photo": "/assets/catalogue/puaree-820-10ml.webp"
+      },
+      {
+        "id": "817-10ml",
+        "sourceId": "817",
+        "name": "Olej do difuzéru Mystic",
+        "originalName": "Olej do difuzéru Mystic",
+        "url": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-mystic/",
+        "priceAmount": 269.0,
+        "currency": "CZK",
+        "price": "269 Kč",
+        "volume": "10 ml",
+        "variantLabel": "",
+        "category": "home",
+        "kind": "Oleje do difuzéra",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky oleje do difuzéra. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-mystic/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "10 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/817_mystic2.jpg?ff=1&x=1024&y=1024&q=85&ts=667c2ba4&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/817_mystic2.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "ce9d1107869d3141f059df57080f92effa1b2ce70eb996eb5c40216be6e7f081",
+          "assetSha256": "95f0be00e670c78f4f01e45e668fc312438508ed7d532e70744c6e4a79455dde"
+        },
+        "photo": "/assets/catalogue/puaree-817-10ml.webp"
+      },
+      {
+        "id": "962-mal-90g",
+        "sourceId": "962/MAL",
+        "name": "Sójová vonná svíčka BALANCED",
+        "originalName": "Sójová vonná svíčka BALANCED",
+        "url": "https://www.puaree.cz/neco-navic/sojova-vonna-svicka-balanced/",
+        "priceAmount": 249.0,
+        "currency": "CZK",
+        "price": "249 Kč",
+        "volume": "90 g",
+        "variantLabel": "Malá, 90g, hoří 20 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/neco-navic/sojova-vonna-svicka-balanced/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "90 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/962_balanced-svicka.png?ff=1&x=1024&y=1024&q=85&ts=6a2994ba&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/962_balanced-svicka.png",
+          "originalSize": [
+            1974,
+            1974
+          ],
+          "sourceSha256": "d45b129ebebc45d9f765dc5d21460853842e5c6b675eaa42f64e9319e39dde46",
+          "assetSha256": "459b1ec1ffd366ec0e6989472ec9cbc9e4e87f87aaca9a906883f2d5c5ffc36c"
+        },
+        "photo": "/assets/catalogue/puaree-962-mal-90g.webp"
+      },
+      {
+        "id": "962-vel-180g",
+        "sourceId": "962/VEL",
+        "name": "Sójová vonná svíčka BALANCED",
+        "originalName": "Sójová vonná svíčka BALANCED",
+        "url": "https://www.puaree.cz/neco-navic/sojova-vonna-svicka-balanced/",
+        "priceAmount": 429.0,
+        "currency": "CZK",
+        "price": "429 Kč",
+        "volume": "180 g",
+        "variantLabel": "Velká, 180g, hoří 40 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/neco-navic/sojova-vonna-svicka-balanced/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "180 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/962_balanced-svicka.png?ff=1&x=1024&y=1024&q=85&ts=6a2994ba&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/962_balanced-svicka.png",
+          "originalSize": [
+            1974,
+            1974
+          ],
+          "sourceSha256": "d45b129ebebc45d9f765dc5d21460853842e5c6b675eaa42f64e9319e39dde46",
+          "assetSha256": "459b1ec1ffd366ec0e6989472ec9cbc9e4e87f87aaca9a906883f2d5c5ffc36c"
+        },
+        "photo": "/assets/catalogue/puaree-962-vel-180g.webp"
+      },
+      {
+        "id": "760-mal-90g",
+        "sourceId": "760/MAL",
+        "name": "Sójová vonná svíčka Femme",
+        "originalName": "Sójová vonná svíčka Femme",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-femme/",
+        "priceAmount": 249.0,
+        "currency": "CZK",
+        "price": "249 Kč",
+        "volume": "90 g",
+        "variantLabel": "Malá, 90g, hoří 20 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-femme/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "90 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/760_femme.jpg?ff=1&x=1024&y=1024&q=85&ts=667c1076&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/760_femme.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "962463811f2912e50134d0f5879cdb50232dec29370308393c1604863c0072b8",
+          "assetSha256": "ef7aa8f8cb67002e1a46b15252d7764362a537efad06e134c00ff084c8ae914d"
+        },
+        "photo": "/assets/catalogue/puaree-760-mal-90g.webp"
+      },
+      {
+        "id": "760-vel-180g",
+        "sourceId": "760/VEL",
+        "name": "Sójová vonná svíčka Femme",
+        "originalName": "Sójová vonná svíčka Femme",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-femme/",
+        "priceAmount": 429.0,
+        "currency": "CZK",
+        "price": "429 Kč",
+        "volume": "180 g",
+        "variantLabel": "Velká, 180g, hoří 40 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-femme/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "180 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/760_femme.jpg?ff=1&x=1024&y=1024&q=85&ts=667c1076&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/760_femme.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "962463811f2912e50134d0f5879cdb50232dec29370308393c1604863c0072b8",
+          "assetSha256": "ef7aa8f8cb67002e1a46b15252d7764362a537efad06e134c00ff084c8ae914d"
+        },
+        "photo": "/assets/catalogue/puaree-760-vel-180g.webp"
+      },
+      {
+        "id": "805-10ml",
+        "sourceId": "805",
+        "name": "Olej do difuzéru Oasis",
+        "originalName": "Olej do difuzéru Oasis",
+        "url": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-oasis/",
+        "priceAmount": 269.0,
+        "currency": "CZK",
+        "price": "269 Kč",
+        "volume": "10 ml",
+        "variantLabel": "",
+        "category": "home",
+        "kind": "Oleje do difuzéra",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky oleje do difuzéra. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-oasis/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "10 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/805_oasis2.jpg?ff=1&x=1024&y=1024&q=85&ts=667c276e&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/805_oasis2.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "dead7eaf7a2f0baf8eb9c16c105ab669291655bc672f793508854aad27dd52dd",
+          "assetSha256": "02d86ad138c66c71f2a7fa4f5e346453ece34e551caede121ae0859e30842743"
+        },
+        "photo": "/assets/catalogue/puaree-805-10ml.webp"
+      },
+      {
+        "id": "757-mal-90g",
+        "sourceId": "757/MAL",
+        "name": "Sójová vonná svíčka Mystic",
+        "originalName": "Sójová vonná svíčka Mystic",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-mystic/",
+        "priceAmount": 249.0,
+        "currency": "CZK",
+        "price": "249 Kč",
+        "volume": "90 g",
+        "variantLabel": "Malá, 90g, hoří 20 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-mystic/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "90 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/757_mystic.jpg?ff=1&x=1024&y=1024&q=85&ts=667c0fc6&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/757_mystic.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "fa1f4f5272db996b3f4d230fd779ad0eb890679fe1f5eb70fa58a0e8a33f4eeb",
+          "assetSha256": "2aef52209215d9bb2ccc6c87a4a61c434958d08a1ea298cc5dc58376d2536f94"
+        },
+        "photo": "/assets/catalogue/puaree-757-mal-90g.webp"
+      },
+      {
+        "id": "757-vel-180g",
+        "sourceId": "757/VEL",
+        "name": "Sójová vonná svíčka Mystic",
+        "originalName": "Sójová vonná svíčka Mystic",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-mystic/",
+        "priceAmount": 429.0,
+        "currency": "CZK",
+        "price": "429 Kč",
+        "volume": "180 g",
+        "variantLabel": "Velká, 180g, hoří 40 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-mystic/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "180 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/757_mystic.jpg?ff=1&x=1024&y=1024&q=85&ts=667c0fc6&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/757_mystic.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "fa1f4f5272db996b3f4d230fd779ad0eb890679fe1f5eb70fa58a0e8a33f4eeb",
+          "assetSha256": "2aef52209215d9bb2ccc6c87a4a61c434958d08a1ea298cc5dc58376d2536f94"
+        },
+        "photo": "/assets/catalogue/puaree-757-vel-180g.webp"
+      },
+      {
+        "id": "766-svi3-100ml",
+        "sourceId": "766/SVI3",
+        "name": "Svíčky ve výprodeji",
+        "originalName": "Svíčky ve výprodeji",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-serenity/",
+        "priceAmount": 99.0,
+        "currency": "CZK",
+        "price": "99 Kč",
+        "volume": "100 ml",
+        "variantLabel": "Svíčka Unity",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-serenity/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/766_serenity.jpg?ff=1&x=1024&y=1024&q=85&ts=667c1e4d&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/766_serenity.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "f9bca5af30c03682e16bf862287237aa5dffdb00957a40994fb3c51185515832",
+          "assetSha256": "bf186d65686fec66ecaa60f59bf1a7803fd5e91fe881561afa278c5af21c985f"
+        },
+        "photo": "/assets/catalogue/puaree-766-svi3-100ml.webp"
+      },
+      {
+        "id": "766-svi7-100ml",
+        "sourceId": "766/SVI7",
+        "name": "Svíčky ve výprodeji",
+        "originalName": "Svíčky ve výprodeji",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-serenity/",
+        "priceAmount": 99.0,
+        "currency": "CZK",
+        "price": "99 Kč",
+        "volume": "100 ml",
+        "variantLabel": "Svíčka Femme",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-serenity/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/766_serenity.jpg?ff=1&x=1024&y=1024&q=85&ts=667c1e4d&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/766_serenity.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "f9bca5af30c03682e16bf862287237aa5dffdb00957a40994fb3c51185515832",
+          "assetSha256": "bf186d65686fec66ecaa60f59bf1a7803fd5e91fe881561afa278c5af21c985f"
+        },
+        "photo": "/assets/catalogue/puaree-766-svi7-100ml.webp"
+      },
+      {
+        "id": "766-svi8-100ml",
+        "sourceId": "766/SVI8",
+        "name": "Svíčky ve výprodeji",
+        "originalName": "Svíčky ve výprodeji",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-serenity/",
+        "priceAmount": 99.0,
+        "currency": "CZK",
+        "price": "99 Kč",
+        "volume": "100 ml",
+        "variantLabel": "Svíčka Glow",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-serenity/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/766_serenity.jpg?ff=1&x=1024&y=1024&q=85&ts=667c1e4d&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/766_serenity.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "f9bca5af30c03682e16bf862287237aa5dffdb00957a40994fb3c51185515832",
+          "assetSha256": "bf186d65686fec66ecaa60f59bf1a7803fd5e91fe881561afa278c5af21c985f"
+        },
+        "photo": "/assets/catalogue/puaree-766-svi8-100ml.webp"
+      },
+      {
+        "id": "766-svi9-100ml",
+        "sourceId": "766/SVI9",
+        "name": "Svíčky ve výprodeji",
+        "originalName": "Svíčky ve výprodeji",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-serenity/",
+        "priceAmount": 99.0,
+        "currency": "CZK",
+        "price": "99 Kč",
+        "volume": "100 ml",
+        "variantLabel": "Svíčka Mirage",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-serenity/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/766_serenity.jpg?ff=1&x=1024&y=1024&q=85&ts=667c1e4d&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/766_serenity.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "f9bca5af30c03682e16bf862287237aa5dffdb00957a40994fb3c51185515832",
+          "assetSha256": "bf186d65686fec66ecaa60f59bf1a7803fd5e91fe881561afa278c5af21c985f"
+        },
+        "photo": "/assets/catalogue/puaree-766-svi9-100ml.webp"
+      },
+      {
+        "id": "769-mal-90g",
+        "sourceId": "769/MAL",
+        "name": "Sójová vonná svíčka Unity",
+        "originalName": "Sójová vonná svíčka Unity",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-unity/",
+        "priceAmount": 249.0,
+        "currency": "CZK",
+        "price": "249 Kč",
+        "volume": "90 g",
+        "variantLabel": "Malá, 90g, hoří 20 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-unity/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "90 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/769_unity.jpg?ff=1&x=1024&y=1024&q=85&ts=667c1f12&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/769_unity.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "95ee2c3d145f5fb06ef901df3c2c2e61a3b1ea1f37ae8b61bc4d3d8a9241528b",
+          "assetSha256": "2f99abe656cdf683e64f869804126ada6082023c0c0e78a0021190e87fa15f39"
+        },
+        "photo": "/assets/catalogue/puaree-769-mal-90g.webp"
+      },
+      {
+        "id": "769-vel-180g",
+        "sourceId": "769/VEL",
+        "name": "Sójová vonná svíčka Unity",
+        "originalName": "Sójová vonná svíčka Unity",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-unity/",
+        "priceAmount": 429.0,
+        "currency": "CZK",
+        "price": "429 Kč",
+        "volume": "180 g",
+        "variantLabel": "Velká, 180g, hoří 40 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-unity/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "180 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/769_unity.jpg?ff=1&x=1024&y=1024&q=85&ts=667c1f12&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/769_unity.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "95ee2c3d145f5fb06ef901df3c2c2e61a3b1ea1f37ae8b61bc4d3d8a9241528b",
+          "assetSha256": "2f99abe656cdf683e64f869804126ada6082023c0c0e78a0021190e87fa15f39"
+        },
+        "photo": "/assets/catalogue/puaree-769-vel-180g.webp"
+      },
+      {
+        "id": "802-10ml",
+        "sourceId": "802",
+        "name": "Olej do difuzéru Awake",
+        "originalName": "Olej do difuzéru Awake",
+        "url": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-awake/",
+        "priceAmount": 269.0,
+        "currency": "CZK",
+        "price": "269 Kč",
+        "volume": "10 ml",
+        "variantLabel": "",
+        "category": "home",
+        "kind": "Oleje do difuzéra",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky oleje do difuzéra. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/olej-do-difuzeru-a-aromalamp/olej-do-difuzeru-awake/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "10 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/802_awake2.jpg?ff=1&x=1024&y=1024&q=85&ts=667c26bb&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/802_awake2.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "f5a2c3193c35bdf36ce67466bc3a41365005bccf007aefe928bd107eb3da1c23",
+          "assetSha256": "348e3bc951306010e96b6d21cdb42740f9f435510ea32c5f63027e25ac26a51c"
+        },
+        "photo": "/assets/catalogue/puaree-802-10ml.webp"
+      },
+      {
+        "id": "751-mal-90g",
+        "sourceId": "751/MAL",
+        "name": "Sójová vonná svíčka Zen",
+        "originalName": "Sójová vonná svíčka Zen",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-zen/",
+        "priceAmount": 249.0,
+        "currency": "CZK",
+        "price": "249 Kč",
+        "volume": "90 g",
+        "variantLabel": "Malá, 90g, hoří 20 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-zen/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "90 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/751_zen.jpg?ff=1&x=1024&y=1024&q=85&ts=667c0e6b&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/751_zen.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "207e96baa40f980fe5b95ad8857c6537b96007a27f28271519e850d45ebd314a",
+          "assetSha256": "6684e3b5494d68793bcec724a4927bda4211afc26c44a0b2ace4e07f6bf0ce17"
+        },
+        "photo": "/assets/catalogue/puaree-751-mal-90g.webp"
+      },
+      {
+        "id": "751-vel-180g",
+        "sourceId": "751/VEL",
+        "name": "Sójová vonná svíčka Zen",
+        "originalName": "Sójová vonná svíčka Zen",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-zen/",
+        "priceAmount": 429.0,
+        "currency": "CZK",
+        "price": "429 Kč",
+        "volume": "180 g",
+        "variantLabel": "Velká, 180g, hoří 40 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-zen/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "180 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/751_zen.jpg?ff=1&x=1024&y=1024&q=85&ts=667c0e6b&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/751_zen.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "207e96baa40f980fe5b95ad8857c6537b96007a27f28271519e850d45ebd314a",
+          "assetSha256": "6684e3b5494d68793bcec724a4927bda4211afc26c44a0b2ace4e07f6bf0ce17"
+        },
+        "photo": "/assets/catalogue/puaree-751-vel-180g.webp"
+      },
+      {
+        "id": "742-mal-90g",
+        "sourceId": "742/MAL",
+        "name": "Sójová vonná svíčka Awake",
+        "originalName": "Sójová vonná svíčka Awake",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-awake/",
+        "priceAmount": 249.0,
+        "currency": "CZK",
+        "price": "249 Kč",
+        "volume": "90 g",
+        "variantLabel": "Malá, 90g, hoří 20 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-awake/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "90 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/742_awake.jpg?ff=1&x=1024&y=1024&q=85&ts=667c07cf&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/742_awake.jpg",
+          "originalSize": [
+            2000,
+            1999
+          ],
+          "sourceSha256": "3075d2d705299e5b0f61930a1554fb2d19ae6638927ed92a59f9595533a115db",
+          "assetSha256": "b0ddf24f94c2d01dd1d5dffa44d0891ddf2b185de807b1f1b2a10125b5aa460d"
+        },
+        "photo": "/assets/catalogue/puaree-742-mal-90g.webp"
+      },
+      {
+        "id": "742-vel-180g",
+        "sourceId": "742/VEL",
+        "name": "Sójová vonná svíčka Awake",
+        "originalName": "Sójová vonná svíčka Awake",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-awake/",
+        "priceAmount": 429.0,
+        "currency": "CZK",
+        "price": "429 Kč",
+        "volume": "180 g",
+        "variantLabel": "Velká, 180g, hoří 40 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-awake/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "180 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/742_awake.jpg?ff=1&x=1024&y=1024&q=85&ts=667c07cf&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/742_awake.jpg",
+          "originalSize": [
+            2000,
+            1999
+          ],
+          "sourceSha256": "3075d2d705299e5b0f61930a1554fb2d19ae6638927ed92a59f9595533a115db",
+          "assetSha256": "b0ddf24f94c2d01dd1d5dffa44d0891ddf2b185de807b1f1b2a10125b5aa460d"
+        },
+        "photo": "/assets/catalogue/puaree-742-vel-180g.webp"
+      },
+      {
+        "id": "754-mal-90g",
+        "sourceId": "754/MAL",
+        "name": "Sójová vonná svíčka Romance",
+        "originalName": "Sójová vonná svíčka Romance",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-romance/",
+        "priceAmount": 249.0,
+        "currency": "CZK",
+        "price": "249 Kč",
+        "volume": "90 g",
+        "variantLabel": "Malá, 90g, hoří 20 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-romance/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "90 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/754_romance.jpg?ff=1&x=1024&y=1024&q=85&ts=667c0f77&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/754_romance.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "b26335765b402d17e454630f5fee47dafc56d843be634212c8a0b78aa97c1674",
+          "assetSha256": "3e934552e28670569bf3b3dae6b3c036bd74be434fc2773e903b7db0e10da2d1"
+        },
+        "photo": "/assets/catalogue/puaree-754-mal-90g.webp"
+      },
+      {
+        "id": "754-vel-180g",
+        "sourceId": "754/VEL",
+        "name": "Sójová vonná svíčka Romance",
+        "originalName": "Sójová vonná svíčka Romance",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-romance/",
+        "priceAmount": 429.0,
+        "currency": "CZK",
+        "price": "429 Kč",
+        "volume": "180 g",
+        "variantLabel": "Velká, 180g, hoří 40 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-romance/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "180 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/754_romance.jpg?ff=1&x=1024&y=1024&q=85&ts=667c0f77&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/754_romance.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "b26335765b402d17e454630f5fee47dafc56d843be634212c8a0b78aa97c1674",
+          "assetSha256": "3e934552e28670569bf3b3dae6b3c036bd74be434fc2773e903b7db0e10da2d1"
+        },
+        "photo": "/assets/catalogue/puaree-754-vel-180g.webp"
+      },
+      {
+        "id": "736-55ml",
+        "sourceId": "736",
+        "name": "Sprej na polštář Eucalyptus & Geranium",
+        "originalName": "Sprej na polštář Eucalyptus & Geranium",
+        "url": "https://www.puaree.cz/sprej-na-polstar/sprej-na-polstar-eucalyptus-geranium/",
+        "priceAmount": 279.0,
+        "currency": "CZK",
+        "price": "279 Kč",
+        "volume": "55ml",
+        "variantLabel": "",
+        "category": "home",
+        "kind": "Vonné spreje",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné spreje. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/sprej-na-polstar/sprej-na-polstar-eucalyptus-geranium/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "55ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/736_sprej-na-polstar-eucalyptus-geranium.png?ff=1&x=1024&y=1024&q=85&ts=6a0b8b74&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/736_sprej-na-polstar-eucalyptus-geranium.png",
+          "originalSize": [
+            2050,
+            2050
+          ],
+          "sourceSha256": "c1688682d127e727e5897d57dfa534a10cd8f43f452baf8a92b93489dcdbd562",
+          "assetSha256": "24b06ca05bc52edb4870de69d36f53d9b3c89ede87af1898940db1bc57ae59b6"
+        },
+        "photo": "/assets/catalogue/puaree-736-55ml.webp"
+      },
+      {
+        "id": "654-120ml",
+        "sourceId": "654",
+        "name": "Hydrofilní čistící olej Lavender & Ylang",
+        "originalName": "Hydrofilní čistící olej Lavender & Ylang",
+        "url": "https://www.puaree.cz/hydrofilni-cistici-olej/hydrofilni-cistici-olej-lavender-ylang/",
+        "priceAmount": 439.0,
+        "currency": "CZK",
+        "price": "439 Kč",
+        "volume": "120ml",
+        "variantLabel": "",
+        "category": "face",
+        "kind": "Čistenie pleti",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry",
+          "oily",
+          "clarity",
+          "oil"
+        ],
+        "reason": "Z ponuky čistenie pleti. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/hydrofilni-cistici-olej/hydrofilni-cistici-olej-lavender-ylang/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "120ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/654_hydrofilni-cistici-olej-lavender-ylang.jpg?ff=1&x=1024&y=1024&q=85&ts=636ae0d5&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/654_hydrofilni-cistici-olej-lavender-ylang.jpg",
+          "originalSize": [
+            1939,
+            1939
+          ],
+          "sourceSha256": "e116ac88d11c1d537b82afab8f21adbb43064b7055d55848ec09b9eb2500cba2",
+          "assetSha256": "69036a947482ce9703e13ce80c9c06bfefc3651364a34cf214ee88ecbb67c791"
+        },
+        "photo": "/assets/catalogue/puaree-654-120ml.webp"
+      },
+      {
+        "id": "745-mal-90g",
+        "sourceId": "745/MAL",
+        "name": "Sójová vonná svíčka Oasis",
+        "originalName": "Sójová vonná svíčka Oasis",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-oasis/",
+        "priceAmount": 249.0,
+        "currency": "CZK",
+        "price": "249 Kč",
+        "volume": "90 g",
+        "variantLabel": "Malá, 90g, hoří 20 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-oasis/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "90 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/745_oasis.jpg?ff=1&x=1024&y=1024&q=85&ts=667c0cbe&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/745_oasis.jpg",
+          "originalSize": [
+            2000,
+            1999
+          ],
+          "sourceSha256": "cba6f04574b4cf545078bf077514e472248d79000f8f5540eca1cb9d6b2e64c1",
+          "assetSha256": "b8355f5719c0b84725b0b23756d49d882f797c79452827d5106a500b328e0ea2"
+        },
+        "photo": "/assets/catalogue/puaree-745-mal-90g.webp"
+      },
+      {
+        "id": "745-vel-180g",
+        "sourceId": "745/VEL",
+        "name": "Sójová vonná svíčka Oasis",
+        "originalName": "Sójová vonná svíčka Oasis",
+        "url": "https://www.puaree.cz/svicky/sojova-vonna-svicka-oasis/",
+        "priceAmount": 429.0,
+        "currency": "CZK",
+        "price": "429 Kč",
+        "volume": "180 g",
+        "variantLabel": "Velká, 180g, hoří 40 hodin",
+        "category": "home",
+        "kind": "Vonné sviečky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky vonné sviečky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/svicky/sojova-vonna-svicka-oasis/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "180 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/745_oasis.jpg?ff=1&x=1024&y=1024&q=85&ts=667c0cbe&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/745_oasis.jpg",
+          "originalSize": [
+            2000,
+            1999
+          ],
+          "sourceSha256": "cba6f04574b4cf545078bf077514e472248d79000f8f5540eca1cb9d6b2e64c1",
+          "assetSha256": "b8355f5719c0b84725b0b23756d49d882f797c79452827d5106a500b328e0ea2"
+        },
+        "photo": "/assets/catalogue/puaree-745-vel-180g.webp"
+      },
+      {
+        "id": "850-5ml",
+        "sourceId": "850",
+        "name": "Sérum na růst řas s peptidy Hyaluronic acid & Yarrow",
+        "originalName": "Sérum na růst řas s peptidy Hyaluronic acid & Yarrow",
+        "url": "https://www.puaree.cz/serum-na-rust-ras/serum-na-rust-ras-hyaluronic-acid-yarrow/",
+        "priceAmount": 690.0,
+        "currency": "CZK",
+        "price": "690 Kč",
+        "volume": "5 ml",
+        "variantLabel": "",
+        "category": "eyes",
+        "kind": "Okolie očí",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "serum"
+        ],
+        "reason": "Z ponuky okolie očí. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/serum-na-rust-ras/serum-na-rust-ras-hyaluronic-acid-yarrow/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "5 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/850_serum-na-rust-ras-s-peptidy-hyaluronic-acid-yarrow.jpg?ff=1&x=1024&y=1024&q=85&ts=671fd91c&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/850_serum-na-rust-ras-s-peptidy-hyaluronic-acid-yarrow.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "8df1f8d41a5c0f287bf88f877f5619933e1dc1a8757bbc4adfadbb41f0d0ab5d",
+          "assetSha256": "d070265ebcd70e1a7facca053e3d0b0f593fea26e81324050220f5c9140dc11e"
+        },
+        "photo": "/assets/catalogue/puaree-850-5ml.webp"
+      },
+      {
+        "id": "467-30m2-30ml",
+        "sourceId": "467/30M2",
+        "name": "Pleťové sérum Bakuchiol & Acai & Moroccan Tansy",
+        "originalName": "Pleťové sérum Bakuchiol & Acai & Moroccan Tansy",
+        "url": "https://www.puaree.cz/pletove-serum/pletove-serum-bakuchiol-acai-moroccan-tansy/",
+        "priceAmount": 990.0,
+        "currency": "CZK",
+        "price": "990 Kč",
+        "volume": "30 ml",
+        "variantLabel": "30ml (990 Kč)",
+        "category": "face",
+        "kind": "Pleťové séra",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "serum",
+          "oil"
+        ],
+        "reason": "Z ponuky pleťové séra. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/pletove-serum/pletove-serum-bakuchiol-acai-moroccan-tansy/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "30 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/467_11-rozmer-4.png?ff=1&x=1024&y=1024&q=85&ts=69938577&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/467_11-rozmer-4.png",
+          "originalSize": [
+            1354,
+            1354
+          ],
+          "sourceSha256": "142c8128201c9849f7ca71f5a67e7f789b96ba134c3b436123d0d6a6c1b74a18",
+          "assetSha256": "e9594ed2d306ce09dd6e787a88749b27c5b88407c0b7eaed11309c71372b9c02"
+        },
+        "photo": "/assets/catalogue/puaree-467-30m2-30ml.webp"
+      },
+      {
+        "id": "660-50-50ml",
+        "sourceId": "660/50",
+        "name": "Pleťová maska Roses & Pearl & Saké",
+        "originalName": "Pleťová maska Roses & Pearl & Saké",
+        "url": "https://www.puaree.cz/pletova-maska/pletova-maska-roses-pearl-sake/",
+        "priceAmount": 659.0,
+        "currency": "CZK",
+        "price": "659 Kč",
+        "volume": "50 ml",
+        "variantLabel": "50 ml (659 Kč)",
+        "category": "face",
+        "kind": "Pleťové masky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oily",
+          "clarity",
+          "mask"
+        ],
+        "reason": "Z ponuky pleťové masky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/pletova-maska/pletova-maska-roses-pearl-sake/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "50 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/660_pletova-maska-roses-pearl-sake.jpg?ff=1&x=1024&y=1024&q=85&ts=699351c6&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/660_pletova-maska-roses-pearl-sake.jpg",
+          "originalSize": [
+            2048,
+            2048
+          ],
+          "sourceSha256": "114cba6aeba53834dc195895dfdcd6d58899cf822f42f3c86fdbb355b09dc452",
+          "assetSha256": "a515a7f26037fb09c576f7c9af853a8388995a7c85d09c2f44ee3ed66a438c0f"
+        },
+        "photo": "/assets/catalogue/puaree-660-50-50ml.webp"
+      },
+      {
+        "id": "687-15-15ml",
+        "sourceId": "687/15",
+        "name": "Oční sérum Cucumber & Echium & Ceramides",
+        "originalName": "Oční sérum Cucumber & Echium & Ceramides",
+        "url": "https://www.puaree.cz/pletove-serum/ocni-serum-cucumber-echium-ceramides/",
+        "priceAmount": 629.0,
+        "currency": "CZK",
+        "price": "629 Kč",
+        "volume": "15 ml",
+        "variantLabel": "15 ml (629 Kč)",
+        "category": "eyes",
+        "kind": "Okolie očí",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry",
+          "sensitive",
+          "hydrate",
+          "calm",
+          "serum",
+          "oil"
+        ],
+        "reason": "Z ponuky okolie očí. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/pletove-serum/ocni-serum-cucumber-echium-ceramides/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "15 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/687_ocni-serum-cucumber-echium-ceramides.jpg?ff=1&x=1024&y=1024&q=85&ts=652a829c&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/687_ocni-serum-cucumber-echium-ceramides.jpg",
+          "originalSize": [
+            2610,
+            2611
+          ],
+          "sourceSha256": "ec1e088321520a21f78c76e45c56b529ae380cceb285c747c500b2e86edeab0d",
+          "assetSha256": "8f199ae183ac5697060c89331d6c9dbadf128bb172d3982714446aa0ee05f92c"
+        },
+        "photo": "/assets/catalogue/puaree-687-15-15ml.webp"
+      },
+      {
+        "id": "601-100ml",
+        "sourceId": "601",
+        "name": "Dvoufázový odličovací olej Cucumber & Chamomile",
+        "originalName": "Dvoufázový odličovací olej Cucumber & Chamomile",
+        "url": "https://www.puaree.cz/pletovy-odlicovac/dvoufazovy-odlicovaci-olej-cucumber-chamomile/",
+        "priceAmount": 369.0,
+        "currency": "CZK",
+        "price": "369 Kč",
+        "volume": "100ml",
+        "variantLabel": "",
+        "category": "face",
+        "kind": "Čistenie pleti",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry",
+          "oil"
+        ],
+        "reason": "Z ponuky čistenie pleti. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/pletovy-odlicovac/dvoufazovy-odlicovaci-olej-cucumber-chamomile/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/601_dvoufazovy-odlicovaci-olej-cucumber-chamomile.png?ff=1&x=1024&y=1024&q=85&ts=6993660f&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/601_dvoufazovy-odlicovaci-olej-cucumber-chamomile.png",
+          "originalSize": [
+            2513,
+            2513
+          ],
+          "sourceSha256": "e86cea20b1a409ae0e9ccae71c189ee0f97bc92bba6a25958809d7a3daf81bb1",
+          "assetSha256": "a2e6a29b754523145dbaeae868351f033550a6149f2dbf53c961c8401eee50ec"
+        },
+        "photo": "/assets/catalogue/puaree-601-100ml.webp"
+      },
+      {
+        "id": "604-30m2-30ml",
+        "sourceId": "604/30M2",
+        "name": "Pleťové sérum Magnolia & Algae",
+        "originalName": "Pleťové sérum Magnolia & Algae",
+        "url": "https://www.puaree.cz/pletove-serum/pletove-serum-magnolia-algae/",
+        "priceAmount": 990.0,
+        "currency": "CZK",
+        "price": "990 Kč",
+        "volume": "30 ml",
+        "variantLabel": "30ml (990 Kč)",
+        "category": "face",
+        "kind": "Pleťové séra",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry",
+          "serum",
+          "oil"
+        ],
+        "reason": "Z ponuky pleťové séra. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/pletove-serum/pletove-serum-magnolia-algae/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "30 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/604-1_pletove-serum-magnolia-algae.png?ff=1&x=1024&y=1024&q=85&ts=6593e871&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/604-1_pletove-serum-magnolia-algae.png",
+          "originalSize": [
+            1600,
+            1600
+          ],
+          "sourceSha256": "39f0ffc063186ec80693971d6f3b417c41c0466bd5e40d79d2ae333fbee89ba5",
+          "assetSha256": "3965e0874ecf57c3d70456dd358aac76ad07282bd47e3cd6551353de3cd1ed76"
+        },
+        "photo": "/assets/catalogue/puaree-604-30m2-30ml.webp"
+      },
+      {
+        "id": "464-100ml",
+        "sourceId": "464",
+        "name": "Pleťová mlha Lavender & Lactobacillus",
+        "originalName": "Pleťová mlha Lavender & Lactobacillus",
+        "url": "https://www.puaree.cz/pletova-mlha/pletova-mlha/",
+        "priceAmount": 489.0,
+        "currency": "CZK",
+        "price": "489 Kč",
+        "volume": "100ml",
+        "variantLabel": "",
+        "category": "face",
+        "kind": "Pleťové toniká",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "hydrate",
+          "cream"
+        ],
+        "reason": "Z ponuky pleťové toniká. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/pletova-mlha/pletova-mlha/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/464_na--vrh-bez-na--zvu--2.png?ff=1&x=1024&y=1024&q=85&ts=6593e9b3&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/464_na--vrh-bez-na--zvu--2.png",
+          "originalSize": [
+            1600,
+            1600
+          ],
+          "sourceSha256": "3b0aa5750801f67c9123852240d5248e18cc4010c1ffa162bc191d0dd4282b17",
+          "assetSha256": "dcbde63b303f1492430c0509e7f694b9bd7d5851a722314b6699ef0b9e4ae7a7"
+        },
+        "photo": "/assets/catalogue/puaree-464-100ml.webp"
+      },
+      {
+        "id": "335-6ml",
+        "sourceId": "335",
+        "name": "Balzám na rty Red Berries",
+        "originalName": "Balzám na rty Red Berries",
+        "url": "https://www.puaree.cz/balzam-na-rty/balzam-na-rty-jahoda-s-malinou/",
+        "priceAmount": 129.0,
+        "currency": "CZK",
+        "price": "129 Kč",
+        "volume": "6ml",
+        "variantLabel": "",
+        "category": "lips",
+        "kind": "Balzamy na pery",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky balzamy na pery. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/balzam-na-rty/balzam-na-rty-jahoda-s-malinou/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "6ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/335_balzam-na-rty-red-berries.png?ff=1&x=1024&y=1024&q=85&ts=699f4598&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/335_balzam-na-rty-red-berries.png",
+          "originalSize": [
+            2513,
+            2513
+          ],
+          "sourceSha256": "b59cbd1bbb863d10bef5a27bdd268dabe5668d81b01f313257bbcbdf1ba2b6d9",
+          "assetSha256": "03750180dd55d68406f634b9908ab6f32cbc191fb13be89cfc724959b75ec2e7"
+        },
+        "photo": "/assets/catalogue/puaree-335-6ml.webp"
+      },
+      {
+        "id": "341-6ml",
+        "sourceId": "341",
+        "name": "Balzám na rty Citrus",
+        "originalName": "Balzám na rty Citrus",
+        "url": "https://www.puaree.cz/produkty/balzam-na-rty-citrus-mix/",
+        "priceAmount": 129.0,
+        "currency": "CZK",
+        "price": "129 Kč",
+        "volume": "6ml",
+        "variantLabel": "",
+        "category": "lips",
+        "kind": "Balzamy na pery",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky balzamy na pery. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/produkty/balzam-na-rty-citrus-mix/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "6ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/341_balzam-na-rty-citrus.png?ff=1&x=1024&y=1024&q=85&ts=699f44c1&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/341_balzam-na-rty-citrus.png",
+          "originalSize": [
+            2513,
+            2513
+          ],
+          "sourceSha256": "dcc058bc004641fd911dd0964dd78ba0c39a6c6eccc0f5587b1c81203e54e5c8",
+          "assetSha256": "c2a4fb02790703a2401cd6606587c8743b5150693aefda88cd4654132f01bed1"
+        },
+        "photo": "/assets/catalogue/puaree-341-6ml.webp"
+      },
+      {
+        "id": "458-15-15ml",
+        "sourceId": "458/15",
+        "name": "Oční krém Rich Oils & Coffee & Coenzyme Q10",
+        "originalName": "Oční krém Rich Oils & Coffee & Coenzyme Q10",
+        "url": "https://www.puaree.cz/pletove-kremy/ocni-krem-rich-oils-coffee-coenzym-q10/",
+        "priceAmount": 629.0,
+        "currency": "CZK",
+        "price": "629 Kč",
+        "volume": "15 ml",
+        "variantLabel": "15 ml (629 Kč)",
+        "category": "eyes",
+        "kind": "Okolie očí",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "mature",
+          "cream"
+        ],
+        "reason": "Z ponuky okolie očí. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/pletove-kremy/ocni-krem-rich-oils-coffee-coenzym-q10/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "15 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/458-2_ocni-krem-rich-oils-coffee-coenzyme-q10.jpg?ff=1&x=1024&y=1024&q=85&ts=622b38f1&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/458-2_ocni-krem-rich-oils-coffee-coenzyme-q10.jpg",
+          "originalSize": [
+            2209,
+            2209
+          ],
+          "sourceSha256": "e5e98f65c03dec853a7141047d8608caef25697006dbd7957ff63bbb2add8073",
+          "assetSha256": "eda06e806d08a8ce530b8cbe1bf87d3280a567efd66976f6d221439a03e53100"
+        },
+        "photo": "/assets/catalogue/puaree-458-15-15ml.webp"
+      },
+      {
+        "id": "353-50m2-50ml",
+        "sourceId": "353/50M2",
+        "name": "Pleťový krém Plumeria",
+        "originalName": "Pleťový krém Plumeria",
+        "url": "https://www.puaree.cz/pletova-kosmetika/pletovy-krem-plumerie/",
+        "priceAmount": 790.0,
+        "currency": "CZK",
+        "price": "790 Kč",
+        "volume": "50 ml",
+        "variantLabel": "50ml (790 Kč)",
+        "category": "face",
+        "kind": "Pleťové krémy",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry",
+          "hydrate",
+          "cream"
+        ],
+        "reason": "Z ponuky pleťové krémy. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/pletova-kosmetika/pletovy-krem-plumerie/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "50 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/353-3_plumeria-2--misto-cosmopolitan-2026.png?ff=1&x=1024&y=1024&q=85&ts=6a3a83a9&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/353-3_plumeria-2--misto-cosmopolitan-2026.png",
+          "originalSize": [
+            1931,
+            1931
+          ],
+          "sourceSha256": "02b592ed06d4efa569ff5bda288e5804bdb7a49336e08e96c027c03a05a42335",
+          "assetSha256": "df9753c30d5dbe300173e003e891d8b169688a4656dfaf441a4c39d60aea466f"
+        },
+        "photo": "/assets/catalogue/puaree-353-50m2-50ml.webp"
+      },
+      {
+        "id": "642-30ml",
+        "sourceId": "642",
+        "name": "Deodorant Rose & Neroli",
+        "originalName": "Deodorant Rose & Neroli",
+        "url": "https://www.puaree.cz/deodorant/deodorant-rose-neroli-v-tube/",
+        "priceAmount": 289.0,
+        "currency": "CZK",
+        "price": "289 Kč",
+        "volume": "30ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Deodoranty",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky deodoranty. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/deodorant/deodorant-rose-neroli-v-tube/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "30ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/642_deodorant-rose-neroli.png?ff=1&x=1024&y=1024&q=85&ts=699f51b0&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/642_deodorant-rose-neroli.png",
+          "originalSize": [
+            2346,
+            2346
+          ],
+          "sourceSha256": "a34c7df28ff3db628198c2f854b8cdd05d51c04a12e1cb1e12e2477a32b65df2",
+          "assetSha256": "e71d1e979201b57c479cc44b9eed71692dee4ae039ba2eef5e6340cb3a22bd82"
+        },
+        "photo": "/assets/catalogue/puaree-642-30ml.webp"
+      },
+      {
+        "id": "645-30ml",
+        "sourceId": "645",
+        "name": "Deodorant Light Citrus",
+        "originalName": "Deodorant Light Citrus",
+        "url": "https://www.puaree.cz/deodorant/deodorant-light-citrus-v-tube/",
+        "priceAmount": 289.0,
+        "currency": "CZK",
+        "price": "289 Kč",
+        "volume": "30ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Deodoranty",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky deodoranty. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/deodorant/deodorant-light-citrus-v-tube/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "30ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/645_deodorant-light-citrus.png?ff=1&x=1024&y=1024&q=85&ts=699f5102&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/645_deodorant-light-citrus.png",
+          "originalSize": [
+            2482,
+            2482
+          ],
+          "sourceSha256": "775e1ff4c52df53bd61fd5b1063141a68c3d2d80ebae36c487a9ffd96860ac6d",
+          "assetSha256": "0232c000ac184a3962d02b91f124b921c5bc6c498e6adca1dc503f18601c4202"
+        },
+        "photo": "/assets/catalogue/puaree-645-30ml.webp"
+      },
+      {
+        "id": "928-100-100g",
+        "sourceId": "928/100",
+        "name": "Mýdlo Eucalyptus & Geranium",
+        "originalName": "Mýdlo Eucalyptus & Geranium",
+        "url": "https://www.puaree.cz/mydla/mydlo-eucalyptus-geranium/",
+        "priceAmount": 189.0,
+        "currency": "CZK",
+        "price": "189 Kč",
+        "volume": "100 g",
+        "variantLabel": "100g (189 Kč)",
+        "category": "body",
+        "kind": "Mydlá",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky mydlá. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/mydla/mydlo-eucalyptus-geranium/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/928_mydlo-eucalyptus.jpg?ff=1&x=1024&y=1024&q=85&ts=68e95c0c&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/928_mydlo-eucalyptus.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "3d8bc2bd514ea39e8bd1d2fd314cc18dc5b6a388bc6613b26cad6e17893c167c",
+          "assetSha256": "bbe6abb4fd494feb1f5a08f55a8f2bbbe2c3ad1617d06e504ea4f75a93e2cc10"
+        },
+        "photo": "/assets/catalogue/puaree-928-100-100g.webp"
+      },
+      {
+        "id": "928-80g-80g",
+        "sourceId": "928/80G",
+        "name": "Mýdlo Eucalyptus & Geranium",
+        "originalName": "Mýdlo Eucalyptus & Geranium",
+        "url": "https://www.puaree.cz/mydla/mydlo-eucalyptus-geranium/",
+        "priceAmount": 159.0,
+        "currency": "CZK",
+        "price": "159 Kč",
+        "volume": "80 g",
+        "variantLabel": "80g (159 Kč)",
+        "category": "body",
+        "kind": "Mydlá",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky mydlá. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/mydla/mydlo-eucalyptus-geranium/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "80 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/928_mydlo-eucalyptus.jpg?ff=1&x=1024&y=1024&q=85&ts=68e95c0c&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/928_mydlo-eucalyptus.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "3d8bc2bd514ea39e8bd1d2fd314cc18dc5b6a388bc6613b26cad6e17893c167c",
+          "assetSha256": "bbe6abb4fd494feb1f5a08f55a8f2bbbe2c3ad1617d06e504ea4f75a93e2cc10"
+        },
+        "photo": "/assets/catalogue/puaree-928-80g-80g.webp"
+      },
+      {
+        "id": "922-100-100g",
+        "sourceId": "922/100",
+        "name": "Mýdlo Prosecco & Raspberries",
+        "originalName": "Mýdlo Prosecco & Raspberries",
+        "url": "https://www.puaree.cz/mydla/mydlo-prosecco-raspberries/",
+        "priceAmount": 189.0,
+        "currency": "CZK",
+        "price": "189 Kč",
+        "volume": "100 g",
+        "variantLabel": "100g (189 Kč)",
+        "category": "body",
+        "kind": "Mydlá",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky mydlá. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/mydla/mydlo-prosecco-raspberries/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/922_mydlo-raspberries.jpg?ff=1&x=1024&y=1024&q=85&ts=68e959d2&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/922_mydlo-raspberries.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "fa1d617aaa659c4692d04e8d62bf52140bba24145f16b56368a0cf16e2125739",
+          "assetSha256": "336fe3469d2682d9b1388b39286aac236b0b4fb294d5fbd496e09c0e4ccedf4f"
+        },
+        "photo": "/assets/catalogue/puaree-922-100-100g.webp"
+      },
+      {
+        "id": "922-80g-80g",
+        "sourceId": "922/80G",
+        "name": "Mýdlo Prosecco & Raspberries",
+        "originalName": "Mýdlo Prosecco & Raspberries",
+        "url": "https://www.puaree.cz/mydla/mydlo-prosecco-raspberries/",
+        "priceAmount": 159.0,
+        "currency": "CZK",
+        "price": "159 Kč",
+        "volume": "80 g",
+        "variantLabel": "80g (159 Kč)",
+        "category": "body",
+        "kind": "Mydlá",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky mydlá. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/mydla/mydlo-prosecco-raspberries/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "80 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/922_mydlo-raspberries.jpg?ff=1&x=1024&y=1024&q=85&ts=68e959d2&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/922_mydlo-raspberries.jpg",
+          "originalSize": [
+            2000,
+            2000
+          ],
+          "sourceSha256": "fa1d617aaa659c4692d04e8d62bf52140bba24145f16b56368a0cf16e2125739",
+          "assetSha256": "336fe3469d2682d9b1388b39286aac236b0b4fb294d5fbd496e09c0e4ccedf4f"
+        },
+        "photo": "/assets/catalogue/puaree-922-80g-80g.webp"
+      },
+      {
+        "id": "648-200g",
+        "sourceId": "648",
+        "name": "Tělový peeling Vanilla & Pineapple",
+        "originalName": "Tělový peeling Vanilla & Pineapple",
+        "url": "https://www.puaree.cz/telovy-peeling/telovy-peeling-vanilla-pineapple/",
+        "priceAmount": 399.0,
+        "currency": "CZK",
+        "price": "399 Kč",
+        "volume": "200g",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Telové peelingy",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky telové peelingy. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/telovy-peeling/telovy-peeling-vanilla-pineapple/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "200g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/648_telovy-peeling-vanilla-pineapple.png?ff=1&x=1024&y=1024&q=85&ts=699f81fb&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/648_telovy-peeling-vanilla-pineapple.png",
+          "originalSize": [
+            2513,
+            2513
+          ],
+          "sourceSha256": "7600739ecafe1ea65df55c284c1ab62dd69d6eaba0282ad9fc9bd2c68339cd6b",
+          "assetSha256": "4553c3491d6ebd78dd1585a1a4f9273d2f872d7e10bf00d28569c0d642ba69de"
+        },
+        "photo": "/assets/catalogue/puaree-648-200g.webp"
+      },
+      {
+        "id": "925-100-100g",
+        "sourceId": "925/100",
+        "name": "Mýdlo Rosemary & Bergamot",
+        "originalName": "Mýdlo Rosemary & Bergamot",
+        "url": "https://www.puaree.cz/mydla/mydlo-rosemary-bergamot/",
+        "priceAmount": 189.0,
+        "currency": "CZK",
+        "price": "189 Kč",
+        "volume": "100 g",
+        "variantLabel": "100g (189 Kč)",
+        "category": "body",
+        "kind": "Mydlá",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky mydlá. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/mydla/mydlo-rosemary-bergamot/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/925_mydlo-rosemary.jpg?ff=1&x=1024&y=1024&q=85&ts=68e95bab&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/925_mydlo-rosemary.jpg",
+          "originalSize": [
+            1966,
+            1836
+          ],
+          "sourceSha256": "c2314c4ae89807b7dc32bc9a71eaf1f60e9dca8aec984cc45ed4260fdd3da7f1",
+          "assetSha256": "97ee387a77932dc1d3070cb6a45794d6bd1db1cd52b9558421b223bc84db4a46"
+        },
+        "photo": "/assets/catalogue/puaree-925-100-100g.webp"
+      },
+      {
+        "id": "925-80g-80g",
+        "sourceId": "925/80G",
+        "name": "Mýdlo Rosemary & Bergamot",
+        "originalName": "Mýdlo Rosemary & Bergamot",
+        "url": "https://www.puaree.cz/mydla/mydlo-rosemary-bergamot/",
+        "priceAmount": 159.0,
+        "currency": "CZK",
+        "price": "159 Kč",
+        "volume": "80 g",
+        "variantLabel": "80g (159 Kč)",
+        "category": "body",
+        "kind": "Mydlá",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky mydlá. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/mydla/mydlo-rosemary-bergamot/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "80 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/925_mydlo-rosemary.jpg?ff=1&x=1024&y=1024&q=85&ts=68e95bab&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/925_mydlo-rosemary.jpg",
+          "originalSize": [
+            1966,
+            1836
+          ],
+          "sourceSha256": "c2314c4ae89807b7dc32bc9a71eaf1f60e9dca8aec984cc45ed4260fdd3da7f1",
+          "assetSha256": "97ee387a77932dc1d3070cb6a45794d6bd1db1cd52b9558421b223bc84db4a46"
+        },
+        "photo": "/assets/catalogue/puaree-925-80g-80g.webp"
+      },
+      {
+        "id": "452-50ml",
+        "sourceId": "452",
+        "name": "Krém na ruce Raspberry & Honey",
+        "originalName": "Krém na ruce Raspberry & Honey",
+        "url": "https://www.puaree.cz/telova-kosmetika/krem-na-ruce-raspberry-honey/",
+        "priceAmount": 329.0,
+        "currency": "CZK",
+        "price": "329 Kč",
+        "volume": "50ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Krémy na ruky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry",
+          "hydrate",
+          "cream"
+        ],
+        "reason": "Z ponuky krémy na ruky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/telova-kosmetika/krem-na-ruce-raspberry-honey/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "50ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/452_krem-na-ruce-raspberry-honey.png?ff=1&x=1024&y=1024&q=85&ts=6593ea54&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/452_krem-na-ruce-raspberry-honey.png",
+          "originalSize": [
+            1600,
+            1600
+          ],
+          "sourceSha256": "9d70d2e2e0b9b3eab15b4eca5bad741633a7514031575ab4d11608aa470de353",
+          "assetSha256": "563eb16347749b4e7759bce7f1f861a0b15e4968c120fa7a6da38d08fa489c2f"
+        },
+        "photo": "/assets/catalogue/puaree-452-50ml.webp"
+      },
+      {
+        "id": "449-50ml",
+        "sourceId": "449",
+        "name": "Krém na ruce Tropical Smooth",
+        "originalName": "Krém na ruce Tropical Smooth",
+        "url": "https://www.puaree.cz/telova-kosmetika/krem-na-ruce-tropical-smooth/",
+        "priceAmount": 329.0,
+        "currency": "CZK",
+        "price": "329 Kč",
+        "volume": "50ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Krémy na ruky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry",
+          "hydrate",
+          "cream"
+        ],
+        "reason": "Z ponuky krémy na ruky. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/telova-kosmetika/krem-na-ruce-tropical-smooth/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "50ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/449_krem-na-ruce-tropical-smooth.png?ff=1&x=1024&y=1024&q=85&ts=6593ea74&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/449_krem-na-ruce-tropical-smooth.png",
+          "originalSize": [
+            1600,
+            1600
+          ],
+          "sourceSha256": "9b1218f7bd4882eda6a78517dac0d36f2eb5a2f6e4b46651b494cbc2436f6635",
+          "assetSha256": "ae0a073d6ef86ecebd854d8eb0a1e0af37a22727457b624d1359ba234d56d1ca"
+        },
+        "photo": "/assets/catalogue/puaree-449-50ml.webp"
+      },
+      {
+        "id": "577-100-100g",
+        "sourceId": "577/100",
+        "name": "Mýdlo Silk & Honey",
+        "originalName": "Mýdlo Silk & Honey",
+        "url": "https://www.puaree.cz/mydla/mydlo-silk-honey/",
+        "priceAmount": 189.0,
+        "currency": "CZK",
+        "price": "189 Kč",
+        "volume": "100 g",
+        "variantLabel": "100g (189 Kč)",
+        "category": "body",
+        "kind": "Mydlá",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky mydlá. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/mydla/mydlo-silk-honey/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/577_2f7b0002-0921-4307-8d87-8c13856eae4d.png?ff=1&x=1024&y=1024&q=85&ts=6a39a7e7&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/577_2f7b0002-0921-4307-8d87-8c13856eae4d.png",
+          "originalSize": [
+            1254,
+            1254
+          ],
+          "sourceSha256": "6f7e056df1cb18d8598828bbf899e4676eb4bf67ba853650c2f36c1f01d01117",
+          "assetSha256": "37a6400d3692928577ce6eeff7d4b008f2af6b44ed256901d0dd92eb5837511c"
+        },
+        "photo": "/assets/catalogue/puaree-577-100-100g.webp"
+      },
+      {
+        "id": "574-100-100g",
+        "sourceId": "574/100",
+        "name": "Mýdlo Grapefruit & May Chang",
+        "originalName": "Mýdlo Grapefruit & May Chang",
+        "url": "https://www.puaree.cz/mydla/mydlo-grapefruit-may-chang/",
+        "priceAmount": 189.0,
+        "currency": "CZK",
+        "price": "189 Kč",
+        "volume": "100 g",
+        "variantLabel": "100g (189 Kč)",
+        "category": "body",
+        "kind": "Mydlá",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky mydlá. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/mydla/mydlo-grapefruit-may-chang/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/574_puaree-2-1.jpg?ff=1&x=1024&y=1024&q=85&ts=699f7a3b&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/574_puaree-2-1.jpg",
+          "originalSize": [
+            1655,
+            1655
+          ],
+          "sourceSha256": "c2c30f8fc5bd79b6025bf80aec0d89454f4c7e5a8884a94b4e8dbe741c8143bd",
+          "assetSha256": "2e92475fc42eb15bc1e4d02402e37156fa7beaa720f2f483d1a00b1b5f39dd72"
+        },
+        "photo": "/assets/catalogue/puaree-574-100-100g.webp"
+      },
+      {
+        "id": "356-100ml",
+        "sourceId": "356",
+        "name": "Dvoufázový tělový olej Chocolate & Tiaré Infusion",
+        "originalName": "Dvoufázový tělový olej Chocolate & Tiaré Infusion",
+        "url": "https://www.puaree.cz/telovy-olej/dvoufazovy-telovy-olej-monoi-de-tahiti/",
+        "priceAmount": 429.0,
+        "currency": "CZK",
+        "price": "429 Kč",
+        "volume": "100ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Telové oleje",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky telové oleje. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/telovy-olej/dvoufazovy-telovy-olej-monoi-de-tahiti/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/356_dvoufazovy-telovy-olej-chocolate-tiare-infusion.png?ff=1&x=1024&y=1024&q=85&ts=6593ea02&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/356_dvoufazovy-telovy-olej-chocolate-tiare-infusion.png",
+          "originalSize": [
+            1521,
+            1521
+          ],
+          "sourceSha256": "d29f2323678c59c200bc337586e0cac4947f75fc743086e5724fa9e2bc17258b",
+          "assetSha256": "15f28afc138b49be51a9ffac3faeb57769b10c4ed9f9227a83f49da0ffcd2b46"
+        },
+        "photo": "/assets/catalogue/puaree-356-100ml.webp"
+      },
+      {
+        "id": "571-80g-80g",
+        "sourceId": "571/80G",
+        "name": "Mýdlo Lavender & Ylang",
+        "originalName": "Mýdlo Lavender & Ylang",
+        "url": "https://www.puaree.cz/mydla/mydlo-lavender-ylang/",
+        "priceAmount": 159.0,
+        "currency": "CZK",
+        "price": "159 Kč",
+        "volume": "80 g",
+        "variantLabel": "80g (159 Kč)",
+        "category": "body",
+        "kind": "Mydlá",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky mydlá. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/mydla/mydlo-lavender-ylang/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "80 g"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/571_mydlo-lavender-ylang.png?ff=1&x=1024&y=1024&q=85&ts=699f7ac1&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/571_mydlo-lavender-ylang.png",
+          "originalSize": [
+            2513,
+            2513
+          ],
+          "sourceSha256": "44cb712c25a86521b0a95c4a437491d2760318ddb477785a5c022e0a2e5f539a",
+          "assetSha256": "b961f1fe0b2eaa7951322fc3a59d8374e0d33610030d8541381708baee717233"
+        },
+        "photo": "/assets/catalogue/puaree-571-80g-80g.webp"
+      },
+      {
+        "id": "126-100-100ml",
+        "sourceId": "126/100",
+        "name": "Zinková mast",
+        "originalName": "Zinková mast",
+        "url": "https://www.puaree.cz/masticky/zinkova-mast/",
+        "priceAmount": 469.0,
+        "currency": "CZK",
+        "price": "469 Kč",
+        "volume": "100 ml",
+        "variantLabel": "100 ml (469 Kč)",
+        "category": "body",
+        "kind": "Telové krémy a balzamy",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky telové krémy a balzamy. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/masticky/zinkova-mast/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "100 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/126_zinek.png?ff=1&x=1024&y=1024&q=85&ts=699f7ebb&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/126_zinek.png",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "sourceSha256": "9e9f35249e8a0be8dee6a796fdcc0db68ecca97a02c2d2ae43d629512aaf7376",
+          "assetSha256": "7dbce01af6ca76b2fb1008cc5dc238eb60825f850e4c4d6f643cc2b806300e0b"
+        },
+        "photo": "/assets/catalogue/puaree-126-100-100ml.webp"
+      },
+      {
+        "id": "126-50-50ml",
+        "sourceId": "126/50",
+        "name": "Zinková mast",
+        "originalName": "Zinková mast",
+        "url": "https://www.puaree.cz/masticky/zinkova-mast/",
+        "priceAmount": 289.0,
+        "currency": "CZK",
+        "price": "289 Kč",
+        "volume": "50 ml",
+        "variantLabel": "50 ml (289 Kč)",
+        "category": "body",
+        "kind": "Telové krémy a balzamy",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky telové krémy a balzamy. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "Skladem",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/masticky/zinkova-mast/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "50 ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/126_zinek.png?ff=1&x=1024&y=1024&q=85&ts=699f7ebb&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/126_zinek.png",
+          "originalSize": [
+            1024,
+            1024
+          ],
+          "sourceSha256": "9e9f35249e8a0be8dee6a796fdcc0db68ecca97a02c2d2ae43d629512aaf7376",
+          "assetSha256": "7dbce01af6ca76b2fb1008cc5dc238eb60825f850e4c4d6f643cc2b806300e0b"
+        },
+        "photo": "/assets/catalogue/puaree-126-50-50ml.webp"
+      },
+      {
+        "id": "129-50ml",
+        "sourceId": "129",
+        "name": "Měsíčková mast s heřmánkem",
+        "originalName": "Měsíčková mast s heřmánkem",
+        "url": "https://www.puaree.cz/masticky/hermankovo-mesickova-mast/",
+        "priceAmount": 289.0,
+        "currency": "CZK",
+        "price": "289 Kč",
+        "volume": "50ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Telové krémy a balzamy",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "dry"
+        ],
+        "reason": "Z ponuky telové krémy a balzamy. Úplné zloženie a použitie sú uvedené pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.puaree.cz/masticky/hermankovo-mesickova-mast/",
+          "source": "Explicit selectable variant label or official product weight/volume statement",
+          "volume": "50ml"
+        },
+        "imageUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/big/129_mesickova-mast-s-hermankem.png?ff=1&x=1024&y=1024&q=85&ts=699f76f1&sg=38cb01fe",
+        "verifiedAt": "2026-10-10T20:06:09.529638+00:00",
+        "assetEvidence": {
+          "url": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/shop/orig/129_mesickova-mast-s-hermankem.png",
+          "originalSize": [
+            2198,
+            2198
+          ],
+          "sourceSha256": "f8bdab5d7eeb7953f549c34c64d0de1153d9fd897e70febfd5d8427b32035b60",
+          "assetSha256": "fbbc20108e36b6c40279c8c24c8d67762f3b6a1c907bf61af4ecff2a78f3cbd9"
+        },
+        "photo": "/assets/catalogue/puaree-129-50ml.webp"
+      }
+    ]
+  }
+}
