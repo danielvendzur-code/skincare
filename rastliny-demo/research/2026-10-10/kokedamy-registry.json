@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-10",
+  "company": "NAVONA Gardens, s.r.o.",
+  "ico": "05753147",
+  "owners": [
+    "Ing. Petra Smetana",
+    "Ondřej Smetana"
+  ],
+  "executives": [
+    "Ing. Petra Smetana",
+    "Ondřej Smetana"
+  ],
+  "employees": {
+    "code": "120",
+    "range": "6–9",
+    "source": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/05753147",
+    "recordUpdated": "2024-11-03"
+  },
+  "revenue": {
+    "value": null,
+    "year": null,
+    "note": "Tržby nie sú doložené použitým verejným registrom; veľkosť overená podľa ARES."
+  },
+  "ownersSource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/05753147"
+}

@@ -511,5 +511,67 @@
       "p997",
       "p3180"
     ]
+  },
+  "kokedamy": {
+    "name": "Kokedamy.cz",
+    "website": "https://www.kokedamy.cz/",
+    "currency": "CZK",
+    "platform": "woocommerce",
+    "kinds": [
+      "plants",
+      "succulents"
+    ],
+    "kindLabels": {
+      "plants": "Listové kokedamy",
+      "succulents": "Sukulentné kokedamy"
+    },
+    "categories": {
+      "plants": [
+        67
+      ]
+    },
+    "categoryNotes": {
+      "plants": "Palmy, papradie a listové izbové druhy",
+      "succulents": "Sukulenty podľa popisu pestovateľa"
+    },
+    "theme": {
+      "brand": "#374f2d",
+      "accent": "#4b683a",
+      "soft": "#f2f3e9",
+      "paper": "#fffefa",
+      "ink": "#293025",
+      "line": "#dce1d2"
+    },
+    "logoSource": "https://www.kokedamy.cz/wp-content/uploads/2019/03/logo_Kokedamy.cz_.png",
+    "markCrop": [
+      62,
+      0,
+      132,
+      105
+    ],
+    "logoNote": "Oficiálne logo zväčšené s Lanczos vyhladením; pôvodné tvary znakov prefarbené na tmavú machovú zelenú kvôli čitateľnosti. Symbol rastliny a machovej gule je vyrezaný z pôvodného písmena o, neutrálne okraje susedných znakov sa odfiltrovali a pôvodný symbol sa prefarbil na bielu pre viditeľnosť na brand kruhu.",
+    "themeNote": "Machová zelená z pôvodného loga; tmavšie odtiene brand a accent pre kontrast s bielym textom.",
+    "terms": "https://www.kokedamy.cz/obchodni-podminky/",
+    "fit": "Špecializovaný obchod dvoch vlastníkov, 6–9 zamestnancov podľa ARES; 18 skladových kokedám rôznych rastlín a cien, pri ktorých pomôže výber podľa svetla a starostlivosti.",
+    "exclude": "poukaz|workshop|kurz|prázdn|dárkové balení|um[eě]l",
+    "limits": {
+      "plants": 36,
+      "accessories": 4
+    },
+    "heroNames": [
+      "Kokedama Maranta Fascinator",
+      "Kokedama Asplenium nidus",
+      "Kokedama Nolina recurvata",
+      "Kokedama Dracaena marginata"
+    ],
+    "descriptionKinds": {
+      "succulents": "\\bsukulent(?:ní)?\\b"
+    },
+    "descriptionKindFacts": {
+      "succulents": "Predajca opisuje druh ako sukulentnú rastlinu."
+    },
+    "logoInk": "#374f2d",
+    "markColoredOnly": true,
+    "markWhite": true
   }
 }

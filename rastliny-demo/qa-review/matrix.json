@@ -502,5 +502,29 @@
       "shrubs": 24,
       "fruits": 26
     }
+  },
+  "kokedamy": {
+    "combinations": 32,
+    "empty": 0,
+    "constraintFailures": 0,
+    "uniqueWinners": 12,
+    "winners": {
+      "p4977": 1,
+      "p6574": 4,
+      "p1907": 6,
+      "p1910": 1,
+      "p3574": 1,
+      "p1909": 1,
+      "p6762": 2,
+      "p6578": 6,
+      "p5312": 2,
+      "p7157": 2,
+      "p1890": 1,
+      "p7764": 5
+    },
+    "byKind": {
+      "plants": 16,
+      "succulents": 16
+    }
   }
 }

@@ -89,6 +89,11 @@ elif slug in additions:
   rendered=source/f'{slug}-mark-render.png';cairosvg.svg2png(url=str(motif),write_to=str(rendered),output_width=600);motif=rendered
  if b.get('markCrop'):
   im=Image.open(motif).convert('RGBA').crop(tuple(b['markCrop']))
+  if b.get('markColoredOnly'):
+   import numpy as np
+   rgb=np.asarray(im).copy();colors=rgb[:,:,:3].astype(int)
+   mask=colors.max(axis=2)-colors.min(axis=2)>18
+   im.putalpha(Image.fromarray((rgb[:,:,3]*mask).astype('uint8')))
   if b.get('markGreenOnly'):
    import numpy as np
    rgb=np.asarray(im);mask=(rgb[:,:,1]>140)&(rgb[:,:,1]>rgb[:,:,0]*1.5)&(rgb[:,:,1]>rgb[:,:,2]*1.5)

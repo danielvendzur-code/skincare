@@ -714,7 +714,7 @@ Pri pridaní PlantBros sa opravili tagy pri vetách typu „priame slnko listy p
 - RPO pri kontrole neodpovedalo; vlastníci overení z uvedeného primárneho zdroja, veľkosť a financie z RÚZ.
 - Prečo sedí: Nové rastlinné s.r.o. od januára 2026, 1 zamestnanec podľa registra; mnoho podobných izbových a raritných druhov, pri ktorých výber spresní svetlo a rozpočet. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
 - Ponuka: **25 produktov**, izbové rastliny, raritné rastliny. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
-- Ceny a sklad: WooCommerce Store API: `is_in_stock`, `is_purchasable`, pevná cena a mena. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Ceny a sklad: WooCommerce Store API: `is_in_stock` a `is_purchasable` sú true, `is_on_backorder` je false, `stock_availability.class` je in-stock; pevná cena a mena, bez variantov a cenového rozsahu. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
 - Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/izbovecky-products.json`.
 - Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://www.izbovecky.sk/wp-content/uploads/2025/11/Adobe-Express-file.png); Originálne biele písmená vybrané z oficiálnej fotografickej koláže a prevedené do tmavej zelenej pre čitateľnosť. Tvar písmen aj mäkčeň zachované; symbol je pôvodný list z koláže. 
 - Farby: `brand: #294329`, `accent: #3c6438`, `soft: #f0f3e9`, `paper: #fffefa`, `ink: #253025`, `line: #dbe0d2`. Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
@@ -815,3 +815,40 @@ Pri pridaní PlantBros sa opravili tagy pri vetách typu „priame slnko listy p
 | Marhuľa 'Sungiant' | Ovocné dreviny | 32,50 € | [detail](https://www.brest.sk/marhula-sungiant) |
 | Ziziphus jujuba ‘Gheri’s Géant’ 2 ročná | Ovocné dreviny | 39,90 € | [detail](https://www.brest.sk/ziziphus-jujuba-gheri-s-geant-2-rocna) |
 | Ficus carica 'Brown Turkey'  Strom (Brogiotto nero) | Ovocné dreviny | 49,00 € | [detail](https://www.brest.sk/Ficus-carica-Brown-Turkey-Strom-d1140.htm) |
+
+## Kokedamy.cz
+
+Svetlo a nenáročnosť všetkých 18 kokedám boli osobitne prezreté v odrážkach `short_description` predajcu. Negatívne upozornenia na priame slnko sa nepočítajú ako tolerancia slnka. Dáta majú `careReview`; dátovaný postup je v `tools/curate_kokedamy.py`. Šesť sukulentných kokedám je takto pomenovaných priamo v popise predajcu, nie odvodených iba z rodu rastliny.
+
+- Kontrola cien a skladu: **10.10.2026**, priamo z vlastného [e-shopu](https://www.kokedamy.cz/). [Identita predajcu](https://www.kokedamy.cz/obchodni-podminky/).
+- Firma: **NAVONA Gardens, s.r.o., IČO 05753147**. Vlastníci: Ing. Petra Smetana, Ondřej Smetana. Konatelia / podnikateľ: Ing. Petra Smetana, Ondřej Smetana.
+- Veľkosť: **Tržby nedoložené; 6–9 zam.**. Kód `120` v [primárnom registri](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/05753147); údaj aktualizovaný 2024-11-03, načítaný 2026-10-10. [Vlastníci](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/05753147).
+- Tržby nie sú doložené použitým verejným registrom; veľkosť overená podľa ARES.
+- Prečo sedí: Špecializovaný obchod dvoch vlastníkov, 6–9 zamestnancov podľa ARES; 18 skladových kokedám rôznych rastlín a cien, pri ktorých pomôže výber podľa svetla a starostlivosti. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **18 produktov**, listové kokedamy, sukulentné kokedamy. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: WooCommerce Store API: `is_in_stock` a `is_purchasable` sú true, `is_on_backorder` je false, `stock_availability.class` je in-stock; pevná cena a mena, bez variantov a cenového rozsahu. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-10/kokedamy-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://www.kokedamy.cz/wp-content/uploads/2019/03/logo_Kokedamy.cz_.png); Oficiálne logo zväčšené s Lanczos vyhladením; pôvodné tvary znakov prefarbené na tmavú machovú zelenú kvôli čitateľnosti. Symbol rastliny a machovej gule je vyrezaný z pôvodného písmena o, neutrálne okraje susedných znakov sa odfiltrovali a pôvodný symbol sa prefarbil na bielu pre viditeľnosť na brand kruhu.
+- Farby: `brand: #374f2d`, `accent: #4b683a`, `soft: #f2f3e9`, `paper: #fffefa`, `ink: #293025`, `line: #dce1d2`. Machová zelená z pôvodného loga; tmavšie odtiene brand a accent pre kontrast s bielym textom. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/kokedamy-qa.json`, `kokedamy-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-10/kokedamy-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Kokedama Maranta Fascinator | Listové kokedamy | 659 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-maranta-fascinator/) |
+| Kokedama Asplenium nidus | Listové kokedamy | 629 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-asplenium-nidus/) |
+| Kokedama Nolina recurvata | Listové kokedamy | 549 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-nolina-recurvata/) |
+| Kokedama Dracaena marginata | Listové kokedamy | 509 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-dracaena-marginata/) |
+| Kokedama Sansevieria Fernwood | Sukulentné kokedamy | 758 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-sansevieria-fernwood/) |
+| Kokedama Hoya | Sukulentné kokedamy | 639 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-hoya/) |
+| Kokedama Asplenium antiquum | Listové kokedamy | 629 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-asplenium-antiquum/) |
+| Kokedama Crassula ovata | Sukulentné kokedamy | 619 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-crassula-ovata/) |
+| Kokedama Sansevieria kirkii Friends | Sukulentné kokedamy | 759 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-sansevieria-kirkii-friends/) |
+| Kokedama Davallia tyermanii | Listové kokedamy | 739 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-davallia-tyermanii/) |
+| Kokedama Sansevieria bacularis Mikado | Sukulentné kokedamy | 729 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-sansevieria-bacularis-mikado/) |
+| Kokedama Platycerium | Listové kokedamy | 709 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-platycerium/) |
+| Kokedama Chamaedorea elegans | Listové kokedamy | 489 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-chamaedorea-elegans/) |
+| Kokedama Mini Asparagus setaceus | Listové kokedamy | 359 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-mini-asparagus-setaceus/) |
+| Kokedama Asparagus setaceus | Listové kokedamy | 599 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-asparagus-setaceus/) |
+| Kokedama Ficus microcarpa Ginseng | Listové kokedamy | 749 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-ficus-microcarpa-ginseng/) |
+| Kokedama Asparagus falcatus | Listové kokedamy | 599 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-asparagus-falcatus/) |
+| Kokedama Haworthia | Sukulentné kokedamy | 509 Kč | [detail](https://www.kokedamy.cz/produkt/kokedama-haworthia/) |

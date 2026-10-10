@@ -104,3 +104,5 @@ Rastlinná ukážka [Pokojovky ze severu](./rastliny-demo/sever/index.html): pri
 Rastlinná ukážka [Izbovečky](./rastliny-demo/izbovecky/index.html): pripravená subdoména `izbovecky.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
 
 Rastlinná ukážka [BREST](./rastliny-demo/brest/index.html): pripravená subdoména `brest.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Kokedamy.cz](./rastliny-demo/kokedamy/index.html): pripravená subdoména `kokedamy.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.

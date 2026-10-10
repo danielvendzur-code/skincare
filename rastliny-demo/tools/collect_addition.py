@@ -154,9 +154,16 @@ def woo_products(shop,slug):
         if not eligible(p,shop):continue
         text=plain(raw.get('short_description','')+' '+raw.get('description',''))
         if re.search(r'na objedn[aá]vku|p[řr]edobjedn|predobjedn',text,re.I):continue
+        # Optional, reviewed seller classification; never infer from a genus.
+        description_kind=next((k for k,pattern in shop.get('descriptionKinds',{}).items() if re.search(pattern,text,re.I)),None)
+        if description_kind:p['kind']=description_kind
         attrs={a['name']:[v['name'] for v in a['terms']] for a in raw['attributes']}
         # Reuse the existing detail extractor on a synthetic description only.
         p.update(tags=[],facts=[]);p=care(p,text,attrs,cats);p['sourceAttributes']=attrs;p['sourceCategories']=cats;p['sourceStockEvidence']={k:raw.get(k) for k in ['is_in_stock','is_on_backorder','stock_availability']}
+        if description_kind:
+            p['classificationSource']='seller-description'
+            fact=shop.get('descriptionKindFacts',{}).get(description_kind)
+            if fact:p['facts'].append(fact);p['reason']=' '.join(p['facts'][:3])
         result.append(p)
     return result
 

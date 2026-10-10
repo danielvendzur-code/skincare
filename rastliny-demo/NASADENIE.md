@@ -21,3 +21,4 @@ Subdomény sú pripravené v routách. DNS a nový Vercel projekt sa touto zmeno
 | `sever.mojchatbot.sk` | `/cosmetics.html?demo=sever` |
 | `izbovecky.mojchatbot.sk` | `/cosmetics.html?demo=izbovecky` |
 | `brest.mojchatbot.sk` | `/cosmetics.html?demo=brest` |
+| `kokedamy.mojchatbot.sk` | `/cosmetics.html?demo=kokedamy` |
