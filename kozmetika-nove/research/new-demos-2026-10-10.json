@@ -460,6 +460,60 @@
         ],
         "note": "Official logo symbol or letter cropped without redrawing; displayed on white."
       }
+    },
+    "kvetu": {
+      "name": "Kvetu",
+      "ico": "14308584",
+      "size": "ARES 120: 6–9",
+      "website": "https://www.kvetu.cz/",
+      "owner": "Helena Guthová (80 %) a Miroslava Šváchová (20 %)",
+      "exclusions": [
+        {
+          "name": "Pleťový krém a olej Damašská růže",
+          "url": "https://www.kvetu.cz/pletovy-krem-a-olej-damasska-ruze",
+          "reason": "Na dotaz / mimo skladu podľa oficiálnej produktovej ponuky."
+        },
+        {
+          "name": "Pleťový krém a olej Damašská růže v dárkovém balení",
+          "url": "https://www.kvetu.cz/pletovy-krem-a-olej-damasska-ruze-v-darkovem-baleni",
+          "reason": "Na dotaz / mimo skladu podľa oficiálnej produktovej ponuky."
+        },
+        {
+          "name": "Pleťový krém Damašská růže 50ml",
+          "url": "https://www.kvetu.cz/pletovy-krem-damasska-ruze",
+          "reason": "Na dotaz / mimo skladu podľa oficiálnej produktovej ponuky."
+        },
+        {
+          "name": "Dětská péče - měsíčkový olej 100ml",
+          "url": "https://www.kvetu.cz/detska-pece-mesickovy-olej",
+          "reason": "Na dotaz / mimo skladu podľa oficiálnej produktovej ponuky."
+        },
+        {
+          "name": "Tinktura Imunita & energie",
+          "url": "https://www.kvetu.cz/tinktura-imunita-energie",
+          "reason": "Na dotaz / mimo skladu podľa oficiálnej produktovej ponuky."
+        },
+        {
+          "name": "Bylinný balzám při nachlazení s mátou",
+          "url": "https://www.kvetu.cz/bylinny-balzam-pri-nachlazeni-s-matou",
+          "reason": "Na dotaz / mimo skladu podľa oficiálnej produktovej ponuky."
+        }
+      ],
+      "logoEvidence": {
+        "sourceUrl": "https://www.kvetu.cz/fotky8835/design_setup/template/v4.0/geneva/prod/logoImage.png?0_158983648",
+        "sourceSha256": "54659d47c68d8b43bc637d00f0215f78041b43dd95f7aa974c3ea236e8f22ff7",
+        "sourceSize": [
+          2953,
+          1182
+        ],
+        "symbolCrop": [
+          209,
+          100,
+          1233,
+          1070
+        ],
+        "note": "Výrez existujúceho oficiálneho znaku; bez dokresľovania."
+      }
     }
   },
   "catalogues": {
@@ -5976,6 +6030,271 @@
           "assetSha256": "cc6f78e50183c9ccaf39a8d3bfcb9c5fb1fc6724204e52f24b2112ac07f3e17c"
         },
         "photo": "/assets/catalogue/mydlitto-1905-100g.webp"
+      }
+    ],
+    "kvetu": [
+      {
+        "id": "12",
+        "sourceId": "12",
+        "name": "Pleťový olej Damašská růže 30ml",
+        "originalName": "Pleťový olej Damašská růže 30ml",
+        "url": "https://www.kvetu.cz/pletovy-olej-damasska-ruze",
+        "priceAmount": 299.0,
+        "currency": "CZK",
+        "price": "299 Kč",
+        "volume": "30 ml",
+        "variantLabel": "",
+        "category": "face",
+        "kind": "Pleťové oleje",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky pleťové oleje. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.kvetu.cz/pletovy-olej-damasska-ruze",
+          "source": "Explicit official product page package statement",
+          "volume": "30 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.kvetu.cz/fotky8835/fotos/_vyrp13_12KVETU-Pletovy-olej-Damasska-ruze-12.jpg",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.kvetu.cz/fotky8835/fotos/_vyrp13_12KVETU-Pletovy-olej-Damasska-ruze-12.jpg",
+          "originalSize": [
+            3514,
+            5271
+          ],
+          "sourceSha256": "85acb1096240bdaa42c1c83533f49636ace7a011497613641f87e3d0de850785",
+          "assetSha256": "30de240564870f3eaa4a510b08be23ba98be48d04b50fcb910b570ec6df6a04d"
+        },
+        "photo": "/assets/catalogue/kvetu-12.webp"
+      },
+      {
+        "id": "10",
+        "sourceId": "10",
+        "name": "Ochranný tělový olej se squalanem 100ml",
+        "originalName": "Ochranný tělový olej se squalanem 100ml",
+        "url": "https://www.kvetu.cz/ochranny-telovy-olej-se-squalanem",
+        "priceAmount": 390.0,
+        "currency": "CZK",
+        "price": "390 Kč",
+        "volume": "100 ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Telové oleje",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky telové oleje. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.kvetu.cz/ochranny-telovy-olej-se-squalanem",
+          "source": "Explicit official product page package statement",
+          "volume": "100 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.kvetu.cz/fotky8835/fotos/_vyr_10_KVETU-Ochranny-telovy-olej-se-squalanem-1.jpg",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.kvetu.cz/fotky8835/fotos/_vyr_10_KVETU-Ochranny-telovy-olej-se-squalanem-1.jpg",
+          "originalSize": [
+            2406,
+            5233
+          ],
+          "sourceSha256": "ed23b665d0d6be8838a468677e7dcf80c2b366cdd3124fd5ca7a263504ee0423",
+          "assetSha256": "fcdde93188e57d02703d5af8d30dbcef8f2b5853f44bf8fffb2ca2532547203a"
+        },
+        "photo": "/assets/catalogue/kvetu-10.webp"
+      },
+      {
+        "id": "9",
+        "sourceId": "9",
+        "name": "Bylinný balzám na ruce 50ml",
+        "originalName": "Bylinný balzám na ruce 50ml",
+        "url": "https://www.kvetu.cz/bylinny-balzam-na-ruce",
+        "priceAmount": 239.0,
+        "currency": "CZK",
+        "price": "239 Kč",
+        "volume": "50 ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Krémy na ruky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky krémy na ruky. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.kvetu.cz/bylinny-balzam-na-ruce",
+          "source": "Explicit official product page package statement",
+          "volume": "50 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.kvetu.cz/fotky8835/fotos/_vyr_9_KVETU-Bylinny-balzam-na-ruce-1.jpg",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.kvetu.cz/fotky8835/fotos/_vyr_9_KVETU-Bylinny-balzam-na-ruce-1.jpg",
+          "originalSize": [
+            3085,
+            3085
+          ],
+          "sourceSha256": "8768c54a4b8657605927237cc8e58c90be0f2021e0ac7b5406d1d10e85480ae5",
+          "assetSha256": "fdec0b5b5e0c16ef65d7caeb2c52d744848b83cb7e0f715c55dd4b960a746849"
+        },
+        "photo": "/assets/catalogue/kvetu-9.webp"
+      },
+      {
+        "id": "1",
+        "sourceId": "1",
+        "name": "Meruňkový olej",
+        "originalName": "Meruňkový olej",
+        "url": "https://www.kvetu.cz/merunkovy-olej",
+        "priceAmount": 239.0,
+        "currency": "CZK",
+        "price": "239 Kč",
+        "volume": "100 ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Telové oleje",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky telové oleje. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.kvetu.cz/merunkovy-olej",
+          "source": "Explicit official product page package statement",
+          "volume": "100 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.kvetu.cz/fotky8835/fotos/_vyr_1_KVETU-Merunkovy-olej-1.jpg",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.kvetu.cz/fotky8835/fotos/_vyr_1_KVETU-Merunkovy-olej-1.jpg",
+          "originalSize": [
+            2553,
+            5199
+          ],
+          "sourceSha256": "3946052bc4861114ccfc5e5faeb9d75b0da634f8a946819a2384f605fbfe8b05",
+          "assetSha256": "82165e61466512df9439db7596a89668c7f0827809038d56527750a061a35ed9"
+        },
+        "photo": "/assets/catalogue/kvetu-1.webp"
+      },
+      {
+        "id": "2",
+        "sourceId": "2",
+        "name": "Hroznový olej",
+        "originalName": "Hroznový olej",
+        "url": "https://www.kvetu.cz/hroznovy-olej",
+        "priceAmount": 179.0,
+        "currency": "CZK",
+        "price": "179 Kč",
+        "volume": "100 ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Telové oleje",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky telové oleje. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.kvetu.cz/hroznovy-olej",
+          "source": "Explicit official product page package statement",
+          "volume": "100 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.kvetu.cz/fotky8835/fotos/_vyr_2_KVETU-Hroznovy-olej-1.jpg",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.kvetu.cz/fotky8835/fotos/_vyr_2_KVETU-Hroznovy-olej-1.jpg",
+          "originalSize": [
+            2553,
+            5199
+          ],
+          "sourceSha256": "d9cfe643096fdaff22c079b9ac029e495b3d3204879e9bc30a7478358b816647",
+          "assetSha256": "e0f451933d4ae35351b21fdc2a35464308546a9aa03007d160be8237c3c838d2"
+        },
+        "photo": "/assets/catalogue/kvetu-2.webp"
+      },
+      {
+        "id": "3",
+        "sourceId": "3",
+        "name": "Mandlový olej",
+        "originalName": "Mandlový olej",
+        "url": "https://www.kvetu.cz/mandlovy-olej",
+        "priceAmount": 239.0,
+        "currency": "CZK",
+        "price": "239 Kč",
+        "volume": "100 ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Telové oleje",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oil"
+        ],
+        "reason": "Z ponuky telové oleje. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.kvetu.cz/mandlovy-olej",
+          "source": "Explicit official product page package statement",
+          "volume": "100 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.kvetu.cz/fotky8835/fotos/_vyr_3_KVETU-Mandlovy-olej-1.jpg",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.kvetu.cz/fotky8835/fotos/_vyr_3_KVETU-Mandlovy-olej-1.jpg",
+          "originalSize": [
+            2553,
+            5199
+          ],
+          "sourceSha256": "df916f6af0204e36585468407dee1f8a96a920f3cbd3eed8a394d69c28461aa4",
+          "assetSha256": "a2df1d8a254c9003c5d474c58ffec646b4ad1aca94ebe065da446431682a96b6"
+        },
+        "photo": "/assets/catalogue/kvetu-3.webp"
       }
     ]
   }

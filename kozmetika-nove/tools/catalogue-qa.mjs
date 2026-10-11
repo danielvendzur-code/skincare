@@ -5,10 +5,10 @@ const [root,out, ...slugs]=process.argv.slice(2);
 const base=process.env.QA_BASE||'http://127.0.0.1:8798';
 const handler=(await import(root+'/api/cosmetics-chat.js')).default;
 await fs.mkdir(out,{recursive:true});
-const browser=await chromium.launch({...(process.env.CHROMIUM?{executablePath:process.env.CHROMIUM}:{}),args:['--no-sandbox']});
+const newBrowser=()=>chromium.launch({...(process.env.CHROMIUM?{executablePath:process.env.CHROMIUM}:{}),args:['--no-sandbox','--single-process','--no-zygote']});
 const results=[];
 for(const slug of slugs)for(const vp of [{name:'desktop',width:1440,height:900},{name:'mobile',width:390,height:844},{name:'small',width:360,height:800}]){
- const page=await browser.newPage({viewport:vp});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const browser=await newBrowser();const page=await browser.newPage({viewport:vp});const errors=[];page.on('pageerror',e=>errors.push(e.message));
  page.on('response',r=>{if(r.status()>=400&&!r.url().includes('/api/'))errors.push(r.status()+' '+r.url());});
  await page.route('**/api/cosmetics-chat',async route=>{
   const req={method:'POST',headers:{origin:'http://127.0.0.1:8798'},body:route.request().postDataJSON()};let payload,status=200;
@@ -20,7 +20,7 @@ for(const slug of slugs)for(const vp of [{name:'desktop',width:1440,height:900},
   await page.waitForFunction(()=>[...document.querySelectorAll('.cx-catalogue-stage img')].every(i=>i.complete&&i.naturalWidth>0),null,{timeout:8000});
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'horizontal overflow');
  };
- const shot=async name=>page.screenshot({path:`${out}/${slug}-${vp.name}-${name}.png`});
+ const shot=async name=>page.screenshot({path:`${out}/${slug}-${vp.name}-${name}.png`,animations:'disabled'});
  try{
   await page.goto(base+'/cosmetics.html?demo='+slug,{waitUntil:'networkidle'});
   await shot('owner');await page.locator('[data-open="chat"]').click();await page.locator('[data-mode="advisor"]').click();
@@ -69,6 +69,6 @@ for(const slug of slugs)for(const vp of [{name:'desktop',width:1440,height:900},
   const samples=await page.evaluate(()=>window.COSMETICS_DEMOS.brands[document.body.dataset.cosmeticsDemo].products.some(p=>p.isSample));assert.equal(samples,false,'sample leaked into default advisor');
   await shot('chat');assert.deepEqual(errors,[],'browser errors');results.push({slug,viewport:vp.name,status:'PASS',products:n,categories:groups});
  }catch(e){await shot('FAIL');results.push({slug,viewport:vp.name,status:'FAIL',error:String(e),browserErrors:errors});console.log(slug,vp.name,String(e),JSON.stringify(errors));}
- await page.close();
+ await page.close();await browser.close();
 }
-await browser.close();await fs.writeFile(out+'/results.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results));if(results.some(x=>x.status==='FAIL'))process.exitCode=1;
+await fs.writeFile(out+'/results.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results));if(results.some(x=>x.status==='FAIL'))process.exitCode=1;

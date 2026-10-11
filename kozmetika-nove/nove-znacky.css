@@ -108,3 +108,6 @@ body[data-cosmetics-demo="zahir"] .cx-widget-brand .cx-logo {
 
 /* The official Mydlitto badge retains its black artwork on the white plate. */
 body[data-cosmetics-demo="mydlitto"] .cx-widget-brand .cx-logo {filter:none!important;width:34px!important;height:34px!important;object-fit:contain!important;background:#fff!important;border-radius:50%;}
+
+/* Preserve the official black Kvetu wordmark on its white plate. */
+body[data-cosmetics-demo="kvetu"] .cx-widget-brand .cx-logo{filter:none!important;background:#fff!important;border-radius:4px;padding:4px;object-fit:contain!important;width:92px!important;height:34px!important;}

@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "kvetu",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 6,
+    "categories": [
+      "body"
+    ]
+  },
+  {
+    "slug": "kvetu",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 6,
+    "categories": [
+      "body"
+    ]
+  },
+  {
+    "slug": "kvetu",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 6,
+    "categories": [
+      "body"
+    ]
+  }
+]

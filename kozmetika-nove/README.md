@@ -84,3 +84,7 @@ nenačítané obrázky a horizontálne pretečenie.
 - **Puaree**: `/puaree/` alebo `/cosmetics.html?demo=puaree`; 78 dostupných balení, IČO 07734921, ARES 120: 6–9. Oficiálne fotky aj vo výbere. Zdroje: `ZDROJE.md`.
 
 - **Mydlitto**: `/mydlitto/` alebo `/cosmetics.html?demo=mydlitto`; 51 dostupných balení, IČO 07652917, ARES 120: 6–9. Oficiálne fotky aj vo výbere. Zdroje: `ZDROJE.md`.
+
+- **Kvetu**: `/kvetu/` alebo `/cosmetics.html?demo=kvetu`; 6 dostupných balení, IČO 14308584, ARES 120: 6–9. Oficiálne fotky aj vo výbere. Zdroje: `ZDROJE.md`.
+
+Kvetu QA 11. 10. 2026: desktop 1440 × 900, mobil 390 × 844 a 360 × 800; všetky kategórie, Ponuka a vyhľadávanie, skutočné ceny/balenia/odkazy, produkčný API handler a logo pri každej odpovedi. Screenshoty vizuálne skontrolované; PASS. Šesť produktov: jeden pleťový olej a päť telových produktov; vypredané krémy a sady vylúčené. [Oficiálny prevádzkovateľ](https://www.kvetu.cz/obchodni-podminky) sa zhoduje s IČO v ARES.

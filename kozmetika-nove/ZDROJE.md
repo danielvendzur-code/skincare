@@ -683,3 +683,24 @@ QA: desktop 1440 × 900, mobil 390 × 844 a 360 × 800 — PASS. Vizuálne skont
 | Pivní sladová sůl 100 G | 100 G | 45 Kč | [e-shop](https://www.mydlitto.cz/Pivni-sladova-sul-100-G-d1905.htm) |
 
 QA Mydlitto: desktop 1440 × 900, mobil 390 × 844 a 360 × 800 — PASS. Vizuálne skontrolované screenshoty; chodidlové krémy patria do tela, nie do pleti. Oficiálny znak je čitateľný v hlavičke aj pri každej správe. Záznam: `research/qa-new-demos-2026-10-10/mydlitto.json`.
+
+
+## Kvetu — overené 11. 10. 2026
+
+- Prevádzkovateľ: Kvetu, IČO **14308584**; vlastník: Helena Guthová (80 %) a Miroslava Šváchová (20 %).
+- Veľkosť: **ARES 120: 6–9**. [Primárny register](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/14308584). Kód 120 znamená 6–9, nie nulový počet zamestnancov.
+- Vlastný e-shop: https://www.kvetu.cz/; 6 dostupných balení. Prieskum domén, IČO a vlastníkov v existujúcich konfigoch nevykázal duplicitu.
+- Zachovaný spoločný engine, rozšírený katalóg a fotografie v každom kroku; lokálne oficiálne fotografie, bez generovaných produktových obrázkov. Symbol pri každej správe je výrez oficiálneho loga.
+- Ceny platia pre uvedené balenie. Vzorky, vypredané varianty a neoverené veľkosti sú vynechané. Identická fotografia viacerých variantov pochádza z oficiálnej spoločnej galérie produktu.
+- Dostupnosť, konkrétny variant, URL a SHA-256 obrázkov: `research/new-demos-2026-10-10.json`. UI neopakuje zdravotné tvrdenia zo zdrojových popisov.
+
+| Produkt | Balenie | Cena | Zdroj |
+|---|---|---|---|
+| Pleťový olej Damašská růže 30ml | 30 ml | 299 Kč | [e-shop](https://www.kvetu.cz/pletovy-olej-damasska-ruze) |
+| Ochranný tělový olej se squalanem 100ml | 100 ml | 390 Kč | [e-shop](https://www.kvetu.cz/ochranny-telovy-olej-se-squalanem) |
+| Bylinný balzám na ruce 50ml | 50 ml | 239 Kč | [e-shop](https://www.kvetu.cz/bylinny-balzam-na-ruce) |
+| Meruňkový olej | 100 ml | 239 Kč | [e-shop](https://www.kvetu.cz/merunkovy-olej) |
+| Hroznový olej | 100 ml | 179 Kč | [e-shop](https://www.kvetu.cz/hroznovy-olej) |
+| Mandlový olej | 100 ml | 239 Kč | [e-shop](https://www.kvetu.cz/mandlovy-olej) |
+
+Kvetu QA 11. 10. 2026: desktop 1440 × 900, mobil 390 × 844 a 360 × 800; všetky kategórie, Ponuka a vyhľadávanie, skutočné ceny/balenia/odkazy, produkčný API handler a logo pri každej odpovedi. Screenshoty vizuálne skontrolované; PASS. Šesť produktov: jeden pleťový olej a päť telových produktov; vypredané krémy a sady vylúčené. [Oficiálny prevádzkovateľ](https://www.kvetu.cz/obchodni-podminky) sa zhoduje s IČO v ARES.
