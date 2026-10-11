@@ -6,10 +6,110 @@
       "has": [
         {
           "type": "host",
-          "value": "^(?<sub>dixi|vivaco|kapyderm|medarek|andreine|voono|navlasil|ryor|venira|havlikova|haaro)\\.mojchatbot\\.sk$"
+          "value": "dixi.mojchatbot.sk"
         }
       ],
-      "destination": "/cosmetics.html"
+      "destination": "/cosmetics.html?demo=dixi"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "vivaco.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=vivaco"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "kapyderm.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=kapyderm"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "medarek.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=medarek"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "andreine.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=andreine"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "voono.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=voono"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "navlasil.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=navlasil"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "ryor.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=ryor"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "venira.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=venira"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "havlikova.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=havlikova"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "haaro.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=haaro"
     },
     {
       "source": "/",
