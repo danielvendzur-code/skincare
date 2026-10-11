@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-11",
+  "company": "Ing. Jan Franěk",
+  "ico": "14313243",
+  "owners": [
+    "Ing. Jan Franěk"
+  ],
+  "executives": [
+    "Ing. Jan Franěk"
+  ],
+  "employees": {
+    "code": "110",
+    "range": "1–5",
+    "source": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/14313243",
+    "recordUpdated": "2023-01-05"
+  },
+  "revenue": {
+    "value": null,
+    "year": 2025,
+    "note": "ARES nezverejňuje tržby živnostníka. Počet pracovníkov nie je dôkazom obratu pod milión eur; obrat sa neodhaduje."
+  },
+  "ownersSource": "https://www.honzuvles.cz/obchodni-podminky/",
+  "note": "VOP a ARES uvádzajú rovnakého samostatného podnikateľa. Personálna kategória je posledný zverejnený údaj registra."
+}

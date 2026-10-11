@@ -122,3 +122,5 @@ Rastliny majú aj samostatný súkromný [statický náhľad](https://rastlinne-
 Rastlinná ukážka [Sebtob Plants](./rastliny-demo/sebtobplants/index.html): pripravená subdoména `sebtobplants.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
 
 Rastlinná ukážka [ABIES – Dreviny.sk](./rastliny-demo/abies/index.html): pripravená subdoména `abies.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Honzův les](./rastliny-demo/honzuvles/index.html): pripravená subdoména `honzuvles.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.

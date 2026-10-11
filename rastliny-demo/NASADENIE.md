@@ -31,3 +31,4 @@ Subdomény sú pripravené v routách. DNS a nový Vercel projekt sa touto zmeno
 | `greenhunters.mojchatbot.sk` | `/cosmetics.html?demo=greenhunters` |
 | `sebtobplants.mojchatbot.sk` | `/cosmetics.html?demo=sebtobplants` |
 | `abies.mojchatbot.sk` | `/cosmetics.html?demo=abies` |
+| `honzuvles.mojchatbot.sk` | `/cosmetics.html?demo=honzuvles` |

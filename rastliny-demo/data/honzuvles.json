@@ -1,0 +1,1599 @@
+{
+  "name": "Honzův les",
+  "website": "https://www.honzuvles.cz/",
+  "currency": "CZK",
+  "kinds": [
+    "plants",
+    "pots",
+    "substrates"
+  ],
+  "kindLabels": {
+    "plants": "Vonkajšie bonsaje",
+    "pots": "Bonsajové misky",
+    "substrates": "Pestovateľské médiá"
+  },
+  "theme": {
+    "brand": "#0d4230",
+    "accent": "#287443",
+    "soft": "#eef3e8",
+    "paper": "#fffefb",
+    "line": "#d7e1d1",
+    "ink": "#23321e"
+  },
+  "categoryNotes": {
+    "plants": "Konkrétne stromy a cenové hladiny",
+    "pots": "Materiál a presné rozmery",
+    "substrates": "Zmesi a minerálne zložky na bonsaje"
+  },
+  "heading": "Vyberie bonsaj, ktorý sadne do jeho záhrady.",
+  "lead": "Zákazník si vyberie konkrétny strom, bonsajovú misku alebo pestovateľské médium. Poradca pozná produkty, dostupné varianty a ceny z vášho katalógu.",
+  "slug": "honzuvles",
+  "hero": "/assets/plants/honzuvles.jpg",
+  "mobileHero": "/assets/plants/honzuvles-mobile.jpg",
+  "logo": "/assets/plants/honzuvles-logo.png",
+  "mark": "/assets/plants/honzuvles-mark.png",
+  "products": [
+    {
+      "id": "p4718",
+      "name": "Japonská azalka — 34x25x20 cm",
+      "kind": "plants",
+      "price": "850 Kč",
+      "priceValue": 850.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/japonska-azalka-9/",
+      "photo": "/assets/plants/honzuvles-p4718.jpg",
+      "tags": [
+        "easy",
+        "genus:azalka",
+        "low"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "V období kvitnutia predajca požaduje osobný odber.",
+        "Rozmery podľa predajcu: 34x25x20 cm.",
+        "Vek podľa predajcu: 6 rokov.",
+        "Predajca uvádza polotieň, ochranu pred prudkým poludňajším slnkom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. V období kvitnutia predajca požaduje osobný odber. Rozmery podľa predajcu: 34x25x20 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4718_japonska-azalka.jpg?ff=1&x=1024&y=768&q=85&ts=69fd849c&sg=161563f2"
+    },
+    {
+      "id": "p5033",
+      "name": "Skalník — 40x24x20 cm",
+      "kind": "plants",
+      "price": "1190 Kč",
+      "priceValue": 1190.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/skalnik-3/",
+      "photo": "/assets/plants/honzuvles-p5033.jpg",
+      "tags": [
+        "easy",
+        "genus:skalník",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 40x24x20 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 40x24x20 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5033_ska002.jpg?ff=1&x=1024&y=768&q=85&ts=6a427d39&sg=161563f2"
+    },
+    {
+      "id": "p4985",
+      "name": "Buk lesní — 53x30x30 cm",
+      "kind": "plants",
+      "price": "1190 Kč",
+      "priceValue": 1190.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/buk-lesni-11/",
+      "photo": "/assets/plants/honzuvles-p4985.jpg",
+      "tags": [
+        "genus:buk",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 53x30x30 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 53x30x30 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4985_buk010.jpg?ff=1&x=1024&y=768&q=85&ts=6a42749e&sg=161563f2"
+    },
+    {
+      "id": "p3922",
+      "name": "Jalovec (Juniperus Sabina)",
+      "kind": "plants",
+      "price": "6800 Kč",
+      "priceValue": 6800.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/jalovec--juniperus-sabina/",
+      "photo": "/assets/plants/honzuvles-p3922.jpg",
+      "tags": [
+        "genus:jalovec",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza osobný odber. Prípadnú vlastnú dopravu treba dohodnúť.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Vek podľa predajcu: 30 rokov.",
+        "Predajca uvádza plné slnko, v extrémnych horúčavách ľahké pritienenie."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza osobný odber. Prípadnú vlastnú dopravu treba dohodnúť. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3922_na--vrh-bez-na--zvu--1.png?ff=1&x=1024&y=768&q=85&ts=6a1fefa5&sg=161563f2"
+    },
+    {
+      "id": "p4943",
+      "name": "Habr obecný — 68x38x34 cm",
+      "kind": "plants",
+      "price": "1250 Kč",
+      "priceValue": 1250.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/habr-obecny-6/",
+      "photo": "/assets/plants/honzuvles-p4943.jpg",
+      "tags": [
+        "easy",
+        "genus:habr",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 68x38x34 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 68x38x34 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4943_hab005.jpg?ff=1&x=1024&y=768&q=85&ts=6a395ee3&sg=161563f2"
+    },
+    {
+      "id": "p4994",
+      "name": "Lípa malolistá — 66x33x33 cm",
+      "kind": "plants",
+      "price": "1490 Kč",
+      "priceValue": 1490.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/lipa-malolista-2/",
+      "photo": "/assets/plants/honzuvles-p4994.jpg",
+      "tags": [
+        "easy",
+        "genus:lípa",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 66x33x33 cm.",
+        "Vek podľa predajcu: 6 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 66x33x33 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4994_lip003.jpg?ff=1&x=1024&y=768&q=85&ts=6a427817&sg=161563f2"
+    },
+    {
+      "id": "p2458",
+      "name": "Plastová miska 13x13x10cm — Bez podmisky",
+      "kind": "pots",
+      "price": "18 Kč",
+      "priceValue": 18.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/plastova-miska-13x13x10cm/",
+      "photo": "/assets/plants/honzuvles-p2458.jpg",
+      "tags": [
+        "medium-pot",
+        "plastic"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 13x13x10 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Variant podľa e-shopu: Bez podmisky.",
+        "Materiál podľa predajcu: plast.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 13x13x10 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Variant podľa e-shopu: Bez podmisky. Materiál podľa predajcu: plast.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/2458-1_pmiska13cm-e1683176207508.jpg?ff=1&x=1024&y=768&q=85&ts=68944f4e&sg=161563f2"
+    },
+    {
+      "id": "p4745",
+      "name": "Japonská azalka — 36x26x25 cm",
+      "kind": "plants",
+      "price": "990 Kč",
+      "priceValue": 990.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/japonska-azalka-18/",
+      "photo": "/assets/plants/honzuvles-p4745.jpg",
+      "tags": [
+        "easy",
+        "genus:azalka",
+        "low"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "V období kvitnutia predajca požaduje osobný odber.",
+        "Rozmery podľa predajcu: 36x26x25 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza polotieň, ochranu pred prudkým poludňajším slnkom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. V období kvitnutia predajca požaduje osobný odber. Rozmery podľa predajcu: 36x26x25 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4745_na--vrh-bez-na--zvu--1.png?ff=1&x=1024&y=768&q=85&ts=6a1ff452&sg=161563f2"
+    },
+    {
+      "id": "p4946",
+      "name": "Habr obecný — 59x36x37 cm",
+      "kind": "plants",
+      "price": "1350 Kč",
+      "priceValue": 1350.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/habr-obecny-7/",
+      "photo": "/assets/plants/honzuvles-p4946.jpg",
+      "tags": [
+        "easy",
+        "genus:habr",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 59x36x37 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 59x36x37 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4946_hab006.jpg?ff=1&x=1024&y=768&q=85&ts=6a395f0e&sg=161563f2"
+    },
+    {
+      "id": "p4937",
+      "name": "Habr obecný — 65x36x36 cm",
+      "kind": "plants",
+      "price": "1350 Kč",
+      "priceValue": 1350.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/habr-obecny-4/",
+      "photo": "/assets/plants/honzuvles-p4937.jpg",
+      "tags": [
+        "easy",
+        "genus:habr",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 65x36x36 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 65x36x36 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4937_hab003.jpg?ff=1&x=1024&y=768&q=85&ts=6a395ea0&sg=161563f2"
+    },
+    {
+      "id": "p5042",
+      "name": "Skalník — 40x25x25 cm",
+      "kind": "plants",
+      "price": "1350 Kč",
+      "priceValue": 1350.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/skalnik-6/",
+      "photo": "/assets/plants/honzuvles-p5042.jpg",
+      "tags": [
+        "easy",
+        "genus:skalník",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 40x25x25 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 40x25x25 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5042_ska006.jpg?ff=1&x=1024&y=768&q=85&ts=6a427da6&sg=161563f2"
+    },
+    {
+      "id": "p4964",
+      "name": "Buk lesní — 62x34x30 cm",
+      "kind": "plants",
+      "price": "1370 Kč",
+      "priceValue": 1370.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/buk-lesni-4/",
+      "photo": "/assets/plants/honzuvles-p4964.jpg",
+      "tags": [
+        "genus:buk",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 62x34x30 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 62x34x30 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4964_buk003.jpg?ff=1&x=1024&y=768&q=85&ts=6a396499&sg=161563f2"
+    },
+    {
+      "id": "p4940",
+      "name": "Habr obecný — 65x42x43 cm",
+      "kind": "plants",
+      "price": "1370 Kč",
+      "priceValue": 1370.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/habr-obecny-5/",
+      "photo": "/assets/plants/honzuvles-p4940.jpg",
+      "tags": [
+        "easy",
+        "genus:habr",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 65x42x43 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 65x42x43 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4940_hab004.jpg?ff=1&x=1024&y=768&q=85&ts=6a395ec6&sg=161563f2"
+    },
+    {
+      "id": "p4931",
+      "name": "Habr obecný — 53x36x30 cm",
+      "kind": "plants",
+      "price": "1370 Kč",
+      "priceValue": 1370.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/habr-obecny-2/",
+      "photo": "/assets/plants/honzuvles-p4931.jpg",
+      "tags": [
+        "easy",
+        "genus:habr",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 53x36x30 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 53x36x30 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4931_hab001.jpg?ff=1&x=1024&y=768&q=85&ts=6a392b3a&sg=161563f2"
+    },
+    {
+      "id": "p4979",
+      "name": "Buk lesní — 53x28x30 cm",
+      "kind": "plants",
+      "price": "1390 Kč",
+      "priceValue": 1390.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/buk-lesni-9/",
+      "photo": "/assets/plants/honzuvles-p4979.jpg",
+      "tags": [
+        "genus:buk",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 53x28x30 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 53x28x30 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4979_buk008.jpg?ff=1&x=1024&y=768&q=85&ts=6a42744c&sg=161563f2"
+    },
+    {
+      "id": "p5036",
+      "name": "Skalník — 48x25x23 cm",
+      "kind": "plants",
+      "price": "1390 Kč",
+      "priceValue": 1390.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/skalnik-4/",
+      "photo": "/assets/plants/honzuvles-p5036.jpg",
+      "tags": [
+        "easy",
+        "genus:skalník",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 48x25x23 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 48x25x23 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5036_ska003.jpg?ff=1&x=1024&y=768&q=85&ts=6a427d55&sg=161563f2"
+    },
+    {
+      "id": "p4976",
+      "name": "Buk lesní — 60x40x30 cm",
+      "kind": "plants",
+      "price": "1450 Kč",
+      "priceValue": 1450.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/buk-lesni-8/",
+      "photo": "/assets/plants/honzuvles-p4976.jpg",
+      "tags": [
+        "genus:buk",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 60x40x30 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 60x40x30 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4976_buk007.jpg?ff=1&x=1024&y=768&q=85&ts=6a427421&sg=161563f2"
+    },
+    {
+      "id": "p4949",
+      "name": "Habr obecný — 70x40x35 cm",
+      "kind": "plants",
+      "price": "1450 Kč",
+      "priceValue": 1450.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/habr-obecny-8/",
+      "photo": "/assets/plants/honzuvles-p4949.jpg",
+      "tags": [
+        "easy",
+        "genus:habr",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 70x40x35 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 70x40x35 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4949_hab007.jpg?ff=1&x=1024&y=768&q=85&ts=6a395f2a&sg=161563f2"
+    },
+    {
+      "id": "p4982",
+      "name": "Buk lesní — 80x40x45 cm",
+      "kind": "plants",
+      "price": "1490 Kč",
+      "priceValue": 1490.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/buk-lesni-10/",
+      "photo": "/assets/plants/honzuvles-p4982.jpg",
+      "tags": [
+        "genus:buk",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza osobný odber.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 80x40x45 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza osobný odber. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4982_buk009.jpg?ff=1&x=1024&y=768&q=85&ts=6a427466&sg=161563f2"
+    },
+    {
+      "id": "p4967",
+      "name": "Buk lesní — 66x40x37 cm",
+      "kind": "plants",
+      "price": "1490 Kč",
+      "priceValue": 1490.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/buk-lesni-5/",
+      "photo": "/assets/plants/honzuvles-p4967.jpg",
+      "tags": [
+        "genus:buk",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 66x40x37 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 66x40x37 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4967_buk004.jpg?ff=1&x=1024&y=768&q=85&ts=6a4273bb&sg=161563f2"
+    },
+    {
+      "id": "p4961",
+      "name": "Buk lesní — 75x42x36 cm",
+      "kind": "plants",
+      "price": "1490 Kč",
+      "priceValue": 1490.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/buk-lesni-3/",
+      "photo": "/assets/plants/honzuvles-p4961.jpg",
+      "tags": [
+        "genus:buk",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 75x42x36 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 75x42x36 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4961_buk002.jpg?ff=1&x=1024&y=768&q=85&ts=6a39647d&sg=161563f2"
+    },
+    {
+      "id": "p4988",
+      "name": "Lípa malolistá — 61x40x40 cm",
+      "kind": "plants",
+      "price": "1490 Kč",
+      "priceValue": 1490.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/lipa_malolista/",
+      "photo": "/assets/plants/honzuvles-p4988.jpg",
+      "tags": [
+        "easy",
+        "genus:lípa",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 61x40x40 cm.",
+        "Vek podľa predajcu: 6 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 61x40x40 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4988_lip001.jpg?ff=1&x=1024&y=768&q=85&ts=6a427673&sg=161563f2"
+    },
+    {
+      "id": "p5039",
+      "name": "Skalník — 40x29x24 cm",
+      "kind": "plants",
+      "price": "1490 Kč",
+      "priceValue": 1490.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/skalnik-5/",
+      "photo": "/assets/plants/honzuvles-p5039.jpg",
+      "tags": [
+        "easy",
+        "genus:skalník",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 40x29x24 cm.",
+        "Vek podľa predajcu: 5 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 40x29x24 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5039_ska005.jpg?ff=1&x=1024&y=768&q=85&ts=6a427d85&sg=161563f2"
+    },
+    {
+      "id": "p5012",
+      "name": "Lípa malolistá — 60x40x40 cm",
+      "kind": "plants",
+      "price": "1550 Kč",
+      "priceValue": 1550.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/lipa-malolista-8/",
+      "photo": "/assets/plants/honzuvles-p5012.jpg",
+      "tags": [
+        "easy",
+        "genus:lípa",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 60x40x40 cm.",
+        "Vek podľa predajcu: 6 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 60x40x40 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5012_lip009.jpg?ff=1&x=1024&y=768&q=85&ts=6a4278f7&sg=161563f2"
+    },
+    {
+      "id": "p5009",
+      "name": "Lípa malolistá — 75x44x40 cm",
+      "kind": "plants",
+      "price": "1650 Kč",
+      "priceValue": 1650.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/lipa-malolista-7/",
+      "photo": "/assets/plants/honzuvles-p5009.jpg",
+      "tags": [
+        "easy",
+        "genus:lípa",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 75x44x40 cm.",
+        "Vek podľa predajcu: 6 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 75x44x40 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5009_lip008.jpg?ff=1&x=1024&y=768&q=85&ts=6a4278d1&sg=161563f2"
+    },
+    {
+      "id": "p5021",
+      "name": "Lípa malolistá — 60x35x35 cm",
+      "kind": "plants",
+      "price": "1690 Kč",
+      "priceValue": 1690.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/lipa-malolista-11/",
+      "photo": "/assets/plants/honzuvles-p5021.jpg",
+      "tags": [
+        "easy",
+        "genus:lípa",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 60x35x35 cm.",
+        "Vek podľa predajcu: 6 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 60x35x35 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5021_lip012.jpg?ff=1&x=1024&y=768&q=85&ts=6a42796c&sg=161563f2"
+    },
+    {
+      "id": "p5018",
+      "name": "Lípa malolistá — 70x40x35 cm",
+      "kind": "plants",
+      "price": "1790 Kč",
+      "priceValue": 1790.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/lipa-malolista-10/",
+      "photo": "/assets/plants/honzuvles-p5018.jpg",
+      "tags": [
+        "easy",
+        "genus:lípa",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 70x40x35 cm.",
+        "Vek podľa predajcu: 6 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 70x40x35 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5018_lip011.jpg?ff=1&x=1024&y=768&q=85&ts=6a427944&sg=161563f2"
+    },
+    {
+      "id": "p5024",
+      "name": "Lípa malolistá — 55x40x40 cm",
+      "kind": "plants",
+      "price": "1990 Kč",
+      "priceValue": 1990.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/lipa-malolista-12/",
+      "photo": "/assets/plants/honzuvles-p5024.jpg",
+      "tags": [
+        "easy",
+        "genus:lípa",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Rozmery podľa predajcu: 55x40x40 cm.",
+        "Vek podľa predajcu: 6 rokov.",
+        "Predajca uvádza slnko až polotieň; v horúčavách ochranu pred poludňajším žiarom.",
+        "Predajca ju označuje za vhodnú aj pre začiatočníkov; pravidelná bonsajová starostlivosť je potrebná."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete. Rozmery podľa predajcu: 55x40x40 cm.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5024_lip013.jpg?ff=1&x=1024&y=768&q=85&ts=6a42798d&sg=161563f2"
+    },
+    {
+      "id": "p3931",
+      "name": "Jalovec (Juniperus Sabina)",
+      "kind": "plants",
+      "price": "7800 Kč",
+      "priceValue": 7800.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/jalovec--juniperus-sabina-3/",
+      "photo": "/assets/plants/honzuvles-p3931.jpg",
+      "tags": [
+        "genus:jalovec",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza osobný odber. Prípadnú vlastnú dopravu treba dohodnúť.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Vek podľa predajcu: 30 rokov.",
+        "Predajca uvádza plné slnko, v extrémnych horúčavách ľahké pritienenie."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza osobný odber. Prípadnú vlastnú dopravu treba dohodnúť. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3931_jalovec--juniperus-sabina.png?ff=1&x=1024&y=768&q=85&ts=6a1fea01&sg=161563f2"
+    },
+    {
+      "id": "p2491",
+      "name": "Jalovec (Juniperus Sabina)",
+      "kind": "plants",
+      "price": "9900 Kč",
+      "priceValue": 9900.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/jalovec-cinsky--juniperus-sabina/",
+      "photo": "/assets/plants/honzuvles-p2491.jpg",
+      "tags": [
+        "genus:jalovec",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza osobný odber. Prípadnú vlastnú dopravu treba dohodnúť.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Vek podľa predajcu: 30 rokov.",
+        "Predajca uvádza plné slnko, v extrémnych horúčavách ľahké pritienenie."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza osobný odber. Prípadnú vlastnú dopravu treba dohodnúť. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/2491_na--vrh-bez-na--zvu--1.png?ff=1&x=1024&y=768&q=85&ts=6a1ff1bb&sg=161563f2"
+    },
+    {
+      "id": "p3949",
+      "name": "Picea glauca conica lesík (smrk sivý)",
+      "kind": "plants",
+      "price": "33900 Kč",
+      "priceValue": 33900.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/picea-glauca-conica-lesik--smrk-sivy/",
+      "photo": "/assets/plants/honzuvles-p3949.jpg",
+      "tags": [
+        "genus:smrk",
+        "low",
+        "sun"
+      ],
+      "facts": [
+        "Vonkajší bonsaj podľa kategórie predajcu.",
+        "Predajca uvádza osobný odber. Prípadnú vlastnú dopravu treba dohodnúť.",
+        "Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+        "Predajca uvádza polotieň až plné slnko a letné pritienenie."
+      ],
+      "reason": "Vonkajší bonsaj podľa kategórie predajcu. Predajca uvádza osobný odber. Prípadnú vlastnú dopravu treba dohodnúť. Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3949_na--vrh-bez-na--zvu.png?ff=1&x=1024&y=768&q=85&ts=6a1ff906&sg=161563f2"
+    },
+    {
+      "id": "p3022",
+      "name": "Keramická miska 10,5x8x4cm — Modrá",
+      "kind": "pots",
+      "price": "90 Kč",
+      "priceValue": 90.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/keramicka-miska-10-5x8x4cm/",
+      "photo": "/assets/plants/honzuvles-p3022.jpg",
+      "tags": [
+        "ceramic",
+        "small-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 10,5x8x4 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Variant podľa e-shopu: Modrá.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 10,5x8x4 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Variant podľa e-shopu: Modrá. Materiál podľa predajcu: keramika.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3022_km23z.jpg?ff=1&x=1024&y=768&q=85&ts=68944f4f&sg=161563f2"
+    },
+    {
+      "id": "p3010",
+      "name": "Keramická miska 10x8x4,5cm — Modrá",
+      "kind": "pots",
+      "price": "110 Kč",
+      "priceValue": 110.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/keramicka-miska-10x8x4-5cm/",
+      "photo": "/assets/plants/honzuvles-p3010.jpg",
+      "tags": [
+        "ceramic",
+        "small-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 10x8x4,5 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Variant podľa e-shopu: Modrá.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 10x8x4,5 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Variant podľa e-shopu: Modrá. Materiál podľa predajcu: keramika.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3010_km19z.jpg?ff=1&x=1024&y=768&q=85&ts=68944f4f&sg=161563f2"
+    },
+    {
+      "id": "p3046",
+      "name": "Keramická miska 13x10x5cm — Modrá",
+      "kind": "pots",
+      "price": "150 Kč",
+      "priceValue": 150.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/keramicka-miska-13x10x5cm/",
+      "photo": "/assets/plants/honzuvles-p3046.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 13x10x5 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Variant podľa e-shopu: Modrá.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 13x10x5 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Variant podľa e-shopu: Modrá. Materiál podľa predajcu: keramika.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3046_km31z.jpg?ff=1&x=1024&y=768&q=85&ts=68944bb7&sg=161563f2"
+    },
+    {
+      "id": "p4877",
+      "name": "Keramická podmiska 25x19cm — Modrá",
+      "kind": "pots",
+      "price": "210 Kč",
+      "priceValue": 210.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/keramicka-podmiska-25x19cm-3/",
+      "photo": "/assets/plants/honzuvles-p4877.jpg",
+      "tags": [
+        "ceramic",
+        "large-pot",
+        "saucer"
+      ],
+      "facts": [
+        "Samostatná podmiska; nejde o nádobu na vysadenie stromu.",
+        "Rozmery podľa názvu predajcu: 25x19 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Variant podľa e-shopu: Modrá.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Samostatná podmiska; nejde o nádobu na vysadenie stromu. Rozmery podľa názvu predajcu: 25x19 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Variant podľa e-shopu: Modrá.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4877_pkm62.jpg?ff=1&x=1024&y=768&q=85&ts=6a2055b1&sg=161563f2"
+    },
+    {
+      "id": "p4805",
+      "name": "Keramická podmiska 28x22cm — Modrá",
+      "kind": "pots",
+      "price": "220 Kč",
+      "priceValue": 220.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/keramicka-podmiska-28x22cm/",
+      "photo": "/assets/plants/honzuvles-p4805.jpg",
+      "tags": [
+        "ceramic",
+        "large-pot",
+        "saucer"
+      ],
+      "facts": [
+        "Samostatná podmiska; nejde o nádobu na vysadenie stromu.",
+        "Rozmery podľa názvu predajcu: 28x22 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Variant podľa e-shopu: Modrá.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Samostatná podmiska; nejde o nádobu na vysadenie stromu. Rozmery podľa názvu predajcu: 28x22 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Variant podľa e-shopu: Modrá.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4805_pkm09.jpg?ff=1&x=1024&y=768&q=85&ts=6a1a8b22&sg=161563f2"
+    },
+    {
+      "id": "p3877",
+      "name": "Keramická miska 15,5x12x4,5cm",
+      "kind": "pots",
+      "price": "290 Kč",
+      "priceValue": 290.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/keramicka-miska-15-5x12x4-5cm-2/",
+      "photo": "/assets/plants/honzuvles-p3877.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 15,5x12x4,5 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 15,5x12x4,5 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Materiál podľa predajcu: keramika. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3877_km120.jpg?ff=1&x=1024&y=768&q=85&ts=68485f65&sg=161563f2"
+    },
+    {
+      "id": "p3718",
+      "name": "Keramická miska 25x19,5x7cm",
+      "kind": "pots",
+      "price": "370 Kč",
+      "priceValue": 370.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/keramicka-miska-25x19-5x7cm-2/",
+      "photo": "/assets/plants/honzuvles-p3718.jpg",
+      "tags": [
+        "ceramic",
+        "large-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 25x19,5x7 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 25x19,5x7 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Materiál podľa predajcu: keramika. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3718_km67m.jpg?ff=1&x=1024&y=768&q=85&ts=68453e7e&sg=161563f2"
+    },
+    {
+      "id": "p5236",
+      "name": "Yixing keramická miska 11x7,5x4cm",
+      "kind": "pots",
+      "price": "390 Kč",
+      "priceValue": 390.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/yixing-keramicka-miska-11x7-5x4cm/",
+      "photo": "/assets/plants/honzuvles-p5236.jpg",
+      "tags": [
+        "ceramic",
+        "small-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 11x7,5x4 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 11x7,5x4 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Materiál podľa predajcu: keramika. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5236_ykm184.jpg?ff=1&x=1024&y=768&q=85&ts=6ab2804d&sg=161563f2"
+    },
+    {
+      "id": "p5317",
+      "name": "Yixing keramická miska 12,5x12,5x6cm",
+      "kind": "pots",
+      "price": "450 Kč",
+      "priceValue": 450.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/yixing-keramicka-miska-12-5x12-5x6cm/",
+      "photo": "/assets/plants/honzuvles-p5317.jpg",
+      "tags": [
+        "ceramic",
+        "medium-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 12,5x12,5x6 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 12,5x12,5x6 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Materiál podľa predajcu: keramika. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5317_ykm211.jpg?ff=1&x=1024&y=768&q=85&ts=6abbf786&sg=161563f2"
+    },
+    {
+      "id": "p3457",
+      "name": "Yixing keramická miska 22x14x7cm",
+      "kind": "pots",
+      "price": "500 Kč",
+      "priceValue": 500.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/yixing-keramicka-miska-22x14x7cm/",
+      "photo": "/assets/plants/honzuvles-p3457.jpg",
+      "tags": [
+        "ceramic",
+        "large-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 22x14x7 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 22x14x7 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Materiál podľa predajcu: keramika. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3457_s-16.jpg?ff=1&x=1024&y=768&q=85&ts=68944f50&sg=161563f2"
+    },
+    {
+      "id": "p5320",
+      "name": "Yixing keramická miska 3x3,5x4,4cm",
+      "kind": "pots",
+      "price": "590 Kč",
+      "priceValue": 590.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/yixing-keramicka-miska-3x3-5x4-4cm/",
+      "photo": "/assets/plants/honzuvles-p5320.jpg",
+      "tags": [
+        "ceramic",
+        "small-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 3x3,5x4,4 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 3x3,5x4,4 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Materiál podľa predajcu: keramika. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5320_ykm212.jpg?ff=1&x=1024&y=768&q=85&ts=6abbf7e2&sg=161563f2"
+    },
+    {
+      "id": "p3769",
+      "name": "Keramická miska 26,5x21x8cm — Modrá",
+      "kind": "pots",
+      "price": "650 Kč",
+      "priceValue": 650.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/keramicka-miska-26-5x21x8cm/",
+      "photo": "/assets/plants/honzuvles-p3769.jpg",
+      "tags": [
+        "ceramic",
+        "large-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 26,5x21x8 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Variant podľa e-shopu: Modrá.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 26,5x21x8 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Variant podľa e-shopu: Modrá. Materiál podľa predajcu: keramika.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3769_km84m.jpg?ff=1&x=1024&y=768&q=85&ts=68458814&sg=161563f2"
+    },
+    {
+      "id": "p3070",
+      "name": "Keramická miska 39x29,5x11,5cm",
+      "kind": "pots",
+      "price": "1150 Kč",
+      "priceValue": 1150.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/keramicka-miska-39x29-5x11-5cm/",
+      "photo": "/assets/plants/honzuvles-p3070.jpg",
+      "tags": [
+        "ceramic",
+        "large-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 39x29,5x11,5 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 39x29,5x11,5 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Materiál podľa predajcu: keramika. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3070_km39.jpg?ff=1&x=1024&y=768&q=85&ts=68944f4f&sg=161563f2"
+    },
+    {
+      "id": "p5239",
+      "name": "Yixing keramická miska 37x26x11cm",
+      "kind": "pots",
+      "price": "1590 Kč",
+      "priceValue": 1590.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/yixing-keramicka-miska-37x26x11cm/",
+      "photo": "/assets/plants/honzuvles-p5239.jpg",
+      "tags": [
+        "ceramic",
+        "large-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 37x26x11 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 37x26x11 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Materiál podľa predajcu: keramika. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/5239_ykm185.jpg?ff=1&x=1024&y=768&q=85&ts=6ab280be&sg=161563f2"
+    },
+    {
+      "id": "p2902",
+      "name": "Yixing keramická miska 39x39x11,5cm",
+      "kind": "pots",
+      "price": "3500 Kč",
+      "priceValue": 3500.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/yixing-keramicka-miska-39x39x11-5cm/",
+      "photo": "/assets/plants/honzuvles-p2902.jpg",
+      "tags": [
+        "ceramic",
+        "large-pot"
+      ],
+      "facts": [
+        "Rozmery podľa názvu predajcu: 39x39x11,5 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru.",
+        "Materiál podľa predajcu: keramika.",
+        "Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline."
+      ],
+      "reason": "Rozmery podľa názvu predajcu: 39x39x11,5 cm; triedenie podľa najdlhšieho rozmeru, nie priemeru. Materiál podľa predajcu: keramika. Samostatný črepník; vhodnosť rozmeru skontrolujte pri rastline.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/2902-1_ykm82.jpg?ff=1&x=1024&y=768&q=85&ts=68944f4f&sg=161563f2"
+    },
+    {
+      "id": "p4534",
+      "name": "Piniová kůra 4-8mm — 2 litry",
+      "kind": "substrates",
+      "price": "45 Kč",
+      "priceValue": 45.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/piniova-kura-4-8mm/",
+      "photo": "/assets/plants/honzuvles-p4534.jpg",
+      "tags": [
+        "mineral-component",
+        "volume-small"
+      ],
+      "facts": [
+        "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile.",
+        "Variant podľa e-shopu: 2 litry.",
+        "Dostupný variant: 2 l."
+      ],
+      "reason": "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile. Variant podľa e-shopu: 2 litry. Dostupný variant: 2 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4534_piniova-kura-4-8mm.jpg?ff=1&x=1024&y=768&q=85&ts=69a72a21&sg=161563f2"
+    },
+    {
+      "id": "p3535",
+      "name": "Láva frakce 3-5mm — 2 litry",
+      "kind": "substrates",
+      "price": "50 Kč",
+      "priceValue": 50.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/lava-frakce-3-5mm/",
+      "photo": "/assets/plants/honzuvles-p3535.jpg",
+      "tags": [
+        "mineral-component",
+        "volume-small"
+      ],
+      "facts": [
+        "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile.",
+        "Variant podľa e-shopu: 2 litry.",
+        "Dostupný variant: 2 l."
+      ],
+      "reason": "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile. Variant podľa e-shopu: 2 litry. Dostupný variant: 2 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3535-1_lava-1.jpg?ff=1&x=1024&y=768&q=85&ts=68944f50&sg=161563f2"
+    },
+    {
+      "id": "p3526",
+      "name": "Pemza frakce 3-7mm — 2 litry",
+      "kind": "substrates",
+      "price": "50 Kč",
+      "priceValue": 50.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/pemza-frakce-3-7mm/",
+      "photo": "/assets/plants/honzuvles-p3526.jpg",
+      "tags": [
+        "mineral-component",
+        "volume-small"
+      ],
+      "facts": [
+        "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile.",
+        "Variant podľa e-shopu: 2 litry.",
+        "Dostupný variant: 2 l."
+      ],
+      "reason": "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile. Variant podľa e-shopu: 2 litry. Dostupný variant: 2 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3526-1_pemza-1.jpg?ff=1&x=1024&y=768&q=85&ts=68944f50&sg=161563f2"
+    },
+    {
+      "id": "p2389",
+      "name": "Základní substrát na jehličnaté bonsaje — 2 litry",
+      "kind": "substrates",
+      "price": "50 Kč",
+      "priceValue": 50.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/substrat-na-bonsaje/",
+      "photo": "/assets/plants/honzuvles-p2389.jpg",
+      "tags": [
+        "bonsai-mix",
+        "conifer-mix",
+        "volume-small"
+      ],
+      "facts": [
+        "Hotová zmes pre ihličnaté bonsaje podľa predajcu.",
+        "Variant podľa e-shopu: 2 litry.",
+        "Dostupný variant: 2 l."
+      ],
+      "reason": "Hotová zmes pre ihličnaté bonsaje podľa predajcu. Variant podľa e-shopu: 2 litry. Dostupný variant: 2 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/2389_bonsajovy-substrat-2l-5l-scaled.jpg?ff=1&x=1024&y=768&q=85&ts=68944c09&sg=161563f2"
+    },
+    {
+      "id": "p4519",
+      "name": "Základní substrát na listnaté bonsaje — 2 litry",
+      "kind": "substrates",
+      "price": "50 Kč",
+      "priceValue": 50.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/substrat-na-listnate-bonsaje/",
+      "photo": "/assets/plants/honzuvles-p4519.jpg",
+      "tags": [
+        "bonsai-mix",
+        "deciduous-mix",
+        "volume-small"
+      ],
+      "facts": [
+        "Hotová zmes pre listnaté bonsaje podľa predajcu; okrem azaliek.",
+        "Variant podľa e-shopu: 2 litry.",
+        "Dostupný variant: 2 l."
+      ],
+      "reason": "Hotová zmes pre listnaté bonsaje podľa predajcu; okrem azaliek. Variant podľa e-shopu: 2 litry. Dostupný variant: 2 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/4519_bonsajovy-substrat-2l-5l-scaled.jpg?ff=1&x=1024&y=768&q=85&ts=69a15496&sg=161563f2"
+    },
+    {
+      "id": "p3517",
+      "name": "Zeolit frakce 3-7mm — 2 litry",
+      "kind": "substrates",
+      "price": "70 Kč",
+      "priceValue": 70.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/zeolit-frakce-3-7mm/",
+      "photo": "/assets/plants/honzuvles-p3517.jpg",
+      "tags": [
+        "mineral-component",
+        "volume-small"
+      ],
+      "facts": [
+        "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile.",
+        "Variant podľa e-shopu: 2 litry.",
+        "Dostupný variant: 2 l."
+      ],
+      "reason": "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile. Variant podľa e-shopu: 2 litry. Dostupný variant: 2 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3517-1_zeolit-1.jpg?ff=1&x=1024&y=768&q=85&ts=68944f50&sg=161563f2"
+    },
+    {
+      "id": "p3565",
+      "name": "Ibaraki Akadama — 2 litry / 8-16 mm",
+      "kind": "substrates",
+      "price": "110 Kč",
+      "priceValue": 110.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/akadama-8-16mm/",
+      "photo": "/assets/plants/honzuvles-p3565.jpg",
+      "tags": [
+        "mineral-component",
+        "volume-small"
+      ],
+      "facts": [
+        "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile.",
+        "Variant podľa e-shopu: 2 litry / 8-16 mm.",
+        "Dostupný variant: 2 l."
+      ],
+      "reason": "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile. Variant podľa e-shopu: 2 litry / 8-16 mm. Dostupný variant: 2 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3565_ibaraki-akadama--objem-5-litru--frakce-8-16-mm-.jpg?ff=1&x=1024&y=768&q=85&ts=6a460c7f&sg=161563f2"
+    },
+    {
+      "id": "p3589",
+      "name": "Japonská pemza — 14 litrů / 3-6 mm",
+      "kind": "substrates",
+      "price": "510 Kč",
+      "priceValue": 510.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/japonska-pemza-10-18mm/",
+      "photo": "/assets/plants/honzuvles-p3589.jpg",
+      "tags": [
+        "mineral-component",
+        "volume-large"
+      ],
+      "facts": [
+        "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile.",
+        "Variant podľa e-shopu: 14 litrů / 3-6 mm.",
+        "Dostupný variant: 14 l."
+      ],
+      "reason": "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile. Variant podľa e-shopu: 14 litrů / 3-6 mm. Dostupný variant: 14 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3589-2_japonska-pemza--objem-5-litru--frakce-3-6-mm-.jpg?ff=1&x=1024&y=768&q=85&ts=6a4614bb&sg=161563f2"
+    },
+    {
+      "id": "p3607",
+      "name": "Hyuga — 18 litrů / 10-18 mm",
+      "kind": "substrates",
+      "price": "650 Kč",
+      "priceValue": 650.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/hyuga-10-18mm/",
+      "photo": "/assets/plants/honzuvles-p3607.jpg",
+      "tags": [
+        "mineral-component",
+        "volume-large"
+      ],
+      "facts": [
+        "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile.",
+        "Variant podľa e-shopu: 18 litrů / 10-18 mm.",
+        "Dostupný variant: 18 l."
+      ],
+      "reason": "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile. Variant podľa e-shopu: 18 litrů / 10-18 mm. Dostupný variant: 18 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3607_hyuga--objem-5-litru--frakce-10-18-mm-.jpg?ff=1&x=1024&y=768&q=85&ts=6a4613f2&sg=161563f2"
+    },
+    {
+      "id": "p3598",
+      "name": "Kanuma — 18 litrů / 3-6 mm",
+      "kind": "substrates",
+      "price": "595 Kč",
+      "priceValue": 595.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/kanuma-10-18mm/",
+      "photo": "/assets/plants/honzuvles-p3598.jpg",
+      "tags": [
+        "acid-mix",
+        "volume-large"
+      ],
+      "facts": [
+        "Predajca uvádza určenie pre azalky a kyslomilné bonsaje.",
+        "Variant podľa e-shopu: 18 litrů / 3-6 mm.",
+        "Dostupný variant: 18 l."
+      ],
+      "reason": "Predajca uvádza určenie pre azalky a kyslomilné bonsaje. Variant podľa e-shopu: 18 litrů / 3-6 mm. Dostupný variant: 18 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3598-2_kanuma--objem-5-litru--frakce-3-6-mm-.jpg?ff=1&x=1024&y=768&q=85&ts=6a4614c8&sg=161563f2"
+    },
+    {
+      "id": "p3580",
+      "name": "Kiryuzuna — 14 litrů / 3-6 mm",
+      "kind": "substrates",
+      "price": "595 Kč",
+      "priceValue": 595.0,
+      "currency": "CZK",
+      "url": "https://www.honzuvles.cz/kiryuzuna-10-18mm/",
+      "photo": "/assets/plants/honzuvles-p3580.jpg",
+      "tags": [
+        "mineral-component",
+        "volume-large"
+      ],
+      "facts": [
+        "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile.",
+        "Variant podľa e-shopu: 14 litrů / 3-6 mm.",
+        "Dostupný variant: 14 l."
+      ],
+      "reason": "Samostatná zložka bonsajového substrátu podľa predajcu; pomer zmesi overte na detaile. Variant podľa e-shopu: 14 litrů / 3-6 mm. Dostupný variant: 14 l.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/shop/big/3580-2_kiryuzuna--objem-5-litru--frakce-3-6-mm-.jpg?ff=1&x=1024&y=768&q=85&ts=6a4614d6&sg=161563f2"
+    }
+  ],
+  "checked": "2026-10-11"
+}

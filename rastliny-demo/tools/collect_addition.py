@@ -20,7 +20,7 @@ def eligible(p,shop):
     if re.search(shop.get('exclude',r'(?!)'),name,re.I):return False
     if re.search(shop.get('excludeByKind',{}).get(p['kind'],r'(?!)'),name,re.I):return False
     if p['kind'] in shop.get('include',{}) and not re.search(shop['include'][p['kind']],name,re.I):return False
-    if p['kind']=='substrates' and not re.search(r'substr[aá]t|rašelin|raselin|perlit|keramzit|kokos|zemin|p[ií]sek',name,re.I):return False
+    if p['kind']=='substrates' and not re.search(r'substr[aá]t|rašelin|raselin|perlit|keramzit|kokos|zemin|p[ií]sek|akadama|kanuma|kiryu|hyuga|l[aá]va|zeolit|pemza|piniov[aá]\s+k[uů]ra',name,re.I):return False
     return True
 
 def care(p,text,attributes=None,categories=None):

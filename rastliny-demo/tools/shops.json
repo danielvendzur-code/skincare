@@ -1025,5 +1025,74 @@
       "Cypruštek lawsonov Ellwoodii (Elwoodii, Ellwood´s)",
       "Tis obyčajný David"
     ]
+  },
+  "honzuvles": {
+    "name": "Honzův les",
+    "website": "https://www.honzuvles.cz/",
+    "currency": "CZK",
+    "platform": "shoptet",
+    "kinds": [
+      "plants",
+      "pots",
+      "substrates"
+    ],
+    "kindLabels": {
+      "plants": "Vonkajšie bonsaje",
+      "pots": "Bonsajové misky",
+      "substrates": "Pestovateľské médiá"
+    },
+    "categories": {
+      "plants": [
+        "venkovni-bonsaje"
+      ],
+      "pots": [
+        "misky"
+      ],
+      "substrates": [
+        "substraty"
+      ]
+    },
+    "limits": {
+      "plants": 30,
+      "pots": 18,
+      "substrates": 12
+    },
+    "exclude": "poukaz|hnojivo|tablety|figur|nářad|naradi|síť|rašeliník|štítk|Biochar|Keto",
+    "theme": {
+      "brand": "#0d4230",
+      "accent": "#287443",
+      "soft": "#eef3e8",
+      "paper": "#fffefb",
+      "line": "#d7e1d1",
+      "ink": "#23321e"
+    },
+    "categoryNotes": {
+      "plants": "Konkrétne stromy a cenové hladiny",
+      "pots": "Materiál a presné rozmery",
+      "substrates": "Zmesi a minerálne zložky na bonsaje"
+    },
+    "heading": "Vyberie bonsaj, ktorý sadne do jeho záhrady.",
+    "lead": "Zákazník si vyberie konkrétny strom, bonsajovú misku alebo pestovateľské médium. Poradca pozná produkty, dostupné varianty a ceny z vášho katalógu.",
+    "logoSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/logos/logo_horizontalni_2_bile.png",
+    "markCrop": [
+      0,
+      0,
+      860,
+      964
+    ],
+    "markWhite": true,
+    "logoInk": "#0d4230",
+    "logoNote": "Oficiálne biele transparentné logo je na owner stránke prevedené na tmavozelenú verziu. Pôvodný stromový symbol z ľavej časti je použitý biely v launcheri a pri každej správe bota. Lanczos vyhladenie, bez vymýšľania nového symbolu.",
+    "themeNote": "Tmavá zelená #0d4230 pochádza z webu; zelený accent je stmavenou verziou jeho #3c9655 pre kontrast s bielym textom.",
+    "photoNote": "Konkrétne bonsaje sú fotografované aj s miskou; dodávaný variant je pomenovaný a priradený k cene a fotografii. Doplnky majú vlastné oficiálne fotografie. Veľké originálne obaly médií sú viazané na dostupné varianty 14/18 l, nie na cenu menšieho odsypaného balenia. Podmisky sú výslovne označené.",
+    "photoBackdrop": "#eef3e8",
+    "terms": "https://www.honzuvles.cz/obchodni-podminky/",
+    "fit": "Osobné bonsajové záhradníctvo prevádzkované živnostníkom s 1–5 pracovníkmi. Podobné individuálne stromy, rôzne misky a pestovateľské médiá vytvárajú zmysluplnú potrebu porovnania. Obrat živnostníka nie je doložený.",
+    "heroNames": [
+      "Japonská azalka — 34x25x20 cm",
+      "Skalník — 40x24x20 cm",
+      "Buk lesní — 53x30x30 cm",
+      "Jalovec (Juniperus Sabina)"
+    ]
   }
 }

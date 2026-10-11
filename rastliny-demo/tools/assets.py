@@ -14,7 +14,7 @@ rows=json.loads(source_path.read_text());good=[]
 additions=json.loads((ROOT/'tools/shops.json').read_text()) if (ROOT/'tools/shops.json').exists() else {}
 def download(p):
  try:
-  if p['kind']=='substrates' and not re.search(r'substr|rašel|rasel|zemin|kokos|perlit|keramzit|p[ií]sek',p['name'],re.I):raise ValueError('not a substrate or growing medium')
+  if p['kind']=='substrates' and not re.search(r'substr|rašel|rasel|zemin|kokos|perlit|keramzit|p[ií]sek|akadama|kanuma|kiryu|hyuga|l[aá]va|zeolit|pemza|piniov[aá]\s+k[uů]ra',p['name'],re.I):raise ValueError('not a substrate or growing medium')
   if slug=='gardenholice' and p['id']=='p4249':raise ValueError('group photo makes the individual plant unreadable')
   target=source/f'{slug}-{p["id"]}.original';target.write_bytes(fetch(p['imageSource']))
   im=Image.open(target);im.verify()

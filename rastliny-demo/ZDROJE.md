@@ -1240,3 +1240,78 @@ Svetlo a nenáročnosť všetkých 18 kokedám boli osobitne prezreté v odráž
 | Smrek biely Conica | Ihličnany | 52,77 € | [detail](https://www.dreviny.sk/579-smrek-biely-conica-picea-glauca-conica/) |
 | Smrek obyčajný Inversa (Pendula), previsnutý | Ihličnany | 100,86 € | [detail](https://www.dreviny.sk/2288-smrek-obycajny-inversa-pendula-previsnuty-picea-abies-inversa/) |
 | Tuja západná Danica | Ihličnany | 9,60 € | [detail](https://www.dreviny.sk/953-tuja-zapadna-danica-thuja-occidentalis-danica/) |
+
+## Honzův les
+
+- Kontrola cien a skladu: **11.10.2026**, priamo z vlastného [e-shopu](https://www.honzuvles.cz/). [Identita predajcu](https://www.honzuvles.cz/obchodni-podminky/).
+- Firma: **Ing. Jan Franěk, IČO 14313243**. Vlastníci: Ing. Jan Franěk. Konatelia / podnikateľ: Ing. Jan Franěk.
+- Veľkosť: **Tržby nedoložené; 1–5 zam.**. Kód `110` v [primárnom registri](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/14313243); údaj aktualizovaný 2023-01-05, načítaný 2026-10-11. [Vlastníci](https://www.honzuvles.cz/obchodni-podminky/).
+- ARES nezverejňuje tržby živnostníka. Počet pracovníkov nie je dôkazom obratu pod milión eur; obrat sa neodhaduje.
+- VOP a ARES uvádzajú rovnakého samostatného podnikateľa. Personálna kategória je posledný zverejnený údaj registra.
+- Prečo sedí: Osobné bonsajové záhradníctvo prevádzkované živnostníkom s 1–5 pracovníkmi. Podobné individuálne stromy, rôzne misky a pestovateľské médiá vytvárajú zmysluplnú potrebu porovnania. Obrat živnostníka nie je doložený. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **57 produktov**, vonkajšie bonsaje, bonsajové misky, pestovateľské médiá. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: mikrodáta výpisu aj detailu (`InStock`, cena a mena); pri variantoch navyše oficiálne Shoptet variantové dáta viažu cenu, sklad a fotografiu k uvedenému variantu. Na detaile treba vybrať pomenovaný variant. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-11/honzuvles-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/logos/logo_horizontalni_2_bile.png); Oficiálne biele transparentné logo je na owner stránke prevedené na tmavozelenú verziu. Pôvodný stromový symbol z ľavej časti je použitý biely v launcheri a pri každej správe bota. Lanczos vyhladenie, bez vymýšľania nového symbolu. Konkrétne bonsaje sú fotografované aj s miskou; dodávaný variant je pomenovaný a priradený k cene a fotografii. Doplnky majú vlastné oficiálne fotografie. Veľké originálne obaly médií sú viazané na dostupné varianty 14/18 l, nie na cenu menšieho odsypaného balenia. Podmisky sú výslovne označené.
+- Farby: `brand: #0d4230`, `accent: #287443`, `soft: #eef3e8`, `paper: #fffefb`, `line: #d7e1d1`, `ink: #23321e`. Tmavá zelená #0d4230 pochádza z webu; zelený accent je stmavenou verziou jeho #3c9655 pre kontrast s bielym textom. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/honzuvles-qa.json`, `honzuvles-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-11/honzuvles-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Japonská azalka — 34x25x20 cm | Vonkajšie bonsaje | 850 Kč | [detail](https://www.honzuvles.cz/japonska-azalka-9/) |
+| Skalník — 40x24x20 cm | Vonkajšie bonsaje | 1190 Kč | [detail](https://www.honzuvles.cz/skalnik-3/) |
+| Buk lesní — 53x30x30 cm | Vonkajšie bonsaje | 1190 Kč | [detail](https://www.honzuvles.cz/buk-lesni-11/) |
+| Jalovec (Juniperus Sabina) | Vonkajšie bonsaje | 6800 Kč | [detail](https://www.honzuvles.cz/jalovec--juniperus-sabina/) |
+| Habr obecný — 68x38x34 cm | Vonkajšie bonsaje | 1250 Kč | [detail](https://www.honzuvles.cz/habr-obecny-6/) |
+| Lípa malolistá — 66x33x33 cm | Vonkajšie bonsaje | 1490 Kč | [detail](https://www.honzuvles.cz/lipa-malolista-2/) |
+| Plastová miska 13x13x10cm — Bez podmisky | Bonsajové misky | 18 Kč | [detail](https://www.honzuvles.cz/plastova-miska-13x13x10cm/) |
+| Japonská azalka — 36x26x25 cm | Vonkajšie bonsaje | 990 Kč | [detail](https://www.honzuvles.cz/japonska-azalka-18/) |
+| Habr obecný — 59x36x37 cm | Vonkajšie bonsaje | 1350 Kč | [detail](https://www.honzuvles.cz/habr-obecny-7/) |
+| Habr obecný — 65x36x36 cm | Vonkajšie bonsaje | 1350 Kč | [detail](https://www.honzuvles.cz/habr-obecny-4/) |
+| Skalník — 40x25x25 cm | Vonkajšie bonsaje | 1350 Kč | [detail](https://www.honzuvles.cz/skalnik-6/) |
+| Buk lesní — 62x34x30 cm | Vonkajšie bonsaje | 1370 Kč | [detail](https://www.honzuvles.cz/buk-lesni-4/) |
+| Habr obecný — 65x42x43 cm | Vonkajšie bonsaje | 1370 Kč | [detail](https://www.honzuvles.cz/habr-obecny-5/) |
+| Habr obecný — 53x36x30 cm | Vonkajšie bonsaje | 1370 Kč | [detail](https://www.honzuvles.cz/habr-obecny-2/) |
+| Buk lesní — 53x28x30 cm | Vonkajšie bonsaje | 1390 Kč | [detail](https://www.honzuvles.cz/buk-lesni-9/) |
+| Skalník — 48x25x23 cm | Vonkajšie bonsaje | 1390 Kč | [detail](https://www.honzuvles.cz/skalnik-4/) |
+| Buk lesní — 60x40x30 cm | Vonkajšie bonsaje | 1450 Kč | [detail](https://www.honzuvles.cz/buk-lesni-8/) |
+| Habr obecný — 70x40x35 cm | Vonkajšie bonsaje | 1450 Kč | [detail](https://www.honzuvles.cz/habr-obecny-8/) |
+| Buk lesní — 80x40x45 cm | Vonkajšie bonsaje | 1490 Kč | [detail](https://www.honzuvles.cz/buk-lesni-10/) |
+| Buk lesní — 66x40x37 cm | Vonkajšie bonsaje | 1490 Kč | [detail](https://www.honzuvles.cz/buk-lesni-5/) |
+| Buk lesní — 75x42x36 cm | Vonkajšie bonsaje | 1490 Kč | [detail](https://www.honzuvles.cz/buk-lesni-3/) |
+| Lípa malolistá — 61x40x40 cm | Vonkajšie bonsaje | 1490 Kč | [detail](https://www.honzuvles.cz/lipa_malolista/) |
+| Skalník — 40x29x24 cm | Vonkajšie bonsaje | 1490 Kč | [detail](https://www.honzuvles.cz/skalnik-5/) |
+| Lípa malolistá — 60x40x40 cm | Vonkajšie bonsaje | 1550 Kč | [detail](https://www.honzuvles.cz/lipa-malolista-8/) |
+| Lípa malolistá — 75x44x40 cm | Vonkajšie bonsaje | 1650 Kč | [detail](https://www.honzuvles.cz/lipa-malolista-7/) |
+| Lípa malolistá — 60x35x35 cm | Vonkajšie bonsaje | 1690 Kč | [detail](https://www.honzuvles.cz/lipa-malolista-11/) |
+| Lípa malolistá — 70x40x35 cm | Vonkajšie bonsaje | 1790 Kč | [detail](https://www.honzuvles.cz/lipa-malolista-10/) |
+| Lípa malolistá — 55x40x40 cm | Vonkajšie bonsaje | 1990 Kč | [detail](https://www.honzuvles.cz/lipa-malolista-12/) |
+| Jalovec (Juniperus Sabina) | Vonkajšie bonsaje | 7800 Kč | [detail](https://www.honzuvles.cz/jalovec--juniperus-sabina-3/) |
+| Jalovec (Juniperus Sabina) | Vonkajšie bonsaje | 9900 Kč | [detail](https://www.honzuvles.cz/jalovec-cinsky--juniperus-sabina/) |
+| Picea glauca conica lesík (smrk sivý) | Vonkajšie bonsaje | 33900 Kč | [detail](https://www.honzuvles.cz/picea-glauca-conica-lesik--smrk-sivy/) |
+| Keramická miska 10,5x8x4cm — Modrá | Bonsajové misky | 90 Kč | [detail](https://www.honzuvles.cz/keramicka-miska-10-5x8x4cm/) |
+| Keramická miska 10x8x4,5cm — Modrá | Bonsajové misky | 110 Kč | [detail](https://www.honzuvles.cz/keramicka-miska-10x8x4-5cm/) |
+| Keramická miska 13x10x5cm — Modrá | Bonsajové misky | 150 Kč | [detail](https://www.honzuvles.cz/keramicka-miska-13x10x5cm/) |
+| Keramická podmiska 25x19cm — Modrá | Bonsajové misky | 210 Kč | [detail](https://www.honzuvles.cz/keramicka-podmiska-25x19cm-3/) |
+| Keramická podmiska 28x22cm — Modrá | Bonsajové misky | 220 Kč | [detail](https://www.honzuvles.cz/keramicka-podmiska-28x22cm/) |
+| Keramická miska 15,5x12x4,5cm | Bonsajové misky | 290 Kč | [detail](https://www.honzuvles.cz/keramicka-miska-15-5x12x4-5cm-2/) |
+| Keramická miska 25x19,5x7cm | Bonsajové misky | 370 Kč | [detail](https://www.honzuvles.cz/keramicka-miska-25x19-5x7cm-2/) |
+| Yixing keramická miska 11x7,5x4cm | Bonsajové misky | 390 Kč | [detail](https://www.honzuvles.cz/yixing-keramicka-miska-11x7-5x4cm/) |
+| Yixing keramická miska 12,5x12,5x6cm | Bonsajové misky | 450 Kč | [detail](https://www.honzuvles.cz/yixing-keramicka-miska-12-5x12-5x6cm/) |
+| Yixing keramická miska 22x14x7cm | Bonsajové misky | 500 Kč | [detail](https://www.honzuvles.cz/yixing-keramicka-miska-22x14x7cm/) |
+| Yixing keramická miska 3x3,5x4,4cm | Bonsajové misky | 590 Kč | [detail](https://www.honzuvles.cz/yixing-keramicka-miska-3x3-5x4-4cm/) |
+| Keramická miska 26,5x21x8cm — Modrá | Bonsajové misky | 650 Kč | [detail](https://www.honzuvles.cz/keramicka-miska-26-5x21x8cm/) |
+| Keramická miska 39x29,5x11,5cm | Bonsajové misky | 1150 Kč | [detail](https://www.honzuvles.cz/keramicka-miska-39x29-5x11-5cm/) |
+| Yixing keramická miska 37x26x11cm | Bonsajové misky | 1590 Kč | [detail](https://www.honzuvles.cz/yixing-keramicka-miska-37x26x11cm/) |
+| Yixing keramická miska 39x39x11,5cm | Bonsajové misky | 3500 Kč | [detail](https://www.honzuvles.cz/yixing-keramicka-miska-39x39x11-5cm/) |
+| Piniová kůra 4-8mm — 2 litry | Pestovateľské médiá | 45 Kč | [detail](https://www.honzuvles.cz/piniova-kura-4-8mm/) |
+| Láva frakce 3-5mm — 2 litry | Pestovateľské médiá | 50 Kč | [detail](https://www.honzuvles.cz/lava-frakce-3-5mm/) |
+| Pemza frakce 3-7mm — 2 litry | Pestovateľské médiá | 50 Kč | [detail](https://www.honzuvles.cz/pemza-frakce-3-7mm/) |
+| Základní substrát na jehličnaté bonsaje — 2 litry | Pestovateľské médiá | 50 Kč | [detail](https://www.honzuvles.cz/substrat-na-bonsaje/) |
+| Základní substrát na listnaté bonsaje — 2 litry | Pestovateľské médiá | 50 Kč | [detail](https://www.honzuvles.cz/substrat-na-listnate-bonsaje/) |
+| Zeolit frakce 3-7mm — 2 litry | Pestovateľské médiá | 70 Kč | [detail](https://www.honzuvles.cz/zeolit-frakce-3-7mm/) |
+| Ibaraki Akadama — 2 litry / 8-16 mm | Pestovateľské médiá | 110 Kč | [detail](https://www.honzuvles.cz/akadama-8-16mm/) |
+| Japonská pemza — 14 litrů / 3-6 mm | Pestovateľské médiá | 510 Kč | [detail](https://www.honzuvles.cz/japonska-pemza-10-18mm/) |
+| Hyuga — 18 litrů / 10-18 mm | Pestovateľské médiá | 650 Kč | [detail](https://www.honzuvles.cz/hyuga-10-18mm/) |
+| Kanuma — 18 litrů / 3-6 mm | Pestovateľské médiá | 595 Kč | [detail](https://www.honzuvles.cz/kanuma-10-18mm/) |
+| Kiryuzuna — 14 litrů / 3-6 mm | Pestovateľské médiá | 595 Kč | [detail](https://www.honzuvles.cz/kiryuzuna-10-18mm/) |
