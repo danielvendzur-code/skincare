@@ -124,3 +124,5 @@ Rastlinná ukážka [Sebtob Plants](./rastliny-demo/sebtobplants/index.html): pr
 Rastlinná ukážka [ABIES – Dreviny.sk](./rastliny-demo/abies/index.html): pripravená subdoména `abies.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
 
 Rastlinná ukážka [Honzův les](./rastliny-demo/honzuvles/index.html): pripravená subdoména `honzuvles.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Duben-Kaktus](./rastliny-demo/dubenkaktus/index.html): pripravená subdoména `dubenkaktus.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.

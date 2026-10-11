@@ -1094,5 +1094,54 @@
       "Buk lesní — 53x30x30 cm",
       "Jalovec (Juniperus Sabina)"
     ]
+  },
+  "dubenkaktus": {
+    "name": "Duben-Kaktus",
+    "website": "https://shop.duben-kaktus.cz/",
+    "currency": "CZK",
+    "platform": "custom",
+    "kinds": [
+      "cacti",
+      "succulents"
+    ],
+    "kindLabels": {
+      "cacti": "Kaktusy",
+      "succulents": "Ďalšie sukulenty"
+    },
+    "categoryNotes": {
+      "cacti": "Zberateľské druhy, veľkosti a ceny",
+      "succulents": "Lithopsy, haworthie a ďalšie rody"
+    },
+    "theme": {
+      "brand": "#163f2b",
+      "accent": "#2b7048",
+      "soft": "#eef3e8",
+      "paper": "#fffefb",
+      "ink": "#263026",
+      "line": "#dae4d4"
+    },
+    "heading": "Vyberie rastlinu, ktorá doplní jeho zbierku.",
+    "lead": "Zákazník porovná kaktusy a sukulenty podľa rodu, ceny a konkrétnej veľkosti. Poradca pozná dostupné rastliny a údaje z vášho katalógu.",
+    "terms": "https://shop.duben-kaktus.cz/obchodni-podminky/",
+    "fit": "Rodinný špecializovaný e-shop samostatného podnikateľa s 6–9 pracovníkmi. Vlastná pestovateľská ponuka mnohých rodov a cien dáva zmysel pre poradcu. Tržby živnostníka nie sú doložené.",
+    "logoSource": "https://shop.duben-kaktus.cz/images/web/logo2.png",
+    "markCrop": [
+      3,
+      6,
+      31,
+      44
+    ],
+    "markWhite": true,
+    "logoNote": "Pôvodný zelený slovný znak bol zväčšený s Lanczos vyhladením. Písmeno D z toho istého loga je vyrezané a použité v bielej verzii v launcheri aj pri každej správe bota.",
+    "themeNote": "Zelené písmo oficiálneho loga; tmavšie zelené brand a accent zabezpečujú kontrast s bielym textom.",
+    "photoNote": "Fotografie sú viazané na ID daného produktu. Semená, materské rastliny a výber podľa samostatných kvetov sú vylúčené. Veľkosť črepníka a vek sa uvádzajú iba pri doloženom parametri. Fotografia Lithops pri pomenovanej Gasteria glomerata bola vyradená ako nesúlad etikety a rastliny. Pôvodné označenie autora na fotografiách zostalo zachované.",
+    "photoBackdrop": "#eef3e8",
+    "stockNote": "Detail musí uvádzať kladný počet Skladem (N ks), presnú cenu v Kč a aktívny formulár Koupit. Skryté ID produktu a adresár oficiálnej fotografie musia patriť tomu istému produktu; variantové výbery sú vylúčené.",
+    "heroNames": [
+      "Astrophytum Z Jasenné květináč 5,5 cm",
+      "Tephrocactus geometricus, pot 5,5 cm",
+      "Lapidaria margaretae pot 5,5 cm",
+      "Astrophytum Onzuko X ornatum pot 6,5 cm"
+    ]
   }
 }

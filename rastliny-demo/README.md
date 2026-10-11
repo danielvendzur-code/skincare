@@ -32,3 +32,4 @@ Chat funguje bez API kľúča z overeného katalógu. Voliteľný `ANTHROPIC_API
 | [Sebtob Plants](https://sebtobplants.cz/) | [`sebtobplants`](./sebtobplants/index.html) | 30 | ďalšie izbovky, filodendrony, monstery | Sebastian Ditl / 22174966 | Tržby nedoložené; 1–5 zam. | PASS 1440 / 390 / 360 |
 | [ABIES – Dreviny.sk](https://www.dreviny.sk/) | [`abies`](./abies/index.html) | 17 | listnaté dreviny, ihličnany | A.B.I.E.S. s.r.o. / 35828501 | 379 770 € tržby 2025; 2 zam. | PASS 1440 / 390 / 360 |
 | [Honzův les](https://www.honzuvles.cz/) | [`honzuvles`](./honzuvles/index.html) | 57 | vonkajšie bonsaje, bonsajové misky, pestovateľské médiá | Ing. Jan Franěk / 14313243 | Tržby nedoložené; 1–5 zam. | PASS 1440 / 390 / 360 |
+| [Duben-Kaktus](https://shop.duben-kaktus.cz/) | [`dubenkaktus`](./dubenkaktus/index.html) | 19 | kaktusy, ďalšie sukulenty | Tomáš Duben / 44500963 | Tržby nedoložené; 6–9 zam. | PASS 1440 / 390 / 360 |

@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-11",
+  "company": "Tomáš Duben",
+  "ico": "44500963",
+  "owners": [
+    "Tomáš Duben"
+  ],
+  "executives": [
+    "Tomáš Duben"
+  ],
+  "employees": {
+    "code": "120",
+    "range": "6–9",
+    "source": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/44500963",
+    "recordUpdated": "2023-10-04"
+  },
+  "revenue": {
+    "value": null,
+    "year": 2025,
+    "note": "ARES nezverejňuje tržby živnostníka. Počet pracovníkov nie je dôkazom obratu pod milión eur; obrat sa neodhaduje."
+  },
+  "ownersSource": "https://shop.duben-kaktus.cz/obchodni-podminky/",
+  "note": "VOP a ARES označujú samostatného podnikateľa Tomáša Dubena. Rodinná história pestovania nepreukazuje ďalšieho právneho spoluvlastníka."
+}

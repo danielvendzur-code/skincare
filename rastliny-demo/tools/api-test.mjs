@@ -30,4 +30,12 @@ for(const b of Object.values(BRANDS).filter(b=>b.kinds.includes('cacti'))){
  const namedCactus=b.products.find(p=>p.kind==='cacti');
  assert.equal((await call(local,{demoId:b.slug,messages:[{role:'user',content:'Sukulent '+namedCactus.name}]})).payload.products.length,0);
 }
+// A size stated in a plant name must not turn an exact product query into a pot request.
+for(const b of Object.values(BRANDS)){
+ const p=b.products.find(p=>p.kind!=='pots'&&/kv[eě]tin[aá]č|črepn[ií]k/i.test(p.name));if(!p)continue;
+ const r=await call(local,{demoId:b.slug,messages:[{role:'user',content:p.name}]});
+ assert(r.payload.products.includes(p.id),`exact named plant misclassified: ${b.slug} ${p.name}`);
+ const limited=await call(local,{demoId:b.slug,messages:[{role:'user',content:p.name+' do 0 '+(b.currency==='CZK'?'Kč':'€')}]});
+ assert.equal(limited.payload.products.length,0,'named product bypassed the budget');
+}
 console.log('PASS API: input validation, company scope, constraints, canonical AI cards, provider fallback');

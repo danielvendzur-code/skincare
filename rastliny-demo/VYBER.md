@@ -1,6 +1,6 @@
 # Výber ďalších rastlinných ukážok — 11. 10. 2026
 
-Pridaných **17 vhodných nových e-shopov**, spolu **688 produktov**. Segment teraz obsahuje **20 ukážok a 947 produktov** vrátane troch pôvodných ukážok. Počet sa nedopĺňal kandidátmi bez dostatočnej ponuky alebo spoľahlivého dokladu.
+Pridaných **18 vhodných nových e-shopov**, spolu **707 produktov**. Segment teraz obsahuje **21 ukážok a 966 produktov** vrátane troch pôvodných ukážok. Počet sa nedopĺňal kandidátmi bez dostatočnej ponuky alebo spoľahlivého dokladu.
 
 Podmienky: vlastný e-shop, aspoň približne 8 skladových živých rastlín, viac druhov a cenových hladín, odlišní vlastníci, malá firma podľa primárneho registra alebo doložených tržieb. Tržby nad približne 1 milión eur vylučujú kandidáta. Pri českých firmách ARES preukazuje kategóriu pracovníkov, nie výšku tržieb; nedostupný obrat sa výslovne uvádza ako nedoložený. Počet pracovníkov je posledný údaj registra, nie meranie aktuálneho personálu.
 
@@ -23,9 +23,10 @@ Podmienky: vlastný e-shop, aspoň približne 8 skladových živých rastlín, v
 | [VšeProKaktusy](https://www.vseprokaktusy.cz/) | 66279011 | Miroslav Langr | 0 | nedoložené | 42 | Rodinné pestovanie; množstvo podobných kaktusov rôznych rodov a cien. | PASS 1440/390/360 |
 | [Green Hunters](https://greenhunters.cz/eshop/) | 09750720 | Libor Lešek | 1–5 | nedoložené | 15 | Samostatný pestovateľ; 8 živých mäsožraviek a 7 presných balení zmesí, varianty overené na detaile. | PASS 1440/390/360 |
 | [Sebtob Plants](https://sebtobplants.cz/) | 22174966 | Sebastian Ditl | 1–5 | nedoložené | 30 | Osobný projekt dvoch bratov; konkrétne skladové rastliny viacerých rodov a cien. | PASS 1440/390/360 |
-
 | [ABIES – Dreviny.sk](https://www.dreviny.sk/) | 35828501 | Mgr. Juraj Sebestyén | 2 | 379 770 € | 17 | Malá škôlka; presný počet skladových kusov a dodávané veľkosti drevín. | PASS 1440/390/360 |
 | [Honzův les](https://www.honzuvles.cz/) | 14313243 | Ing. Jan Franěk | 1–5 | nedoložené | 57 | Konkrétne vonkajšie bonsaje, presné misky a médiá; osobný predajca. | PASS 1440/390/360 |
+
+| [Duben-Kaktus](https://shop.duben-kaktus.cz/) | 44500963 | Tomáš Duben | 6–9 | nedoložené | 19 | Rodinné pestovanie; viaceré rody a cenové hladiny kaktusov a sukulentov. | PASS 1440/390/360 |
 
 Firma, konatelia, jednotlivé registre, dátum aktualizácie, finančné výkazy, logo, farby a tabuľka všetkých produktov sú v [ZDROJE.md](./ZDROJE.md). Dátované, zredukované doklady bez adries a rodných údajov sú v `research/2026-10-10/*-registry.json`.
 
@@ -74,13 +75,13 @@ Dôvody odrážajú kontrolu 10. 10. 2026. Technicky neprístupný web znamená 
 
 ## Kontrola kvality
 
-Všetkých 17 nových katalógov používa oficiálne produktové fotografie a konkrétne skladové položky s cenou danej veľkosti alebo variantu. Pri BRESTe ide o odrodové fotografie, nie portrét dodávanej sadenice; výsledok to výslovne uvádza. Leaf-only fotografie, odrezané rastliny, predobjednávky, náhodné balíky a nejasné varianty sa vynechali.
+Všetkých 18 nových katalógov používa oficiálne produktové fotografie a konkrétne skladové položky s cenou danej veľkosti alebo variantu. Pri BRESTe ide o odrodové fotografie, nie portrét dodávanej sadenice; výsledok to výslovne uvádza. Leaf-only fotografie, odrezané rastliny, predobjednávky, náhodné balíky a nejasné varianty sa vynechali.
 
 WooCommerce `is_in_stock` nestačí: odstránili sa položky s backorderom, nedostupnosťou na nákup alebo variantmi bez dokladu konkrétneho SKU. Cenový rozsah nikdy nie je cenou výslednej karty. Shoptet variant musí mať overenú cenu, sklad a fotografiu; Shopify používa URL konkrétneho dostupného variantu. Kokedamy.cz má svetlo a nenáročnosť ručne prezreté z odrážok predajcu, obnoviteľné cez dátovaný `tools/curate_kokedamy.py`.
 
 Na každej novej ukážke prešiel skutočný lokálny API handler, QA na 1440, 390 a 360 px, kontrola kontrastu, obrázkov, overflow, všetkých kategórií a loga pri každej správe bota. Prezreté boli produktové hárky, desktop owner a výsledok, mobilný owner, chat, prvý krok a výsledok. Materiálne úpravy majú opakované QA.
 
-Simulácia všetkých dostupných vetiev: **1837 kombinácií pre 17 nových ukážok**, **2295 kombinácií pre celý segment**, bez prázdneho výsledku a bez porušenia obmedzení. Rozdelenie víťazov je v `qa-review/matrix.json`; nejde o záruku rovnakého počtu odporúčaní pre každé SKU.
+Simulácia všetkých dostupných vetiev: **1953 kombinácií pre 18 nových ukážok**, **2411 kombinácií pre celý segment**, bez prázdneho výsledku a bez porušenia obmedzení. Rozdelenie víťazov je v `qa-review/matrix.json`; nejde o záruku rovnakého počtu odporúčaní pre každé SKU.
 
 Ďalšia séria Rastlinkovo, Svokrine jazyky, Sukulenty Samek a VšeProKaktusy pridala **200 produktov**. Pri Rastlinkove sa overil aktuálny predajca Maxspan s.r.o. po zmene názvu firmy; RPO poskytlo aktuálny vlastnícky záznam. Pri Svokriných jazykoch bol namiesto neodpovedajúceho RPO použitý aktuálny ORSR výpis. Ich tržby 2025 sú predaj tovaru plus vlastných výrobkov/služieb podľa výkazu MÚJ, nie prvý riadok všetkých výnosov. Pri Svokriných jazykoch je počet pracovníkov nezistený.
 
@@ -95,5 +96,7 @@ Sebtob Plants má 30 prezretých celých rastlín, 116 kombinácií a 28 rôznyc
 ABIES má 17 prezretých drevín a 66 kombinácií bez prázdneho výsledku. Pri tvrdení „nenáročný na pôdu“ sa nepoužije všeobecné označenie nenáročnej starostlivosti. Pozitívne stanovištia sa ručne overili v konkrétnych popisoch. Mislabeled Ilex fotografie pri šalvii a zelená juka pri Color Guard sa vyradili. Cena aj dodávaná výška sú prepojené s konkrétnym odkazom; výsledok priznáva odrodovú fotografiu.
 
 Honzův les má 30 konkrétnych stromov, 16 misiek/podmisiek a 11 médií. Výsledok uvádza rozmery stromu, prípadný osobný odber a podmisky odlišuje od misiek na vysadenie. Fotografia veľkého obalu patrí dostupnému variantu 14/18 l s jeho skutočnou cenou. Všetkých 104 vetiev prešlo, 35 rôznych víťazov. Celkové rozmery misiek sa nezamieňajú s priemerom.
+
+Duben-Kaktus má 19 prezretých celých rastlín a 116 kombinácií, 17 rôznych víťazov. Semená, materské rastliny, odrezané zábery a nesúlad fotografie lithopsu pri Gasteria glomerata sa vyradili. Pri presnej otázke na rastlinu sa slovo „květináč“ v jej názve nezamieňa s požiadavkou na samostatný črepník; skutočná požiadavka na kategóriu a rozpočet sa stále rešpektuje.
 
 Každý e-shop má samostatný commit a push na `codex/rastliny-ukazky`. PR sa neotvára. Trasy a subdomény sú pripravené v [NASADENIE.md](./NASADENIE.md); DNS existujúcich subdomén sa nemenil. Vlastník má samostatný súkromný [živý náhľad všetkých ukážok](https://rastlinne-chatbot-ukazky.vendzurd.chatgpt.site) so statickým výberom a katalógovým chatom; serverové AI rozhranie vyžaduje samostatné nasadenie.

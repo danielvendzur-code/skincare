@@ -1315,3 +1315,40 @@ Svetlo a nenáročnosť všetkých 18 kokedám boli osobitne prezreté v odráž
 | Hyuga — 18 litrů / 10-18 mm | Pestovateľské médiá | 650 Kč | [detail](https://www.honzuvles.cz/hyuga-10-18mm/) |
 | Kanuma — 18 litrů / 3-6 mm | Pestovateľské médiá | 595 Kč | [detail](https://www.honzuvles.cz/kanuma-10-18mm/) |
 | Kiryuzuna — 14 litrů / 3-6 mm | Pestovateľské médiá | 595 Kč | [detail](https://www.honzuvles.cz/kiryuzuna-10-18mm/) |
+
+## Duben-Kaktus
+
+- Kontrola cien a skladu: **11.10.2026**, priamo z vlastného [e-shopu](https://shop.duben-kaktus.cz/). [Identita predajcu](https://shop.duben-kaktus.cz/obchodni-podminky/).
+- Firma: **Tomáš Duben, IČO 44500963**. Vlastníci: Tomáš Duben. Konatelia / podnikateľ: Tomáš Duben.
+- Veľkosť: **Tržby nedoložené; 6–9 zam.**. Kód `120` v [primárnom registri](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/44500963); údaj aktualizovaný 2023-10-04, načítaný 2026-10-11. [Vlastníci](https://shop.duben-kaktus.cz/obchodni-podminky/).
+- ARES nezverejňuje tržby živnostníka. Počet pracovníkov nie je dôkazom obratu pod milión eur; obrat sa neodhaduje.
+- VOP a ARES označujú samostatného podnikateľa Tomáša Dubena. Rodinná história pestovania nepreukazuje ďalšieho právneho spoluvlastníka.
+- Prečo sedí: Rodinný špecializovaný e-shop samostatného podnikateľa s 6–9 pracovníkmi. Vlastná pestovateľská ponuka mnohých rodov a cien dáva zmysel pre poradcu. Tržby živnostníka nie sú doložené. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **19 produktov**, kaktusy, ďalšie sukulenty. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: Detail musí uvádzať kladný počet Skladem (N ks), presnú cenu v Kč a aktívny formulár Koupit. Skryté ID produktu a adresár oficiálnej fotografie musia patriť tomu istému produktu; variantové výbery sú vylúčené. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-11/dubenkaktus-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://shop.duben-kaktus.cz/images/web/logo2.png); Pôvodný zelený slovný znak bol zväčšený s Lanczos vyhladením. Písmeno D z toho istého loga je vyrezané a použité v bielej verzii v launcheri aj pri každej správe bota. Fotografie sú viazané na ID daného produktu. Semená, materské rastliny a výber podľa samostatných kvetov sú vylúčené. Veľkosť črepníka a vek sa uvádzajú iba pri doloženom parametri. Fotografia Lithops pri pomenovanej Gasteria glomerata bola vyradená ako nesúlad etikety a rastliny. Pôvodné označenie autora na fotografiách zostalo zachované.
+- Farby: `brand: #163f2b`, `accent: #2b7048`, `soft: #eef3e8`, `paper: #fffefb`, `ink: #263026`, `line: #dae4d4`. Zelené písmo oficiálneho loga; tmavšie zelené brand a accent zabezpečujú kontrast s bielym textom. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/dubenkaktus-qa.json`, `dubenkaktus-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-11/dubenkaktus-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Astrophytum Z Jasenné květináč 5,5 cm | Kaktusy | 90 Kč | [detail](https://shop.duben-kaktus.cz/astrophytum-z-jasenne-kvetinac-5-5-cm-13617/) |
+| Tephrocactus geometricus, pot 5,5 cm | Kaktusy | 260 Kč | [detail](https://shop.duben-kaktus.cz/tephrocactus-geometricus-pot-5-5-cm-11690/) |
+| Lapidaria margaretae pot 5,5 cm | Ďalšie sukulenty | 40 Kč | [detail](https://shop.duben-kaktus.cz/lapidaria-margaretae-pot-5-5-cm-6379/) |
+| Astrophytum Onzuko X ornatum pot 6,5 cm | Kaktusy | 360 Kč | [detail](https://shop.duben-kaktus.cz/astrophytum-onzuko-x-ornatum-pot-6-5-cm-13235/) |
+| Titanopsis calcarea květináč 5,5 cm | Ďalšie sukulenty | 50 Kč | [detail](https://shop.duben-kaktus.cz/titanopsis-calcarea-kvetinac-5-5-cm-10672/) |
+| Lobivia tiegeliana, květináč 5,5 cm | Kaktusy | 40 Kč | [detail](https://shop.duben-kaktus.cz/lobivia-tiegeliana-kvetinac-5-5-cm-12099/) |
+| Astrophytum Z Jasenné květináč 5,5 cm | Kaktusy | 240 Kč | [detail](https://shop.duben-kaktus.cz/astrophytum-z-jasenne-kvetinac-5-5-cm-13169/) |
+| Ferobergia semenáč, pot 5,5 cm | Kaktusy | 240 Kč | [detail](https://shop.duben-kaktus.cz/ferobergia-semenac-pot-5-5-cm-12686/) |
+| Tephrocactus geometricus Semenáč pot 5,5 cm | Kaktusy | 300 Kč | [detail](https://shop.duben-kaktus.cz/tephrocactus-geometricus-semenac-pot-5-5-cm-11880/) |
+| Tephrocactus geometricus pot 6,5 cm | Kaktusy | 390 Kč | [detail](https://shop.duben-kaktus.cz/tephrocactus-geometricus-pot-6-5-cm-13125/) |
+| Gymnocalycium spegazzinii unguispinum SL 44b, 5,5 cm květináč | Kaktusy | 420 Kč | [detail](https://shop.duben-kaktus.cz/gymnocalycium-spegazzinii-unguispinum-sl-44b-5-5-cm-kvetinac-13399/) |
+| Lophophora fricii pot 6,5 cm | Kaktusy | 450 Kč | [detail](https://shop.duben-kaktus.cz/lophophora-fricii-pot-6-5-cm-10402/) |
+| Ariocarpus lloydii, pot 6,5 cm | Kaktusy | 750 Kč | [detail](https://shop.duben-kaktus.cz/ariocarpus-lloydii-pot-6-5-cm-12339/) |
+| Tephrocactus geometricus květináč 9 cm | Kaktusy | 950 Kč | [detail](https://shop.duben-kaktus.cz/tephrocactus-geometricus-kvetinac-9-cm-13008/) |
+| Ariocarpus kotschoubeyanus elephantidens Vista Hermosa pot 6,5 cm | Kaktusy | 2450 Kč | [detail](https://shop.duben-kaktus.cz/ariocarpus-kotschoubeyanus-elephantidens-vista-hermosa-pot-6-5-cm-12257/) |
+| Lithops 1 | Ďalšie sukulenty | 58 Kč | [detail](https://shop.duben-kaktus.cz/lithops-1-5033/) |
+| Frithia pulchra pot 5,5 cm | Ďalšie sukulenty | 60 Kč | [detail](https://shop.duben-kaktus.cz/frithia-pulchra-pot-5-5-cm-5027/) |
+| Haworthia truncata pot 5,5 cm | Ďalšie sukulenty | 100 Kč | [detail](https://shop.duben-kaktus.cz/haworthia-truncata-pot-5-5-cm-12097/) |
+| Lithops sp., květináč 6,5 cm | Ďalšie sukulenty | 120 Kč | [detail](https://shop.duben-kaktus.cz/lithops-sp-kvetinac-6-5-cm-13546/) |
