@@ -1,4 +1,7 @@
 /* Same rounded navigation and full-bleed question images as other demos. */
+body[data-cosmetics-demo] #cosmetics-root#cosmetics-root .cx-owner {height:auto!important;min-height:100svh!important;grid-template-rows:72px auto 190px 32px!important;}
+body[data-cosmetics-demo] #cosmetics-root#cosmetics-root .cx-owner-hero {padding-top:24px!important;padding-bottom:24px!important;}
+@media(max-width:760px){body[data-cosmetics-demo] #cosmetics-root#cosmetics-root .cx-owner {grid-template-rows:62px auto 185px 24px!important;}}
 body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-mode,
 body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-mode button {border-radius:999px!important;overflow:hidden;}
 body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-option {padding:0!important;overflow:hidden;height:auto!important;min-height:0!important;}

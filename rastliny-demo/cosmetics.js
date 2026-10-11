@@ -362,6 +362,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,s
 
   root.querySelector('#cx-open').addEventListener('click',()=>openWidget('chat'));
   root.querySelector('#cx-teaser').addEventListener('click',()=>openWidget('advisor'));
+  root.querySelectorAll('[data-open]').forEach(button=>button.addEventListener('click',()=>openWidget(button.dataset.open)));
   root.querySelector('#cx-close').addEventListener('click',closeWidget);
   root.querySelector('#cx-reset').addEventListener('click',resetAll);
   backdrop.addEventListener('click',closeWidget);
