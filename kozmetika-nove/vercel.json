@@ -2,346 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "monlevur.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=monlevur"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "kvetu.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=kvetu"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "mydlitto.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=mydlitto"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "puaree.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=puaree"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "dulcia.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=dulcia"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "yemna.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=yemna"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "namy.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=namy"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "mymkech.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=mymkech"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "anela.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=anela"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "klararott.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=klararott"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "yage.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=yage"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "omorfia.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=omorfia"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "pravaja.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=pravaja"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "caltha.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=caltha"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "zahir.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=zahir"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "pimpinella.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=pimpinella"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "biorythme.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=biorythme"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "purity.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=purity"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "indivo.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=indivo"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "smyssly.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=smyssly"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "liqoil.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=liqoil"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "muzuri.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=muzuri"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "noili.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=noili"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "mujluj.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=mujluj"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "humitics.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=humitics"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "skinium.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=skinium"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "botanica.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=botanica"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "atok.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=atok"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "iuvenio.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=iuvenio"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "drsandra.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=drsandra"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "savon.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=savon"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "marielli.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=marielli"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "delibutus.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=delibutus"
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "almara.mojchatbot.sk"
-        }
-      ],
-      "destination": "/cosmetics.html?demo=almara"
-    },
-    {
       "source": "/kozmetika/:slug",
       "destination": "/cosmetics.html"
     },
@@ -409,6 +69,382 @@
           "value": "no-store"
         }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "monlevur.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=monlevur",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "kvetu.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=kvetu",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "mydlitto.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=mydlitto",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "puaree.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=puaree",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "dulcia.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=dulcia",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "yemna.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=yemna",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "namy.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=namy",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "mymkech.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=mymkech",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "anela.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=anela",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "klararott.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=klararott",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "yage.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=yage",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "omorfia.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=omorfia",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "pravaja.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=pravaja",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "caltha.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=caltha",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "zahir.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=zahir",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "pimpinella.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=pimpinella",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "biorythme.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=biorythme",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "purity.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=purity",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "indivo.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=indivo",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "smyssly.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=smyssly",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "liqoil.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=liqoil",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "muzuri.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=muzuri",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "noili.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=noili",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "mujluj.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=mujluj",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "humitics.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=humitics",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "skinium.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=skinium",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "botanica.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=botanica",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "atok.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=atok",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "iuvenio.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=iuvenio",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "drsandra.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=drsandra",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "savon.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=savon",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "marielli.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=marielli",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "delibutus.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=delibutus",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "almara.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=almara",
+      "permanent": false
     }
   ]
 }
