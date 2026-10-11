@@ -878,5 +878,27 @@
       "cacti": 52,
       "succulents": 64
     }
+  },
+  "poniveni": {
+    "combinations": 45,
+    "empty": 0,
+    "constraintFailures": 0,
+    "uniqueWinners": 10,
+    "winners": {
+      "p26763": 13,
+      "p27773": 2,
+      "p6668": 2,
+      "p26457": 1,
+      "p27136": 1,
+      "p6847": 1,
+      "p5901": 1,
+      "p5504": 19,
+      "p7028": 3,
+      "p26759": 2
+    },
+    "byKind": {
+      "grasses": 21,
+      "foliage": 24
+    }
   }
 }

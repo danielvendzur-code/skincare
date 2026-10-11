@@ -52,7 +52,7 @@ export function questionsFor(brand,answers={}) {
  else {priorityTitle='Čomu dáme prednosť?';thirdOptions=pricePreference(afterFacet);}
  const third={key:'priority',kicker:'03 · Vaša preferencia',title:priorityTitle,options:thirdOptions};
  const afterPriority=candidates(brand,{kind,facet:answers.facet,priority:answers.priority});
- const thresholds=brand.currency==='CZK'?[200,400,800]:[15,30,60];
+ const thresholds=brand.budgetThresholds || (brand.currency==='CZK'?[200,400,800]:[15,30,60]);
  let available=thresholds.filter(n=>afterPriority.some(p=>p.priceValue<=n));
  if(!available.length && afterPriority.length){
   const prices=afterPriority.map(p=>p.priceValue).sort((a,b)=>a-b);const unit=brand.currency==='CZK'?100:10;

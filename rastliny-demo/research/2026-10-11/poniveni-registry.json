@@ -1,0 +1,28 @@
+{
+  "checked": "2026-10-11",
+  "company": "Slovenské trvalky, s.r.o.",
+  "ico": "47430567",
+  "owners": [
+    "Ing. Klaudia Konečná",
+    "Ing. Peter Konečný"
+  ],
+  "executives": [
+    "Ing. Klaudia Konečná",
+    "Ing. Peter Konečný"
+  ],
+  "employees": {
+    "code": "05",
+    "range": "5–9",
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1473647",
+    "recordUpdated": "2026-07-03"
+  },
+  "revenue": {
+    "value": 723257,
+    "year": 2025,
+    "currency": "EUR",
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10174539",
+    "note": "Výkaz MÚJ šablóny 687, Výkaz ziskov a strát: predaj tovaru 0 € + vlastné výrobky/služby 723 257 €. Prvý riadok všetkých výnosov 816 353 € nie je tržbou; zmena stavu zásob sa nepripočítava. Tržby sú celofiremné, nie iba e-shop."
+  },
+  "ownersSource": "https://api.statistics.sk/rpo/v1/entity/920305",
+  "note": "Aktuálne vlastníctvo a konateľov potvrdil RPO; obchodné podmienky uvádzajú rovnaké IČO."
+}

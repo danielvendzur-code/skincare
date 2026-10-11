@@ -1,6 +1,6 @@
 # Výber ďalších rastlinných ukážok — 11. 10. 2026
 
-Pridaných **18 vhodných nových e-shopov**, spolu **707 produktov**. Segment teraz obsahuje **21 ukážok a 966 produktov** vrátane troch pôvodných ukážok. Počet sa nedopĺňal kandidátmi bez dostatočnej ponuky alebo spoľahlivého dokladu.
+Pridaných **19 vhodných nových e-shopov**, spolu **719 produktov**. Segment teraz obsahuje **22 ukážok a 978 produktov** vrátane troch pôvodných ukážok. Počet sa nedopĺňal kandidátmi bez dostatočnej ponuky alebo spoľahlivého dokladu.
 
 Podmienky: vlastný e-shop, aspoň približne 8 skladových živých rastlín, viac druhov a cenových hladín, odlišní vlastníci, malá firma podľa primárneho registra alebo doložených tržieb. Tržby nad približne 1 milión eur vylučujú kandidáta. Pri českých firmách ARES preukazuje kategóriu pracovníkov, nie výšku tržieb; nedostupný obrat sa výslovne uvádza ako nedoložený. Počet pracovníkov je posledný údaj registra, nie meranie aktuálneho personálu.
 
@@ -27,6 +27,8 @@ Podmienky: vlastný e-shop, aspoň približne 8 skladových živých rastlín, v
 | [Honzův les](https://www.honzuvles.cz/) | 14313243 | Ing. Jan Franěk | 1–5 | nedoložené | 57 | Konkrétne vonkajšie bonsaje, presné misky a médiá; osobný predajca. | PASS 1440/390/360 |
 
 | [Duben-Kaktus](https://shop.duben-kaktus.cz/) | 44500963 | Tomáš Duben | 6–9 | nedoložené | 19 | Rodinné pestovanie; viaceré rody a cenové hladiny kaktusov a sukulentov. | PASS 1440/390/360 |
+
+| [Poni Veni](https://www.poniveni.sk/) | 47430567 | Ing. Klaudia Konečná, Ing. Peter Konečný | 5–9 | 723 257 € | 12 | Malá slovenská trvalková škôlka s doloženými tržbami 723 257 € za rok 2025 a 5–9 pracovníkmi. Vlastný moderný e-shop, množstvo kultivarov pre odlišné stanovištia a cenové hladiny. | PASS 1440/390/360 |
 
 Firma, konatelia, jednotlivé registre, dátum aktualizácie, finančné výkazy, logo, farby a tabuľka všetkých produktov sú v [ZDROJE.md](./ZDROJE.md). Dátované, zredukované doklady bez adries a rodných údajov sú v `research/2026-10-10/*-registry.json`.
 
@@ -73,15 +75,17 @@ Dôvody odrážajú kontrolu 10. 10. 2026. Technicky neprístupný web znamená 
 | Bonsai SUMIKO / Mgr. Čestmír Sosnovec, 43135285 | Odložený z rastlinného segmentu: ARES 1–5 pracovníkov, ale aktuálny e-shop je zameraný na misky, substráty, literatúru a kaligrafiu. BONSAJE je blog, nie skladový živý katalóg. | [E-shop](https://eshop.sumiko.cz/), [VOP](https://eshop.sumiko.cz/Obchodni-podminky-a3_0.htm), [ARES](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/43135285) |
 | Hájek-kaktusy / Jiří Hájek, 06400779 | Odložený: ARES uvádza 1–5 pracovníkov, ale pri kontrole 11. 10. 2026 nemal žiadnu dostupnú živú rastlinu zo 557 produktov typu Rostliny. Dostupné semená, knihy a poplatky sa nezapočítavajú. | [Oficiálny katalóg](https://hajek-kaktusy.cz/products.json?limit=250), [VOP](https://hajek-kaktusy.cz/policies/terms-of-service), [ARES](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/06400779) |
 
+| Záhradkárstvo Dráb / Drab s.r.o., 55248691 | Vyradený: čistý obrat 2025 **1 893 723 €**, prvý riadok výkazu šablóny 699. RÚZ uvádza 10–19 pracovníkov; nižší personál neruší prekročenie obratu. | [VOP](https://www.drab.sk/obchodne-podmienky/), [Výkaz](https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10180524) |
+
 ## Kontrola kvality
 
-Všetkých 18 nových katalógov používa oficiálne produktové fotografie a konkrétne skladové položky s cenou danej veľkosti alebo variantu. Pri BRESTe ide o odrodové fotografie, nie portrét dodávanej sadenice; výsledok to výslovne uvádza. Leaf-only fotografie, odrezané rastliny, predobjednávky, náhodné balíky a nejasné varianty sa vynechali.
+Všetkých 19 nových katalógov používa oficiálne produktové fotografie a konkrétne skladové položky s cenou danej veľkosti alebo variantu. Pri BRESTe ide o odrodové fotografie, nie portrét dodávanej sadenice; výsledok to výslovne uvádza. Leaf-only fotografie, odrezané rastliny, predobjednávky, náhodné balíky a nejasné varianty sa vynechali.
 
 WooCommerce `is_in_stock` nestačí: odstránili sa položky s backorderom, nedostupnosťou na nákup alebo variantmi bez dokladu konkrétneho SKU. Cenový rozsah nikdy nie je cenou výslednej karty. Shoptet variant musí mať overenú cenu, sklad a fotografiu; Shopify používa URL konkrétneho dostupného variantu. Kokedamy.cz má svetlo a nenáročnosť ručne prezreté z odrážok predajcu, obnoviteľné cez dátovaný `tools/curate_kokedamy.py`.
 
 Na každej novej ukážke prešiel skutočný lokálny API handler, QA na 1440, 390 a 360 px, kontrola kontrastu, obrázkov, overflow, všetkých kategórií a loga pri každej správe bota. Prezreté boli produktové hárky, desktop owner a výsledok, mobilný owner, chat, prvý krok a výsledok. Materiálne úpravy majú opakované QA.
 
-Simulácia všetkých dostupných vetiev: **1953 kombinácií pre 18 nových ukážok**, **2411 kombinácií pre celý segment**, bez prázdneho výsledku a bez porušenia obmedzení. Rozdelenie víťazov je v `qa-review/matrix.json`; nejde o záruku rovnakého počtu odporúčaní pre každé SKU.
+Simulácia všetkých dostupných vetiev: **1998 kombinácií pre 19 nových ukážok**, **2456 kombinácií pre celý segment**, bez prázdneho výsledku a bez porušenia obmedzení. Rozdelenie víťazov je v `qa-review/matrix.json`; nejde o záruku rovnakého počtu odporúčaní pre každé SKU.
 
 Ďalšia séria Rastlinkovo, Svokrine jazyky, Sukulenty Samek a VšeProKaktusy pridala **200 produktov**. Pri Rastlinkove sa overil aktuálny predajca Maxspan s.r.o. po zmene názvu firmy; RPO poskytlo aktuálny vlastnícky záznam. Pri Svokriných jazykoch bol namiesto neodpovedajúceho RPO použitý aktuálny ORSR výpis. Ich tržby 2025 sú predaj tovaru plus vlastných výrobkov/služieb podľa výkazu MÚJ, nie prvý riadok všetkých výnosov. Pri Svokriných jazykoch je počet pracovníkov nezistený.
 
@@ -98,5 +102,7 @@ ABIES má 17 prezretých drevín a 66 kombinácií bez prázdneho výsledku. Pri
 Honzův les má 30 konkrétnych stromov, 16 misiek/podmisiek a 11 médií. Výsledok uvádza rozmery stromu, prípadný osobný odber a podmisky odlišuje od misiek na vysadenie. Fotografia veľkého obalu patrí dostupnému variantu 14/18 l s jeho skutočnou cenou. Všetkých 104 vetiev prešlo, 35 rôznych víťazov. Celkové rozmery misiek sa nezamieňajú s priemerom.
 
 Duben-Kaktus má 19 prezretých celých rastlín a 116 kombinácií, 17 rôznych víťazov. Semená, materské rastliny, odrezané zábery a nesúlad fotografie lithopsu pri Gasteria glomerata sa vyradili. Pri presnej otázke na rastlinu sa slovo „květináč“ v jej názve nezamieňa s požiadavkou na samostatný črepník; skutočná požiadavka na kategóriu a rozpočet sa stále rešpektuje.
+
+Poni Veni má 12 prezretých kultivarov, 45 kombinácií a 10 rôznych víťazov. Odrodová fotografia je odlíšená od dodávanej sadenice v presnom kvetináči. Rozpočet 7/10/15 € zodpovedá ponuke; ostatné značky používajú svoje pôvodné hodnoty. Slnko, ľahký polotieň a nenáročnosť po zakorenení boli ručne overené, nie odvodené z rodu. Tri ďalšie zábery s odrezanými okrajmi a nejednoznačná heuchera sa vynechali.
 
 Každý e-shop má samostatný commit a push na `codex/rastliny-ukazky`. PR sa neotvára. Trasy a subdomény sú pripravené v [NASADENIE.md](./NASADENIE.md); DNS existujúcich subdomén sa nemenil. Vlastník má samostatný súkromný [živý náhľad všetkých ukážok](https://rastlinne-chatbot-ukazky.vendzurd.chatgpt.site) so statickým výberom a katalógovým chatom; serverové AI rozhranie vyžaduje samostatné nasadenie.

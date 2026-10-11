@@ -1,0 +1,350 @@
+{
+  "name": "Poni Veni",
+  "website": "https://www.poniveni.sk/",
+  "currency": "EUR",
+  "kinds": [
+    "grasses",
+    "foliage"
+  ],
+  "kindLabels": {
+    "grasses": "Okrasné trávy",
+    "foliage": "Listové trvalky"
+  },
+  "budgetThresholds": [
+    7,
+    10,
+    15
+  ],
+  "categoryNotes": {
+    "grasses": "Slnečné záhony a vybrané kultivary do ľahkého polotieňa",
+    "foliage": "Funkie a čistec"
+  },
+  "theme": {
+    "brand": "#1b505c",
+    "accent": "#2d7e6b",
+    "soft": "#effffb",
+    "paper": "#fcfffd",
+    "ink": "#20352f",
+    "line": "#d3e8e3"
+  },
+  "heading": "Vyberie rastlinu, ktorá sadne do jeho záhrady.",
+  "lead": "Zákazník si vyberie okrasnú trávu alebo listovú trvalku podľa stanovišťa, starostlivosti a rozpočtu. Poradca pozná konkrétne kultivary, veľkosti sadeníc a ceny.",
+  "slug": "poniveni",
+  "hero": "/assets/plants/poniveni.jpg",
+  "mobileHero": "/assets/plants/poniveni-mobile.jpg",
+  "logo": "/assets/plants/poniveni-logo.png",
+  "mark": "/assets/plants/poniveni-mark.png",
+  "products": [
+    {
+      "id": "p27136",
+      "name": "Schizachyrium 'Blue Paradise' - prstovka — K9x9 cm",
+      "kind": "grasses",
+      "price": "7.00 €",
+      "priceValue": 7.0,
+      "currency": "EUR",
+      "url": "https://www.poniveni.sk/schizachyrium-blue-paradise-prstovka",
+      "photo": "/assets/plants/poniveni-p27136.jpg",
+      "tags": [
+        "genus:schizachyrium",
+        "sun"
+      ],
+      "facts": [
+        "Dodávaná sadenica: kvetináč K9x9 cm.",
+        "Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice.",
+        "Predajca odporúča slnečné stanovište."
+      ],
+      "reason": "Dodávaná sadenica: kvetináč K9x9 cm. Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice. Predajca odporúča slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://www.poniveni.sk/buxus/images/fotogaleria/katalog_produktov/katalog_odoo/okrasne_travy/okrasne_travy_stredne_vysoke/schizachyrium_blue_paradise_prstovka/Schizachyrium__Blue_Paradise__.jpg"
+    },
+    {
+      "id": "p26759",
+      "name": "Hosta 'School Mouse' - funkia — K9x9 cm",
+      "kind": "foliage",
+      "price": "6.60 €",
+      "priceValue": 6.6,
+      "currency": "EUR",
+      "url": "https://www.poniveni.sk/hosta-school-mouse-funkia",
+      "photo": "/assets/plants/poniveni-p26759.jpg",
+      "tags": [
+        "genus:hosta",
+        "low"
+      ],
+      "facts": [
+        "Dodávaná sadenica: kvetináč K9x9 cm.",
+        "Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice.",
+        "Predajca odporúča polotieň a rovnomerne mierne vlhkú, priepustnú pôdu."
+      ],
+      "reason": "Dodávaná sadenica: kvetináč K9x9 cm. Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice. Predajca odporúča polotieň a rovnomerne mierne vlhkú, priepustnú pôdu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://www.poniveni.sk/buxus/images/fotogaleria/katalog_produktov/katalog_odoo/trvalky/trvalky_okrasne_listom/hosta_school_mouse_funkia/Hosta__School_Mouse_.jpg"
+    },
+    {
+      "id": "p6605",
+      "name": "Cortaderia 'Tiny Pampa' - pampová tráva K2L",
+      "kind": "grasses",
+      "price": "14.50 €",
+      "priceValue": 14.5,
+      "currency": "EUR",
+      "url": "https://www.poniveni.sk/cortaderia-tiny-pampa-pampova-trava-k2l",
+      "photo": "/assets/plants/poniveni-p6605.jpg",
+      "tags": [
+        "genus:cortaderia",
+        "sun"
+      ],
+      "facts": [
+        "Dodávaná sadenica: kvetináč K2L.",
+        "Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice.",
+        "Predajca odporúča slnečné stanovište.",
+        "Predajca odporúča ochranu v chladnejších oblastiach a priepustnú pôdu bez zimného zamokrenia."
+      ],
+      "reason": "Dodávaná sadenica: kvetináč K2L. Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice. Predajca odporúča slnečné stanovište. Predajca odporúča ochranu v chladnejších oblastiach a priepustnú pôdu bez zimného zamokrenia.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://www.poniveni.sk/buxus/images/fotogaleria/katalog_produktov/katalog_odoo/okrasne_travy/okrasne_travy_vysoke/cortaderia_tiny_pampa_pampova_trava_k2l/Cortaderia__Tiny_Pampa_.jpg"
+    },
+    {
+      "id": "p7028",
+      "name": "Hosta 'Lakeside Paisley Print' - funkia — K9x9 cm",
+      "kind": "foliage",
+      "price": "7.80 €",
+      "priceValue": 7.8,
+      "currency": "EUR",
+      "url": "https://www.poniveni.sk/hosta-lakeside-paisley-print-funkia",
+      "photo": "/assets/plants/poniveni-p7028.jpg",
+      "tags": [
+        "genus:hosta",
+        "low"
+      ],
+      "facts": [
+        "Dodávaná sadenica: kvetináč K9x9 cm.",
+        "Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice.",
+        "Predajca odporúča polotieň a rovnomerne mierne vlhkú, priepustnú pôdu."
+      ],
+      "reason": "Dodávaná sadenica: kvetináč K9x9 cm. Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice. Predajca odporúča polotieň a rovnomerne mierne vlhkú, priepustnú pôdu.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://www.poniveni.sk/buxus/images/katalog_produktov/katalog_odoo/trvalky/trvalky_okrasne_listom/hosta_lakeside_paisley_print_funkia/9254779_hosta_lakeside_paisley_print_01.png"
+    },
+    {
+      "id": "p27773",
+      "name": "Molinia 'Black Arrows' - bezkolenec — K9x9 cm",
+      "kind": "grasses",
+      "price": "5.59 €",
+      "priceValue": 5.59,
+      "currency": "EUR",
+      "url": "https://www.poniveni.sk/molinia-black-arrows-bezkolenec",
+      "photo": "/assets/plants/poniveni-p27773.jpg",
+      "tags": [
+        "genus:molinia",
+        "sun",
+        "low"
+      ],
+      "facts": [
+        "Dodávaná sadenica: kvetináč K9x9 cm.",
+        "Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice.",
+        "Predajca uvádza slnko a ľahký polotieň."
+      ],
+      "reason": "Dodávaná sadenica: kvetináč K9x9 cm. Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice. Predajca uvádza slnko a ľahký polotieň.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://www.poniveni.sk/buxus/images/fotogaleria/katalog_produktov/katalog_odoo/okrasne_travy/okrasne_travy_vysoke/molinia_black_arrows_bezkolenec/Molinia__Black_Arrows__.jpg"
+    },
+    {
+      "id": "p27131",
+      "name": "Panicum 'Niagara Falls' - proso — K9x9 cm",
+      "kind": "grasses",
+      "price": "7.30 €",
+      "priceValue": 7.3,
+      "currency": "EUR",
+      "url": "https://www.poniveni.sk/panicum-niagara-falls-proso",
+      "photo": "/assets/plants/poniveni-p27131.jpg",
+      "tags": [
+        "genus:panicum",
+        "sun",
+        "low"
+      ],
+      "facts": [
+        "Dodávaná sadenica: kvetináč K9x9 cm.",
+        "Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice.",
+        "Predajca uvádza slnko a ľahký polotieň."
+      ],
+      "reason": "Dodávaná sadenica: kvetináč K9x9 cm. Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice. Predajca uvádza slnko a ľahký polotieň.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://www.poniveni.sk/buxus/images/fotogaleria/katalog_produktov/katalog_odoo/okrasne_travy/okrasne_travy_vysoke/panicum_niagara_falls_proso/Panicum__Niagara_Falls___1.jpg"
+    },
+    {
+      "id": "p26763",
+      "name": "Miscanthus 'Memory' - ozdobnica K2L",
+      "kind": "grasses",
+      "price": "9.50 €",
+      "priceValue": 9.5,
+      "currency": "EUR",
+      "url": "https://www.poniveni.sk/miscanthus-memory-ozdobnica-k2l",
+      "photo": "/assets/plants/poniveni-p26763.jpg",
+      "tags": [
+        "genus:miscanthus",
+        "sun",
+        "low",
+        "easy"
+      ],
+      "facts": [
+        "Dodávaná sadenica: kvetináč K2L.",
+        "Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice.",
+        "Predajca uvádza slnko a ľahký polotieň.",
+        "Po zakorenení je podľa predajcu pomerne nenáročná."
+      ],
+      "reason": "Dodávaná sadenica: kvetináč K2L. Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice. Predajca uvádza slnko a ľahký polotieň. Po zakorenení je podľa predajcu pomerne nenáročná.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://www.poniveni.sk/buxus/images/fotogaleria/katalog_produktov/katalog_odoo/okrasne_travy/okrasne_travy_vysoke/miscanthus_memory_ozdobnica_k2l/Miscanthus__Memory__1.jpg"
+    },
+    {
+      "id": "p26457",
+      "name": "Cortaderia 'Pumila' - pampová tráva K1L",
+      "kind": "grasses",
+      "price": "7.69 €",
+      "priceValue": 7.69,
+      "currency": "EUR",
+      "url": "https://www.poniveni.sk/cortaderia-pumila-pampova-trava-k1l",
+      "photo": "/assets/plants/poniveni-p26457.jpg",
+      "tags": [
+        "genus:cortaderia",
+        "sun"
+      ],
+      "facts": [
+        "Dodávaná sadenica: kvetináč K1l.",
+        "Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice.",
+        "Predajca odporúča slnečné stanovište.",
+        "Predajca odporúča ochranu v chladnejších oblastiach a priepustnú pôdu bez zimného zamokrenia."
+      ],
+      "reason": "Dodávaná sadenica: kvetináč K1l. Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice. Predajca odporúča slnečné stanovište. Predajca odporúča ochranu v chladnejších oblastiach a priepustnú pôdu bez zimného zamokrenia.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://www.poniveni.sk/buxus/images/fotogaleria/katalog_produktov/katalog_odoo/okrasne_travy/okrasne_travy_vysoke/cortaderia_pumila_pampova_trava/6250830_Cortaderia__Pumila__03__1_.jpeg"
+    },
+    {
+      "id": "p6847",
+      "name": "Pennisetum 'Little Honey' - perovec — K9x9 cm",
+      "kind": "grasses",
+      "price": "5.69 €",
+      "priceValue": 5.69,
+      "currency": "EUR",
+      "url": "https://www.poniveni.sk/pennisetum-little-honey-perovec",
+      "photo": "/assets/plants/poniveni-p6847.jpg",
+      "tags": [
+        "genus:pennisetum",
+        "sun"
+      ],
+      "facts": [
+        "Dodávaná sadenica: kvetináč K9x9 cm.",
+        "Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice.",
+        "Predajca odporúča slnečné stanovište."
+      ],
+      "reason": "Dodávaná sadenica: kvetináč K9x9 cm. Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice. Predajca odporúča slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://www.poniveni.sk/buxus/images/katalog_produktov/katalog_odoo/okrasne_travy/okrasne_travy_stredne_vysoke/pennisetum_little_honey_perovec/9250832_pennisetum_little_honey_01.jpg"
+    },
+    {
+      "id": "p6668",
+      "name": "Helictotrichon 'Pendula' - ovsíkovec — K9x9 cm",
+      "kind": "grasses",
+      "price": "5.35 €",
+      "priceValue": 5.35,
+      "currency": "EUR",
+      "url": "https://www.poniveni.sk/helictotrichon-pendula-ovsikovec",
+      "photo": "/assets/plants/poniveni-p6668.jpg",
+      "tags": [
+        "genus:helictotrichon",
+        "sun"
+      ],
+      "facts": [
+        "Dodávaná sadenica: kvetináč K9x9 cm.",
+        "Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice.",
+        "Predajca odporúča slnečné stanovište."
+      ],
+      "reason": "Dodávaná sadenica: kvetináč K9x9 cm. Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice. Predajca odporúča slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://www.poniveni.sk/buxus/images/katalog_produktov/katalog_odoo/okrasne_travy/okrasne_travy_stredne_vysoke/helictotrichon_pendula_ovsikovec/9244474_helictotrichon_pendula_01.jpg"
+    },
+    {
+      "id": "p5901",
+      "name": "Pennisetum 'Black Beauty' - perovec — K9x9 cm",
+      "kind": "grasses",
+      "price": "5.59 €",
+      "priceValue": 5.59,
+      "currency": "EUR",
+      "url": "https://www.poniveni.sk/pennisetum-black-beauty-perovec",
+      "photo": "/assets/plants/poniveni-p5901.jpg",
+      "tags": [
+        "genus:pennisetum",
+        "sun"
+      ],
+      "facts": [
+        "Dodávaná sadenica: kvetináč K9x9 cm.",
+        "Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice.",
+        "Predajca odporúča slnečné stanovište."
+      ],
+      "reason": "Dodávaná sadenica: kvetináč K9x9 cm. Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice. Predajca odporúča slnečné stanovište.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://www.poniveni.sk/buxus/images/fotogaleria/katalog_produktov/katalog_odoo/okrasne_travy/okrasne_travy_stredne_vysoke/pennisetum_black_beauty_perovec/Pennisetum__Black_Beauty_.jpg"
+    },
+    {
+      "id": "p5504",
+      "name": "Stachys 'Helene Von Stein' - čistec — K9x9 cm",
+      "kind": "foliage",
+      "price": "5.99 €",
+      "priceValue": 5.99,
+      "currency": "EUR",
+      "url": "https://www.poniveni.sk/stachys-helene-von-stein-cistec",
+      "photo": "/assets/plants/poniveni-p5504.jpg",
+      "tags": [
+        "genus:stachys",
+        "sun",
+        "low",
+        "easy"
+      ],
+      "facts": [
+        "Dodávaná sadenica: kvetináč K9x9 cm.",
+        "Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice.",
+        "Predajca uvádza slnko alebo veľmi ľahký polotieň.",
+        "Nenáročný podľa predajcu; suchšie podmienky zvláda po zakorenení."
+      ],
+      "reason": "Dodávaná sadenica: kvetináč K9x9 cm. Odrodová fotografia zobrazuje vzhľad rastliny, nie veľkosť dodávanej sadenice. Predajca uvádza slnko alebo veľmi ľahký polotieň. Nenáročný podľa predajcu; suchšie podmienky zvláda po zakorenení.",
+      "diameter": null,
+      "potDiameter": null,
+      "stock": "InStock",
+      "checked": "2026-10-11",
+      "imageSource": "https://www.poniveni.sk/buxus/images/katalog_produktov/katalog_odoo/trvalky/trvalky_okrasne_listom/stachys_helene_von_stein_cistec/6251977_stachys_helene_von_stein_03.jpg"
+    }
+  ],
+  "checked": "2026-10-11"
+}

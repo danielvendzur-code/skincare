@@ -1143,5 +1143,59 @@
       "Lapidaria margaretae pot 5,5 cm",
       "Astrophytum Onzuko X ornatum pot 6,5 cm"
     ]
+  },
+  "poniveni": {
+    "name": "Poni Veni",
+    "website": "https://www.poniveni.sk/",
+    "currency": "EUR",
+    "platform": "custom",
+    "kinds": [
+      "grasses",
+      "foliage"
+    ],
+    "kindLabels": {
+      "grasses": "Okrasné trávy",
+      "foliage": "Listové trvalky"
+    },
+    "budgetThresholds": [
+      7,
+      10,
+      15
+    ],
+    "categoryNotes": {
+      "grasses": "Slnečné záhony a vybrané kultivary do ľahkého polotieňa",
+      "foliage": "Funkie a čistec"
+    },
+    "theme": {
+      "brand": "#1b505c",
+      "accent": "#2d7e6b",
+      "soft": "#effffb",
+      "paper": "#fcfffd",
+      "ink": "#20352f",
+      "line": "#d3e8e3"
+    },
+    "heading": "Vyberie rastlinu, ktorá sadne do jeho záhrady.",
+    "lead": "Zákazník si vyberie okrasnú trávu alebo listovú trvalku podľa stanovišťa, starostlivosti a rozpočtu. Poradca pozná konkrétne kultivary, veľkosti sadeníc a ceny.",
+    "logoSource": "https://www.poniveni.sk/buxus/images/image_669864069deb05.png",
+    "logoInk": "#1b505c",
+    "markCrop": [
+      0,
+      35,
+      320,
+      350
+    ],
+    "logoNote": "Pôvodné transparentné logo bolo na svetlom owner pozadí prevedené do tmavej eukalyptovej farby webu. Pôvodný mintový symbol ostáva čitateľný v kruhu na tmavom brand podklade v launcheri aj pri každej správe bota.",
+    "themeNote": "Priamo z CSS predajcu: eukalyptová #1B505C, mintová #5BFDD7, svetlá #EFFFFB a tmavší mintový accent #2D7E6B. Accent má dostatočný kontrast pre biely text.",
+    "terms": "https://www.poniveni.sk/vseobecne-obchodne-podmienky",
+    "fit": "Malá slovenská trvalková škôlka s doloženými tržbami 723 257 € za rok 2025 a 5–9 pracovníkmi. Vlastný moderný e-shop, množstvo kultivarov pre odlišné stanovištia a cenové hladiny.",
+    "stockNote": "Oficiálny Product/Offer JSON-LD uvádza InStock a pevnú EUR cenu. Cena je zhodná s hlavným detailom vrátane DPH. Aktívny hlavný košíkový formulár má rovnaké ID produktu a kladný dostupný počet; uvedená veľkosť kvetináča patrí danému detailu bez variantového výberu.",
+    "photoNote": "Odrodové zábery nie sú portrétom dodávanej sadenice; každý výsledok to priznáva a uvádza presný kvetináč. Detaily kvetov, samostatných listov, odrezané hlavné rastliny a nesúlad popisu kultivaru Timeless Treasure/Timeless Night sa vynechali.",
+    "photoBackdrop": "#effffb",
+    "heroNames": [
+      "Schizachyrium 'Blue Paradise' - prstovka — K9x9 cm",
+      "Hosta 'School Mouse' - funkia — K9x9 cm",
+      "Cortaderia 'Tiny Pampa' - pampová tráva K2L",
+      "Hosta 'Lakeside Paisley Print' - funkia — K9x9 cm"
+    ]
   }
 }

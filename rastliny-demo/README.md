@@ -33,3 +33,4 @@ Chat funguje bez API kľúča z overeného katalógu. Voliteľný `ANTHROPIC_API
 | [ABIES – Dreviny.sk](https://www.dreviny.sk/) | [`abies`](./abies/index.html) | 17 | listnaté dreviny, ihličnany | A.B.I.E.S. s.r.o. / 35828501 | 379 770 € tržby 2025; 2 zam. | PASS 1440 / 390 / 360 |
 | [Honzův les](https://www.honzuvles.cz/) | [`honzuvles`](./honzuvles/index.html) | 57 | vonkajšie bonsaje, bonsajové misky, pestovateľské médiá | Ing. Jan Franěk / 14313243 | Tržby nedoložené; 1–5 zam. | PASS 1440 / 390 / 360 |
 | [Duben-Kaktus](https://shop.duben-kaktus.cz/) | [`dubenkaktus`](./dubenkaktus/index.html) | 19 | kaktusy, ďalšie sukulenty | Tomáš Duben / 44500963 | Tržby nedoložené; 6–9 zam. | PASS 1440 / 390 / 360 |
+| [Poni Veni](https://www.poniveni.sk/) | [`poniveni`](./poniveni/index.html) | 12 | okrasné trávy, listové trvalky | Slovenské trvalky, s.r.o. / 47430567 | 723 257 € tržby 2025; 5–9 zam. | PASS 1440 / 390 / 360 |

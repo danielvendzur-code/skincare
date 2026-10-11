@@ -1352,3 +1352,33 @@ Svetlo a nenáročnosť všetkých 18 kokedám boli osobitne prezreté v odráž
 | Frithia pulchra pot 5,5 cm | Ďalšie sukulenty | 60 Kč | [detail](https://shop.duben-kaktus.cz/frithia-pulchra-pot-5-5-cm-5027/) |
 | Haworthia truncata pot 5,5 cm | Ďalšie sukulenty | 100 Kč | [detail](https://shop.duben-kaktus.cz/haworthia-truncata-pot-5-5-cm-12097/) |
 | Lithops sp., květináč 6,5 cm | Ďalšie sukulenty | 120 Kč | [detail](https://shop.duben-kaktus.cz/lithops-sp-kvetinac-6-5-cm-13546/) |
+
+## Poni Veni
+
+- Kontrola cien a skladu: **11.10.2026**, priamo z vlastného [e-shopu](https://www.poniveni.sk/). [Identita predajcu](https://www.poniveni.sk/vseobecne-obchodne-podmienky).
+- Firma: **Slovenské trvalky, s.r.o., IČO 47430567**. Vlastníci: Ing. Klaudia Konečná, Ing. Peter Konečný. Konatelia / podnikateľ: Ing. Klaudia Konečná, Ing. Peter Konečný.
+- Veľkosť: **723 257 € tržby 2025; 5–9 zam.**. Kód `05` v [primárnom registri](https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1473647); údaj aktualizovaný 2026-07-03, načítaný 2026-10-11. [Vlastníci](https://api.statistics.sk/rpo/v1/entity/920305).
+- [Finančný výkaz](https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10174539): Výkaz MÚJ šablóny 687, Výkaz ziskov a strát: predaj tovaru 0 € + vlastné výrobky/služby 723 257 €. Prvý riadok všetkých výnosov 816 353 € nie je tržbou; zmena stavu zásob sa nepripočítava. Tržby sú celofiremné, nie iba e-shop.
+- Aktuálne vlastníctvo a konateľov potvrdil RPO; obchodné podmienky uvádzajú rovnaké IČO.
+- Prečo sedí: Malá slovenská trvalková škôlka s doloženými tržbami 723 257 € za rok 2025 a 5–9 pracovníkmi. Vlastný moderný e-shop, množstvo kultivarov pre odlišné stanovištia a cenové hladiny. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **12 produktov**, okrasné trávy, listové trvalky. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: Oficiálny Product/Offer JSON-LD uvádza InStock a pevnú EUR cenu. Cena je zhodná s hlavným detailom vrátane DPH. Aktívny hlavný košíkový formulár má rovnaké ID produktu a kladný dostupný počet; uvedená veľkosť kvetináča patrí danému detailu bez variantového výberu. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-11/poniveni-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://www.poniveni.sk/buxus/images/image_669864069deb05.png); Pôvodné transparentné logo bolo na svetlom owner pozadí prevedené do tmavej eukalyptovej farby webu. Pôvodný mintový symbol ostáva čitateľný v kruhu na tmavom brand podklade v launcheri aj pri každej správe bota. Odrodové zábery nie sú portrétom dodávanej sadenice; každý výsledok to priznáva a uvádza presný kvetináč. Detaily kvetov, samostatných listov, odrezané hlavné rastliny a nesúlad popisu kultivaru Timeless Treasure/Timeless Night sa vynechali.
+- Farby: `brand: #1b505c`, `accent: #2d7e6b`, `soft: #effffb`, `paper: #fcfffd`, `ink: #20352f`, `line: #d3e8e3`. Priamo z CSS predajcu: eukalyptová #1B505C, mintová #5BFDD7, svetlá #EFFFFB a tmavší mintový accent #2D7E6B. Accent má dostatočný kontrast pre biely text. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/poniveni-qa.json`, `poniveni-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-11/poniveni-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Schizachyrium 'Blue Paradise' - prstovka — K9x9 cm | Okrasné trávy | 7.00 € | [detail](https://www.poniveni.sk/schizachyrium-blue-paradise-prstovka) |
+| Hosta 'School Mouse' - funkia — K9x9 cm | Listové trvalky | 6.60 € | [detail](https://www.poniveni.sk/hosta-school-mouse-funkia) |
+| Cortaderia 'Tiny Pampa' - pampová tráva K2L | Okrasné trávy | 14.50 € | [detail](https://www.poniveni.sk/cortaderia-tiny-pampa-pampova-trava-k2l) |
+| Hosta 'Lakeside Paisley Print' - funkia — K9x9 cm | Listové trvalky | 7.80 € | [detail](https://www.poniveni.sk/hosta-lakeside-paisley-print-funkia) |
+| Molinia 'Black Arrows' - bezkolenec — K9x9 cm | Okrasné trávy | 5.59 € | [detail](https://www.poniveni.sk/molinia-black-arrows-bezkolenec) |
+| Panicum 'Niagara Falls' - proso — K9x9 cm | Okrasné trávy | 7.30 € | [detail](https://www.poniveni.sk/panicum-niagara-falls-proso) |
+| Miscanthus 'Memory' - ozdobnica K2L | Okrasné trávy | 9.50 € | [detail](https://www.poniveni.sk/miscanthus-memory-ozdobnica-k2l) |
+| Cortaderia 'Pumila' - pampová tráva K1L | Okrasné trávy | 7.69 € | [detail](https://www.poniveni.sk/cortaderia-pumila-pampova-trava-k1l) |
+| Pennisetum 'Little Honey' - perovec — K9x9 cm | Okrasné trávy | 5.69 € | [detail](https://www.poniveni.sk/pennisetum-little-honey-perovec) |
+| Helictotrichon 'Pendula' - ovsíkovec — K9x9 cm | Okrasné trávy | 5.35 € | [detail](https://www.poniveni.sk/helictotrichon-pendula-ovsikovec) |
+| Pennisetum 'Black Beauty' - perovec — K9x9 cm | Okrasné trávy | 5.59 € | [detail](https://www.poniveni.sk/pennisetum-black-beauty-perovec) |
+| Stachys 'Helene Von Stein' - čistec — K9x9 cm | Listové trvalky | 5.99 € | [detail](https://www.poniveni.sk/stachys-helene-von-stein-cistec) |
