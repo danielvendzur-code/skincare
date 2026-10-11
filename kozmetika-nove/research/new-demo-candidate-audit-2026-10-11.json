@@ -1,0 +1,862 @@
+{
+  "date": "2026-10-11",
+  "rules": "Small SK/CZ companies, own shop, no duplicate ICO/domain/owner, official available packages/photos, no medical claims, common segment engines, one company per commit, no PR.",
+  "approvedCompanies": [
+    {
+      "slug": "puaree",
+      "name": "Puaree",
+      "ico": "07734921",
+      "size": "ARES 120: 6–9",
+      "website": "https://www.puaree.cz/",
+      "owner": "Adriana Šoltésová",
+      "exclusions": [
+        {
+          "name": "Balíček Wellness",
+          "url": "https://www.puaree.cz/produkty/vanocni-balicek-lavender-ylang/",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Balíček pleťové kosmetiky | Magnolia",
+          "url": "https://www.puaree.cz/produkty/vanocni-balicek-pletove-kosmetiky-magnolia/",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Balíček vlasové kosmetiky",
+          "url": "https://www.puaree.cz/produkty/vanocni-balicek-grapefruit-may-chang/",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Balíček pleťové kosmetiky | Bakuchiol",
+          "url": "https://www.puaree.cz/darkove-balicky/vanocni-balicek-pletove-kosmetiky-bakuchiol/",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Balíček pleťové kosmetiky | Magnolia",
+          "url": "https://www.puaree.cz/darkove-balicky/vanocni-balicek-pletove-kosmetiky-magnolia/",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Balíček pleťové kosmetiky | Bakuchiol",
+          "url": "https://www.puaree.cz/produkty/vanocni-balicek-pletove-kosmetiky-bakuchiol/",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Denní krém Intense Nutrition",
+          "url": "https://www.puaree.cz/pletova-kosmetika/denni-krem-intense-nutrition/",
+          "reason": "Vypredané plné balenie alebo dostupná iba vzorka."
+        }
+      ],
+      "logoEvidence": {
+        "sourceUrl": "https://cdn.myshoptet.com/usr/www.puaree.cz/user/logos/puaree_png_transparent_zakladni_purpurova.png",
+        "sourceSha256": "830c703ef2319f8a8f1a4d1bd9a9ec2442818b2334e3bfb260f8445363ddbba7",
+        "symbolCrop": [
+          601,
+          325,
+          1314,
+          1232
+        ],
+        "note": "Official logo symbol or letter cropped without redrawing; displayed on white."
+      },
+      "repository": "danielvendzur-code/skincare",
+      "productPackages": 78,
+      "qa": "PASS: desktop 1440x900, mobile 390x844 and 360x800; screenshots inspected",
+      "registrySource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/07734921"
+    },
+    {
+      "slug": "mydlitto",
+      "name": "Mydlitto",
+      "ico": "07652917",
+      "size": "ARES 120: 6–9",
+      "website": "https://www.mydlitto.cz/",
+      "owner": "Josef Šternberg",
+      "exclusions": [
+        {
+          "name": "Capelli magic powder - práškový šampon pro mokré mytí",
+          "url": "https://www.mydlitto.cz/Capelli-magic-powder-praskovy-sampon-pro-mokre-myti-d2385.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Mýdlo pro chlapy",
+          "url": "https://www.mydlitto.cz/Mydlo-pro-chlapy-d2396.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Šípkové sprchové máslo",
+          "url": "https://www.mydlitto.cz/Sipkove-sprchove-maslo-d2401.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Jalovcové detoxikační mýdlo - Juniperus soap",
+          "url": "https://www.mydlitto.cz/Jalovcove-detoxikacni-mydlo-Juniperus-soap-d1468.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Heřmánkové  mýdlo - kulaté",
+          "url": "https://www.mydlitto.cz/Hermankove-mydlo-kulate-d1476.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "TOCCHI BLUE - Modrá jílová maska",
+          "url": "https://www.mydlitto.cz/TOCCHI-BLUE-Modra-jilova-maska-d1721.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Šípkové Tonizační Sérum 50 ml",
+          "url": "https://www.mydlitto.cz/Sipkove-Tonizacni-Serum-50-ml-d310.htm",
+          "reason": "Vypredané plné balenie alebo dostupná iba vzorka."
+        },
+        {
+          "name": "Dřevěná lžička",
+          "url": "https://www.mydlitto.cz/Drevena-lzicka-d798.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Oční olejové sérum",
+          "url": "https://www.mydlitto.cz/Ocni-olejove-serum-d128.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Přírodní tuhý parfém - Fialka",
+          "url": "https://www.mydlitto.cz/Prirodni-tuhy-parfem-Fialka-d130.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "100% přírodní deodorant \"ONNETON\"",
+          "url": "https://www.mydlitto.cz/100-prirodni-deodorant-ONNETON-d331.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Deodorant -Green Bergamot",
+          "url": "https://www.mydlitto.cz/Deodorant-Green-Bergamot-d1409.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Ariventol - sprej na svaly a klouby",
+          "url": "https://www.mydlitto.cz/Ariventol-sprej-na-svaly-a-klouby-d2592.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "KAMAY - Přípravek s antibakteriální složkou pro ošetření rukou",
+          "url": "https://www.mydlitto.cz/KAMAY-Pripravek-s-antibakterialni-slozkou-pro-osetreni-rukou-d956.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Levandulka",
+          "url": "https://www.mydlitto.cz/Levandulka-d337.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Swa Poudre - hedvábný  pudr - lahvička",
+          "url": "https://www.mydlitto.cz/Swa-Poudre-hedvabny-pudr-lahvicka-d1346.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Růžový polštářek",
+          "url": "https://www.mydlitto.cz/Ruzovy-polstarek-d423.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Chmelový polštářek",
+          "url": "https://www.mydlitto.cz/Chmelovy-polstarek-d390.htm",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "Dárková sada - Mydlitto I",
+          "url": "https://www.mydlitto.cz/Darkova-sada-Mydlitto-I-d2603.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička černá - Šípková",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-cerna-Sipkova-d2364.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička Růžová propolisová",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-Ruzova-propolisova-d2573.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička ve tvaru kabelky - Žlutá",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-ve-tvaru-kabelky-Zluta-d2399.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička ve tvaru kabelky - Pink LOVE",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-ve-tvaru-kabelky-Pink-LOVE-d2395.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička se vzorky pleťové péče",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-se-vzorky-pletove-pece-d2572.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička černá - Myrhová",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-cerna-Myrhova-d1828.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada modrá pro chlapy",
+          "url": "https://www.mydlitto.cz/Darkova-sada-modra-pro-chlapy-d2348.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička černá - Propolisová",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-cerna-Propolisova-d2363.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Šípková dárková krabička",
+          "url": "https://www.mydlitto.cz/Sipkova-darkova-krabicka-d799.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička - kokosová mýdlenka a mýdlo - kulatá",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-kokosova-mydlenka-a-mydlo-kulata-d2352.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Růžový košík s bambusovou žínkou a sítkou",
+          "url": "https://www.mydlitto.cz/Ruzovy-kosik-s-bambusovou-zinkou-a-sitkou-d800.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička mix",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-mix-d2171.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada -košíkk s mýdelky",
+          "url": "https://www.mydlitto.cz/Darkova-sada-kosikk-s-mydelky-d2502.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada odličovacích houbiček a maxi bio tamponů",
+          "url": "https://www.mydlitto.cz/Darkova-sada-odlicovacich-houbicek-a-maxi-bio-tamponu-d2068.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička Růžové -  LOVE",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-Ruzove-LOVE-d2366.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - kulatý tácek s mýdelky",
+          "url": "https://www.mydlitto.cz/Darkova-sada-kulaty-tacek-s-mydelky-d2065.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková pukačka s mýdélkem - stříbrná",
+          "url": "https://www.mydlitto.cz/Darkova-pukacka-s-mydelkem-stribrna-d2134.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Mýdlové dárkové psaníčko - Babičce",
+          "url": "https://www.mydlitto.cz/Mydlove-darkove-psanicko-Babicce-d1801.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková pukačka s mýdélkem - zlatá",
+          "url": "https://www.mydlitto.cz/Darkova-pukacka-s-mydelkem-zlata-d870.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Mýdlové dárkové psaníčko - Kámošce",
+          "url": "https://www.mydlitto.cz/Mydlove-darkove-psanicko-Kamosce-d1800.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Mýdlové dárkové psaníčko - Mamince",
+          "url": "https://www.mydlitto.cz/Mydlove-darkove-psanicko-Mamince-d1802.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárkový košíček s kytičkou",
+          "url": "https://www.mydlitto.cz/Darkovy-kosicek-s-kytickou-d2011.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Mýdlové dárkové psaníčko - Děkuji",
+          "url": "https://www.mydlitto.cz/Mydlove-darkove-psanicko-Dekuji-d1045.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Mýdlové dárkové psaníčko - Pro paní učitelku",
+          "url": "https://www.mydlitto.cz/Mydlove-darkove-psanicko-Pro-pani-ucitelku-d1799.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Mýdlové dárkové psaníčko - Pro paní asistenku",
+          "url": "https://www.mydlitto.cz/Mydlove-darkove-psanicko-Pro-pani-asistenku-d699.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - s mýdly a magnetkou 2",
+          "url": "https://www.mydlitto.cz/Darkova-sada-s-mydly-a-magnetkou-2-d2484.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - Pleťová",
+          "url": "https://www.mydlitto.cz/Darkova-sada-Pletova-d2486.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - s mýdly a magnetkou 3",
+          "url": "https://www.mydlitto.cz/Darkova-sada-s-mydly-a-magnetkou-3-d2485.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - s mýdly a magnetkou 1",
+          "url": "https://www.mydlitto.cz/Darkova-sada-s-mydly-a-magnetkou-1-d2340.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička s mýdélkem - hnědá s mašlí",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-s-mydelkem-hneda-s-masli-d2290.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárkový  box  - zlaté linky",
+          "url": "https://www.mydlitto.cz/Darkovy-box-zlate-linky-d2153.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárkový  box kytičkový",
+          "url": "https://www.mydlitto.cz/Darkovy-box-kytickovy-d2026.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárkový  box  - zlaté linky 2",
+          "url": "https://www.mydlitto.cz/Darkovy-box-zlate-linky-2-d2310.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - šípková velká",
+          "url": "https://www.mydlitto.cz/Darkova-sada-sipkova-velka-d2183.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička Myrha - LOVE",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-Myrha-LOVE-d2436.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárkový box Modrý",
+          "url": "https://www.mydlitto.cz/Darkovy-box-Modry-d2106.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabice s 1% KH",
+          "url": "https://www.mydlitto.cz/Darkova-krabice-s-1-KH-d2347.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - skořicová",
+          "url": "https://www.mydlitto.cz/Darkova-sada-skoricova-d2173.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - přírodní vulkanická pemza s mýdélkem",
+          "url": "https://www.mydlitto.cz/Darkova-sada-prirodni-vulkanicka-pemza-s-mydelkem-d2067.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárkový  box růžový",
+          "url": "https://www.mydlitto.cz/Darkovy-box-ruzovy-d2105.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - sada koupelových solí 4 ks",
+          "url": "https://www.mydlitto.cz/Darkova-sada-sada-koupelovych-soli-4-ks-d2069.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - kulatý tácek s mýdlem a bio sítkou na mýdlo",
+          "url": "https://www.mydlitto.cz/Darkova-sada-kulaty-tacek-s-mydlem-a-bio-sitkou-na-mydlo-d2066.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárkový detský plechový box - kluk",
+          "url": "https://www.mydlitto.cz/Darkovy-detsky-plechovy-box-kluk-d2100.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková krabička s mýdlovými hoblinkami",
+          "url": "https://www.mydlitto.cz/Darkova-krabicka-s-mydlovymi-hoblinkami-d1892.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - růžový košík",
+          "url": "https://www.mydlitto.cz/Darkova-sada-ruzovy-kosik-d2503.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - růžová s puntíkem",
+          "url": "https://www.mydlitto.cz/Darkova-sada-ruzova-s-puntikem-d2178.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárkový detský plechový box - holčička",
+          "url": "https://www.mydlitto.cz/Darkovy-detsky-plechovy-box-holcicka-d2099.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada ručník a dětské poutko",
+          "url": "https://www.mydlitto.cz/Darkova-sada-rucnik-a-detske-poutko-d2276.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - mýdlová s dárkem",
+          "url": "https://www.mydlitto.cz/Darkova-sada-mydlova-s-darkem-d2118.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - Mydlitto I",
+          "url": "https://www.mydlitto.cz/Darkova-sada-Mydlitto-I-d2117.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada - zdravé nožky",
+          "url": "https://www.mydlitto.cz/Darkova-sada-zdrave-nozky-d2180.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Trio houbičky - box",
+          "url": "https://www.mydlitto.cz/Trio-houbicky-box-d2050.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada lněných ručníků 3 ks + 1 zdarma",
+          "url": "https://www.mydlitto.cz/Darkova-sada-lnenych-rucniku-3-ks-1-zdarma-d1446.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada ručníků - mořská hvězda",
+          "url": "https://www.mydlitto.cz/Darkova-sada-rucniku-morska-hvezda-d2047.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada ručníků - koruna",
+          "url": "https://www.mydlitto.cz/Darkova-sada-rucniku-koruna-d2324.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárkový košík - ručník ona a on",
+          "url": "https://www.mydlitto.cz/Darkovy-kosik-rucnik-ona-a-on-d1862.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Dárková sada ručníků - mořský koník",
+          "url": "https://www.mydlitto.cz/Darkova-sada-rucniku-morsky-konik-d2046.htm",
+          "reason": "Samostatný čajový/kávový/kozmetický výber používa jednotlivé produkty; pri sade nie sú overené všetky balenia a zloženie."
+        },
+        {
+          "name": "Vavřínový pěnový šampon - 100 ml",
+          "url": "https://www.mydlitto.cz/Vavrinovy-penovy-sampon-100-ml-d460.htm",
+          "reason": "Oficiálny hlavný obrázok neukazuje predávané balenie šampónu."
+        }
+      ],
+      "logoEvidence": {
+        "sourceUrl": "https://www.mydlitto.cz/fotky35304/design_setup/images/custom_image_logo.png",
+        "sourceSha256": "6d77e7958162cfaa2434729d766193bd4a9e9ae113dccf431ba3dcb855f1057b",
+        "symbolCrop": [
+          350,
+          485,
+          710,
+          810
+        ],
+        "note": "Official logo symbol or letter cropped without redrawing; displayed on white."
+      },
+      "repository": "danielvendzur-code/skincare",
+      "productPackages": 51,
+      "qa": "PASS: desktop 1440x900, mobile 390x844 and 360x800; screenshots inspected",
+      "registrySource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/07652917"
+    },
+    {
+      "slug": "kvetu",
+      "name": "Kvetu",
+      "ico": "14308584",
+      "size": "ARES 120: 6–9",
+      "website": "https://www.kvetu.cz/",
+      "owner": "Helena Guthová (80 %) a Miroslava Šváchová (20 %)",
+      "exclusions": [
+        {
+          "name": "Pleťový krém a olej Damašská růže",
+          "url": "https://www.kvetu.cz/pletovy-krem-a-olej-damasska-ruze",
+          "reason": "Na dotaz / mimo skladu podľa oficiálnej produktovej ponuky."
+        },
+        {
+          "name": "Pleťový krém a olej Damašská růže v dárkovém balení",
+          "url": "https://www.kvetu.cz/pletovy-krem-a-olej-damasska-ruze-v-darkovem-baleni",
+          "reason": "Na dotaz / mimo skladu podľa oficiálnej produktovej ponuky."
+        },
+        {
+          "name": "Pleťový krém Damašská růže 50ml",
+          "url": "https://www.kvetu.cz/pletovy-krem-damasska-ruze",
+          "reason": "Na dotaz / mimo skladu podľa oficiálnej produktovej ponuky."
+        },
+        {
+          "name": "Dětská péče - měsíčkový olej 100ml",
+          "url": "https://www.kvetu.cz/detska-pece-mesickovy-olej",
+          "reason": "Na dotaz / mimo skladu podľa oficiálnej produktovej ponuky."
+        },
+        {
+          "name": "Tinktura Imunita & energie",
+          "url": "https://www.kvetu.cz/tinktura-imunita-energie",
+          "reason": "Na dotaz / mimo skladu podľa oficiálnej produktovej ponuky."
+        },
+        {
+          "name": "Bylinný balzám při nachlazení s mátou",
+          "url": "https://www.kvetu.cz/bylinny-balzam-pri-nachlazeni-s-matou",
+          "reason": "Na dotaz / mimo skladu podľa oficiálnej produktovej ponuky."
+        }
+      ],
+      "logoEvidence": {
+        "sourceUrl": "https://www.kvetu.cz/fotky8835/design_setup/template/v4.0/geneva/prod/logoImage.png?0_158983648",
+        "sourceSha256": "54659d47c68d8b43bc637d00f0215f78041b43dd95f7aa974c3ea236e8f22ff7",
+        "sourceSize": [
+          2953,
+          1182
+        ],
+        "symbolCrop": [
+          209,
+          100,
+          1233,
+          1070
+        ],
+        "note": "Výrez existujúceho oficiálneho znaku; bez dokresľovania."
+      },
+      "repository": "danielvendzur-code/skincare",
+      "productPackages": 6,
+      "qa": "PASS: desktop 1440x900, mobile 390x844 and 360x800; screenshots inspected",
+      "registrySource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/14308584"
+    },
+    {
+      "slug": "monlevur",
+      "name": "Monlevur",
+      "ico": "19141203",
+      "size": "ARES 110: 1–5",
+      "website": "https://www.monlevur.cz/",
+      "owner": "Mgr. Monika Kalivodová",
+      "exclusions": [
+        {
+          "name": "Cestovní obal na šampuk",
+          "url": "https://www.monlevur.cz/produkt/cestovni-obal-na-sampuk/",
+          "reason": "Darčekový poukaz alebo jediný cestovný doplnok; nezodpovedá výberu kozmetiky."
+        },
+        {
+          "name": "Dárkový poukaz &#8211; 1000 Kč",
+          "url": "https://www.monlevur.cz/produkt/darkovy-poukaz-1000-kc/",
+          "reason": "Darčekový poukaz alebo jediný cestovný doplnok; nezodpovedá výberu kozmetiky."
+        },
+        {
+          "name": "Dárkový poukaz &#8211; 500 Kč",
+          "url": "https://www.monlevur.cz/produkt/darkovy-poukaz-500-kc/",
+          "reason": "Darčekový poukaz alebo jediný cestovný doplnok; nezodpovedá výberu kozmetiky."
+        },
+        {
+          "name": "Dárkový poukaz &#8211; 200 Kč",
+          "url": "https://www.monlevur.cz/produkt/darkovy-poukaz-200-kc/",
+          "reason": "Darčekový poukaz alebo jediný cestovný doplnok; nezodpovedá výberu kozmetiky."
+        }
+      ],
+      "logoEvidence": {
+        "sourceUrl": "https://www.monlevur.cz/wp-content/uploads/2023/07/monlevur-logo.svg",
+        "sourceSha256": "5b2fe97621a9a653a430cb6c6a7127b83ebe3a884356caf0d160711e0cd75b4f",
+        "sourceSize": [
+          1800,
+          1110
+        ],
+        "symbolCrop": {
+          "svgPaths": [
+            "path258",
+            "path260"
+          ],
+          "note": "Dve existujúce oficiálne cesty vtáka a oka; textové cesty vynechané, geometria zachovaná."
+        },
+        "note": "Výrez existujúceho oficiálneho znaku; bez dokresľovania."
+      },
+      "repository": "danielvendzur-code/skincare",
+      "productPackages": 17,
+      "qa": "PASS: desktop 1440x900, mobile 390x844 and 360x800; screenshots inspected",
+      "registrySource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/19141203"
+    },
+    {
+      "slug": "donfranko",
+      "name": "Don Franko",
+      "ico": "07966644",
+      "size": "ARES 120: 6–9",
+      "owner": "Barbora Franková a Jan Franek",
+      "website": "https://www.donfranko.cz/",
+      "verifiedAt": "2026-10-10T20:07:08.668811+00:00",
+      "exclusions": [
+        {
+          "name": "Balíček Degustátor",
+          "url": "https://www.donfranko.cz/specialni-nabidka/balicek-degustator/",
+          "reason": "Darčeková sada alebo doplnok bez overeného samostatného kávového balenia."
+        },
+        {
+          "name": "Dárkový poukaz 500 Kč",
+          "url": "https://www.donfranko.cz/specialni-nabidka/darkovy-poukaz-500-kc/",
+          "reason": "Darčeková sada alebo doplnok bez overeného samostatného kávového balenia."
+        },
+        {
+          "name": "Dárkový poukaz 1000 Kč",
+          "url": "https://www.donfranko.cz/specialni-nabidka/darkovy-poukaz-1000-kc/",
+          "reason": "Darčeková sada alebo doplnok bez overeného samostatného kávového balenia."
+        },
+        {
+          "name": "Dárkový poukaz 2000 Kč",
+          "url": "https://www.donfranko.cz/specialni-nabidka/darkovy-poukaz-2000-kc/",
+          "reason": "Darčeková sada alebo doplnok bez overeného samostatného kávového balenia."
+        },
+        {
+          "name": "Cascara",
+          "reason": "Nie je pražená zrnková káva; do rovnakého espresso poradcu nepatrí."
+        }
+      ],
+      "repository": "danielvendzur-code/kava.chatbot.backend",
+      "productPackages": 15,
+      "qa": "PASS: desktop 1440x900, mobile 390x844 and 360x800; screenshots inspected",
+      "registrySource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/07966644"
+    },
+    {
+      "slug": "ajvencoffee",
+      "name": "AJVENCOFFEE",
+      "ico": "62225383",
+      "size": "ARES 110: 1–5",
+      "owner": "Ivan Masařík",
+      "website": "https://www.ajvencoffee.cz/",
+      "verifiedAt": "2026-10-10T20:07:08.668811+00:00",
+      "exclusions": [
+        {
+          "name": "DÁRKOVÁ KOLEKCE - Klasika",
+          "url": "https://www.ajvencoffee.cz/darkova-kolekce-klasika/",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "TESTOVACÍ BALÍČEK",
+          "url": "https://www.ajvencoffee.cz/testovaci-balicek/",
+          "reason": "Darčeková sada alebo doplnok bez overeného samostatného kávového balenia."
+        },
+        {
+          "name": "DÁRKOVÁ KOLEKCE - Objevuj",
+          "url": "https://www.ajvencoffee.cz/darkova-kolekce/",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "UDĚLEJ Z KÁVY DÁREK",
+          "url": "https://www.ajvencoffee.cz/darkovy-box/",
+          "reason": "Objem alebo hmotnosť nie je jednoznačne uvedená pri konkrétnom balení."
+        },
+        {
+          "name": "DÁRKOVÝ POUKAZ",
+          "url": "https://www.ajvencoffee.cz/darkovy-poukaz/",
+          "reason": "Darčeková sada alebo doplnok bez overeného samostatného kávového balenia."
+        },
+        {
+          "name": "Cascara",
+          "reason": "Nie je pražená zrnková káva; do rovnakého espresso poradcu nepatrí."
+        }
+      ],
+      "repository": "danielvendzur-code/kava.chatbot.backend",
+      "productPackages": 10,
+      "qa": "PASS: desktop 1440x900, mobile 390x844 and 360x800; screenshots inspected",
+      "registrySource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/62225383"
+    },
+    {
+      "slug": "kavavra",
+      "name": "KAVAVRA",
+      "ico": "21916446",
+      "size": "ARES 110: 1–5",
+      "owner": "Ing. Marie Vávrová",
+      "website": "https://www.kavavra.cz/",
+      "verifiedAt": "2026-10-10T20:07:08.668811+00:00",
+      "exclusions": [
+        {
+          "name": "Degustační balíček káv",
+          "url": "https://www.kavavra.cz/degustacni-balicek-kav/",
+          "reason": "Darčeková sada alebo doplnok bez overeného samostatného kávového balenia."
+        },
+        {
+          "name": "Cascara",
+          "reason": "Nie je pražená zrnková káva; do rovnakého espresso poradcu nepatrí."
+        }
+      ],
+      "repository": "danielvendzur-code/kava.chatbot.backend",
+      "productPackages": 10,
+      "qa": "PASS: desktop 1440x900, mobile 390x844 and 360x800; screenshots inspected",
+      "registrySource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/21916446"
+    },
+    {
+      "slug": "grain",
+      "name": "Pražírna Brno",
+      "ico": "10718761",
+      "size": "ARES 120: 6–9",
+      "owner": "Květuše Lišková",
+      "website": "https://www.prazirnabrno.cz/",
+      "verifiedAt": "2026-10-10T20:59:30.637944+00:00",
+      "exclusions": [
+        {
+          "name": "Cascara",
+          "reason": "Nie je pražená zrnková káva; do rovnakého espresso poradcu nepatrí."
+        }
+      ],
+      "repository": "danielvendzur-code/kava.chatbot.backend",
+      "productPackages": 10,
+      "qa": "PASS: desktop 1440x900, mobile 390x844 and 360x800; screenshots inspected",
+      "registrySource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/10718761"
+    },
+    {
+      "slug": "pauwex",
+      "name": "Pauwex / Santée",
+      "ico": "25863053",
+      "size": "ARES 120: 6–9",
+      "website": "https://www.pauwex.cz/",
+      "owner": "Dana Břežná; vlastná značka Santée",
+      "exclusions": [
+        {
+          "name": "Santée Mix",
+          "url": "https://www.pauwex.cz/p/santee-mix",
+          "reason": "Sada s nejednoznačnou celkovou hmotnosťou."
+        },
+        {
+          "name": "Dárková kazeta Santée Maxi Mix",
+          "url": "https://www.pauwex.cz/p/santee-maxi-mix",
+          "reason": "Sada s nejednoznačnou celkovou hmotnosťou."
+        },
+        {
+          "name": "Santée mini",
+          "url": "https://www.pauwex.cz/p/santee-mini",
+          "reason": "Sada s nejednoznačnou celkovou hmotnosťou."
+        },
+        {
+          "name": "Santée dárková kolekce + sypaný čaj",
+          "url": "https://www.pauwex.cz/p/santee-darkova-kolekce-sypany-caj",
+          "reason": "Sada s nejednoznačnou celkovou hmotnosťou."
+        }
+      ],
+      "logoEvidence": {
+        "sourceUrl": "https://pauwex.s17.cdn-upgates.com/_cache/d/9/d9389b283370bd7cb20afd98ca4690af-pauwex-cerna.png",
+        "sourceSha256": "94ed6dd1e18504754e2a6faeb773c19c29697893c4750b94beada1dcaed0a447",
+        "symbolCrop": [
+          0,
+          8,
+          48,
+          68
+        ],
+        "note": "Official logo symbol or letter cropped without redrawing; displayed on white."
+      },
+      "repository": "danielvendzur-code/caj",
+      "productPackages": 32,
+      "qa": "PASS: desktop 1440x900, mobile 390x844 and 360x800; screenshots inspected",
+      "registrySource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/25863053"
+    },
+    {
+      "slug": "afrabio",
+      "name": "AFRA BIO",
+      "ico": "56215932",
+      "size": "RegisterÚZ 02: 3–4",
+      "website": "https://www.afrabio.sk/",
+      "owner": "Andrej Homola a Zuzana Homolová",
+      "exclusions": [
+        {
+          "name": "BIO Lymfan",
+          "url": "https://www.afrabio.sk/bio-lymfan/",
+          "reason": "Byliny do kúpeľa, nie čaj na pitie."
+        }
+      ],
+      "logoEvidence": {
+        "sourceUrl": "https://cdn.myshoptet.com/usr/www.afrabio.sk/user/logos/logo_base-8.png",
+        "sourceSha256": "a4ea77de59fd7dc20c7979434184176d4b2cbc1005732572a2caf14d1bcddb70",
+        "symbolCrop": [
+          0,
+          0,
+          742,
+          458
+        ],
+        "note": "Official logo symbol or letter cropped without redrawing; displayed on white."
+      },
+      "repository": "danielvendzur-code/caj",
+      "productPackages": 6,
+      "qa": "PASS: desktop 1440x900, mobile 390x844 and 360x800; screenshots inspected",
+      "registrySource": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/2284494"
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "name": "PENERINI",
+      "ico": "29301157",
+      "reason": "ARES 220: 50–99 zamestnancov; príliš veľká firma."
+    },
+    {
+      "name": "LOBEY",
+      "ico": "07465637",
+      "reason": "ARES 220: 50–99 zamestnancov; príliš veľká firma."
+    },
+    {
+      "name": "Indívo",
+      "ico": "03383288",
+      "reason": "V repozitári už existuje ukážka rovnakej firmy."
+    },
+    {
+      "name": "MOCUBO",
+      "ico": "17457190",
+      "reason": "ARES 000 neznáma veľkosť; nemožno ju označiť ako 0 zamestnancov."
+    },
+    {
+      "name": "RaE",
+      "ico": "28569725",
+      "reason": "Firma je malá (ARES 120), ale aktuálne fotografie, ceny a skladovosť sa nepodarilo spoľahlivo overiť pre blokovanie webu."
+    },
+    {
+      "name": "Púrynky",
+      "ico": "04831021",
+      "reason": "ARES 000: neoverená veľkosť."
+    },
+    {
+      "name": "Fraela / Priruz",
+      "ico": "52778444",
+      "reason": "Chýbajú použiteľné tržby aktívneho prevádzkovateľa v účtovných výkazoch."
+    },
+    {
+      "name": "Biotatry / Tatra Forest",
+      "ico": "44525265",
+      "reason": "Výrobca 20–24 zamestnancov; zložité oddelenie prevádzkovateľa a výrobcu."
+    },
+    {
+      "name": "Stará Baťovka / Sociálny podnik Baťovany",
+      "ico": "55319769",
+      "reason": "RegisterÚZ 25–49 zamestnancov; príliš veľký prevádzkovateľ."
+    },
+    {
+      "name": "Čajová zahrada",
+      "ico": "27248267",
+      "reason": "ARES 130: 10–19; uprednostnené overené firmy s 1–9."
+    },
+    {
+      "name": "Vali",
+      "ico": "07570180",
+      "reason": "ARES 130: 10–19; uprednostnené overené firmy s 1–9."
+    },
+    {
+      "name": "Gape",
+      "ico": "28617517",
+      "reason": "ARES 130: 10–19; uprednostnené overené firmy s 1–9."
+    },
+    {
+      "name": "Frolík",
+      "ico": "74913522",
+      "reason": "ARES 130: 10–19; uprednostnené overené firmy s 1–9."
+    }
+  ],
+  "afraLatestRevenue": {
+    "year": 2025,
+    "salesEUR": 34948,
+    "previousYearSalesEUR": 6304,
+    "statementId": 6664725,
+    "reportId": 9926402
+  },
+  "duplicateAudit": "Brand names, domain, ICO and current owners checked in all local coffee/skincare/tea configurations, catalogue reports and registered demos.",
+  "packageCount": 235
+}

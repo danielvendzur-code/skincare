@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "monlevur",
+    "viewport": "desktop",
+    "status": "PASS",
+    "products": 17,
+    "categories": [
+      "body",
+      "hair",
+      "sets"
+    ]
+  },
+  {
+    "slug": "monlevur",
+    "viewport": "mobile",
+    "status": "PASS",
+    "products": 17,
+    "categories": [
+      "body",
+      "hair",
+      "sets"
+    ]
+  },
+  {
+    "slug": "monlevur",
+    "viewport": "small",
+    "status": "PASS",
+    "products": 17,
+    "categories": [
+      "body",
+      "hair",
+      "sets"
+    ]
+  }
+]

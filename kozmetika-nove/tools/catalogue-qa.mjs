@@ -26,6 +26,7 @@ for(const slug of slugs)for(const vp of [{name:'desktop',width:1440,height:900},
   await shot('owner');await page.locator('[data-open="chat"]').click();await page.locator('[data-mode="advisor"]').click();
   await imageCheck();await shot('guide');
   const groups=await page.evaluate(()=>window.CX_CATALOGUE_QA.groups.map(x=>x[0]));
+  if(slug==='monlevur')assert.ok(groups.includes('hair'),'missing full hair selection');
   for(const category of groups){
    await page.locator('#cx-reset').click();await page.locator(`[data-choice="${category}"]`).click();
    await imageCheck();if(vp.name!=='small')await shot(category+'-types');

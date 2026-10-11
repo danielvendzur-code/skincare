@@ -20,7 +20,7 @@
   browse.innerHTML=`<b>Ponuka <span>${products.length}</span></b>`;browse.setAttribute('aria-pressed','false');nav.append(browse);
   widget.classList.add('cx-has-catalogue');
   const state={mode:'guide',step:0,answers:{},query:'',category:'all'};
-  const groups=Object.entries(labels).filter(([key])=>products.filter(p=>p.category===key).length>=4);
+  const groups=Object.entries(labels).filter(([key])=>products.filter(p=>p.category===key).length>=(brand.catalogueMinGroupSize||4));
   // Small secondary categories remain browsable, without a forced separate flow.
   const allGroups=Object.entries(labels).filter(([key])=>products.some(p=>p.category===key));
   const sizeLabel=p=>[p.volume,p.variantLabel&&!p.variantLabel.includes(p.volume)?p.variantLabel:''].filter(Boolean).join(' · ')||'Balenie podľa e-shopu';

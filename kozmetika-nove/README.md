@@ -88,3 +88,9 @@ nenačítané obrázky a horizontálne pretečenie.
 - **Kvetu**: `/kvetu/` alebo `/cosmetics.html?demo=kvetu`; 6 dostupných balení, IČO 14308584, ARES 120: 6–9. Oficiálne fotky aj vo výbere. Zdroje: `ZDROJE.md`.
 
 Kvetu QA 11. 10. 2026: desktop 1440 × 900, mobil 390 × 844 a 360 × 800; všetky kategórie, Ponuka a vyhľadávanie, skutočné ceny/balenia/odkazy, produkčný API handler a logo pri každej odpovedi. Screenshoty vizuálne skontrolované; PASS. Šesť produktov: jeden pleťový olej a päť telových produktov; vypredané krémy a sady vylúčené. [Oficiálny prevádzkovateľ](https://www.kvetu.cz/obchodni-podminky) sa zhoduje s IČO v ARES.
+
+- **Monlevur**: `/monlevur/` alebo `/cosmetics.html?demo=monlevur`; 17 dostupných balení, IČO 19141203, ARES 110: 1–5. Oficiálne fotky aj vo výbere. Zdroje: `ZDROJE.md`.
+
+Monlevur QA 11. 10. 2026: desktop 1440 × 900, mobil 390 × 844 a 360 × 800; 17 dostupných produktov a sád, samostatný výber tela/vlasov/sád, Pleť a Pery v celej Ponuke, vyhľadávanie, produkčný API handler, presné balenia a ceny, oficiálny znak vtáka pri každej odpovedi. Screenshoty vizuálne skontrolované; PASS. Objem sád je rozpis overených komponentov, nemiešajú sa ml/g pri triedení. [Oficiálny prevádzkovateľ](https://www.monlevur.cz/obchodni-podminky/) súhlasí s IČO a menom v ARES. Všetkých 152 nových balení kozmetiky opätovne overených 11. 10. 2026: ceny a skladovosť bez rozdielu. `research/release-stock-price-check-2026-10-11.json`.
+
+Celá séria: 10 firiem / 235 balení v rovnakých troch segmentoch. Registre, rozsah katalógov a vylúčené firmy: `research/new-demo-candidate-audit-2026-10-11.json`. Žiadny PR.

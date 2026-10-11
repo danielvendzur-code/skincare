@@ -514,6 +514,51 @@
         ],
         "note": "Výrez existujúceho oficiálneho znaku; bez dokresľovania."
       }
+    },
+    "monlevur": {
+      "name": "Monlevur",
+      "ico": "19141203",
+      "size": "ARES 110: 1–5",
+      "website": "https://www.monlevur.cz/",
+      "owner": "Mgr. Monika Kalivodová",
+      "exclusions": [
+        {
+          "name": "Cestovní obal na šampuk",
+          "url": "https://www.monlevur.cz/produkt/cestovni-obal-na-sampuk/",
+          "reason": "Darčekový poukaz alebo jediný cestovný doplnok; nezodpovedá výberu kozmetiky."
+        },
+        {
+          "name": "Dárkový poukaz &#8211; 1000 Kč",
+          "url": "https://www.monlevur.cz/produkt/darkovy-poukaz-1000-kc/",
+          "reason": "Darčekový poukaz alebo jediný cestovný doplnok; nezodpovedá výberu kozmetiky."
+        },
+        {
+          "name": "Dárkový poukaz &#8211; 500 Kč",
+          "url": "https://www.monlevur.cz/produkt/darkovy-poukaz-500-kc/",
+          "reason": "Darčekový poukaz alebo jediný cestovný doplnok; nezodpovedá výberu kozmetiky."
+        },
+        {
+          "name": "Dárkový poukaz &#8211; 200 Kč",
+          "url": "https://www.monlevur.cz/produkt/darkovy-poukaz-200-kc/",
+          "reason": "Darčekový poukaz alebo jediný cestovný doplnok; nezodpovedá výberu kozmetiky."
+        }
+      ],
+      "logoEvidence": {
+        "sourceUrl": "https://www.monlevur.cz/wp-content/uploads/2023/07/monlevur-logo.svg",
+        "sourceSha256": "5b2fe97621a9a653a430cb6c6a7127b83ebe3a884356caf0d160711e0cd75b4f",
+        "sourceSize": [
+          1800,
+          1110
+        ],
+        "symbolCrop": {
+          "svgPaths": [
+            "path258",
+            "path260"
+          ],
+          "note": "Dve existujúce oficiálne cesty vtáka a oka; textové cesty vynechané, geometria zachovaná."
+        },
+        "note": "Výrez existujúceho oficiálneho znaku; bez dokresľovania."
+      }
     }
   },
   "catalogues": {
@@ -6295,6 +6340,775 @@
           "assetSha256": "a2df1d8a254c9003c5d474c58ffec646b4ad1aca94ebe065da446431682a96b6"
         },
         "photo": "/assets/catalogue/kvetu-3.webp"
+      }
+    ],
+    "monlevur": [
+      {
+        "id": "221",
+        "sourceId": "221",
+        "name": "Tělový krém",
+        "originalName": "Tělový krém",
+        "url": "https://www.monlevur.cz/produkt/telovy-krem/",
+        "priceAmount": 280.0,
+        "currency": "CZK",
+        "price": "280 Kč",
+        "volume": "100 ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Telové krémy a balzamy",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "cream"
+        ],
+        "reason": "Z ponuky telové krémy a balzamy. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/telovy-krem/",
+          "source": "Explicit official product page package statement",
+          "volume": "100 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2022/11/telovy-krem1.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2022/11/telovy-krem1.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "9e9abe389319e3c4a744ddade296b7cd0d23905332cf2334d54e8968ea000555",
+          "assetSha256": "39327db52a86cbb0c795ee8d0bad2053822488feecc483c5fa1986ca2765ff4b"
+        },
+        "photo": "/assets/catalogue/monlevur-221.webp"
+      },
+      {
+        "id": "238",
+        "sourceId": "238",
+        "name": "Krém proti vráskám",
+        "originalName": "Krém proti vráskám",
+        "url": "https://www.monlevur.cz/produkt/krem-proti-vraskam/",
+        "priceAmount": 790.0,
+        "currency": "CZK",
+        "price": "790 Kč",
+        "volume": "50 ml",
+        "variantLabel": "",
+        "category": "face",
+        "kind": "Pleťové krémy",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "cream",
+          "mature"
+        ],
+        "reason": "Z ponuky pleťové krémy. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/krem-proti-vraskam/",
+          "source": "Explicit official product page package statement",
+          "volume": "50 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2022/11/krem-proti-vraskam.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2022/11/krem-proti-vraskam.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "b0170aa236fbeb758b9254b55352c57da70a927a378ae0708d9cc6c9af97b0cc",
+          "assetSha256": "77157a7425fe9422464bca75a1e158fb20cee5422e02a6834cf95dad58c49e0c"
+        },
+        "photo": "/assets/catalogue/monlevur-238.webp"
+      },
+      {
+        "id": "236",
+        "sourceId": "236",
+        "name": "Krém na ruce",
+        "originalName": "Krém na ruce",
+        "url": "https://www.monlevur.cz/produkt/krem-na-ruce/",
+        "priceAmount": 220.0,
+        "currency": "CZK",
+        "price": "220 Kč",
+        "volume": "50 ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Krémy na ruky",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "cream"
+        ],
+        "reason": "Z ponuky krémy na ruky. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/krem-na-ruce/",
+          "source": "Explicit official product page package statement",
+          "volume": "50 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2022/11/krem-na-ruce1.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2022/11/krem-na-ruce1.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "5bc83d37df40874445083abc226e9b74cca3f87f5db645c3b4bb6e114441bf7a",
+          "assetSha256": "9430d013739f01682505aa70e03dfce1fc9c37971b46145a26722ce1c546b0e0"
+        },
+        "photo": "/assets/catalogue/monlevur-236.webp"
+      },
+      {
+        "id": "234",
+        "sourceId": "234",
+        "name": "Pečující pleťový krém",
+        "originalName": "Pečující pleťový krém",
+        "url": "https://www.monlevur.cz/produkt/pecujici-pletovy-krem/",
+        "priceAmount": 450.0,
+        "currency": "CZK",
+        "price": "450 Kč",
+        "volume": "50 ml",
+        "variantLabel": "",
+        "category": "face",
+        "kind": "Pleťové krémy",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "cream"
+        ],
+        "reason": "Z ponuky pleťové krémy. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/pecujici-pletovy-krem/",
+          "source": "Explicit official product page package statement",
+          "volume": "50 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2022/11/pecujici-pletovy-krem1.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2022/11/pecujici-pletovy-krem1.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "26eb2ab3f3e59367ef7a90de50da86c4de9b731681e5892f5c232a834c8064d0",
+          "assetSha256": "bad2d5d3f93bb05eb14dc52af93577f100bd56475ff8494fd81168fa4e013cb4"
+        },
+        "photo": "/assets/catalogue/monlevur-234.webp"
+      },
+      {
+        "id": "223",
+        "sourceId": "223",
+        "name": "Sprchový krém",
+        "originalName": "Sprchový krém",
+        "url": "https://www.monlevur.cz/produkt/sprchovy-krem/",
+        "priceAmount": 280.0,
+        "currency": "CZK",
+        "price": "280 Kč",
+        "volume": "100 ml",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Sprchové produkty",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "cream"
+        ],
+        "reason": "Z ponuky sprchové produkty. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/sprchovy-krem/",
+          "source": "Explicit official product page package statement",
+          "volume": "100 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2022/11/sprchovy-krem1.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2022/11/sprchovy-krem1.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "002372a99a31cd805503610f0b3d1e10ac52e6a556932ebed7557e7977d7eb67",
+          "assetSha256": "14a47d3bd6eb046c451255cddab7c538ff6bf865dd9621a55e2d769be2419ffc"
+        },
+        "photo": "/assets/catalogue/monlevur-223.webp"
+      },
+      {
+        "id": "218",
+        "sourceId": "218",
+        "name": "Balzám na vlasy a bezoplachový krém",
+        "originalName": "Balzám na vlasy a bezoplachový krém",
+        "url": "https://www.monlevur.cz/produkt/balzam-na-vlasy-a-bezoplachovy-krem/",
+        "priceAmount": 340.0,
+        "currency": "CZK",
+        "price": "340 Kč",
+        "volume": "100 ml",
+        "variantLabel": "",
+        "category": "hair",
+        "kind": "Kondicionéry",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "cream"
+        ],
+        "reason": "Z ponuky kondicionéry. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/balzam-na-vlasy-a-bezoplachovy-krem/",
+          "source": "Explicit official product page package statement",
+          "volume": "100 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2022/11/balzam-na-vlasy-a-bezoplachovy-krem1.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2022/11/balzam-na-vlasy-a-bezoplachovy-krem1.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "fd0e8f8f8f170c93710a3700847e599bc053b3449d1ec68249c067c5121a2d3b",
+          "assetSha256": "6e1f9a8b507c917f32626af5d9e5aed03fe2581546fb6d0e3cae61c5990deb63"
+        },
+        "photo": "/assets/catalogue/monlevur-218.webp"
+      },
+      {
+        "id": "225",
+        "sourceId": "225",
+        "name": "Balzám na rty",
+        "originalName": "Balzám na rty",
+        "url": "https://www.monlevur.cz/produkt/balzam-na-rty/",
+        "priceAmount": 140.0,
+        "currency": "CZK",
+        "price": "140 Kč",
+        "volume": "5 ml",
+        "variantLabel": "",
+        "category": "lips",
+        "kind": "Balzamy na pery",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky balzamy na pery. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/balzam-na-rty/",
+          "source": "Explicit official product page package statement",
+          "volume": "5 ml",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2022/11/balzam-na-rty1.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2022/11/balzam-na-rty1.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "7fac2ba185633cb56e056cd70925686c049f51899032f01ecc27f93746d407a6",
+          "assetSha256": "d60d3b0612b1fefe9d4a318f07d2cc1fb1a06e7c28494a7a520618bf0a81fa6a"
+        },
+        "photo": "/assets/catalogue/monlevur-225.webp"
+      },
+      {
+        "id": "520",
+        "sourceId": "520",
+        "name": "Blahodárná šumivka do koupele",
+        "originalName": "Blahodárná šumivka do koupele",
+        "url": "https://www.monlevur.cz/produkt/blahodarna-sumivka-do-koupele/",
+        "priceAmount": 45.0,
+        "currency": "CZK",
+        "price": "45 Kč",
+        "volume": "25 g",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Produkty do kúpeľa",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky produkty do kúpeľa. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/blahodarna-sumivka-do-koupele/",
+          "source": "Explicit official product page package statement",
+          "volume": "25 g",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2022/11/blahodarna-sumivka-do-koupele1.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2022/11/blahodarna-sumivka-do-koupele1.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "17ba0df8df85987bfea986f2c8f0559e635c43db4ec252d919d9ff8acb3ac001",
+          "assetSha256": "b45e209c29938ac2964e49a587938ce9986708bb257226a8b198dd767f11f10d"
+        },
+        "photo": "/assets/catalogue/monlevur-520.webp"
+      },
+      {
+        "id": "230",
+        "sourceId": "230",
+        "name": "Šampuk pro jemné mytí",
+        "originalName": "Šampuk pro jemné mytí",
+        "url": "https://www.monlevur.cz/produkt/sampuk-pro-jemne-myti/",
+        "priceAmount": 340.0,
+        "currency": "CZK",
+        "price": "340 Kč",
+        "volume": "80 g",
+        "variantLabel": "",
+        "category": "hair",
+        "kind": "Šampóny",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "sensitive"
+        ],
+        "reason": "Z ponuky šampóny. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/sampuk-pro-jemne-myti/",
+          "source": "Explicit official product page package statement",
+          "volume": "80 g",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2022/11/sampuk-pro-jemne-myti3.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2022/11/sampuk-pro-jemne-myti3.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "5c7c8873a8db30aa5fc23dbab57dfdd205863bef9dfcdb8592717d7c80d0464b",
+          "assetSha256": "bf89581eff732a8bf773d2a2e403a6967cd18c8489cafd74f98ae9ca86c551c9"
+        },
+        "photo": "/assets/catalogue/monlevur-230.webp"
+      },
+      {
+        "id": "232",
+        "sourceId": "232",
+        "name": "Šampuk pro mastící se vlasy",
+        "originalName": "Šampuk pro mastící se vlasy",
+        "url": "https://www.monlevur.cz/produkt/sampuk-pro-mastici-se-vlasy/",
+        "priceAmount": 340.0,
+        "currency": "CZK",
+        "price": "340 Kč",
+        "volume": "80 g",
+        "variantLabel": "",
+        "category": "hair",
+        "kind": "Šampóny",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "oily"
+        ],
+        "reason": "Z ponuky šampóny. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/sampuk-pro-mastici-se-vlasy/",
+          "source": "Explicit official product page package statement",
+          "volume": "80 g",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2022/11/sampuk-pro-mastici-se-vlasy3.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2022/11/sampuk-pro-mastici-se-vlasy3.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "ef5674cfaf393f547251ab5f9b1fc0ad00724ef86d48be25ed0fc56ead970b69",
+          "assetSha256": "9e7bc262c2f4db9cca64767cdda344209fd4a73f3d8252e52afa4d3dc331a0a2"
+        },
+        "photo": "/assets/catalogue/monlevur-232.webp"
+      },
+      {
+        "id": "2764",
+        "sourceId": "2764",
+        "name": "Srdce na dlani",
+        "originalName": "Srdce na dlani",
+        "url": "https://www.monlevur.cz/produkt/srdce-na-dlani/",
+        "priceAmount": 90.0,
+        "currency": "CZK",
+        "price": "90 Kč",
+        "volume": "35 g",
+        "variantLabel": "",
+        "category": "body",
+        "kind": "Produkty do kúpeľa",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full"
+        ],
+        "reason": "Z ponuky produkty do kúpeľa. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/srdce-na-dlani/",
+          "source": "Explicit official product page package statement",
+          "volume": "35 g",
+          "componentSources": []
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2025/01/srdce-na-dlani-main-26.jpg",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2025/01/srdce-na-dlani-main-26.jpg",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "3790eca7eafb62e98e9d6b85fe93865b2a4beec51556d5e52d93fbe455610d17",
+          "assetSha256": "d33b3f170b7aa150598769ac4dfb2bde45432c7e1af99392ba1d3e998210297e"
+        },
+        "photo": "/assets/catalogue/monlevur-2764.webp"
+      },
+      {
+        "id": "2197",
+        "sourceId": "2197",
+        "name": "Krém proti vráskám a Sprchový krém",
+        "originalName": "Krém proti vráskám a Sprchový krém",
+        "url": "https://www.monlevur.cz/produkt/krem-proti-vraskam-a-sprchovy-krem/",
+        "priceAmount": 950.0,
+        "currency": "CZK",
+        "price": "950 Kč",
+        "volume": "50 ml + 100 ml",
+        "variantLabel": "",
+        "category": "sets",
+        "kind": "Darčekové sady",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "cream",
+          "mature"
+        ],
+        "reason": "Z ponuky darčekové sady. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/krem-proti-vraskam-a-sprchovy-krem/",
+          "source": "Explicit official product page package statement",
+          "volume": "50 ml + 100 ml",
+          "componentSources": [
+            "https://www.monlevur.cz/produkt/krem-proti-vraskam/",
+            "https://www.monlevur.cz/produkt/sprchovy-krem/"
+          ]
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2023/11/Navrh-bez-nazvu.jpg",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2023/11/Navrh-bez-nazvu.jpg",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "620acfeed66886f6eda2809d739b7f99450cf6c381a4e4cb6d298580a18ac5cc",
+          "assetSha256": "b2c655e86be20e07859db1c2e4b1b81ff46ad8785df1d52f7e6549a2dcd9fe15"
+        },
+        "photo": "/assets/catalogue/monlevur-2197.webp"
+      },
+      {
+        "id": "2221",
+        "sourceId": "2221",
+        "name": "Krém na ruce a Balzám na rty",
+        "originalName": "Krém na ruce a Balzám na rty",
+        "url": "https://www.monlevur.cz/produkt/krem-na-ruce-a-balzam-na-rty/",
+        "priceAmount": 320.0,
+        "currency": "CZK",
+        "price": "320 Kč",
+        "volume": "50 ml + 5 ml",
+        "variantLabel": "",
+        "category": "sets",
+        "kind": "Darčekové sady",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "cream"
+        ],
+        "reason": "Z ponuky darčekové sady. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/krem-na-ruce-a-balzam-na-rty/",
+          "source": "Explicit official product page package statement",
+          "volume": "50 ml + 5 ml",
+          "componentSources": [
+            "https://www.monlevur.cz/produkt/balzam-na-rty/",
+            "https://www.monlevur.cz/produkt/krem-na-ruce/"
+          ]
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2023/11/krem-na-ruce-a-balzam-na-rty.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2023/11/krem-na-ruce-a-balzam-na-rty.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "db0b1aeb3bfab2019183545261e814d68d5cd73973046ae285cf32eb8728b91a",
+          "assetSha256": "64750136026444fd103a09a89fd75e7489711494466c8a356df2df77338b7a85"
+        },
+        "photo": "/assets/catalogue/monlevur-2221.webp"
+      },
+      {
+        "id": "2214",
+        "sourceId": "2214",
+        "name": "Pečující pleťový krém a Tělový krém",
+        "originalName": "Pečující pleťový krém a Tělový krém",
+        "url": "https://www.monlevur.cz/produkt/pecujici-pletovy-krem-a-telovy-krem/",
+        "priceAmount": 700.0,
+        "currency": "CZK",
+        "price": "700 Kč",
+        "volume": "50 ml + 100 ml",
+        "variantLabel": "",
+        "category": "sets",
+        "kind": "Darčekové sady",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "cream"
+        ],
+        "reason": "Z ponuky darčekové sady. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/pecujici-pletovy-krem-a-telovy-krem/",
+          "source": "Explicit official product page package statement",
+          "volume": "50 ml + 100 ml",
+          "componentSources": [
+            "https://www.monlevur.cz/produkt/pecujici-pletovy-krem/",
+            "https://www.monlevur.cz/produkt/telovy-krem/"
+          ]
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2023/11/pecujici-pletovy-krem-a-telovy-krem.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2023/11/pecujici-pletovy-krem-a-telovy-krem.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "b258a5fed7ea575595586c229809dc0f219c23e64878e3266069d6bf42c8ab20",
+          "assetSha256": "2639155a79debbf827843f3c4231ac871101f994b04a580b20c48349dc07c546"
+        },
+        "photo": "/assets/catalogue/monlevur-2214.webp"
+      },
+      {
+        "id": "2216",
+        "sourceId": "2216",
+        "name": "Šampuk na mastící se vlasy a Balzám na vlasy a bezoplachový krém",
+        "originalName": "Šampuk na mastící se vlasy a Balzám na vlasy a bezoplachový krém",
+        "url": "https://www.monlevur.cz/produkt/sampuk-na-mastici-se-vlasy-a-balzam-na-vlasy-a-bezoplachovy-krem/",
+        "priceAmount": 650.0,
+        "currency": "CZK",
+        "price": "650 Kč",
+        "volume": "80 g + 100 ml",
+        "variantLabel": "",
+        "category": "sets",
+        "kind": "Darčekové sady",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "cream",
+          "oily"
+        ],
+        "reason": "Z ponuky darčekové sady. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/sampuk-na-mastici-se-vlasy-a-balzam-na-vlasy-a-bezoplachovy-krem/",
+          "source": "Explicit official product page package statement",
+          "volume": "80 g + 100 ml",
+          "componentSources": [
+            "https://www.monlevur.cz/produkt/sampuk-pro-mastici-se-vlasy/",
+            "https://www.monlevur.cz/produkt/balzam-na-vlasy-a-bezoplachovy-krem/"
+          ]
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2023/11/sampuk-na-mastici-se-vlasy-a-balzam-na-vlasy-a-bezoplachovy-krem.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2023/11/sampuk-na-mastici-se-vlasy-a-balzam-na-vlasy-a-bezoplachovy-krem.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "b2b27298d90383c893fff2fb2aaac01d56093c61b8146c3d5900b358e2bf9779",
+          "assetSha256": "8d58e22845cb015f985a5c197029d3efd0cd7ec3991aaba0589156e48e989343"
+        },
+        "photo": "/assets/catalogue/monlevur-2216.webp"
+      },
+      {
+        "id": "2218",
+        "sourceId": "2218",
+        "name": "Šampuk na jemné mytí a Balzám na vlasy a bezoplachový krém",
+        "originalName": "Šampuk na jemné mytí a Balzám na vlasy a bezoplachový krém",
+        "url": "https://www.monlevur.cz/produkt/sampuk-na-jemne-myti-a-balzam-na-vlasy-a-bezoplachovy-krem/",
+        "priceAmount": 650.0,
+        "currency": "CZK",
+        "price": "650 Kč",
+        "volume": "80 g + 100 ml",
+        "variantLabel": "",
+        "category": "sets",
+        "kind": "Darčekové sady",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "cream",
+          "sensitive"
+        ],
+        "reason": "Z ponuky darčekové sady. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/sampuk-na-jemne-myti-a-balzam-na-vlasy-a-bezoplachovy-krem/",
+          "source": "Explicit official product page package statement",
+          "volume": "80 g + 100 ml",
+          "componentSources": [
+            "https://www.monlevur.cz/produkt/balzam-na-vlasy-a-bezoplachovy-krem/",
+            "https://www.monlevur.cz/produkt/sampuk-pro-jemne-myti/"
+          ]
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2023/11/sampuk-na-jemne-myti-a-balzam-na-vlasy-a-bezoplachovy-krem-1.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2023/11/sampuk-na-jemne-myti-a-balzam-na-vlasy-a-bezoplachovy-krem-1.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "cea9a54cb921b21e3294e1ff610fff29b5b7686544c053f4b0f26a503a615bf8",
+          "assetSha256": "384a83b88d8e92a146fea1f0d2a31b7c81674de6266eae14049d937a38814de9"
+        },
+        "photo": "/assets/catalogue/monlevur-2218.webp"
+      },
+      {
+        "id": "2223",
+        "sourceId": "2223",
+        "name": "Sprchový krém a 3x Blahodárná šumivka do koupele",
+        "originalName": "Sprchový krém a 3x Blahodárná šumivka do koupele",
+        "url": "https://www.monlevur.cz/produkt/sprchovy-krem-a-3x-blahodarna-sumivka-do-koupele/",
+        "priceAmount": 390.0,
+        "currency": "CZK",
+        "price": "390 Kč",
+        "volume": "100 ml + 3 × 25 g",
+        "variantLabel": "",
+        "category": "sets",
+        "kind": "Darčekové sady",
+        "tags": [
+          "balanced",
+          "any",
+          "simple",
+          "basic",
+          "target",
+          "full",
+          "cream"
+        ],
+        "reason": "Z ponuky darčekové sady. Zloženie a použitie nájdete pri produkte v e-shope.",
+        "inStock": true,
+        "stockEvidence": "https://schema.org/InStock",
+        "volumeEvidence": {
+          "sourceUrl": "https://www.monlevur.cz/produkt/sprchovy-krem-a-3x-blahodarna-sumivka-do-koupele/",
+          "source": "Explicit official product page package statement",
+          "volume": "100 ml + 3 × 25 g",
+          "componentSources": [
+            "https://www.monlevur.cz/produkt/blahodarna-sumivka-do-koupele/",
+            "https://www.monlevur.cz/produkt/sprchovy-krem/"
+          ]
+        },
+        "imageUrl": "https://www.monlevur.cz/wp-content/uploads/2023/11/sprchovy-krem-a-blahodarna-sumivka-do-koupele.webp",
+        "verifiedAt": "2026-10-11T07:14:24.950360+00:00",
+        "assetEvidence": {
+          "url": "https://www.monlevur.cz/wp-content/uploads/2023/11/sprchovy-krem-a-blahodarna-sumivka-do-koupele.webp",
+          "originalSize": [
+            1000,
+            1000
+          ],
+          "sourceSha256": "a5538f5d4df1cdb78538c217c01f54c8977a581078307be23eb569abd18b41f8",
+          "assetSha256": "db33fca18721f41cf5fad278efb052714376b8f4cb5427e29b45427196bc03fa"
+        },
+        "photo": "/assets/catalogue/monlevur-2223.webp"
       }
     ]
   }

@@ -704,3 +704,37 @@ QA Mydlitto: desktop 1440 × 900, mobil 390 × 844 a 360 × 800 — PASS. Vizuá
 | Mandlový olej | 100 ml | 239 Kč | [e-shop](https://www.kvetu.cz/mandlovy-olej) |
 
 Kvetu QA 11. 10. 2026: desktop 1440 × 900, mobil 390 × 844 a 360 × 800; všetky kategórie, Ponuka a vyhľadávanie, skutočné ceny/balenia/odkazy, produkčný API handler a logo pri každej odpovedi. Screenshoty vizuálne skontrolované; PASS. Šesť produktov: jeden pleťový olej a päť telových produktov; vypredané krémy a sady vylúčené. [Oficiálny prevádzkovateľ](https://www.kvetu.cz/obchodni-podminky) sa zhoduje s IČO v ARES.
+
+
+## Monlevur — overené 11. 10. 2026
+
+- Prevádzkovateľ: Monlevur, IČO **19141203**; vlastník: Mgr. Monika Kalivodová.
+- Veľkosť: **ARES 110: 1–5**. [Primárny register](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/19141203). Kód 120 znamená 6–9, nie nulový počet zamestnancov.
+- Vlastný e-shop: https://www.monlevur.cz/; 17 dostupných balení. Prieskum domén, IČO a vlastníkov v existujúcich konfigoch nevykázal duplicitu.
+- Zachovaný spoločný engine, rozšírený katalóg a fotografie v každom kroku; lokálne oficiálne fotografie, bez generovaných produktových obrázkov. Symbol pri každej správe je výrez oficiálneho loga.
+- Ceny platia pre uvedené balenie. Vzorky, vypredané varianty a neoverené veľkosti sú vynechané. Identická fotografia viacerých variantov pochádza z oficiálnej spoločnej galérie produktu.
+- Dostupnosť, konkrétny variant, URL a SHA-256 obrázkov: `research/new-demos-2026-10-10.json`. UI neopakuje zdravotné tvrdenia zo zdrojových popisov.
+
+| Produkt | Balenie | Cena | Zdroj |
+|---|---|---|---|
+| Tělový krém | 100 ml | 280 Kč | [e-shop](https://www.monlevur.cz/produkt/telovy-krem/) |
+| Krém proti vráskám | 50 ml | 790 Kč | [e-shop](https://www.monlevur.cz/produkt/krem-proti-vraskam/) |
+| Krém na ruce | 50 ml | 220 Kč | [e-shop](https://www.monlevur.cz/produkt/krem-na-ruce/) |
+| Pečující pleťový krém | 50 ml | 450 Kč | [e-shop](https://www.monlevur.cz/produkt/pecujici-pletovy-krem/) |
+| Sprchový krém | 100 ml | 280 Kč | [e-shop](https://www.monlevur.cz/produkt/sprchovy-krem/) |
+| Balzám na vlasy a bezoplachový krém | 100 ml | 340 Kč | [e-shop](https://www.monlevur.cz/produkt/balzam-na-vlasy-a-bezoplachovy-krem/) |
+| Balzám na rty | 5 ml | 140 Kč | [e-shop](https://www.monlevur.cz/produkt/balzam-na-rty/) |
+| Blahodárná šumivka do koupele | 25 g | 45 Kč | [e-shop](https://www.monlevur.cz/produkt/blahodarna-sumivka-do-koupele/) |
+| Šampuk pro jemné mytí | 80 g | 340 Kč | [e-shop](https://www.monlevur.cz/produkt/sampuk-pro-jemne-myti/) |
+| Šampuk pro mastící se vlasy | 80 g | 340 Kč | [e-shop](https://www.monlevur.cz/produkt/sampuk-pro-mastici-se-vlasy/) |
+| Srdce na dlani | 35 g | 90 Kč | [e-shop](https://www.monlevur.cz/produkt/srdce-na-dlani/) |
+| Krém proti vráskám a Sprchový krém | 50 ml + 100 ml | 950 Kč | [e-shop](https://www.monlevur.cz/produkt/krem-proti-vraskam-a-sprchovy-krem/) |
+| Krém na ruce a Balzám na rty | 50 ml + 5 ml | 320 Kč | [e-shop](https://www.monlevur.cz/produkt/krem-na-ruce-a-balzam-na-rty/) |
+| Pečující pleťový krém a Tělový krém | 50 ml + 100 ml | 700 Kč | [e-shop](https://www.monlevur.cz/produkt/pecujici-pletovy-krem-a-telovy-krem/) |
+| Šampuk na mastící se vlasy a Balzám na vlasy a bezoplachový krém | 80 g + 100 ml | 650 Kč | [e-shop](https://www.monlevur.cz/produkt/sampuk-na-mastici-se-vlasy-a-balzam-na-vlasy-a-bezoplachovy-krem/) |
+| Šampuk na jemné mytí a Balzám na vlasy a bezoplachový krém | 80 g + 100 ml | 650 Kč | [e-shop](https://www.monlevur.cz/produkt/sampuk-na-jemne-myti-a-balzam-na-vlasy-a-bezoplachovy-krem/) |
+| Sprchový krém a 3x Blahodárná šumivka do koupele | 100 ml + 3 × 25 g | 390 Kč | [e-shop](https://www.monlevur.cz/produkt/sprchovy-krem-a-3x-blahodarna-sumivka-do-koupele/) |
+
+Monlevur QA 11. 10. 2026: desktop 1440 × 900, mobil 390 × 844 a 360 × 800; 17 dostupných produktov a sád, samostatný výber tela/vlasov/sád, Pleť a Pery v celej Ponuke, vyhľadávanie, produkčný API handler, presné balenia a ceny, oficiálny znak vtáka pri každej odpovedi. Screenshoty vizuálne skontrolované; PASS. Objem sád je rozpis overených komponentov, nemiešajú sa ml/g pri triedení. [Oficiálny prevádzkovateľ](https://www.monlevur.cz/obchodni-podminky/) súhlasí s IČO a menom v ARES. Všetkých 152 nových balení kozmetiky opätovne overených 11. 10. 2026: ceny a skladovosť bez rozdielu. `research/release-stock-price-check-2026-10-11.json`.
+
+Celá séria: 10 firiem / 235 balení v rovnakých troch segmentoch. Registre, rozsah katalógov a vylúčené firmy: `research/new-demo-candidate-audit-2026-10-11.json`. Žiadny PR.

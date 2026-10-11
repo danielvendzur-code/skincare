@@ -111,3 +111,6 @@ body[data-cosmetics-demo="mydlitto"] .cx-widget-brand .cx-logo {filter:none!impo
 
 /* Preserve the official black Kvetu wordmark on its white plate. */
 body[data-cosmetics-demo="kvetu"] .cx-widget-brand .cx-logo{filter:none!important;background:#fff!important;border-radius:4px;padding:4px;object-fit:contain!important;width:92px!important;height:34px!important;}
+
+/* Official Monlevur artwork remains black on a white plate. */
+body[data-cosmetics-demo="monlevur"] .cx-widget-brand .cx-logo{filter:none!important;background:#fff!important;border-radius:4px;padding:3px;object-fit:contain!important;max-height:40px!important;}
