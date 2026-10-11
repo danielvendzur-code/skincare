@@ -1,0 +1,15 @@
+{
+  "slug": "abies",
+  "status": "PASS",
+  "problems": [],
+  "viewports": [
+    1440,
+    390,
+    360
+  ],
+  "categories": [
+    "shrubs",
+    "conifers"
+  ],
+  "checked": "2026-10-11"
+}

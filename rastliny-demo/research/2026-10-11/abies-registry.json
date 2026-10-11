@@ -1,0 +1,27 @@
+{
+  "checked": "2026-10-11",
+  "company": "A.B.I.E.S. s.r.o.",
+  "ico": "35828501",
+  "owners": [
+    "Mgr. Juraj Sebestyén"
+  ],
+  "executives": [
+    "Ing. Martina Sebestyén",
+    "Mgr. Juraj Sebestyén"
+  ],
+  "employees": {
+    "code": "03",
+    "range": "2",
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=564653",
+    "recordUpdated": "2026-07-03"
+  },
+  "revenue": {
+    "value": 379770,
+    "currency": "EUR",
+    "year": 2025,
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10333346",
+    "note": "MÚJ 687, tabuľka Výkaz ziskov a strát: tržby za tovar 182541 € + vlastné výrobky a služby 197229 €; prvý riadok všetkých výnosov 412785 € nie je obrat."
+  },
+  "ownersSource": "https://api.statistics.sk/rpo/v1/entity/259038",
+  "note": "RPO súčasní vlastníci a konatelia; VOP staršie sídlo s rovnakým IČO. Odrodové fotografie nie sú portrétom dodávanej sadenice."
+}

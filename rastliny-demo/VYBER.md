@@ -1,6 +1,6 @@
 # Výber ďalších rastlinných ukážok — 10. 10. 2026
 
-Pridaných **15 vhodných nových e-shopov**, spolu **614 produktov**. Segment teraz obsahuje **18 ukážok a 873 produktov** vrátane troch pôvodných ukážok. Počet sa nedopĺňal kandidátmi bez dostatočnej ponuky alebo spoľahlivého dokladu.
+Pridaných **16 vhodných nových e-shopov**, spolu **631 produktov**. Segment teraz obsahuje **19 ukážok a 890 produktov** vrátane troch pôvodných ukážok. Počet sa nedopĺňal kandidátmi bez dostatočnej ponuky alebo spoľahlivého dokladu.
 
 Podmienky: vlastný e-shop, aspoň približne 8 skladových živých rastlín, viac druhov a cenových hladín, odlišní vlastníci, malá firma podľa primárneho registra alebo doložených tržieb. Tržby nad približne 1 milión eur vylučujú kandidáta. Pri českých firmách ARES preukazuje kategóriu pracovníkov, nie výšku tržieb; nedostupný obrat sa výslovne uvádza ako nedoložený. Počet pracovníkov je posledný údaj registra, nie meranie aktuálneho personálu.
 
@@ -23,6 +23,8 @@ Podmienky: vlastný e-shop, aspoň približne 8 skladových živých rastlín, v
 | [VšeProKaktusy](https://www.vseprokaktusy.cz/) | 66279011 | Miroslav Langr | 0 | nedoložené | 42 | Rodinné pestovanie; množstvo podobných kaktusov rôznych rodov a cien. | PASS 1440/390/360 |
 | [Green Hunters](https://greenhunters.cz/eshop/) | 09750720 | Libor Lešek | 1–5 | nedoložené | 15 | Samostatný pestovateľ; 8 živých mäsožraviek a 7 presných balení zmesí, varianty overené na detaile. | PASS 1440/390/360 |
 | [Sebtob Plants](https://sebtobplants.cz/) | 22174966 | Sebastian Ditl | 1–5 | nedoložené | 30 | Osobný projekt dvoch bratov; konkrétne skladové rastliny viacerých rodov a cien. | PASS 1440/390/360 |
+
+| [ABIES – Dreviny.sk](https://www.dreviny.sk/) | 35828501 | Mgr. Juraj Sebestyén | 2 | 379 770 € | 17 | Malá škôlka; presný počet skladových kusov a dodávané veľkosti drevín. | PASS 1440/390/360 |
 
 Firma, konatelia, jednotlivé registre, dátum aktualizácie, finančné výkazy, logo, farby a tabuľka všetkých produktov sú v [ZDROJE.md](./ZDROJE.md). Dátované, zredukované doklady bez adries a rodných údajov sú v `research/2026-10-10/*-registry.json`.
 
@@ -63,15 +65,20 @@ Dôvody odrážajú kontrolu 10. 10. 2026. Technicky neprístupný web znamená 
 | Hydroponics / Ing. Maximilián Pálffy, 54355974 | Odložený pre ponuku: predajca je doložený VOP, ale dostupné živé balíčky prevažne obsahujú varianty dvoch druhov rastlín. Osem balíčkov a prázdne nádoby nie sú osem pestrých rastlín. | [VOP](https://hydropestovanie.sk/vseobecne-obchodne-podmienky/), [Katalóg](https://hydropestovanie.sk/wp-json/wc/store/v1/products?per_page=100) |
 | Raritní rostliny / Monika Vrkoslavová, 02960257 | Odložený: ARES uvádza 1–5 pracovníkov, ale z dostupných konkrétnych variantov s fotkami bolo pri tejto kontrole potvrdených len 6 celých rastlín. Väčšina ďalších položiek sú listy, odrezky, mystery boxy alebo nemajú fotografiu. | [Varianty skladom](https://www.raritnirostliny.cz/category?slug=rostliny&mode=variant&in_stock=1&price_currency=CZK&price_mode=incl_vat), [VOP](https://www.raritnirostliny.cz/vop), [ARES](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/02960257) |
 
+| Gard&Seed / Gard&Seed s. r. o., 46883509 | Vyradený: čistý obrat 2025 **3 661 349 €** v prvom riadku výkazu šablóny 699; RÚZ navyše uvádza 20–24 pracovníkov. Nad limitom, hoci má vlastný e-shop. | [VOP](https://gardenseed.sk/sk/obchodne-podmienky), [Výkaz](https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=9954066), [RÚZ](https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1225735) |
+| Kvítka v bytě / Kvítka v bytě s.r.o., 06834922 | Odložený: podľa ARES 6–9 pracovníkov, no Shopify katalóg mal medzi 129 dostupnými produktmi len jednu konkrétnu celú živú rastlinu; ostatné sú najmä semená, médiá, pomôcky a služby. Odrezok a náhodný bazárový balík sa nezapočítavajú. | [Katalóg](https://kvitkavbyte.cz/products.json?limit=250), [VOP](https://kvitkavbyte.cz/pages/obchodni-podminky), [ARES](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/06834922) |
+| Bonsai-shop.cz | Nepridaný: VOP potvrdzujú rovnakého prevádzkovateľa IČO 75921448 ako Citrus-shop, už odloženého pre kategóriu 20–24 pracovníkov. Nie je ďalšou samostatnou malou firmou. | [VOP](https://www.bonsai-shop.cz/obchodni-podminky/bonsai-shop-cz?layout=tos) |
+| Bonsai SUMIKO / Mgr. Čestmír Sosnovec, 43135285 | Odložený z rastlinného segmentu: ARES 1–5 pracovníkov, ale aktuálny e-shop je zameraný na misky, substráty, literatúru a kaligrafiu. BONSAJE je blog, nie skladový živý katalóg. | [E-shop](https://eshop.sumiko.cz/), [VOP](https://eshop.sumiko.cz/Obchodni-podminky-a3_0.htm), [ARES](https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/43135285) |
+
 ## Kontrola kvality
 
-Všetkých 15 nových katalógov používa oficiálne produktové fotografie a konkrétne skladové položky s cenou danej veľkosti alebo variantu. Pri BRESTe ide o odrodové fotografie, nie portrét dodávanej sadenice; výsledok to výslovne uvádza. Leaf-only fotografie, odrezané rastliny, predobjednávky, náhodné balíky a nejasné varianty sa vynechali.
+Všetkých 16 nových katalógov používa oficiálne produktové fotografie a konkrétne skladové položky s cenou danej veľkosti alebo variantu. Pri BRESTe ide o odrodové fotografie, nie portrét dodávanej sadenice; výsledok to výslovne uvádza. Leaf-only fotografie, odrezané rastliny, predobjednávky, náhodné balíky a nejasné varianty sa vynechali.
 
 WooCommerce `is_in_stock` nestačí: odstránili sa položky s backorderom, nedostupnosťou na nákup alebo variantmi bez dokladu konkrétneho SKU. Cenový rozsah nikdy nie je cenou výslednej karty. Shoptet variant musí mať overenú cenu, sklad a fotografiu; Shopify používa URL konkrétneho dostupného variantu. Kokedamy.cz má svetlo a nenáročnosť ručne prezreté z odrážok predajcu, obnoviteľné cez dátovaný `tools/curate_kokedamy.py`.
 
 Na každej novej ukážke prešiel skutočný lokálny API handler, QA na 1440, 390 a 360 px, kontrola kontrastu, obrázkov, overflow, všetkých kategórií a loga pri každej správe bota. Prezreté boli produktové hárky, desktop owner a výsledok, mobilný owner, chat, prvý krok a výsledok. Materiálne úpravy majú opakované QA.
 
-Simulácia všetkých dostupných vetiev: **1667 kombinácií pre 15 nových ukážok**, **2125 kombinácií pre celý segment**, bez prázdneho výsledku a bez porušenia obmedzení. Rozdelenie víťazov je v `qa-review/matrix.json`; nejde o záruku rovnakého počtu odporúčaní pre každé SKU.
+Simulácia všetkých dostupných vetiev: **1733 kombinácií pre 16 nových ukážok**, **2191 kombinácií pre celý segment**, bez prázdneho výsledku a bez porušenia obmedzení. Rozdelenie víťazov je v `qa-review/matrix.json`; nejde o záruku rovnakého počtu odporúčaní pre každé SKU.
 
 Ďalšia séria Rastlinkovo, Svokrine jazyky, Sukulenty Samek a VšeProKaktusy pridala **200 produktov**. Pri Rastlinkove sa overil aktuálny predajca Maxspan s.r.o. po zmene názvu firmy; RPO poskytlo aktuálny vlastnícky záznam. Pri Svokriných jazykoch bol namiesto neodpovedajúceho RPO použitý aktuálny ORSR výpis. Ich tržby 2025 sú predaj tovaru plus vlastných výrobkov/služieb podľa výkazu MÚJ, nie prvý riadok všetkých výnosov. Pri Svokriných jazykoch je počet pracovníkov nezistený.
 
@@ -82,5 +89,7 @@ Pre posledné štyri ukážky prešlo **622 kombinácií**. Podiel najčastejši
 Green Hunters má presné Woo varianty overené v CZK: príznaky nákupu, skladu a neprítomnosti backorderu, cena a fotografia tvoria jeden záznam variantu. Dvadsať živých položiek sa po prezretí fotografií vyradilo, takže ostalo 8 dobre viditeľných živých rastlín a 7 pestovateľských médií. Všetkých 64 vetiev prešlo; 14 rôznych víťazov. Tržby živnostníka nie sú doložené; malá personálna kategória nie je dôkazom obratu pod milión eur.
 
 Sebtob Plants má 30 prezretých celých rastlín, 116 kombinácií a 28 rôznych víťazov. Rozdelenie na filodendrony, monstery a ďalšie izbovky vychádza z názvov predajcu; neodvodzuje sa z neho svetlo ani bezpečnosť. QA identifikuje konkrétnu položku cez produktový/variantový odkaz a overuje zhodu ceny aj fotografie, takže nezamieňa rastliny s rovnakým názvom.
+
+ABIES má 17 prezretých drevín a 66 kombinácií bez prázdneho výsledku. Pri tvrdení „nenáročný na pôdu“ sa nepoužije všeobecné označenie nenáročnej starostlivosti. Pozitívne stanovištia sa ručne overili v konkrétnych popisoch. Mislabeled Ilex fotografie pri šalvii a zelená juka pri Color Guard sa vyradili. Cena aj dodávaná výška sú prepojené s konkrétnym odkazom; výsledok priznáva odrodovú fotografiu.
 
 Každý e-shop má samostatný commit a push na `codex/rastliny-ukazky`. PR sa neotvára. Trasy a subdomény sú pripravené v [NASADENIE.md](./NASADENIE.md); DNS existujúcich subdomén sa nemenil. Vlastník má samostatný súkromný [živý náhľad všetkých ukážok](https://rastlinne-chatbot-ukazky.vendzurd.chatgpt.site) so statickým výberom a katalógovým chatom; serverové AI rozhranie vyžaduje samostatné nasadenie.

@@ -1205,3 +1205,38 @@ Svetlo a nenáročnosť všetkých 18 kokedám boli osobitne prezreté v odráž
 | Epipremnum pinnatum yellow mint variegated | Ďalšie izbovky | 500 Kč | [detail](https://sebtobplants.cz/products/epipremnum-pinnatum-yellow-mint-variegated?variant=54766581285210) |
 | Anthurium Michelle x (Zara x Michelle) | Ďalšie izbovky | 730 Kč | [detail](https://sebtobplants.cz/products/anthurium-michelle-x-zara-x-michelle?variant=54766575976794) |
 | Monstera adansonii mint — Č 1 | Monstery | 100 Kč | [detail](https://sebtobplants.cz/products/monstera-adansonii-mint?variant=54056895938906) |
+
+## ABIES – Dreviny.sk
+
+- Kontrola cien a skladu: **11.10.2026**, priamo z vlastného [e-shopu](https://www.dreviny.sk/). [Identita predajcu](https://www.dreviny.sk/vseobecne-obchodne-podmienky/).
+- Firma: **A.B.I.E.S. s.r.o., IČO 35828501**. Vlastníci: Mgr. Juraj Sebestyén. Konatelia / podnikateľ: Ing. Martina Sebestyén, Mgr. Juraj Sebestyén.
+- Veľkosť: **379 770 € tržby 2025; 2 zam.**. Kód `03` v [primárnom registri](https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=564653); údaj aktualizovaný 2026-07-03, načítaný 2026-10-11. [Vlastníci](https://api.statistics.sk/rpo/v1/entity/259038).
+- [Finančný výkaz](https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10333346): Verejný výkaz MÚJ, šablóna 687, tabuľka 3 Výkaz ziskov a strát: tržby za tovar 182 541 € plus vlastné výrobky/služby 197 229 € = 379 770 €. Prvý riadok 412 785 € sú všetky výnosy, nie tržby. Údaj je celofiremný vrátane záhradníckych služieb. Výkaz za 2025 bol aktualizovaný 4. 7. 2026.
+- VOP obsahujú staršiu adresu sídla, ale rovnaké IČO. Súčasní vlastníci a konatelia sú prevzatí z aktuálneho RPO (zmena 4. 9. 2025), nie zo starého textu VOP. Odrodové fotografie nemožno vydávať za portrét konkrétnej dodávanej sadenice.
+- Prečo sedí: Samostatná malá škôlka s doloženými tržbami 379 770 € za rok 2025 a registrovanou veľkosťou 2 pracovníci. Množstvo podobných okrasných drevín rôznych rodov, veľkostí a cien má zmysluplnú potrebu výberu. Vlastníkov a konateľov sme porovnali s už zdokumentovanými ukážkami; bez zisteného opakovania.
+- Ponuka: **17 produktov**, listnaté dreviny, ihličnany. Kurátorovaný výber viacerých druhov a cenových hladín, nie tvrdenie o celom e-shope. Doplnky sú zahrnuté pri zmysluplnom počte položiek; služby, poukazy, predobjednávky, prázdne kompozície a varianty bez doloženej ceny alebo skladu sa vyradili.
+- Ceny a sklad: Na detaile je presná EUR cena jediného schema.org Offer, InStock, kladný počet kusov skladom a aktívny formulár OBJEDNAŤ. Dodávaná výška a prepravná veľkosť patria danému produktu. Produkty s nejasnou cenou, variantmi, nulovým skladom alebo bez fotografie boli vynechané. Dátum je snímkou; ukážka nevykonáva živú synchronizáciu.
+- Tagy a dôvody: iba popis, parametre a kategórie predajcu. Bez doloženého svetla alebo starostlivosti sa použije botanická skupina alebo cenová preferencia. Pet safety sa neodvodzuje z názvu rodu. Snímka údajov a URL ku každej fotografii: `research/2026-10-11/abies-products.json`.
+- Fotografie: oficiálne priradené produktové zábery; okraje, veľkosť a koláže cez `tools/assets.py` a `tools/make_assets.py` (PIL). Logo: [oficiálny súbor](https://www.dreviny.sk/logo-dreviny3.gif); Oficiálny zelený text DREVINY.SK bol zväčšený s Lanczos vyhladením a stmavený do brand farby pre čitateľnosť. Pôvodné písmeno D je vyrezané z rovnakého loga a použité biele v launcheri aj pri každej správe bota. Nejde o novo navrhnutý symbol. Predajca používa odrodové zábery, ktoré nemusia zobrazovať dodávanú sadenicu; ukážka to uvádza vo výsledku spolu s presnou výškou a veľkosťou dodania. Vybrané boli čitateľné celé hlavné dreviny. Detailné kvety a listy, fotografie etikety iného druhu, skupinové a výrazne odrezané zábery boli vyradené. Autorské označenie fotografie zostáva zachované.
+- Farby: `brand: #163e18`, `accent: #30702b`, `soft: #f0f3e8`, `paper: #fffef9`, `ink: #27301f`, `line: #dce3ce`. Zelená oficiálneho loga a svetlé sivé plochy webu; zelená je stmavená pre kontrast s bielym textom. Biela na brand a accent ≥ 4,5 : 1, kontrolované QA.
+- QA: PASS na desktope 1440 px a mobiloch 390/360 px; owner, chat, kroky a výsledky prezreté. `qa-review/abies-qa.json`, `abies-ui.jpg`, produktové hárky a `qa-review/matrix.json`. Zdrojový doklad firmy: `research/2026-10-11/abies-registry.json`.
+
+| Produkt / variant | Kategória | Cena | Produkt skladom pri kontrole |
+|---|---|---:|---|
+| Borovica málokvetá Glauca | Ihličnany | 92,26 € | [detail](https://www.dreviny.sk/1860-borovica-malokveta-glauca-pinus-parviflora-glauca/) |
+| Cypruštek tupolistý Nana Gracilis, na kmienku 60-70 cm | Ihličnany | 95,00 € | [detail](https://www.dreviny.sk/3690-cyprustek-tupolisty-nana-gracilis-na-kmienku-60-70-cm-chamaecyparis-obtusa-nana-gracilis-in-caule-60-70-cm/) |
+| Cypruštek lawsonov Ellwoodii (Elwoodii, Ellwood´s) | Ihličnany | 25,84 € | [detail](https://www.dreviny.sk/185-cyprustek-lawsonov-ellwoodii-elwoodii-ellwood-s-chamaecyparis-lawsoniana-ellwoodii-elwoodii-ellwood-s-/) |
+| Tis obyčajný David | Ihličnany | 49,20 € | [detail](https://www.dreviny.sk/3084-tis-obycajny-david-taxus-baccata-david/) |
+| Javor dlaňolistý Garnet (Granát), s petržlenovitými červenými listami | Listnaté dreviny | 75,00 € | [detail](https://www.dreviny.sk/2122-javor-dlanolisty-garnet-granat-s-petrzlenovitymi-cervenymi-listami-acer-palmatum-garnet/) |
+| Drieň biely Elegantissima (Najelegantnejší) | Listnaté dreviny | 8,50 € | [detail](https://www.dreviny.sk/1975-drien-biely-elegantissima-najelegantnejsi-cornus-alba-elegantissima/) |
+| Javor dlaňolistý | Listnaté dreviny | 51,66 € | [detail](https://www.dreviny.sk/1469-javor-dlanolisty-acer-palmatum/) |
+| Tavoľník van Houtteho | Listnaté dreviny | 9,84 € | [detail](https://www.dreviny.sk/620-tavolnik-van-houtteho-spiraea-vanhouttei/) |
+| Borievka obyčajná | Ihličnany | 66,42 € | [detail](https://www.dreviny.sk/2435-borievka-obycajna-juniperus-communis/) |
+| Borievka šupinatá Meyeri | Ihličnany | 35,00 € | [detail](https://www.dreviny.sk/67-borievka-supinata-meyeri-juniperus-squamata-meyeri/) |
+| Borievka šupinatá viržínska Blue Arrow (Modrý šíp) | Ihličnany | 154,98 € | [detail](https://www.dreviny.sk/3672-borievka-supinata-virzinska-blue-arrow-modry-sip-juniperus-scopulorum-blue-arrow/) |
+| Borovica pancierová Satelit (Satelitt, Satelitte) | Ihličnany | 147,60 € | [detail](https://www.dreviny.sk/1528-borovica-pancierova-satelit-satelitt-satelitte-pinus-leucodermis-heldreichii-satelit-satelitt-satelitte-/) |
+| Céder himalájsky Pendula (Previsnutý) | Ihličnany | 123,00 € | [detail](https://www.dreviny.sk/1463-ceder-himalajsky-pendula-previsnuty-cedrus-deodara-pendula/) |
+| Kryptoméria japonská Globosa Nana - kmienik 40cm - niečo nezvyčajné | Ihličnany | 99,00 € | [detail](https://www.dreviny.sk/404-kryptomeria-japonska-globosa-nana-kmienik-40cm-nieco-nezvycajne-cryptomeria-japonica-globosa-nana/) |
+| Smrek biely Conica | Ihličnany | 52,77 € | [detail](https://www.dreviny.sk/579-smrek-biely-conica-picea-glauca-conica/) |
+| Smrek obyčajný Inversa (Pendula), previsnutý | Ihličnany | 100,86 € | [detail](https://www.dreviny.sk/2288-smrek-obycajny-inversa-pendula-previsnuty-picea-abies-inversa/) |
+| Tuja západná Danica | Ihličnany | 9,60 € | [detail](https://www.dreviny.sk/953-tuja-zapadna-danica-thuja-occidentalis-danica/) |

@@ -780,5 +780,26 @@
       "philodendrons": 32,
       "monsteras": 32
     }
+  },
+  "abies": {
+    "combinations": 66,
+    "empty": 0,
+    "constraintFailures": 0,
+    "uniqueWinners": 9,
+    "winners": {
+      "p1975": 28,
+      "p620": 15,
+      "p1469": 3,
+      "p2122": 2,
+      "p3084": 6,
+      "p953": 9,
+      "p3672": 1,
+      "p579": 1,
+      "p2435": 1
+    },
+    "byKind": {
+      "shrubs": 48,
+      "conifers": 18
+    }
   }
 }

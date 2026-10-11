@@ -975,5 +975,55 @@
       "philodendrons": "Filodendrony",
       "monsteras": "Monstery"
     }
+  },
+  "abies": {
+    "name": "ABIES – Dreviny.sk",
+    "website": "https://www.dreviny.sk/",
+    "currency": "EUR",
+    "kinds": [
+      "shrubs",
+      "conifers"
+    ],
+    "kindLabels": {
+      "shrubs": "Listnaté dreviny",
+      "conifers": "Ihličnany"
+    },
+    "theme": {
+      "brand": "#163e18",
+      "accent": "#30702b",
+      "soft": "#f0f3e8",
+      "paper": "#fffef9",
+      "ink": "#27301f",
+      "line": "#dce3ce"
+    },
+    "categoryNotes": {
+      "shrubs": "Javory a okrasné listnaté dreviny",
+      "conifers": "Borievky, borovice, smreky a ďalšie rody"
+    },
+    "heading": "Vyberie rastlinu, ktorá sadne do jeho záhrady.",
+    "lead": "Zákazník si vyberie podľa stanovišťa, druhu a rozpočtu. Poradca pozná konkrétne dreviny, dodávané veľkosti a ceny z vášho katalógu.",
+    "platform": "custom",
+    "terms": "https://www.dreviny.sk/vseobecne-obchodne-podmienky/",
+    "fit": "Samostatná malá škôlka s doloženými tržbami 379 770 € za rok 2025 a registrovanou veľkosťou 2 pracovníci. Množstvo podobných okrasných drevín rôznych rodov, veľkostí a cien má zmysluplnú potrebu výberu.",
+    "stockNote": "Na detaile je presná EUR cena jediného schema.org Offer, InStock, kladný počet kusov skladom a aktívny formulár OBJEDNAŤ. Dodávaná výška a prepravná veľkosť patria danému produktu.",
+    "logoSource": "https://www.dreviny.sk/logo-dreviny3.gif",
+    "logoInk": "#163e18",
+    "markCrop": [
+      10,
+      11,
+      34,
+      39
+    ],
+    "markWhite": true,
+    "logoNote": "Oficiálny zelený text DREVINY.SK bol zväčšený s Lanczos vyhladením a stmavený do brand farby. Pôvodné písmeno D je vyrezané z rovnakého loga a použité biele v launcheri aj pri každej správe bota.",
+    "themeNote": "Zelená oficiálneho loga a svetlé sivé plochy webu; zelená je stmavená pre kontrast s bielym textom.",
+    "photoNote": "Odrodové zábery predajcu nemusia zobrazovať dodávanú sadenicu; výsledok to uvádza spolu s presnou výškou a veľkosťou dodania. Celé hlavné dreviny a autorské označenie zachované.",
+    "photoBackdrop": "#fffef9",
+    "heroNames": [
+      "Borovica málokvetá Glauca",
+      "Cypruštek tupolistý Nana Gracilis, na kmienku 60-70 cm",
+      "Cypruštek lawsonov Ellwoodii (Elwoodii, Ellwood´s)",
+      "Tis obyčajný David"
+    ]
   }
 }
