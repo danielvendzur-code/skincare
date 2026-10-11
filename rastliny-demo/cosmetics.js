@@ -157,7 +157,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,s
           </div>
         </article>
       </section>
-      <footer class="cx-owner-foot"><a href="https://mojchatbot.sk" target="_blank" rel="noreferrer">mojchatbot.sk</a><span>Ukážka riešenia pre ${esc(brand.name)}</span></footer>
+      <footer class="cx-owner-foot"><a href="https://mojchatbot.sk" target="_blank" rel="noreferrer">mojchatbot.sk</a></footer>
     </main>
 
     <div class="cx-launcher" id="cx-launcher">
@@ -274,12 +274,14 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,s
   }
 
   function chooseResult() { const ranked=rankProducts(brand,state.answers);state.result=ranked[0]||null;state.alternative=ranked[1]||null; }
-  const optionMarks={};
+  const coinMark='<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="23" cy="24" r="12"/><path d="M22 18v12m4-11h-6m6 5h-6m14-9a12 12 0 0 1 0 18"/></svg>';
+  const optionMarks={lowest:coinMark,middle:coinMark,premium:coinMark};
 
   function renderAdvisor() {
     if (state.result) return renderResult();
     const questions=questionsFor(brand,state.answers);
     const question=questions[state.step];
+    for(const option of question.options){if(question.key==='budget')optionMarks[option.value]=coinMark;else if(option.value==='any')delete optionMarks.any;}
     const selected=state.answers[question.key];
     stage.innerHTML = `
       <section class="cx-advisor">
@@ -377,3 +379,4 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,s
   });
   renderChat();
 })();
+

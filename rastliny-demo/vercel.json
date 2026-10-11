@@ -48,5 +48,250 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "abies.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=abies",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "brest.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=brest",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "dubenkaktus.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=dubenkaktus",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "farmarky.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=farmarky",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "gardenholice.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=gardenholice",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "greenhunters.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=greenhunters",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "honzuvles.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=honzuvles",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "izbovecky.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=izbovecky",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "kokedamy.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=kokedamy",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "kytkasem.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=kytkasem",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "lukscheiter.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=lukscheiter",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "plantbros.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=plantbros",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "plantizia.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=plantizia",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "plantoteka.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=plantoteka",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "poniveni.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=poniveni",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "rastlinkovo.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=rastlinkovo",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "samek.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=samek",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "sebtobplants.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=sebtobplants",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "sever.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=sever",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "svokrinejazyky.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=svokrinejazyky",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "vseprokaktusy.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=vseprokaktusy",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "zahradananiti.mojchatbot.sk"
+        }
+      ],
+      "destination": "/cosmetics.html?demo=zahradananiti",
+      "permanent": false
+    }
   ]
 }
+

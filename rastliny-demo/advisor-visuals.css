@@ -1,0 +1,10 @@
+/* Same rounded navigation and full-bleed question images as other demos. */
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-mode,
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-mode button {border-radius:999px!important;overflow:hidden;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-option {padding:0!important;overflow:hidden;height:auto!important;min-height:0!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-option-photo {padding:0!important;width:100%!important;min-height:110px!important;border-radius:0!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-option-photo img {width:100%!important;height:100%!important;padding:0!important;object-fit:cover!important;object-position:center!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-option-copy {padding:10px!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-option-photo--mark {display:flex!important;align-items:center!important;justify-content:center!important;background:var(--cx-soft)!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-option-photo--mark svg {width:54px!important;height:54px!important;color:var(--cx-brand);fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
+
