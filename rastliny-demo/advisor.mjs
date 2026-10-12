@@ -5,7 +5,7 @@ export const LABELS={plants:'Izbové rastliny',rareplants:'Raritné rastliny',ac
 /* Product facts are shown as facts: the catalogue notes say "podľa predajcu / e-shopu" in every
    sentence, which reads as a disclaimer. The wording is tidied where it is displayed. */
 const DROP=/^(Cena a fotografia patria|Určenie z názvu a popisu|Odrodový záber|Odrodová fotografia|Samostatný črepník; vhodnosť)/;
-const REWRITE=[[/^Predajca uvádza nenáročnú starostlivosť\.$/,'Nenáročná starostlivosť.'],[/^Predajca ju zaraďuje medzi rastliny pre začiatočníkov\.$/,'Vhodná pre začiatočníkov.'],[/^Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami\.$/,'Vhodná do domácnosti so zvieratami.'],[/^Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete\.$/,'Na fotografii je konkrétny strom, ktorý dostanete.'],[/^Predajca uvádza:\s*/,''],[/^Predajca (výslovne )?uvádza vhodnosť do polotieňa\.$/,'Znesie polotieň.'],[/^Predajca (výslovne )?uvádza toleranciu priameho slnka alebo slunného miesta\.$/,'Znesie priame slnko.'],[/^Predajca (výslovne )?uvádza toleranciu svetla od slunného miesta po polotieň\.$/,'Znesie slnko aj polotieň.'],[/^Predajca opisuje druh ako sukulentnú rastlinu\.$/,'Sukulentná rastlina.'],[/^Predajca (výslovne )?(uvádza|opisuje|odporúča)\s+/,''],[/\s+podľa (názvu |popisu |kategórie |zaradenia )?(predajcu|e-shopu)/g,''],[/\s+podľa názvu(?=[:.])/g,''],[/\s+z ponuky predajcu/g,''],[/\s+predajcu(?=[:.;])/g,'']];
+const REWRITE=[[/^Predajca uvádza nenáročnú starostlivosť\.$/,'Nenáročná starostlivosť.'],[/^Predajca ju zaraďuje medzi rastliny pre začiatočníkov\.$/,'Vhodná pre začiatočníkov.'],[/^Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami\.$/,'Vhodná do domácnosti so zvieratami.'],[/^Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete\.$/,'Na fotografii je konkrétny strom, ktorý dostanete.'],[/^Predajca uvádza:\s*/,''],[/^Predajca (výslovne )?uvádza vhodnosť do polotieňa\.$/,'Znesie polotieň.'],[/^Predajca (výslovne )?uvádza toleranciu priameho slnka alebo slunného miesta\.$/,'Znesie priame slnko.'],[/^Predajca (výslovne )?uvádza toleranciu svetla od slunného miesta po polotieň\.$/,'Znesie slnko aj polotieň.'],[/^Predajca opisuje druh ako sukulentnú rastlinu\.$/,'Sukulentná rastlina.'],[/^Predajca (výslovne )?(uvádza|opisuje|odporúča)\s+/,''],[/\s+Predajca uvádza nenáročnú starostlivosť\./,'. Nenáročná starostlivosť.'],[/^V období kvitnutia predajca požaduje osobný odber\.$/,'V období kvitnutia len osobný odber.'],[/; pomer zmesi overte na detaile\.$/,'.'],[/\s+podľa (názvu |popisu |kategórie |zaradenia |ponuky )?(predajcu|predajca|e-shopu|pestovateľa)/g,''],[/\s+podľa názvu(?=[:.])/g,''],[/\s+z ponuky predajcu/g,''],[/\s+predajcu(?=[:.;])/g,'']];
 export function tidy(text){
  return String(text||'').split(/(?<=\.)\s+/).filter(s=>s&&!DROP.test(s)).map(s=>{for(const [from,to] of REWRITE)s=s.replace(from,to);s=s.trim();return s.charAt(0).toUpperCase()+s.slice(1);}).filter(Boolean).join(' ');
 }
@@ -79,7 +79,7 @@ function budgetQuestion(brand,pool){
  return {key:'budget',title:'Do akej sumy vyberáme?',options};
 }
 export function questionsFor(brand,answers={}) {
- const first={key:'kind',title:'Čo dnes vyberáme?',options:brand.kinds.slice(0,4).map(k=>({value:k,title:brand.kindLabels?.[k]||(k==='airplants'?'Tillandsie':LABELS[k]),text:brand.categoryNotes?.[k]||'Z ponuky tohto e-shopu',image:brand.products.find(p=>p.kind===k)?.photo}))};
+ const first={key:'kind',title:'Čo dnes vyberáme?',options:brand.kinds.slice(0,4).map(k=>({value:k,title:brand.kindLabels?.[k]||(k==='airplants'?'Tillandsie':LABELS[k]),text:tidy(brand.categoryNotes?.[k]||'Z ponuky tohto e-shopu'),image:brand.products.find(p=>p.kind===k)?.photo}))};
  const list=brand.kinds.length>1?[first]:[];
  const kind=answers.kind||(brand.kinds.length>1?null:brand.kinds[0]);
  if(kind){
@@ -116,7 +116,7 @@ export function catalogueReply(brand,messages) {
  let answers={};
  if(/opora|opory|raselinnikov.*tyc|drziak|kvapkadlo|korunka|macrame|zaves/.test(intentQuery)&&brand.kinds.includes('accessories'))answers.kind='accessories';else if(/rarit|zberatel|vzacn/.test(intentQuery)&&brand.kinds.includes('rareplants'))answers.kind='rareplants';else if(/ovocn|jablon|hrusk|broskyn/.test(intentQuery)&&brand.kinds.includes('fruits'))answers.kind='fruits';else if(/(?:^|\s)(?:ker|kry|krik|kriky)(?:\s|$)/.test(intentQuery)&&brand.kinds.includes('shrubs'))answers.kind='shrubs';else if(/substrat|zemin/.test(intentQuery))answers.kind='substrates';else if(/kvetinac|crepnik|obal/.test(intentQuery))answers.kind='pots';else if(/terarium/.test(intentQuery))answers.kind='terrariums';else if(/orchide/.test(intentQuery)&&brand.kinds.includes('orchids'))answers.kind='orchids';else if(/\bkaktus\w*|\bcactus\b/.test(intentQuery)&&brand.kinds.includes('cacti'))answers.kind='cacti';else if(/sukulent/.test(intentQuery)&&brand.kinds.includes('succulents'))answers.kind='succulents';else answers.kind=brand.kinds.includes('plants')?'plants':brand.kinds[0];
  if(/polotien|polostin|menej svetla|malo svetla|do tien/.test(q))answers.facet='low';else if(/rozptylen|bez priameho sln|bez priame sln|nie.*priame.*sln|nechcem.*slnec/.test(q))answers.facet='bright';else if(/priame slnko|slnec/.test(q))answers.facet='sun';
- if(/nenaroc|zaciatoc|lahka starost/.test(q))answers.priority='easy';
+ if(/nenaroc|zaciatoc|zacatec|lahka starost|snadn/.test(q))answers.priority='easy';
  const money=q.match(/(?:do|pod|max)\s+(\d+(?:[.,]\d+)?)\s*(€|eur|kc)/);
  if(money){
   const currency=money[2]==='kc'?'CZK':'EUR';
@@ -124,7 +124,7 @@ export function catalogueReply(brand,messages) {
   answers.budget=money[1].replace(',','.');
  }
  const genus=brand.products.filter(p=>plain(p.name).split(' ')[0].length>3&&q.includes(plain(p.name).split(' ')[0]));
- if(/jedovat|toxick|mack|maci|pes|psov|zvierat/.test(q)) {
+ if(/jedovat|toxick|mack|maci|kock|pes|psov|psum|zvierat|zvirat/.test(q)) {
   answers.kind='plants';answers.required=['pet-safe'];
   const named=exact.length?exact:genus;
   const p=(named.length?named.filter(p=>matches(p,answers)):rankProducts(brand,answers)).slice(0,2);
@@ -135,6 +135,6 @@ export function catalogueReply(brand,messages) {
  let ranked=named.length?named.filter(p=>matches(p,explicitKind?answers:{...answers,kind:p.kind})):rankProducts(brand,answers);
  if(/cena|ceny|kolko|lacne/.test(q)&&!exact.length)ranked=[...ranked].sort((a,b)=>a.priceValue-b.priceValue);
  if(!ranked.length)return {text:'V overenej ponuke nemám produkt, ktorý by spĺňal tieto podmienky. Skúste upraviť rozpočet alebo prejdite Výber rastlín a doplnkov.',products:[]};
- const selected=ranked.slice(0,/porovnaj|porovnanie|rozdiel/.test(q)?2:1);
+ const selected=ranked.slice(0,/porovnaj|porovnej|porovnanie|srovn|rozdiel|rozdil/.test(q)?2:1);
  return {text:selected.map(p=>`${p.name} — ${p.price}. ${tidy(p.reason)}`).join('\n\n'),products:selected.map(p=>p.id)};
 }

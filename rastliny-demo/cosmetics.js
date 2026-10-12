@@ -76,7 +76,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, 
   const INCLUDED = [
     ['Chatbot s vaším katalógom', 'Vaše produkty a ceny, nie všeobecné odpovede.'],
     ['Odpovedá aj o polnoci', 'Svetlo, starostlivosť, rozmery aj porovnanie produktov.'],
-    ['Výber cez štyri otázky', 'Otázky podľa kategórie — na konci konkrétny produkt s dôvodom.'],
+    ['Výber cez pár otázok', 'Otázky podľa kategórie — na konci konkrétny produkt s dôvodom.'],
     ['Vidíte, na čo sa pýtajú', 'História konverzácií, aj otázky, na ktoré ponuka neodpovedá.']
   ];
 
@@ -91,7 +91,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, 
   const KEEPS = [
     ['Odpovedá aj o polnoci', 'aj cez víkend, bez vás'],
     ['Pozná váš katalóg', 'pracuje s vašimi produktmi a cenami'],
-    ['Výber cez štyri otázky', 'na konci jeden konkrétny produkt'],
+    ['Výber cez pár otázok', 'na konci jeden konkrétny produkt'],
     ['História konverzácií', 'vidíte, na čo sa zákazníci pýtajú']
   ];
 
@@ -161,7 +161,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, 
     </main>
 
     <div class="cx-launcher" id="cx-launcher">
-      <button class="cx-teaser" id="cx-teaser" type="button"><b>Pomôcť s výberom?</b><span>4 otázky · konkrétny produkt</span></button>
+      <button class="cx-teaser" id="cx-teaser" type="button"><b>Pomôcť s výberom?</b><span>Pár otázok · konkrétny produkt</span></button>
       <button class="cx-launcher-button${launcherUsesRawImageLogo ? ' is-image-logo' : ''}" id="cx-open" type="button" aria-label="Otvoriť poradcu" aria-expanded="false">${launcherMarkup}</button>
     </div>
     <div class="cx-backdrop" id="cx-backdrop" hidden></div>
