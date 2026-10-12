@@ -73,3 +73,10 @@ html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open .cx-compa
 html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo{border:1px solid var(--cx-brand)!important;box-sizing:border-box!important;transition:background-color .16s!important;transform:none!important;}
 html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:hover,html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:focus-visible{background:var(--cx-q-fg,#fff)!important;background-color:var(--cx-q-fg,#fff)!important;}
 html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:hover .cx-company-message-logo,html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:focus-visible .cx-company-message-logo{background:var(--cx-brand)!important;}.cx-quality-body.is-question .cx-catalogue-options+.cx-quality-rows{margin-top:10px;}
+
+/* Hover goes to the brand's second colour (or a deeper shade), the mark keeps its colour. */
+html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo{border:0!important;}
+html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:hover,html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:focus-visible{background:var(--cx-q-hover,var(--cx-accent))!important;background-color:var(--cx-q-hover,var(--cx-accent))!important;}
+html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:hover .cx-company-message-logo,html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:focus-visible .cx-company-message-logo{background:var(--cx-q-fg,#fff)!important;}
+.cx-quality-section{margin:16px 3px 8px;font-size:12px;}
+.cx-quality-product.is-primary{grid-template-columns:minmax(150px,36%) minmax(0,1fr);}.cx-quality-product.is-primary .cx-quality-product-photo{min-height:220px;}.cx-quality-product.is-primary .cx-quality-product-photo img{max-height:280px;}

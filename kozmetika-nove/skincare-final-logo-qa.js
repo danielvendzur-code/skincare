@@ -1,3 +1,18 @@
+/* Hover colour of the closed bubble – same rule as ukazky-final.js: another brand colour if it is
+   dark enough for the mark and clearly different, otherwise a deeper shade of the rest colour. */
+window.CXLauncherHover = window.CXLauncherHover || ((rest, candidates = []) => {
+  const rgb = (value) => {
+    const v = String(value || '').trim();
+    if (v.startsWith('#')) { const h = v.length === 4 ? v.slice(1).split('').map((c) => c + c).join('') : v.slice(1, 7); return [0, 2, 4].map((i) => parseInt(h.slice(i, i + 2), 16)); }
+    const m = v.match(/[\d.]+/g); return m ? m.slice(0, 3).map(Number) : [255, 255, 255];
+  };
+  const lum = (c) => { const [r, g, b] = rgb(c).map((x) => { x /= 255; return x <= 0.03928 ? x / 12.92 : ((x + 0.055) / 1.055) ** 2.4; }); return 0.2126 * r + 0.7152 * g + 0.0722 * b; };
+  const dist = (a, b) => { const x = rgb(a), y = rgb(b); return Math.hypot(x[0] - y[0], x[1] - y[1], x[2] - y[2]); };
+  const css = (c) => 'rgb(' + rgb(c).join(', ') + ')';
+  if (lum(rest) > 0.6) { /* light bubble with a dark mark: hover goes one step deeper */ return css(rgb(rest).map((x) => Math.round(x * 0.88))); }
+  for (const candidate of candidates) if (candidate && lum(candidate) < 0.32 && dist(candidate, rest) > 70) return css(candidate);
+  return lum(rest) < 0.02 ? css(rgb(rest).map((x) => Math.round(x + (255 - x) * 0.16))) : css(rgb(rest).map((x) => Math.round(x * 0.76)));
+});
 (() => {
   'use strict';
 
@@ -314,7 +329,7 @@
       out.getContext('2d').drawImage(canvas,x0,y0,x1-x0+1,y1-y0+1,2,2,x1-x0+1,y1-y0+1);
       artwork=out.toDataURL('image/png');revision++;sync();syncLauncher();
       /* One-colour mark: the closed bubble can now invert on hover. */
-      document.documentElement.style.setProperty('--cx-q-fg',tone===255?'#fff':'#141414');document.documentElement.classList.add('cx-logo-mask');
+      document.documentElement.style.setProperty('--cx-q-fg',tone===255?'#fff':'#141414');document.documentElement.style.setProperty('--cx-q-hover',window.CXLauncherHover(getComputedStyle(probe).backgroundColor,[brand?.theme?.accent,brand?.theme?.brand]));document.documentElement.classList.add('cx-logo-mask');
     } catch (_) { /* Preserve the real source artwork if canvas access is unavailable. */ }
   };
   image.src=original;
