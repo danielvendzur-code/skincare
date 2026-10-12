@@ -146,3 +146,8 @@ body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover .cx-mark-shape,body.cx-
 body.cx-mark-mask #cosmetics-root .cx-message--assistant .cx-message-avatar{display:grid!important;place-items:center!important;padding:7px!important;background:var(--cx-brand)!important;background-image:none!important;}
 body #cosmetics-root .cx-message--assistant .cx-message-avatar img.cx-brand-mark{width:100%!important;height:100%!important;object-fit:contain!important;}
 body #cosmetics-root .cx-widget-head .cx-logo.cx-logo-clean{max-height:44px!important;max-width:190px!important;}
+
+/* Hover goes to the brand's second colour (or a deeper shade), the mark stays white. */
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open{border:0!important;}
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible{background:var(--cx-q-hover,var(--cx-accent))!important;}
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible .cx-mark-shape{background:#fff;}
