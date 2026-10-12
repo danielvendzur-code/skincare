@@ -64,7 +64,7 @@
   const PRICE = {
     sums: [
       ['247', 'jednorazovo', 'nastavenie a naplnenie vašimi produktmi'],
-      ['10', 'mesačne', 'prevádzka, zmeny v ponuke, opravy']
+      ['10', 'mesačne', 'prevádzka']
     ],
     trial: 'Prvý mesiac zdarma',
     note: 'Bez viazanosti, vypnete kedykoľvek.',

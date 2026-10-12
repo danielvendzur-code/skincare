@@ -83,7 +83,7 @@ export default async function handler(req,res){
   while(messages[0]?.role==='assistant')messages.shift();
   while(messages.at(-1)?.role==='assistant')messages.pop();
   const latest=messages.filter(m=>m.role==='user').at(-1)?.content||'';if(!latest)return res.status(400).json({error:'Missing user message'});
-  const expandedReply=await catalogueReply(String(body.demoId||''),latest);
+  const expandedReply=await catalogueReply(String(body.demoId||''),latest,messages);
   if(expandedReply)return res.status(200).json({reply:expandedReply,fallback:true});
   const stockReply=legacyStockReply(String(body.demoId||''),latest);
   if(stockReply)return res.status(200).json({reply:stockReply,fallback:true});

@@ -13,5 +13,5 @@
     const face = catalogue.products.filter(p => p.category === 'face' && !p.isSample);
     if (face.length) brand.products = face;
   }
-  window.CX_CATALOGUE_REPLY = (slug,text) => globalThis.CXCatalogueReplyCore?.(catalogues,slug,text) || '';
+  window.CX_CATALOGUE_REPLY = (slug,text,history=[])=> globalThis.CXCatalogueReplyCore?.(catalogues,slug,text,history) || '';
 })();

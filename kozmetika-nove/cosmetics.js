@@ -78,7 +78,7 @@
   const PRICE = {
     sums: [
       ['247', 'jednorazovo', 'nastavenie a naplnenie vašimi produktmi'],
-      ['10', 'mesačne', 'prevádzka, zmeny v ponuke, opravy']
+      ['10', 'mesačne', 'prevádzka']
     ],
     trial: 'Prvý mesiac zdarma',
     note: 'Bez viazanosti, vypnete kedykoľvek.',
@@ -110,7 +110,15 @@
     ['História konverzácií', 'vidíte, na čo sa zákazníci pýtajú']
   ];
 
-  const CHIPS = hasCatalogue ? ['Mám suchú pleť', ...(brand.catalogue.some(p=>p.category==='hair')?['Produkty na vlasy']:[]), ...(brand.catalogue.some(p=>p.category==='body')?['Starostlivosť o telo']:[]), ...(brand.catalogue.some(p=>p.category==='sets')?['Darčekové sady']:[])].slice(0,4) : ['Mám suchú pleť', 'Pleť sa mi mastí', 'Niečo na citlivú pleť', 'Chcem jednoduchú rutinu'];
+  const catalogue=hasCatalogue?brand.catalogue:brand.products||[];
+  const chipChoices=[
+    ['face','Mám suchú pleť'],['hair','Produkty na vlasy'],['body','Starostlivosť o telo'],['sets','Darčekové sady'],
+    ['eyes','Starostlivosť o okolie očí'],['lips','Starostlivosť o pery'],['makeup','Produkty na líčenie'],
+    ['wellness','Doplnky výživy'],['home','Vône do domácnosti'],['baby','Starostlivosť pre deti']
+  ];
+  const CHIPS=chipChoices.filter(([category])=>catalogue.some(p=>p.category===category&&p.available!==false)).map(([,title])=>title);
+  for(const title of ['Pomôžte mi vybrať','Aké produkty máte?','Ako používať vaše produkty?','Chcem jednoduchú rutinu'])if(CHIPS.length<4&&!CHIPS.includes(title))CHIPS.push(title);
+  CHIPS.splice(4);
 
   const ownerFigures = '';
 
@@ -247,6 +255,7 @@
     return html+esc(text.slice(cursor));
   }
 
+  function messageText(message){const text=esc(message.text).replace(/\n/g,'<br>');if(message.role!=='assistant')return text;const urls=new Set((brand.catalogue||brand.products||[]).map(p=>esc(p.url)));for(const url of [brand.website,brand.url])if(url)urls.add(esc(url));return text.replace(/https?:\/\/[^\s<>]+/g,value=>{let url=value;if(!urls.has(url))url=url.replace(/[.,;]+$/,'');return urls.has(url)?'<a href="'+url+'" target="_blank" rel="noopener noreferrer">Pozrieť v e-shope ↗</a>'+value.slice(url.length):value;});}
   function messageMarkup(message) {
     const avatar = message.role === 'assistant' ? `<span class="cx-message-avatar${avatarUsesRawImageLogo ? ' is-image-logo' : ''}">${avatarMarkup}</span>` : '';
     return `<div class="cx-message cx-message--${message.role}">${avatar}<div class="cx-bubble">${messageBody(message.text)}</div></div>`;
@@ -271,7 +280,7 @@
   }
 
   function localReply(text) {
-    const catalogueReply=window.CX_CATALOGUE_REPLY?.(slug,text);
+    const catalogueReply=window.CX_CATALOGUE_REPLY?.(slug,text,state.messages.map(m=>({role:m.role,content:m.text})));
     if(catalogueReply)return catalogueReply;
     const q = String(text||'').toLocaleLowerCase('sk');
     if (/such|pnut|dehyd/.test(q)) return `Pri suchej alebo napnutej pleti by som začal produktom ${brand.products.find(p=>p.tags.includes('dry'))?.name || brand.products[0].name}. Cez Výber starostlivosti ešte zohľadníme, či chcete krém, sérum alebo olej.`;

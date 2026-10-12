@@ -62,7 +62,7 @@ body #cosmetics-root#cosmetics-root .cx-message--assistant .cx-message-avatar{pa
 .cx-quality-body.is-question .cx-quality-intro{margin-bottom:10px;}
 body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-options{flex:1 1 0!important;min-height:0!important;height:auto!important;display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;grid-auto-rows:minmax(0,1fr)!important;gap:10px!important;margin:0!important;overflow:hidden!important;}
 body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-options[data-count="1"]{grid-template-columns:minmax(0,1fr)!important;}
-body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-options[data-count="3"]>:last-child{grid-column:1 / -1;}
+
 body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-quality-option:not(.cx-quality-row){min-height:0!important;height:auto!important;grid-template-rows:minmax(0,1fr) auto!important;}
 body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-option.cx-quality-option .cx-quality-photo{aspect-ratio:auto!important;min-height:0!important;height:100%!important;}
 body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-quality-copy{padding:8px 11px 10px!important;}
@@ -90,3 +90,40 @@ body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-mode button:focus,b
 .cx-quality-body.is-question .cx-quality-copy small{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
 body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-option.cx-quality-option .cx-quality-photo{padding:10px!important;box-sizing:border-box!important;}
 body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-option.cx-quality-option .cx-quality-photo.is-art{padding:0!important;}
+
+/* A true two-colour swap: background and mark both change. */
+html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo{background:var(--cx-q-rest)!important;background-color:var(--cx-q-rest)!important;}
+html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open .cx-company-message-logo{background:var(--cx-q-fg)!important;}
+html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:hover,html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:focus-visible{background:var(--cx-q-hover)!important;background-color:var(--cx-q-hover)!important;}
+html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:hover .cx-company-message-logo,html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:focus-visible .cx-company-message-logo{background:var(--cx-q-hover-fg)!important;}
+
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-option.cx-quality-option .cx-quality-photo.is-scene{padding:0!important;}body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-photo.is-scene img{object-fit:cover!important;transform:none!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-catalogue-option.cx-quality-option .cx-quality-photo.is-scene img{object-fit:cover!important;transform:none!important;width:100%!important;height:100%!important;}
+
+/* Four choices always share the same two-column geometry. */
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-options{grid-auto-rows:minmax(0,1fr)!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-quality-option.is-text-answer{grid-template-rows:1fr!important;align-items:center!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-chips{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-chip{width:100%!important;min-width:0!important;min-height:40px!important;box-sizing:border-box!important;}
+
+/* Give the primary result a full photo pane. Keep the original image proportions. */
+.cx-quality-product.is-primary{grid-template-columns:1fr!important;}
+.cx-quality-product.is-primary .cx-quality-product-photo{aspect-ratio:var(--cx-photo-ratio,1)!important;min-height:0!important;max-height:none!important;width:100%!important;}
+.cx-quality-product.is-primary .cx-quality-product-photo img{width:100%!important;height:100%!important;max-height:none!important;object-fit:contain!important;}
+
+/* Mylo uses its complete name in the closed launcher, as requested. */
+body #cosmetics-root#cosmetics-root #cx-open#cx-open .cx-launcher-name{font-family:'Playfair Display',Georgia,serif!important;font-size:25px!important;font-weight:400!important;line-height:1!important;letter-spacing:-1.5px!important;display:block!important;width:auto!important;height:auto!important;background:none!important;mask:none!important;-webkit-mask:none!important;color:var(--cx-q-fg)!important;transform:none!important;}
+body #cosmetics-root#cosmetics-root #cx-open#cx-open:hover .cx-launcher-name,body #cosmetics-root#cosmetics-root #cx-open#cx-open:focus-visible .cx-launcher-name{color:var(--cx-q-hover-fg)!important;}
+
+/* Approved Dixi geometry: concise question heading and generous photo panes. */
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question>.cx-quality-intro{display:none!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question>h2{font-family:inherit!important;font-weight:650!important;font-size:21px!important;letter-spacing:-.025em!important;margin:3px 0 12px!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-quality-option{border-radius:20px!important;}
+
+/* Large readable photographs retain their proportions on short screens. */
+@media(min-width:761px){body #cosmetics-root#cosmetics-root #cx-widget#cx-widget{width:min(560px,calc(100vw - 28px))!important;height:min(760px,calc(100dvh - 28px))!important;}}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question{overflow-y:auto!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-options{flex:0 0 auto!important;grid-auto-rows:auto!important;overflow:visible!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-option.cx-quality-option .cx-quality-photo{aspect-ratio:3/2!important;height:auto!important;min-height:0!important;}
+
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-options{grid-auto-rows:1fr!important;}
