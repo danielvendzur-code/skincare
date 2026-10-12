@@ -1,4 +1,4 @@
-import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,snapshotDate} from './advisor.mjs';
+import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, complete} from './advisor.mjs';
 (() => {
   'use strict';
 
@@ -275,17 +275,16 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,s
 
   function chooseResult() { const ranked=rankProducts(brand,state.answers);state.result=ranked[0]||null;state.alternative=ranked[1]||null; }
   const coinMark='<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="23" cy="24" r="12"/><path d="M22 18v12m4-11h-6m6 5h-6m14-9a12 12 0 0 1 0 18"/></svg>';
-  const optionMarks={lowest:coinMark,middle:coinMark,premium:coinMark};
+  const optionMarks={};
 
   function renderAdvisor() {
     if (state.result) return renderResult();
     const questions=questionsFor(brand,state.answers);
     const question=questions[state.step];
-    for(const option of question.options){if(question.key==='budget')optionMarks[option.value]=coinMark;else if(option.value==='any')delete optionMarks.any;}
     const selected=state.answers[question.key];
     stage.innerHTML = `
       <section class="cx-advisor">
-        <header class="cx-progress"><button id="cx-back" type="button" ${state.step===0?'disabled':''}>${icons.back}<span>Späť</span></button><div>${questions.map((_,index)=>`<i class="${index<=state.step?'is-on':''}"></i>`).join('')}</div><b>${state.step+1}/4</b></header>
+        <header class="cx-progress"><button id="cx-back" type="button" ${state.step===0?'disabled':''}>${icons.back}<span>Späť</span></button><div>${questions.map((_,index)=>`<i class="${index<=state.step?'is-on':''}"></i>`).join('')}</div><b>${state.step+1}. krok</b></header>
         <div class="cx-advisor-body">
           <span class="cx-kicker">${esc(question.kicker)}</span><h2>${esc(question.title)}</h2>
           <div class="cx-options" data-count="${question.options.length}">${question.options.map((option,index)=>`<button style="--cx-reveal:${index*70}ms" class="cx-option ${selected===option.value?'is-selected':''}" data-value="${option.value}" type="button" aria-pressed="${selected===option.value}"><span class="cx-option-photo${optionMarks[option.value]?' cx-option-photo--mark':''}">${optionMarks[option.value] || `<img src="${option.image}" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.closest('.cx-option-photo')?.setAttribute('data-image-failed','true')">`}</span><span class="cx-option-copy"><b>${esc(option.title)}</b><small>${esc(option.text)}</small></span><i>${icons.check}</i></button>`).join('')}</div>
@@ -301,7 +300,8 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,s
       if(state.transitioning) return;
       state.transitioning=true;
       if(question.key==='kind' && state.answers.kind!==button.dataset.value)state.answers={};
-      for(const q of questions.slice(state.step+1))delete state.answers[q.key];
+      const keep=new Set(questions.slice(0,state.step).map(q=>q.key));
+      for(const key of Object.keys(state.answers))if(!keep.has(key))delete state.answers[key];
       state.answers[question.key]=button.dataset.value;
       stage.querySelectorAll('.cx-option').forEach((item)=>{const on=item===button;item.classList.toggle('is-selected',on);item.setAttribute('aria-pressed',String(on));item.disabled=true;});
       // Hold on the confirmed answer, then leave and enter. Replacing the
@@ -309,7 +309,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,s
       setTimeout(()=>{
         stage.querySelector('.cx-advisor-body')?.classList.add('is-leaving');
         setTimeout(()=>{
-          if(state.step<questions.length-1){state.step+=1;state.transitioning=false;renderAdvisor();}
+          if(!complete(brand,state.answers)){state.step+=1;state.transitioning=false;renderAdvisor();}
           else {chooseResult();state.transitioning=false;renderResult();}
         },190);
       },340);
@@ -341,7 +341,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply,s
           <button class="cx-restart" id="cx-restart" type="button">Vybrať znova</button>
         </div>
       </section>`;
-    stage.querySelector('#cx-result-back').addEventListener('click',()=>{state.result=null;state.alternative=null;state.step=3;renderAdvisor();});
+    stage.querySelector('#cx-result-back').addEventListener('click',()=>{state.result=null;state.alternative=null;state.step=questionsFor(brand,state.answers).length-1;renderAdvisor();});
     stage.querySelector('#cx-restart').addEventListener('click',resetAdvisor);
   }
 

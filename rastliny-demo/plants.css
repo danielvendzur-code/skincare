@@ -135,3 +135,14 @@ body #cosmetics-root#cosmetics-root #cx-widget .cx-product-photo{width:100%!impo
 body #cosmetics-root#cosmetics-root #cx-widget .cx-product-photo img{display:block!important;width:100%!important;height:100%!important;object-fit:cover!important;border-radius:0!important;}
 body #cosmetics-root#cosmetics-root #cx-widget .cx-product-copy{padding:12px 12px 12px 13px!important;}
 body #cosmetics-root .cx-widget-head .cx-logo.cx-logo-clean{max-height:40px!important;}
+
+/* Review 2026-10-12 */
+body #cosmetics-root .cx-owner-offer{background:transparent!important;box-shadow:none!important;padding-bottom:0!important;}
+body #cosmetics-root .cx-owner-offer .cx-price{box-shadow:none!important;}
+.cx-mark-shape{display:block;width:100%;height:100%;background:#fff;-webkit-mask:var(--cx-mark-art) center / contain no-repeat;mask:var(--cx-mark-art) center / contain no-repeat;transition:background-color .16s;}
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open{display:grid!important;place-items:center!important;padding:13px!important;border:1px solid var(--cx-brand)!important;background:var(--cx-brand)!important;background-image:none!important;transition:background-color .16s!important;box-sizing:border-box!important;}
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible{background:#fff!important;}
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible .cx-mark-shape{background:var(--cx-brand);}
+body.cx-mark-mask #cosmetics-root .cx-message--assistant .cx-message-avatar{display:grid!important;place-items:center!important;padding:7px!important;background:var(--cx-brand)!important;background-image:none!important;}
+body #cosmetics-root .cx-message--assistant .cx-message-avatar img.cx-brand-mark{width:100%!important;height:100%!important;object-fit:contain!important;}
+body #cosmetics-root .cx-widget-head .cx-logo.cx-logo-clean{max-height:44px!important;max-width:190px!important;}

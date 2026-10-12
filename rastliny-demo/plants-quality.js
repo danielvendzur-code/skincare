@@ -5,6 +5,10 @@
   const head = document.querySelector('#cosmetics-root .cx-widget-head');
   const logo = head?.querySelector('.cx-widget-brand img.cx-logo');
   if (!logo) return;
+  /* Logos whose emblem is a filled disc have a hand-checked light version. */
+  const LIGHT = {rastlinkovo:'/assets/plants/rastlinkovo-logo-light.png'};
+  const ready = LIGHT[document.body.dataset.cosmeticsDemo];
+  if (ready) { logo.src = ready; logo.classList.add('cx-logo-clean'); return; }
   const rgb = (getComputedStyle(head).backgroundColor.match(/[\d.]+/g) || []).slice(0, 3).map(Number);
   if (rgb.length < 3 || (rgb[0] * .2126 + rgb[1] * .7152 + rgb[2] * .0722) > 140) return;
   const distance = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
@@ -44,4 +48,42 @@
     logo.classList.remove('cx-logo-pending');
   };
   image.src = logo.currentSrc || logo.getAttribute('src');
+})();
+
+/* Launcher and message avatars: a one-colour brand mark is drawn as a mask, so the closed bubble can
+   invert on hover (brand circle with a white mark, white circle with a brand mark) and the whole mark
+   always fits inside the avatar circle. Multi-colour marks keep their own artwork. */
+(() => {
+  'use strict';
+  const root = document.querySelector('#cosmetics-root');
+  const launcher = document.querySelector('#cx-open');
+  const source = launcher?.querySelector('img.cx-brand-mark')?.getAttribute('src');
+  if (!root || !source) return;
+  const image = new Image();
+  image.onload = () => {
+    let flat = false;
+    try {
+      const canvas = document.createElement('canvas'), size = 64;
+      canvas.width = canvas.height = size;
+      const ctx = canvas.getContext('2d', {willReadFrequently:true});
+      ctx.drawImage(image, 0, 0, size, size);
+      const px = ctx.getImageData(0, 0, size, size).data;
+      let n = 0, opaque = 0, min = 255, max = 0;
+      for (let i = 0; i < px.length; i += 4) { n++; if (px[i + 3] < 128) continue; opaque++; const lum = px[i] * .2126 + px[i + 1] * .7152 + px[i + 2] * .0722; min = Math.min(min, lum); max = Math.max(max, lum); }
+      flat = opaque > 0 && opaque / n < .8 && max - min < 60;
+    } catch (_) { flat = false; }
+    if (!flat) return;
+    document.body.classList.add('cx-mark-mask');
+    const paint = (host) => {
+      if (host.querySelector('.cx-mark-shape')) return;
+      const shape = document.createElement('span');
+      shape.className = 'cx-mark-shape';
+      shape.style.setProperty('--cx-mark-art', 'url(' + JSON.stringify(source) + ')');
+      host.replaceChildren(shape);
+    };
+    const sync = () => { paint(launcher); root.querySelectorAll('.cx-message--assistant .cx-message-avatar').forEach(paint); };
+    sync();
+    new MutationObserver(sync).observe(root, {childList:true, subtree:true});
+  };
+  image.src = source;
 })();
