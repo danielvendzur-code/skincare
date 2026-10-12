@@ -17,6 +17,8 @@
       if (/mastn|mastici|sebum|nedokonal|akne/.test(text)) signals.add('balance');
       if (/vrask|aging|lifting|zrel|spevn/.test(text)) signals.add('mature');
       if (['face','body','hair'].includes(category) && kind!=='Doplnky' && /cist|odlic|mydl|myci|umyv|sprch|sampon|sampuk|cleanser|cleansing|shampoo|soap|wash/.test(text)) signals.add('clean');
+      /* Anti-wrinkle care is a face matter; a shower cream is not "for mature skin". */
+      if (!['face', 'eyes'].includes(category)) signals.delete('mature');
       if (!signals.has('mature') && !signals.has('clean')) signals.add('daily');
       const amount = Number.isFinite(p.priceAmount) ? p.priceAmount : Number(String(p.price || '').replace(/\s/g, '').replace(',', '.').match(/\d+(?:\.\d+)?/)?.[0]);
       return {...p, id:String(p.id ?? index), category, kind, tags, signals:[...signals], priceAmount:Number.isFinite(amount)?amount:null, currency:p.currency || (/Kč|CZK/.test(p.price || '') ? 'CZK' : 'EUR'), photo:p.photo || p.image};

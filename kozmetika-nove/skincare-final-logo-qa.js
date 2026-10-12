@@ -313,6 +313,8 @@
       out.width=x1-x0+5;out.height=y1-y0+5;
       out.getContext('2d').drawImage(canvas,x0,y0,x1-x0+1,y1-y0+1,2,2,x1-x0+1,y1-y0+1);
       artwork=out.toDataURL('image/png');revision++;sync();syncLauncher();
+      /* One-colour mark: the closed bubble can now invert on hover. */
+      document.documentElement.style.setProperty('--cx-q-fg',tone===255?'#fff':'#141414');document.documentElement.classList.add('cx-logo-mask');
     } catch (_) { /* Preserve the real source artwork if canvas access is unavailable. */ }
   };
   image.src=original;

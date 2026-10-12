@@ -55,3 +55,21 @@ body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-catalogue-option.cx
 html.cx-logo-plain body #cosmetics-root#cosmetics-root .cx-message--assistant .cx-message-avatar,html.cx-logo-plain body #cosmetics-root#cosmetics-root #cx-open.cx-quality-logo{background:white!important;border:1px solid #d5d7d9!important;padding:3px!important;}
 body #cosmetics-root#cosmetics-root .cx-widget-brand img.cx-logo.cx-logo-clean{background:transparent!important;padding:0!important;border-radius:0!important;box-shadow:none!important;max-height:34px!important;}body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-catalogue-option.cx-quality-option .cx-quality-photo{aspect-ratio:5/4;}
 body #cosmetics-root#cosmetics-root .cx-message--assistant .cx-message-avatar{padding:3px!important;}
+
+/* Question screens never scroll: up to four cards share the available height. */
+.cx-quality-body.is-question{display:flex;flex-direction:column;overflow:hidden;}
+.cx-quality-body.is-question>small,.cx-quality-body.is-question>h2,.cx-quality-body.is-question>p{flex:none;}
+.cx-quality-body.is-question .cx-quality-intro{margin-bottom:10px;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-options{flex:1 1 0!important;min-height:0!important;height:auto!important;display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;grid-auto-rows:minmax(0,1fr)!important;gap:10px!important;margin:0!important;overflow:hidden!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-options[data-count="1"]{grid-template-columns:minmax(0,1fr)!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-options[data-count="3"]>:last-child{grid-column:1 / -1;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-quality-option:not(.cx-quality-row){min-height:0!important;height:auto!important;grid-template-rows:minmax(0,1fr) auto!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-option.cx-quality-option .cx-quality-photo{aspect-ratio:auto!important;min-height:0!important;height:100%!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-quality-copy{padding:8px 11px 10px!important;}
+.cx-quality-body.is-question .cx-quality-rows{flex:none;margin:0;}
+
+/* Closed bubble inverts on hover: brand circle with a light mark becomes a light circle with a brand mark. */
+html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open .cx-company-message-logo{background:var(--cx-q-fg,#fff)!important;-webkit-mask:var(--cx-company-message-art) center / contain no-repeat!important;mask:var(--cx-company-message-art) center / contain no-repeat!important;transition:background-color .16s!important;}
+html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo{border:1px solid var(--cx-brand)!important;box-sizing:border-box!important;transition:background-color .16s!important;transform:none!important;}
+html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:hover,html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:focus-visible{background:var(--cx-q-fg,#fff)!important;background-color:var(--cx-q-fg,#fff)!important;}
+html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:hover .cx-company-message-logo,html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:focus-visible .cx-company-message-logo{background:var(--cx-brand)!important;}.cx-quality-body.is-question .cx-catalogue-options+.cx-quality-rows{margin-top:10px;}
