@@ -80,3 +80,4 @@ html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-qualit
 html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:hover .cx-company-message-logo,html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:focus-visible .cx-company-message-logo{background:var(--cx-q-fg,#fff)!important;}
 .cx-quality-section{margin:16px 3px 8px;font-size:12px;}
 .cx-quality-product.is-primary{grid-template-columns:minmax(150px,36%) minmax(0,1fr);}.cx-quality-product.is-primary .cx-quality-product-photo{min-height:220px;}.cx-quality-product.is-primary .cx-quality-product-photo img{max-height:280px;}
+html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:hover .cx-company-message-logo,html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:focus-visible .cx-company-message-logo{background:var(--cx-q-hover-fg,#fff)!important;}

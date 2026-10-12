@@ -40,6 +40,8 @@
       const rank = p => (p.signals.includes(answers.profile) ? 8 : 0) + (p.signals.includes(answers.goal) ? 12 : 0);
       const cost=p=>Number.isFinite(p.priceAmount)?p.priceAmount:Infinity;
       list.sort((a, b) => rank(b) - rank(a) || cost(a) - cost(b) || a.name.localeCompare(b.name, 'sk') || a.id.localeCompare(b.id));
+      /* A product the customer picked from the final shortlist leads the result. */
+      if (answers.product) { const at = list.findIndex(p => p.id === answers.product); if (at > 0) list.unshift(...list.splice(at, 1)); }
       const winner = list[0] || null;
       // An alternative must be a different real product, not a size variant of the winner.
       const alternative = winner ? list.find(p => p.url !== winner.url && norm(p.name) !== norm(winner.name)) || null : null;
@@ -58,8 +60,11 @@
       const formPool = pool.filter(p => (!answers.goal || answers.goal === 'any' || p.signals.includes(answers.goal)) && (!answers.profile || answers.profile === 'any' || p.signals.includes(answers.profile)));
       const forms = [...new Set(formPool.map(p => p.kind))];
       if (forms.length > 1) result.push({key:'kind', options:[...forms, 'any']});
-      const priced = recommend({...answers, category, budget:''}).matches, limits = (priced[0]?.currency === 'CZK' ? [300, 600, 1000] : [10, 25, 50]).filter(n => { const c = priced.filter(p => Number.isFinite(p.priceAmount) && p.priceAmount <= n).length; return c && c < priced.length; });
-      if (limits.length) result.push({key:'budget', options:limits});
+      const priced = recommend({...answers, category, budget:'', product:''}).matches, limits = (priced[0]?.currency === 'CZK' ? [300, 600, 1000] : [10, 25, 50]).filter(n => { const c = priced.filter(p => Number.isFinite(p.priceAmount) && p.priceAmount <= n).length; return c && c < priced.length; });
+      const answered = result.every(s => answers[s.key] !== undefined);
+      /* A handful left: show them and let the customer choose, rather than asking for a price. */
+      if (answered && priced.length > 1 && priced.length <= 4) result.push({key:'product', options:priced.map(p => p.id)});
+      else if (limits.length) result.push({key:'budget', options:limits});
       return result;
     }
     return {products, categoryPool, recommend, steps};
