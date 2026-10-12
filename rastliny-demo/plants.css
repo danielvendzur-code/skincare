@@ -156,3 +156,7 @@ body #cosmetics-root #cx-widget .cx-mode button:focus,body #cosmetics-root #cx-w
 /* One layer only under the price card. */
 html body #cosmetics-root#cosmetics-root .cx-owner-offer.cx-owner-offer{background:transparent!important;background-color:transparent!important;box-shadow:none!important;padding:0!important;border:0!important;}
 html body #cosmetics-root#cosmetics-root .cx-owner-offer.cx-owner-offer>.cx-price{height:100%!important;box-sizing:border-box!important;margin:0!important;box-shadow:none!important;}
+
+body.cx-mark-mask #cx-open#cx-open{background:var(--cx-q-rest)!important;}body.cx-mark-mask #cx-open#cx-open .cx-mark-shape{background:var(--cx-q-fg)!important;}body.cx-mark-mask #cx-open#cx-open:hover,body.cx-mark-mask #cx-open#cx-open:focus-visible{background:var(--cx-q-hover)!important;}body.cx-mark-mask #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cx-open#cx-open:focus-visible .cx-mark-shape{background:var(--cx-q-hover-fg)!important;}
+
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open{background:var(--cx-q-rest)!important;}body.cx-mark-mask #cosmetics-root #cx-open#cx-open .cx-mark-shape{background:var(--cx-q-fg)!important;}body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible{background:var(--cx-q-hover)!important;}body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible .cx-mark-shape{background:var(--cx-q-hover-fg)!important;}

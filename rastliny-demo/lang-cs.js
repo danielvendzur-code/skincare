@@ -20,7 +20,7 @@
     'História konverzácií, aj otázky, na ktoré ponuka neodpovedá.': 'Historie konverzací i otázky, na které nabídka neodpovídá.',
     'Prvý mesiac zdarma': 'První měsíc zdarma', 'jednorazovo': 'jednorázově', 'mesačne': 'měsíčně', 'Bez viazanosti, vypnete kedykoľvek.': 'Bez závazků, vypnete kdykoli.',
     'Bez viazanosti, vypnete kedykoľvek. Preklik na produkt alebo napojenie na košík za príplatok.': 'Bez závazků, vypnete kdykoli. Proklik na produkt nebo napojení na košík za příplatek.',
-    'prevádzka, zmeny v ponuke, opravy': 'provoz, změny v nabídce, opravy', 'Ozvite sa mi': 'Ozvěte se mi', 'Otvoriť poradcu': 'Otevřít poradce', 'Skúsiť chat': 'Zkusit chat', 'Vyskúšať výber': 'Vyzkoušet výběr', 'Viac info': 'Více info',
+    'prevádzka': 'provoz', 'Ozvite sa mi': 'Ozvěte se mi', 'Otvoriť poradcu': 'Otevřít poradce', 'Skúsiť chat': 'Zkusit chat', 'Vyskúšať výber': 'Vyzkoušet výběr', 'Viac info': 'Více info',
     'online poradca': 'online poradce', 'Späť': 'Zpět', '‹ Späť': '‹ Zpět', 'Výsledok': 'Výsledek', 'Zmeniť odpovede': 'Změnit odpovědi', 'Vybrať znova': 'Vybrat znovu',
     'Odporúčam vám': 'Doporučuji vám', 'Otvoriť v e-shope': 'Otevřít v e-shopu', 'Pozrieť v e-shope ↗': 'Zobrazit v e-shopu ↗', 'Pozrieť produkt ↗': 'Zobrazit produkt ↗', 'Pozrieť produkt v e-shope ↗': 'Zobrazit produkt v e-shopu ↗',
     'Zavrieť': 'Zavřít', 'Cena': 'Cena', 'Skryť pozvánku': 'Skrýt pozvánku', 'Začať odznova': 'Začít znovu', 'Zavrieť poradcu': 'Zavřít poradce', 'Režim poradcu': 'Režim poradce', 'Odoslať správu': 'Odeslat zprávu',
