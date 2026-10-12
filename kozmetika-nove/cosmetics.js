@@ -90,14 +90,14 @@
   const INCLUDED = [
     ['Chatbot s vaším katalógom', 'Vaše produkty a ceny, nie všeobecné odpovede.'],
     ['Odpovedá aj o polnoci', 'Zloženie, typ pleti, rutina aj porovnanie dvoch produktov.'],
-    ['Výber cez štyri otázky', hasCatalogue?'Kategória, druh produktu, rozpočet a zoradenie — konkrétne produkty z vašej ponuky.':'Pleť, priorita, rutina a textúra — na konci jeden konkrétny produkt.'],
+    ['Výber podľa potrieb', 'Typ pleti, priorita, typ produktu a rozpočet — na konci konkrétny produkt.'],
     ['Vidíte, na čo sa pýtajú', 'História konverzácií, aj otázky, na ktoré ponuka neodpovedá.']
   ];
 
   /* Headline and lead are the same on every page; the coffee pages read the
      same words. */
   const HEADING = 'Poradí zákazníkovi starostlivosť a odpovie mu na otázky.';
-  const LEAD = 'Chatbot odpovie zákazníkovi na otázky o vašich produktoch. Cez štyri otázky ' +
+  const LEAD = 'Chatbot odpovie zákazníkovi na otázky o vašich produktoch. Cez pár otázok ' +
     'mu vyberie ten, ktorý sadne jeho pleti. Predáte aj vtedy, keď pri tom nie ste.';
 
   /* The sheet behind "Chcem to na svoj web" listed what the owner gets, but the
@@ -171,7 +171,7 @@
           </div>
         </article>
       </section>
-      <footer class="cx-owner-foot"><a href="https://mojchatbot.sk" target="_blank" rel="noreferrer">mojchatbot.sk</a><span>Ukážka riešenia pre ${esc(brand.name)}</span></footer>
+      <footer class="cx-owner-foot"><a href="https://mojchatbot.sk" target="_blank" rel="noreferrer">mojchatbot.sk</a></footer>
     </main>
 
     <div class="cx-launcher" id="cx-launcher">

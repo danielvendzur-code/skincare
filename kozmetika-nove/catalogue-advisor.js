@@ -27,7 +27,7 @@
   function facts(p,r){const result=[readable(state.answers.category)];if(state.answers.kind&&state.answers.kind!=='any')result.push(state.answers.kind);if(r.goalVerified&&state.answers.goal&&state.answers.goal!=='any')result.push(readable(state.answers.goal));if(r.profileVerified&&state.answers.profile&&state.answers.profile!=='any')result.push(profileTitle(state.answers.profile)[0]);if(state.answers.budget)result.push(`do ${state.answers.budget} ${p.currency==='CZK'?'Kč':'€'}`);return result.filter(Boolean);}
   /* The explanation only repeats conditions the product verifiably meets. */
   function why(p,r){const a=state.answers,hair=a.category==='hair',s=[];
-    const target={dry:hair?'suché vlasy':'suchú pokožku',oily:hair?'rýchlo sa mastiace vlasy':'mastnú alebo zmiešanú pleť',sensitive:hair?'citlivú pokožku hlavy':'citlivú pokožku',balanced:hair?'bežné vlasy bez výrazného problému':'pokožku bez výrazného problému'};
+    const target={dry:hair?'suché vlasy':'suchú pokožku',oily:hair?'rýchlo sa mastiace vlasy':a.category==='body'?'mastnú pokožku':'mastnú alebo zmiešanú pleť',sensitive:hair?'citlivú pokožku hlavy':'citlivú pokožku',balanced:hair?'bežné vlasy bez výrazného problému':'pokožku bez výrazného problému'};
     if(a.profile&&a.profile!=='any'&&r.profileVerified)s.push(`Je určený pre ${target[a.profile]}.`);
     if(a.goal&&a.goal!=='any'&&r.goalVerified)s.push(`Zodpovedá vašej priorite: ${titles[a.goal][0].toLowerCase()}.`);
     if(a.budget)s.push(`Zmestí sa do rozpočtu ${a.budget} ${p.currency==='CZK'?'Kč':'€'}.`);

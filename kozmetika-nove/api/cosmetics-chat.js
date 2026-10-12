@@ -100,7 +100,7 @@ export default async function handler(req,res){
   }
   const system=[
     `Ste stručný produktový poradca pre kozmetický e-shop ${demo.brand}.`,
-    'Odpovedajte jednoduchou slovenčinou, maximálne dvoma krátkymi vetami.',
+    /\.cz(\/|$)|\/cs\//.test(String(demo.web||''))?'Odpovídejte jednoduchou češtinou, i když jsou podklady níže slovensky, maximálně dvěma krátkými větami.':'Odpovedajte jednoduchou slovenčinou, maximálne dvoma krátkymi vetami.',
     'Pomáhate s orientačným kozmetickým výberom podľa preferencií. Nerobte zdravotnú diagnózu, nesľubujte liečbu a nevymýšľajte medicínske tvrdenia.',
     'Odporučiť môžete iba presný názov produktu zo zoznamu Overené produkty. Nevymýšľajte ceny, zloženie ani účinky, ktoré nie sú uvedené.',
     'Pri výraznom, bolestivom alebo dlhodobom kožnom probléme odporučte konzultáciu s dermatológom alebo iným odborníkom.',
