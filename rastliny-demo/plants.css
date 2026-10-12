@@ -151,3 +151,4 @@ body #cosmetics-root .cx-widget-head .cx-logo.cx-logo-clean{max-height:44px!impo
 body.cx-mark-mask #cosmetics-root #cx-open#cx-open{border:0!important;}
 body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible{background:var(--cx-q-hover,var(--cx-accent))!important;}
 body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible .cx-mark-shape{background:#fff;}
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible .cx-mark-shape{background:var(--cx-q-hover-fg,#fff);}
