@@ -81,3 +81,12 @@ html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-qualit
 .cx-quality-section{margin:16px 3px 8px;font-size:12px;}
 .cx-quality-product.is-primary{grid-template-columns:minmax(150px,36%) minmax(0,1fr);}.cx-quality-product.is-primary .cx-quality-product-photo{min-height:220px;}.cx-quality-product.is-primary .cx-quality-product-photo img{max-height:280px;}
 html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:hover .cx-company-message-logo,html.cx-logo-mask body #cosmetics-root#cosmetics-root #cx-open#cx-open.cx-quality-logo:focus-visible .cx-company-message-logo{background:var(--cx-q-hover-fg,#fff)!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-mode button:focus,body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-mode button:focus-visible{outline:none!important;box-shadow:none!important;}
+
+/* Card text: description, name, price – aligned across the row. */
+.cx-quality-copy em{display:block;margin-top:5px;font-style:normal;font-size:12px;font-weight:700;color:var(--cx-ink);}
+.cx-quality-body.is-question .cx-quality-copy{display:flex!important;flex-direction:column;justify-content:flex-start;}
+.cx-quality-body.is-question .cx-quality-copy b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.cx-quality-body.is-question .cx-quality-copy small{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-option.cx-quality-option .cx-quality-photo{padding:10px!important;box-sizing:border-box!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-quality-body.is-question .cx-catalogue-option.cx-quality-option .cx-quality-photo.is-art{padding:0!important;}
