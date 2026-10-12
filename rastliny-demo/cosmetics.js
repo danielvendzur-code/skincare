@@ -1,4 +1,4 @@
-import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, complete} from './advisor.mjs';
+import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, complete, tidy} from './advisor.mjs';
 (() => {
   'use strict';
 
@@ -335,7 +335,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, 
         <div class="cx-result-body">
           <span class="cx-kicker">Váš smer</span>
           <article class="cx-product"><div class="cx-product-photo"><img src="${product.photo || brand.hero}" alt="${esc(product.name)}" referrerpolicy="no-referrer" onerror="this.closest('.cx-product-photo')?.setAttribute('data-image-failed','true')"></div><div class="cx-product-copy"><small>${esc(brand.name)}</small><h2>${esc(product.name)}</h2>${matchedLabels(product).length?`<div class="cx-product-tags">${matchedLabels(product).map((label)=>`<span>${esc(label)}</span>`).join('')}</div>`:''}<div class="cx-product-price"><strong>${esc(product.price)}</strong><a href="${product.url}" target="_blank" rel="noreferrer">Pozrieť produkt ${icons.arrow}</a></div></div></article>
-          <section class="cx-why"><small>Prečo práve toto</small><p>${esc(product.reason)}</p></section>
+          <section class="cx-why"><small>Prečo práve toto</small><p>${esc(tidy(product.reason))}</p></section>
           ${alt && alt.id!==product.id ? `<article class="cx-alt"><span>${icons.leaf}</span><div><small>Alternatíva</small><b>${esc(alt.name)}</b></div><a href="${alt.url}" target="_blank" rel="noreferrer" aria-label="Pozrieť alternatívu">${icons.arrow}</a></article>`:''}
           
           <button class="cx-restart" id="cx-restart" type="button">Vybrať znova</button>

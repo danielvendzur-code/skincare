@@ -2,7 +2,14 @@ export const snapshotDate=brand=>(brand.checked||brand.products[0]?.checked||'20
 // One catalogue matcher for the browser, API and exhaustive QA. Only facts
 // explicitly supplied by the seller become hard constraints.
 export const LABELS={plants:'Izbové rastliny',rareplants:'Raritné rastliny',accessories:'Pestovateľské pomôcky',support:'Opora pre rastlinu',fixing:'Držiak alebo diel opory',watering:'Kvapkanie k opore',hanging:'Záves na rastlinu',shrubs:'Okrasné kry',fruits:'Ovocné stromy',outdoor:'Do záhrady',pots:'Črepníky',substrates:'Substráty',terrariums:'Rastlinné teráriá',orchids:'Orchidey',airplants:'Tillandsie',succulents:'Sukulenty a kaktusy',cacti:'Kaktusy',low:'Polotieň',bright:'Rozptýlené svetlo',sun:'Slnečné miesto',easy:'Nenáročná starostlivosť','pet-safe':'Domácnosť so zvieratami',trailing:'Previsnutý rast','small-pot':'Do 11 cm','medium-pot':'12–16 cm','large-pot':'Nad 16 cm',terracotta:'Terakota',concrete:'Betón',ceramic:'Keramika',plastic:'Plast',saucer:'Podmiska','indoor-mix':'Izbové rastliny','cactus-mix':'Kaktusy a sukulenty','orchid-mix':'Orchidey','hydro-mix':'Hydropónia','universal-mix':'Univerzálne','bonsai-mix':'Hotová bonsajová zmes','deciduous-mix':'Listnaté bonsaje','conifer-mix':'Ihličnaté bonsaje','mineral-component':'Zložka vlastnej zmesi','acid-mix':'Kyslomilné rastliny',closed:'Uzavreté',open:'Otvorené',bonsai:'S bonsajom',airplants:'S tillandsiou',perennial:'Trvalky',shrub:'Listnaté kry',conifer:'Ihličnany',grass:'Okrasné trávy','volume-small':'Do 3 litrov','volume-medium':'4–10 litrov','volume-large':'Nad 10 litrov',any:'Nechám si poradiť',lowest:'Nižšia cena',middle:'Stred ponuky',premium:'Vyššia cena'};
-/* Colour of a pot or accessory is read from the product name the seller gave it. */
+/* Product facts are shown as facts: the catalogue notes say "podľa predajcu / e-shopu" in every
+   sentence, which reads as a disclaimer. The wording is tidied where it is displayed. */
+const DROP=/^(Cena a fotografia patria|Určenie z názvu a popisu|Odrodový záber|Odrodová fotografia|Samostatný črepník; vhodnosť)/;
+const REWRITE=[[/^Predajca uvádza nenáročnú starostlivosť\.$/,'Nenáročná starostlivosť.'],[/^Predajca ju zaraďuje medzi rastliny pre začiatočníkov\.$/,'Vhodná pre začiatočníkov.'],[/^Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami\.$/,'Vhodná do domácnosti so zvieratami.'],[/^Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete\.$/,'Na fotografii je konkrétny strom, ktorý dostanete.'],[/^Predajca uvádza:\s*/,''],[/^Predajca (výslovne )?uvádza vhodnosť do polotieňa\.$/,'Znesie polotieň.'],[/^Predajca (výslovne )?uvádza toleranciu priameho slnka alebo slunného miesta\.$/,'Znesie priame slnko.'],[/^Predajca (výslovne )?uvádza toleranciu svetla od slunného miesta po polotieň\.$/,'Znesie slnko aj polotieň.'],[/^Predajca opisuje druh ako sukulentnú rastlinu\.$/,'Sukulentná rastlina.'],[/^Predajca (výslovne )?(uvádza|opisuje|odporúča)\s+/,''],[/\s+podľa (názvu |popisu |kategórie |zaradenia )?(predajcu|e-shopu)/g,''],[/\s+podľa názvu(?=[:.])/g,''],[/\s+z ponuky predajcu/g,''],[/\s+predajcu(?=[:.;])/g,'']];
+export function tidy(text){
+ return String(text||'').split(/(?<=\.)\s+/).filter(s=>s&&!DROP.test(s)).map(s=>{for(const [from,to] of REWRITE)s=s.replace(from,to);s=s.trim();return s.charAt(0).toUpperCase()+s.slice(1);}).filter(Boolean).join(' ');
+}
+/* Colour of a pot or accessory is read from its product name. */
 const COLOURS=[['colour:grey',/\bsiv|grey|gray|beton|antracit|\bsed/],['colour:green',/zelen|green|oliv|pine|mint/],['colour:copper',/copper|meden|bronz|zlat|gold/],['colour:beige',/bezov|beige|krem|piesk|natur|sand/],['colour:pink',/ruzov|pink|rose/],['colour:white',/\bbiel|\bbil|white/],['colour:black',/ciern|cern|black/],['colour:brown',/hned|brown|terakot|terracot/],['colour:blue',/modr|blue|petrol|tyrkys/]];
 Object.assign(LABELS,{'colour:grey':'Sivá','colour:green':'Zelená','colour:copper':'Medená a zlatá','colour:beige':'Béžová a prírodná','colour:pink':'Ružová','colour:white':'Biela','colour:black':'Čierna','colour:brown':'Hnedá a terakota','colour:blue':'Modrá',any:'Je mi to jedno'});
 const fold=text=>String(text).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
@@ -24,7 +31,7 @@ export function matches(product,answers={}) {
   return true;
 }
 const candidates=(brand,answers)=>brand.products.filter(p=>matches(p,answers));
-const DETAIL={low:'Polotieň, nie tmavá miestnosť',bright:'Svetlé miesto bez ostrého slnka',sun:'Priame slnko podľa predajcu','small-pot':'Priemer črepníka','medium-pot':'Priemer črepníka','large-pot':'Priemer črepníka','pet-safe':'Takto ju zaraďuje predajca',easy:'Jednoduchšia starostlivosť',trailing:'Na policu alebo do závesu'};
+const DETAIL={low:'Polotieň, nie tmavá miestnosť',bright:'Svetlé miesto bez ostrého slnka',sun:'Znesie priame slnko','small-pot':'Priemer črepníka','medium-pot':'Priemer črepníka','large-pot':'Priemer črepníka','pet-safe':'Vhodná k psom a mačkám',easy:'Jednoduchšia starostlivosť',trailing:'Na policu alebo do závesu'};
 /* Question groups per category, in the order they are asked. */
 const genera=products=>{const counts=new Map();for(const p of products){const t=p.tags.find(t=>t.startsWith('genus:'));if(t)counts.set(t,(counts.get(t)||0)+1);}return [...counts].sort((x,y)=>y[1]-x[1]||x[0].localeCompare(y[0])).map(([t])=>t);};
 const GROUPS={
@@ -121,7 +128,7 @@ export function catalogueReply(brand,messages) {
   answers.kind='plants';answers.required=['pet-safe'];
   const named=exact.length?exact:genus;
   const p=(named.length?named.filter(p=>matches(p,answers)):rankProducts(brand,answers)).slice(0,2);
-  return p.length?{text:`Predajca medzi rastliny vhodné do domácnosti so zvieratami zaraďuje: ${p.map(x=>`${x.name} (${x.price})`).join('; ')}. Tieto položky spĺňajú aj uvedené svetlo a rozpočet. Rastliny nie sú určené na konzumáciu.`,products:p.map(x=>x.id)}:{text:'Pre tieto podmienky alebo pomenovaný druh nemám doložené zaradenie ako bezpečný pre zvieratá. Bez tohto podkladu ho nebudem odporúčať na tento účel.',products:[]};
+  return p.length?{text:`Do domácnosti so zvieratami sa hodia: ${p.map(x=>`${x.name} (${x.price})`).join('; ')}. Tieto položky spĺňajú aj uvedené svetlo a rozpočet. Rastliny nie sú určené na konzumáciu.`,products:p.map(x=>x.id)}:{text:'Pre tieto podmienky alebo pomenovaný druh nemám doložené zaradenie ako bezpečný pre zvieratá. Bez tohto podkladu ho nebudem odporúčať na tento účel.',products:[]};
  }
  const named=exact.length?exact:genus;
  const explicitKind=/substrat|zemin|kvetinac|crepnik|obal|terarium|opora|opory|drziak|kvapkadlo|korunka|macrame|raselinnikov.*tyc|rarit|zberatel|vzacn|ovocn|\bkaktus\w*|\bcactus\b|sukulent/.test(intentQuery);
@@ -129,5 +136,5 @@ export function catalogueReply(brand,messages) {
  if(/cena|ceny|kolko|lacne/.test(q)&&!exact.length)ranked=[...ranked].sort((a,b)=>a.priceValue-b.priceValue);
  if(!ranked.length)return {text:'V overenej ponuke nemám produkt, ktorý by spĺňal tieto podmienky. Skúste upraviť rozpočet alebo prejdite Výber rastlín a doplnkov.',products:[]};
  const selected=ranked.slice(0,/porovnaj|porovnanie|rozdiel/.test(q)?2:1);
- return {text:selected.map(p=>`${p.name} — ${p.price}. ${p.reason}`).join('\n\n'),products:selected.map(p=>p.id)};
+ return {text:selected.map(p=>`${p.name} — ${p.price}. ${tidy(p.reason)}`).join('\n\n'),products:selected.map(p=>p.id)};
 }

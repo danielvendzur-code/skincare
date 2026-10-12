@@ -9,12 +9,14 @@ window.CXLauncherHover = ((rest, candidates = []) => {
   const lum = (c) => { const [r, g, b] = rgb(c).map((x) => { x /= 255; return x <= 0.03928 ? x / 12.92 : ((x + 0.055) / 1.055) ** 2.4; }); return 0.2126 * r + 0.7152 * g + 0.0722 * b; };
   const dist = (a, b) => { const x = rgb(a), y = rgb(b); return Math.hypot(x[0] - y[0], x[1] - y[1], x[2] - y[2]); };
   const css = (c) => 'rgb(' + rgb(c).join(', ') + ')';
-  const mix = (c, target, k) => css(rgb(c).map((x, i) => Math.round(x + (target[i] - x) * k)));
-  /* Another brand colour that is clearly different and not close to white … */
-  let bg = candidates.map((c) => String(c || '').trim()).find((c) => c && lum(c) < 0.7 && dist(c, rest) > 60);
-  /* … otherwise a strong step lighter (dark brands) or darker (light brands). */
-  if (!bg) bg = lum(rest) < 0.2 ? mix(rest, [255, 255, 255], 0.38) : mix(rest, [0, 0, 0], 0.42);
-  return {bg: css(bg), fg: lum(bg) > 0.45 ? (lum(rest) < 0.2 ? css(rest) : '#141414') : '#fff'};
+  const contrast = (a, b) => { const x = lum(a), y = lum(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); };
+  /* The brand's second colour: the first theme colour that clearly differs from the rest colour and is
+     not plain white; a brand with a single colour gets its own light tint. */
+  let bg = candidates.map((c) => String(c || '').trim()).find((c) => c && dist(c, rest) > 60 && lum(c) < 0.92);
+  if (!bg) bg = css(rgb(rest).map((x) => Math.round(x + (255 - x) * (lum(rest) < 0.4 ? 0.82 : -0.6))));
+  /* The mark swaps to the brand colour whenever that reads on the new circle. */
+  const fg = contrast(rest, bg) >= 2.4 ? css(rest) : (lum(bg) > 0.45 ? '#141414' : '#fff');
+  return {bg: css(bg), fg};
 });
 /* A header logo with a flat plate must not sit as a white sticker in the coloured header:
    remove only the plate and show the real wordmark in white. Loaded after the widget. */
@@ -93,7 +95,7 @@ window.CXLauncherHover = ((rest, candidates = []) => {
     if (!flat) return;
     document.body.classList.add('cx-mark-mask');
     const theme = window.COSMETICS_DEMOS?.brands?.[document.body.dataset.cosmeticsDemo]?.theme || {};
-    const hover = window.CXLauncherHover(theme.brand || getComputedStyle(launcher).backgroundColor, [theme.accent, theme.ink]);
+    const hover = window.CXLauncherHover(theme.brand || getComputedStyle(launcher).backgroundColor, [theme.accent, theme.soft, theme.line]);
     document.body.style.setProperty('--cx-q-hover', hover.bg);
     document.body.style.setProperty('--cx-q-hover-fg', hover.fg);
     const paint = (host) => {
@@ -109,3 +111,6 @@ window.CXLauncherHover = ((rest, candidates = []) => {
   };
   image.src = source;
 })();
+
+/* The price card sits on a single layer: the dark base behind it is removed. */
+(() => { const offer = document.querySelector('#cosmetics-root .cx-owner-offer'); if (offer) { offer.style.setProperty('background', 'transparent', 'important'); offer.style.setProperty('box-shadow', 'none', 'important'); } })();

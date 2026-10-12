@@ -152,3 +152,7 @@ body.cx-mark-mask #cosmetics-root #cx-open#cx-open{border:0!important;}
 body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible{background:var(--cx-q-hover,var(--cx-accent))!important;}
 body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible .cx-mark-shape{background:#fff;}
 body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible .cx-mark-shape{background:var(--cx-q-hover-fg,#fff);}
+body #cosmetics-root #cx-widget .cx-mode button:focus,body #cosmetics-root #cx-widget .cx-mode button:focus-visible{outline:none!important;box-shadow:none!important;border:0!important;}
+/* One layer only under the price card. */
+html body #cosmetics-root#cosmetics-root .cx-owner-offer.cx-owner-offer{background:transparent!important;background-color:transparent!important;box-shadow:none!important;padding:0!important;border:0!important;}
+html body #cosmetics-root#cosmetics-root .cx-owner-offer.cx-owner-offer>.cx-price{height:100%!important;box-sizing:border-box!important;margin:0!important;box-shadow:none!important;}
