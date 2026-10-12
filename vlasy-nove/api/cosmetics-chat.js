@@ -1,3 +1,4 @@
+import {catalogueReply} from './catalogue-reply.js';
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const MODEL = process.env.CHAT_MODEL || 'claude-haiku-4-5';
 
@@ -40,6 +41,7 @@ export default async function handler(req,res){
   while(messages[0]?.role==='assistant')messages.shift();
   while(messages.at(-1)?.role==='assistant')messages.pop();
   const latest=messages.filter(m=>m.role==='user').at(-1)?.content||'';if(!latest)return res.status(400).json({error:'Missing user message'});
+  const grounded=await catalogueReply(String(body.demoId),latest,messages);if(grounded)return res.status(200).json({reply:grounded,fallback:true});
   const fallback=()=>res.status(200).json({reply:fallbackReply(demo,latest),fallback:true});
   if(!ANTHROPIC_API_KEY){
     try {

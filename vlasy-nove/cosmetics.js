@@ -69,7 +69,7 @@
   const PRICE = {
     sums: [
       ['247', 'jednorazovo', 'nastavenie a naplnenie vašimi produktmi'],
-      ['10', 'mesačne', 'prevádzka, zmeny v ponuke, opravy']
+      ['10', 'mesačne', 'prevádzka']
     ],
     trial: 'Prvý mesiac zdarma',
     note: 'Bez viazanosti, vypnete kedykoľvek.',
@@ -93,7 +93,7 @@
   const INCLUDED = [
     ['Chatbot s vaším katalógom', 'Vaše produkty a ceny, nie všeobecné odpovede.'],
     ['Odpovedá aj o polnoci', 'Zloženie, typ pleti, rutina aj porovnanie dvoch produktov.'],
-    ['Výber cez štyri otázky', 'Pleť, priorita, rutina a textúra — na konci jeden konkrétny produkt.'],
+    ['Výber podľa vašich potrieb', 'Pleť, priorita, rutina a textúra — na konci jeden konkrétny produkt.'],
     ['Vidíte, na čo sa pýtajú', 'História konverzácií, aj otázky, na ktoré ponuka neodpovedá.']
   ];
 
@@ -109,7 +109,7 @@
   const KEEPS = [
     ['Odpovedá aj o polnoci', 'aj cez víkend, bez vás'],
     ['Pozná váš katalóg', 'pracuje s vašimi produktmi a cenami'],
-    ['Výber cez štyri otázky', 'na konci jeden konkrétny produkt'],
+    ['Výber podľa vašich potrieb', 'na konci jeden konkrétny produkt'],
     ['História konverzácií', 'vidíte, na čo sa zákazníci pýtajú']
   ];
 
@@ -173,7 +173,7 @@
     </main>
 
     <div class="cx-launcher" id="cx-launcher">
-      <button class="cx-teaser" id="cx-teaser" type="button"><b>Pomôcť s výberom?</b><span>4 otázky · konkrétny produkt</span></button>
+      <button class="cx-teaser" id="cx-teaser" type="button"><b>Pomôcť s výberom?</b><span>Krátky výber · konkrétny produkt</span></button>
       <button class="cx-launcher-button${launcherUsesRawImageLogo ? ' is-image-logo' : ''}" id="cx-open" type="button" aria-label="Otvoriť poradcu" aria-expanded="false">${launcherMarkup}</button>
     </div>
     <div class="cx-backdrop" id="cx-backdrop" hidden></div>
@@ -231,9 +231,10 @@
     if (next === 'advisor') renderAdvisor(); else renderChat();
   }
 
+  function messageText(message){const text=esc(message.text).replace(/\n/g,'<br>');if(message.role!=='assistant')return text;const urls=new Set((brand.catalogue||brand.products||[]).map(p=>esc(p.url)));for(const url of [brand.website,brand.url])if(url)urls.add(esc(url));return text.replace(/https?:\/\/[^\s<>]+/g,value=>{let url=value;if(!urls.has(url))url=url.replace(/[.,;]+$/,'');return urls.has(url)?'<a href="'+url+'" target="_blank" rel="noopener noreferrer">Pozrieť v e-shope ↗</a>'+value.slice(url.length):value;});}
   function messageMarkup(message) {
     const avatar = message.role === 'assistant' ? `<span class="cx-message-avatar${avatarUsesRawImageLogo ? ' is-image-logo' : ''}">${avatarMarkup}</span>` : '';
-    return `<div class="cx-message cx-message--${message.role}">${avatar}<div class="cx-bubble">${esc(message.text)}</div></div>`;
+    return `<div class="cx-message cx-message--${message.role}">${avatar}<div class="cx-bubble">${messageText(message)}</div></div>`;
   }
 
   function renderChat() {

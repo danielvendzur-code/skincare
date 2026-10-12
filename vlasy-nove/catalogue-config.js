@@ -1,0 +1,1 @@
+(()=>{const data=window.COSMETICS_DEMOS;for(const [slug,c]of Object.entries(globalThis.CX_CATALOGUES||{})){const b=data?.brands?.[slug];if(b){b.catalogue=c.products;b.catalogueVerifiedAt=c.verifiedAt;}}window.CX_CATALOGUE_REPLY=(slug,text,history=[])=>globalThis.CXCatalogueReplyCore?.(globalThis.CX_CATALOGUES||{},slug,text,history)||'';})();
