@@ -106,7 +106,7 @@
   const KEEPS = [
     ['Odpovedá aj o polnoci', 'aj cez víkend, bez vás'],
     ['Pozná váš katalóg', 'pracuje s vašimi produktmi a cenami'],
-    ['Výber cez štyri otázky', 'na konci jeden konkrétny produkt'],
+    ['Výber podľa vašich potrieb', 'na konci konkrétny produkt'],
     ['História konverzácií', 'vidíte, na čo sa zákazníci pýtajú']
   ];
 
@@ -175,7 +175,7 @@
     </main>
 
     <div class="cx-launcher" id="cx-launcher">
-      <button class="cx-teaser" id="cx-teaser" type="button"><b>Pomôcť s výberom?</b><span>4 otázky · konkrétny produkt</span></button>
+      <button class="cx-teaser" id="cx-teaser" type="button"><b>Pomôcť s výberom?</b><span>Pár otázok · konkrétny produkt</span></button>
       <button class="cx-launcher-button${launcherUsesRawImageLogo ? ' is-image-logo' : ''}" id="cx-open" type="button" aria-label="Otvoriť poradcu" aria-expanded="false">${launcherMarkup}</button>
     </div>
     <div class="cx-backdrop" id="cx-backdrop" hidden></div>
