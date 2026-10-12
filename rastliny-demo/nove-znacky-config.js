@@ -3,3 +3,5 @@ import {BRANDS} from "./catalog-data.mjs";
 for(const brand of Object.values(BRANDS)){brand.wordmark=`<img class="cx-logo" src="${brand.logo}" alt="${brand.name}">`;brand.launcherMark=brand.avatarMark=`<img class="cx-brand-mark" src="${brand.mark}" alt="">`;}
 window.COSMETICS_DEMOS={brands:BRANDS};
 await import("./cosmetics.js");
+await import("./plants-quality.js");
+await import("./lang-cs.js");

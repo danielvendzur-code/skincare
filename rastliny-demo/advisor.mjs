@@ -105,5 +105,5 @@ export function catalogueReply(brand,messages) {
  if(/cena|ceny|kolko|lacne/.test(q)&&!exact.length)ranked=[...ranked].sort((a,b)=>a.priceValue-b.priceValue);
  if(!ranked.length)return {text:'V overenej ponuke nemám produkt, ktorý by spĺňal tieto podmienky. Skúste upraviť rozpočet alebo prejdite Výber rastlín a doplnkov.',products:[]};
  const selected=ranked.slice(0,/porovnaj|porovnanie|rozdiel/.test(q)?2:1);
- return {text:selected.map(p=>`${p.name} — ${p.price}. ${p.reason}`).join('\n\n')+`\n\nCeny sú zo snímky ponuky z ${snapshotDate(brand)} Dostupnosť si overte na detaile produktu. Výber v štyroch krokoch zohľadní ďalšie podmienky.`,products:selected.map(p=>p.id)};
+ return {text:selected.map(p=>`${p.name} — ${p.price}. ${p.reason}`).join('\n\n'),products:selected.map(p=>p.id)};
 }
