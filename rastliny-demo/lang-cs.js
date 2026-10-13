@@ -13,6 +13,12 @@
 
   /* Whole text nodes. */
   const exact = {
+    'Pomôcky, doplnky a ďalšia ponuka':'Pomůcky, doplňky a další nabídka',
+    'Vyberie rastlinu, ktorá doplní jeho zbierku.':'Vybere rostlinu, která doplní jeho sbírku.',
+    'Zákazník porovná kaktusy a sukulenty podľa rodu, ceny a konkrétnej veľkosti. Poradca pozná dostupné rastliny a údaje z vášho katalógu.':'Zákazník porovná kaktusy a sukulenty podle rodu, ceny a konkrétní velikosti. Poradce zná dostupné rostliny a údaje z vašeho katalogu.',
+    'Vyberie bonsaj, ktorý sadne do jeho záhrady.':'Vybere bonsaj, který sedne do jeho zahrady.',
+    'Zákazník si vyberie konkrétny strom, bonsajovú misku alebo pestovateľské médium. Poradca pozná produkty, dostupné varianty a ceny z vášho katalógu.':'Zákazník si vybere konkrétní strom, bonsajovou misku nebo pěstební médium. Poradce zná produkty, dostupné varianty a ceny z vašeho katalogu.',
+    'Načítať ďalšie':'Načíst další',
     'Konkrétny produkt a jeho použitie nájdete v e-shope.':'Konkrétní produkt a jeho použití najdete v e-shopu.',
     // shared page copy
     'Mám záujem': 'Mám zájem', 'Čo dostanete': 'Co získáte', 'Chcem to na svoj web': 'Chci to na svůj web', 'Chatbot pre váš e-shop': 'Chatbot pro váš e-shop',
@@ -299,6 +305,7 @@
 
   /* Sentences with a changing part. */
   const patterns = [
+    [/^Ďalšie produkty spĺňajúce výber \((\d+)\)$/, 'Další produkty splňující výběr ($1)'],
     [/^Kávový chatbot pre (.+)$/, 'Kávový chatbot pro $1'], [/^Krok (\d+) zo (\d+)$/, 'Krok $1 ze $2'], [/^(\d+)\. krok$/, '$1. krok'],
     [/^(.+) – kávový poradca$/, '$1 – kávový poradce'], [/^Kávový poradca (.+)$/, 'Kávový poradce $1'], [/^(.+) – produktová prezentácia$/, '$1 – produktová prezentace'],
     [/^Dobrý deň\. Vyberieme spolu kávu z ponuky (.+) podľa vašej prípravy a chutí\.$/, 'Dobrý den. Vybereme spolu kávu z nabídky $1 podle vaší přípravy a chutí.'],

@@ -181,3 +181,12 @@ body #cosmetics-root .cx-more-products a{display:flex;gap:12px;padding:12px 0;te
 body #cosmetics-root .cx-more-products img{width:76px;height:96px;object-fit:contain;}
 body #cosmetics-root .cx-more-products span{display:grid;gap:5px;}
 @media(max-width:760px){body #cosmetics-root .cx-launcher{display:grid!important;}body #cosmetics-root .cx-teaser{display:none!important;}}
+
+/* Question steps never show a scrollbar: the answer cards share the height the panel has. */
+html body #cx-widget#cx-widget .cx-advisor-body:has(> .cx-options){display:flex!important;flex-direction:column!important;}
+html body #cx-widget#cx-widget .cx-advisor-body:has(> .cx-options)>*{flex:0 0 auto!important;}
+html body #cx-widget#cx-widget .cx-advisor-body:has(> .cx-options)>.cx-options{flex:1 1 0!important;min-height:0!important;height:auto!important;max-height:580px!important;grid-template-rows:none!important;grid-auto-rows:minmax(min-content,1fr)!important;align-content:stretch!important;}
+html body #cx-widget#cx-widget .cx-advisor-body:has(> .cx-options) .cx-option{display:flex!important;flex-direction:column!important;min-height:0!important;height:auto!important;}
+html body #cx-widget#cx-widget .cx-advisor-body:has(> .cx-options) .cx-option>.cx-option-photo{position:relative!important;flex:1 1 0!important;height:0!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;overflow:hidden!important;}
+html body #cx-widget#cx-widget .cx-advisor-body:has(> .cx-options) .cx-option>.cx-option-photo>img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;}
+html body #cx-widget#cx-widget .cx-advisor-body:has(> .cx-options) .cx-option>.cx-option-copy{flex:0 0 auto!important;}
