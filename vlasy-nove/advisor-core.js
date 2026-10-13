@@ -74,10 +74,11 @@
       const category = answers.category || categories[0];
       const pool = products.filter(p => p.category === category && p.available !== false);
       const supportedProfiles = profiles.filter(v => pool.some(p => p.signals.includes(v)) && pool.some(p => !p.signals.includes(v)));
-      if (['face', 'hair', 'body'].includes(category) && supportedProfiles.length) result.push({key:'profile', options:[...supportedProfiles, 'any']});
+      /* A question needs at least two real answers; one answer plus "nechám si poradiť" asks nothing. */
+      if (['face', 'hair', 'body'].includes(category) && supportedProfiles.length > 1) result.push({key:'profile', options:[...supportedProfiles, 'any']});
       const profilePool = pool.filter(p => !answers.profile || answers.profile === 'any' || p.signals.includes(answers.profile));
       const relevant = goals.filter(v => profilePool.some(p => p.signals.includes(v)) && profilePool.some(p => !p.signals.includes(v)));
-      if (relevant.length) result.push({key:'goal', options:[...relevant, 'any']});
+      if (relevant.length > 1) result.push({key:'goal', options:[...relevant, 'any']});
       const formPool = pool.filter(p => (!answers.goal || answers.goal === 'any' || p.signals.includes(answers.goal)) && (!answers.profile || answers.profile === 'any' || p.signals.includes(answers.profile)));
       const forms = [...new Set(formPool.map(p => p.kind))];
       if (forms.length > 1) result.push({key:'kind', options:[...forms, 'any']});
