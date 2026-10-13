@@ -5,6 +5,7 @@ export const LABELS={plants:'Izbové rastliny',rareplants:'Raritné rastliny',ac
 /* Product facts are shown as facts: the catalogue notes say "podľa predajcu / e-shopu" in every
    sentence, which reads as a disclaimer. The wording is tidied where it is displayed. */
 const DROP=/^(Cena a fotografia patria|Určenie z názvu a popisu|Odrodový záber|Odrodová fotografia|Samostatný črepník; vhodnosť)/;
+LABELS.succulents='Sukulenty';
 const REWRITE=[[/^Predajca uvádza nenáročnú starostlivosť\.$/,'Nenáročná starostlivosť.'],[/^Predajca ju zaraďuje medzi rastliny pre začiatočníkov\.$/,'Vhodná pre začiatočníkov.'],[/^Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami\.$/,'Vhodná do domácnosti so zvieratami.'],[/^Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete\.$/,'Na fotografii je konkrétny strom, ktorý dostanete.'],[/^Predajca uvádza:\s*/,''],[/^Predajca (výslovne )?uvádza vhodnosť do polotieňa\.$/,'Znesie polotieň.'],[/^Predajca (výslovne )?uvádza toleranciu priameho slnka alebo slunného miesta\.$/,'Znesie priame slnko.'],[/^Predajca (výslovne )?uvádza toleranciu svetla od slunného miesta po polotieň\.$/,'Znesie slnko aj polotieň.'],[/^Predajca opisuje druh ako sukulentnú rastlinu\.$/,'Sukulentná rastlina.'],[/^Predajca (výslovne )?(uvádza|opisuje|odporúča)\s+/,''],[/\s+Predajca uvádza nenáročnú starostlivosť\./,'. Nenáročná starostlivosť.'],[/^V období kvitnutia predajca požaduje osobný odber\.$/,'V období kvitnutia len osobný odber.'],[/; pomer zmesi overte na detaile\.$/,'.'],[/\s+podľa (názvu |popisu |kategórie |zaradenia |ponuky )?(predajcu|predajca|e-shopu|pestovateľa)/g,''],[/\s+podľa názvu(?=[:.])/g,''],[/\s+z ponuky predajcu/g,''],[/\s+predajcu(?=[:.;])/g,'']];
 export function tidy(text){
  return String(text||'').split(/(?<=\.)\s+/).filter(s=>s&&!DROP.test(s)).map(s=>{for(const [from,to] of REWRITE)s=s.replace(from,to);s=s.trim();return s.charAt(0).toUpperCase()+s.slice(1);}).filter(Boolean).join(' ');
@@ -80,9 +81,10 @@ function budgetQuestion(brand,pool){
  return {key:'budget',title:'Do akej sumy vyberáme?',options};
 }
 export function questionsFor(brand,answers={}) {
- const first={key:'kind',title:'Čo dnes vyberáme?',options:brand.kinds.map(k=>({value:k,title:brand.kindLabels?.[k]||(k==='airplants'?'Tillandsie':LABELS[k]),text:tidy(brand.categoryNotes?.[k]||'Z ponuky tohto e-shopu'),image:brand.products.find(p=>p.kind===k&&p.available!==false&&p.photo)?.photo||brand.products.find(p=>p.kind===k&&p.photo)?.photo}))};
- const list=brand.kinds.length>1?[first]:[];
- const kind=answers.kind||(brand.kinds.length>1?null:brand.kinds[0]);
+ const liveKinds=brand.kinds.filter(k=>brand.products.some(p=>p.kind===k&&p.available!==false));
+ const first={key:'kind',title:'Čo dnes vyberáme?',options:liveKinds.map(k=>({value:k,title:brand.kindLabels?.[k]||(k==='airplants'?'Tillandsie':LABELS[k]),text:tidy(brand.categoryNotes?.[k]||'Z ponuky tohto e-shopu'),image:brand.products.find(p=>p.kind===k&&p.available!==false&&p.photo)?.photo}))};
+ const list=liveKinds.length>1?[first]:[];
+ const kind=answers.kind||(liveKinds.length>1?null:liveKinds[0]);
  if(kind){
   const {questions,fixed}=facetQuestions(brand,kind,answers);list.push(...questions);
   /* The budget is asked once every earlier question has an answer. */
@@ -92,7 +94,7 @@ export function questionsFor(brand,answers={}) {
  return list.map((q,i)=>({...q,kicker:String(i+1).padStart(2,'0')+' · '+(names[q.key]||'Výber')}));
 }
 /* Is the selection finished? Later questions may only appear after an answer. */
-export const complete=(brand,answers={})=>questionsFor(brand,answers).every(q=>answers[q.key]!==undefined)&&(brand.kinds.length<2||!!answers.kind);
+export const complete=(brand,answers={})=>questionsFor(brand,answers).every(q=>answers[q.key]!==undefined)&&(brand.kinds.filter(k=>brand.products.some(p=>p.kind===k&&p.available!==false)).length<2||!!answers.kind);
 /* With a budget the closest product under the limit wins; without one the middle of the range.
    The order is fully determined by the catalogue, never shuffled. */
 export function rankProducts(brand,answers={}) {
@@ -107,6 +109,8 @@ export function matchedLabels(product,answers) {
 const plain=text=>String(text).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
 export function catalogueReply(brand,messages) {
  const last=messages.filter(m=>m.role==='user').at(-1)?.content||'';const q=plain(last);
+ const requestedName=q.match(/(?:mate|predavate|prodavate)\s+produkt\s+(.+?)\??$/)?.[1];if(requestedName&&!/^(?:na|pre|pro)\b/.test(requestedName)&&!brand.products.some(p=>plain(p.name).includes(requestedName.replace(/\?$/,''))))return {text:'Takýto produkt v overenej ponuke nemám. Upresnite prosím jeho názov.',products:[]};
+
  if(/doprava|doruc|objednav|reklamac|vraten|otvarac|kedy pride/.test(q))return {text:`Aktuálne podmienky dopravy, objednávok a reklamácií nájdete na ${brand.website}. V tejto ukážke nemám prístup k objednávkam. Môžem pomôcť vybrať konkrétny produkt.`,products:[]};
  if(/zlt(?:e|nu|nuc).*list|list.*zlt|hnil|chorob|skodc|preliat|usych/.test(q))return {text:'Napíšte názov rastliny, koľko má svetla a ako ju polievate. Zo samotného príznaku neviem spoľahlivo určiť príčinu. Overené pokyny predajcu nájdete na detaile konkrétnej rastliny.',products:[]};
  if(/tmava miest|uplna tma|bez svetla|bez okn/.test(q))return {text:'Polotieň neznamená úplnú tmu. Bez denného svetla alebo pestovateľského osvetlenia vám z tejto ponuky vhodnú živú rastlinu neodporučím. Vyberme najprv miesto so svetlom.',products:[]};

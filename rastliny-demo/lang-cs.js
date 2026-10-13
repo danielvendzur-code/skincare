@@ -13,6 +13,8 @@
 
   /* Whole text nodes. */
   const exact = {
+    'Ďalšie rastliny':'Další rostliny',
+    'Rosnatky, bublinatky a ďalšie druhy':'Rosnatky, bublinatky a další druhy',
     'Pomôcky, doplnky a ďalšia ponuka':'Pomůcky, doplňky a další nabídka',
     'Vyberie rastlinu, ktorá doplní jeho zbierku.':'Vybere rostlinu, která doplní jeho sbírku.',
     'Zákazník porovná kaktusy a sukulenty podľa rodu, ceny a konkrétnej veľkosti. Poradca pozná dostupné rastliny a údaje z vášho katalógu.':'Zákazník porovná kaktusy a sukulenty podle rodu, ceny a konkrétní velikosti. Poradce zná dostupné rostliny a údaje z vašeho katalogu.',

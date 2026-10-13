@@ -190,6 +190,14 @@ html body #cx-widget#cx-widget .cx-advisor-body:has(> .cx-options) .cx-option{di
 html body #cx-widget#cx-widget .cx-advisor-body:has(> .cx-options) .cx-option>.cx-option-photo{position:relative!important;flex:1 1 0!important;height:0!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;overflow:hidden!important;}
 html body #cx-widget#cx-widget .cx-advisor-body:has(> .cx-options) .cx-option>.cx-option-photo>img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;}
 html body #cx-widget#cx-widget .cx-advisor-body:has(> .cx-options) .cx-option>.cx-option-copy{flex:0 0 auto!important;}
+/* The existing 110px minimum must not overflow the grid over its pager. */
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body:has(>.cx-options)>.cx-options{grid-auto-rows:minmax(0,1fr)!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body:has(>.cx-options) .cx-option-photo,html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body:has(>.cx-options) .cx-option-photo img{min-height:0!important;}
+@media(max-height:599px){
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body:has(>.cx-options){overflow-y:auto!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body:has(>.cx-options)>.cx-options{flex:0 0 auto!important;grid-auto-rows:auto!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body:has(>.cx-options) .cx-option-photo{flex:0 0 110px!important;height:110px!important;}
+}
 /* Advisor polish (20261013): a lone third answer spans the row and steps arrive with a light motion. */
 html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option:nth-child(3):last-child{grid-column:1 / -1!important;flex-direction:row!important;align-items:stretch!important;}
 html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option:nth-child(3):last-child>.cx-option-photo{flex:0 0 44%!important;height:auto!important;min-height:0!important;align-self:stretch!important;}
