@@ -20,6 +20,7 @@ export function tagsOf(product){
  return tags;
 }
 export function matches(product,answers={}) {
+  if(product.available===false)return false;
   if(answers.kind && product.kind!==answers.kind)return false;
   const tags=tagsOf(product);
   if(answers.required?.some(tag=>!tags.includes(tag)))return false;
@@ -27,7 +28,7 @@ export function matches(product,answers={}) {
     if(['kind','budget','required'].includes(key)||!value||value==='any')continue;
     if(!tags.includes(value))return false;
   }
-  if(answers.budget && answers.budget!=='any' && product.priceValue>Number(answers.budget))return false;
+  if(answers.budget && answers.budget!=='any' && (!Number.isFinite(product.priceValue)||product.priceValue>Number(answers.budget)||(product.sourcePriceFrom&&(!Number.isFinite(product.sourcePriceMax)||product.sourcePriceMax>Number(answers.budget)))))return false;
   return true;
 }
 const candidates=(brand,answers)=>brand.products.filter(p=>matches(p,answers));
@@ -45,7 +46,7 @@ const LIVING=[['light','Koľko svetla bude mať?',['low','bright','sun']],['care
 function facetQuestions(brand,kind,answers){
  const result=[];let fixed={kind};
  const groups=[...(GROUPS[kind]||LIVING)];
- for(const [key,title,values] of [...groups,['genus',GROUPS[kind]?'Ktorú značku alebo rad?':'Ktorý rod vás zaujíma?',null]]){
+ for(const [key,title,values] of [...groups,...(GROUPS[kind]?[]:[['genus','Ktorá rastlina sa vám páči?',null]])]){
   if(result.length>=3)break;
   const pool=candidates(brand,fixed);
   const list=(values||genera(pool)).map(value=>[value,pool.filter(p=>tagsOf(p).includes(value))]).filter(([,items])=>items.length);
@@ -68,18 +69,18 @@ function facetQuestions(brand,kind,answers){
 const NICE={EUR:[3,5,8,10,12,15,20,25,30,40,50,60,80,100,150,200,300,500],CZK:[50,80,100,150,200,250,300,400,500,600,800,1000,1500,2000,3000,5000]};
 /* Budget limits come from the prices of the products that are still in play. */
 function budgetQuestion(brand,pool){
- const prices=pool.map(p=>p.priceValue).sort((x,y)=>x-y);if(prices.length<3)return null;
+ const prices=pool.map(p=>p.sourcePriceFrom?p.sourcePriceMax:p.priceValue).filter(Number.isFinite).sort((x,y)=>x-y);if(prices.length<3)return null;
  const within=n=>prices.filter(p=>p<=n).length,nice=NICE[brand.currency==='CZK'?'CZK':'EUR'],unit=brand.currency==='CZK'?'Kč':'€';
  const limits=[...new Set([.34,.67].map(q=>nice.find(n=>n>=prices[Math.floor((prices.length-1)*q)])).filter(Boolean))].filter(n=>within(n)>0&&within(n)<prices.length);
  if(!limits.length)return null;
  const used=new Set();
- const options=limits.map(n=>{const items=pool.filter(p=>p.priceValue<=n).sort((x,y)=>y.priceValue-x.priceValue);const p=items.find(i=>!used.has(i.photo))||items[0];used.add(p.photo);return{value:String(n),title:'Do '+n+' '+unit,text:items.length<5?items.length+(items.length===1?' produkt':' produkty'):items.length+' produktov',image:p.photo};});
+ const options=limits.map(n=>{const items=pool.filter(p=>matches(p,{budget:n})).sort((x,y)=>y.priceValue-x.priceValue);const p=items.find(i=>!used.has(i.photo))||items[0];used.add(p.photo);return{value:String(n),title:'Do '+n+' '+unit,text:items.length<5?items.length+(items.length===1?' produkt':' produkty'):items.length+' produktov',image:p.photo};});
  const top=[...pool].sort((x,y)=>y.priceValue-x.priceValue).find(i=>!used.has(i.photo))||pool[0];
  options.push({value:'any',title:'Bez limitu',text:'Celá ponuka, '+pool.length+' produktov',image:top.photo});
  return {key:'budget',title:'Do akej sumy vyberáme?',options};
 }
 export function questionsFor(brand,answers={}) {
- const first={key:'kind',title:'Čo dnes vyberáme?',options:brand.kinds.slice(0,4).map(k=>({value:k,title:brand.kindLabels?.[k]||(k==='airplants'?'Tillandsie':LABELS[k]),text:tidy(brand.categoryNotes?.[k]||'Z ponuky tohto e-shopu'),image:brand.products.find(p=>p.kind===k)?.photo}))};
+ const first={key:'kind',title:'Čo dnes vyberáme?',options:brand.kinds.map(k=>({value:k,title:brand.kindLabels?.[k]||(k==='airplants'?'Tillandsie':LABELS[k]),text:tidy(brand.categoryNotes?.[k]||'Z ponuky tohto e-shopu'),image:brand.products.find(p=>p.kind===k&&p.available!==false)?.photo||brand.products.find(p=>p.kind===k)?.photo}))};
  const list=brand.kinds.length>1?[first]:[];
  const kind=answers.kind||(brand.kinds.length>1?null:brand.kinds[0]);
  if(kind){

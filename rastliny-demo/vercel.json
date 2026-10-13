@@ -47,6 +47,24 @@
           "value": "no-store"
         }
       ]
+    },
+    {
+      "source": "/data/(.*)\\.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.mjs",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
     }
   ],
   "redirects": [
@@ -292,6 +310,10 @@
       "destination": "/cosmetics.html?demo=zahradananiti",
       "permanent": false
     }
-  ]
+  ],
+  "functions": {
+    "api/cosmetics-chat.js": {
+      "includeFiles": "{data/*.json,catalog-index.mjs,catalogue-loader.mjs,advisor.mjs}"
+    }
+  }
 }
-

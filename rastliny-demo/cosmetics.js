@@ -281,15 +281,20 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, 
     if (state.result) return renderResult();
     const questions=questionsFor(brand,state.answers);
     const question=questions[state.step];
+    if(!question){chooseResult();return renderResult();}
+    if(state.optionQuestion!==question.key){state.optionQuestion=question.key;state.optionPage=0;}
+    const pageOptions=question.options.slice((state.optionPage||0)*4,(state.optionPage||0)*4+4);
     const selected=state.answers[question.key];
     stage.innerHTML = `
       <section class="cx-advisor">
         <header class="cx-progress"><button id="cx-back" type="button" ${state.step===0?'disabled':''}>${icons.back}<span>Späť</span></button><div>${questions.map((_,index)=>`<i class="${index<=state.step?'is-on':''}"></i>`).join('')}</div><b>${state.step+1}. krok</b></header>
         <div class="cx-advisor-body">
           <span class="cx-kicker">${esc(question.kicker)}</span><h2>${esc(question.title)}</h2>
-          <div class="cx-options" data-count="${question.options.length}">${question.options.map((option,index)=>`<button style="--cx-reveal:${index*70}ms" class="cx-option ${selected===option.value?'is-selected':''}" data-value="${option.value}" type="button" aria-pressed="${selected===option.value}"><span class="cx-option-photo${optionMarks[option.value]?' cx-option-photo--mark':''}">${optionMarks[option.value] || `<img src="${option.image}" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.closest('.cx-option-photo')?.setAttribute('data-image-failed','true')">`}</span><span class="cx-option-copy"><b>${esc(option.title)}</b><small>${esc(option.text)}</small></span><i>${icons.check}</i></button>`).join('')}</div>
+          <div class="cx-options" data-count="${pageOptions.length}">${pageOptions.map((option,index)=>`<button style="--cx-reveal:${index*70}ms" class="cx-option ${selected===option.value?'is-selected':''}" data-value="${option.value}" type="button" aria-pressed="${selected===option.value}"><span class="cx-option-photo${optionMarks[option.value]?' cx-option-photo--mark':''}">${optionMarks[option.value] || `<img src="${option.image}" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.closest('.cx-option-photo')?.setAttribute('data-image-failed','true')">`}</span><span class="cx-option-copy"><b>${esc(option.title)}</b><small>${esc(option.text)}</small></span><i>${icons.check}</i></button>`).join('')}</div>
+          ${question.options.length>4?`<button id="cx-more-options" class="cx-restart" type="button">Ďalšie možnosti · ${(state.optionPage||0)+1}/${Math.ceil(question.options.length/4)}</button>`:''}
         </div>
       </section>`;
+    stage.querySelector('#cx-more-options')?.addEventListener('click',()=>{state.optionPage=((state.optionPage||0)+1)%Math.ceil(question.options.length/4);renderAdvisor();});
     stage.querySelector('#cx-back')?.addEventListener('click',()=>{
       if(state.step===0||state.transitioning) return;
       state.transitioning=true;
@@ -343,6 +348,8 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, 
       </section>`;
     stage.querySelector('#cx-result-back').addEventListener('click',()=>{state.result=null;state.alternative=null;state.step=questionsFor(brand,state.answers).length-1;renderAdvisor();});
     stage.querySelector('#cx-restart').addEventListener('click',resetAdvisor);
+    const remaining=rankProducts(brand,state.answers).filter(p=>p.id!==product.id);
+    if(remaining.length){const details=document.createElement('details');details.className='cx-more-products';const summary=document.createElement('summary');summary.textContent='Ďalšie produkty spĺňajúce výber ('+remaining.length+')';details.append(summary);const list=document.createElement('div');let shown=0;const append=()=>{for(const p of remaining.slice(shown,shown+24)){const a=document.createElement('a');a.href=p.url;a.target='_blank';a.rel='noopener noreferrer';a.innerHTML='<img loading="lazy" src="'+esc(p.photo)+'" alt=""><span><b>'+esc(p.name)+'</b><small>'+esc(tidy(p.reason))+'</small><strong>'+esc(p.price)+'</strong></span>';list.append(a);}shown+=24;};append();details.append(list);if(remaining.length>shown){const next=document.createElement('button');next.className='cx-restart';next.textContent='Načítať ďalšie';next.addEventListener('click',()=>{append();if(shown>=remaining.length)next.remove();});details.append(next);}stage.querySelector('.cx-result-body').append(details);}
   }
 
   function resetAdvisor(){state.step=0;state.answers={};state.result=null;state.alternative=null;state.transitioning=false;renderAdvisor();}
