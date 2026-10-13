@@ -124,7 +124,10 @@ export function catalogueReply(brand,messages) {
   if(currency!==brand.currency)return {text:`Tento e-shop uvádza ceny v ${brand.currency==='CZK'?'Kč':'eurách'}. Zadajte prosím rozpočet v rovnakej mene; kurz v tejto ukážke neprepočítavam.`,products:[]};
   answers.budget=money[1].replace(',','.');
  }
- const genus=brand.products.filter(p=>plain(p.name).split(' ')[0].length>3&&q.includes(plain(p.name).split(' ')[0]));
+ // Category words are not botanical names: “kaktusy” must search the entire
+ // cactus category, including names starting with Mammillaria or Schlumbergera.
+ const queryWords=new Set(q.split(/[^a-z0-9]+/)),genericName=/^(?:kaktus\w*|cactus|sukulent\w*|rastlin\w*|rostlin\w*|substrat\w*|kvetinac\w*|crepnik\w*|baby|mini|mix|izbov\w*|pokojov\w*)$/;
+ const genus=brand.products.filter(p=>{const first=plain(p.name).split(' ')[0];return first.length>3&&!genericName.test(first)&&queryWords.has(first);});
  if(/jedovat|toxick|mack|maci|kock|pes|psov|psum|zvierat|zvirat/.test(q)) {
   answers.kind='plants';answers.required=['pet-safe'];
   const named=exact.length?exact:genus;
