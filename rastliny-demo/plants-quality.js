@@ -93,7 +93,7 @@ window.CXLauncherHover=(primary,candidates=[])=>{
     document.body.style.setProperty('--cx-q-hover', hover.bg);document.body.style.setProperty('--cx-q-rest',hover.restBg);document.body.style.setProperty('--cx-q-fg',hover.restFg);
     document.body.style.setProperty('--cx-q-hover-fg', hover.fg);
     const paint = (host) => {
-      if (host.querySelector('.cx-mark-shape')) return;
+      if (host.classList.contains('cx-lf-chat') || host.classList.contains('cx-lf-mark-host') || host.querySelector('.cx-mark-shape')) return;
       const shape = document.createElement('span');
       shape.className = 'cx-mark-shape';
       shape.style.setProperty('--cx-mark-art', 'url(' + JSON.stringify(source) + ')');
