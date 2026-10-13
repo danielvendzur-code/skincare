@@ -7,7 +7,8 @@
   const data = window.COSMETICS_DEMOS;
   if (!data) return;
 
-  const logo = (slug, name) => `<img class="cx-wordmark cx-logo" src="/assets/cosmetics/${slug}-logo.png" alt="${name}">`;
+  /* Vivaco: the full wordmark from the shop's own logo (the bitmap copy was cut off on the right). */
+  const logo = (slug, name) => `<img class="cx-wordmark cx-logo" src="/assets/cosmetics/${slug}-logo.${slug === 'vivaco' ? 'svg' : 'png'}" alt="${name}">`;
   const photo = (slug, id) => `/assets/cosmetics/${slug}-${id}.jpg`;
 
   const hair = {
