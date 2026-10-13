@@ -13,6 +13,7 @@
 
   /* Whole text nodes. */
   const exact = {
+    'Konkrétny produkt a jeho použitie nájdete v e-shope.':'Konkrétní produkt a jeho použití najdete v e-shopu.',
     // shared page copy
     'Mám záujem': 'Mám zájem', 'Čo dostanete': 'Co získáte', 'Chcem to na svoj web': 'Chci to na svůj web', 'Chatbot pre váš e-shop': 'Chatbot pro váš e-shop',
     'Odpovedá aj o polnoci': 'Odpovídá i o půlnoci', 'aj cez víkend, bez vás': 'i o víkendu, bez vás', 'Pozná vašu ponuku': 'Zná vaši nabídku', 'Pozná váš katalóg': 'Zná váš katalog',
