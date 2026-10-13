@@ -57,8 +57,8 @@ function facetQuestions(brand,kind,answers){
    if(!values)shown=list.slice(0,3);else if(list.length>4||(!covered&&list.length>3))shown=[...list].sort((x,y)=>y[1].length-x[1].length).slice(0,3).sort((x,y)=>values.indexOf(x[0])-values.indexOf(y[0]));
    const neutral=shown.length<list.length||!covered||shown.length<=3;
    const used=new Set();
-   const options=shown.map(([value,items])=>{const p=items.find(i=>!used.has(i.photo))||items[0];used.add(p.photo);return{value,title:LABELS[value]||value.replace('genus:','').replace(/^./,c=>c.toUpperCase()),text:DETAIL[value]||(items.length===1?'1 produkt':items.length<5?items.length+' produkty':items.length+' produktov'),image:p.photo};});
-   if(neutral){const p=pool.find(i=>!used.has(i.photo))||pool[0];options.push({value:'any',title:shown.length<list.length?'Niečo iné':'Je mi to jedno',text:shown.length<list.length?'Ukázať celú ponuku':'Vyberiem podľa ostatných odpovedí',image:p.photo});}
+   const options=shown.map(([value,items])=>{const p=items.find(i=>i.photo&&!used.has(i.photo))||items.find(i=>i.photo)||items[0];used.add(p.photo);return{value,title:LABELS[value]||value.replace('genus:','').replace(/^./,c=>c.toUpperCase()),text:DETAIL[value]||(items.length===1?'1 produkt':items.length<5?items.length+' produkty':items.length+' produktov'),image:p.photo};});
+   if(neutral){const p=pool.find(i=>i.photo&&!used.has(i.photo))||pool.find(i=>i.photo)||pool[0];options.push({value:'any',title:shown.length<list.length?'Niečo iné':'Je mi to jedno',text:shown.length<list.length?'Ukázať celú ponuku':'Vyberiem podľa ostatných odpovedí',image:p.photo});}
    result.push({key,title,options});
   }
   if(answers[key]===undefined)break;
@@ -74,13 +74,13 @@ function budgetQuestion(brand,pool){
  const limits=[...new Set([.34,.67].map(q=>nice.find(n=>n>=prices[Math.floor((prices.length-1)*q)])).filter(Boolean))].filter(n=>within(n)>0&&within(n)<prices.length);
  if(!limits.length)return null;
  const used=new Set();
- const options=limits.map(n=>{const items=pool.filter(p=>matches(p,{budget:n})).sort((x,y)=>y.priceValue-x.priceValue);const p=items.find(i=>!used.has(i.photo))||items[0];used.add(p.photo);return{value:String(n),title:'Do '+n+' '+unit,text:items.length<5?items.length+(items.length===1?' produkt':' produkty'):items.length+' produktov',image:p.photo};});
+ const options=limits.map(n=>{const items=pool.filter(p=>matches(p,{budget:n})).sort((x,y)=>y.priceValue-x.priceValue);const p=items.find(i=>i.photo&&!used.has(i.photo))||items.find(i=>i.photo)||items[0];used.add(p.photo);return{value:String(n),title:'Do '+n+' '+unit,text:items.length<5?items.length+(items.length===1?' produkt':' produkty'):items.length+' produktov',image:p.photo};});
  const top=[...pool].sort((x,y)=>y.priceValue-x.priceValue).find(i=>!used.has(i.photo))||pool[0];
- options.push({value:'any',title:'Bez limitu',text:'Celá ponuka, '+pool.length+' produktov',image:top.photo});
+ options.push({value:'any',title:'Bez limitu',text:'Celá ponuka, '+pool.length+' produktov',image:top.photo||pool.find(i=>i.photo)?.photo});
  return {key:'budget',title:'Do akej sumy vyberáme?',options};
 }
 export function questionsFor(brand,answers={}) {
- const first={key:'kind',title:'Čo dnes vyberáme?',options:brand.kinds.map(k=>({value:k,title:brand.kindLabels?.[k]||(k==='airplants'?'Tillandsie':LABELS[k]),text:tidy(brand.categoryNotes?.[k]||'Z ponuky tohto e-shopu'),image:brand.products.find(p=>p.kind===k&&p.available!==false)?.photo||brand.products.find(p=>p.kind===k)?.photo}))};
+ const first={key:'kind',title:'Čo dnes vyberáme?',options:brand.kinds.map(k=>({value:k,title:brand.kindLabels?.[k]||(k==='airplants'?'Tillandsie':LABELS[k]),text:tidy(brand.categoryNotes?.[k]||'Z ponuky tohto e-shopu'),image:brand.products.find(p=>p.kind===k&&p.available!==false&&p.photo)?.photo||brand.products.find(p=>p.kind===k&&p.photo)?.photo}))};
  const list=brand.kinds.length>1?[first]:[];
  const kind=answers.kind||(brand.kinds.length>1?null:brand.kinds[0]);
  if(kind){
