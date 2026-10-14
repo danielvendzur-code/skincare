@@ -218,3 +218,6 @@ body[data-cosmetics-demo] #cx-open#cx-open:focus-visible {
   outline: 3px solid color-mix(in srgb, var(--cx-l-bg, var(--cx-accent)) 55%, #fff) !important;
   outline-offset: 3px !important;
 }
+
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-option.cx-option .cx-option-photo[data-use-photo]{padding:0!important;}
+body #cosmetics-root#cosmetics-root #cx-widget#cx-widget .cx-option.cx-option .cx-option-photo[data-use-photo] img{object-fit:cover!important;padding:0!important;width:100%!important;height:100%!important;transform:none!important;}

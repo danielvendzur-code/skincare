@@ -165,5 +165,10 @@
       "destination": "/cosmetics.html?demo=haaro",
       "permanent": false
     }
-  ]
+  ],
+  "functions": {
+    "api/cosmetics-chat.js": {
+      "includeFiles": "{catalogues/*-refresh.js,advisor-core.js,catalogue-reply-core.js}"
+    }
+  }
 }

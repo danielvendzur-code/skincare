@@ -31,7 +31,7 @@
     teaser.className = 'cx-teaser';
     teaser.innerHTML = `
       <button class="cx-teaser-open" type="button" aria-label="Otvoriť výber starostlivosti">
-        <b>Pomôcť s výberom?</b><span>4 otázky · konkrétny produkt</span>
+        <b>Pomôcť s výberom?</b><span>Krátky výber · konkrétny produkt</span>
       </button>
       <button class="cx-teaser-close" type="button" aria-label="Zavrieť náhľad">×</button>`;
     originalTeaser.replaceWith(teaser);
@@ -59,7 +59,9 @@
   const questionKeyByValue = new Map(
     data.questions.flatMap((question) => question.options.map((option) => [option.value, question.key]))
   );
+  const usePhotos={dry:'hair-brush',oily:'hair-shampoo',sensitive:'hair-wash',balanced:'hair-natural',hydrate:'hair-brush',calm:'hair-wash',clarity:'hair-natural',mature:'hair-shampoo',cream:'hair-shampoo',oil:'hair-brush'};
   const photoFor = (value) => {
+    if(usePhotos[value])return '/assets/scenes/'+usePhotos[value]+'.jpg';
     const product = brand.products.find((item) => Array.isArray(item.tags) && item.tags.includes(value) && item.photo);
     return product?.photo || optionByValue.get(value)?.image || brand.hero;
   };
@@ -72,7 +74,7 @@
       if (!holder || !src) return;
       const current = holder.querySelector('img')?.getAttribute('src');
       if (current === src && !holder.classList.contains('cx-option-photo--mark')) return;
-      holder.classList.remove('cx-option-photo--mark');
+      holder.classList.remove('cx-option-photo--mark');holder.toggleAttribute('data-use-photo',src.startsWith('/assets/scenes/'));
       holder.removeAttribute('data-image-failed');
       holder.innerHTML = `<img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer">`;
       const img = holder.querySelector('img');

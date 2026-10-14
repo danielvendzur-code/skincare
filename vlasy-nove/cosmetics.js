@@ -93,7 +93,7 @@
   const INCLUDED = [
     ['Chatbot s vaším katalógom', 'Vaše produkty a ceny, nie všeobecné odpovede.'],
     ['Odpovedá aj o polnoci', 'Zloženie, typ pleti, rutina aj porovnanie dvoch produktov.'],
-    ['Výber cez štyri otázky', 'Pleť, priorita, rutina a textúra — na konci jeden konkrétny produkt.'],
+    ['Výber podľa vašich potrieb', 'Pleť, priorita, rutina a textúra — na konci jeden konkrétny produkt.'],
     ['Vidíte, na čo sa pýtajú', 'História konverzácií, aj otázky, na ktoré ponuka neodpovedá.']
   ];
 
@@ -109,7 +109,7 @@
   const KEEPS = [
     ['Odpovedá aj o polnoci', 'aj cez víkend, bez vás'],
     ['Pozná váš katalóg', 'pracuje s vašimi produktmi a cenami'],
-    ['Výber cez štyri otázky', 'na konci jeden konkrétny produkt'],
+    ['Výber podľa vašich potrieb', 'na konci jeden konkrétny produkt'],
     ['História konverzácií', 'vidíte, na čo sa zákazníci pýtajú']
   ];
 
@@ -129,17 +129,6 @@
         <a class="cx-owner-brand" href="${brand.website}" target="_blank" rel="noreferrer">${brand.wordmark}</a>
         <a class="cx-owner-contact" href="${esc(contactHref())}" target="_blank" rel="noreferrer">Chcem to na svoj web ${icons.arrow}</a>
       </header>
-      <div class="cx-offer cx-more" data-cx-offer="sheet" role="dialog" aria-modal="true" aria-labelledby="cx-more-title" hidden>
-        <div class="cx-offer-card">
-          <button class="cx-offer-close" type="button" data-cx-offer="close" aria-label="Zavrieť">×</button>
-          <span class="cx-offer-kicker">Viac info</span>
-          <h2 id="cx-more-title">Čo ešte dostanete</h2>
-          <ul>
-            ${MORE.map(([title, note]) => `<li>${icons.check}<span><b>${esc(title)}</b><small>${esc(note)}</small></span></li>`).join('')}
-          </ul>
-          <a class="cx-offer-cta" href="${esc(contactHref())}" target="_blank" rel="noreferrer">Chcem to na svoj web ${icons.arrow}</a>
-        </div>
-      </div>
       <section class="cx-owner-hero">
         <div class="cx-owner-copy">
           <span class="cx-owner-kicker">Chatbot pre váš e-shop</span>
@@ -148,7 +137,6 @@
             <button type="button" data-open="advisor">Vyskúšať výber ${icons.arrow}</button>
             <button type="button" data-open="chat" class="is-secondary">Skúsiť chat ${icons.chat}</button>
           </div>
-          <button type="button" class="cx-owner-more" data-cx-offer="open" aria-haspopup="dialog">Viac info ${icons.arrow}</button>
         </div>
         <div class="cx-owner-frame">
           ${ownerFigures}
@@ -173,7 +161,7 @@
     </main>
 
     <div class="cx-launcher" id="cx-launcher">
-      <button class="cx-teaser" id="cx-teaser" type="button"><b>Pomôcť s výberom?</b><span>4 otázky · konkrétny produkt</span></button>
+      <button class="cx-teaser" id="cx-teaser" type="button"><b>Pomôcť s výberom?</b><span>Krátky výber · konkrétny produkt</span></button>
       <button class="cx-launcher-button${launcherUsesRawImageLogo ? ' is-image-logo' : ''}" id="cx-open" type="button" aria-label="Otvoriť poradcu" aria-expanded="false">${launcherMarkup}</button>
     </div>
     <div class="cx-backdrop" id="cx-backdrop" hidden></div>
@@ -231,9 +219,10 @@
     if (next === 'advisor') renderAdvisor(); else renderChat();
   }
 
+  function messageText(message){const text=esc(message.text).replace(/\n/g,'<br>');if(message.role!=='assistant')return text;const urls=new Set((brand.catalogue||brand.products||[]).map(p=>esc(p.url)));for(const url of [brand.website,brand.url])if(url)urls.add(esc(url));return text.replace(/https?:\/\/[^\s<>]+/g,value=>{let url=value;if(!urls.has(url))url=url.replace(/[.,;]+$/,'');return urls.has(url)?'<a href="'+url+'" target="_blank" rel="noopener noreferrer">Pozrieť v e-shope ↗</a>'+value.slice(url.length):value;});}
   function messageMarkup(message) {
     const avatar = message.role === 'assistant' ? `<span class="cx-message-avatar${avatarUsesRawImageLogo ? ' is-image-logo' : ''}">${avatarMarkup}</span>` : '';
-    return `<div class="cx-message cx-message--${message.role}">${avatar}<div class="cx-bubble">${esc(message.text)}</div></div>`;
+    return `<div class="cx-message cx-message--${message.role}">${avatar}<div class="cx-bubble">${messageText(message)}</div></div>`;
   }
 
   function renderChat() {
@@ -280,18 +269,20 @@
     state.interacted = true;
     state.busy = true;
     state.messages.push({role:'user',text:clean});
-    const answer = {role:'assistant',text:localReply(clean)};
+    const generation=state.generation||0;
+    let replied=false;
+    const answer = {role:'assistant',text:document.documentElement.lang==='cs'?'Ověřuji odpověď v nabídce…':'Overujem odpoveď v ponuke…'};
     state.messages.push(answer);
     renderChat();
-    // The offline answer is already on screen; the request only ever replaces
-    // it. Six seconds, so a request that is accepted and never answered cannot
-    // which is accepted and never answered cannot leave the chat marked busy.
+    // Keep the pending bubble neutral until a canonical response arrives.
     const abort = new AbortController();
     const timer = setTimeout(() => abort.abort(), 12000);
     try {
       const response = await fetch('/api/cosmetics-chat',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({demoId:slug,messages:state.messages.slice(-8).map((m)=>({role:m.role,content:m.text}))}),signal:abort.signal});
-      if (response.ok) { const payload=await response.json(); if(String(payload.reply||'').trim()) answer.text=String(payload.reply).trim(); }
+      if (response.ok) { const payload=await response.json(); if(String(payload.reply||'').trim()){answer.text=String(payload.reply).trim();replied=true;} }
     } catch (_) {} finally { clearTimeout(timer); }
+    if(generation!==(state.generation||0))return;
+    if(!replied)answer.text=globalThis.CXCatalogueReplyCore?.(globalThis.CX_CATALOGUES||{},slug,clean,state.messages.map(m=>({role:m.role,content:m.text})))||(document.documentElement.lang==='cs'?'Odpověď se nyní nepodařilo načíst. Nabídku můžete projít ve Výběru.':'Odpoveď sa teraz nepodarilo načítať. Ponuku môžete prejsť vo Výbere.');
     state.busy = false;
     renderChat();
   }
@@ -406,19 +397,9 @@
   }
 
   function resetAdvisor(){state.step=0;state.answers={};state.result=null;state.alternative=null;state.transitioning=false;renderAdvisor();}
-  function resetAll(){state.step=0;state.answers={};state.result=null;state.alternative=null;state.interacted=false;state.busy=false;state.transitioning=false;state.messages=[{role:'assistant',text:'Dobrý deň. Napíšte, čo od starostlivosti očakávate alebo ako sa vaša pleť správa. Pomôžem vám zúžiť výber.'}];setMode('chat');}
+  function resetAll(){state.generation=(state.generation||0)+1;state.step=0;state.answers={};state.result=null;state.alternative=null;state.interacted=false;state.busy=false;state.transitioning=false;state.messages=[{role:'assistant',text:document.documentElement.lang==='cs'?'Dobrý den. Vybírejte z nabídky '+brand.name+'. Napište, jaký produkt hledáte, nebo otevřete Výběr.':'Dobrý deň. Vyberajte z ponuky '+brand.name+'. Napíšte, aký produkt hľadáte, alebo otvorte Výber.'}];setMode('chat');}
 
   root.querySelectorAll('[data-open]').forEach((button)=>button.addEventListener('click',()=>openWidget(button.dataset.open)));
-  const offerSheet = root.querySelector('[data-cx-offer="sheet"]');
-  const setOffer = (open) => {
-    offerSheet.hidden = !open;
-    document.body.classList.toggle('cx-offer-open', open);
-    if (open) offerSheet.querySelector('[data-cx-offer="close"]').focus();
-  };
-  root.querySelectorAll('[data-cx-offer="open"]').forEach((b) => b.addEventListener('click', () => setOffer(true)));
-  root.querySelectorAll('[data-cx-offer="close"]').forEach((b) => b.addEventListener('click', () => setOffer(false)));
-  offerSheet.addEventListener('click', (event) => { if (event.target === offerSheet) setOffer(false); });
-  document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && !offerSheet.hidden) setOffer(false); });
 
   root.querySelector('#cx-open').addEventListener('click',()=>openWidget('chat'));
   root.querySelector('#cx-teaser').addEventListener('click',()=>openWidget('advisor'));
