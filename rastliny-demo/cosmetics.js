@@ -1,4 +1,4 @@
-import {questionsFor, rankProducts, productIdentity, matchedLabels as labelsFor, catalogueReply, complete, tidy} from './advisor.mjs?v=20261014-final-audit-9';
+import {questionsFor, rankProducts, productIdentity, matchedLabels as labelsFor, catalogueReply, complete, tidy} from './advisor.mjs?v=20261014-final-audit-10';
 (() => {
   'use strict';
 
