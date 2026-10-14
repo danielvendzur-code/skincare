@@ -18,7 +18,7 @@
     'Ovocné rastliny':'Ovocné rostliny',
     'Doplnky a ďalšia ponuka':'Doplňky a další nabídka',
     'Semená':'Semena',
-    'Odrezky na zakorenenie':'Řízky k zakořenění',
+    'Odrezky rastlín':'Řízky rostlin',
     'Rozmnožovací materiál':'Rozmnožovací materiál',
     'Mäsožravé rastliny':'Masožravé rostliny',
     'Cibuľoviny a ďalšie rastliny':'Cibuloviny a další rostliny',
