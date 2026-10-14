@@ -141,7 +141,7 @@ export function catalogueReply(brand,messages) {
  const named=exact.length?exact:genus;
  const explicitKind=/substrat|zemin|kvetinac|crepnik|obal|terarium|opora|opory|drziak|kvapkadlo|korunka|macrame|raselinnikov.*tyc|rarit|zberatel|vzacn|ovocn|\bkaktus\w*|\bcactus\b|sukulent/.test(intentQuery);
  let ranked=named.length?named.filter(p=>matches(p,explicitKind?answers:{...answers,kind:p.kind})):rankProducts(brand,answers);
- if(/cena|ceny|kolko|lacne/.test(q)&&!exact.length)ranked=[...ranked].sort((a,b)=>a.priceValue-b.priceValue);
+ if(/najlac|nejlevn|lacne|lacny/.test(q)&&!exact.length)ranked=[...ranked].sort((a,b)=>a.priceValue-b.priceValue);
  if(!ranked.length)return {text:'V overenej ponuke nemám produkt, ktorý by spĺňal tieto podmienky. Skúste upraviť rozpočet alebo prejdite Výber rastlín a doplnkov.',products:[]};
  const selected=ranked.slice(0,/porovnaj|porovnej|porovnanie|srovn|rozdiel|rozdil/.test(q)?2:1);
  return {text:selected.map(p=>`${p.name} — ${p.price}. ${tidy(p.reason)}`).join('\n\n'),products:selected.map(p=>p.id)};
