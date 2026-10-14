@@ -222,7 +222,7 @@ html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-
 .cx-neutral{height:auto;display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:left}.cx-neutral small{font-size:12px;color:#78808d}
 
 /* Missing photographs get a compact text card instead of an empty photo-sized row. */
-html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-options:has(.cx-option--no-photo){grid-auto-rows:auto!important;grid-template-rows:none!important;align-content:start!important}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body:has(>.cx-options)>.cx-options:has(.cx-option--no-photo){flex:0 0 auto!important;height:auto!important;grid-auto-rows:auto!important;grid-template-rows:none!important;align-content:start!important}
 html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option--no-photo{display:block!important;min-height:0!important;height:auto!important}
 html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option--no-photo .cx-option-photo:empty{display:none!important}
 html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option--no-photo .cx-option-copy{min-height:92px!important;height:auto!important}
