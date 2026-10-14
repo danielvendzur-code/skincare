@@ -13,6 +13,20 @@
 
   /* Whole text nodes. */
   const exact = {
+    'Ktorá rastlina sa vám páči?':'Která rostlina se vám líbí?',
+    'Ktorý druh kaktusu sa vám páči?':'Který druh kaktusu se vám líbí?',
+    'Ovocné rastliny':'Ovocné rostliny',
+    'Doplnky a ďalšia ponuka':'Doplňky a další nabídka',
+    'Semená':'Semena',
+    'Odrezky na zakorenenie':'Řízky k zakořenění',
+    'Rozmnožovací materiál':'Rozmnožovací materiál',
+    'Mäsožravé rastliny':'Masožravé rostliny',
+    'Cibuľoviny a ďalšie rastliny':'Cibuloviny a další rostliny',
+    'Ktorý druh rastliny vás zaujíma?':'Který druh rostliny vás zajímá?',
+    'Ktorý druh ovocia vyberáme?':'Který druh ovoce vybíráme?',
+    'Aký priemer dodávaného črepníka vám vyhovuje?':'Jaký průměr dodávaného květináče vám vyhovuje?',
+    'Dodávaná veľkosť':'Dodávaná velikost',
+    'Nad 10,5 cm':'Nad 10,5 cm',
     'Ďalšie rastliny':'Další rostliny',
     'Rosnatky, bublinatky a ďalšie druhy':'Rosnatky, bublinatky a další druhy',
     'Pomôcky, doplnky a ďalšia ponuka':'Pomůcky, doplňky a další nabídka',

@@ -6,6 +6,7 @@ export const LABELS={plants:'Izbové rastliny',rareplants:'Raritné rastliny',ac
    sentence, which reads as a disclaimer. The wording is tidied where it is displayed. */
 const DROP=/^(Cena a fotografia patria|Určenie z názvu a popisu|Odrodový záber|Odrodová fotografia|Samostatný črepník; vhodnosť)/;
 LABELS.succulents='Sukulenty';
+Object.assign(LABELS,{fruits:'Ovocné rastliny',accessories:'Doplnky a ďalšia ponuka',seeds:'Semená',cuttings:'Odrezky na zakorenenie',propagules:'Rozmnožovací materiál',carnivorous:'Mäsožravé rastliny','delivery-pot-small':'Do 6,5 cm','delivery-pot-medium':'7–10,5 cm','delivery-pot-large':'Nad 10,5 cm'});
 const REWRITE=[[/^Predajca uvádza nenáročnú starostlivosť\.$/,'Nenáročná starostlivosť.'],[/^Predajca ju zaraďuje medzi rastliny pre začiatočníkov\.$/,'Vhodná pre začiatočníkov.'],[/^Predajca ju zaraďuje medzi rastliny vhodné do domácnosti so zvieratami\.$/,'Vhodná do domácnosti so zvieratami.'],[/^Predajca uvádza fotografiu konkrétneho stromu, ktorý dostanete\.$/,'Na fotografii je konkrétny strom, ktorý dostanete.'],[/^Predajca uvádza:\s*/,''],[/^Predajca (výslovne )?uvádza vhodnosť do polotieňa\.$/,'Znesie polotieň.'],[/^Predajca (výslovne )?uvádza toleranciu priameho slnka alebo slunného miesta\.$/,'Znesie priame slnko.'],[/^Predajca (výslovne )?uvádza toleranciu svetla od slunného miesta po polotieň\.$/,'Znesie slnko aj polotieň.'],[/^Predajca opisuje druh ako sukulentnú rastlinu\.$/,'Sukulentná rastlina.'],[/^Predajca (výslovne )?(uvádza|opisuje|odporúča)\s+/,''],[/\s+Predajca uvádza nenáročnú starostlivosť\./,'. Nenáročná starostlivosť.'],[/^V období kvitnutia predajca požaduje osobný odber\.$/,'V období kvitnutia len osobný odber.'],[/; pomer zmesi overte na detaile\.$/,'.'],[/\s+podľa (názvu |popisu |kategórie |zaradenia |ponuky )?(predajcu|predajca|e-shopu|pestovateľa)/g,''],[/\s+podľa názvu(?=[:.])/g,''],[/\s+z ponuky predajcu/g,''],[/\s+predajcu(?=[:.;])/g,'']];
 export function tidy(text){
  return String(text||'').split(/(?<=\.)\s+/).filter(s=>s&&!DROP.test(s)).map(s=>{for(const [from,to] of REWRITE)s=s.replace(from,to);s=s.trim();return s.charAt(0).toUpperCase()+s.slice(1);}).filter(Boolean).join(' ');
@@ -36,6 +37,7 @@ const candidates=(brand,answers)=>brand.products.filter(p=>matches(p,answers));
 const DETAIL={low:'Polotieň, nie tmavá miestnosť',bright:'Svetlé miesto bez ostrého slnka',sun:'Znesie priame slnko','small-pot':'Priemer črepníka','medium-pot':'Priemer črepníka','large-pot':'Priemer črepníka','pet-safe':'Vhodná k psom a mačkám',easy:'Jednoduchšia starostlivosť',trailing:'Na policu alebo do závesu'};
 /* Question groups per category, in the order they are asked. */
 const genera=products=>{const counts=new Map();for(const p of products){const t=p.tags.find(t=>t.startsWith('genus:'));if(t)counts.set(t,(counts.get(t)||0)+1);}return [...counts].sort((x,y)=>y[1]-x[1]||x[0].localeCompare(y[0])).map(([t])=>t);};
+const speciesOf=products=>{const counts=new Map();for(const p of products){const tag=p.tags.find(t=>t.startsWith('species:'));if(tag)counts.set(tag,(counts.get(tag)||0)+1);}return [...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).map(([tag])=>tag);};
 const GROUPS={
  pots:[['size','Aký veľký črepník hľadáte?',['small-pot','medium-pot','large-pot']],['colour','Aká farba sa vám hodí?',COLOURS.map(([t])=>t)],['material','Aký materiál preferujete?',['ceramic','plastic','terracotta','concrete']]],
  substrates:[['use','Na čo substrát potrebujete?',['indoor-mix','cactus-mix','orchid-mix','hydro-mix','universal-mix','bonsai-mix','acid-mix','mineral-component']],['bonsai','Pre ktoré bonsaje vyberáme zmes?',['deciduous-mix','conifer-mix']],['volume','Aké balenie sa vám hodí?',['volume-small','volume-medium','volume-large']]],
@@ -44,26 +46,31 @@ const GROUPS={
  outdoor:[['type','Čím doplníme záhradu?',['perennial','shrub','conifer','grass']],['light','Aké stanovište máte v záhrade?',['low','bright','sun']]]
 };
 const LIVING=[['light','Koľko svetla bude mať?',['low','bright','sun']],['care','Čo je pre vás podstatné?',['easy','pet-safe','trailing']]];
+GROUPS.outdoor.push(['genus','Ktorý druh rastliny vás zaujíma?',null]);
+GROUPS.fruits=[['genus','Ktorý druh ovocia vyberáme?',null],['light','Aké stanovište máte v záhrade?',['low','bright','sun']]];
+for(const kind of ['plants','cacti','succulents','cuttings','carnivorous'])GROUPS[kind]=[...LIVING,['genus','Ktorá rastlina sa vám páči?',null],['deliverySize','Aký priemer dodávaného črepníka vám vyhovuje?',['delivery-pot-small','delivery-pot-medium','delivery-pot-large']]];
+GROUPS.cacti.splice(3,0,['species','Ktorý druh kaktusu sa vám páči?',null]);
 function facetQuestions(brand,kind,answers){
  const result=[];let fixed={kind};
  const groups=[...(GROUPS[kind]||LIVING)];
  for(const [key,title,values] of [...groups,...(GROUPS[kind]?[]:[['genus','Ktorá rastlina sa vám páči?',null]])]){
   if(result.length>=3)break;
   const pool=candidates(brand,fixed);
-  const list=(values||genera(pool)).map(value=>[value,pool.filter(p=>tagsOf(p).includes(value))]).filter(([,items])=>items.length);
+  const list=(values||(key==='species'?speciesOf(pool):genera(pool))).map(value=>[value,pool.filter(p=>tagsOf(p).includes(value))]).filter(([,items])=>items.length);
   /* Worth asking only when at least two answers lead to different products. */
   if(list.length>=2&&list.some(([,items])=>items.length<pool.length)){
    const covered=new Set(list.flatMap(([,items])=>items.map(p=>p.id))).size===pool.length;
-   let shown=list;
-   if(!values)shown=list.slice(0,3);else if(list.length>4||(!covered&&list.length>3))shown=[...list].sort((x,y)=>y[1].length-x[1].length).slice(0,3).sort((x,y)=>values.indexOf(x[0])-values.indexOf(y[0]));
-   const neutral=shown.length<list.length||!covered||shown.length<=3;
+   const shown=list;
+   const neutral=!covered||['genus','species'].includes(key)||shown.length<=3;
    const used=new Set();
-   const options=shown.map(([value,items])=>{const p=items.find(i=>i.photo&&!used.has(i.photo))||items.find(i=>i.photo)||items[0];used.add(p.photo);return{value,title:LABELS[value]||value.replace('genus:','').replace(/^./,c=>c.toUpperCase()),text:DETAIL[value]||(items.length===1?'1 produkt':items.length<5?items.length+' produkty':items.length+' produktov'),image:p.photo};});
+   const options=shown.map(([value,items])=>{const p=items.find(i=>i.photo&&!used.has(i.photo))||items.find(i=>i.photo)||items[0];used.add(p.photo);return{value,title:LABELS[value]||value.replace(/^(?:genus|species):/,'').replace(/^./,c=>c.toUpperCase()),text:DETAIL[value]||(items.length===1?'1 produkt':items.length<5?items.length+' produkty':items.length+' produktov'),image:p.photo};});
    if(neutral){const p=pool.find(i=>i.photo&&!used.has(i.photo))||pool.find(i=>i.photo)||pool[0];options.push({value:'any',title:shown.length<list.length?'Niečo iné':'Je mi to jedno',text:shown.length<list.length?'Ukázať celú ponuku':'Vyberiem podľa ostatných odpovedí',image:p.photo});}
    result.push({key,title,options});
   }
-  if(answers[key]===undefined)break;
-  fixed={...fixed,[key]:answers[key]};
+  // An omitted question must not stop later questions from appearing. In
+  // particular, no light choice does not mean that species or size are known.
+  if(result.some(question=>question.key===key)&&answers[key]===undefined)break;
+  if(answers[key]!==undefined)fixed={...fixed,[key]:answers[key]};
  }
  return {questions:result,fixed};
 }
@@ -90,7 +97,7 @@ export function questionsFor(brand,answers={}) {
   /* The budget is asked once every earlier question has an answer. */
   if(questions.every(q=>answers[q.key]!==undefined)){const budget=budgetQuestion(brand,candidates(brand,fixed));if(budget)list.push(budget);}
  }
- const names={kind:'Čo hľadáte',budget:'Rozpočet',size:'Veľkosť',colour:'Farba',material:'Materiál',light:'Svetlo',care:'Starostlivosť',genus:'Druh',use:'Použitie',type:'Typ',volume:'Balenie',bonsai:'Bonsaj'};
+ const names={kind:'Čo hľadáte',budget:'Rozpočet',size:'Veľkosť',deliverySize:'Dodávaná veľkosť',colour:'Farba',material:'Materiál',light:'Svetlo',care:'Starostlivosť',genus:'Druh',use:'Použitie',type:'Typ',volume:'Balenie',bonsai:'Bonsaj'};
  return list.map((q,i)=>({...q,kicker:String(i+1).padStart(2,'0')+' · '+(names[q.key]||'Výber')}));
 }
 /* Is the selection finished? Later questions may only appear after an answer. */
@@ -103,12 +110,17 @@ export function rankProducts(brand,answers={}) {
  const target=answers.budget&&answers.budget!=='any'?Number(answers.budget):prices[Math.floor((prices.length-1)/2)];
  return pool.sort((x,y)=>Math.abs(x.priceValue-target)-Math.abs(y.priceValue-target)||x.priceValue-y.priceValue||x.name.localeCompare(y.name,'sk'));
 }
+// Shops sometimes list the same plant once with "pot" and once with
+// "květináč". Keep both SKUs in the catalogue, but show a distinct alternative.
+export const productIdentity=product=>fold(product.name).replace(/(\d),(\d)/g,'$1.$2').replace(/\b(?:kvetinac|crepnik|pot)\b/g,'nadoba').replace(/[^a-z0-9.]+/g,' ').trim();
 export function matchedLabels(product,answers) {
- return Object.entries(answers).filter(([k,v])=>k!=='kind'&&v!=='any').map(([k,v])=>k==='budget'?`Do ${v} ${product.currency==='CZK'?'Kč':'€'}`:LABELS[v]||v.replace('genus:',''));
+ return Object.entries(answers).filter(([k,v])=>k!=='kind'&&v!=='any').map(([k,v])=>k==='budget'?`Do ${v} ${product.currency==='CZK'?'Kč':'€'}`:LABELS[v]||v.replace(/^(?:genus|species):/,'').replace(/^./,c=>c.toUpperCase()));
 }
 const plain=text=>String(text).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
 export function catalogueReply(brand,messages) {
  const last=messages.filter(m=>m.role==='user').at(-1)?.content||'';const q=plain(last);
+ const prior=messages.filter(m=>m.role==='user').map(m=>plain(m.content)).filter(t=>!/doruc|reklamac|otvarac|objednav|hnil|chorob|usych/.test(t));const recent=rx=>[...prior].reverse().find(t=>rx.test(t))||q;
+ const budgetQ=recent(/(?:do|pod|max)\s+\d|bez limit|bez rozpo/),lightQ=recent(/polotien|polostin|menej svetla|malo svetla|do tien|rozptylen|bez priame|priame slnko|slnec/),careQ=recent(/nenaroc|zaciatoc|zacatec|lahka starost|snadn/),petQ=recent(/\bpes\b|\bpsa\b|\bpsov\b|\bpsum\b|mack|kock|zvierat|zvirat|jedovat|toxick/);
  const requestedName=q.match(/(?:mate|predavate|prodavate)\s+produkt\s+(.+?)\??$/)?.[1];if(requestedName&&!/^(?:na|pre|pro)\b/.test(requestedName)&&!brand.products.some(p=>plain(p.name).includes(requestedName.replace(/\?$/,''))))return {text:'Takýto produkt v overenej ponuke nemám. Upresnite prosím jeho názov.',products:[]};
 
  if(/doprava|doruc|objednav|reklamac|vraten|otvarac|kedy pride/.test(q))return {text:`Aktuálne podmienky dopravy, objednávok a reklamácií nájdete na ${brand.website}. V tejto ukážke nemám prístup k objednávkam. Môžem pomôcť vybrať konkrétny produkt.`,products:[]};
@@ -119,10 +131,14 @@ export function catalogueReply(brand,messages) {
  // requests only outside the explicitly named product.
  const intentQuery=exact.reduce((text,p)=>text.replace(plain(p.name),''),q);
  let answers={};
- if(/opora|opory|raselinnikov.*tyc|drziak|kvapkadlo|korunka|macrame|zaves/.test(intentQuery)&&brand.kinds.includes('accessories'))answers.kind='accessories';else if(/rarit|zberatel|vzacn/.test(intentQuery)&&brand.kinds.includes('rareplants'))answers.kind='rareplants';else if(/ovocn|jablon|hrusk|broskyn/.test(intentQuery)&&brand.kinds.includes('fruits'))answers.kind='fruits';else if(/(?:^|\s)(?:ker|kry|krik|kriky)(?:\s|$)/.test(intentQuery)&&brand.kinds.includes('shrubs'))answers.kind='shrubs';else if(/substrat|zemin/.test(intentQuery))answers.kind='substrates';else if(/kvetinac|crepnik|obal/.test(intentQuery))answers.kind='pots';else if(/terarium/.test(intentQuery))answers.kind='terrariums';else if(/orchide/.test(intentQuery)&&brand.kinds.includes('orchids'))answers.kind='orchids';else if(/\bkaktus\w*|\bcactus\b/.test(intentQuery)&&brand.kinds.includes('cacti'))answers.kind='cacti';else if(/sukulent/.test(intentQuery)&&brand.kinds.includes('succulents'))answers.kind='succulents';else answers.kind=brand.kinds.includes('plants')?'plants':brand.kinds[0];
- if(/polotien|polostin|menej svetla|malo svetla|do tien/.test(q))answers.facet='low';else if(/rozptylen|bez priameho sln|bez priame sln|nie.*priame.*sln|nechcem.*slnec/.test(q))answers.facet='bright';else if(/priame slnko|slnec/.test(q))answers.facet='sun';
- if(/nenaroc|zaciatoc|zacatec|lahka starost|snadn/.test(q))answers.priority='easy';
- const money=q.match(/(?:do|pod|max)\s+(\d+(?:[.,]\d+)?)\s*(€|eur|kc)/);
+ const plantedPot=/(?:rastlin|rostlin|strom|bonsaj|bonsai|kaktus).*\bv\s+(?:kvetinac|crepnik)|(?:kvetinac|crepnik).*s\s+(?:rastlin|rostlin)/.test(intentQuery);
+ const grown=/hotov|zakorenena|zakorenene|zakorenenu|zakorenenou|(?:nie|nechcem|nechci)\s+(?:odrez|rizek|rizky|semen)/.test(intentQuery);
+ const nutrient=/hnojiv|vyziv|elixir|biostimulator/.test(intentQuery),spray=/postrek|postrik|insekticid|fungicid/.test(intentQuery);
+ const form=!grown&&/semien|semink|\bsemena\b|osivo/.test(intentQuery)?'seeds':!grown&&/odrez|\brizek\b|\brizky\b|zakorenit/.test(intentQuery)?'cuttings':/gemm|rozmnozovac/.test(intentQuery)?'propagules':/masozrav/.test(intentQuery)?'carnivorous':null;
+ if(nutrient||spray)answers.kind='accessories';else if(form)answers.kind=form;else if(/opora|opory|raselinnikov.*tyc|drziak|kvapkadlo|korunka|macrame|zaves/.test(intentQuery)&&brand.kinds.includes('accessories'))answers.kind='accessories';else if(/rarit|zberatel|vzacn/.test(intentQuery)&&brand.kinds.includes('rareplants'))answers.kind='rareplants';else if(/ovocn|jablon|hrusk|broskyn/.test(intentQuery))answers.kind='fruits';else if(/(?:^|\s)(?:ker|kry|krik|kriky)(?:\s|$)/.test(intentQuery)&&brand.kinds.includes('shrubs'))answers.kind='shrubs';else if(/substrat|zemin/.test(intentQuery))answers.kind='substrates';else if(!plantedPot&&/kvetinac|crepnik|obal/.test(intentQuery))answers.kind='pots';else if(/terarium/.test(intentQuery))answers.kind='terrariums';else if(/orchide/.test(intentQuery)&&brand.kinds.includes('orchids'))answers.kind='orchids';else if(/\bkaktus\w*|\bcactus\b/.test(intentQuery)&&brand.kinds.includes('cacti'))answers.kind='cacti';else if(/sukulent/.test(intentQuery)&&brand.kinds.includes('succulents'))answers.kind='succulents';else if(/zahrad|venkovn|vonku/.test(intentQuery))answers.kind='outdoor';else if(/izbov|pokojov/.test(intentQuery))answers.kind='plants';else answers.kind=brand.kinds[0];
+ if(/polotien|polostin|menej svetla|malo svetla|do tien/.test(lightQ))answers.facet='low';else if(/rozptylen|bez priameho sln|bez priame sln|nie.*priame.*sln|nechcem.*slnec/.test(lightQ))answers.facet='bright';else if(/priame slnko|slnec/.test(lightQ))answers.facet='sun';
+ if(/nenaroc|zaciatoc|zacatec|lahka starost|snadn/.test(careQ))answers.priority='easy';
+ const money=/bez limit|bez rozpo/.test(budgetQ)?null:budgetQ.match(/(?:do|pod|max)\s+(\d+(?:[.,]\d+)?)\s*(€|eur|kc)/);
  if(money){
   const currency=money[2]==='kc'?'CZK':'EUR';
   if(currency!==brand.currency)return {text:`Tento e-shop uvádza ceny v ${brand.currency==='CZK'?'Kč':'eurách'}. Zadajte prosím rozpočet v rovnakej mene; kurz v tejto ukážke neprepočítavam.`,products:[]};
@@ -132,17 +148,20 @@ export function catalogueReply(brand,messages) {
  // cactus category, including names starting with Mammillaria or Schlumbergera.
  const queryWords=new Set(q.split(/[^a-z0-9]+/)),genericName=/^(?:kaktus\w*|cactus|sukulent\w*|rastlin\w*|rostlin\w*|substrat\w*|kvetinac\w*|crepnik\w*|baby|mini|mix|izbov\w*|pokojov\w*)$/;
  const genus=brand.products.filter(p=>{const first=plain(p.name).split(' ')[0];return first.length>3&&!genericName.test(first)&&queryWords.has(first);});
- if(/jedovat|toxick|mack|maci|kock|pes|psov|psum|zvierat|zvirat/.test(q)) {
+ if(/jedovat|toxick|mack|kock|\bpes\b|\bpsa\b|\bpsov\b|\bpsum\b|zvierat|zvirat/.test(petQ)&&!/nemam.*(?:mack|psa|zvierat)|bez zvierat|bez zvirat/.test(petQ)) {
   answers.kind='plants';answers.required=['pet-safe'];
   const named=exact.length?exact:genus;
   const p=(named.length?named.filter(p=>matches(p,answers)):rankProducts(brand,answers)).slice(0,2);
   return p.length?{text:`Do domácnosti so zvieratami sa hodia: ${p.map(x=>`${x.name} (${x.price})`).join('; ')}. Tieto položky spĺňajú aj uvedené svetlo a rozpočet. Rastliny nie sú určené na konzumáciu.`,products:p.map(x=>x.id)}:{text:'Pre tieto podmienky alebo pomenovaný druh nemám doložené zaradenie ako bezpečný pre zvieratá. Bez tohto podkladu ho nebudem odporúčať na tento účel.',products:[]};
  }
- const named=exact.length?exact:genus;
- const explicitKind=/substrat|zemin|kvetinac|crepnik|obal|terarium|opora|opory|drziak|kvapkadlo|korunka|macrame|raselinnikov.*tyc|rarit|zberatel|vzacn|ovocn|\bkaktus\w*|\bcactus\b|sukulent/.test(intentQuery);
- let ranked=named.length?named.filter(p=>matches(p,explicitKind?answers:{...answers,kind:p.kind})):rankProducts(brand,answers);
+ const named=exact.length?exact:['pots','substrates','accessories'].includes(answers.kind)?[]:genus;
+ const eligiblePurpose=p=>(!nutrient||/hnojiv|vyziv|elixir|biostimulator/.test(plain(p.name)))&&(!spray||/postrek|postrik|insekticid|fungicid/.test(plain(p.name)))&&(!nutrient||!/orchid/.test(intentQuery)||/orchid/.test(plain(p.name+' '+p.reason)));
+ const purposeBrand={...brand,products:brand.products.filter(eligiblePurpose)};
+ const explicitKind=/hnojiv|vyziv|elixir|biostimulator|postrek|postrik|insekticid|fungicid|semien|semink|\bsemena\b|osivo|odrez|\brizek\b|\brizky\b|zakorenit|gemm|masozrav|substrat|zemin|kvetinac|crepnik|obal|terarium|opora|opory|drziak|kvapkadlo|korunka|macrame|raselinnikov.*tyc|rarit|zberatel|vzacn|ovocn|\bkaktus\w*|\bcactus\b|sukulent/.test(intentQuery);
+ let ranked=named.length?rankProducts({...brand,products:named.filter(eligiblePurpose)},explicitKind?answers:{...answers,kind:undefined}):rankProducts(purposeBrand,answers);
+ if(!exact.length){const terms=q.split(/[^a-z0-9]+/).filter(t=>t.length>3&&!genericName.test(t)&&!['chcem','chci','hladam','hledam','prosim','odporucte','doporucte','nejaky','nejakou','ktery','ktory','produkt','rozpocet'].includes(t));const score=p=>terms.filter(t=>plain(p.name).includes(t)).length;ranked.sort((a,b)=>score(b)-score(a));}
  if(/najlac|nejlevn|lacne|lacny/.test(q)&&!exact.length)ranked=[...ranked].sort((a,b)=>a.priceValue-b.priceValue);
  if(!ranked.length)return {text:'V overenej ponuke nemám produkt, ktorý by spĺňal tieto podmienky. Skúste upraviť rozpočet alebo prejdite Výber rastlín a doplnkov.',products:[]};
- const selected=ranked.slice(0,/porovnaj|porovnej|porovnanie|srovn|rozdiel|rozdil/.test(q)?2:1);
+ const distinct=ranked.filter((p,i,a)=>a.findIndex(x=>productIdentity(x)===productIdentity(p))===i);const selected=distinct.slice(0,/porovnaj|porovnej|porovnanie|srovn|rozdiel|rozdil/.test(q)?2:1);
  return {text:selected.map(p=>`${p.name} — ${p.price}. ${tidy(p.reason)}`).join('\n\n'),products:selected.map(p=>p.id)};
 }

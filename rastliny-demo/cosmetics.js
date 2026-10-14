@@ -1,4 +1,4 @@
-import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, complete, tidy} from './advisor.mjs';
+import {questionsFor, rankProducts, productIdentity, matchedLabels as labelsFor, catalogueReply, complete, tidy} from './advisor.mjs?v=20261014-final-audit-6';
 (() => {
   'use strict';
 
@@ -224,7 +224,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, 
   function messageMarkup(message) {
     const avatar = message.role === 'assistant' ? `<span class="cx-message-avatar${avatarUsesRawImageLogo ? ' is-image-logo' : ''}">${avatarMarkup}</span>` : '';
     const products=(message.products||[]).map(id=>brand.products.find(p=>p.id===id)).filter(Boolean);
-    return `<div class="cx-message cx-message--${message.role}">${avatar}<div class="cx-bubble">${esc(message.text)}${products.length?`<div class="cx-chat-products">${products.map(p=>`<a href="${esc(p.url)}" target="_blank" rel="noreferrer"><img src="${p.photo}" alt=""><span>${esc(p.name)}<b>${esc(p.price)}</b></span>${icons.arrow}</a>`).join('')}</div>`:''}</div></div>`;
+    return `<div class="cx-message cx-message--${message.role}">${avatar}<div class="cx-bubble">${esc(message.text)}${products.length?`<div class="cx-chat-products">${products.map(p=>`<a href="${esc(p.url)}" target="_blank" rel="noreferrer">${p.photo?`<img src="${esc(p.photo)}" alt="">`:``}<span>${esc(p.name)}<b>${esc(p.price)}</b></span>${icons.arrow}</a>`).join('')}</div>`:''}</div></div>`;
   }
 
   function renderChat() {
@@ -273,7 +273,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, 
     if(state.mode==='chat')renderChat();
   }
 
-  function chooseResult() { const ranked=rankProducts(brand,state.answers);state.result=ranked[0]||null;state.alternative=ranked[1]||null; }
+  function chooseResult() { const ranked=rankProducts(brand,state.answers);state.result=ranked[0]||null;state.alternative=state.result?ranked.find(p=>productIdentity(p)!==productIdentity(state.result))||null:null; }
   const coinMark='<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="23" cy="24" r="12"/><path d="M22 18v12m4-11h-6m6 5h-6m14-9a12 12 0 0 1 0 18"/></svg>';
   const optionMarks={};
 
@@ -283,32 +283,36 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, 
     const question=questions[state.step];
     if(!question){chooseResult();return renderResult();}
     if(state.optionQuestion!==question.key){state.optionQuestion=question.key;state.optionPage=0;}
-    const pageOptions=question.options.slice((state.optionPage||0)*4,(state.optionPage||0)*4+4);
+    const neutral=question.options.find(option=>option.value==='any');
+    const separateNeutral=!!neutral&&question.options.length>4;
+    const pagedOptions=separateNeutral?question.options.filter(option=>option.value!=='any'):question.options;
+    const pageOptions=pagedOptions.slice((state.optionPage||0)*4,(state.optionPage||0)*4+4);
     const selected=state.answers[question.key];
     stage.innerHTML = `
       <section class="cx-advisor">
         <header class="cx-progress"><button id="cx-back" type="button" ${state.step===0?'disabled':''}>${icons.back}<span>Späť</span></button><div>${questions.map((_,index)=>`<i class="${index<=state.step?'is-on':''}"></i>`).join('')}</div><b>${state.step+1}. krok</b></header>
         <div class="cx-advisor-body">
           <span class="cx-kicker">${esc(question.kicker)}</span><h2>${esc(question.title)}</h2>
-          <div class="cx-options" data-count="${pageOptions.length}">${pageOptions.map((option,index)=>`<button style="--cx-reveal:${index*70}ms" class="cx-option ${selected===option.value?'is-selected':''}" data-value="${option.value}" type="button" aria-pressed="${selected===option.value}"><span class="cx-option-photo${optionMarks[option.value]?' cx-option-photo--mark':''}">${optionMarks[option.value] || `<img src="${option.image}" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.closest('.cx-option-photo')?.setAttribute('data-image-failed','true')">`}</span><span class="cx-option-copy"><b>${esc(option.title)}</b><small>${esc(option.text)}</small></span><i>${icons.check}</i></button>`).join('')}</div>
-          ${question.options.length>4?`<button id="cx-more-options" class="cx-restart" type="button">Ďalšie možnosti · ${(state.optionPage||0)+1}/${Math.ceil(question.options.length/4)}</button>`:''}
+          <div class="cx-options" data-count="${pageOptions.length}">${pageOptions.map((option,index)=>`<button style="--cx-reveal:${index*70}ms" class="cx-option ${option.image?'':'cx-option--no-photo'} ${selected===option.value?'is-selected':''}" data-value="${option.value}" type="button" aria-pressed="${selected===option.value}"><span class="cx-option-photo${optionMarks[option.value]?' cx-option-photo--mark':''}">${optionMarks[option.value] || (option.image?`<img src="${esc(option.image)}" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.closest('.cx-option-photo')?.setAttribute('data-image-failed','true')">`:``)}</span><span class="cx-option-copy"><b>${esc(option.title)}</b><small>${esc(option.text)}</small></span><i>${icons.check}</i></button>`).join('')}</div>
+          ${separateNeutral?`<button class="cx-restart cx-neutral" data-value="any" type="button"><b>Nechám si poradiť</b><small>Podľa ostatných odpovedí</small></button>`:''}
+          ${pagedOptions.length>4?`<button id="cx-more-options" class="cx-restart" type="button">Ďalšie možnosti · ${(state.optionPage||0)+1}/${Math.ceil(pagedOptions.length/4)}</button>`:''}
         </div>
       </section>`;
-    stage.querySelector('#cx-more-options')?.addEventListener('click',()=>{state.optionPage=((state.optionPage||0)+1)%Math.ceil(question.options.length/4);renderAdvisor();});
+    stage.querySelector('#cx-more-options')?.addEventListener('click',()=>{state.optionPage=((state.optionPage||0)+1)%Math.ceil(pagedOptions.length/4);renderAdvisor();});
     stage.querySelector('#cx-back')?.addEventListener('click',()=>{
       if(state.step===0||state.transitioning) return;
       state.transitioning=true;
       stage.querySelector('.cx-advisor-body')?.classList.add('is-leaving');
       setTimeout(()=>{state.step-=1;state.transitioning=false;renderAdvisor();},190);
     });
-    stage.querySelectorAll('.cx-option').forEach((button)=>button.addEventListener('click',()=>{
+    stage.querySelectorAll('.cx-option,.cx-neutral').forEach((button)=>button.addEventListener('click',()=>{
       if(state.transitioning) return;
       state.transitioning=true;
       if(question.key==='kind' && state.answers.kind!==button.dataset.value)state.answers={};
       const keep=new Set(questions.slice(0,state.step).map(q=>q.key));
       for(const key of Object.keys(state.answers))if(!keep.has(key))delete state.answers[key];
       state.answers[question.key]=button.dataset.value;
-      stage.querySelectorAll('.cx-option').forEach((item)=>{const on=item===button;item.classList.toggle('is-selected',on);item.setAttribute('aria-pressed',String(on));item.disabled=true;});
+      stage.querySelectorAll('.cx-option,.cx-neutral').forEach((item)=>{const on=item===button;item.classList.toggle('is-selected',on);item.setAttribute('aria-pressed',String(on));item.disabled=true;});
       // Hold on the confirmed answer, then leave and enter. Replacing the
       // markup outright is what made a step look like it jumped.
       setTimeout(()=>{
@@ -339,7 +343,7 @@ import {questionsFor, rankProducts, matchedLabels as labelsFor, catalogueReply, 
         <header class="cx-progress"><button id="cx-result-back" type="button">${icons.back}<span>Späť</span></button><div>${questions.map(()=>'<i class="is-on"></i>').join('')}</div><b>Výsledok</b></header>
         <div class="cx-result-body">
           <span class="cx-kicker">Váš smer</span>
-          <article class="cx-product"><div class="cx-product-photo"><img src="${product.photo || brand.hero}" alt="${esc(product.name)}" referrerpolicy="no-referrer" onerror="this.closest('.cx-product-photo')?.setAttribute('data-image-failed','true')"></div><div class="cx-product-copy"><small>${esc(brand.name)}</small><h2>${esc(product.name)}</h2>${matchedLabels(product).length?`<div class="cx-product-tags">${matchedLabels(product).map((label)=>`<span>${esc(label)}</span>`).join('')}</div>`:''}<div class="cx-product-price"><strong>${esc(product.price)}</strong><a href="${product.url}" target="_blank" rel="noreferrer">Pozrieť produkt ${icons.arrow}</a></div></div></article>
+          <article class="cx-product ${product.photo?'':'cx-product--no-photo'}">${product.photo?`<div class="cx-product-photo"><img src="${esc(product.photo)}" alt="${esc(product.name)}" referrerpolicy="no-referrer" onerror="this.closest('.cx-product-photo')?.setAttribute('data-image-failed','true')"></div>`:``}<div class="cx-product-copy"><small>${esc(brand.name)}</small><h2>${esc(product.name)}</h2>${matchedLabels(product).length?`<div class="cx-product-tags">${matchedLabels(product).map((label)=>`<span>${esc(label)}</span>`).join('')}</div>`:''}<div class="cx-product-price"><strong>${esc(product.price)}</strong><a href="${product.url}" target="_blank" rel="noreferrer">Pozrieť produkt ${icons.arrow}</a></div></div></article>
           <section class="cx-why"><small>Prečo práve toto</small><p>${esc(tidy(product.reason))}</p></section>
           ${alt && alt.id!==product.id ? `<article class="cx-alt"><span>${icons.leaf}</span><div><small>Alternatíva</small><b>${esc(alt.name)}</b></div><a href="${alt.url}" target="_blank" rel="noreferrer" aria-label="Pozrieť alternatívu">${icons.arrow}</a></article>`:''}
 

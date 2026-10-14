@@ -215,3 +215,14 @@ html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-
 html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option:nth-child(4){animation-delay:.12s;}
 html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-result-body>.cx-product{animation:cx-polish-rise .32s cubic-bezier(.2,.7,.2,1) both;}
 }
+
+/* Do not substitute a brand logo or a different plant for a missing product photograph. */
+.cx-product.cx-product--no-photo{grid-template-columns:1fr!important}.cx-product--no-photo .cx-product-copy{grid-column:1/-1}.cx-option--no-photo .cx-option-photo:empty{display:none}.cx-option--no-photo .cx-option-copy{min-height:100px;display:flex;flex-direction:column;justify-content:center}.cx-chat-products a:not(:has(img)) span{grid-column:1/-1}
+
+.cx-neutral{height:auto;display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:left}.cx-neutral small{font-size:12px;color:#78808d}
+
+/* Missing photographs get a compact text card instead of an empty photo-sized row. */
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-options:has(.cx-option--no-photo){grid-auto-rows:auto!important;grid-template-rows:none!important;align-content:start!important}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option--no-photo{display:block!important;min-height:0!important;height:auto!important}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option--no-photo .cx-option-photo:empty{display:none!important}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option--no-photo .cx-option-copy{min-height:92px!important;height:auto!important}
