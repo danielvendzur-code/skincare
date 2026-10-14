@@ -226,3 +226,5 @@ html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-
 html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option--no-photo{display:block!important;min-height:0!important;height:auto!important}
 html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option--no-photo .cx-option-photo:empty{display:none!important}
 html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option--no-photo .cx-option-copy{min-height:92px!important;height:auto!important}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-options:has(.cx-option--no-photo)>.cx-option:not(.cx-option--no-photo){grid-template-rows:160px auto!important}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-options:has(.cx-option--no-photo)>.cx-option:not(.cx-option--no-photo) .cx-option-photo{height:160px!important;min-height:160px!important;aspect-ratio:auto!important}
