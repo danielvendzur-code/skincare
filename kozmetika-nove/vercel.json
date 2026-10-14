@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/cosmetics-chat.js": {
-      "includeFiles": "{catalogues/*-refresh.js,advisor-core.js,catalogue-reply-core.js,catalogue-data.js}"
+      "includeFiles": "{catalogues/*-refresh.js,advisor-core.js,catalogue-reply-core.js,catalogue-data.js,chat-brain.js,chat-adapters.js}"
     }
   },
   "rewrites": [

@@ -168,7 +168,7 @@
   ],
   "functions": {
     "api/cosmetics-chat.js": {
-      "includeFiles": "{catalogues/*-refresh.js,advisor-core.js,catalogue-reply-core.js}"
+      "includeFiles": "{catalogues/*-refresh.js,advisor-core.js,catalogue-reply-core.js,chat-brain.js,chat-adapters.js}"
     }
   }
 }

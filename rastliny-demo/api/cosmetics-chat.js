@@ -1,5 +1,8 @@
 import {getBrand} from '../catalogue-loader.mjs';
-import {catalogueReply,snapshotDate,tidy} from '../advisor.mjs';
+import {catalogueReply,snapshotDate,tidy,rankProducts} from '../advisor.mjs';
+import '../chat-brain.js';
+import '../chat-adapters.js';
+const adapters=new Map();
 
 // Preserve the existing skincare endpoint. The model can select catalogue IDs;
 // names, prices, URLs and care facts always come from the canonical catalogue.
@@ -12,6 +15,8 @@ export function createHandler({apiKey=process.env.ANTHROPIC_API_KEY,model=proces
   if(!brand)return res.status(404).json({error:'unknown_demo'});
   const messages=Array.isArray(body?.messages)?body.messages.slice(-8).filter(m=>['user','assistant'].includes(m?.role)&&typeof m.content==='string').map(m=>({role:m.role,content:m.content.slice(0,500)})):[];
   if(!messages.length||messages.at(-1).role!=='user'||!messages.at(-1).content.trim())return res.status(400).json({error:'user_message_required'});
+  /* Conversation-aware answer first: named products, exclusions, changed budget, other options. */
+  if(globalThis.CXChatBrain){if(!adapters.has(body.demoId))adapters.set(body.demoId,globalThis.CXChatBrain.adapters.plants(brand,{rankProducts,tidy}));const ad=adapters.get(body.demoId);ad._listed=[];const grounded=globalThis.CXChatBrain.reply(ad,messages.at(-1).content,messages);if(grounded)return res.status(200).json({reply:grounded,products:[...new Set(ad._listed)].slice(0,3),mode:'catalogue'});}
   const fallback=catalogueReply(brand,messages);
   // Well-defined constraints, care questions and seller-service questions are
   // handled locally. No model may replace a refusal with an unsafe product.

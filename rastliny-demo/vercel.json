@@ -313,7 +313,7 @@
   ],
   "functions": {
     "api/cosmetics-chat.js": {
-      "includeFiles": "{data/*.json,catalog-index.mjs,catalogue-loader.mjs,advisor.mjs}"
+      "includeFiles": "{data/*.json,catalog-index.mjs,catalogue-loader.mjs,advisor.mjs,chat-brain.js,chat-adapters.js}"
     }
   }
 }
