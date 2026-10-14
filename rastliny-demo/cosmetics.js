@@ -273,7 +273,7 @@ import {questionsFor, rankProducts, productIdentity, matchedLabels as labelsFor,
     const selected=state.answers[question.key];
     stage.innerHTML = `
       <section class="cx-advisor">
-        <header class="cx-progress"><button id="cx-back" type="button" ${state.step===0?'disabled':''}>${icons.back}<span>Späť</span></button><div>${questions.map((_,index)=>`<i class="${index<=state.step?'is-on':''}"></i>`).join('')}</div><b>${state.step+1}. krok</b></header>
+        <header class="cx-progress"><button id="cx-back" type="button" ${state.step===0&&!state.optionPage?'disabled':''}>${icons.back}<span>Späť</span></button><div>${questions.map((_,index)=>`<i class="${index<=state.step?'is-on':''}"></i>`).join('')}</div><b>${state.step+1}. krok</b></header>
         <div class="cx-advisor-body">
           <span class="cx-kicker">${esc(question.kicker)}</span><h2>${esc(question.title)}</h2>
           <div class="cx-options" data-count="${pageOptions.length}">${pageOptions.map((option,index)=>`<button style="--cx-reveal:${index*70}ms" class="cx-option ${option.image?'':'cx-option--no-photo'} ${selected===option.value?'is-selected':''}" data-value="${option.value}" type="button" aria-pressed="${selected===option.value}"><span class="cx-option-photo${optionMarks[option.value]?' cx-option-photo--mark':''}">${optionMarks[option.value] || (option.image?`<img src="${esc(option.image)}" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.closest('.cx-option-photo')?.setAttribute('data-image-failed','true')">`:``)}</span><span class="cx-option-copy"><b>${esc(option.title)}</b><small>${esc(option.text)}</small></span><i>${icons.check}</i></button>`).join('')}</div>
@@ -283,7 +283,9 @@ import {questionsFor, rankProducts, productIdentity, matchedLabels as labelsFor,
       </section>`;
     stage.querySelector('#cx-more-options')?.addEventListener('click',()=>{state.optionPage=((state.optionPage||0)+1)%Math.ceil(pagedOptions.length/4);renderAdvisor();});
     stage.querySelector('#cx-back')?.addEventListener('click',()=>{
-      if(state.step===0||state.transitioning) return;
+      if(state.transitioning) return;
+      if(state.optionPage>0){state.optionPage-=1;renderAdvisor();return;}
+      if(state.step===0) return;
       state.transitioning=true;
       stage.querySelector('.cx-advisor-body')?.classList.add('is-leaving');
       setTimeout(()=>{state.step-=1;state.transitioning=false;renderAdvisor();},190);
