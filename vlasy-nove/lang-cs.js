@@ -13,6 +13,7 @@
 
   /* Whole text nodes. */
   const exact = {
+    'Pri rovnakej vhodnosti uprednostňujem produkt bližšie k vášmu rozpočtu.':'Při stejné vhodnosti upřednostňuji produkt blíže vašemu rozpočtu.',
     'Kúpeľové výrobky':'Koupelové výrobky',
     'Na umývanie':'Na mytí',
     'Sprcha alebo umývanie pokožky.':'Sprcha nebo mytí pokožky.',
