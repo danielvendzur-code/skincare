@@ -129,17 +129,6 @@
         <a class="cx-owner-brand" href="${brand.website}" target="_blank" rel="noreferrer">${brand.wordmark}</a>
         <a class="cx-owner-contact" href="${esc(contactHref())}" target="_blank" rel="noreferrer">Chcem to na svoj web ${icons.arrow}</a>
       </header>
-      <div class="cx-offer cx-more" data-cx-offer="sheet" role="dialog" aria-modal="true" aria-labelledby="cx-more-title" hidden>
-        <div class="cx-offer-card">
-          <button class="cx-offer-close" type="button" data-cx-offer="close" aria-label="Zavrieť">×</button>
-          <span class="cx-offer-kicker">Viac info</span>
-          <h2 id="cx-more-title">Čo ešte dostanete</h2>
-          <ul>
-            ${MORE.map(([title, note]) => `<li>${icons.check}<span><b>${esc(title)}</b><small>${esc(note)}</small></span></li>`).join('')}
-          </ul>
-          <a class="cx-offer-cta" href="${esc(contactHref())}" target="_blank" rel="noreferrer">Chcem to na svoj web ${icons.arrow}</a>
-        </div>
-      </div>
       <section class="cx-owner-hero">
         <div class="cx-owner-copy">
           <span class="cx-owner-kicker">Chatbot pre váš e-shop</span>
@@ -148,7 +137,6 @@
             <button type="button" data-open="advisor">Vyskúšať výber ${icons.arrow}</button>
             <button type="button" data-open="chat" class="is-secondary">Skúsiť chat ${icons.chat}</button>
           </div>
-          <button type="button" class="cx-owner-more" data-cx-offer="open" aria-haspopup="dialog">Viac info ${icons.arrow}</button>
         </div>
         <div class="cx-owner-frame">
           ${ownerFigures}
@@ -412,16 +400,6 @@
   function resetAll(){state.generation=(state.generation||0)+1;state.step=0;state.answers={};state.result=null;state.alternative=null;state.interacted=false;state.busy=false;state.transitioning=false;state.messages=[{role:'assistant',text:document.documentElement.lang==='cs'?'Dobrý den. Vybírejte z nabídky '+brand.name+'. Napište, jaký produkt hledáte, nebo otevřete Výběr.':'Dobrý deň. Vyberajte z ponuky '+brand.name+'. Napíšte, aký produkt hľadáte, alebo otvorte Výber.'}];setMode('chat');}
 
   root.querySelectorAll('[data-open]').forEach((button)=>button.addEventListener('click',()=>openWidget(button.dataset.open)));
-  const offerSheet = root.querySelector('[data-cx-offer="sheet"]');
-  const setOffer = (open) => {
-    offerSheet.hidden = !open;
-    document.body.classList.toggle('cx-offer-open', open);
-    if (open) offerSheet.querySelector('[data-cx-offer="close"]').focus();
-  };
-  root.querySelectorAll('[data-cx-offer="open"]').forEach((b) => b.addEventListener('click', () => setOffer(true)));
-  root.querySelectorAll('[data-cx-offer="close"]').forEach((b) => b.addEventListener('click', () => setOffer(false)));
-  offerSheet.addEventListener('click', (event) => { if (event.target === offerSheet) setOffer(false); });
-  document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && !offerSheet.hidden) setOffer(false); });
 
   root.querySelector('#cx-open').addEventListener('click',()=>openWidget('chat'));
   root.querySelector('#cx-teaser').addEventListener('click',()=>openWidget('advisor'));
