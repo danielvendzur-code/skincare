@@ -1,0 +1,15 @@
+{
+  "checked": "2026-10-10",
+  "candidate": "Dučplant",
+  "company": "Duč Plant, s.r.o.",
+  "ico": "54871026",
+  "year": 2025,
+  "currency": "EUR",
+  "goodsSales": 1016337,
+  "servicesSales": 1206,
+  "salesTotal": 1017543,
+  "financialReportId": 10352620,
+  "templateId": 687,
+  "source": "https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10352620",
+  "decision": "excluded: sales above approximately 1,000,000 EUR"
+}

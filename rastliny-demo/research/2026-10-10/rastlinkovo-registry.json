@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-10",
+  "company": "Maxspan s.r.o.",
+  "ico": "51649764",
+  "owners": [
+    "Mgr. Matej Prokypčák"
+  ],
+  "executives": [
+    "Lenka Čeplová",
+    "Mgr. Matej Prokypčák"
+  ],
+  "employees": {
+    "code": "02",
+    "range": "1",
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=1772733",
+    "recordUpdated": "2026-07-03"
+  },
+  "revenue": {
+    "value": 119447,
+    "year": 2025,
+    "source": "https://www.registeruz.sk/cruz-public/domain/financialreport/show/10167583/687",
+    "note": "Výkaz MÚJ: tržby z predaja tovaru 112 209 € + vlastných výrobkov a služieb 7 238 € = 119 447 €. Prvý riadok 121 111 € zahŕňa aj ostatné výnosy, nie je použitý ako tržby. Sumy sú celofiremné."
+  },
+  "ownersSource": "https://api.statistics.sk/rpo/v1/entity/9571971",
+  "note": "Predajca Maxspan s.r.o. podľa aktuálnych VOP; v rokoch 2021–2023 sa firma volala Rastlinkovo s.r.o. IČO je rovnaké. RPO záznam aktualizovaný 7.7.2025, načítaný 10.10.2026; ORSR pri kontrole neodpovedal."
+}

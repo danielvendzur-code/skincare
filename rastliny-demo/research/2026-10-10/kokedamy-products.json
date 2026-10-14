@@ -1,0 +1,907 @@
+[
+  {
+    "id": "p4977",
+    "name": "Kokedama Maranta Fascinator",
+    "kind": "plants",
+    "priceValue": 659.0,
+    "currency": "CZK",
+    "price": "659 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-maranta-fascinator/",
+    "photo": "/assets/plants/kokedamy-p4977.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2020/10/20200812_144249.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:maranta",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza rozptýlené svetlo.",
+      "Predajca uvádza vhodnosť do polotieňa.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza rozptýlené svetlo. Predajca uvádza vhodnosť do polotieňa. Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "fb62f5f0e288836eead168ef75b1f519c8b640ffb8cd75224091a3f0c61c3c2c",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Jen 2 skladem",
+        "class": "in-stock"
+      }
+    },
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "low",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p6761",
+    "name": "Kokedama Asplenium nidus",
+    "kind": "plants",
+    "priceValue": 629.0,
+    "currency": "CZK",
+    "price": "629 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-asplenium-nidus/",
+    "photo": "/assets/plants/kokedamy-p6761.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2019/01/20190109_0948081.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "genus:asplenium",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza svetlé miesto bez priameho slnka.",
+      "Predajca uvádza vhodnosť do polotieňa."
+    ],
+    "reason": "Predajca uvádza svetlé miesto bez priameho slnka. Predajca uvádza vhodnosť do polotieňa.",
+    "descriptionSha256": "e158113ff9efb6c6fc5e9ec90b3237b6927c1423f885e93f6d5aa0cc85a303c3",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Jen 2 skladem",
+        "class": "in-stock"
+      }
+    },
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "low"
+      ]
+    }
+  },
+  {
+    "id": "p1910",
+    "name": "Kokedama Nolina recurvata",
+    "kind": "plants",
+    "priceValue": 549.0,
+    "currency": "CZK",
+    "price": "549 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-nolina-recurvata/",
+    "photo": "/assets/plants/kokedamy-p1910.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2017/11/20200812_144533.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:nolina"
+    ],
+    "facts": [
+      "Predajca uvádza svetlé miesto bez priameho slnka.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza svetlé miesto bez priameho slnka. Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "7de7eeb8d61119d86439f1636ac99dd3917298aa9975744db76b352db56b5a85",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "",
+        "class": "in-stock"
+      }
+    },
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p1905",
+    "name": "Kokedama Dracaena marginata",
+    "kind": "plants",
+    "priceValue": 509.0,
+    "currency": "CZK",
+    "price": "509 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-dracaena-marginata/",
+    "photo": "/assets/plants/kokedamy-p1905.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2017/11/kokedama_Dracaena_marginata02.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:dracaena",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza svetlé miesto bez priameho slnka.",
+      "Predajca uvádza vhodnosť do polotieňa.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza svetlé miesto bez priameho slnka. Predajca uvádza vhodnosť do polotieňa. Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "e3c2490db9e032bd37851820c28230ec84cc4c701197d03c30e91c5cb9d33505",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "",
+        "class": "in-stock"
+      }
+    },
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "low",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p7764",
+    "name": "Kokedama Sansevieria Fernwood",
+    "kind": "succulents",
+    "priceValue": 758.0,
+    "currency": "CZK",
+    "price": "758 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-sansevieria-fernwood/",
+    "photo": "/assets/plants/kokedamy-p7764.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2024/01/kokedama_sansevieria_fernwood_01.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:sansevieria",
+      "low",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza toleranciu svetla od slunného miesta po polotieň.",
+      "Predajca uvádza vhodnosť do polotieňa.",
+      "Predajca výslovne uvádza toleranciu priameho slnka alebo slunného miesta.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Predajca opisuje druh ako sukulentnú rastlinu."
+    ],
+    "reason": "Predajca uvádza toleranciu svetla od slunného miesta po polotieň. Predajca uvádza vhodnosť do polotieňa. Predajca výslovne uvádza toleranciu priameho slnka alebo slunného miesta.",
+    "descriptionSha256": "2121722fde2ba4b26282d4808ded5d503e0ee6db8ede6101b1f599c9e52d1e62",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladem",
+        "class": "in-stock"
+      }
+    },
+    "classificationSource": "seller-description",
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "low",
+        "sun",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p7157",
+    "name": "Kokedama Hoya",
+    "kind": "succulents",
+    "priceValue": 639.0,
+    "currency": "CZK",
+    "price": "639 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-hoya/",
+    "photo": "/assets/plants/kokedamy-p7157.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2022/08/kokedama-Hoya_6.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:hoya"
+    ],
+    "facts": [
+      "Predajca uvádza svetlé miesto bez priameho slnka.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Predajca opisuje druh ako sukulentnú rastlinu."
+    ],
+    "reason": "Predajca uvádza svetlé miesto bez priameho slnka. Predajca uvádza nenáročnú starostlivosť. Predajca opisuje druh ako sukulentnú rastlinu.",
+    "descriptionSha256": "469cf4c00e3c80c78c2eab1a9039144d04352525665715a054a3386ae8fedb31",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Jen 2 skladem",
+        "class": "in-stock"
+      }
+    },
+    "classificationSource": "seller-description",
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p6762",
+    "name": "Kokedama Asplenium antiquum",
+    "kind": "plants",
+    "priceValue": 629.0,
+    "currency": "CZK",
+    "price": "629 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-asplenium-antiquum/",
+    "photo": "/assets/plants/kokedamy-p6762.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2021/02/20201213_154814.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "genus:asplenium",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza svetlé miesto bez priameho slnka.",
+      "Predajca uvádza vhodnosť do polotieňa."
+    ],
+    "reason": "Predajca uvádza svetlé miesto bez priameho slnka. Predajca uvádza vhodnosť do polotieňa.",
+    "descriptionSha256": "1647585e809ce364a4a70802183368820f8a28c37e355efd65e7e5d16a41c015",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladem",
+        "class": "in-stock"
+      }
+    },
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "low"
+      ]
+    }
+  },
+  {
+    "id": "p6589",
+    "name": "Kokedama Crassula ovata",
+    "kind": "succulents",
+    "priceValue": 619.0,
+    "currency": "CZK",
+    "price": "619 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-crassula-ovata/",
+    "photo": "/assets/plants/kokedamy-p6589.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2021/11/kokedama-Crassula-ovata_4.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:crassula",
+      "sun"
+    ],
+    "facts": [
+      "Predajca výslovne uvádza toleranciu priameho slnka alebo slunného miesta.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Predajca opisuje druh ako sukulentnú rastlinu."
+    ],
+    "reason": "Predajca výslovne uvádza toleranciu priameho slnka alebo slunného miesta. Predajca uvádza nenáročnú starostlivosť. Predajca opisuje druh ako sukulentnú rastlinu.",
+    "descriptionSha256": "21b8f16c440cfd0b04891102e133e585b62039bab84ae288997b1ae21f51e354",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladem",
+        "class": "in-stock"
+      }
+    },
+    "classificationSource": "seller-description",
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "sun",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p6578",
+    "name": "Kokedama Sansevieria kirkii Friends",
+    "kind": "succulents",
+    "priceValue": 759.0,
+    "currency": "CZK",
+    "price": "759 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-sansevieria-kirkii-friends/",
+    "photo": "/assets/plants/kokedamy-p6578.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2021/11/kokedama-Sansevieria-kirkii-Friends_3.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:sansevieria",
+      "low",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza toleranciu svetla od slunného miesta po polotieň.",
+      "Predajca uvádza vhodnosť do polotieňa.",
+      "Predajca výslovne uvádza toleranciu priameho slnka alebo slunného miesta.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Predajca opisuje druh ako sukulentnú rastlinu."
+    ],
+    "reason": "Predajca uvádza toleranciu svetla od slunného miesta po polotieň. Predajca uvádza vhodnosť do polotieňa. Predajca výslovne uvádza toleranciu priameho slnka alebo slunného miesta.",
+    "descriptionSha256": "8762440b098cc4102cca7e4b66a314b0d9fa2f35ad17c8765b6942fd2d1e0333",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Jen 1 skladem",
+        "class": "in-stock"
+      }
+    },
+    "classificationSource": "seller-description",
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "low",
+        "sun",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p6574",
+    "name": "Kokedama Davallia tyermanii",
+    "kind": "plants",
+    "priceValue": 739.0,
+    "currency": "CZK",
+    "price": "739 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-davallia-tyermanii/",
+    "photo": "/assets/plants/kokedamy-p6574.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2021/11/kokedama-Davallia-tyermanii_2.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "easy",
+      "genus:davallia",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza vhodnosť do polotieňa.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza vhodnosť do polotieňa. Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "793358333a59d6e65f25b6377894470d9e5bbd4b5a18294073eed2903101a43d",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Jen 2 skladem",
+        "class": "in-stock"
+      }
+    },
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "low",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p5312",
+    "name": "Kokedama Sansevieria bacularis Mikado",
+    "kind": "succulents",
+    "priceValue": 729.0,
+    "currency": "CZK",
+    "price": "729 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-sansevieria-bacularis-mikado/",
+    "photo": "/assets/plants/kokedamy-p5312.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2021/02/20210204_141534.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:sansevieria",
+      "low",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza toleranciu svetla od slunného miesta po polotieň.",
+      "Predajca uvádza vhodnosť do polotieňa.",
+      "Predajca výslovne uvádza toleranciu priameho slnka alebo slunného miesta.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Predajca opisuje druh ako sukulentnú rastlinu."
+    ],
+    "reason": "Predajca uvádza toleranciu svetla od slunného miesta po polotieň. Predajca uvádza vhodnosť do polotieňa. Predajca výslovne uvádza toleranciu priameho slnka alebo slunného miesta.",
+    "descriptionSha256": "f2ec0d3ecfe6e2c9de21348506dd8d0816c26bed47a8cf6c0c82d3d99bd9b8d6",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Skladem",
+        "class": "in-stock"
+      }
+    },
+    "classificationSource": "seller-description",
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "low",
+        "sun",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p3574",
+    "name": "Kokedama Platycerium",
+    "kind": "plants",
+    "priceValue": 709.0,
+    "currency": "CZK",
+    "price": "709 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-platycerium/",
+    "photo": "/assets/plants/kokedamy-p3574.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2019/01/20200812_145410.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "genus:platycerium",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza rozptýlené svetlo.",
+      "Predajca uvádza vhodnosť do polotieňa."
+    ],
+    "reason": "Predajca uvádza rozptýlené svetlo. Predajca uvádza vhodnosť do polotieňa.",
+    "descriptionSha256": "ffb8913fa99cf09da3e78ac22a247f50a2db9fa2c831dc76535f144910627b61",
+    "sourceAttributes": {
+      "Barva provázku:": [
+        "transparentní (vlasec)",
+        "bílá"
+      ]
+    },
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "Jen 1 skladem",
+        "class": "in-stock"
+      }
+    },
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "low"
+      ]
+    }
+  },
+  {
+    "id": "p1909",
+    "name": "Kokedama Chamaedorea elegans",
+    "kind": "plants",
+    "priceValue": 489.0,
+    "currency": "CZK",
+    "price": "489 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-chamaedorea-elegans/",
+    "photo": "/assets/plants/kokedamy-p1909.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2017/11/kokedama_Chamaedorea_elegans03.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:chamaedorea",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza rozptýlené svetlo.",
+      "Predajca uvádza vhodnosť do polotieňa.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza rozptýlené svetlo. Predajca uvádza vhodnosť do polotieňa. Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "6dbd2fdd10fa8ef1e8a790b465933c23d601addfe1499ed53bf24efa1907cece",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "",
+        "class": "in-stock"
+      }
+    },
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "low",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p1907",
+    "name": "Kokedama Mini Asparagus setaceus",
+    "kind": "plants",
+    "priceValue": 359.0,
+    "currency": "CZK",
+    "price": "359 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-mini-asparagus-setaceus/",
+    "photo": "/assets/plants/kokedamy-p1907.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2017/11/kokedama_Mini_Asparagus_setaceus02.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:asparagus"
+    ],
+    "facts": [
+      "Predajca uvádza svetlé miesto bez priameho slnka.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza svetlé miesto bez priameho slnka. Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "1bd7fb32f2e7f5d6f8e5fb4fb967089f5113dfccc643810b10d1cfd096f3d4c2",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "",
+        "class": "in-stock"
+      }
+    },
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p1906",
+    "name": "Kokedama Asparagus setaceus",
+    "kind": "plants",
+    "priceValue": 599.0,
+    "currency": "CZK",
+    "price": "599 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-asparagus-setaceus/",
+    "photo": "/assets/plants/kokedamy-p1906.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2017/11/kokedama_Asparagus_setaceus03.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:asparagus"
+    ],
+    "facts": [
+      "Predajca uvádza svetlé miesto bez priameho slnka.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza svetlé miesto bez priameho slnka. Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "494c0e051f39fb242fc10fe5bb96bd0e4ecd559630364f9754bf48c9f2a0e0de",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "",
+        "class": "in-stock"
+      }
+    },
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p1904",
+    "name": "Kokedama Ficus microcarpa Ginseng",
+    "kind": "plants",
+    "priceValue": 749.0,
+    "currency": "CZK",
+    "price": "749 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-ficus-microcarpa-ginseng/",
+    "photo": "/assets/plants/kokedamy-p1904.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2017/11/kokedama_Ficus_microcarpa_Ginseng03.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "genus:ficus"
+    ],
+    "facts": [
+      "Predajca uvádza svetlé miesto bez priameho slnka."
+    ],
+    "reason": "Predajca uvádza svetlé miesto bez priameho slnka.",
+    "descriptionSha256": "c3d209cf21d56afae46b58f21d7311de9f9d4a92ff1e4065a1094fd9c0775244",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "",
+        "class": "in-stock"
+      }
+    },
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright"
+      ]
+    }
+  },
+  {
+    "id": "p1901",
+    "name": "Kokedama Asparagus falcatus",
+    "kind": "plants",
+    "priceValue": 599.0,
+    "currency": "CZK",
+    "price": "599 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-asparagus-falcatus/",
+    "photo": "/assets/plants/kokedamy-p1901.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2017/11/kokedama_Asparagus_falcatus02.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:asparagus"
+    ],
+    "facts": [
+      "Predajca uvádza svetlé miesto bez priameho slnka.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza svetlé miesto bez priameho slnka. Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "420e0d33dc0aba27c52c2f7088722b65d32a8928311b17ea9a0c72b7f720c99e",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "",
+        "class": "in-stock"
+      }
+    },
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "easy"
+      ]
+    }
+  },
+  {
+    "id": "p1890",
+    "name": "Kokedama Haworthia",
+    "kind": "succulents",
+    "priceValue": 509.0,
+    "currency": "CZK",
+    "price": "509 Kč",
+    "url": "https://www.kokedamy.cz/produkt/kokedama-haworthia/",
+    "photo": "/assets/plants/kokedamy-p1890.jpg",
+    "imageSource": "https://www.kokedamy.cz/wp-content/uploads/2017/11/kokedama_Haworthia04.jpg",
+    "sourceEndpoint": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "diameter": null,
+    "potDiameter": null,
+    "tags": [
+      "bright",
+      "easy",
+      "genus:haworthia"
+    ],
+    "facts": [
+      "Predajca uvádza svetlé miesto bez priameho slnka.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Predajca opisuje druh ako sukulentnú rastlinu."
+    ],
+    "reason": "Predajca uvádza svetlé miesto bez priameho slnka. Predajca uvádza nenáročnú starostlivosť. Predajca opisuje druh ako sukulentnú rastlinu.",
+    "descriptionSha256": "68b221a1c30c211e16dc2d169e3e2a9725f51dab077f0e712f732a611bca4e92",
+    "sourceAttributes": {},
+    "sourceCategories": [
+      "Kokedamy na postavení"
+    ],
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "stock_availability": {
+        "text": "",
+        "class": "in-stock"
+      }
+    },
+    "classificationSource": "seller-description",
+    "careReview": {
+      "source": "https://www.kokedamy.cz/wp-json/wc/store/v1/products?per_page=100",
+      "field": "short_description / seller care bullet lists",
+      "checked": "2026-10-10",
+      "tags": [
+        "bright",
+        "easy"
+      ]
+    }
+  }
+]

@@ -1,0 +1,593 @@
+[
+  {
+    "id": "v3353",
+    "parentId": 3352,
+    "name": "Drosera capensis {Palmiet River, South Africa} — L",
+    "kind": "plants",
+    "currency": "CZK",
+    "priceValue": 160.0,
+    "price": "160 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/drosera-capensis-palmiet-river-south-africa/?currency=CZK&attribute_pa_velikost=l",
+    "photo": "/assets/plants/greenhunters-v3353.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2023/03/Drosera-capensis-Theewaterskloof-Dam-scaled.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=35",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/drosera-capensis-palmiet-river-south-africa/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:drosera"
+    ],
+    "facts": [
+      "Variant predajcu: L. Průměr 5-10 cm",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 3353,
+    "variantLabel": "L",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": "<p class=\"stock in-stock\">Skladem</p>\n"
+    },
+    "variantSize": "Průměr 5-10 cm",
+    "reason": "Variant predajcu: L. Průměr 5-10 cm Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "f5401de4d7fd4e0031720d6436c0814467b0f4829721a430aa09a3eae11d521b",
+    "sourceCategories": [
+      "Masožravé rostliny pro začátečníky",
+      "Subtropické rosnatky"
+    ]
+  },
+  {
+    "id": "v283",
+    "parentId": 282,
+    "name": "Pinguicula hybrid — L",
+    "kind": "rareplants",
+    "currency": "CZK",
+    "priceValue": 260.0,
+    "price": "260 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/pinguicula-hybrid/?currency=CZK&attribute_pa_velikost=l",
+    "photo": "/assets/plants/greenhunters-v283.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2021/04/Pinguicula-hybrid_L.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=40",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/pinguicula-hybrid/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:pinguicula"
+    ],
+    "facts": [
+      "Variant predajcu: L. Průměr 4-6 cm",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 283,
+    "variantLabel": "L",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": "<p class=\"stock in-stock\">Jen 1 skladem</p>\n"
+    },
+    "variantSize": "Průměr 4-6 cm",
+    "reason": "Variant predajcu: L. Průměr 4-6 cm Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "4a3d931dd1907787868722b8a928026c6b8a3fb7b8def23faa874f70091a4fad",
+    "sourceCategories": [
+      "Mexické tučnice"
+    ]
+  },
+  {
+    "id": "v3311",
+    "parentId": 3310,
+    "name": "Drosera collinsiae {Usutu River, Swaziland} — L",
+    "kind": "plants",
+    "currency": "CZK",
+    "priceValue": 170.0,
+    "price": "170 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/drosera-collinsiae-usutu-river-swaziland/?currency=CZK&attribute_pa_velikost=l",
+    "photo": "/assets/plants/greenhunters-v3311.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2023/10/Drosera-collinsiae-Usutu-River-Swaziland.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=35",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/drosera-collinsiae-usutu-river-swaziland/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:drosera"
+    ],
+    "facts": [
+      "Variant predajcu: L. Průměr 2-3 cm",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 3311,
+    "variantLabel": "L",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": "<p class=\"stock in-stock\">Skladem</p>\n"
+    },
+    "variantSize": "Průměr 2-3 cm",
+    "reason": "Variant predajcu: L. Průměr 2-3 cm Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "277cfdbf0e93c02ff4eecc075cd6ba63f72c289ae60b8da6a9020c5278b5a48b",
+    "sourceCategories": [
+      "Subtropické rosnatky"
+    ]
+  },
+  {
+    "id": "v3023",
+    "parentId": 2903,
+    "name": "Drosera cuneifolia {Table Mountain, South Africa} — L",
+    "kind": "plants",
+    "currency": "CZK",
+    "priceValue": 310.0,
+    "price": "310 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/drosera-cuneifolia-table-mountain-south-africa/?currency=CZK&attribute_pa_velikost=l",
+    "photo": "/assets/plants/greenhunters-v3023.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2025/09/Drosera-cuneifolia-Table-Mountain-South-Africa.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=35",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/drosera-cuneifolia-table-mountain-south-africa/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:drosera"
+    ],
+    "facts": [
+      "Variant predajcu: L. Průměr 3-5 cm",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 3023,
+    "variantLabel": "L",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": "<p class=\"stock in-stock\">Jen 1 skladem</p>\n"
+    },
+    "variantSize": "Průměr 3-5 cm",
+    "reason": "Variant predajcu: L. Průměr 3-5 cm Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "7bf6f3e7745ec3e60d5a35adc48a869a8aadead45f70e513ba87f6ba6f703bdc",
+    "sourceCategories": [
+      "Subtropické rosnatky"
+    ]
+  },
+  {
+    "id": "v3526",
+    "parentId": 3525,
+    "name": "Drosera natalensis {Krantzkloof  Nature Reserve, Durban} — L",
+    "kind": "plants",
+    "currency": "CZK",
+    "priceValue": 190.0,
+    "price": "190 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/drosera-natalensis-krantzkloof-nature-reserve-durban/?currency=CZK&attribute_pa_velikost=l",
+    "photo": "/assets/plants/greenhunters-v3526.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2024/03/Drosera-natalensis-Krantzkloof-Nature-Reserve-Durban.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=35",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/drosera-natalensis-krantzkloof-nature-reserve-durban/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "easy",
+      "genus:drosera"
+    ],
+    "facts": [
+      "Variant predajcu: L. Průměr nad 3 cm",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 3526,
+    "variantLabel": "L",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": "<p class=\"stock in-stock\">Skladem</p>\n"
+    },
+    "variantSize": "Průměr nad 3 cm",
+    "reason": "Variant predajcu: L. Průměr nad 3 cm Predajca uvádza nenáročnú starostlivosť.",
+    "descriptionSha256": "882711b883d13e6ed65c43f3cc43023a8b920559000c432ab4d7eee16767e404",
+    "sourceCategories": [
+      "Subtropické rosnatky"
+    ]
+  },
+  {
+    "id": "v5516",
+    "parentId": 5515,
+    "name": "Drosera tomentosa var. tomentosa {Morro do Jambeiro, Grao Mogol, M.G., Brazil} — L",
+    "kind": "plants",
+    "currency": "CZK",
+    "priceValue": 300.0,
+    "price": "300 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/drosera-tomentosa-var-tomentosa-morro-do-jambeiro-grao-mogol-m-g-brazil/?currency=CZK&attribute_pa_velikost=l",
+    "photo": "/assets/plants/greenhunters-v5516.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2026/09/Drosera-tomentosa-var.-tomentosa-Morro-do-Jambeiro-Grao-Mogol-M.G.-Brazil.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=35",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/drosera-tomentosa-var-tomentosa-morro-do-jambeiro-grao-mogol-m-g-brazil/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:drosera"
+    ],
+    "facts": [
+      "Variant predajcu: L. Průměr 2-3 cm",
+      "Konkrétny druh a variant podľa e-shopu: Drosera tomentosa var. tomentosa {Morro do Jambeiro, Grao Mogol, M.G., Brazil} — L."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 5516,
+    "variantLabel": "L",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": "<p class=\"stock in-stock\">Skladem</p>\n"
+    },
+    "variantSize": "Průměr 2-3 cm",
+    "reason": "Variant predajcu: L. Průměr 2-3 cm Konkrétny druh a variant podľa e-shopu: Drosera tomentosa var. tomentosa {Morro do Jambeiro, Grao Mogol, M.G., Brazil} — L.",
+    "descriptionSha256": "a65f21f058585548cb14a5397094f8c74871d6b2e886d5d56d31e37ebe6e49b0",
+    "sourceCategories": [
+      "Subtropické rosnatky"
+    ]
+  },
+  {
+    "id": "v946",
+    "parentId": 944,
+    "name": "Pinguicula sethos — L",
+    "kind": "rareplants",
+    "currency": "CZK",
+    "priceValue": 280.0,
+    "price": "280 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/pinguicula-sethos/?currency=CZK&attribute_pa_velikost=l",
+    "photo": "/assets/plants/greenhunters-v946.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2021/05/Pinguicula-sethos_XL.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=40",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/pinguicula-sethos/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:pinguicula"
+    ],
+    "facts": [
+      "Variant predajcu: L. Průměr 4-6 cm",
+      "Konkrétny druh a variant podľa e-shopu: Pinguicula sethos — L."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 946,
+    "variantLabel": "L",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": "<p class=\"stock in-stock\">Jen 1 skladem</p>\n"
+    },
+    "variantSize": "Průměr 4-6 cm",
+    "reason": "Variant predajcu: L. Průměr 4-6 cm Konkrétny druh a variant podľa e-shopu: Pinguicula sethos — L.",
+    "descriptionSha256": "4e7882a7171443ca7c918848f3a03b40848d5a43efc7796aefba0626fe34cfdb",
+    "sourceCategories": [
+      "Mexické tučnice"
+    ]
+  },
+  {
+    "id": "v4192",
+    "parentId": 4190,
+    "name": "Pinguicula ibarrae — L",
+    "kind": "rareplants",
+    "currency": "CZK",
+    "priceValue": 290.0,
+    "price": "290 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/pinguicula-ibarrae/?currency=CZK&attribute_pa_velikost=l",
+    "photo": "/assets/plants/greenhunters-v4192.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2025/03/Pinguicula-ibarrae.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=40",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/pinguicula-ibarrae/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:pinguicula"
+    ],
+    "facts": [
+      "Variant predajcu: L. Průměr 4-6 cm",
+      "Konkrétny druh a variant podľa e-shopu: Pinguicula ibarrae — L."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 4192,
+    "variantLabel": "L",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": "<p class=\"stock in-stock\">Jen 2 skladem</p>\n"
+    },
+    "variantSize": "Průměr 4-6 cm",
+    "reason": "Variant predajcu: L. Průměr 4-6 cm Konkrétny druh a variant podľa e-shopu: Pinguicula ibarrae — L.",
+    "descriptionSha256": "b65d1831805c315119134d1682cb70b2b25788d41d6892e619638b24b4c8d205",
+    "sourceCategories": [
+      "Mexické tučnice"
+    ]
+  },
+  {
+    "id": "v98",
+    "parentId": 97,
+    "name": "Základní substrát pro masožravé rostliny — 0,5 l",
+    "kind": "substrates",
+    "currency": "CZK",
+    "priceValue": 30.0,
+    "price": "30 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/zakladni-substrat/?currency=CZK&attribute_pa_mnozstvi=05-l",
+    "photo": "/assets/plants/greenhunters-v98.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2021/02/Zakladni-substrat-pro-masozrave-rostliny.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=93",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/zakladni-substrat/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:základní"
+    ],
+    "facts": [
+      "Variant predajcu: 0,5 l. Množství substrátu pro 2 květináče 7x7x8 cm nebo pro 1 květináč 9x9x10 cm.",
+      "Konkrétny druh a variant podľa e-shopu: Základní substrát pro masožravé rostliny — 0,5 l."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 98,
+    "variantLabel": "0,5 l",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": ""
+    },
+    "variantSize": "Množství substrátu pro 2 květináče 7x7x8 cm nebo pro 1 květináč 9x9x10 cm.",
+    "reason": "Variant predajcu: 0,5 l. Množství substrátu pro 2 květináče 7x7x8 cm nebo pro 1 květináč 9x9x10 cm. Konkrétny druh a variant podľa e-shopu: Základní substrát pro masožravé rostliny — 0,5 l.",
+    "descriptionSha256": "2f110e38c582f97d25739122011604e235dae2839ca06e7f5d75db4d89819919",
+    "sourceCategories": [
+      "Hotové substráty"
+    ]
+  },
+  {
+    "id": "v606",
+    "parentId": 605,
+    "name": "Písčitý substrát pro masožravé rostliny — 0,5 l",
+    "kind": "substrates",
+    "currency": "CZK",
+    "priceValue": 35.0,
+    "price": "35 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/piscity-substrat/?currency=CZK&attribute_pa_mnozstvi=05-l",
+    "photo": "/assets/plants/greenhunters-v606.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2021/03/Piscity-substrat-1-e1615674679753.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=93",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/piscity-substrat/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:písčitý"
+    ],
+    "facts": [
+      "Variant predajcu: 0,5 l. Množství substrátu pro 2 květináče 7x7x8 cm nebo pro 1 květináč 9x9x10 cm.",
+      "Konkrétny druh a variant podľa e-shopu: Písčitý substrát pro masožravé rostliny — 0,5 l."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 606,
+    "variantLabel": "0,5 l",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": ""
+    },
+    "variantSize": "Množství substrátu pro 2 květináče 7x7x8 cm nebo pro 1 květináč 9x9x10 cm.",
+    "reason": "Variant predajcu: 0,5 l. Množství substrátu pro 2 květináče 7x7x8 cm nebo pro 1 květináč 9x9x10 cm. Konkrétny druh a variant podľa e-shopu: Písčitý substrát pro masožravé rostliny — 0,5 l.",
+    "descriptionSha256": "87c2a6f74f3bc48e2e88252f1fc1a1df1b162758627549f5e2402e368ed39422",
+    "sourceCategories": [
+      "Hotové substráty"
+    ]
+  },
+  {
+    "id": "v106",
+    "parentId": 105,
+    "name": "Základní písčitý substrát pro mexické tučnice — 0,5 l",
+    "kind": "substrates",
+    "currency": "CZK",
+    "priceValue": 35.0,
+    "price": "35 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/substrat-pro-mexicke-tucnice/?currency=CZK&attribute_pa_mnozstvi=05-l",
+    "photo": "/assets/plants/greenhunters-v106.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2021/03/Piscity-substrat.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=93",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/substrat-pro-mexicke-tucnice/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:základní"
+    ],
+    "facts": [
+      "Variant predajcu: 0,5 l. Množství substrátu pro 2 květináče 7x7x8 cm nebo pro 1 květináč 9x9x10 cm.",
+      "Konkrétny druh a variant podľa e-shopu: Základní písčitý substrát pro mexické tučnice — 0,5 l."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 106,
+    "variantLabel": "0,5 l",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": ""
+    },
+    "variantSize": "Množství substrátu pro 2 květináče 7x7x8 cm nebo pro 1 květináč 9x9x10 cm.",
+    "reason": "Variant predajcu: 0,5 l. Množství substrátu pro 2 květináče 7x7x8 cm nebo pro 1 květináč 9x9x10 cm. Konkrétny druh a variant podľa e-shopu: Základní písčitý substrát pro mexické tučnice — 0,5 l.",
+    "descriptionSha256": "cc0e6da00ea227ede0c6e66153504060d7d07a134da781fbbd031ae27137dfcb",
+    "sourceCategories": [
+      "Hotové substráty"
+    ]
+  },
+  {
+    "id": "v102",
+    "parentId": 101,
+    "name": "Epifytický substrát pro masožravé rostliny – vylepšené složení — 0,5 l",
+    "kind": "substrates",
+    "currency": "CZK",
+    "priceValue": 40.0,
+    "price": "40 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/epifyticky-substrat/?currency=CZK&attribute_pa_mnozstvi=05-l",
+    "photo": "/assets/plants/greenhunters-v102.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2022/01/Epifyticky-substrat-pro-masozrave-rostliny.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=93",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/epifyticky-substrat/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:epifytický"
+    ],
+    "facts": [
+      "Variant predajcu: 0,5 l. Množství substrátu pro 2 květináče 7x7x8 cm nebo pro 1 květináč 9x9x10 cm.",
+      "Konkrétny druh a variant podľa e-shopu: Epifytický substrát pro masožravé rostliny – vylepšené složení — 0,5 l."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 102,
+    "variantLabel": "0,5 l",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": ""
+    },
+    "variantSize": "Množství substrátu pro 2 květináče 7x7x8 cm nebo pro 1 květináč 9x9x10 cm.",
+    "reason": "Variant predajcu: 0,5 l. Množství substrátu pro 2 květináče 7x7x8 cm nebo pro 1 květináč 9x9x10 cm. Konkrétny druh a variant podľa e-shopu: Epifytický substrát pro masožravé rostliny – vylepšené složení — 0,5 l.",
+    "descriptionSha256": "29b625a370a866809651f582f793bbdd5a43b404af0ee2d490cb1ff0ce440123",
+    "sourceCategories": [
+      "Hotové substráty"
+    ]
+  },
+  {
+    "id": "v4383",
+    "parentId": 4381,
+    "name": "Rašelina bílá HAWITA 0-5 mm — 5 l",
+    "kind": "substrates",
+    "currency": "CZK",
+    "priceValue": 65.0,
+    "price": "65 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/raselina-bila-hawita-0-5-mm/?currency=CZK&attribute_pa_mnozstvi=5-l",
+    "photo": "/assets/plants/greenhunters-v4383.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2021/02/Raselina-bila.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=94",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/raselina-bila-hawita-0-5-mm/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:rašelina"
+    ],
+    "facts": [
+      "Variant predajcu: 5 l.",
+      "Konkrétny druh a variant podľa e-shopu: Rašelina bílá HAWITA 0-5 mm — 5 l."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 4383,
+    "variantLabel": "5 l",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": ""
+    },
+    "variantSize": "",
+    "reason": "Variant predajcu: 5 l. Konkrétny druh a variant podľa e-shopu: Rašelina bílá HAWITA 0-5 mm — 5 l.",
+    "descriptionSha256": "558b607d9ee64dd83c89f00f7eb30fe41f9b91df1b5b6337e57c453f89901cf8",
+    "sourceCategories": [
+      "Surové substráty a složky"
+    ]
+  },
+  {
+    "id": "v4380",
+    "parentId": 4378,
+    "name": "Rašelina bílá HAWITA 5-10 mm — 5 l",
+    "kind": "substrates",
+    "currency": "CZK",
+    "priceValue": 65.0,
+    "price": "65 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/raselina-bila-hawita-5-10-mm/?currency=CZK&attribute_pa_mnozstvi=5-l",
+    "photo": "/assets/plants/greenhunters-v4380.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2021/02/Raselina-bila.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=94",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/raselina-bila-hawita-5-10-mm/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:rašelina"
+    ],
+    "facts": [
+      "Variant predajcu: 5 l.",
+      "Konkrétny druh a variant podľa e-shopu: Rašelina bílá HAWITA 5-10 mm — 5 l."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 4380,
+    "variantLabel": "5 l",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": ""
+    },
+    "variantSize": "",
+    "reason": "Variant predajcu: 5 l. Konkrétny druh a variant podľa e-shopu: Rašelina bílá HAWITA 5-10 mm — 5 l.",
+    "descriptionSha256": "5403c2e947071845b4324042153a02ce8654e8511c7d7d8e90c427824786cf77",
+    "sourceCategories": [
+      "Surové substráty a složky"
+    ]
+  },
+  {
+    "id": "v96",
+    "parentId": 94,
+    "name": "Perlit 2-6 mm — 5 l",
+    "kind": "substrates",
+    "currency": "CZK",
+    "priceValue": 80.0,
+    "price": "80 Kč",
+    "url": "https://greenhunters.cz/eshop/produkt/perlit/?currency=CZK&attribute_pa_mnozstvi=5-l",
+    "photo": "/assets/plants/greenhunters-v96.jpg",
+    "imageSource": "https://greenhunters.cz/eshop/wp-content/uploads/2021/03/Perlit.jpg",
+    "sourceEndpoint": "https://greenhunters.cz/eshop/wp-json/wc/store/v1/products?per_page=100&category=94",
+    "sourceDetail": "https://greenhunters.cz/eshop/produkt/perlit/?currency=CZK",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:perlit"
+    ],
+    "facts": [
+      "Variant predajcu: 5 l.",
+      "Konkrétny druh a variant podľa e-shopu: Perlit 2-6 mm — 5 l."
+    ],
+    "diameter": null,
+    "potDiameter": null,
+    "variantId": 96,
+    "variantLabel": "5 l",
+    "sourceStockEvidence": {
+      "is_in_stock": true,
+      "is_purchasable": true,
+      "backorders_allowed": false,
+      "availability_html": ""
+    },
+    "variantSize": "",
+    "reason": "Variant predajcu: 5 l. Konkrétny druh a variant podľa e-shopu: Perlit 2-6 mm — 5 l.",
+    "descriptionSha256": "7c2eeea3743aade433b8161854feafef79827dd6574f95b7374d4b540e3b29ed",
+    "sourceCategories": [
+      "Surové substráty a složky"
+    ]
+  }
+]

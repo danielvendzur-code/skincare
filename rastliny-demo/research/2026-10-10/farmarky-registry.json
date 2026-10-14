@@ -1,0 +1,23 @@
+{
+  "checked": "2026-10-10",
+  "company": "Jolana Šádková",
+  "ico": "09315543",
+  "owners": [
+    "Jolana Šádková"
+  ],
+  "executives": [
+    "Jolana Šádková"
+  ],
+  "employees": {
+    "code": "110",
+    "range": "1–5",
+    "source": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/09315543",
+    "recordUpdated": "2022-01-31"
+  },
+  "revenue": {
+    "value": null,
+    "year": null,
+    "note": "Tržby živnostníka nie sú v použitom verejnom registri doložené; veľkosť overená podľa ARES."
+  },
+  "ownersSource": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/09315543"
+}

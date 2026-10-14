@@ -1,0 +1,696 @@
+[
+  {
+    "id": "p514",
+    "name": "Tradescantia Unicorn Květináč 7 cm",
+    "url": "https://www.pokojovkyzeseveru.cz/tradescantia-unicorn/",
+    "kind": "plants",
+    "priceValue": 95.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/514_c-1.jpg?ff=1&x=1024&y=768&q=85&ts=6aab8bee&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/pokojove-rostliny/",
+    "sourceCategory": "pokojove-rostliny",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:tradescantia",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 7 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 7 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 7.0,
+    "photo": "/assets/plants/sever-p514.jpg",
+    "price": "95 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Skladem (1 ks) Vyprodáno Vyprodáno Vyprodáno Skladem (1 ks) Skladem (1 ks) Vyprodáno Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Zvolte variantu"
+      ],
+      "Kód:": [
+        "514/1 514/2 514/3 514/4 514/5 514/6 514/10 514/9 514/8 514/7 514/11 514/12 Zvolte variantu"
+      ],
+      "Kategorie :": [
+        "Ostatní"
+      ],
+      "? Specifické vrácení :": [
+        "Rostliny"
+      ]
+    },
+    "descriptionSha256": "7f26846e19771a25f5f1432570a31aaeb7f8bd6a239d8c744b3119f04bc21995"
+  },
+  {
+    "id": "p47",
+    "name": "Epipremnum Marble queen Průměr květináče 12 cm.",
+    "url": "https://www.pokojovkyzeseveru.cz/epipremnum-marble-queen/",
+    "kind": "plants",
+    "priceValue": 199.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/47_c-1.jpg?ff=1&x=1024&y=768&q=85&ts=6aab887f&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/pokojove-rostliny/strana-5/",
+    "sourceCategory": "pokojove-rostliny/strana-5",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:epipremnum",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/sever-p47.jpg",
+    "price": "199 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Vyprodáno Skladem (1 ks) Vyprodáno Skladem (1 ks) Skladem (1 ks) Vyprodáno Skladem (1 ks) Zvolte variantu"
+      ],
+      "Kód:": [
+        "47/1 47/2 47/3 47/4 47/5 47/6 47/10 47/9 47/8 47/7 47/11 Zvolte variantu"
+      ],
+      "Kategorie :": [
+        "Pnoucí a převislé"
+      ],
+      "? Specifické vrácení :": [
+        "Rostliny"
+      ]
+    },
+    "descriptionSha256": "dc64117c16c6ad2c955e3cc95cc7cdd0e3ffc73f9bbb55b1b4982dddc06a7610"
+  },
+  {
+    "id": "p532",
+    "name": "Sansevieria cylindrica Květináč 12 cm.",
+    "url": "https://www.pokojovkyzeseveru.cz/sansevieria-cylindrica/",
+    "kind": "succulents",
+    "priceValue": 230.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/532_c-1.jpg?ff=1&x=1024&y=768&q=85&ts=69cd24d7&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/sukulentni-rostliny/",
+    "sourceCategory": "sukulentni-rostliny",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:sansevieria"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/sever-p532.jpg",
+    "price": "230 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Vyprodáno Vyprodáno Vyprodáno Zvolte variantu"
+      ],
+      "Kód:": [
+        "532/1 532/2 532/3 532/4 532/5 532/6 Zvolte variantu"
+      ],
+      "Kategorie :": [
+        "Sukulentní rostliny"
+      ],
+      "? Specifické vrácení :": [
+        "Rostliny"
+      ]
+    },
+    "descriptionSha256": "a237f8e963226b4d8548841582e0568752860496a1b36b27b9f781b4ac540f80"
+  },
+  {
+    "id": "p394",
+    "name": "Monstera Minima Květináč 12 cm.",
+    "url": "https://www.pokojovkyzeseveru.cz/monstera-minima/",
+    "kind": "plants",
+    "priceValue": 230.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/394_c-1.jpg?ff=1&x=1024&y=768&q=85&ts=6aa12cd7&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/pokojove-rostliny/strana-7/",
+    "sourceCategory": "pokojove-rostliny/strana-7",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:monstera",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/sever-p394.jpg",
+    "price": "230 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Vyprodáno Skladem (1 ks) Vyprodáno Vyprodáno Skladem (1 ks) Vyprodáno Vyprodáno Zvolte variantu"
+      ],
+      "Kód:": [
+        "394/1 394/2 394/3 394/4 394/5 394/6 394/8 394/7 Zvolte variantu"
+      ],
+      "Kategorie :": [
+        "Monstera a philodendron"
+      ],
+      "? Specifické vrácení :": [
+        "Rostliny"
+      ]
+    },
+    "descriptionSha256": "e974d8271313bffdc29397415eca70838894223dc1b9973a5e138e3cb8303542"
+  },
+  {
+    "id": "p790",
+    "name": "Dracaena fragrans Malaika Květináč 12 cm.",
+    "url": "https://www.pokojovkyzeseveru.cz/dracaena-fragrans-malaika/",
+    "kind": "plants",
+    "priceValue": 260.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/790_c-1.jpg?ff=1&x=1024&y=768&q=85&ts=6ab516ff&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/pokojove-rostliny/strana-10/",
+    "sourceCategory": "pokojove-rostliny/strana-10",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:dracaena",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/sever-p790.jpg",
+    "price": "260 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Zvolte variantu"
+      ],
+      "Kód:": [
+        "790/1 790/2 790/3 790/4 790/5 790/6 790/8 790/7 Zvolte variantu"
+      ]
+    },
+    "descriptionSha256": "54e05458afa8c55a351dc09af4ff6d32c1390b3c23a5673e677fe3c6cae6a7d0"
+  },
+  {
+    "id": "p170",
+    "name": "Hoya DS70 Průměr květináče 12 cm.",
+    "url": "https://www.pokojovkyzeseveru.cz/hoya-burtoniae-variegata/",
+    "kind": "plants",
+    "priceValue": 260.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/170_c-1--12-cm.jpg?ff=1&x=1024&y=768&q=85&ts=6a901c51&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/pokojove-rostliny/strana-10/",
+    "sourceCategory": "pokojove-rostliny/strana-10",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:hoya"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 14 cm."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 14 cm.",
+    "diameter": null,
+    "potDiameter": 14.0,
+    "photo": "/assets/plants/sever-p170.jpg",
+    "price": "260 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Vyprodáno Skladem (1 ks) Zvolte variantu"
+      ],
+      "Kód:": [
+        "170/1 170/5 170/6 170/10 170/9 170/8 170/11 170/12 170/13 170/14 Zvolte variantu"
+      ],
+      "Kategorie :": [
+        "Pokojové rostliny"
+      ],
+      "? Specifické vrácení :": [
+        "Rostliny"
+      ]
+    },
+    "descriptionSha256": "a569a422e520a93c2f394bcdaf8cef45c6fe23b990088bcaf938e49785a72280"
+  },
+  {
+    "id": "p308",
+    "name": "Hoya carnosa Tricolor Průměr květináče 12 nebo 14  cm.",
+    "url": "https://www.pokojovkyzeseveru.cz/hoya-carnosa-tricolor/",
+    "kind": "plants",
+    "priceValue": 320.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/308_c-6--12-cm.jpg?ff=1&x=1024&y=768&q=85&ts=6a90134a&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/pokojove-rostliny/strana-12/",
+    "sourceCategory": "pokojove-rostliny/strana-12",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:hoya",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 14 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 14 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 14.0,
+    "photo": "/assets/plants/sever-p308.jpg",
+    "price": "320 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Skladem (1 ks) Vyprodáno Skladem (1 ks) Vyprodáno Skladem (1 ks) Zvolte variantu"
+      ],
+      "Kód:": [
+        "308/3 308/4 308/6 308/9 308/8 308/7 Zvolte variantu"
+      ],
+      "Kategorie :": [
+        "Pokojové rostliny"
+      ],
+      "? Specifické vrácení :": [
+        "Rostliny"
+      ]
+    },
+    "descriptionSha256": "6a761d5e25569c154c2af24aa8bfde1587046db3577d2cfca0dcf9a88eed361d"
+  },
+  {
+    "id": "p484",
+    "name": "Philodendron Imperial red Květináč 12 cm.",
+    "url": "https://www.pokojovkyzeseveru.cz/philodendron-imperial-red/",
+    "kind": "plants",
+    "priceValue": 290.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/484-3_c-4.jpg?ff=1&x=1024&y=768&q=85&ts=69a87270&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/pokojove-rostliny/strana-12/",
+    "sourceCategory": "pokojove-rostliny/strana-12",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:philodendron",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Popínavý alebo previsnutý rast podľa popisu predajcu.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/sever-p484.jpg",
+    "price": "290 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Vyprodáno Vyprodáno Zvolte variantu"
+      ],
+      "Kód:": [
+        "484/4 484/5 484/6 Zvolte variantu"
+      ],
+      "Kategorie :": [
+        "Monstera a philodendron"
+      ],
+      "? Specifické vrácení :": [
+        "Rostliny"
+      ]
+    },
+    "descriptionSha256": "35702592e59f3367b38c67143ffa852088e1d0d8e9882151fe5480c3c4fde6ff"
+  },
+  {
+    "id": "p751",
+    "name": "Philodendron Brandtianum Květináč 12 cm.",
+    "url": "https://www.pokojovkyzeseveru.cz/philodendron-brandtianum/",
+    "kind": "plants",
+    "priceValue": 299.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/751_c-1.jpg?ff=1&x=1024&y=768&q=85&ts=6a7f18c4&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/pokojove-rostliny/strana-12/",
+    "sourceCategory": "pokojove-rostliny/strana-12",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:philodendron"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/sever-p751.jpg",
+    "price": "299 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Vyprodáno Vyprodáno Vyprodáno Vyprodáno Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Zvolte variantu"
+      ],
+      "Kód:": [
+        "751/1 751/2 751/3 751/4 751/5 751/6 751/10 751/9 751/8 751/7 Zvolte variantu"
+      ],
+      "Kategorie :": [
+        "Monstera a philodendron"
+      ],
+      "? Specifické vrácení :": [
+        "Rostliny"
+      ]
+    },
+    "descriptionSha256": "de43d80fae57a75d4703243b5b9b99e86ee56e204b959893e026340bca4f35de"
+  },
+  {
+    "id": "p559",
+    "name": "Hoya carnosa Silver spots Květináč 12 cm.",
+    "url": "https://www.pokojovkyzeseveru.cz/hoya-carnosa-silver-spots/",
+    "kind": "plants",
+    "priceValue": 349.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/559_c-1.jpg?ff=1&x=1024&y=768&q=85&ts=6a901047&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/pokojove-rostliny/strana-14/",
+    "sourceCategory": "pokojove-rostliny/strana-14",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:hoya"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/sever-p559.jpg",
+    "price": "349 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Vyprodáno Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Vyprodáno Skladem (1 ks) Vyprodáno Vyprodáno Skladem (1 ks) Zvolte variantu"
+      ],
+      "Kód:": [
+        "559/1 559/2 559/3 559/4 559/5 559/6 559/10 559/9 559/8 559/7 Zvolte variantu"
+      ],
+      "Kategorie :": [
+        "Hoya"
+      ],
+      "? Specifické vrácení :": [
+        "Rostliny"
+      ]
+    },
+    "descriptionSha256": "57c329b74919183c598fe1587e783256ecfbe966577a6f1546783b5330d0c921"
+  },
+  {
+    "id": "p793",
+    "name": "Hoya crassipetiolata Splash Round Leaf Květináč 8 cm.",
+    "url": "https://www.pokojovkyzeseveru.cz/hoya-crassipetiolata-splash-round-leaf/",
+    "kind": "plants",
+    "priceValue": 380.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/793_c-1.jpg?ff=1&x=1024&y=768&q=85&ts=6aab8d53&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/pokojove-rostliny/strana-14/",
+    "sourceCategory": "pokojove-rostliny/strana-14",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:hoya"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 8 cm."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 8 cm.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/sever-p793.jpg",
+    "price": "380 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Vyprodáno Zvolte variantu"
+      ],
+      "Kód:": [
+        "793/1 793/2 Zvolte variantu"
+      ]
+    },
+    "descriptionSha256": "2acae72b00dbdd17300acff2bb74697f1050d9a5794e519fb1afe909ecc139d7"
+  },
+  {
+    "id": "p760",
+    "name": "Monstera Burle Marx Flame Monstera Burle Marx Flame (květináč 12 cm, výška 30 cm)",
+    "url": "https://www.pokojovkyzeseveru.cz/monstera-burle-marx-flame/",
+    "kind": "plants",
+    "priceValue": 699.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/760_c-1.jpg?ff=1&x=1024&y=768&q=85&ts=6a87ea28&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/pokojove-rostliny/strana-16/",
+    "sourceCategory": "pokojove-rostliny/strana-16",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "genus:monstera"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/sever-p760.jpg",
+    "price": "699 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Vyprodáno Skladem (1 ks) Zvolte variantu"
+      ],
+      "Kód:": [
+        "760/1 760/2 760/3 760/4 760/5 760/6 Zvolte variantu"
+      ],
+      "Kategorie :": [
+        "Monstera a philodendron"
+      ],
+      "? Specifické vrácení :": [
+        "Rostliny"
+      ]
+    },
+    "descriptionSha256": "407641203af042d19c2f6ac773f15cbc94cbfd779d4974bfaa27e18b6f30dcc5"
+  },
+  {
+    "id": "p293",
+    "name": "Aeschynanthus Marmoratus Průměr květináče 19 cm.",
+    "url": "https://www.pokojovkyzeseveru.cz/aeschynanthus-marmoratus/",
+    "kind": "plants",
+    "priceValue": 499.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/293_c-1.jpg?ff=1&x=1024&y=768&q=85&ts=6a900945&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/pokojove-rostliny/strana-16/",
+    "sourceCategory": "pokojove-rostliny/strana-16",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:aeschynanthus",
+      "trailing"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 19 cm.",
+      "Predajca uvádza nenáročnú starostlivosť.",
+      "Popínavý alebo previsnutý rast podľa popisu predajcu."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 19 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 19.0,
+    "photo": "/assets/plants/sever-p293.jpg",
+    "price": "499 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Skladem (1 ks) Vyprodáno Vyprodáno Vyprodáno Vyprodáno Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Zvolte variantu"
+      ],
+      "Kód:": [
+        "293/1 293/2 293/3 293/4 293/5 293/6 293/9 293/8 293/7 Zvolte variantu"
+      ],
+      "Kategorie :": [
+        "Pnoucí a převislé"
+      ],
+      "? Specifické vrácení :": [
+        "Rostliny"
+      ]
+    },
+    "descriptionSha256": "8311d75b8534e7fff699227b427b41c9b4432d6bc7245d10d5c184dee8d2462f"
+  },
+  {
+    "id": "p835",
+    "name": "Sansevieria Black Dragon temný tchynin jazyk | květináč 12 cm",
+    "url": "https://www.pokojovkyzeseveru.cz/sansevieria-black-dragon/",
+    "kind": "succulents",
+    "priceValue": 240.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/835_c-1.jpg?ff=1&x=1024&y=768&q=85&ts=6abe4c75&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/sukulentni-rostliny/strana-2/",
+    "sourceCategory": "sukulentni-rostliny/strana-2",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "bright",
+      "easy",
+      "genus:sansevieria",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/sever-p835.jpg",
+    "price": "240 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (1 ks) Vyprodáno Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Skladem (1 ks) Zvolte variantu"
+      ],
+      "Kód:": [
+        "835/1 835/2 835/3 835/4 835/5 835/6 835/7 Zvolte variantu"
+      ]
+    },
+    "descriptionSha256": "40d4f96f9dc70de37968b4e7149c430b9011ec4b0a28c79cfb174cca374c7eff"
+  },
+  {
+    "id": "p738",
+    "name": "Univerzální vzdušný substrát Akční cena",
+    "url": "https://www.pokojovkyzeseveru.cz/univerzalni-vzdusny-substrat/",
+    "kind": "substrates",
+    "priceValue": 45.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/738_c-1--1l.jpg?ff=1&x=1024&y=768&q=85&ts=6a7057ee&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/substraty-hnojiva/",
+    "sourceCategory": "substraty-hnojiva",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:univerzální",
+      "universal-mix"
+    ],
+    "facts": [
+      "Určenie z názvu a popisu e-shopu. Univerzální vzdušný substrát Akční cena."
+    ],
+    "reason": "Určenie z názvu a popisu e-shopu. Univerzální vzdušný substrát Akční cena.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/sever-p738.jpg",
+    "price": "45 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (>5 ks) Skladem (4 ks) Zvolte variantu"
+      ],
+      "Kód:": [
+        "738/1 738/2 Zvolte variantu"
+      ]
+    },
+    "descriptionSha256": "d3695a0206bbe243d3bf8cbd456a23b0025b5b331f33943b6d5cfc21a7f32649"
+  },
+  {
+    "id": "p278",
+    "name": "LECHUZA PON 3l Minerální substrát LECHUZA PON 3l",
+    "url": "https://www.pokojovkyzeseveru.cz/lechuza-pon-3l/",
+    "kind": "substrates",
+    "priceValue": 190.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/278_821-69-lechuza-pon-3l.jpg?ff=1&x=1024&y=768&q=85&ts=6862ad75&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/substraty-hnojiva/",
+    "sourceCategory": "substraty-hnojiva",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "genus:lechuza"
+    ],
+    "facts": [
+      "Určenie z názvu a popisu e-shopu. LECHUZA PON 3l Minerální substrát LECHUZA PON 3l."
+    ],
+    "reason": "Určenie z názvu a popisu e-shopu. LECHUZA PON 3l Minerální substrát LECHUZA PON 3l.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/sever-p278.jpg",
+    "price": "190 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (3 ks)"
+      ],
+      "Kód:": [
+        "278"
+      ],
+      "Kategorie :": [
+        "Substráty a hnojiva"
+      ],
+      "Hmotnost :": [
+        "1 kg"
+      ]
+    },
+    "descriptionSha256": "9b372c8ee9b8bb26ca420c6f2f370b49c1ce8ad0a5705a5d62525da2640612ae"
+  },
+  {
+    "id": "p284",
+    "name": "Minerální substrát CACTUSPON 3l CACTUSPON minerální substrát pro kaktusy a sukulenty",
+    "url": "https://www.pokojovkyzeseveru.cz/mineralni-substrat-cactuspon-3l/",
+    "kind": "substrates",
+    "priceValue": 210.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/shop/big/284_lechuza-cactuspon-3l.jpg?ff=1&x=1024&y=768&q=85&ts=6862bf75&sg=161563f2",
+    "sourceEndpoint": "https://www.pokojovkyzeseveru.cz/substraty-hnojiva/",
+    "sourceCategory": "substraty-hnojiva",
+    "stock": "InStock",
+    "checked": "2026-10-10",
+    "tags": [
+      "cactus-mix",
+      "genus:minerální"
+    ],
+    "facts": [
+      "Určenie z názvu a popisu e-shopu. Minerální substrát CACTUSPON 3l CACTUSPON minerální substrát pro kaktusy a sukulenty."
+    ],
+    "reason": "Určenie z názvu a popisu e-shopu. Minerální substrát CACTUSPON 3l CACTUSPON minerální substrát pro kaktusy a sukulenty.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/sever-p284.jpg",
+    "price": "210 Kč",
+    "sourceAttributes": {
+      "Dostupnost": [
+        "Skladem (5 ks)"
+      ],
+      "Kód:": [
+        "284"
+      ],
+      "Kategorie :": [
+        "Substráty a hnojiva"
+      ],
+      "Hmotnost :": [
+        "2 kg"
+      ]
+    },
+    "descriptionSha256": "2297358a2066911ee173132bb4f59c6b813103b28e5599792ab10147d9d61c5b"
+  }
+]

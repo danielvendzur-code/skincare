@@ -1,0 +1,568 @@
+[
+  {
+    "id": "p1860",
+    "name": "Borovica málokvetá Glauca",
+    "kind": "conifers",
+    "price": "92,26 €",
+    "priceValue": 92.26,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/1860-borovica-malokveta-glauca-pinus-parviflora-glauca/",
+    "photo": "/assets/plants/abies-p1860.jpg",
+    "tags": [
+      "conifer",
+      "genus:pinus"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 100-110 cm, šírka 70-80 cm, na kmienku 25-35 cm s obvodom 6-8 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 10.0 l.",
+      "Botanický rod podľa parametra predajcu: Pinus."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 100-110 cm, šírka 70-80 cm, na kmienku 25-35 cm s obvodom 6-8 cm. Veľkosť pri dodaní podľa predajcu: 10.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00536-borovica-malokveta-glauca-pinus-parviflora-glauca.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 2,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "c00f0dec6b4b778fb09819be0eb4ebd33426fdbf57ecc6edb1aa490bfedbac07"
+  },
+  {
+    "id": "p3690",
+    "name": "Cypruštek tupolistý Nana Gracilis, na kmienku 60-70 cm",
+    "kind": "conifers",
+    "price": "95,00 €",
+    "priceValue": 95.0,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/3690-cyprustek-tupolisty-nana-gracilis-na-kmienku-60-70-cm-chamaecyparis-obtusa-nana-gracilis-in-caule-60-70-cm/",
+    "photo": "/assets/plants/abies-p3690.jpg",
+    "tags": [
+      "conifer",
+      "genus:chamaecyparis",
+      "low"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 115-125 cm, na kmienku 60-70 cm s obvodom 4-6 cm, šírka korunky 35-40 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 40.0 l.",
+      "Botanický rod podľa parametra predajcu: Chamaecyparis.",
+      "Predajca uvádza: polotieň."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 115-125 cm, na kmienku 60-70 cm s obvodom 4-6 cm, šírka korunky 35-40 cm. Veľkosť pri dodaní podľa predajcu: 40.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00712.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 1,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "595f5cbbd188f9d886aed17554129ea8e791405046b305ecedb97cc7fabeb0d3"
+  },
+  {
+    "id": "p185",
+    "name": "Cypruštek lawsonov Ellwoodii (Elwoodii, Ellwood´s)",
+    "kind": "conifers",
+    "price": "25,84 €",
+    "priceValue": 25.84,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/185-cyprustek-lawsonov-ellwoodii-elwoodii-ellwood-s-chamaecyparis-lawsoniana-ellwoodii-elwoodii-ellwood-s-/",
+    "photo": "/assets/plants/abies-p185.jpg",
+    "tags": [
+      "conifer",
+      "genus:chamaecyparis"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 65-120 cm, šírka 30-50  cm.",
+      "Veľkosť pri dodaní podľa predajcu: 10.0 l.",
+      "Botanický rod podľa parametra predajcu: Chamaecyparis."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 65-120 cm, šírka 30-50  cm. Veľkosť pri dodaní podľa predajcu: 10.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00362-cyprustek-lawsonov-ellwoodii-elwoodii-ellwood-s--chamaecyparis-lawsoniana-ellwoodii-elwoodii-ellwood-s-.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 1,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "ab56713565191c1dbcdc9132e80491bfc410040f29921f3e478fadf61e1f888c"
+  },
+  {
+    "id": "p3084",
+    "name": "Tis obyčajný David",
+    "kind": "conifers",
+    "price": "49,20 €",
+    "priceValue": 49.2,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/3084-tis-obycajny-david-taxus-baccata-david/",
+    "photo": "/assets/plants/abies-p3084.jpg",
+    "tags": [
+      "conifer",
+      "genus:taxus",
+      "sun",
+      "low",
+      "easy"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 100-140 cm, šírka 40-50 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 20.0 l.",
+      "Botanický rod podľa parametra predajcu: Taxus.",
+      "Predajca uvádza: slnečné stanovište.",
+      "Predajca uvádza: polotieň.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 100-140 cm, šírka 40-50 cm. Veľkosť pri dodaní podľa predajcu: 20.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00664-tis-obycajny-david-taxus-baccata-david.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 5,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "e8f6cf19480cd3481815db21d592834fa81d8f5a5d0b571ed93a20ad7f851b25"
+  },
+  {
+    "id": "p2122",
+    "name": "Javor dlaňolistý Garnet (Granát), s petržlenovitými červenými listami",
+    "kind": "shrubs",
+    "price": "75,00 €",
+    "priceValue": 75.0,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/2122-javor-dlanolisty-garnet-granat-s-petrzlenovitymi-cervenymi-listami-acer-palmatum-garnet/",
+    "photo": "/assets/plants/abies-p2122.jpg",
+    "tags": [
+      "genus:acer"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 60-100 cm, šírka 30-50 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 10.0 l.",
+      "Botanický rod podľa parametra predajcu: Acer."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 60-100 cm, šírka 30-50 cm. Veľkosť pri dodaní podľa predajcu: 10.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00528-javor-dlanolisty-garnet-granat-s-petrzlenovitymi-cervenymi-listami-acer-palmatum-garnet.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 1,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "409fbe247ed80811bd46dea13a8045f52b6a518cb43b95b89f6228f1f6c52bdb"
+  },
+  {
+    "id": "p1975",
+    "name": "Drieň biely Elegantissima (Najelegantnejší)",
+    "kind": "shrubs",
+    "price": "8,50 €",
+    "priceValue": 8.5,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/1975-drien-biely-elegantissima-najelegantnejsi-cornus-alba-elegantissima/",
+    "photo": "/assets/plants/abies-p1975.jpg",
+    "tags": [
+      "genus:cornus",
+      "sun",
+      "low"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 50-70 cm, šírka 15-25 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 5.0 l.",
+      "Botanický rod podľa parametra predajcu: Cornus.",
+      "Predajca uvádza: slnečné stanovište.",
+      "Predajca uvádza: polotieň."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 50-70 cm, šírka 15-25 cm. Veľkosť pri dodaní podľa predajcu: 5.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00790-drien-biely-elegantissima-najelegantnejsi--cornus-alba-elegantissima.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 3,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "da65c9bac4b65d8bd99a1b34f590098cb9c7d8895329e6aa23c3597fc6041d11"
+  },
+  {
+    "id": "p1469",
+    "name": "Javor dlaňolistý",
+    "kind": "shrubs",
+    "price": "51,66 €",
+    "priceValue": 51.66,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/1469-javor-dlanolisty-acer-palmatum/",
+    "photo": "/assets/plants/abies-p1469.jpg",
+    "tags": [
+      "genus:acer"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 100-150 cm, šírka 40-80 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 10.0 l.",
+      "Botanický rod podľa parametra predajcu: Acer."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 100-150 cm, šírka 40-80 cm. Veľkosť pri dodaní podľa predajcu: 10.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00224-javor-dlanolisty-acer-palmatum.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 14,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "bd065f6adef9a19ab42d469bcbb8a370c182654fa2facbfac0d1a6d7bbcdf7f2"
+  },
+  {
+    "id": "p620",
+    "name": "Tavoľník van Houtteho",
+    "kind": "shrubs",
+    "price": "9,84 €",
+    "priceValue": 9.84,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/620-tavolnik-van-houtteho-spiraea-vanhouttei/",
+    "photo": "/assets/plants/abies-p620.jpg",
+    "tags": [
+      "genus:spiraea",
+      "low"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 30-50 cm, šírka 20-30 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 5.0 l.",
+      "Botanický rod podľa parametra predajcu: Spiraea.",
+      "Predajca uvádza: polotieň."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 30-50 cm, šírka 20-30 cm. Veľkosť pri dodaní podľa predajcu: 5.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00098-tavolnik-van-houtteho-spiraea-vanhouttei.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 10,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "521fd99edda229b64c4349b5c0ee995a257e3fc0a6dfc2524d677c6aed2e60ac"
+  },
+  {
+    "id": "p2435",
+    "name": "Borievka obyčajná",
+    "kind": "conifers",
+    "price": "66,42 €",
+    "priceValue": 66.42,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/2435-borievka-obycajna-juniperus-communis/",
+    "photo": "/assets/plants/abies-p2435.jpg",
+    "tags": [
+      "conifer",
+      "genus:juniperus",
+      "sun"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: výška 75-195 cm, šírka 30-85 cm, obvod kmienka 9 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 70.0 l.",
+      "Botanický rod podľa parametra predajcu: Juniperus.",
+      "Predajca uvádza: slnečné stanovište."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: výška 75-195 cm, šírka 30-85 cm, obvod kmienka 9 cm. Veľkosť pri dodaní podľa predajcu: 70.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00997-borievka-obycajna-juniperus-communis.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 1,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "cd577d111e982a5bc0baea6f8160951adc67f30658d0232134f7867b38b92e1b"
+  },
+  {
+    "id": "p67",
+    "name": "Borievka šupinatá Meyeri",
+    "kind": "conifers",
+    "price": "35,00 €",
+    "priceValue": 35.0,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/67-borievka-supinata-meyeri-juniperus-squamata-meyeri/",
+    "photo": "/assets/plants/abies-p67.jpg",
+    "tags": [
+      "conifer",
+      "genus:juniperus"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 80-200 cm, šírka 90-160 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 35.0 l.",
+      "Botanický rod podľa parametra predajcu: Juniperus."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 80-200 cm, šírka 90-160 cm. Veľkosť pri dodaní podľa predajcu: 35.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00298-borievka-supinata-meyeri-juniperus-squamata-meyeri.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 12,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "5b58eadff99ce57aeec688929fc8a974534708afec7c6d8f21b9fef869700274"
+  },
+  {
+    "id": "p3672",
+    "name": "Borievka šupinatá viržínska Blue Arrow (Modrý šíp)",
+    "kind": "conifers",
+    "price": "154,98 €",
+    "priceValue": 154.98,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/3672-borievka-supinata-virzinska-blue-arrow-modry-sip-juniperus-scopulorum-blue-arrow/",
+    "photo": "/assets/plants/abies-p3672.jpg",
+    "tags": [
+      "conifer",
+      "genus:juniperus",
+      "easy"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 180-220 cm, šírka 45-55 cm, obvod kmienka 7-8 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 90.0 l.",
+      "Botanický rod podľa parametra predajcu: Juniperus.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 180-220 cm, šírka 45-55 cm, obvod kmienka 7-8 cm. Veľkosť pri dodaní podľa predajcu: 90.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00432.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 3,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "0691789f17c10ec3a028d9b3eebcc785841b836bfa72546169239b34be6481ea"
+  },
+  {
+    "id": "p1528",
+    "name": "Borovica pancierová Satelit (Satelitt, Satelitte)",
+    "kind": "conifers",
+    "price": "147,60 €",
+    "priceValue": 147.6,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/1528-borovica-pancierova-satelit-satelitt-satelitte-pinus-leucodermis-heldreichii-satelit-satelitt-satelitte-/",
+    "photo": "/assets/plants/abies-p1528.jpg",
+    "tags": [
+      "conifer",
+      "genus:pinus"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 140-150 cm, šírka 50-60 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 40.0 l.",
+      "Botanický rod podľa parametra predajcu: Pinus."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 140-150 cm, šírka 50-60 cm. Veľkosť pri dodaní podľa predajcu: 40.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00380-borovica-pancierova-satelit-satelitt-satelitte--pinus-leucodermis-heldreichii-satelit-satelitt-satelitte-.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 1,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "6192adfb65de7f23358824a50148d77dfd525af3aa08a2b1ed5b7666f6f937e4"
+  },
+  {
+    "id": "p1463",
+    "name": "Céder himalájsky Pendula (Previsnutý)",
+    "kind": "conifers",
+    "price": "123,00 €",
+    "priceValue": 123.0,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/1463-ceder-himalajsky-pendula-previsnuty-cedrus-deodara-pendula/",
+    "photo": "/assets/plants/abies-p1463.jpg",
+    "tags": [
+      "conifer",
+      "genus:cedrus",
+      "sun"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 110-120 cm, s obvodom kmienika 4/6 cm, kmienik vo výške 80-90 cm šírka korunky 80-100 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 20.0 l.",
+      "Botanický rod podľa parametra predajcu: Cedrus.",
+      "Predajca uvádza: slnečné stanovište."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 110-120 cm, s obvodom kmienika 4/6 cm, kmienik vo výške 80-90 cm šírka korunky 80-100 cm. Veľkosť pri dodaní podľa predajcu: 20.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/01216-ceder-himalajsky-pendula-previsnuty--cedrus-deodara-pendula.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 2,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "81de2e6db549b4c1ae7d4379478cb0cb919988e20d0a5c6ad6d25da35d037b73"
+  },
+  {
+    "id": "p404",
+    "name": "Kryptoméria japonská Globosa Nana - kmienik 40cm - niečo nezvyčajné",
+    "kind": "conifers",
+    "price": "99,00 €",
+    "priceValue": 99.0,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/404-kryptomeria-japonska-globosa-nana-kmienik-40cm-nieco-nezvycajne-cryptomeria-japonica-globosa-nana/",
+    "photo": "/assets/plants/abies-p404.jpg",
+    "tags": [
+      "conifer",
+      "genus:cryptomeria"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: kmienik 40cm, celková výška 55-60 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 15.0 l.",
+      "Botanický rod podľa parametra predajcu: Cryptomeria."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: kmienik 40cm, celková výška 55-60 cm. Veľkosť pri dodaní podľa predajcu: 15.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00336-kryptomeria-japonska-globosa-nana-kmienik-40cm-nieco-nezvycajne-cryptomeria-japonica-globosa-nana.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 5,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "863aa337561c99ac9a1b13bae0aac1de8275a9c4a1802dbcbdd0544ca045955e"
+  },
+  {
+    "id": "p579",
+    "name": "Smrek biely Conica",
+    "kind": "conifers",
+    "price": "52,77 €",
+    "priceValue": 52.77,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/579-smrek-biely-conica-picea-glauca-conica/",
+    "photo": "/assets/plants/abies-p579.jpg",
+    "tags": [
+      "conifer",
+      "genus:picea"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 95-125 cm, šírka 40-60 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 50.0 l.",
+      "Botanický rod podľa parametra predajcu: Picea."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 95-125 cm, šírka 40-60 cm. Veľkosť pri dodaní podľa predajcu: 50.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00128-smrek-biely-conica-picea-glauca-conica.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 4,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "db5bf4284a90bb8e5a1ec27034306b068b13fdeeaa4f8bcb7a122bccfbfbae8f"
+  },
+  {
+    "id": "p2288",
+    "name": "Smrek obyčajný Inversa (Pendula), previsnutý",
+    "kind": "conifers",
+    "price": "100,86 €",
+    "priceValue": 100.86,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/2288-smrek-obycajny-inversa-pendula-previsnuty-picea-abies-inversa/",
+    "photo": "/assets/plants/abies-p2288.jpg",
+    "tags": [
+      "conifer",
+      "genus:picea",
+      "sun"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 80-90 cm, šírka 30-40 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 25.0 l.",
+      "Botanický rod podľa parametra predajcu: Picea.",
+      "Predajca uvádza: slnečné stanovište."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 80-90 cm, šírka 30-40 cm. Veľkosť pri dodaní podľa predajcu: 25.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00896-smrek-obycajny-inversa-pendula-previsnuty-picea-abies-inversa.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 1,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "904b85e6b900f9601bb41a1ff5159d7507e2117e781e69ad7d93558cc6f5a536"
+  },
+  {
+    "id": "p953",
+    "name": "Tuja západná Danica",
+    "kind": "conifers",
+    "price": "9,60 €",
+    "priceValue": 9.6,
+    "currency": "EUR",
+    "url": "https://www.dreviny.sk/953-tuja-zapadna-danica-thuja-occidentalis-danica/",
+    "photo": "/assets/plants/abies-p953.jpg",
+    "tags": [
+      "conifer",
+      "genus:thuja",
+      "sun",
+      "low"
+    ],
+    "facts": [
+      "Odrodový záber predajcu; nejde o portrét dodávanej sadenice.",
+      "Výška pri dodaní podľa predajcu: 10-30 cm, šírka 20-30 cm.",
+      "Veľkosť pri dodaní podľa predajcu: 6.0 l.",
+      "Botanický rod podľa parametra predajcu: Thuja.",
+      "Predajca uvádza: slnečné stanovište.",
+      "Predajca uvádza: polotieň."
+    ],
+    "reason": "Odrodový záber predajcu; nejde o portrét dodávanej sadenice. Výška pri dodaní podľa predajcu: 10-30 cm, šírka 20-30 cm. Veľkosť pri dodaní podľa predajcu: 6.0 l.",
+    "diameter": null,
+    "potDiameter": null,
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "imageSource": "https://www.dreviny.sk/img_dreviny/00898-tuja-zapadna-danica-thuja-occidentalis-danica.webp",
+    "sourceStockEvidence": {
+      "availability": "InStock",
+      "quantity": 1,
+      "activeOrderForm": true
+    },
+    "descriptionSha256": "9553a2bbb54edda2b45d8db54645e631245ed76e5275e28e3cac10618582b9a3"
+  }
+]

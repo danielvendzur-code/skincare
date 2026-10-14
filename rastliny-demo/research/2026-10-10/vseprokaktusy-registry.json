@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-10",
+  "company": "Miroslav Langr",
+  "ico": "66279011",
+  "owners": [
+    "Miroslav Langr"
+  ],
+  "executives": [
+    "Miroslav Langr"
+  ],
+  "employees": {
+    "code": "000",
+    "range": "0",
+    "source": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-res/66279011",
+    "recordUpdated": "2022-12-01"
+  },
+  "revenue": {
+    "value": null,
+    "year": 2025,
+    "note": "ARES RES nepublikuje tržby. Tržby samostatného podnikateľa nie sú doložené verejným výkazom a neodhaduje sa ich výška."
+  },
+  "ownersSource": "https://www.vseprokaktusy.cz/content/3-obchodni-podminky",
+  "note": "Aktuálne VOP aj kontakt identifikujú predajcu Miroslava Langra, nie syna Patrika spomínaného v rodinnom príbehu webu. Meno a IČO sa zhodujú s ARES. Kategória 000 je posledný údaj RES, nie aktuálny personálny audit."
+}

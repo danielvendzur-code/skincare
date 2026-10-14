@@ -1,0 +1,16 @@
+{
+  "slug": "farmarky",
+  "status": "PASS",
+  "problems": [],
+  "viewports": [
+    1440,
+    390,
+    360
+  ],
+  "categories": [
+    "plants",
+    "pots",
+    "substrates"
+  ],
+  "checked": "2026-10-10"
+}

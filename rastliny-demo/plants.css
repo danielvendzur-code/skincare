@@ -1,0 +1,255 @@
+/* Plant segment: same composition as kozmetika-nove, botanical imagery and
+   brand-coloured readable logo circles, including every assistant message. */
+.cx-owner-lead{display:block!important;max-width:39ch!important}
+.cx-owner-brand{max-width:55%;padding:8px 0}
+.cx-logo{width:auto;height:auto;max-width:210px;max-height:42px;object-fit:contain}
+.cx-widget-brand .cx-logo{max-width:190px;max-height:34px}
+.cx-widget-brand{gap:4px!important}
+.cx-widget-brand .cx-status{display:flex!important;font-size:9px!important}
+.cx-widget-head .cx-logo{filter:brightness(0) invert(1)}
+body[data-cosmetics-demo="gardenholice"] .cx-owner-brand{padding:10px 14px;border-radius:12px;background:var(--cx-brand)}
+body[data-cosmetics-demo="gardenholice"] .cx-owner-brand .cx-logo{max-width:235px}
+#cosmetics-root#cosmetics-root .cx-launcher-button{background:var(--cx-brand)!important;background-image:none!important}
+#cosmetics-root#cosmetics-root .cx-message-avatar{background:var(--cx-brand)!important;display:grid!important;place-items:center!important;flex:0 0 34px!important;width:34px!important;height:34px!important;padding:4px!important;border-radius:50%!important}
+.cx-brand-mark{display:block;width:100%;height:100%;object-fit:contain}
+.cx-launcher-button .cx-brand-mark{width:46px;height:46px}
+body[data-cosmetics-demo="lukscheiter"] .cx-brand-mark{border-radius:50%;object-fit:cover}
+#cosmetics-root#cosmetics-root .cx-option-photo{background:#fff!important;background-image:none!important;min-height:0!important}
+#cosmetics-root#cosmetics-root .cx-option-photo img{object-fit:contain!important;filter:none!important;transform:none!important;opacity:1!important;visibility:visible!important;display:block!important}
+#cosmetics-root#cosmetics-root .cx-product-photo{background:#fff!important}
+#cosmetics-root#cosmetics-root .cx-product-photo img{object-fit:contain!important}
+.cx-option-copy small{font-size:10.5px!important;line-height:1.35!important;color:#595e57!important}
+.cx-option-copy b{font-size:13px!important;line-height:1.2!important}
+.cx-options[data-count="2"]{grid-template-rows:1fr;align-content:stretch}
+.cx-options[data-count="3"] .cx-option:last-child{grid-column:1/-1;grid-template-columns:1fr 1fr;grid-template-rows:1fr;align-items:center}
+.cx-options[data-count="3"] .cx-option:last-child .cx-option-photo{height:100%}
+.cx-why p{line-height:1.5!important}
+.cx-result-note{font-size:10.5px!important;line-height:1.4!important}
+.cx-bubble{white-space:pre-line}
+.cx-chat-products{display:grid;gap:8px;margin-top:12px;white-space:normal}
+.cx-chat-products a{display:grid;grid-template-columns:47px minmax(0,1fr) 15px;gap:9px;align-items:center;padding:8px;border:1px solid var(--cx-line);border-radius:12px;background:#fff;color:var(--cx-ink);text-decoration:none;font-size:11px;line-height:1.3}
+.cx-chat-products img{width:47px;height:62px;object-fit:contain;background:#fff;border-radius:7px}
+.cx-chat-products b{display:block;margin-top:4px;font-size:12px}
+.cx-chat-products svg{width:15px;height:15px}
+.cx-empty,.unknown-demo{padding:24px;font-size:14px;line-height:1.5}
+.cx-product-price a{background:var(--cx-accent)!important}
+#cosmetics-root#cosmetics-root .cx-progress>div i.is-on{background:var(--cx-accent)!important}
+#cosmetics-root#cosmetics-root .cx-message--user .cx-bubble{background:var(--cx-brand)!important}
+.cx-owner-visual>img{object-fit:contain!important;filter:none!important}
+.cx-owner-visual::after{display:none!important}
+.cx-teaser{padding:14px 18px!important}
+.cx-teaser b,.cx-teaser span{display:block!important}
+.cx-teaser span{margin-top:5px!important}
+#cosmetics-root#cosmetics-root .cx-price{background:var(--cx-brand)!important}
+#cosmetics-root#cosmetics-root .cx-price :is(b,span,small,p){color:#fff!important}
+#cosmetics-root#cosmetics-root .cx-price-terms>a{background:#fff!important;color:var(--cx-brand)!important}
+body[data-cosmetics-demo] .cx-owner{grid-template-rows:72px minmax(0,1fr) 190px 32px!important}
+body[data-cosmetics-demo] .cx-owner-hero{align-items:center!important;grid-template-columns:minmax(0,1fr) minmax(490px,550px)!important;gap:44px!important}
+body[data-cosmetics-demo] .cx-owner-copy h1{font-size:54px!important;line-height:1.04!important;max-width:15ch!important}
+body[data-cosmetics-demo] .cx-owner-frame{align-self:center!important;grid-template-columns:minmax(0,1.15fr) minmax(200px,.8fr)!important;max-width:550px!important}
+body[data-cosmetics-demo] .cx-owner-visual{min-height:370px!important;max-height:395px!important;height:370px!important}
+body[data-cosmetics-demo] .cx-owner-visual picture{display:block;width:100%;height:100%}
+body[data-cosmetics-demo] .cx-owner-visual picture img{width:100%;height:100%;object-fit:contain;filter:none!important;transform:none!important}
+button:focus-visible,a:focus-visible{outline:3px solid var(--cx-accent);outline-offset:3px}
+.cx-widget[aria-hidden="true"]{visibility:hidden}
+@media(max-width:760px){
+ body[data-cosmetics-demo] .cx-owner{grid-template-rows:62px minmax(0,1fr) 185px 24px!important}
+ body[data-cosmetics-demo] .cx-owner-hero{grid-template-columns:1fr!important;grid-template-rows:auto minmax(130px,1fr)!important;gap:12px!important;padding:16px 0!important;align-content:center!important}
+ body[data-cosmetics-demo] .cx-owner-frame{display:block!important;max-width:none!important;width:100%!important}
+ body[data-cosmetics-demo] .cx-owner-frame .cx-keeps{display:none!important}
+ body[data-cosmetics-demo] .cx-owner-visual{height:170px!important;min-height:170px!important;max-height:190px!important;border-radius:20px!important;box-shadow:none!important;background:var(--cx-soft)!important}
+ body[data-cosmetics-demo] .cx-price{min-height:0!important;padding:14px!important;gap:10px!important}
+ .cx-logo{max-width:185px;max-height:35px}
+ body[data-cosmetics-demo="gardenholice"] .cx-owner-brand .cx-logo{max-width:163px}
+ .cx-widget-brand .cx-logo{max-width:168px;max-height:30px}
+ .cx-owner-copy h1{font-size:32px!important;max-width:16ch!important;line-height:1.04!important}
+ .cx-owner-copy .cx-owner-lead{font-size:12px!important;line-height:1.4!important;margin-top:10px!important}
+ .cx-option-copy b{font-size:12px!important}
+ .cx-option-copy small{font-size:10px!important}
+ .cx-product-copy h2{overflow-wrap:anywhere}
+}
+@media(max-width:380px){
+ .cx-owner-copy h1{font-size:29px!important}
+ .cx-owner-copy .cx-owner-lead{font-size:11px!important}
+ .cx-owner-brand .cx-logo{max-width:137px}
+ body[data-cosmetics-demo="gardenholice"] .cx-owner-brand .cx-logo{max-width:143px}
+}
+/* The inherited owner rules have higher specificity than the base headings. */
+#cosmetics-root#cosmetics-root .cx-owner-copy .cx-owner-lead{display:block!important;color:var(--cx-ink)!important}
+@media(max-width:760px){
+ #cosmetics-root#cosmetics-root .cx-owner-copy h1{font-size:32px!important;max-width:18ch!important;line-height:1.04!important}
+ #cosmetics-root#cosmetics-root .cx-owner-offer{height:185px!important;margin:0!important;padding:0!important}
+ #cosmetics-root#cosmetics-root .cx-price{height:185px!important;min-height:0!important;max-height:185px!important;padding:14px!important;gap:10px!important}
+}
+@media(max-width:380px){#cosmetics-root#cosmetics-root .cx-owner-copy h1{font-size:29px!important}}
+/* Override the shared white-surface pricing rule at its original specificity. */
+body[data-cosmetics-demo]:not([data-cosmetics-demo="plener"]) #cosmetics-root#cosmetics-root article.cx-price{background:var(--cx-brand)!important;border-color:var(--cx-brand)!important}
+body[data-cosmetics-demo]:not([data-cosmetics-demo="plener"]) #cosmetics-root#cosmetics-root .cx-price-terms>a{background:#fff!important;color:var(--cx-brand)!important}
+
+body[data-cosmetics-demo="zahradananiti"] .cx-owner-brand .cx-logo{max-height:60px;max-width:150px}
+body[data-cosmetics-demo="zahradananiti"] .cx-widget-brand .cx-logo{max-height:42px;max-width:110px}
+
+/* Two choices stay large, with the whole product beside its label. */
+.cx-options[data-count="2"]{grid-template-columns:1fr;grid-template-rows:repeat(2,minmax(0,1fr))}
+.cx-options[data-count="2"] .cx-option{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);grid-template-rows:minmax(0,1fr)}
+.cx-options[data-count="2"] .cx-option-copy{align-content:center;padding:14px}
+.cx-options[data-count="2"] .cx-option-copy b{font-size:14px;line-height:1.2}
+.cx-options[data-count="2"] .cx-option-copy small{font-size:10.5px;line-height:1.35}
+
+body[data-cosmetics-demo="rastlinkovo"] .cx-widget-head .cx-logo{max-height:36px}
+
+body[data-cosmetics-demo="svokrinejazyky"] .cx-owner-brand .cx-logo{max-height:48px;max-width:155px}
+body[data-cosmetics-demo="svokrinejazyky"] .cx-widget-brand .cx-logo{max-height:38px;max-width:110px}
+
+body[data-cosmetics-demo="samek"] .cx-widget-head .cx-logo{max-height:38px}
+
+body[data-cosmetics-demo="greenhunters"] .cx-owner-brand .cx-logo{max-height:48px;max-width:145px}
+body[data-cosmetics-demo="greenhunters"] .cx-widget-brand .cx-logo{max-height:38px;max-width:115px}
+
+/* Sebtob uses its official circular leaf symbol, kept readable in both headers. */
+body[data-cosmetics-demo="sebtobplants"] .cx-owner-brand .cx-logo{max-height:48px;max-width:56px}
+body[data-cosmetics-demo="sebtobplants"] .cx-widget-brand .cx-logo{max-height:36px;max-width:42px}
+
+/* Quality pass 2026-10-12: same header, tabs, footer and cards as the other segments. */
+body #cosmetics-root .cx-widget-head .cx-logo.cx-logo-clean{filter:none!important;background:transparent!important;padding:0!important;border-radius:0!important;}
+body #cosmetics-root .cx-widget-head .cx-logo.cx-logo-pending{visibility:hidden!important;}
+body #cosmetics-root .cx-widget-brand .cx-status{display:flex!important;align-items:center!important;gap:5px!important;white-space:nowrap!important;font-size:10px!important;line-height:1.2!important;}
+body #cosmetics-root #cx-widget .cx-mode{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;align-items:center!important;gap:4px!important;margin:8px 12px!important;padding:4px!important;height:48px!important;min-height:48px!important;border:1px solid #d1d4d8!important;border-radius:999px!important;background:#f2f3f4!important;box-sizing:border-box!important;overflow:hidden!important;}
+body #cosmetics-root #cx-widget .cx-mode-thumb{display:none!important;}
+body #cosmetics-root #cx-widget .cx-mode button{position:relative!important;inset:auto!important;transform:none!important;display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;height:38px!important;min-height:38px!important;min-width:0!important;margin:0!important;padding:0 8px!important;border:0!important;border-radius:999px!important;background:transparent!important;box-shadow:none!important;color:#555!important;font-size:12px!important;}
+body #cosmetics-root #cx-widget .cx-mode button[aria-pressed="true"]{background:var(--cx-brand)!important;color:#fff!important;}
+body #cosmetics-root #cx-widget .cx-mode button svg{display:none!important;}
+body #cosmetics-root #cx-widget .cx-mode button:focus:not(:focus-visible){outline:none!important;}
+body #cosmetics-root #cx-widget .cx-mode button:focus-visible{outline:2px solid var(--cx-accent)!important;outline-offset:-3px!important;}
+body #cosmetics-root #cx-widget .cx-widget-note{position:static!important;margin:0!important;padding:8px 12px!important;min-height:32px!important;border-top:1px solid #d1d4d8!important;background:#fff!important;text-align:center!important;box-sizing:border-box!important;}
+body #cosmetics-root #cx-widget .cx-option{border:1px solid #d5d7d9!important;box-shadow:none!important;outline:none!important;overflow:hidden!important;}
+body #cosmetics-root #cx-widget .cx-option:focus-visible{outline:2px solid var(--cx-accent)!important;outline-offset:2px!important;}
+body #cosmetics-root #cx-widget .cx-option-photo{padding:0!important;border:0!important;border-radius:0!important;overflow:hidden!important;}
+body #cosmetics-root #cx-widget .cx-option-photo>img{display:block!important;width:100%!important;height:100%!important;max-width:none!important;margin:0!important;padding:0!important;border-radius:0!important;object-fit:cover!important;object-position:center!important;opacity:1!important;}
+body #cosmetics-root .cx-message--assistant .cx-message-avatar{width:36px!important;height:36px!important;min-width:36px!important;flex:0 0 36px!important;border-radius:50%!important;overflow:hidden!important;box-sizing:border-box!important;}
+body #cosmetics-root .cx-teaser{display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:center!important;gap:4px!important;padding:14px 18px!important;border-radius:22px!important;text-align:left!important;box-sizing:border-box!important;}
+body #cosmetics-root .cx-teaser b{font-size:14px!important;line-height:1.3!important;margin:0!important;}
+body #cosmetics-root .cx-teaser span{font-size:11px!important;line-height:1.35!important;margin:0!important;color:#68717a!important;}
+body #cosmetics-root#cosmetics-root #cx-widget .cx-product{padding:0!important;gap:0!important;overflow:hidden!important;background:#fff!important;}
+body #cosmetics-root#cosmetics-root #cx-widget .cx-product-photo{width:100%!important;height:100%!important;min-height:170px!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;overflow:hidden!important;}
+body #cosmetics-root#cosmetics-root #cx-widget .cx-product-photo img{display:block!important;width:100%!important;height:100%!important;object-fit:cover!important;border-radius:0!important;}
+body #cosmetics-root#cosmetics-root #cx-widget .cx-product-copy{padding:12px 12px 12px 13px!important;}
+body #cosmetics-root .cx-widget-head .cx-logo.cx-logo-clean{max-height:40px!important;}
+
+/* Review 2026-10-12 */
+body #cosmetics-root .cx-owner-offer{background:transparent!important;box-shadow:none!important;padding-bottom:0!important;}
+body #cosmetics-root .cx-owner-offer .cx-price{box-shadow:none!important;}
+.cx-mark-shape{display:block;width:100%;height:100%;background:#fff;-webkit-mask:var(--cx-mark-art) center / contain no-repeat;mask:var(--cx-mark-art) center / contain no-repeat;transition:background-color .16s;}
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open{display:grid!important;place-items:center!important;padding:13px!important;border:1px solid var(--cx-brand)!important;background:var(--cx-brand)!important;background-image:none!important;transition:background-color .16s!important;box-sizing:border-box!important;}
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible{background:#fff!important;}
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible .cx-mark-shape{background:var(--cx-brand);}
+body.cx-mark-mask #cosmetics-root .cx-message--assistant .cx-message-avatar{display:grid!important;place-items:center!important;padding:7px!important;background:var(--cx-brand)!important;background-image:none!important;}
+body #cosmetics-root .cx-message--assistant .cx-message-avatar img.cx-brand-mark{width:100%!important;height:100%!important;object-fit:contain!important;}
+body #cosmetics-root .cx-widget-head .cx-logo.cx-logo-clean{max-height:44px!important;max-width:190px!important;}
+
+/* Hover goes to the brand's second colour (or a deeper shade), the mark stays white. */
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open{border:0!important;}
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible{background:var(--cx-q-hover,var(--cx-accent))!important;}
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible .cx-mark-shape{background:#fff;}
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible .cx-mark-shape{background:var(--cx-q-hover-fg,#fff);}
+body #cosmetics-root #cx-widget .cx-mode button:focus,body #cosmetics-root #cx-widget .cx-mode button:focus-visible{outline:none!important;box-shadow:none!important;border:0!important;}
+/* One layer only under the price card. */
+html body #cosmetics-root#cosmetics-root .cx-owner-offer.cx-owner-offer{background:transparent!important;background-color:transparent!important;box-shadow:none!important;padding:0!important;border:0!important;}
+html body #cosmetics-root#cosmetics-root .cx-owner-offer.cx-owner-offer>.cx-price{height:100%!important;box-sizing:border-box!important;margin:0!important;box-shadow:none!important;}
+
+body.cx-mark-mask #cx-open#cx-open{background:var(--cx-q-rest)!important;}body.cx-mark-mask #cx-open#cx-open .cx-mark-shape{background:var(--cx-q-fg)!important;}body.cx-mark-mask #cx-open#cx-open:hover,body.cx-mark-mask #cx-open#cx-open:focus-visible{background:var(--cx-q-hover)!important;}body.cx-mark-mask #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cx-open#cx-open:focus-visible .cx-mark-shape{background:var(--cx-q-hover-fg)!important;}
+
+body.cx-mark-mask #cosmetics-root #cx-open#cx-open{background:var(--cx-q-rest)!important;}body.cx-mark-mask #cosmetics-root #cx-open#cx-open .cx-mark-shape{background:var(--cx-q-fg)!important;}body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible{background:var(--cx-q-hover)!important;}body.cx-mark-mask #cosmetics-root #cx-open#cx-open:hover .cx-mark-shape,body.cx-mark-mask #cosmetics-root #cx-open#cx-open:focus-visible .cx-mark-shape{background:var(--cx-q-hover-fg)!important;}
+
+/* Shared, generous advisor proportions, with full-width photo panes. */
+@media(min-width:761px){body #cosmetics-root #cx-widget{width:min(560px,calc(100vw - 28px))!important;height:min(760px,calc(100dvh - 28px))!important;}}
+body #cosmetics-root .cx-options{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-auto-rows:1fr!important;gap:12px!important;}
+body #cosmetics-root .cx-option{border:1px solid var(--cx-line,#d4dfd2)!important;border-radius:20px!important;overflow:hidden!important;padding:0!important;min-width:0!important;}
+body #cosmetics-root .cx-option-photo{width:100%!important;height:auto!important;aspect-ratio:3/2!important;margin:0!important;padding:0!important;overflow:hidden!important;}
+body #cosmetics-root .cx-option-photo img{width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:cover!important;}
+body #cosmetics-root .cx-option-copy{padding:12px!important;min-height:76px!important;}
+body #cosmetics-root .cx-advisor-body{overflow-y:auto!important;}
+body #cosmetics-root .cx-options{flex:0 0 auto!important;height:auto!important;max-height:none!important;grid-auto-rows:auto!important;}
+body #cosmetics-root .cx-option{height:auto!important;max-height:none!important;grid-template-rows:auto minmax(76px,auto)!important;}
+body #cosmetics-root .cx-option-photo{grid-row:1!important;position:relative!important;}
+body #cosmetics-root .cx-option-copy{grid-row:2!important;position:relative!important;z-index:1!important;background:#fff!important;box-sizing:border-box!important;}
+body #cosmetics-root .cx-advisor-body{display:block!important;}
+body #cosmetics-root .cx-options{align-self:start!important;align-items:start!important;}
+body #cosmetics-root .cx-option-copy{grid-template-rows:auto auto!important;align-content:start!important;gap:5px!important;}
+body #cosmetics-root .cx-more-products{margin:18px 0;border-top:1px solid var(--cx-line);padding-top:14px;}
+body #cosmetics-root .cx-more-products a{display:flex;gap:12px;padding:12px 0;text-decoration:none;color:inherit;border-bottom:1px solid var(--cx-line);}
+body #cosmetics-root .cx-more-products img{width:76px;height:96px;object-fit:contain;}
+body #cosmetics-root .cx-more-products span{display:grid;gap:5px;}
+@media(max-width:760px){body #cosmetics-root .cx-launcher{display:grid!important;}body #cosmetics-root .cx-teaser{display:none!important;}}
+
+/* Advisor polish (20261013): a lone third answer spans the row and steps arrive with a light motion. */
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option:nth-child(3):last-child{grid-column:1 / -1!important;flex-direction:row!important;align-items:stretch!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option:nth-child(3):last-child>.cx-option-photo{flex:0 0 44%!important;height:auto!important;min-height:0!important;align-self:stretch!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option:nth-child(3):last-child>.cx-option-copy{flex:1 1 0!important;min-width:0!important;min-height:0!important;height:auto!important;align-self:center!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options{align-self:stretch!important;width:100%!important;max-width:none!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option{align-self:stretch!important;justify-self:stretch!important;width:auto!important;max-width:none!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option{transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option:hover{transform:translateY(-2px)!important;box-shadow:0 14px 28px -20px rgba(20,20,20,.5)!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option:active{transform:scale(.985)!important;}
+@keyframes cx-polish-rise{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:none;}}
+@media (prefers-reduced-motion:no-preference){
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option{animation:cx-polish-rise .32s cubic-bezier(.2,.7,.2,1) both;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option:nth-child(2){animation-delay:.04s;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option:nth-child(3){animation-delay:.08s;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option:nth-child(4){animation-delay:.12s;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-result-body>.cx-product{animation:cx-polish-rise .32s cubic-bezier(.2,.7,.2,1) both;}
+}
+
+/* Do not substitute a brand logo or a different plant for a missing product photograph. */
+.cx-product.cx-product--no-photo{grid-template-columns:1fr!important}.cx-product--no-photo .cx-product-copy{grid-column:1/-1}.cx-option--no-photo .cx-option-photo:empty{display:none}.cx-option--no-photo .cx-option-copy{min-height:100px;display:flex;flex-direction:column;justify-content:center}.cx-chat-products a:not(:has(img)) span{grid-column:1/-1}
+
+.cx-neutral{height:auto;display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:left}.cx-neutral small{font-size:12px;color:#78808d}
+
+/* Missing photographs get a compact text card instead of an empty photo-sized row. */
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body:has(>.cx-options)>.cx-options:has(.cx-option--no-photo){flex:0 0 auto!important;height:auto!important;grid-auto-rows:auto!important;grid-template-rows:none!important;align-content:start!important}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option--no-photo{display:block!important;min-height:0!important;height:auto!important}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option--no-photo .cx-option-photo:empty{display:none!important}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option--no-photo .cx-option-copy{min-height:92px!important;height:auto!important}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-options:has(.cx-option--no-photo)>.cx-option:not(.cx-option--no-photo){grid-template-rows:160px auto!important}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-options:has(.cx-option--no-photo)>.cx-option:not(.cx-option--no-photo) .cx-option-photo{height:160px!important;min-height:160px!important;aspect-ratio:auto!important}
+
+
+/* Questions fit the panel. Only the final recommendation can scroll. */
+/* Review proposal: remove the extra neutral row; real choices stay on the same page. */
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body{display:flex!important;flex-direction:column!important;overflow:hidden!important;min-height:0!important;gap:8px!important;padding:10px 12px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-kicker{flex:none!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>h2{flex:none!important;margin:0!important;font-size:20px!important;line-height:1.15!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options{flex:1 1 0!important;min-height:0!important;height:auto!important;max-height:none!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:repeat(2,minmax(0,1fr))!important;grid-auto-rows:minmax(0,1fr)!important;align-content:stretch!important;align-items:stretch!important;gap:8px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options[data-count="1"],html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options[data-count="2"]{grid-template-rows:minmax(0,1fr)!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options[data-count="1"]{grid-template-columns:minmax(0,1fr)!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option{display:flex!important;flex-direction:column!important;min-height:0!important;height:auto!important;grid-column:auto!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option>.cx-option-photo{position:relative!important;flex:1 1 0!important;min-height:0!important;height:0!important;max-height:none!important;aspect-ratio:auto!important;width:100%!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option>.cx-option-photo>img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option>.cx-option-copy{flex:0 0 auto!important;min-height:0!important;height:auto!important;padding:7px 9px!important;gap:3px!important;align-self:stretch!important;display:grid!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option--no-photo{justify-content:center!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options>.cx-option--no-photo>.cx-option-photo:empty{display:none!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options[data-count="3"]>.cx-option:last-child{grid-column:1/-1!important;flex-direction:row!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options[data-count="3"]>.cx-option:last-child>.cx-option-photo{flex:0 0 44%!important;height:100%!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-options[data-count="3"]>.cx-option:last-child>.cx-option-copy{flex:1 1 0!important;align-self:center!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-restart{flex:none!important;margin:0!important;min-height:34px!important;padding:7px 10px!important;font-size:11px!important;line-height:1.2!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-neutral{display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:space-between!important;gap:8px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-neutral small{font-size:10px!important;line-height:1.2!important;}
+@media(max-height:700px){
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget{grid-template-rows:52px 52px minmax(0,1fr) 26px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-widget-head{padding:0 12px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-widget-head .cx-logo{max-height:28px!important;max-width:155px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-widget-brand .cx-status{font-size:9px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-mode{height:42px!important;min-height:42px!important;margin:5px 12px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-mode button{height:32px!important;min-height:32px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor{grid-template-rows:32px minmax(0,1fr)!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-progress>button{height:30px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-widget-note{min-height:26px!important;padding:5px 12px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body{gap:7px!important;padding:8px 12px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-kicker{display:none!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>h2{font-size:19px!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option-copy b{font-size:12px!important;line-height:1.2!important;}
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-option-copy small{font-size:10px!important;line-height:1.2!important;}
+}
+
+/* Preview: the additional neutral row is omitted. */
+html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-neutral{display:none!important;}

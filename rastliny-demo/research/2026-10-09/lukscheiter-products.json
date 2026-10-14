@@ -1,0 +1,2000 @@
+[
+  {
+    "id": "p8236",
+    "name": "Asparagus setaceus",
+    "url": "https://www.lukscheiter.eu/asparagus-setaceus/",
+    "kind": "plants",
+    "priceValue": 120.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/8236_asparagus-setaceus.jpg?ff=1&x=1024&y=768&q=85&ts=69bafe07&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/pokojove-rostliny/",
+    "sourceCategory": "pokojove-rostliny",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:asparagus"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 9 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/lukscheiter-p8236.jpg",
+    "price": "120 Kč",
+    "descriptionSha256": "1967740c26d724ffbbbd2042ebf91b7648e8ef4ee1cc0237e02057bde86af4a6"
+  },
+  {
+    "id": "p7954",
+    "name": "Adiantum hispidulum 'Bronze Venus'  (kapradina)",
+    "url": "https://www.lukscheiter.eu/adiantum-hispidulum--bronze-venus--kapradina/",
+    "kind": "plants",
+    "priceValue": 130.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/7954_adiantum-hispidulum--bronze-venus--kapradina.jpg?ff=1&x=1024&y=768&q=85&ts=6a33a75c&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/pokojove-rostliny/",
+    "sourceCategory": "pokojove-rostliny",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "easy",
+      "genus:adiantum"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 12 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/lukscheiter-p7954.jpg",
+    "price": "130 Kč",
+    "descriptionSha256": "c0acc102446804357179deec2692b19e5bb9b23d87f4fb4cbc371e7cc9e21f2e"
+  },
+  {
+    "id": "p4636",
+    "name": "Cattleya deckerii",
+    "url": "https://www.lukscheiter.eu/cattleya-deckerii--tipo/",
+    "kind": "orchids",
+    "priceValue": 270.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/4636_cattleya-deckerii.jpg?ff=1&x=1024&y=768&q=85&ts=67b6632d&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:cattleya"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p4636.jpg",
+    "price": "270 Kč",
+    "descriptionSha256": "ec0524042e5f6f58846abe8942dc8cd16ff53e8c29ffdf719d1d39e4539aed8f"
+  },
+  {
+    "id": "p9355",
+    "name": "Echeveria 'Pearl von Nurnberg'",
+    "url": "https://www.lukscheiter.eu/echeveria--pearl-von-nurnberg/",
+    "kind": "succulents",
+    "priceValue": 60.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/9355-2_echeveria--pearl-von-nurnberg.jpg?ff=1&x=1024&y=768&q=85&ts=67b66551&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/sukulenty/",
+    "sourceCategory": "sukulenty",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:echeveria"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 5.5 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 5.5 cm.",
+    "diameter": null,
+    "potDiameter": 5.5,
+    "photo": "/assets/plants/lukscheiter-p9355.jpg",
+    "price": "60 Kč",
+    "descriptionSha256": "f462bf515614edf6344c7233ef9184dc45a4f94d75893f8904079f91b12ff9cd"
+  },
+  {
+    "id": "p103",
+    "name": "Begonia 'Angel Wind'",
+    "url": "https://www.lukscheiter.eu/begonia--angel-wind/",
+    "kind": "plants",
+    "priceValue": 60.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/103-2_begonia--angel-wind.jpg?ff=1&x=1024&y=768&q=85&ts=67b66171&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/begonie/",
+    "sourceCategory": "begonie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:begonia"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 8.5 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 8.5 cm.",
+    "diameter": null,
+    "potDiameter": 8.5,
+    "photo": "/assets/plants/lukscheiter-p103.jpg",
+    "price": "60 Kč",
+    "descriptionSha256": "73422ce516deb5d696eb367c46e0c32169d7fea6d34c1afe0d93fe601ad19a2c"
+  },
+  {
+    "id": "p733",
+    "name": "Fosterella penduliflora (větší)",
+    "url": "https://www.lukscheiter.eu/fosterella-penduliflora--vetsi/",
+    "kind": "plants",
+    "priceValue": 100.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/733-2_fosterella-penduliflora--vetsi.jpg?ff=1&x=1024&y=768&q=85&ts=67b661b2&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/bromelie/",
+    "sourceCategory": "bromelie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:fosterella"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 12 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 12 cm.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/lukscheiter-p733.jpg",
+    "price": "100 Kč",
+    "descriptionSha256": "bbc766ecfa8f28270101724e046e4420737cd1eedd0e813be0ef9877d1bb94da"
+  },
+  {
+    "id": "p6712",
+    "name": "Bifrenaria harrisoniae",
+    "url": "https://www.lukscheiter.eu/bifrenaria-harrisoniae/",
+    "kind": "orchids",
+    "priceValue": 260.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/6712-2_bifrenaria-harrisoniae.jpg?ff=1&x=1024&y=768&q=85&ts=67b6642a&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:bifrenaria"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Bifrenaria harrisoniae."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p6712.jpg",
+    "price": "260 Kč",
+    "descriptionSha256": "c434e22379f3494d6bf99e998bec6c50468e4a8a01dfa8ac990043aa5b3e8596"
+  },
+  {
+    "id": "p10684",
+    "name": "Tillandsia brachycaulos v. abdita (malá)",
+    "url": "https://www.lukscheiter.eu/tillandsia-brachycaulos-v--abdita--mala/",
+    "kind": "airplants",
+    "priceValue": 50.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10684-2_tillandsia-brachycaulos-v--abdita--mala.jpg?ff=1&x=1024&y=768&q=85&ts=67b665df&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:tillandsia",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p10684.jpg",
+    "price": "50 Kč",
+    "descriptionSha256": "7f0199f55263b828dc35a3ed339f3d2115ff2848c62d01508b1a2ae6f8481684"
+  },
+  {
+    "id": "p8773",
+    "name": "Astrophytum myriostigma",
+    "url": "https://www.lukscheiter.eu/astrophytum-myriostigma/",
+    "kind": "succulents",
+    "priceValue": 40.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/8773_astrophytum-myriostigma.jpg?ff=1&x=1024&y=768&q=85&ts=6a5ba95f&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/kaktusy/",
+    "sourceCategory": "kaktusy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:astrophytum",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: slnečné stanovište."
+    ],
+    "reason": "Predajca uvádza: slnečné stanovište.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p8773.jpg",
+    "price": "40 Kč",
+    "descriptionSha256": "81d1e189a2ff5eea4b40ccb30ac5a986f12ce747c3d78bca122d301a765dc2dd"
+  },
+  {
+    "id": "p8242",
+    "name": "Asparagus densiflorus 'Sprengerii'",
+    "url": "https://www.lukscheiter.eu/asparagus-sprengerii/",
+    "kind": "plants",
+    "priceValue": 100.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/8242_asparagus-densiflorus--sprengerii.jpg?ff=1&x=1024&y=768&q=85&ts=69bafd91&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/pokojove-rostliny/",
+    "sourceCategory": "pokojove-rostliny",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:asparagus"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 12 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 12 cm.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/lukscheiter-p8242.jpg",
+    "price": "100 Kč",
+    "descriptionSha256": "8cd1dd592f037d0f4fbf5b33e622cb9b42fecfafdfa480b46f75982957d1688d"
+  },
+  {
+    "id": "p4423",
+    "name": "Cattleya bicolor",
+    "url": "https://www.lukscheiter.eu/cattleya-bicolor/",
+    "kind": "orchids",
+    "priceValue": 250.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/4423-2_cattleya-bicolor.jpg?ff=1&x=1024&y=768&q=85&ts=67b66314&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:cattleya"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Cattleya bicolor."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p4423.jpg",
+    "price": "250 Kč",
+    "descriptionSha256": "5533617e8c82d945a4f0c7f4d4a5c56e0899108591071b4420789ce8a66d5990"
+  },
+  {
+    "id": "p739",
+    "name": "Fosterella villosula",
+    "url": "https://www.lukscheiter.eu/fosterella-villosula/",
+    "kind": "plants",
+    "priceValue": 120.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/739-2_fosterella-villosula.jpg?ff=1&x=1024&y=768&q=85&ts=67b661b2&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/bromelie/",
+    "sourceCategory": "bromelie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:fosterella"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Fosterella villosula."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p739.jpg",
+    "price": "120 Kč",
+    "descriptionSha256": "60b1bdc91e6a76ba696272be54b01e6fb6b046d1c971689da395c4c75eb4ddff"
+  },
+  {
+    "id": "p7951",
+    "name": "Adiantum raddianum 'Fritz Luthi' (kapradina)",
+    "url": "https://www.lukscheiter.eu/adiantum-raddianum--fritz-luthi-kapradina/",
+    "kind": "plants",
+    "priceValue": 130.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/7951_adiantum-raddianum--fritz-luthi-kapradina.jpg?ff=1&x=1024&y=768&q=85&ts=6a5bb710&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/pokojove-rostliny/",
+    "sourceCategory": "pokojove-rostliny",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "easy",
+      "genus:adiantum"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 12 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Črepník podľa e-shopu: 12 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/lukscheiter-p7951.jpg",
+    "price": "130 Kč",
+    "descriptionSha256": "56623738158a582b6a523d2e95f4e0433097bff07f6a1bc1922da0f03563f7c4"
+  },
+  {
+    "id": "p538",
+    "name": "Neoregelia 'Fuego Ancho'",
+    "url": "https://www.lukscheiter.eu/neoregelia--fuego-ancho/",
+    "kind": "plants",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/538_neoregelia--fuego-ancho.jpg?ff=1&x=1024&y=768&q=85&ts=69c13d5f&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/bromelie/",
+    "sourceCategory": "bromelie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:neoregelia",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 9 cm."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/lukscheiter-p538.jpg",
+    "price": "150 Kč",
+    "descriptionSha256": "7a5a0d7de2d86ae3a85a35563da330b49c2daf59172a15dfa87bc874efe0c043"
+  },
+  {
+    "id": "p13280",
+    "name": "Vriesea espinosae f. gigant",
+    "url": "https://www.lukscheiter.eu/vriesea-espinosae-f--gigant/",
+    "kind": "plants",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/13280_vriesea-espinosae-f--gigant.jpg?ff=1&x=1024&y=768&q=85&ts=688155ed&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/bromelie/",
+    "sourceCategory": "bromelie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:vriesea"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Vriesea espinosae f. gigant."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p13280.jpg",
+    "price": "150 Kč",
+    "descriptionSha256": "585f3f7ccdd4885eda155f32932bae681024d9ca289bf640a7e98887975ae6fb"
+  },
+  {
+    "id": "p13984",
+    "name": "Hoya ovalifolia (ZR)",
+    "url": "https://www.lukscheiter.eu/hoya-ovalifolia--zr/",
+    "kind": "plants",
+    "priceValue": 160.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/13984_hoya-ovalifolia--zr.jpg?ff=1&x=1024&y=768&q=85&ts=6988bc3f&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/voskovky--hoya/",
+    "sourceCategory": "voskovky--hoya",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:hoya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 9 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/lukscheiter-p13984.jpg",
+    "price": "160 Kč",
+    "descriptionSha256": "a459107e5cd12a6e9a95a708de38ff8bf86ffa9cdd793dbc64c6cc789ed359c8"
+  },
+  {
+    "id": "p2716",
+    "name": "Hoya wayetii 'variegata' (ZR)",
+    "url": "https://www.lukscheiter.eu/hoya-wayetii--variegata/",
+    "kind": "plants",
+    "priceValue": 170.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/2716-2_hoya-wayetii--variegata-zr.jpg?ff=1&x=1024&y=768&q=85&ts=67b66267&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/voskovky--hoya/",
+    "sourceCategory": "voskovky--hoya",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:hoya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 9 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/lukscheiter-p2716.jpg",
+    "price": "170 Kč",
+    "descriptionSha256": "d26e82cca9f450865fc716314720ed3b06dc52a644557dc9c70776e6bdb3dc07"
+  },
+  {
+    "id": "p3004",
+    "name": "Hoya cardiophylla (VR)",
+    "url": "https://www.lukscheiter.eu/hoya-cardiophylla-2/",
+    "kind": "plants",
+    "priceValue": 180.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/3004_hoya-cardiophylla--vr.jpg?ff=1&x=1024&y=768&q=85&ts=67b66282&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/voskovky--hoya/",
+    "sourceCategory": "voskovky--hoya",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:hoya"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Hoya cardiophylla (VR)."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p3004.jpg",
+    "price": "180 Kč",
+    "descriptionSha256": "ccf1976576e5bcdb6830693cf3b899f6df97ddc71d8b50a95a7d36c4f0378cd4"
+  },
+  {
+    "id": "p2140",
+    "name": "Hoya parasitica 'splash' (Laos) (VR)",
+    "url": "https://www.lukscheiter.eu/hoya-parasitica--splash-laos/",
+    "kind": "plants",
+    "priceValue": 180.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/2140-2_hoya-parasitica--splash-laos-vr.jpg?ff=1&x=1024&y=768&q=85&ts=67b66231&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/voskovky--hoya/",
+    "sourceCategory": "voskovky--hoya",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:hoya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 9 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/lukscheiter-p2140.jpg",
+    "price": "180 Kč",
+    "descriptionSha256": "c2a296296776af40a2c971ae47bca09dd668e5603951cc54b5698e432043ddc6"
+  },
+  {
+    "id": "p631",
+    "name": "Quesnelia humilis",
+    "url": "https://www.lukscheiter.eu/quesnelia-humilis/",
+    "kind": "plants",
+    "priceValue": 190.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/631-2_quesnelia-humilis.jpg?ff=1&x=1024&y=768&q=85&ts=67b661a8&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/bromelie/",
+    "sourceCategory": "bromelie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:quesnelia"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 9 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/lukscheiter-p631.jpg",
+    "price": "190 Kč",
+    "descriptionSha256": "868d96ee8c472616d0951b7c576bfe027d9559bfcee811bea0d769b238459658"
+  },
+  {
+    "id": "p2017",
+    "name": "Hoya amoena (VR)",
+    "url": "https://www.lukscheiter.eu/hoya-amoena-2/",
+    "kind": "plants",
+    "priceValue": 200.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/2017-2_hoya-amoena--vr.jpg?ff=1&x=1024&y=768&q=85&ts=67b66227&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/voskovky--hoya/",
+    "sourceCategory": "voskovky--hoya",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:hoya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 9 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/lukscheiter-p2017.jpg",
+    "price": "200 Kč",
+    "descriptionSha256": "0a64c2031277315f1686a4f1ba6857f7cd786a448282df63b94ed4a66febec63"
+  },
+  {
+    "id": "p2533",
+    "name": "Hoya brevialata (ST)",
+    "url": "https://www.lukscheiter.eu/hoya-brevialata/",
+    "kind": "plants",
+    "priceValue": 200.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/2533-2_hoya-brevialata--st.jpg?ff=1&x=1024&y=768&q=85&ts=67b66257&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/voskovky--hoya/",
+    "sourceCategory": "voskovky--hoya",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:hoya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 9 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/lukscheiter-p2533.jpg",
+    "price": "200 Kč",
+    "descriptionSha256": "53a28d1b7f729be5558e20055e453989ac41414cce2ca60fe5f45e29509ff834"
+  },
+  {
+    "id": "p2374",
+    "name": "Hoya cagayanensis",
+    "url": "https://www.lukscheiter.eu/hoya-cagayanensis/",
+    "kind": "plants",
+    "priceValue": 200.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/2374_cagayanensis.jpg?ff=1&x=1024&y=768&q=85&ts=691f9261&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/voskovky--hoya/",
+    "sourceCategory": "voskovky--hoya",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:hoya"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Hoya cagayanensis."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p2374.jpg",
+    "price": "200 Kč",
+    "descriptionSha256": "11922b139321b2fefed0021b0bf10ddd1436f2a7210f3ef182a36d12b78834a7"
+  },
+  {
+    "id": "p928",
+    "name": "Araeococcus flagellifolius",
+    "url": "https://www.lukscheiter.eu/araeococcus-flagellifolius-2/",
+    "kind": "plants",
+    "priceValue": 230.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/928-2_araeococcus-flagellifolius.jpg?ff=1&x=1024&y=768&q=85&ts=67b661c6&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/bromelie/",
+    "sourceCategory": "bromelie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:araeococcus"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Araeococcus flagellifolius."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p928.jpg",
+    "price": "230 Kč",
+    "descriptionSha256": "fa6e8fc8698700460933d98ca8eec8b9349f313a6c836139182da596d0a01444"
+  },
+  {
+    "id": "p2347",
+    "name": "Hoya bicknellii (VR)",
+    "url": "https://www.lukscheiter.eu/hoya-bicknellii-2/",
+    "kind": "plants",
+    "priceValue": 230.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/2347_hoya-bicknellii--vr.jpg?ff=1&x=1024&y=768&q=85&ts=67b66245&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/voskovky--hoya/",
+    "sourceCategory": "voskovky--hoya",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:hoya"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Hoya bicknellii (VR)."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p2347.jpg",
+    "price": "230 Kč",
+    "descriptionSha256": "79314eda4d90799623f54b135e69ca1f6f1a62f51e8931b72a2de167dd39bc45"
+  },
+  {
+    "id": "p14324",
+    "name": "Hoya burtoniae (ST)",
+    "url": "https://www.lukscheiter.eu/hoya-burtoniae--st/",
+    "kind": "plants",
+    "priceValue": 230.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14324_hoya-burtoniae--st.jpg?ff=1&x=1024&y=768&q=85&ts=69e747cc&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/voskovky--hoya/",
+    "sourceCategory": "voskovky--hoya",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:hoya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 9 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/lukscheiter-p14324.jpg",
+    "price": "230 Kč",
+    "descriptionSha256": "1ea4991ec060a0e51ae858509b791c1e5e4acd3edb0c3e2be9866891e9fdf0e0"
+  },
+  {
+    "id": "p14132",
+    "name": "Neoregelia 'Hades'",
+    "url": "https://www.lukscheiter.eu/neoregelia--hades-2/",
+    "kind": "plants",
+    "priceValue": 230.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14132-1_neoregelia--hades.jpg?ff=1&x=1024&y=768&q=85&ts=69c13a9a&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/bromelie/",
+    "sourceCategory": "bromelie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:neoregelia",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 9 cm."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/lukscheiter-p14132.jpg",
+    "price": "230 Kč",
+    "descriptionSha256": "aebf45e5ad1b64f67b683cc26d621c72c14b78011a025bbaa1433bb91e5f3ddf"
+  },
+  {
+    "id": "p868",
+    "name": "Neoregelia 'Burnsie's Spiral'",
+    "url": "https://www.lukscheiter.eu/neoregelia--burnsie-s-spiral/",
+    "kind": "plants",
+    "priceValue": 250.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/868-2_neoregelia--burnsie-s-spiral.jpg?ff=1&x=1024&y=768&q=85&ts=67b661bf&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/bromelie/",
+    "sourceCategory": "bromelie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:neoregelia",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 9 cm."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/lukscheiter-p868.jpg",
+    "price": "250 Kč",
+    "descriptionSha256": "1a7fecbad81fbf77d5e969a62caab9d52ef73c89eff2e33e9263eb6ac24c061d"
+  },
+  {
+    "id": "p14150",
+    "name": "Vriesea saundersii (velká)",
+    "url": "https://www.lukscheiter.eu/vriesea-saundersii--velka/",
+    "kind": "plants",
+    "priceValue": 250.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14150_vriesea-saundersii--velka.jpg?ff=1&x=1024&y=768&q=85&ts=69c143ea&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/bromelie/",
+    "sourceCategory": "bromelie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:vriesea"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 15 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 15 cm.",
+    "diameter": null,
+    "potDiameter": 15.0,
+    "photo": "/assets/plants/lukscheiter-p14150.jpg",
+    "price": "250 Kč",
+    "descriptionSha256": "6171087f7db4fb84bd083d3d29918f19ea56c9f06700f5358080d23a7d18ccee"
+  },
+  {
+    "id": "p14883",
+    "name": "Aglaonema 'White Joy'",
+    "url": "https://www.lukscheiter.eu/aglaonema--white-joy/",
+    "kind": "plants",
+    "priceValue": 260.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14883_aglaonema--white-joy.jpg?ff=1&x=1024&y=768&q=85&ts=6aa97820&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/pokojove-rostliny/",
+    "sourceCategory": "pokojove-rostliny",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:aglaonema",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 12 cm.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/lukscheiter-p14883.jpg",
+    "price": "260 Kč",
+    "descriptionSha256": "adaad5727037549c3c61e5e054825d953204bf9e080a74df0d078409582fe06e"
+  },
+  {
+    "id": "p1813",
+    "name": "Hoya acuta 'variegata' (big leaf) (VR, závěs 9cm)",
+    "url": "https://www.lukscheiter.eu/hoya-acuta--variegata-big-leaf/",
+    "kind": "plants",
+    "priceValue": 300.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/1813_acuta.jpg?ff=1&x=1024&y=768&q=85&ts=69052675&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/voskovky--hoya/",
+    "sourceCategory": "voskovky--hoya",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:hoya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 9 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 9 cm.",
+    "diameter": null,
+    "potDiameter": 9.0,
+    "photo": "/assets/plants/lukscheiter-p1813.jpg",
+    "price": "300 Kč",
+    "descriptionSha256": "dd90a79e2f1424931a92b1fcd61ec664283b3effd6964c0f1cb685b8890b72ff"
+  },
+  {
+    "id": "p931",
+    "name": "Araeococcus flagellifolius",
+    "url": "https://www.lukscheiter.eu/araeococcus-flagellifolius-3/",
+    "kind": "plants",
+    "priceValue": 350.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/931-2_araeococcus-flagellifolius.jpg?ff=1&x=1024&y=768&q=85&ts=67b661c6&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/bromelie/",
+    "sourceCategory": "bromelie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:araeococcus"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Araeococcus flagellifolius."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p931.jpg",
+    "price": "350 Kč",
+    "descriptionSha256": "be7f3824dad71924051083831b23a1b728e34bf4c34612260a7ce042f7bf1136"
+  },
+  {
+    "id": "p12961",
+    "name": "Dischidia pectinoides (závěs, prům. 9cm)",
+    "url": "https://www.lukscheiter.eu/dischidia-pectinoides--zaves/",
+    "kind": "plants",
+    "priceValue": 350.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/12961-2_dischidia-pectinoides--zaves--prum--9cm.jpg?ff=1&x=1024&y=768&q=85&ts=699346dc&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/voskovky--hoya/",
+    "sourceCategory": "voskovky--hoya",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:dischidia"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Dischidia pectinoides (závěs, prům. 9cm)."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p12961.jpg",
+    "price": "350 Kč",
+    "descriptionSha256": "47376a779ba754cdeaa282e93a058dff9ad97351df98f2a9e07f1eb7f9f7349c"
+  },
+  {
+    "id": "p14141",
+    "name": "Neoregelia camoreiana (trs XL)",
+    "url": "https://www.lukscheiter.eu/neoregelia-camoreiana--trs-xl/",
+    "kind": "plants",
+    "priceValue": 500.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14141_neoregelia-camoreiana--trs-xl.jpg?ff=1&x=1024&y=768&q=85&ts=69c1363d&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/bromelie/",
+    "sourceCategory": "bromelie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:neoregelia",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo. Črepník podľa e-shopu: 12 cm.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/lukscheiter-p14141.jpg",
+    "price": "500 Kč",
+    "descriptionSha256": "4b17b5129bbccf33fb948bd8705e616130ca1e36815c548a336eb73549c78edb"
+  },
+  {
+    "id": "p4540",
+    "name": "Bifrenaria aureo-fulva",
+    "url": "https://www.lukscheiter.eu/bifrenaria-aureo-fulva/",
+    "kind": "orchids",
+    "priceValue": 270.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/4540-2_bifrenaria-aureo-fulva.jpg?ff=1&x=1024&y=768&q=85&ts=67b66322&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:bifrenaria",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň.",
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Predajca uvádza: polotieň. Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p4540.jpg",
+    "price": "270 Kč",
+    "descriptionSha256": "0cbe07843044c9bf16c9cfd9e190bc989f0583b2a0e95ffee6f1e046067ed561"
+  },
+  {
+    "id": "p13420",
+    "name": "C. Peckaviensis",
+    "url": "https://www.lukscheiter.eu/c--peckaviensis/",
+    "kind": "orchids",
+    "priceValue": 270.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/13420-2_c-peckaviensis.jpg?ff=1&x=1024&y=768&q=85&ts=68bddef1&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:c."
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p13420.jpg",
+    "price": "270 Kč",
+    "descriptionSha256": "6aeaa4a10f1cb8054dd7970788234a7a33d5a800857e6320d74c27993c3874a9"
+  },
+  {
+    "id": "p3964",
+    "name": "Cattleya intermedia var. alba",
+    "url": "https://www.lukscheiter.eu/cattleya-intermedia-var--alba/",
+    "kind": "orchids",
+    "priceValue": 270.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/3964-2_cattleya-intermedia-var--alba.jpg?ff=1&x=1024&y=768&q=85&ts=67b662df&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:cattleya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p3964.jpg",
+    "price": "270 Kč",
+    "descriptionSha256": "6b504f0933f943db33be74f59f4ab3827a3ec3be5a7a8839a622826ccdbdfb39"
+  },
+  {
+    "id": "p7420",
+    "name": "Dendrobium polysema",
+    "url": "https://www.lukscheiter.eu/dendrobium-polysema/",
+    "kind": "orchids",
+    "priceValue": 270.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/7420-2_dendrobium-polysema.jpg?ff=1&x=1024&y=768&q=85&ts=67b6647e&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:dendrobium"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p7420.jpg",
+    "price": "270 Kč",
+    "descriptionSha256": "388ce3469ecd19238e070a407aae8362ceb12c339b251342f5309e65b1cbdd1b"
+  },
+  {
+    "id": "p4552",
+    "name": "Cattleya forbesii",
+    "url": "https://www.lukscheiter.eu/cattleya-forbesii/",
+    "kind": "orchids",
+    "priceValue": 280.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/4552-2_cattleya-forbesii.jpg?ff=1&x=1024&y=768&q=85&ts=67b66323&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:cattleya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p4552.jpg",
+    "price": "280 Kč",
+    "descriptionSha256": "f2725657db44efbe820cbdb300f0a3599067015f9a2f1c7f9c9fa59b92f7eef1"
+  },
+  {
+    "id": "p3976",
+    "name": "Cattleya intermedia var. coerulea",
+    "url": "https://www.lukscheiter.eu/cattleya-intermedia-var--coerulea-2/",
+    "kind": "orchids",
+    "priceValue": 280.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/3976-2_cattleya-intermedia-var--coerulea.jpg?ff=1&x=1024&y=768&q=85&ts=67b662e0&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:cattleya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p3976.jpg",
+    "price": "280 Kč",
+    "descriptionSha256": "c765d6475843bd8f70d476542335a836cb0101245c72f2da8d0a06735d50dc93"
+  },
+  {
+    "id": "p13885",
+    "name": "Cattleya mendelii",
+    "url": "https://www.lukscheiter.eu/cattleya-mendelii/",
+    "kind": "orchids",
+    "priceValue": 280.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/13885-3_catt-mendelii.jpg?ff=1&x=1024&y=768&q=85&ts=691b9e41&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:cattleya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p13885.jpg",
+    "price": "280 Kč",
+    "descriptionSha256": "4aea27c3978840d77f68de3384e2844a6f017fb1608941cee9af3c23333018ca"
+  },
+  {
+    "id": "p5005",
+    "name": "Cattleya porphyroglossa",
+    "url": "https://www.lukscheiter.eu/cattleya-porphyroglossa/",
+    "kind": "orchids",
+    "priceValue": 280.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/5005-2_cattleya-porphyroglossa.jpg?ff=1&x=1024&y=768&q=85&ts=67b66359&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:cattleya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p5005.jpg",
+    "price": "280 Kč",
+    "descriptionSha256": "f2a8363e1624b1b68f7d080b5640a7de540af575df85ee2e58846ca602a83d3f"
+  },
+  {
+    "id": "p5353",
+    "name": "Stanhopea tigrina var. nigroviolacea",
+    "url": "https://www.lukscheiter.eu/stanhopea-tigrina-var--nigroviolacea/",
+    "kind": "orchids",
+    "priceValue": 290.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/5353-2_stanhopea-tigrina-var--nigroviolacea.jpg?ff=1&x=1024&y=768&q=85&ts=67b6637f&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "easy",
+      "genus:stanhopea"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p5353.jpg",
+    "price": "290 Kč",
+    "descriptionSha256": "db5332d8935470de9607b188a0ab77d97c2928d6b6ac8708a1f775ee9c94e72f"
+  },
+  {
+    "id": "p5761",
+    "name": "Cattleya schilleriana",
+    "url": "https://www.lukscheiter.eu/cattleya-schilleriana/",
+    "kind": "orchids",
+    "priceValue": 300.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/5761_cattleya-schilleriana.jpg?ff=1&x=1024&y=768&q=85&ts=67b663bb&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:cattleya"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p5761.jpg",
+    "price": "300 Kč",
+    "descriptionSha256": "4c08a36fadbdff2b7736a0d5671d4c8eab0d3aeef92f23e3e525bd35daa37503"
+  },
+  {
+    "id": "p14982",
+    "name": "Renanthera imschootiana x Vanda falcata",
+    "url": "https://www.lukscheiter.eu/renanthera-imschootiana-x-vanda-falcata/",
+    "kind": "orchids",
+    "priceValue": 350.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14982-1_ren-imschoot-x-v-falcata.jpg?ff=1&x=1024&y=768&q=85&ts=6ab918ab&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:renanthera"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p14982.jpg",
+    "price": "350 Kč",
+    "descriptionSha256": "86f746e2dbadfc12f864dfb6197f904af587dc8437d263c4714eb39791dcc1d4"
+  },
+  {
+    "id": "p4420",
+    "name": "Vanda foetida",
+    "url": "https://www.lukscheiter.eu/vanda-foetida/",
+    "kind": "orchids",
+    "priceValue": 350.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/4420-2_vanda-foetida.jpg?ff=1&x=1024&y=768&q=85&ts=67b66314&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:vanda"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p4420.jpg",
+    "price": "350 Kč",
+    "descriptionSha256": "5dfe940723a6fe28e5fc3d81193aa24570994eef72bdf5ef7bc2432dfc849099"
+  },
+  {
+    "id": "p14937",
+    "name": "Aerangis biloba",
+    "url": "https://www.lukscheiter.eu/aerangis-biloba/",
+    "kind": "orchids",
+    "priceValue": 380.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14937-3_aeran-biloba.jpg?ff=1&x=1024&y=768&q=85&ts=6ab7a93e&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/orchideje-botanicke-druhy/",
+    "sourceCategory": "orchideje-botanicke-druhy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:aerangis"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p14937.jpg",
+    "price": "380 Kč",
+    "descriptionSha256": "4d5eed88e16463629ecf3c9af66de9a24d5f32d34e08322ae9495535ac2850cb"
+  },
+  {
+    "id": "p10609",
+    "name": "Tillandsia ionantha v. rubra",
+    "url": "https://www.lukscheiter.eu/tillandsia-ionantha-v--rubra/",
+    "kind": "airplants",
+    "priceValue": 50.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10609-2_tillandsia-ionantha-v--rubra.jpg?ff=1&x=1024&y=768&q=85&ts=67b665d7&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Tillandsia ionantha v. rubra."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p10609.jpg",
+    "price": "50 Kč",
+    "descriptionSha256": "5c6c4482562b27acfada09b58d67cd896a9ef5e33f5b3008c928361c0ce73a26"
+  },
+  {
+    "id": "p10690",
+    "name": "Tillandsia brachycaulos v. abdita (střední)",
+    "url": "https://www.lukscheiter.eu/tillandsia-brachycaulos-v--abdita--stredni/",
+    "kind": "airplants",
+    "priceValue": 70.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10690-2_tillandsia-brachycaulos-v--abdita--stredni.jpg?ff=1&x=1024&y=768&q=85&ts=67b665e0&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:tillandsia",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p10690.jpg",
+    "price": "70 Kč",
+    "descriptionSha256": "62d4c92d5011506af740f28f7c3f9d7cef78fa3582d6bc0c119bb9da57938868"
+  },
+  {
+    "id": "p10732",
+    "name": "Tillandsia brachycaulos v. multiflora (střední)",
+    "url": "https://www.lukscheiter.eu/tillandsia-brachycaulos-v--multiflora--stredni/",
+    "kind": "airplants",
+    "priceValue": 70.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10732-2_tillandsia-brachycaulos-v--multiflora--stredni.jpg?ff=1&x=1024&y=768&q=85&ts=67b665e4&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:tillandsia",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p10732.jpg",
+    "price": "70 Kč",
+    "descriptionSha256": "a50e47ae613d32c032e2e3a0d7902b06afbab3cbe2bcce3664dd101f8b3c8d41"
+  },
+  {
+    "id": "p10771",
+    "name": "Tillandsia tricolor var. melanocrater (střední)",
+    "url": "https://www.lukscheiter.eu/tillandsia-tricolor-var--melanocrater--stredni/",
+    "kind": "airplants",
+    "priceValue": 70.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10771_melano-stredni.jpg?ff=1&x=1024&y=768&q=85&ts=6999e102&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Tillandsia tricolor var. melanocrater (střední)."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p10771.jpg",
+    "price": "70 Kč",
+    "descriptionSha256": "ea83e7505a8f6c97df960e948838f08692007f21b6748d14de70804f440f6117"
+  },
+  {
+    "id": "p10381",
+    "name": "Tillandsia bandensis",
+    "url": "https://www.lukscheiter.eu/tillandsia-bandensis/",
+    "kind": "airplants",
+    "priceValue": 80.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10381-2_tillandsia-bandensis.jpg?ff=1&x=1024&y=768&q=85&ts=67b665c0&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p10381.jpg",
+    "price": "80 Kč",
+    "descriptionSha256": "a364e1af2d79dff98d2ccddc752acee96ed1b2b175394120b5ac42849e053b65"
+  },
+  {
+    "id": "p11047",
+    "name": "Tillandsia albida (forma dlouhá)",
+    "url": "https://www.lukscheiter.eu/tillandsia-albida--forma-dlouha/",
+    "kind": "airplants",
+    "priceValue": 100.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/11047-2_tillandsia-albida--forma-dlouha.jpg?ff=1&x=1024&y=768&q=85&ts=67b66604&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Tillandsia albida (forma dlouhá)."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p11047.jpg",
+    "price": "100 Kč",
+    "descriptionSha256": "d8413cb909468dd9baa30ba5bff1e77c846e2172ad6908f12b8f4776c0d85151"
+  },
+  {
+    "id": "p10687",
+    "name": "Tillandsia brachycaulos v. abdita (velká)",
+    "url": "https://www.lukscheiter.eu/tillandsia-brachycaulos-v--abdita--velka/",
+    "kind": "airplants",
+    "priceValue": 100.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10687-2_tillandsia-brachycaulos-v--abdita--velka.jpg?ff=1&x=1024&y=768&q=85&ts=67b665e0&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:tillandsia",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň, rozptýlené svetlo."
+    ],
+    "reason": "Predajca uvádza: polotieň, rozptýlené svetlo.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p10687.jpg",
+    "price": "100 Kč",
+    "descriptionSha256": "49856f1bbae7fc0e780bcd056a2deb8ddb134124ec5764b3c8ffb1dce529afa5"
+  },
+  {
+    "id": "p10738",
+    "name": "Tillandsia balbisiana 'Guatemala'",
+    "url": "https://www.lukscheiter.eu/tillandsia-balbisiana--guatemala/",
+    "kind": "airplants",
+    "priceValue": 120.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10738_tillandsia-balbisiana--guatemala.jpg?ff=1&x=1024&y=768&q=85&ts=69f4abe2&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:tillandsia",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň."
+    ],
+    "reason": "Predajca uvádza: polotieň.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p10738.jpg",
+    "price": "120 Kč",
+    "descriptionSha256": "c483f645a072acc801ad4665e2d71f9ac09cee6e15360221aef3dc06068da187"
+  },
+  {
+    "id": "p11035",
+    "name": "Tillandsia albida var. minor",
+    "url": "https://www.lukscheiter.eu/tillandsia-albida-var--minor/",
+    "kind": "airplants",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/11035_tillandsia-albida-var--minor.jpg?ff=1&x=1024&y=768&q=85&ts=6a9d3165&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Tillandsia albida var. minor."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p11035.jpg",
+    "price": "150 Kč",
+    "descriptionSha256": "658189950a936dcb817db8453ed9e90050a1c23e28acbd8d92fb74014d882c20"
+  },
+  {
+    "id": "p10393",
+    "name": "Tillandsia bandensis (trs)",
+    "url": "https://www.lukscheiter.eu/tillandsia-bandensis--trs/",
+    "kind": "airplants",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10393_bandensis.jpg?ff=1&x=1024&y=768&q=85&ts=686edfd7&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p10393.jpg",
+    "price": "150 Kč",
+    "descriptionSha256": "4e57362a14d746aa064857f677e272079215eee46518711e54935a0737f7332f"
+  },
+  {
+    "id": "p10885",
+    "name": "Tillandsia capitata (velká)",
+    "url": "https://www.lukscheiter.eu/tillandsia-capitata--velka/",
+    "kind": "airplants",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10885-3_tillandsia-capitata--velka.jpg?ff=1&x=1024&y=768&q=85&ts=67b665f3&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:tillandsia",
+      "low"
+    ],
+    "facts": [
+      "Predajca uvádza: polotieň."
+    ],
+    "reason": "Predajca uvádza: polotieň.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p10885.jpg",
+    "price": "150 Kč",
+    "descriptionSha256": "02a3728097b305d47ec8a4f9df4df3ca3f769e1b6496a32edfabe86d8d7913c0"
+  },
+  {
+    "id": "p11230",
+    "name": "Tillandsia loliacea (trs)",
+    "url": "https://www.lukscheiter.eu/tillandsia-loliacea--trs/",
+    "kind": "airplants",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/11230-2_tillandsia-loliacea--trs.jpg?ff=1&x=1024&y=768&q=85&ts=67b66617&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Tillandsia loliacea (trs)."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p11230.jpg",
+    "price": "150 Kč",
+    "descriptionSha256": "b664d6f2e089ef05e2afc011b95874d9688aa6c78042d55b64ca54bee1f4c105"
+  },
+  {
+    "id": "p10936",
+    "name": "Tillandsia aeranthos",
+    "url": "https://www.lukscheiter.eu/tillandsia-aeranthos/",
+    "kind": "airplants",
+    "priceValue": 180.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10936_tillandsia-aeranthos.jpg?ff=1&x=1024&y=768&q=85&ts=67b665f8&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Tillandsia aeranthos."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p10936.jpg",
+    "price": "180 Kč",
+    "descriptionSha256": "c0f91003bf7dc76d5625e23e626d743648e7761a5d128bf0958079e5b2569e99"
+  },
+  {
+    "id": "p10975",
+    "name": "Tillandsia bermeojensis",
+    "url": "https://www.lukscheiter.eu/tillandsia-bermeojensis/",
+    "kind": "airplants",
+    "priceValue": 290.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10975_tillandsia-bermeojensis.jpg?ff=1&x=1024&y=768&q=85&ts=6a9d3a17&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Tillandsia bermeojensis."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p10975.jpg",
+    "price": "290 Kč",
+    "descriptionSha256": "44f251fb150fc23a2413b82b11f4acdeab475eb640c22d4a0940ce8c219fc75e"
+  },
+  {
+    "id": "p14868",
+    "name": "Tillandsia aeranthos f. 'Gigant'",
+    "url": "https://www.lukscheiter.eu/tillandsia-aeranthos-f-gigant/",
+    "kind": "airplants",
+    "priceValue": 350.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14868_tillandsia-aeranthos-f-gigant.jpg?ff=1&x=1024&y=768&q=85&ts=6a9d2654&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/tilandsie/",
+    "sourceCategory": "tilandsie",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:tillandsia"
+    ],
+    "facts": [
+      "Botanický názov a variant podľa e-shopu: Tillandsia aeranthos f. 'Gigant'."
+    ],
+    "reason": "Konkrétny druh a variant z ponuky predajcu.",
+    "diameter": null,
+    "potDiameter": null,
+    "photo": "/assets/plants/lukscheiter-p14868.jpg",
+    "price": "350 Kč",
+    "descriptionSha256": "e807ea36538f831d76078833ad60729c90fc34a10dbd39f527df3d22fc5b183e"
+  },
+  {
+    "id": "p8623",
+    "name": "Eriocactus leninghausii",
+    "url": "https://www.lukscheiter.eu/eriocactus-leninghausii/",
+    "kind": "succulents",
+    "priceValue": 45.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/8623-2_eriocactus-leninghausii.jpg?ff=1&x=1024&y=768&q=85&ts=67b66504&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/kaktusy/",
+    "sourceCategory": "kaktusy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:eriocactus"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 5.5 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 5.5 cm.",
+    "diameter": null,
+    "potDiameter": 5.5,
+    "photo": "/assets/plants/lukscheiter-p8623.jpg",
+    "price": "45 Kč",
+    "descriptionSha256": "2be5bd8e5a324e7acda076e56a6763653c38e89757ab91996e5f7f82900a03a7"
+  },
+  {
+    "id": "p8968",
+    "name": "Aloe squarrosa - menší",
+    "url": "https://www.lukscheiter.eu/aloe-squarrosa-mensi/",
+    "kind": "succulents",
+    "priceValue": 50.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/8968-2_aloe-squarrosa-mensi.jpg?ff=1&x=1024&y=768&q=85&ts=67b66529&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/sukulenty/",
+    "sourceCategory": "sukulenty",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:aloe"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 8 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 8 cm.",
+    "diameter": null,
+    "potDiameter": 8.0,
+    "photo": "/assets/plants/lukscheiter-p8968.jpg",
+    "price": "50 Kč",
+    "descriptionSha256": "7a456e7125db8cac75d88dad174592472116176f652084ee0156a31389230ea9"
+  },
+  {
+    "id": "p9988",
+    "name": "Aloe humilis",
+    "url": "https://www.lukscheiter.eu/aloe-humilis/",
+    "kind": "succulents",
+    "priceValue": 60.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/9988_aloe-humilis.jpg?ff=1&x=1024&y=768&q=85&ts=69a76078&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/sukulenty/",
+    "sourceCategory": "sukulenty",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:aloe"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 5.5 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 5.5 cm.",
+    "diameter": null,
+    "potDiameter": 5.5,
+    "photo": "/assets/plants/lukscheiter-p9988.jpg",
+    "price": "60 Kč",
+    "descriptionSha256": "51c7433a75e3f0ac4069364e7d8a0e7b63c1e3f6c1e49e572c6f5e41ab38bb99"
+  },
+  {
+    "id": "p8497",
+    "name": "Cereus peruvianus 'Golden Monstrosus'",
+    "url": "https://www.lukscheiter.eu/cereus-peruvianus--mostrosa/",
+    "kind": "succulents",
+    "priceValue": 60.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/8497_cereus-peruvianus--golden-monstrosus.jpg?ff=1&x=1024&y=768&q=85&ts=6a398ca9&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/kaktusy/",
+    "sourceCategory": "kaktusy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:cereus"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 5.5 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 5.5 cm.",
+    "diameter": null,
+    "potDiameter": 5.5,
+    "photo": "/assets/plants/lukscheiter-p8497.jpg",
+    "price": "60 Kč",
+    "descriptionSha256": "18a4aac600b43602fc817057a5d3099d8afb203a394c74f75cb718be6ba87aa7"
+  },
+  {
+    "id": "p14571",
+    "name": "Sedum rubrotinctum 'Jelly Bean'",
+    "url": "https://www.lukscheiter.eu/sedum-rubrotinctum--jelly-bean/",
+    "kind": "succulents",
+    "priceValue": 60.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14571_sedum-rubrotinctum--jelly-bean.jpg?ff=1&x=1024&y=768&q=85&ts=6a5bb267&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/sukulenty/",
+    "sourceCategory": "sukulenty",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:sedum"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 5.5 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 5.5 cm.",
+    "diameter": null,
+    "potDiameter": 5.5,
+    "photo": "/assets/plants/lukscheiter-p14571.jpg",
+    "price": "60 Kč",
+    "descriptionSha256": "46af3f20f061d976107dd4aff76de6b2ea1d9eca4c0cd0cbe39b235bd209f940"
+  },
+  {
+    "id": "p14353",
+    "name": "Cotyledon orbiculata 'Red Edge'",
+    "url": "https://www.lukscheiter.eu/cotyledon-orbiculata--red-edge/",
+    "kind": "succulents",
+    "priceValue": 65.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14353_cotyledon-orbiculata--red-edge.jpg?ff=1&x=1024&y=768&q=85&ts=6a0ce5c5&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/sukulenty/",
+    "sourceCategory": "sukulenty",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:cotyledon",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: slnečné stanovište.",
+      "Črepník podľa e-shopu: 6 cm."
+    ],
+    "reason": "Predajca uvádza: slnečné stanovište. Črepník podľa e-shopu: 6 cm.",
+    "diameter": null,
+    "potDiameter": 6.0,
+    "photo": "/assets/plants/lukscheiter-p14353.jpg",
+    "price": "65 Kč",
+    "descriptionSha256": "4cda7f7cf3a4504db027a4382f70003ab7d709b6ab2608569041cdd073e32fd6"
+  },
+  {
+    "id": "p10006",
+    "name": "Aloe haworthioides",
+    "url": "https://www.lukscheiter.eu/aloe-haworthioides/",
+    "kind": "succulents",
+    "priceValue": 70.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/10006-2_aloe-haworthioides.jpg?ff=1&x=1024&y=768&q=85&ts=67b66597&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/sukulenty/",
+    "sourceCategory": "sukulenty",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:aloe"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 5.5 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 5.5 cm.",
+    "diameter": null,
+    "potDiameter": 5.5,
+    "photo": "/assets/plants/lukscheiter-p10006.jpg",
+    "price": "70 Kč",
+    "descriptionSha256": "985369f50a15b69e45710037aba6dfe848543563d493898a2858d6982cdcccca"
+  },
+  {
+    "id": "p8917",
+    "name": "Aloinopsis schooneesii",
+    "url": "https://www.lukscheiter.eu/aloinopsis-schooneesii/",
+    "kind": "succulents",
+    "priceValue": 70.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/8917_aloinopsis-schooneesii.jpg?ff=1&x=1024&y=768&q=85&ts=69a76479&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/sukulenty/",
+    "sourceCategory": "sukulenty",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:aloinopsis"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 5.5 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 5.5 cm.",
+    "diameter": null,
+    "potDiameter": 5.5,
+    "photo": "/assets/plants/lukscheiter-p8917.jpg",
+    "price": "70 Kč",
+    "descriptionSha256": "56a7d6bea92334aa3c4e4480ea1b03baed510ad3e67ba2e4f08622f71fb816c0"
+  },
+  {
+    "id": "p8770",
+    "name": "Gymnocalycium saglione",
+    "url": "https://www.lukscheiter.eu/gymnocalycium-saglione/",
+    "kind": "succulents",
+    "priceValue": 70.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/8770_gymnocalycium-saglione.jpg?ff=1&x=1024&y=768&q=85&ts=67b66513&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/kaktusy/",
+    "sourceCategory": "kaktusy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:gymnocalycium"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 7 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 7 cm.",
+    "diameter": null,
+    "potDiameter": 7.0,
+    "photo": "/assets/plants/lukscheiter-p8770.jpg",
+    "price": "70 Kč",
+    "descriptionSha256": "edbf55fe7d20415e95265109b234b5786d6a62301b2244dcbbc57ef4138c2212"
+  },
+  {
+    "id": "p9895",
+    "name": "Anacampseros telephiastrum variegata 'Sunrise'",
+    "url": "https://www.lukscheiter.eu/anacampseros-telephiastrum-variegata--sunrise-2/",
+    "kind": "succulents",
+    "priceValue": 120.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/9895_anacampseros-telephiastrum-variegata--sunrise.jpg?ff=1&x=1024&y=768&q=85&ts=697d0d68&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/sukulenty/",
+    "sourceCategory": "sukulenty",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "easy",
+      "genus:anacampseros"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 8.5 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Črepník podľa e-shopu: 8.5 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 8.5,
+    "photo": "/assets/plants/lukscheiter-p9895.jpg",
+    "price": "120 Kč",
+    "descriptionSha256": "775dd5939c84f394f0d068dd1271314dd094c5b1f27de0d4812b53038bf039cc"
+  },
+  {
+    "id": "p14463",
+    "name": "Mammillaria elongata 'Copper'",
+    "url": "https://www.lukscheiter.eu/mammillaria-elongata--copper/",
+    "kind": "succulents",
+    "priceValue": 130.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14463_mammillaria-elongata--copper.jpg?ff=1&x=1024&y=768&q=85&ts=6a39904f&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/kaktusy/",
+    "sourceCategory": "kaktusy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:mammillaria"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 8.5 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 8.5 cm.",
+    "diameter": null,
+    "potDiameter": 8.5,
+    "photo": "/assets/plants/lukscheiter-p14463.jpg",
+    "price": "130 Kč",
+    "descriptionSha256": "56dc4e9e344db0f8fb609e826c1bd36fc9406ed2a37291f6d3ad5305163bd5db"
+  },
+  {
+    "id": "p14472",
+    "name": "Cereus peruvianus 'Monstrosus Brown' (velký)",
+    "url": "https://www.lukscheiter.eu/cereus-peruvianus--monstrosus-brown-velky/",
+    "kind": "succulents",
+    "priceValue": 150.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14472_cereus-peruvianus--monstrosus-brown-velky.jpg?ff=1&x=1024&y=768&q=85&ts=6a3992e1&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/kaktusy/",
+    "sourceCategory": "kaktusy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:cereus"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 12 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 12 cm.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/lukscheiter-p14472.jpg",
+    "price": "150 Kč",
+    "descriptionSha256": "08357b85ee5571d9a93a9d94abaed0ab121cb52a9dd7eac853f1a7fb9ea40b8d"
+  },
+  {
+    "id": "p14922",
+    "name": "Crassula marnieriana 'Grey'",
+    "url": "https://www.lukscheiter.eu/crassula-marnieriana--grey/",
+    "kind": "succulents",
+    "priceValue": 160.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14922_crassula-marnieriana--grey.jpg?ff=1&x=1024&y=768&q=85&ts=6aa98921&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/sukulenty/",
+    "sourceCategory": "sukulenty",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "easy",
+      "genus:crassula",
+      "sun"
+    ],
+    "facts": [
+      "Predajca uvádza: slnečné stanovište.",
+      "Črepník podľa e-shopu: 8.5 cm.",
+      "Predajca uvádza nenáročnú starostlivosť."
+    ],
+    "reason": "Predajca uvádza: slnečné stanovište. Črepník podľa e-shopu: 8.5 cm. Predajca uvádza nenáročnú starostlivosť.",
+    "diameter": null,
+    "potDiameter": 8.5,
+    "photo": "/assets/plants/lukscheiter-p14922.jpg",
+    "price": "160 Kč",
+    "descriptionSha256": "125c7efdaf73b9dcf7d32d19e29bb10b89121ba25d1555a21f71362046436290"
+  },
+  {
+    "id": "p14095",
+    "name": "Cereus peruvianus 'Tortuosus'",
+    "url": "https://www.lukscheiter.eu/cereus-peruvianus--tortuosus/",
+    "kind": "succulents",
+    "priceValue": 330.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14095_cereus-peruvianus--tortuosus.jpg?ff=1&x=1024&y=768&q=85&ts=69a75ed4&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/kaktusy/",
+    "sourceCategory": "kaktusy",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:cereus"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 11 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 11 cm.",
+    "diameter": null,
+    "potDiameter": 11.0,
+    "photo": "/assets/plants/lukscheiter-p14095.jpg",
+    "price": "330 Kč",
+    "descriptionSha256": "ff48e7270119b2d95cc5475c813b08fc27da3a12c8d3b5d43b82563392ddce77"
+  },
+  {
+    "id": "p14844",
+    "name": "Dorstenia gigas (v)",
+    "url": "https://www.lukscheiter.eu/dorstenia-gigas--v/",
+    "kind": "succulents",
+    "priceValue": 3000.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14844_dorstenia-gigas--v.jpg?ff=1&x=1024&y=768&q=85&ts=6a947d8e&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/adenium--poustni-ruze/",
+    "sourceCategory": "adenium--poustni-ruze",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "bright",
+      "genus:dorstenia"
+    ],
+    "facts": [
+      "Predajca uvádza: rozptýlené svetlo.",
+      "Črepník podľa e-shopu: 12 cm."
+    ],
+    "reason": "Predajca uvádza: rozptýlené svetlo. Črepník podľa e-shopu: 12 cm.",
+    "diameter": null,
+    "potDiameter": 12.0,
+    "photo": "/assets/plants/lukscheiter-p14844.jpg",
+    "price": "3000 Kč",
+    "descriptionSha256": "7c86182e8b3bb7ed6f2f5d9247eb90c61c6950bfa93986194671ed7e1fd5613a"
+  },
+  {
+    "id": "p14835",
+    "name": "Adenium socotranum 'Pet Baan Na' (v)",
+    "url": "https://www.lukscheiter.eu/adenium-socotranum--pet-baan-na/",
+    "kind": "succulents",
+    "priceValue": 4650.0,
+    "currency": "CZK",
+    "imageSource": "https://cdn.myshoptet.com/usr/www.lukscheiter.eu/user/shop/big/14835_adenium-socotranum--pet-baan-na-v.jpg?ff=1&x=1024&y=768&q=85&ts=6a9571ae&sg=161563f2",
+    "sourceEndpoint": "https://www.lukscheiter.eu/adenium--poustni-ruze/",
+    "sourceCategory": "adenium--poustni-ruze",
+    "stock": "InStock",
+    "checked": "2026-10-09",
+    "tags": [
+      "genus:adenium"
+    ],
+    "facts": [
+      "Črepník podľa e-shopu: 30 cm."
+    ],
+    "reason": "Črepník podľa e-shopu: 30 cm.",
+    "diameter": null,
+    "potDiameter": 30.0,
+    "photo": "/assets/plants/lukscheiter-p14835.jpg",
+    "price": "4650 Kč",
+    "descriptionSha256": "bf6d495112a65d1dfe59e7792cfb54ee5e287637f9685514c7b5017eea43b643"
+  }
+]

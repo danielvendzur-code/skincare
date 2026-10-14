@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-10",
+  "company": "Izbovečky s. r. o.",
+  "ico": "57395497",
+  "owners": [
+    "Zuzana Abrahámová"
+  ],
+  "executives": [
+    "Zuzana Abrahámová",
+    "Tomáš Cibuľa"
+  ],
+  "employees": {
+    "code": "02",
+    "range": "1",
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=2537923",
+    "recordUpdated": "2026-07-10"
+  },
+  "revenue": {
+    "value": null,
+    "year": null,
+    "note": "Spoločnosť vznikla 9.1.2026, dosiaľ bez účtovnej závierky v RÚZ. Kód veľkosti 02 znamená 1 zamestnanca, nejde o odhad tržieb."
+  },
+  "ownersSource": "https://orsr.sk/vypis.asp?ID=745883&SID=3&P=0",
+  "note": "RPO pri kontrole neodpovedalo; vlastníci overení z uvedeného primárneho zdroja, veľkosť a financie z RÚZ."
+}

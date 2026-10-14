@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-10",
+  "company": "Ing. Nikola Faturík",
+  "ico": "55004709",
+  "owners": [
+    "Ing. Nikola Faturík"
+  ],
+  "executives": [
+    "Ing. Nikola Faturík"
+  ],
+  "employees": {
+    "code": "01",
+    "range": "0",
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovna-jednotka?id=2133611",
+    "recordUpdated": "2026-07-03"
+  },
+  "revenue": {
+    "value": null,
+    "year": 2025,
+    "source": "https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=9984960",
+    "note": "Výkaz za rok 2025 je v RÚZ označený Neverejné; sumy nie sú dostupné. Veľkosť organizácie 01 znamená 0 zamestnancov."
+  },
+  "ownersSource": "https://www.plantoteka.sk/obchodne-podmienky/",
+  "note": "RPO pri kontrole neodpovedalo; vlastníci overení z uvedeného primárneho zdroja, veľkosť a financie z RÚZ."
+}

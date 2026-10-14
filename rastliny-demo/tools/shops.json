@@ -1,0 +1,1201 @@
+{
+  "zahradananiti": {
+    "name": "Zahrada na niti",
+    "website": "https://www.zahradananiti.cz/",
+    "currency": "CZK",
+    "platform": "shoptet",
+    "kinds": [
+      "plants",
+      "airplants",
+      "terrariums",
+      "substrates"
+    ],
+    "kindLabels": {
+      "plants": "Kokedamy"
+    },
+    "categoryNotes": {
+      "plants": "Živé rastliny v machovej guli",
+      "airplants": "Vzdušné rastliny a živé kompozície",
+      "terrariums": "Hotové rastlinné floráriá",
+      "substrates": "Zmesi a pestovateľské médiá"
+    },
+    "theme": {
+      "brand": "#2c5130",
+      "accent": "#38683b",
+      "soft": "#f2f1e9",
+      "paper": "#fffefb",
+      "ink": "#25281f",
+      "line": "#dedfd3"
+    },
+    "categories": {
+      "plants": [
+        "kokedamy"
+      ],
+      "airplants": [
+        "tillandsie"
+      ],
+      "terrariums": [
+        "floraria-rostlinna-teraria"
+      ],
+      "substrates": [
+        "substraty"
+      ]
+    },
+    "limits": {
+      "plants": 42,
+      "airplants": 18,
+      "terrariums": 18,
+      "substrates": 12
+    },
+    "include": {
+      "plants": "^Kokedama",
+      "airplants": "^Tillandsia|s tilland",
+      "terrariums": "Sputnik na Marsu|Sputnik s řasokoulí|Sputnik s mini|[Ff]lorárium",
+      "substrates": "substr[aá]t|rašelin[ií]k|perlit|keramzit|p[ií]sek"
+    },
+    "exclude": "workshop|kurz|vyrob|poukaz|prázdn|bez rostlin|bez rostlinky|dočasn",
+    "logoSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/logos/layer_1.svg",
+    "markSource": "https://cdn.myshoptet.com/usr/www.zahradananiti.cz/user/logos/layer_1.svg",
+    "logoNote": "Oficiálne SVG vyrenderované vo vysokej veľkosti. Do kruhu je vyrezané pôvodné písmeno Z z loga a upravené na bielu monochromatickú verziu pre kontrast. Pôvodné tvary písmen stmavené do zelenej témy pre čitateľnosť.",
+    "themeNote": "Zelená #48844B z oficiálneho SVG; brand a accent sú jej tmavšie verzie pre kontrast bieleho textu.",
+    "terms": "https://www.zahradananiti.cz/obchodni-podminky/",
+    "fit": "Autorský butik s kokedamami a floráriami, vlastný e-shop; rozdielne svetlo, druhy a ceny robia výber náročným.",
+    "markCrop": [
+      0,
+      0,
+      96,
+      145
+    ],
+    "markWhite": true,
+    "logoInk": "#315532"
+  },
+  "kytkasem": {
+    "name": "KytkaSem",
+    "website": "https://www.kytkasem.cz/",
+    "currency": "CZK",
+    "platform": "shoptet",
+    "kinds": [
+      "plants",
+      "succulents",
+      "pots",
+      "substrates"
+    ],
+    "theme": {
+      "brand": "#245c39",
+      "accent": "#347447",
+      "soft": "#f0f4eb",
+      "paper": "#fffefa",
+      "ink": "#243024",
+      "line": "#d9e3d4"
+    },
+    "categoryNotes": {
+      "plants": "Izbové druhy rôznych veľkostí",
+      "succulents": "Kaktusy a sukulentné rastliny",
+      "pots": "Samostatné črepníky a obaly",
+      "substrates": "Zmesi a pestovateľské médiá"
+    },
+    "categories": {
+      "plants": [
+        "podle-rodu"
+      ],
+      "succulents": [
+        "sukulenty-a-kaktusy"
+      ],
+      "pots": [
+        "kvetinace-a-doplnky"
+      ],
+      "substrates": [
+        "pripravky-pro-pokojovky"
+      ]
+    },
+    "limits": {
+      "plants": 36,
+      "succulents": 12,
+      "pots": 10,
+      "substrates": 10
+    },
+    "include": {
+      "pots": "kv[eě]tin[aá][čc]|obal"
+    },
+    "exclude": "poukaz|workshop|kurz|řízek|rezerv|objednávk|předobjedn",
+    "logoSource": "https://cdn.myshoptet.com/usr/www.kytkasem.cz/user/logos/logo.png",
+    "markCrop": [
+      0,
+      0,
+      89,
+      96
+    ],
+    "markWhite": true,
+    "logoNote": "Oficiálne rasterové logo zväčšené s Lanczos vyhladením. Do kruhu je vyrezaný pôvodný list monstéry a prevedený na bielu verziu.",
+    "themeNote": "Zelená pôvodného listu v logu; tmavšie zelené brand a accent pre čitateľný biely text.",
+    "terms": "https://www.kytkasem.cz/obchodni-podminky/",
+    "fit": "Malý obchod jednej podnikateľky, pestrá ponuka izbových rastlín, sukulentov a doplnkov; poradca pomôže so svetlom, starostlivosťou a cenou.",
+    "excludeByKind": {
+      "plants": "tajem|náhodn|mix|uměl",
+      "succulents": "mix|uměl",
+      "pots": "lamp|pleten|použit|závěs|úplet"
+    }
+  },
+  "farmarky": {
+    "theme": {
+      "brand": "#275c37",
+      "accent": "#377448",
+      "soft": "#f0f4eb",
+      "paper": "#fffefa",
+      "ink": "#253124",
+      "line": "#d9e3d5"
+    },
+    "platform": "shopify",
+    "currency": "CZK",
+    "logoNote": "Oficiálne logo; pre hlavičku vyrezaný pôvodný trojriadkový text a zväčšený s Lanczos vyhladením. Pôvodný kvetinový motív je v kruhu v bielej verzii.",
+    "themeNote": "Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu.",
+    "exclude": "poukaz|workshop|kurz|um[eě]l|řízek|rezerv|předobjedn|predobjedn|dar[čc]ekov.*box",
+    "limits": {
+      "plants": 36,
+      "succulents": 14,
+      "pots": 12,
+      "substrates": 12
+    },
+    "name": "Farmářky z paneláku",
+    "website": "https://farmarkyzpanelaku.cz/",
+    "kinds": [
+      "plants",
+      "pots",
+      "substrates"
+    ],
+    "categories": {
+      "substrates": "Substráty|Substrát",
+      "pots": "Květináče|kv[eě]tin[aá][čc]",
+      "plants": "Pokojovky"
+    },
+    "categoryNotes": {
+      "plants": "Druhy do bytu a na policu",
+      "succulents": "Sukulenty a kaktusy",
+      "pots": "Kokosové a ďalšie črepníky",
+      "substrates": "Zmesi podľa druhu rastliny"
+    },
+    "logoSource": "https://farmarkyzpanelaku.cz/cdn/shop/files/1.png?v=1719496145&width=600",
+    "markCrop": [
+      50,
+      55,
+      310,
+      310
+    ],
+    "markWhite": true,
+    "terms": "https://farmarkyzpanelaku.cz/policies/contact-information",
+    "fit": "Vlastný obchod jednej živnostníčky, 1–5 zamestnancov; mnoho podobných izbových druhov, pestovateľské médiá a črepníky.",
+    "excludeByKind": {
+      "plants": "police|opora|náhodn|p[řr][ií]slu[šs]en"
+    },
+    "logoCrop": [
+      270,
+      250,
+      570,
+      460
+    ],
+    "heroNames": [
+      "Fittonia 4",
+      "Pilea peperomides \"M\"",
+      "Kokosový květináč (8 cm)",
+      "Sansevieria Laurentii \"S\""
+    ]
+  },
+  "plantoteka": {
+    "theme": {
+      "brand": "#235e49",
+      "accent": "#2b7258",
+      "soft": "#f4eeea",
+      "paper": "#fffefa",
+      "ink": "#253229",
+      "line": "#dedfd5"
+    },
+    "platform": "shoptet",
+    "currency": "EUR",
+    "logoNote": "Oficiálne logo; pri potrebe zväčšené s Lanczos vyhladením. Symbol v kruhu vyrezaný z pôvodného loga.",
+    "themeNote": "Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu.",
+    "exclude": "poukaz|workshop|kurz|um[eě]l|řízek|rezerv|předobjedn|predobjedn|dar[čc]ekov.*box",
+    "limits": {
+      "plants": 36,
+      "succulents": 14,
+      "pots": 12,
+      "substrates": 12
+    },
+    "name": "Plantotéka",
+    "website": "https://www.plantoteka.sk/",
+    "kinds": [
+      "plants",
+      "pots",
+      "substrates"
+    ],
+    "categories": {
+      "plants": [
+        "vsetky-rastliny"
+      ],
+      "pots": [
+        "kvetinace-2"
+      ],
+      "substrates": [
+        "hotove-substraty",
+        "prisady-do-substratov"
+      ]
+    },
+    "categoryNotes": {
+      "plants": "Izbové rastliny a zberateľské kultivary",
+      "pots": "Samostatné črepníky a obaly",
+      "substrates": "Hotové zmesi a ich prísady"
+    },
+    "logoSource": "https://cdn.myshoptet.com/usr/www.plantoteka.sk/user/logos/plantot__ka_logo.jpg",
+    "markCrop": [
+      0,
+      0,
+      385,
+      400
+    ],
+    "terms": "https://www.plantoteka.sk/obchodne-podmienky/",
+    "fit": "Malé rastlinárstvo jednej podnikateľky bez zamestnancov podľa registra; podobné izbové druhy a kultivary s doplnkami, pri ktorých záleží na svetle a rozpočte."
+  },
+  "plantbros": {
+    "theme": {
+      "brand": "#00362b",
+      "accent": "#246649",
+      "soft": "#f0f4eb",
+      "paper": "#fffefa",
+      "ink": "#243029",
+      "line": "#d7e1d5"
+    },
+    "platform": "shoptet",
+    "currency": "EUR",
+    "logoNote": "Oficiálne rasterové logo; symbol je vyrezané pôvodné písmeno B a prevedené na bielu verziu pre kontrast v kruhu. Produktové štúdiové fotografie priblížené individuálnym PIL orezom; výsledky prezreté.",
+    "themeNote": "Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu.",
+    "exclude": "poukaz|workshop|kurz|um[eě]l|řízek|rezerv|předobjedn|predobjedn|dar[čc]ekov.*box",
+    "limits": {
+      "plants": 36,
+      "succulents": 14,
+      "pots": 12,
+      "substrates": 12
+    },
+    "name": "PlantBros",
+    "website": "https://www.plantbros.sk/",
+    "kinds": [
+      "plants",
+      "succulents",
+      "pots",
+      "substrates"
+    ],
+    "categories": {
+      "plants": [
+        "vsetky-rastliny"
+      ],
+      "succulents": [
+        "kaktusy"
+      ],
+      "pots": [
+        "kvetinace"
+      ],
+      "substrates": [
+        "substraty"
+      ]
+    },
+    "categoryNotes": {
+      "plants": "Izbové druhy z vlastného e-shopu",
+      "succulents": "Kaktusy a sukulenty",
+      "pots": "Samostatné črepníky a obaly",
+      "substrates": "Pestovateľské zmesi a médiá"
+    },
+    "logoSource": "https://cdn.myshoptet.com/usr/www.plantbros.sk/user/logos/wwww.png",
+    "markCrop": [
+      410,
+      20,
+      525,
+      174
+    ],
+    "terms": "https://www.plantbros.sk/obchodne-podmienky/",
+    "fit": "Malý vlastný obchod dvoch konateľov; overené celofiremné tržby hlboko pod miliónom eur. Rastliny, kaktusy a substráty vytvárajú zmysluplné poradenstvo.",
+    "markWhite": true,
+    "excludeByKind": {
+      "pots": "výživ|hnojiv|macram[eé]|makram"
+    },
+    "heroNames": [
+      "Maranta kerchoveana (Modlivka)",
+      "Philodendron White Measure",
+      "Kvetináč \"Kafíčko\" 6cm",
+      "Mammillaria Elongata"
+    ]
+  },
+  "sever": {
+    "theme": {
+      "brand": "#275c37",
+      "accent": "#377448",
+      "soft": "#f0f4eb",
+      "paper": "#fffefa",
+      "ink": "#253124",
+      "line": "#d9e3d5"
+    },
+    "platform": "shoptet",
+    "currency": "CZK",
+    "logoNote": "Oficiálne logo; pri potrebe zväčšené s Lanczos vyhladením. Symbol v kruhu vyrezaný z pôvodného loga.",
+    "themeNote": "Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu.",
+    "exclude": "poukaz|workshop|kurz|um[eě]l|řízek|rezerv|předobjedn|predobjedn|dar[čc]ekov.*box",
+    "limits": {
+      "plants": 36,
+      "succulents": 14,
+      "pots": 12,
+      "substrates": 12
+    },
+    "name": "Pokojovky ze severu",
+    "website": "https://www.pokojovkyzeseveru.cz/",
+    "kinds": [
+      "plants",
+      "succulents",
+      "substrates"
+    ],
+    "categories": {
+      "plants": [
+        "pokojove-rostliny"
+      ],
+      "succulents": [
+        "sukulentni-rostliny"
+      ],
+      "substrates": [
+        "substraty-hnojiva"
+      ]
+    },
+    "categoryNotes": {
+      "plants": "Druhy do bytu rôznych veľkostí",
+      "succulents": "Sukulentné rastliny",
+      "substrates": "Zmesi a pestovateľské médiá"
+    },
+    "logoSource": "https://cdn.myshoptet.com/usr/www.pokojovkyzeseveru.cz/user/logos/logo-6.png",
+    "markCrop": [
+      0,
+      0,
+      560,
+      600
+    ],
+    "markWhite": true,
+    "terms": "https://www.pokojovkyzeseveru.cz/obchodni-podminky/",
+    "fit": "Samostatná podnikateľka, 1–5 zamestnancov podľa ARES; bohatá skladová ponuka rastlín a médií vyžaduje výber podľa podmienok."
+  },
+  "izbovecky": {
+    "theme": {
+      "brand": "#294329",
+      "accent": "#3c6438",
+      "soft": "#f0f3e9",
+      "paper": "#fffefa",
+      "ink": "#253025",
+      "line": "#dbe0d2"
+    },
+    "platform": "woocommerce",
+    "currency": "EUR",
+    "logoNote": "Originálne biele písmená vybrané z oficiálnej fotografickej koláže a prevedené do tmavej zelenej pre čitateľnosť. Tvar písmen aj mäkčeň zachované; symbol je pôvodný list z koláže.",
+    "themeNote": "Zelené odtiene odvodené z oficiálneho loga; brand a accent stmavené pre kontrast bieleho textu.",
+    "exclude": "poukaz|workshop|kurz|um[eě]l|řízek|rezerv|předobjedn|predobjedn|dar[čc]ekov.*box",
+    "limits": {
+      "plants": 36,
+      "succulents": 14,
+      "pots": 12,
+      "substrates": 12
+    },
+    "name": "Izbovečky",
+    "website": "https://www.izbovecky.sk/",
+    "kinds": [
+      "plants",
+      "rareplants"
+    ],
+    "categories": {
+      "rareplants": [
+        38
+      ],
+      "plants": [
+        16,
+        32,
+        39,
+        57,
+        58,
+        42,
+        43,
+        44,
+        45,
+        110
+      ]
+    },
+    "categoryNotes": {
+      "plants": "Izbové rastliny podľa podmienok",
+      "rareplants": "Zberateľské druhy a kultivary"
+    },
+    "logoSource": "https://www.izbovecky.sk/wp-content/uploads/2025/11/Adobe-Express-file.png",
+    "markCrop": [
+      250,
+      70,
+      550,
+      400
+    ],
+    "terms": "https://www.izbovecky.sk/podmienky-gdpr",
+    "fit": "Nové rastlinné s.r.o. od januára 2026, 1 zamestnanec podľa registra; mnoho podobných izbových a raritných druhov, pri ktorých výber spresní svetlo a rozpočet.",
+    "logoCrop": [
+      70,
+      495,
+      1055,
+      625
+    ],
+    "logoExtractWhite": true,
+    "heroNames": [
+      "Monstera standleyana variegata (Philodendron cobra)",
+      "Epipremnum aureum neon",
+      "Maranta light veins",
+      "Anthurium crystallinum"
+    ],
+    "markCircle": true,
+    "excludeIds": [
+      "p6663",
+      "p6152"
+    ]
+  },
+  "brest": {
+    "name": "BREST",
+    "website": "https://www.brest.sk/",
+    "currency": "EUR",
+    "platform": "eshoprychle",
+    "kinds": [
+      "outdoor",
+      "shrubs",
+      "fruits"
+    ],
+    "kindLabels": {
+      "outdoor": "Trvalky a skalničky",
+      "shrubs": "Okrasné dreviny",
+      "fruits": "Ovocné dreviny"
+    },
+    "categoryNotes": {
+      "outdoor": "Druhy na záhon a do skalky",
+      "shrubs": "Listnaté kry, stromy a popínavé dreviny",
+      "fruits": "Ovocné druhy a odrody"
+    },
+    "theme": {
+      "brand": "#315229",
+      "accent": "#46703a",
+      "soft": "#f1f3e9",
+      "paper": "#fffefa",
+      "ink": "#293024",
+      "line": "#dce1d1"
+    },
+    "logoSource": "https://www.brest.sk/fotky3971/design_setup/template/v4.0/geneva/prod/1767682304brest_logoG.gif?0_137830193",
+    "markCrop": [
+      505,
+      0,
+      1209,
+      554
+    ],
+    "markWhite": true,
+    "logoNote": "Originálny nápis BREST.sk vyrezaný zo spodnej časti oficiálneho loga a zväčšený s Lanczos vyhladením. Do kruhu použitá pôvodná jasne zelená silueta stromu; prevedená na bielu pre kontrast.",
+    "themeNote": "Zelená z oficiálneho loga a rastlinného webu; tmavšie odtiene brand a accent pre biely text.",
+    "terms": "https://www.brest.sk/OBCHODNE-PODMIENKY-a3_0.htm",
+    "fit": "Rodinný rastlinný e-shop jedného vlastníka, 5–9 zamestnancov a overené tržby pod pol miliónom eur; množstvo podobných odrôd na rôzne miesta v záhrade.",
+    "heading": "Vyberie rastlinu, ktorá sadne do jeho záhrady.",
+    "lead": "Zákazník si vyberie podľa druhu, stanovišťa a rozpočtu. Poradca pozná konkrétne odrody a ceny z vášho katalógu.",
+    "logoCrop": [
+      0,
+      330,
+      1209,
+      554
+    ],
+    "markGreenOnly": true,
+    "heroNames": [
+      "Convallaria majalis",
+      "Lonicera nitida 'Maigrün'",
+      "Ficus carica 'Brown Turkey' krík",
+      "Hemerocallis 'Autumn Red'"
+    ],
+    "photoNote": "Oficiálne odrodové zábery z detailov e-shopu zobrazujú vzhľad rastliny; nejde o fotografiu presnej dodávanej sadenice. Veľkosť dodávky treba čítať v detaile produktu.",
+    "excludeIds": [
+      "p997",
+      "p3180"
+    ]
+  },
+  "kokedamy": {
+    "name": "Kokedamy.cz",
+    "website": "https://www.kokedamy.cz/",
+    "currency": "CZK",
+    "platform": "woocommerce",
+    "kinds": [
+      "plants",
+      "succulents"
+    ],
+    "kindLabels": {
+      "plants": "Listové kokedamy",
+      "succulents": "Sukulentné kokedamy"
+    },
+    "categories": {
+      "plants": [
+        67
+      ]
+    },
+    "categoryNotes": {
+      "plants": "Palmy, papradie a listové izbové druhy",
+      "succulents": "Sukulenty podľa popisu pestovateľa"
+    },
+    "theme": {
+      "brand": "#374f2d",
+      "accent": "#4b683a",
+      "soft": "#f2f3e9",
+      "paper": "#fffefa",
+      "ink": "#293025",
+      "line": "#dce1d2"
+    },
+    "logoSource": "https://www.kokedamy.cz/wp-content/uploads/2019/03/logo_Kokedamy.cz_.png",
+    "markCrop": [
+      62,
+      0,
+      132,
+      105
+    ],
+    "logoNote": "Oficiálne logo zväčšené s Lanczos vyhladením; pôvodné tvary znakov prefarbené na tmavú machovú zelenú kvôli čitateľnosti. Symbol rastliny a machovej gule je vyrezaný z pôvodného písmena o, neutrálne okraje susedných znakov sa odfiltrovali a pôvodný symbol sa prefarbil na bielu pre viditeľnosť na brand kruhu.",
+    "themeNote": "Machová zelená z pôvodného loga; tmavšie odtiene brand a accent pre kontrast s bielym textom.",
+    "terms": "https://www.kokedamy.cz/obchodni-podminky/",
+    "fit": "Špecializovaný obchod dvoch vlastníkov, 6–9 zamestnancov podľa ARES; 18 skladových kokedám rôznych rastlín a cien, pri ktorých pomôže výber podľa svetla a starostlivosti.",
+    "exclude": "poukaz|workshop|kurz|prázdn|dárkové balení|um[eě]l",
+    "limits": {
+      "plants": 36,
+      "accessories": 4
+    },
+    "heroNames": [
+      "Kokedama Maranta Fascinator",
+      "Kokedama Asplenium nidus",
+      "Kokedama Nolina recurvata",
+      "Kokedama Dracaena marginata"
+    ],
+    "descriptionKinds": {
+      "succulents": "\\bsukulent(?:ní)?\\b"
+    },
+    "descriptionKindFacts": {
+      "succulents": "Predajca opisuje druh ako sukulentnú rastlinu."
+    },
+    "logoInk": "#374f2d",
+    "markColoredOnly": true,
+    "markWhite": true
+  },
+  "rastlinkovo": {
+    "name": "Rastlinkovo",
+    "website": "https://www.rastlinkovo.sk/",
+    "currency": "EUR",
+    "platform": "woocommerce",
+    "kinds": [
+      "plants",
+      "succulents",
+      "pots",
+      "substrates"
+    ],
+    "categories": {
+      "substrates": [
+        84
+      ],
+      "pots": [
+        43
+      ],
+      "succulents": [
+        545
+      ],
+      "plants": [
+        41
+      ]
+    },
+    "categoryFetch": true,
+    "limits": {
+      "plants": 32,
+      "succulents": 10,
+      "pots": 12,
+      "substrates": 8
+    },
+    "theme": {
+      "brand": "#393954",
+      "accent": "#565481",
+      "soft": "#f1f0f6",
+      "paper": "#fffefa",
+      "ink": "#292a35",
+      "line": "#dddae8"
+    },
+    "categoryNotes": {
+      "plants": "Svetlo, starostlivosť a konkrétny druh",
+      "succulents": "Suchomilné druhy podľa ponuky predajcu",
+      "pots": "Rozmer a materiál samostatného obalu",
+      "substrates": "Určenie a veľkosť balenia"
+    },
+    "logoSource": "https://www.rastlinkovo.sk/wp-content/uploads/2025/10/rastlinkovo-logo-mobil.webp",
+    "markCrop": [
+      95,
+      45,
+      177,
+      253
+    ],
+    "logoNote": "Oficiálne logo zväčšené s Lanczos vyhladením. Pôvodný list je vyrezaný z loga, tmavé pozadie sa odfiltrovalo a obrys sa jemne zosilnil o jeden zdrojový pixel a prefarbil na bielu kvôli čitateľnosti v brand kruhu. Hlavička chatu zobrazuje celé originálne logo na bielej podložke.",
+    "themeNote": "Tmavá fialová z oficiálneho loga; sýtejší accent pre kontrast bieleho textu, svetlé fialové neutrálne plochy.",
+    "terms": "https://www.rastlinkovo.sk/obchodne-podmienky/",
+    "fit": "Samostatný vlastník, 1 zamestnanec a 119 447 € doložených tržieb za 2025; rastlinný výber je dostatočne pestrý aj bez nesúvisiacich produktov rozšíreného e-shopu.",
+    "exclude": "set|predplatn|mystery|box|poukaz|odrezok|semien|semen|cibuľ|cibul|machov[yý]|machový obraz|klips|stráž|držiak|prianie|venovanie|balík|tillandsia|calend|kalend|heatpack",
+    "excludeByKind": {
+      "pots": "podmisk|košík|tyč|podper|rozpraš|krhl|samozavlažovací systém"
+    },
+    "heroNames": [],
+    "markLightOnly": true,
+    "markWhite": true
+  },
+  "svokrinejazyky": {
+    "name": "Svokrine jazyky",
+    "website": "https://svokrinejazyky.sk/",
+    "currency": "EUR",
+    "platform": "woocommerce",
+    "kinds": [
+      "plants",
+      "rareplants",
+      "pots",
+      "substrates"
+    ],
+    "kindLabels": {
+      "rareplants": "Zberateľské rastliny"
+    },
+    "categories": {
+      "substrates": [
+        493
+      ],
+      "pots": [
+        24
+      ],
+      "rareplants": [
+        224
+      ],
+      "plants": [
+        20
+      ]
+    },
+    "categoryFetch": true,
+    "limits": {
+      "plants": 32,
+      "rareplants": 16,
+      "pots": 12,
+      "substrates": 8
+    },
+    "exclude": "mystery|poukaz|predplat|workshop|kurz|bal[ií][čc]|balík|set|semen|semien|odrez|prázd|krhl|postrek|darček|darcekov|heatpack|podper|podmisk|rastliny v skle|terári|terar|tillandsia",
+    "excludeByKind": {
+      "pots": "váza|podmisk|misk|sviet|príslu|terári|pohár"
+    },
+    "theme": {
+      "brand": "#1b3d33",
+      "accent": "#267660",
+      "soft": "#edf6f0",
+      "paper": "#fffefa",
+      "ink": "#23322b",
+      "line": "#d4e4d9"
+    },
+    "categoryNotes": {
+      "plants": "Svetlo, starostlivosť a obľúbený rod",
+      "rareplants": "Konkrétny zberateľský druh a cena",
+      "pots": "Rozmer a materiál obalu",
+      "substrates": "Určenie a objem balenia"
+    },
+    "logoSource": "https://svokrinejazyky.sk/wp-content/uploads/2018/12/svokrinejazyky_logo_final_RGB-e1544914260595.png",
+    "markCrop": [
+      2630,
+      450,
+      2908,
+      952
+    ],
+    "markWhite": true,
+    "logoNote": "Oficiálne logo zväčšené s Lanczos vyhladením. Pôvodné zelené listy sú vyrezané z loga; okolité znaky a obrys sa odfiltrovali, listy sa prefarbili na bielu pre čitateľnosť na tmavozelenom kruhu.",
+    "themeNote": "Zelená z listov oficiálneho loga; tmavší brand a accent pre kontrast bieleho textu, svetlé zelené plochy.",
+    "terms": "https://svokrinejazyky.sk/obchodne-podmienky/",
+    "fit": "Samostatný vlastník a doložené tržby 99 987 € za 2025; počet zamestnancov register neuvádza. Vlastný špecializovaný e-shop s mnohými podobnými izbovými a zberateľskými rastlinami.",
+    "heroNames": [
+      "Monstera deliciosa (cca 70 cm)",
+      "Sansevieria trifasciata ‘Laurentii‘",
+      "Begonia barsalouxiae",
+      "Hoya australis ‘Lisa‘"
+    ],
+    "markGreenOnly": true
+  },
+  "samek": {
+    "name": "Sukulenty Samek",
+    "website": "https://www.sukulenty-samek.cz/",
+    "currency": "CZK",
+    "platform": "samek",
+    "kinds": [
+      "succulents",
+      "cacti",
+      "outdoor"
+    ],
+    "kindLabels": {
+      "succulents": "Ostatné sukulenty",
+      "cacti": "Kaktusy",
+      "outdoor": "Skalničky"
+    },
+    "categoryNotes": {
+      "succulents": "Svetlo a druh podľa pestovateľa",
+      "cacti": "Druhy s rozdielnym svetlom a cenou",
+      "outdoor": "Netresky a ďalšie skalničky"
+    },
+    "theme": {
+      "brand": "#741727",
+      "accent": "#b81230",
+      "soft": "#f8eef0",
+      "paper": "#fffefa",
+      "ink": "#33272a",
+      "line": "#ead8dc"
+    },
+    "logoSource": "https://www.sukulenty-samek.cz/logo.png",
+    "markCrop": [
+      22,
+      22,
+      580,
+      482
+    ],
+    "markLightOnly": true,
+    "markWhite": true,
+    "logoNote": "Oficiálne logo zväčšené s Lanczos vyhladením. Pôvodný biely rozvetvený rastlinný symbol je vyrezaný z červeného poľa loga; farebné pozadie sa odfiltrovalo, obrys sa jemne zosilnil o jeden zdrojový pixel pre malé kruhové avatary. Hlavička chatu zachováva celé pôvodné logo na bielej podložke.",
+    "themeNote": "Červená z oficiálneho loga, tmavšia bordová brand a červený accent s kontrastom pre biely text; svetlé ružové neutrálne plochy.",
+    "terms": "https://www.sukulenty-samek.cz/page/terms-and-conditions/",
+    "fit": "Samostatný český pestovateľ, 1–5 zamestnancov podľa ARES; 38 doložených skladových druhov a kultivarov s pestovateľskými pokynmi. Tržby živnostníka nie sú doložené.",
+    "photoNote": "Ak predajca výslovne označuje poslednú fotografiu ako ukážku ponúkanej veľkosti, použitá je táto fotografia, nie dospelý alebo kvitnúci exemplár. Široké zábery sa ručne orezali bližšie cez PIL pri zachovaní rastliny. Štyri už odrezané rastlinné zábery sa vyradili; obnoviteľná kurácia v tools/curate_samek.py.",
+    "stockNote": "Vlastný e-shop: konkrétny detail uvádza kladný počet ks skladem, presnú koncovú cenu v Kč a aktívny formulár Pridať do košíka bez variantového selectu. Zaradenie pochádza z oficiálnej kategórie v navigácii detailu.",
+    "heroNames": [
+      "Crassula platyphylla Green Surprise",
+      "Echeveria Red Velvet",
+      "Opuntia monacantha",
+      "Sempervivum Ependa"
+    ]
+  },
+  "vseprokaktusy": {
+    "name": "VšeProKaktusy",
+    "website": "https://www.vseprokaktusy.cz/",
+    "currency": "CZK",
+    "platform": "prestashop",
+    "kinds": [
+      "cacti",
+      "succulents",
+      "substrates"
+    ],
+    "kindLabels": {
+      "succulents": "Ostatné sukulenty"
+    },
+    "categoryNotes": {
+      "cacti": "Botanický rod, veľkosť a cena",
+      "succulents": "Konkrétny druh podľa e-shopu",
+      "substrates": "Určenie zmesi a objem balenia"
+    },
+    "theme": {
+      "brand": "#274b24",
+      "accent": "#4a6b2e",
+      "soft": "#f0f4e9",
+      "paper": "#fffefa",
+      "ink": "#293225",
+      "line": "#dce5d3"
+    },
+    "logoSource": "https://www.vseprokaktusy.cz/img/vseprokaktusycz-logo-1682753643.jpg",
+    "logoCrop": [
+      118,
+      36,
+      460,
+      76
+    ],
+    "markCrop": [
+      15,
+      0,
+      110,
+      128
+    ],
+    "logoNote": "Oficiálny zelený slovný názov je vyrezaný z loga bez drobného sloganu a zväčšený s Lanczos vyhladením. Pôvodný farebný kaktus s klobúkom je vyrezaný z toho istého loga pre launcher a každý kruhový avatar bota.",
+    "themeNote": "Zelené odtiene z pôvodného loga a webu; tmavší brand a accent pre kontrast bieleho textu, svetlé zelené neutrálne plochy.",
+    "terms": "https://www.vseprokaktusy.cz/content/3-obchodni-podminky",
+    "fit": "Samostatný podnikateľ a rodinná pestovateľská prevádzka; ARES uvádza bez zamestnancov. Množstvo podobných skladových kaktusov rôznych rodov, veľkostí a cien. Tržby živnostníka nie sú doložené.",
+    "stockNote": "Oficiálne dáta konkrétneho produktu PrestaShop (#product-details[data-product]): quantity > 0, allow_oosp = 0, available_for_order, atribút variantu 0 a mikrodáta ponuky InStock. Koncová price_amount patrí tomuto pevnému produktu v Kč; nepoužíva sa price_tax_exc.",
+    "heroNames": [
+      "Echinocactus grusonii malý",
+      "Ariocarpus retusus hybrid pravokořený",
+      "Echeveria perle von nurn",
+      "Haworthia retusa"
+    ],
+    "excludeIds": [
+      "p546"
+    ],
+    "photoNote": "Produkt Substrát pro pokojové rostliny 10l NATUREGARDEN bol vyradený: priradená fotografia ukazuje obal 45 l, takže nesedí na cenu uvedenej veľkosti. Cena substrátu PROFÍK je za 5 l podľa výslovného popisu balenia."
+  },
+  "greenhunters": {
+    "name": "Green Hunters",
+    "website": "https://greenhunters.cz/eshop/",
+    "currency": "CZK",
+    "platform": "woocommerce",
+    "kinds": [
+      "plants",
+      "rareplants",
+      "substrates"
+    ],
+    "kindLabels": {
+      "plants": "Rosnatky",
+      "rareplants": "Tučnice"
+    },
+    "categoryNotes": {
+      "plants": "Druhy, veľkosti a náročnosť",
+      "rareplants": "Druhy a veľkosti podľa pestovateľa",
+      "substrates": "Hotové zmesi a pestovateľské médiá"
+    },
+    "categories": {
+      "plants": [
+        35,
+        36,
+        37
+      ],
+      "rareplants": [
+        40,
+        104
+      ],
+      "substrates": [
+        93,
+        94
+      ]
+    },
+    "limits": {
+      "plants": 22,
+      "rareplants": 10,
+      "substrates": 8
+    },
+    "exclude": "semen|semín|gemm|poukaz|sáček|štítek|květináč|cedul|syngonium|rašeliník",
+    "logoSource": "https://greenhunters.cz/eshop/wp-content/uploads/2020/12/cropped-Logo_tmave-sede-2.jpg",
+    "logoCrop": [
+      153,
+      281,
+      549,
+      458
+    ],
+    "markCrop": [
+      119,
+      9,
+      548,
+      288
+    ],
+    "markColoredOnly": true,
+    "logoNote": "Z oficiálneho JPEG je vyrezaný pôvodný dvojriadkový názov bez zmeny tvarov písmen. Pozadie je odstránené a biele písmená sú pre owner stránku zafarbené do tmavej farby značky; v hlavičke chatu sú biele. Motív mucholapky z rovnakého loga je izolovaný podľa farby pre kruh pri každej správe a v launcheri; tenké okraje vyhladené Lanczos prevzorkovaním.",
+    "photoNote": "Fotografie sú priradené konkrétnemu variantu formulárom predajcu. Ide o reprezentatívne pestovateľské zábery druhu, nie tvrdenie o identickom dodávanom exemplári. Pri označení 3 ks platí cena celého uvedeného balenia. Zdrojový záber sa zachováva celý, jemne sa odstránia iba jednoliate okraje; portrétne karty a hero majú jednotné svetlé plátno #FFFEF9, bez syntetickej úpravy rastlín. Po vizuálnej kontrole sa vyradilo 20 živých rastlinných položiek s odrezaným hlavným olistením alebo neprehľadným skupinovým záberom. Ponechané rozetové zábery zobrazujú celé hlavné ružice; okolité pestovateľské nádoby nie sú predávaným doplnkom.",
+    "theme": {
+      "brand": "#070e14",
+      "accent": "#526710",
+      "soft": "#f0f3e5",
+      "paper": "#fffef9",
+      "ink": "#253019",
+      "line": "#dce2cb"
+    },
+    "themeNote": "Tmavá #070E14 je pozadie oficiálneho loga; olivová nadväzuje na zelenú mucholapku a má kontrast pre biely text.",
+    "terms": "https://greenhunters.cz/eshop/obchodni-podminky/",
+    "fit": "Samostatný pestovateľ vlastných mäsožraviek s vlastným e-shopom, podľa ARES 1–5 pracovníkov. Množstvo podobných klonov, rôzne veľkosti a náročnosť vytvárajú skutočnú potrebu poradenstva.",
+    "stockNote": "Verejný Woo Store API objavuje skladové produkty. Na detaile je explicitne zvolená mena CZK cez currency=CZK a overený symbol Kč. Oficiálne data-product_variations spája konkrétne ID/veľkosť, display_price, priradenú fotografiu, is_in_stock/is_purchasable/variation_is_active/variation_is_visible true a backorders_allowed false. Text dostupnosti nesmie uvádzať out-of-stock ani onbackorder; Woo môže pri nezverejnenom počte skladových kusov tento text vynechať. URL predvyberá presné atribúty. Jednoduché produkty majú aj sklad a aktívny košík na detaile. Semená, gemmy a varianty bez dokladu sa vylučujú.",
+    "logoInk": "#070e14",
+    "logoWhiteOnly": true,
+    "photoBackdrop": "#fffef9",
+    "heroNames": [
+      "Drosera capensis {Palmiet River, South Africa} — L",
+      "Pinguicula hybrid — L",
+      "Drosera collinsiae {Usutu River, Swaziland} — L",
+      "Drosera cuneifolia {Table Mountain, South Africa} — L"
+    ],
+    "photoExcludeIds": [
+      "v547",
+      "v5316",
+      "v4507",
+      "v5027",
+      "v154",
+      "v4580",
+      "v3520",
+      "v2596",
+      "v3848",
+      "v2887",
+      "v4589",
+      "v2754",
+      "v2614",
+      "v4111",
+      "v2216",
+      "v5162",
+      "v3090",
+      "v2907",
+      "v2211",
+      "v2793"
+    ]
+  },
+  "sebtobplants": {
+    "name": "Sebtob Plants",
+    "website": "https://sebtobplants.cz/",
+    "currency": "CZK",
+    "platform": "shopify",
+    "kinds": [
+      "plants",
+      "philodendrons",
+      "monsteras"
+    ],
+    "categories": {
+      "philodendrons": "^Philodendron",
+      "monsteras": "^Monstera",
+      "plants": "^Epipremnum|^Zamioculcas|^Syngonium|^Anthurium|^Ficus|^Amydrium|^Alocasia"
+    },
+    "limits": {
+      "plants": 70
+    },
+    "exclude": "řízek|rizek|vrchol|mystery|předplat|voucher|poukaz",
+    "categoryNotes": {
+      "plants": "Syngóniá, antúriá a ďalšie rody",
+      "philodendrons": "Rôzne kultivary a konkrétne rastliny",
+      "monsteras": "Panašované listy a zberateľské kultivary"
+    },
+    "theme": {
+      "brand": "#222b24",
+      "accent": "#3b513e",
+      "soft": "#f0f3ed",
+      "paper": "#fffefb",
+      "ink": "#202620",
+      "line": "#dbe2d6"
+    },
+    "logoSource": "https://sebtobplants.cz/cdn/shop/files/Logo_png.jpg?v=1753975293&width=600",
+    "markCrop": [
+      119,
+      110,
+      482,
+      518
+    ],
+    "markWhite": true,
+    "logoNote": "Oficiálny čiernobiely kruhový symbol; svetlé pozadie odstránené a zväčšený s Lanczos vyhladením. Pôvodný list je vyrezaný pre launcher a každú správu bota a prevedený na bielu verziu, bez vymýšľania nového loga.",
+    "themeNote": "Čierna oficiálneho loga a zelené odtiene rastlín na webe; brand a accent stmavené pre čitateľný biely text.",
+    "photoNote": "Osobné produktové zábery konkrétnych rastlín. Variantové fotografie zostávajú viazané na daný variant; prezreté bližšie orezy zachovávajú rastlinu a nádobu. Odrezky, samostatné listy, materské rastliny a odrezané zábery boli vylúčené.",
+    "photoBackdrop": "#f0f3ed",
+    "heroNames": [
+      "Monstera albo",
+      "Anthurium michelle",
+      "ficus lyrata variegated",
+      "Syngonium mijito"
+    ],
+    "terms": "https://sebtobplants.cz/pages/obchodni-podminky-a-ochrana-osobnich-udaju",
+    "fit": "Osobný e-shop dvoch bratov s aktuálne doloženým predajcom Sebastianom Ditlom a kategóriou 1–5 pracovníkov; konkrétne zberateľské izbovky viacerých rodov a cien.",
+    "stockNote": "Verejný Shopify katalóg: konkrétny variant available=true, jeho cena v CZK a priradená featured_image. URL obsahuje ID dostupného variantu. Pre varianty bez vlastnej fotografie sa použije priradená prvá produktová fotografia; nejde o cenu od.",
+    "kindLabels": {
+      "plants": "Ďalšie izbovky",
+      "philodendrons": "Filodendrony",
+      "monsteras": "Monstery"
+    }
+  },
+  "abies": {
+    "name": "ABIES – Dreviny.sk",
+    "website": "https://www.dreviny.sk/",
+    "currency": "EUR",
+    "kinds": [
+      "shrubs",
+      "conifers"
+    ],
+    "kindLabels": {
+      "shrubs": "Listnaté dreviny",
+      "conifers": "Ihličnany"
+    },
+    "theme": {
+      "brand": "#163e18",
+      "accent": "#30702b",
+      "soft": "#f0f3e8",
+      "paper": "#fffef9",
+      "ink": "#27301f",
+      "line": "#dce3ce"
+    },
+    "categoryNotes": {
+      "shrubs": "Javory a okrasné listnaté dreviny",
+      "conifers": "Borievky, borovice, smreky a ďalšie rody"
+    },
+    "heading": "Vyberie rastlinu, ktorá sadne do jeho záhrady.",
+    "lead": "Zákazník si vyberie podľa stanovišťa, druhu a rozpočtu. Poradca pozná konkrétne dreviny, dodávané veľkosti a ceny z vášho katalógu.",
+    "platform": "custom",
+    "terms": "https://www.dreviny.sk/vseobecne-obchodne-podmienky/",
+    "fit": "Samostatná malá škôlka s doloženými tržbami 379 770 € za rok 2025 a registrovanou veľkosťou 2 pracovníci. Množstvo podobných okrasných drevín rôznych rodov, veľkostí a cien má zmysluplnú potrebu výberu.",
+    "stockNote": "Na detaile je presná EUR cena jediného schema.org Offer, InStock, kladný počet kusov skladom a aktívny formulár OBJEDNAŤ. Dodávaná výška a prepravná veľkosť patria danému produktu.",
+    "logoSource": "https://www.dreviny.sk/logo-dreviny3.gif",
+    "logoInk": "#163e18",
+    "markCrop": [
+      10,
+      11,
+      34,
+      39
+    ],
+    "markWhite": true,
+    "logoNote": "Oficiálny zelený text DREVINY.SK bol zväčšený s Lanczos vyhladením a stmavený do brand farby. Pôvodné písmeno D je vyrezané z rovnakého loga a použité biele v launcheri aj pri každej správe bota.",
+    "themeNote": "Zelená oficiálneho loga a svetlé sivé plochy webu; zelená je stmavená pre kontrast s bielym textom.",
+    "photoNote": "Odrodové zábery predajcu nemusia zobrazovať dodávanú sadenicu; výsledok to uvádza spolu s presnou výškou a veľkosťou dodania. Celé hlavné dreviny a autorské označenie zachované.",
+    "photoBackdrop": "#fffef9",
+    "heroNames": [
+      "Borovica málokvetá Glauca",
+      "Cypruštek tupolistý Nana Gracilis, na kmienku 60-70 cm",
+      "Cypruštek lawsonov Ellwoodii (Elwoodii, Ellwood´s)",
+      "Tis obyčajný David"
+    ]
+  },
+  "honzuvles": {
+    "name": "Honzův les",
+    "website": "https://www.honzuvles.cz/",
+    "currency": "CZK",
+    "platform": "shoptet",
+    "kinds": [
+      "plants",
+      "pots",
+      "substrates"
+    ],
+    "kindLabels": {
+      "plants": "Vonkajšie bonsaje",
+      "pots": "Bonsajové misky",
+      "substrates": "Pestovateľské médiá"
+    },
+    "categories": {
+      "plants": [
+        "venkovni-bonsaje"
+      ],
+      "pots": [
+        "misky"
+      ],
+      "substrates": [
+        "substraty"
+      ]
+    },
+    "limits": {
+      "plants": 30,
+      "pots": 18,
+      "substrates": 12
+    },
+    "exclude": "poukaz|hnojivo|tablety|figur|nářad|naradi|síť|rašeliník|štítk|Biochar|Keto",
+    "theme": {
+      "brand": "#0d4230",
+      "accent": "#287443",
+      "soft": "#eef3e8",
+      "paper": "#fffefb",
+      "line": "#d7e1d1",
+      "ink": "#23321e"
+    },
+    "categoryNotes": {
+      "plants": "Konkrétne stromy a cenové hladiny",
+      "pots": "Materiál a presné rozmery",
+      "substrates": "Zmesi a minerálne zložky na bonsaje"
+    },
+    "heading": "Vyberie bonsaj, ktorý sadne do jeho záhrady.",
+    "lead": "Zákazník si vyberie konkrétny strom, bonsajovú misku alebo pestovateľské médium. Poradca pozná produkty, dostupné varianty a ceny z vášho katalógu.",
+    "logoSource": "https://cdn.myshoptet.com/usr/www.honzuvles.cz/user/logos/logo_horizontalni_2_bile.png",
+    "markCrop": [
+      0,
+      0,
+      860,
+      964
+    ],
+    "markWhite": true,
+    "logoInk": "#0d4230",
+    "logoNote": "Oficiálne biele transparentné logo je na owner stránke prevedené na tmavozelenú verziu. Pôvodný stromový symbol z ľavej časti je použitý biely v launcheri a pri každej správe bota. Lanczos vyhladenie, bez vymýšľania nového symbolu.",
+    "themeNote": "Tmavá zelená #0d4230 pochádza z webu; zelený accent je stmavenou verziou jeho #3c9655 pre kontrast s bielym textom.",
+    "photoNote": "Konkrétne bonsaje sú fotografované aj s miskou; dodávaný variant je pomenovaný a priradený k cene a fotografii. Doplnky majú vlastné oficiálne fotografie. Veľké originálne obaly médií sú viazané na dostupné varianty 14/18 l, nie na cenu menšieho odsypaného balenia. Podmisky sú výslovne označené.",
+    "photoBackdrop": "#eef3e8",
+    "terms": "https://www.honzuvles.cz/obchodni-podminky/",
+    "fit": "Osobné bonsajové záhradníctvo prevádzkované živnostníkom s 1–5 pracovníkmi. Podobné individuálne stromy, rôzne misky a pestovateľské médiá vytvárajú zmysluplnú potrebu porovnania. Obrat živnostníka nie je doložený.",
+    "heroNames": [
+      "Japonská azalka — 34x25x20 cm",
+      "Skalník — 40x24x20 cm",
+      "Buk lesní — 53x30x30 cm",
+      "Jalovec (Juniperus Sabina)"
+    ]
+  },
+  "dubenkaktus": {
+    "name": "Duben-Kaktus",
+    "website": "https://shop.duben-kaktus.cz/",
+    "currency": "CZK",
+    "platform": "custom",
+    "kinds": [
+      "cacti",
+      "succulents"
+    ],
+    "kindLabels": {
+      "cacti": "Kaktusy",
+      "succulents": "Ďalšie sukulenty"
+    },
+    "categoryNotes": {
+      "cacti": "Zberateľské druhy, veľkosti a ceny",
+      "succulents": "Lithopsy, haworthie a ďalšie rody"
+    },
+    "theme": {
+      "brand": "#163f2b",
+      "accent": "#2b7048",
+      "soft": "#eef3e8",
+      "paper": "#fffefb",
+      "ink": "#263026",
+      "line": "#dae4d4"
+    },
+    "heading": "Vyberie rastlinu, ktorá doplní jeho zbierku.",
+    "lead": "Zákazník porovná kaktusy a sukulenty podľa rodu, ceny a konkrétnej veľkosti. Poradca pozná dostupné rastliny a údaje z vášho katalógu.",
+    "terms": "https://shop.duben-kaktus.cz/obchodni-podminky/",
+    "fit": "Rodinný špecializovaný e-shop samostatného podnikateľa s 6–9 pracovníkmi. Vlastná pestovateľská ponuka mnohých rodov a cien dáva zmysel pre poradcu. Tržby živnostníka nie sú doložené.",
+    "logoSource": "https://shop.duben-kaktus.cz/images/web/logo2.png",
+    "markCrop": [
+      3,
+      6,
+      31,
+      44
+    ],
+    "markWhite": true,
+    "logoNote": "Pôvodný zelený slovný znak bol zväčšený s Lanczos vyhladením. Písmeno D z toho istého loga je vyrezané a použité v bielej verzii v launcheri aj pri každej správe bota.",
+    "themeNote": "Zelené písmo oficiálneho loga; tmavšie zelené brand a accent zabezpečujú kontrast s bielym textom.",
+    "photoNote": "Fotografie sú viazané na ID daného produktu. Semená, materské rastliny a výber podľa samostatných kvetov sú vylúčené. Veľkosť črepníka a vek sa uvádzajú iba pri doloženom parametri. Fotografia Lithops pri pomenovanej Gasteria glomerata bola vyradená ako nesúlad etikety a rastliny. Pôvodné označenie autora na fotografiách zostalo zachované.",
+    "photoBackdrop": "#eef3e8",
+    "stockNote": "Detail musí uvádzať kladný počet Skladem (N ks), presnú cenu v Kč a aktívny formulár Koupit. Skryté ID produktu a adresár oficiálnej fotografie musia patriť tomu istému produktu; variantové výbery sú vylúčené.",
+    "heroNames": [
+      "Astrophytum Z Jasenné květináč 5,5 cm",
+      "Tephrocactus geometricus, pot 5,5 cm",
+      "Lapidaria margaretae pot 5,5 cm",
+      "Astrophytum Onzuko X ornatum pot 6,5 cm"
+    ]
+  },
+  "poniveni": {
+    "name": "Poni Veni",
+    "website": "https://www.poniveni.sk/",
+    "currency": "EUR",
+    "platform": "custom",
+    "kinds": [
+      "grasses",
+      "foliage"
+    ],
+    "kindLabels": {
+      "grasses": "Okrasné trávy",
+      "foliage": "Listové trvalky"
+    },
+    "budgetThresholds": [
+      7,
+      10,
+      15
+    ],
+    "categoryNotes": {
+      "grasses": "Slnečné záhony a vybrané kultivary do ľahkého polotieňa",
+      "foliage": "Funkie a čistec"
+    },
+    "theme": {
+      "brand": "#1b505c",
+      "accent": "#2d7e6b",
+      "soft": "#effffb",
+      "paper": "#fcfffd",
+      "ink": "#20352f",
+      "line": "#d3e8e3"
+    },
+    "heading": "Vyberie rastlinu, ktorá sadne do jeho záhrady.",
+    "lead": "Zákazník si vyberie okrasnú trávu alebo listovú trvalku podľa stanovišťa, starostlivosti a rozpočtu. Poradca pozná konkrétne kultivary, veľkosti sadeníc a ceny.",
+    "logoSource": "https://www.poniveni.sk/buxus/images/image_669864069deb05.png",
+    "logoInk": "#1b505c",
+    "markCrop": [
+      0,
+      35,
+      320,
+      350
+    ],
+    "logoNote": "Pôvodné transparentné logo bolo na svetlom owner pozadí prevedené do tmavej eukalyptovej farby webu. Pôvodný mintový symbol ostáva čitateľný v kruhu na tmavom brand podklade v launcheri aj pri každej správe bota.",
+    "themeNote": "Priamo z CSS predajcu: eukalyptová #1B505C, mintová #5BFDD7, svetlá #EFFFFB a tmavší mintový accent #2D7E6B. Accent má dostatočný kontrast pre biely text.",
+    "terms": "https://www.poniveni.sk/vseobecne-obchodne-podmienky",
+    "fit": "Malá slovenská trvalková škôlka s doloženými tržbami 723 257 € za rok 2025 a 5–9 pracovníkmi. Vlastný moderný e-shop, množstvo kultivarov pre odlišné stanovištia a cenové hladiny.",
+    "stockNote": "Oficiálny Product/Offer JSON-LD uvádza InStock a pevnú EUR cenu. Cena je zhodná s hlavným detailom vrátane DPH. Aktívny hlavný košíkový formulár má rovnaké ID produktu a kladný dostupný počet; uvedená veľkosť kvetináča patrí danému detailu bez variantového výberu.",
+    "photoNote": "Odrodové zábery nie sú portrétom dodávanej sadenice; každý výsledok to priznáva a uvádza presný kvetináč. Detaily kvetov, samostatných listov, odrezané hlavné rastliny a nesúlad popisu kultivaru Timeless Treasure/Timeless Night sa vynechali.",
+    "photoBackdrop": "#effffb",
+    "heroNames": [
+      "Schizachyrium 'Blue Paradise' - prstovka — K9x9 cm",
+      "Hosta 'School Mouse' - funkia — K9x9 cm",
+      "Cortaderia 'Tiny Pampa' - pampová tráva K2L",
+      "Hosta 'Lakeside Paisley Print' - funkia — K9x9 cm"
+    ]
+  }
+}

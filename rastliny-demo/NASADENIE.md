@@ -1,0 +1,36 @@
+# Nasadenie rastliny-demo
+
+Živý súkromný náhľad pre vlastníka: [rastlinne-chatbot-ukazky.vendzurd.chatgpt.site](https://rastlinne-chatbot-ukazky.vendzurd.chatgpt.site). Výber a katalógový chat fungujú v prehliadači; tento statický náhľad neobsahuje serverové AI API. Ukážka sa otvorí cez `/cosmetics.html?demo=<slug>`.
+
+Samostatný Vercel projekt z `danielvendzur-code/skincare`, Root Directory `rastliny-demo`. Framework Other, bez build príkazu, Output Directory `.`. Produkčná vetva sa nastaví až pri zaradení zmien; pracovná vetva je `codex/rastliny-ukazky`. PR sa neotvára automaticky.
+
+`python3 tools/routes.py` vytvorí index, adresáre, `.htaccess` a `vercel.json`. Ukážka sa dá otvoriť ako `/cosmetics.html?demo=<slug>`, `/<slug>/` alebo `/rastliny/<slug>`. Host rewrite a index rozpoznajú nižšie uvedené subdomény.
+
+API bez kľúča vracia katalógové odpovede. Na rozšírenie použite serverové `ANTHROPIC_API_KEY` a voliteľné `CHAT_MODEL` (predvolené `claude-haiku-4-5` podľa základného segmentu). Použité rozhranie: [oficiálna Messages dokumentácia](https://platform.claude.com/docs/en/api/messages/create). Kľúč nepatrí do klienta. Na bežnom statickom hostingu funguje lokálna odpoveď v prehliadači; serverové rozhranie vyžaduje Vercel alebo vlastný Node server.
+
+Subdomény sú pripravené v routách. DNS a nový Vercel projekt sa touto zmenou nevytvárajú.
+
+| Subdoména na pripojenie | Ukážka |
+|---|---|
+| `plantizia.mojchatbot.sk` | `/cosmetics.html?demo=plantizia` |
+| `gardenholice.mojchatbot.sk` | `/cosmetics.html?demo=gardenholice` |
+| `lukscheiter.mojchatbot.sk` | `/cosmetics.html?demo=lukscheiter` |
+| `zahradananiti.mojchatbot.sk` | `/cosmetics.html?demo=zahradananiti` |
+| `kytkasem.mojchatbot.sk` | `/cosmetics.html?demo=kytkasem` |
+| `farmarky.mojchatbot.sk` | `/cosmetics.html?demo=farmarky` |
+| `plantoteka.mojchatbot.sk` | `/cosmetics.html?demo=plantoteka` |
+| `plantbros.mojchatbot.sk` | `/cosmetics.html?demo=plantbros` |
+| `sever.mojchatbot.sk` | `/cosmetics.html?demo=sever` |
+| `izbovecky.mojchatbot.sk` | `/cosmetics.html?demo=izbovecky` |
+| `brest.mojchatbot.sk` | `/cosmetics.html?demo=brest` |
+| `kokedamy.mojchatbot.sk` | `/cosmetics.html?demo=kokedamy` |
+| `rastlinkovo.mojchatbot.sk` | `/cosmetics.html?demo=rastlinkovo` |
+| `svokrinejazyky.mojchatbot.sk` | `/cosmetics.html?demo=svokrinejazyky` |
+| `samek.mojchatbot.sk` | `/cosmetics.html?demo=samek` |
+| `vseprokaktusy.mojchatbot.sk` | `/cosmetics.html?demo=vseprokaktusy` |
+| `greenhunters.mojchatbot.sk` | `/cosmetics.html?demo=greenhunters` |
+| `sebtobplants.mojchatbot.sk` | `/cosmetics.html?demo=sebtobplants` |
+| `abies.mojchatbot.sk` | `/cosmetics.html?demo=abies` |
+| `honzuvles.mojchatbot.sk` | `/cosmetics.html?demo=honzuvles` |
+| `dubenkaktus.mojchatbot.sk` | `/cosmetics.html?demo=dubenkaktus` |
+| `poniveni.mojchatbot.sk` | `/cosmetics.html?demo=poniveni` |

@@ -84,3 +84,47 @@ AI odpovede v chate: bez premennej `ANTHROPIC_API_KEY` chat odpovedá
 pripravenými odpoveďami z katalógu. Ak chceš živé odpovede, v oboch projektoch
 na Verceli pridaj v Settings → Environment Variables `ANTHROPIC_API_KEY`
 a sprav Redeploy.
+
+## Rastliny — nový segment
+
+Samostatný projekt s Root Directory `rastliny-demo`, pracovná vetva `codex/rastliny-ukazky`. Trasy a nastavenie: [rastliny-demo/NASADENIE.md](./rastliny-demo/NASADENIE.md). Pripravené subdomény `plantizia.mojchatbot.sk`, `gardenholice.mojchatbot.sk` a `lukscheiter.mojchatbot.sk`; DNS sa nevytvára automaticky.
+
+Rastlinná ukážka [Zahrada na niti](./rastliny-demo/zahradananiti/index.html): pripravená subdoména `zahradananiti.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [KytkaSem](./rastliny-demo/kytkasem/index.html): pripravená subdoména `kytkasem.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Farmářky z paneláku](./rastliny-demo/farmarky/index.html): pripravená subdoména `farmarky.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Plantotéka](./rastliny-demo/plantoteka/index.html): pripravená subdoména `plantoteka.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [PlantBros](./rastliny-demo/plantbros/index.html): pripravená subdoména `plantbros.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Pokojovky ze severu](./rastliny-demo/sever/index.html): pripravená subdoména `sever.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Izbovečky](./rastliny-demo/izbovecky/index.html): pripravená subdoména `izbovecky.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [BREST](./rastliny-demo/brest/index.html): pripravená subdoména `brest.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Kokedamy.cz](./rastliny-demo/kokedamy/index.html): pripravená subdoména `kokedamy.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Rastlinkovo](./rastliny-demo/rastlinkovo/index.html): pripravená subdoména `rastlinkovo.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Svokrine jazyky](./rastliny-demo/svokrinejazyky/index.html): pripravená subdoména `svokrinejazyky.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Sukulenty Samek](./rastliny-demo/samek/index.html): pripravená subdoména `samek.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [VšeProKaktusy](./rastliny-demo/vseprokaktusy/index.html): pripravená subdoména `vseprokaktusy.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Green Hunters](./rastliny-demo/greenhunters/index.html): pripravená subdoména `greenhunters.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastliny majú aj samostatný súkromný [statický náhľad](https://rastlinne-chatbot-ukazky.vendzurd.chatgpt.site) pre vlastníka. Funguje v ňom výber aj katalógový chat bez serverového AI API; DNS existujúcich projektov sa tým nemení.
+
+Rastlinná ukážka [Sebtob Plants](./rastliny-demo/sebtobplants/index.html): pripravená subdoména `sebtobplants.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [ABIES – Dreviny.sk](./rastliny-demo/abies/index.html): pripravená subdoména `abies.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Honzův les](./rastliny-demo/honzuvles/index.html): pripravená subdoména `honzuvles.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Duben-Kaktus](./rastliny-demo/dubenkaktus/index.html): pripravená subdoména `dubenkaktus.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.
+
+Rastlinná ukážka [Poni Veni](./rastliny-demo/poniveni/index.html): pripravená subdoména `poniveni.mojchatbot.sk`, rovnaký samostatný projekt `rastliny-demo`.

@@ -1,0 +1,697 @@
+[
+  {
+    "id": "p13617",
+    "name": "Astrophytum Z Jasenné květináč 5,5 cm",
+    "url": "https://shop.duben-kaktus.cz/astrophytum-z-jasenne-kvetinac-5-5-cm-13617/",
+    "kind": "cacti",
+    "sourceCategory": "astrophytum-a1",
+    "priceValue": 90.0,
+    "price": "90 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p13617.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/13617/large/12416618-13617.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:astrophytum"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 5,5 cm.",
+      "Vek podľa predajcu: 7+ rokov.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 5.5,
+    "sourceAttributes": {
+      "Kód zboží:": "4h8",
+      "Stáří rostliny:": "7+ roků",
+      "Průměr květináčku:": "5,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "13617"
+    },
+    "descriptionSha256": "588022b929a00117cc402d5dd303832812cb3594bb78fc1f1336996a22229a65",
+    "reason": "Črepník podľa predajcu: 5,5 cm. Vek podľa predajcu: 7+ rokov. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p11690",
+    "name": "Tephrocactus geometricus, pot 5,5 cm",
+    "url": "https://shop.duben-kaktus.cz/tephrocactus-geometricus-pot-5-5-cm-11690/",
+    "kind": "cacti",
+    "sourceCategory": "tephrocactus-a1",
+    "priceValue": 260.0,
+    "price": "260 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p11690.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/11690/large/12405279-11690.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:tephrocactus"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 5,5 cm.",
+      "Vek podľa predajcu: 5+ rokov.",
+      "Typ podľa predajcu: Pravokořenný / Own roots."
+    ],
+    "diameter": null,
+    "potDiameter": 5.5,
+    "sourceAttributes": {
+      "Kód zboží:": "1a9",
+      "Stáří rostliny:": "5+ roků",
+      "Průměr květináčku:": "5,5 cm",
+      "Typ rostliny:": "Pravokořenný / Own roots"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "11690"
+    },
+    "descriptionSha256": "08c995a6097d47a6153803b8b9d88efc429f3302479b204125b381ecd220bf3f",
+    "reason": "Črepník podľa predajcu: 5,5 cm. Vek podľa predajcu: 5+ rokov. Typ podľa predajcu: Pravokořenný / Own roots."
+  },
+  {
+    "id": "p6379",
+    "name": "Lapidaria margaretae pot 5,5 cm",
+    "url": "https://shop.duben-kaktus.cz/lapidaria-margaretae-pot-5-5-cm-6379/",
+    "kind": "succulents",
+    "sourceCategory": "ostatni-sukulenty",
+    "priceValue": 40.0,
+    "price": "40 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p6379.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/6379/large/12385102-6379.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:lapidaria"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 5,5 cm.",
+      "Vek podľa predajcu: 3+ rokov.",
+      "Typ podľa predajcu: Pravokořenný / Own roots."
+    ],
+    "diameter": null,
+    "potDiameter": 5.5,
+    "sourceAttributes": {
+      "Kód zboží:": "1x lap",
+      "Stáří rostliny:": "3+ roků",
+      "Průměr květináčku:": "5,5 cm",
+      "Typ rostliny:": "Pravokořenný / Own roots"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "6379"
+    },
+    "descriptionSha256": "40d8ac3699486bc64210e9aae69758f58f7a91c622cea585898d7f62b2ac7fd1",
+    "reason": "Črepník podľa predajcu: 5,5 cm. Vek podľa predajcu: 3+ rokov. Typ podľa predajcu: Pravokořenný / Own roots."
+  },
+  {
+    "id": "p13235",
+    "name": "Astrophytum Onzuko X ornatum pot 6,5 cm",
+    "url": "https://shop.duben-kaktus.cz/astrophytum-onzuko-x-ornatum-pot-6-5-cm-13235/",
+    "kind": "cacti",
+    "sourceCategory": "vyberove-rostliny",
+    "priceValue": 360.0,
+    "price": "360 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p13235.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/13235/large/12413989-13235.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:astrophytum"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 6,5 cm.",
+      "Vek podľa predajcu: 12+ rokov.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 6.5,
+    "sourceAttributes": {
+      "Kód zboží:": "4g13",
+      "Stáří rostliny:": "12+ roků",
+      "Průměr květináčku:": "6,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "13235"
+    },
+    "descriptionSha256": "ebaeb94536923d039ef1136b4a9a5c8351e6cdf16579601a102b3e61bd23ccf9",
+    "reason": "Črepník podľa predajcu: 6,5 cm. Vek podľa predajcu: 12+ rokov. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p10672",
+    "name": "Titanopsis calcarea květináč 5,5 cm",
+    "url": "https://shop.duben-kaktus.cz/titanopsis-calcarea-kvetinac-5-5-cm-10672/",
+    "kind": "succulents",
+    "sourceCategory": "ostatni-sukulenty",
+    "priceValue": 50.0,
+    "price": "50 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p10672.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/10672/large/12412379-10672.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:titanopsis"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 5,5 cm.",
+      "Vek podľa predajcu: 3 rokov.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 5.5,
+    "sourceAttributes": {
+      "Stáří rostliny:": "3 roků",
+      "Průměr květináčku:": "5,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 21,
+      "activeBuyForm": true,
+      "productId": "10672"
+    },
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reason": "Črepník podľa predajcu: 5,5 cm. Vek podľa predajcu: 3 rokov. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p12099",
+    "name": "Lobivia tiegeliana, květináč 5,5 cm",
+    "url": "https://shop.duben-kaktus.cz/lobivia-tiegeliana-kvetinac-5-5-cm-12099/",
+    "kind": "cacti",
+    "sourceCategory": "kaktusy-standard",
+    "priceValue": 40.0,
+    "price": "40 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p12099.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/12099/large/12407670-12099.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:lobivia"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 5,5 cm.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 5.5,
+    "sourceAttributes": {
+      "Průměr květináčku:": "5,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 4,
+      "activeBuyForm": true,
+      "productId": "12099"
+    },
+    "descriptionSha256": "e100c9a16ef472d3cc26fc46a59837b120809f13ff87fafd0418f48ff3a1791c",
+    "reason": "Črepník podľa predajcu: 5,5 cm. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p13169",
+    "name": "Astrophytum Z Jasenné květináč 5,5 cm",
+    "url": "https://shop.duben-kaktus.cz/astrophytum-z-jasenne-kvetinac-5-5-cm-13169/",
+    "kind": "cacti",
+    "sourceCategory": "astrophytum-a1",
+    "priceValue": 240.0,
+    "price": "240 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p13169.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/13169/large/12413578-13169.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:astrophytum"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 5,5 cm.",
+      "Vek podľa predajcu: 7+ rokov.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 5.5,
+    "sourceAttributes": {
+      "Kód zboží:": "1c20",
+      "Stáří rostliny:": "7+ roků",
+      "Průměr květináčku:": "5,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "13169"
+    },
+    "descriptionSha256": "36291fff09112b4273df69b4be5df59191c6329df82844a90b67df271e005618",
+    "reason": "Črepník podľa predajcu: 5,5 cm. Vek podľa predajcu: 7+ rokov. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p12686",
+    "name": "Ferobergia semenáč, pot 5,5 cm",
+    "url": "https://shop.duben-kaktus.cz/ferobergia-semenac-pot-5-5-cm-12686/",
+    "kind": "cacti",
+    "sourceCategory": "vyberove-rostliny",
+    "priceValue": 240.0,
+    "price": "240 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p12686.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/12686/large/12410863-12686.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:ferobergia"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 5,5 cm.",
+      "Vek podľa predajcu: 4 rokov.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 5.5,
+    "sourceAttributes": {
+      "Kód zboží:": "3d26",
+      "Stáří rostliny:": "4 roků",
+      "Průměr květináčku:": "5,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "12686"
+    },
+    "descriptionSha256": "ac037834b6218d82b91558c59968f9b67180d59fc5dfd25c673bbb3817795fee",
+    "reason": "Črepník podľa predajcu: 5,5 cm. Vek podľa predajcu: 4 rokov. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p11880",
+    "name": "Tephrocactus geometricus Semenáč pot 5,5 cm",
+    "url": "https://shop.duben-kaktus.cz/tephrocactus-geometricus-semenac-pot-5-5-cm-11880/",
+    "kind": "cacti",
+    "sourceCategory": "tephrocactus-a1",
+    "priceValue": 300.0,
+    "price": "300 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p11880.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/11880/large/12406372-11880.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:tephrocactus"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 5,5 cm.",
+      "Vek podľa predajcu: 7+ rokov.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 5.5,
+    "sourceAttributes": {
+      "Kód zboží:": "3c92",
+      "Stáří rostliny:": "7+ roků",
+      "Průměr květináčku:": "5,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "11880"
+    },
+    "descriptionSha256": "ba1a48c7d2dacd8e950567ee62a50ae55d8b4f3a444123c10eb65d959ba1e8b1",
+    "reason": "Črepník podľa predajcu: 5,5 cm. Vek podľa predajcu: 7+ rokov. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p13125",
+    "name": "Tephrocactus geometricus pot 6,5 cm",
+    "url": "https://shop.duben-kaktus.cz/tephrocactus-geometricus-pot-6-5-cm-13125/",
+    "kind": "cacti",
+    "sourceCategory": "tephrocactus-a1",
+    "priceValue": 390.0,
+    "price": "390 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p13125.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/13125/large/12413270-13125.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:tephrocactus"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 6,5 cm.",
+      "Vek podľa predajcu: 7+ rokov.",
+      "Typ podľa predajcu: Pravokořenný / Own roots."
+    ],
+    "diameter": null,
+    "potDiameter": 6.5,
+    "sourceAttributes": {
+      "Kód zboží:": "1c26",
+      "Stáří rostliny:": "7+ roků",
+      "Průměr květináčku:": "6,5 cm",
+      "Typ rostliny:": "Pravokořenný / Own roots"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "13125"
+    },
+    "descriptionSha256": "5a18ebde25ecc0c12ce14cc296716c0a9d4753edd32e0d75a5d4a37d5f030bd2",
+    "reason": "Črepník podľa predajcu: 6,5 cm. Vek podľa predajcu: 7+ rokov. Typ podľa predajcu: Pravokořenný / Own roots."
+  },
+  {
+    "id": "p13399",
+    "name": "Gymnocalycium spegazzinii unguispinum SL 44b, 5,5 cm květináč",
+    "url": "https://shop.duben-kaktus.cz/gymnocalycium-spegazzinii-unguispinum-sl-44b-5-5-cm-kvetinac-13399/",
+    "kind": "cacti",
+    "sourceCategory": "vyberove-rostliny",
+    "priceValue": 420.0,
+    "price": "420 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p13399.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/13399/large/12415098-13399.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:gymnocalycium"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 5,5 cm.",
+      "Vek podľa predajcu: 8+ rokov.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 5.5,
+    "sourceAttributes": {
+      "Kód zboží:": "7k43",
+      "Stáří rostliny:": "8+ roků",
+      "Průměr květináčku:": "5,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "13399"
+    },
+    "descriptionSha256": "845e2f7bd1ad394dca4c897a2aff02ffcf9d8af922a1e5934ccf985639add676",
+    "reason": "Črepník podľa predajcu: 5,5 cm. Vek podľa predajcu: 8+ rokov. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p10402",
+    "name": "Lophophora fricii pot 6,5 cm",
+    "url": "https://shop.duben-kaktus.cz/lophophora-fricii-pot-6-5-cm-10402/",
+    "kind": "cacti",
+    "sourceCategory": "kaktusy-standard",
+    "priceValue": 450.0,
+    "price": "450 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p10402.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/10402/large/12399028-10402.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:lophophora"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 6,5 cm.",
+      "Vek podľa predajcu: 15 + rokov.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 6.5,
+    "sourceAttributes": {
+      "Kód zboží:": "LF 4,5+",
+      "Stáří rostliny:": "15 + roků",
+      "Průměr květináčku:": "6,5 cm",
+      "Rozměr rostliny:": "4,5 + cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 4,
+      "activeBuyForm": true,
+      "productId": "10402"
+    },
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reason": "Črepník podľa predajcu: 6,5 cm. Vek podľa predajcu: 15 + rokov. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p12339",
+    "name": "Ariocarpus lloydii, pot 6,5 cm",
+    "url": "https://shop.duben-kaktus.cz/ariocarpus-lloydii-pot-6-5-cm-12339/",
+    "kind": "cacti",
+    "sourceCategory": "ariocarpus-a1",
+    "priceValue": 750.0,
+    "price": "750 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p12339.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/12339/large/12409151-12339.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:ariocarpus"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 6,5 cm.",
+      "Vek podľa predajcu: 12+ rokov.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 6.5,
+    "sourceAttributes": {
+      "Kód zboží:": "9k32",
+      "Stáří rostliny:": "12+ roků",
+      "Průměr květináčku:": "6,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "12339"
+    },
+    "descriptionSha256": "021e4cfcd3efdde4c597d3f67f3b8e2e4cf1c8000f7f9329d9784d56f4f1ec67",
+    "reason": "Črepník podľa predajcu: 6,5 cm. Vek podľa predajcu: 12+ rokov. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p13008",
+    "name": "Tephrocactus geometricus květináč 9 cm",
+    "url": "https://shop.duben-kaktus.cz/tephrocactus-geometricus-kvetinac-9-cm-13008/",
+    "kind": "cacti",
+    "sourceCategory": "tephrocactus-a1",
+    "priceValue": 950.0,
+    "price": "950 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p13008.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/13008/large/12412574-13008.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:tephrocactus"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 9 cm.",
+      "Vek podľa predajcu: 15+ rokov.",
+      "Typ podľa predajcu: Pravokořenný / Own roots."
+    ],
+    "diameter": null,
+    "potDiameter": 9.0,
+    "sourceAttributes": {
+      "Kód zboží:": "1c41",
+      "Stáří rostliny:": "15+ roků",
+      "Průměr květináčku:": "9 cm",
+      "Rozměr rostliny:": "V 11 cm",
+      "Typ rostliny:": "Pravokořenný / Own roots"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "13008"
+    },
+    "descriptionSha256": "494129dc12f4405739bf3d36e9ca80a738b0d5697cee6ea1b95f068bb2f3dd1b",
+    "reason": "Črepník podľa predajcu: 9 cm. Vek podľa predajcu: 15+ rokov. Typ podľa predajcu: Pravokořenný / Own roots."
+  },
+  {
+    "id": "p12257",
+    "name": "Ariocarpus kotschoubeyanus elephantidens Vista Hermosa pot 6,5 cm",
+    "url": "https://shop.duben-kaktus.cz/ariocarpus-kotschoubeyanus-elephantidens-vista-hermosa-pot-6-5-cm-12257/",
+    "kind": "cacti",
+    "sourceCategory": "ariocarpus-a1",
+    "priceValue": 2450.0,
+    "price": "2450 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p12257.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/12257/large/12408631-12257.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:ariocarpus"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 6,5 cm.",
+      "Vek podľa predajcu: 25+ rokov.",
+      "Typ podľa predajcu: Semenáč / Seedling.",
+      "Predajca uvádza individuálne fotografovanú a evidovanú rastlinu."
+    ],
+    "diameter": null,
+    "potDiameter": 6.5,
+    "sourceAttributes": {
+      "Kód zboží:": "8i50",
+      "Stáří rostliny:": "25+ roků",
+      "Průměr květináčku:": "6,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "12257"
+    },
+    "descriptionSha256": "82de04165a298ac11c983e2c61b199a1770720d1192e115ae471e2c54d7f4848",
+    "reason": "Črepník podľa predajcu: 6,5 cm. Vek podľa predajcu: 25+ rokov. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p5033",
+    "name": "Lithops 1",
+    "url": "https://shop.duben-kaktus.cz/lithops-1-5033/",
+    "kind": "succulents",
+    "sourceCategory": "ostatni-sukulenty",
+    "priceValue": 58.0,
+    "price": "58 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p5033.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/5033/large/12372898-5033.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:lithops"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 5,5 cm.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 5.5,
+    "sourceAttributes": {
+      "Kód zboží:": "1L58",
+      "Průměr květináčku:": "5,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 11,
+      "activeBuyForm": true,
+      "productId": "5033"
+    },
+    "descriptionSha256": "ba568bcdf22604040bbe2e216aa69fa1f0eb7c9adc55c774112842189dabe141",
+    "reason": "Črepník podľa predajcu: 5,5 cm. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p5027",
+    "name": "Frithia pulchra pot 5,5 cm",
+    "url": "https://shop.duben-kaktus.cz/frithia-pulchra-pot-5-5-cm-5027/",
+    "kind": "succulents",
+    "sourceCategory": "ostatni-sukulenty",
+    "priceValue": 60.0,
+    "price": "60 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p5027.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/5027/large/12372888-5027.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:frithia"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 5,5 cm.",
+      "Vek podľa predajcu: 3+ rokov.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 5.5,
+    "sourceAttributes": {
+      "Kód zboží:": "FP 60",
+      "Stáří rostliny:": "3+ roků",
+      "Průměr květináčku:": "5,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 6,
+      "activeBuyForm": true,
+      "productId": "5027"
+    },
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reason": "Črepník podľa predajcu: 5,5 cm. Vek podľa predajcu: 3+ rokov. Typ podľa predajcu: Semenáč / Seedling."
+  },
+  {
+    "id": "p12097",
+    "name": "Haworthia truncata pot 5,5 cm",
+    "url": "https://shop.duben-kaktus.cz/haworthia-truncata-pot-5-5-cm-12097/",
+    "kind": "succulents",
+    "sourceCategory": "ostatni-sukulenty",
+    "priceValue": 100.0,
+    "price": "100 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p12097.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/12097/large/12407667-12097.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:haworthia"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 5,5 cm.",
+      "Typ podľa predajcu: Pravokořenný / Own roots."
+    ],
+    "diameter": null,
+    "potDiameter": 5.5,
+    "sourceAttributes": {
+      "Průměr květináčku:": "5,5 cm",
+      "Typ rostliny:": "Pravokořenný / Own roots"
+    },
+    "sourceStockEvidence": {
+      "quantity": 11,
+      "activeBuyForm": true,
+      "productId": "12097"
+    },
+    "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reason": "Črepník podľa predajcu: 5,5 cm. Typ podľa predajcu: Pravokořenný / Own roots."
+  },
+  {
+    "id": "p13546",
+    "name": "Lithops sp., květináč 6,5 cm",
+    "url": "https://shop.duben-kaktus.cz/lithops-sp-kvetinac-6-5-cm-13546/",
+    "kind": "succulents",
+    "sourceCategory": "ostatni-sukulenty",
+    "priceValue": 120.0,
+    "price": "120 Kč",
+    "currency": "CZK",
+    "photo": "/assets/plants/dubenkaktus-p13546.jpg",
+    "imageSource": "https://shop.duben-kaktus.cz/uploads/images/13546/large/12416156-13546.jpg",
+    "stock": "InStock",
+    "checked": "2026-10-11",
+    "tags": [
+      "genus:lithops"
+    ],
+    "facts": [
+      "Črepník podľa predajcu: 6,5 cm.",
+      "Typ podľa predajcu: Semenáč / Seedling."
+    ],
+    "diameter": null,
+    "potDiameter": 6.5,
+    "sourceAttributes": {
+      "Kód zboží:": "2e15",
+      "Průměr květináčku:": "6,5 cm",
+      "Typ rostliny:": "Semenáč / Seedling"
+    },
+    "sourceStockEvidence": {
+      "quantity": 1,
+      "activeBuyForm": true,
+      "productId": "13546"
+    },
+    "descriptionSha256": "ba568bcdf22604040bbe2e216aa69fa1f0eb7c9adc55c774112842189dabe141",
+    "reason": "Črepník podľa predajcu: 6,5 cm. Typ podľa predajcu: Semenáč / Seedling."
+  }
+]
