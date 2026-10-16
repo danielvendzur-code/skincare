@@ -48,7 +48,6 @@
       pick: n => `Na ${n} ks vyberám:`,
       shippingHead: 'Doprava podľa e-shopu',
       shippingUnknown: 'Cenu dopravy pre vašu krajinu v ukážke overenú nemám. Aktuálne možnosti a ceny sú v e-shope:',
-      shippingCountry: 'Napíšte mi krajinu doručenia a poviem vám, ktorý riadok platí.',
       excludedNote: 'Vynechávam:',
       conditions: 'podľa vašich podmienok',
       priceFrom: 'od',
@@ -88,7 +87,6 @@
       pick: n => `Na ${n} ks vybírám:`,
       shippingHead: 'Doprava podle e-shopu',
       shippingUnknown: 'Cenu dopravy pro vaši zemi v ukázce ověřenou nemám. Aktuální možnosti a ceny jsou v e-shopu:',
-      shippingCountry: 'Napište mi zemi doručení a řeknu vám, který řádek platí.',
       excludedNote: 'Vynechávám:',
       conditions: 'podle vašich podmínek',
       priceFrom: 'od',
@@ -386,6 +384,11 @@
         const condNoBudget = conditionText(ad, {...st, budget: null});
         return `${t.noneUnder(money(st.budget.amount, st.budget.currency || ad.currency), condNoBudget)} ${t.cheapest(cheapest.name, priceOf(cheapest, st).label)}\n\n${line(ad, cheapest, st)}`;
       }
+      // A coffee that fits but is sold out right now is named rather than denied.
+      if (ad.soldOutMatch && !st.budget) {
+        const so = ad.soldOutMatch(st.answers, st.not);
+        if (so) return (ad.lang === 'cs' ? `${so.name} v nabídce je, ale momentálně není skladem.` : `${so.name} v ponuke je, ale momentálne nie je skladom.`) + '\n\n' + line(ad, so, st);
+      }
       // Nearest option: relax soft preferences, never exclusions or the budget.
       for (const key of ad.relax || []) {
         if (st.answers[key] === undefined) continue;
@@ -526,8 +529,7 @@
       const general = s.lines.filter(l => !byCountry.includes(l));
       lines = own.length ? [...own, ...general] : [(ad.lang === 'cs' ? 'Pro tuto zemi e-shop cenu dopravy neuvádí. Uvedené ceny:' : 'Pre túto krajinu e-shop cenu dopravy neuvádza. Uvedené ceny:'), ...s.lines];
     }
-    const askCountry = !asked && byCountry.length >= 2;
-    return [t.shippingHead + (s.checkedAt ? ' (' + s.checkedAt + ')' : '') + ':', ...lines, s.url || '', askCountry ? t.shippingCountry : ''].filter(Boolean).join('\n');
+    return [t.shippingHead + (s.checkedAt ? ' (' + s.checkedAt + ')' : '') + ':', ...lines, s.url || ''].filter(Boolean).join('\n');
   }
 
   /* ---------- main entry ---------- */
