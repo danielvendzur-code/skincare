@@ -6,8 +6,8 @@
 // - Shoptet shops publish every variant's price and stock in the page (necessaryVariantData).
 // - Other shops (WooCommerce, PrestaShop, Upgates, custom) are read from the page's schema.org
 //   Product offer (JSON-LD or microdata) or its product:price meta tag.
-// A product is for sale when its offer is InStock, LimitedAvailability or OnlineOnly; PreOrder,
-// BackOrder, OutOfStock, SoldOut and Discontinued, or a sold-out notice next to the title, are not.
+// A product is for sale when its offer is InStock, LimitedAvailability or OnlineOnly, or a pre-order or back-order
+// the shop already takes into the cart; OutOfStock, SoldOut and Discontinued, or a sold-out notice next to the title, are not.
 // A price change is reported only when the catalogue price is none of the prices the page offers,
 // so a product listed in one of several sizes keeps its own size's price.
 // A missing page (404/410) marks the product as gone.
@@ -21,10 +21,13 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SELLING = /schema\.org\/(InStock|LimitedAvailability|OnlineOnly|InStoreOnly)$/i;
 const NOT_SELLING = /schema\.org\/(PreOrder|PreSale|BackOrder|OutOfStock|SoldOut|Discontinued)$/i;
 const NOT_SELLING_TEXT = /Vypredan|Vyprodáno|Nie je (?:na )?sklad|Není skladem|Momentálne nedostupn|Momentálně nedostupn|Dočasne nedostupn|Dočasně nedostupn|Out of stock/i;
+const ORDERABLE = /data-testid="buttonAddToCart"|class="[^"]*add-to-cart-button[^"]*"(?![^>]*disabled)|data-button-action="add-to-cart"(?![^>]*disabled)|name="add-to-cart"(?![^>]*disabled)/i;
 const UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
 
 const args = process.argv.slice(2);
 const write = args.includes('--write');
+// Pages fetched at once per shop; a shop that turns requests away under load needs fewer (PARALLEL=2).
+const PARALLEL = Number(process.env.PARALLEL) || 8;
 const only = args.find(a => !a.startsWith('--'));
 const slugs = only ? only.split(',') : fs.readdirSync(path.join(ROOT, 'catalogues')).filter(f => f.endsWith('-refresh.js')).map(f => f.replace(/-refresh\.js$/, ''));
 
@@ -61,10 +64,10 @@ function shoptetVariants(html) {
 
 const pause = ms => new Promise(r => setTimeout(r, ms));
 async function get(url) {
-  // A shop that limits requests (HTTP 429) is asked again after a pause.
+  // A shop that limits requests (HTTP 429) or is briefly overloaded (503) is asked again after a pause.
   for (let i = 0; i < 4; i++) {
     const res = await fetch(url, {headers: {'user-agent': UA, 'accept-language': 'sk-SK,sk;q=0.9,cs;q=0.8'}, redirect: 'follow', signal: AbortSignal.timeout(30000)});
-    if (res.status !== 429) return res;
+    if (res.status !== 429 && res.status !== 503) return res;
     await pause(4000 * (i + 1));
   }
   return fetch(url, {headers: {'user-agent': UA}, redirect: 'follow', signal: AbortSignal.timeout(30000)});
@@ -93,16 +96,17 @@ async function wooProduct(p) {
     const price = Number(w.prices?.price) / unit, low = Number(w.prices?.price_range?.min_amount) / unit, high = Number(w.prices?.price_range?.max_amount) / unit;
     const prices = [price, low, high].filter(v => Number.isFinite(v) && v > 0);
     const backorder = /backorder/.test(w.stock_availability?.class || '');
-    return {available: !!w.is_purchasable && !!w.is_in_stock && !backorder, prices, trusted: true, currency: w.prices?.currency_code, description: clean(w.short_description || w.description), why: 'store api ' + (backorder ? 'backorder' : w.is_in_stock ? 'in stock' : 'out of stock') + ' ' + prices.join('/')};
+    return {available: !!w.is_purchasable && !!w.is_in_stock, preorder: backorder, prices, trusted: true, currency: w.prices?.currency_code, description: clean(w.short_description || w.description), why: 'store api ' + (backorder ? 'backorder' : w.is_in_stock ? 'in stock' : 'out of stock') + ' ' + prices.join('/')};
   } catch { return null; }
 }
 
 /* Plain text of an HTML fragment. */
 const ENT = {amp: '&', nbsp: ' ', quot: '"', apos: "'", lt: '<', gt: '>', hellip: '…', ndash: '–', mdash: '—'};
+// Meta descriptions sometimes go on into a customer review after a star; only the shop's own words are kept.
 function clean(html) {
   const t = String(html || '').replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ').replace(/<br\s*\/?>|<\/p>|<\/li>/gi, ' ').replace(/<[^>]+>/g, ' ')
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16))).replace(/&([a-z]+);/gi, (m, n) => ENT[n.toLowerCase()] ?? m)
-    .replace(/\s+/g, ' ').trim();
+    .replace(/\s+/g, ' ').replace(/\s*⭐[\s\S]*$/, '').trim();
   return t.length > 700 ? t.slice(0, 700).replace(/\s+\S*$/, '') + '…' : t;
 }
 /* "1,248.00", "1 248,00" and "19.90" are all prices. */
@@ -159,6 +163,9 @@ async function check(p) {
   const visible = near.replace(/&nbsp;|\u00a0/g, ' ');
   const base = {prices, currency, description, visible};
   if (states.some(s => SELLING.test(s))) return {...base, available: true, why: states.join(' ')};
+  // A pre-order or back-order the shop takes into the cart now ("Predobjednávka – odosielam od 20. 10.", PrestaShop's
+  // orders when out of stock) is for sale; one without an active cart button is not.
+  if (states.length && states.every(s => /PreOrder|PreSale|BackOrder/i.test(s)) && ORDERABLE.test(html)) return {...base, available: true, preorder: true, why: states.join(' ') + ' (orderable)'};
   if (states.length && states.every(s => NOT_SELLING.test(s))) return {...base, available: false, why: states.join(' ')};
   if (NOT_SELLING_TEXT.test(near)) return {...base, available: false, why: 'text: ' + near.match(NOT_SELLING_TEXT)[0]};
   return {...base, available: states.length ? null : prices.length ? true : null, why: states.length ? 'unknown offer: ' + states.join(' ') : prices.length ? 'price, no stock data' : 'no offer data'};
@@ -171,8 +178,8 @@ for (const slug of slugs) {
   if (!catalogue) { console.log(`?  ${slug}: no catalogue`); continue; }
   const list = catalogue.products.filter(p => p.url);
   const stock = [], price = [], unknown = [], texts = new Map();
-  for (let i = 0; i < list.length; i += 8) {
-    await Promise.all(list.slice(i, i + 8).map(async p => {
+  for (let i = 0; i < list.length; i += PARALLEL) {
+    await Promise.all(list.slice(i, i + PARALLEL).map(async p => {
       const r = await check(p);
       if (r.description && r.description.length >= 25) texts.set(p, r.description);
       if (r.available === null) { unknown.push({p, r}); return; }
@@ -199,12 +206,12 @@ for (const slug of slugs) {
   total += stock.length + price.length;
   if (write && (stock.length || price.length || described.length)) {
     const now = new Date().toISOString();
-    for (const {p, r} of stock) { p.available = r.available; if (r.gone) p.gone = true; else delete p.gone; if (p.source && typeof p.source === 'object') { p.source.stock = r.available ? 'InStock' : 'OutOfStock'; p.source.verifiedAt = now; } }
+    for (const {p, r} of stock) { p.available = r.available; if (r.gone) p.gone = true; else delete p.gone; if (p.source && typeof p.source === 'object') { p.source.stock = r.preorder ? 'PreOrder' : r.available ? 'InStock' : 'OutOfStock'; p.source.verifiedAt = now; } }
     catalogue.verifiedAt = now;
     for (const {p, now: v, currency} of price) { p.priceAmount = v; p.currency = currency; p.price = (/^od\s/i.test(p.price || '') ? 'od ' : '') + money(v, currency); if (p.source && typeof p.source === 'object') p.source.verifiedAt = now; }
     for (const [p, t] of described) p.description = t;
     const text = fs.readFileSync(file, 'utf8');
-    const head = text.slice(0, text.indexOf('globalThis.CX_CATALOGUES[')).replace(/snapshot, [^.]*\./, `snapshot, ${now}.`);
+    const head = text.slice(0, text.indexOf('globalThis.CX_CATALOGUES[')).replace(/snapshot, .*?\.\s*\*\//, `snapshot, ${now}. */`);
     fs.writeFileSync(file, `${head}globalThis.CX_CATALOGUES[${JSON.stringify(slug)}] = ${JSON.stringify(catalogue)};\n`);
   }
 }

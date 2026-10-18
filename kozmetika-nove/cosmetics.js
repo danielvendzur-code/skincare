@@ -284,6 +284,15 @@
     return `Z ponuky ${brand.name} je dobrý začiatok ${brand.products[0].name}. Napíšte, ako sa pleť správa a čo chcete riešiť, alebo prejdite štyri krátke kroky vo Výbere — vyberiem jeden konkrétny produkt aj s dôvodom.`;
   }
 
+  function localReply(clean,history) {
+    try {
+      const brain=globalThis.CXChatBrain, catalogue=(globalThis.CX_CATALOGUES||{})[slug];
+      if(!brain||!catalogue?.products?.length||!globalThis.CXAdvisorCore)return null;
+      state.chatAdapter=state.chatAdapter||brain.adapters.cosmetics(catalogue,{family:'cosmetics'});
+      return brain.reply(state.chatAdapter,clean,history)||null;
+    } catch (_) { return null; }
+  }
+
   async function send(text) {
     const clean = String(text||'').trim().slice(0,500);
     if (!clean || state.busy) return;
@@ -296,14 +305,17 @@
     state.messages.push(answer);
     renderChat();
     // Keep the pending bubble neutral until a canonical response arrives.
+    // The pending bubble is not part of the conversation.
+    const history = state.messages.filter((m)=>m!==answer).map((m)=>({role:m.role,content:m.text}));
     const abort = new AbortController();
     const timer = setTimeout(() => abort.abort(), 12000);
     try {
-      const response = await fetch('/api/cosmetics-chat',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({demoId:slug,messages:state.messages.slice(-8).map((m)=>({role:m.role,content:m.text}))}),signal:abort.signal});
+      const response = await fetch('/api/cosmetics-chat',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({demoId:slug,messages:history.slice(-8)}),signal:abort.signal});
       if (response.ok) { const payload=await response.json(); if(String(payload.reply||'').trim()){answer.text=String(payload.reply).trim();replied=true;} }
     } catch (_) {} finally { clearTimeout(timer); }
     if(generation!==(state.generation||0))return;
-    if(!replied)answer.text=globalThis.CXCatalogueReplyCore?.(globalThis.CX_CATALOGUES||{},slug,clean,state.messages.map(m=>({role:m.role,content:m.text})))||(document.documentElement.lang==='cs'?'Odpověď se nyní nepodařilo načíst. Nabídku můžete projít ve Výběru.':'Odpoveď sa teraz nepodarilo načítať. Ponuku môžete prejsť vo Výbere.');
+    // Without the server (a static host), the same conversation rules answer in the browser.
+    if(!replied)answer.text=localReply(clean,history)||globalThis.CXCatalogueReplyCore?.(globalThis.CX_CATALOGUES||{},slug,clean,history)||(document.documentElement.lang==='cs'?'Odpověď se nyní nepodařilo načíst. Nabídku můžete projít ve Výběru.':'Odpoveď sa teraz nepodarilo načítať. Ponuku môžete prejsť vo Výbere.');
     state.busy = false;
     renderChat();
   }

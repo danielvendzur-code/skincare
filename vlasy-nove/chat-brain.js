@@ -171,7 +171,7 @@
   }
 
   /* ---------- product index and named products ---------- */
-  const GENERIC = /^(?:produkt|produkty|produktov|produkte|produktu|vyrobok|vyrobky|kava|kavy|kavu|coffee|vino|vina|wine|caj|caje|caju|cajov|tea|krem|kremy|serum|sera|olej|oleje|oil|maska|masky|sampon|mydlo|balzam|tonikum|voda|gel|pena|set|sada|sady|bio|natural|naturalny|prirodny|prirodni|rastlina|rostlina|kvetinac|crepnik|zrnkova|zrnkovu|mleta|mletu|espresso|filter|filtr|blend|zmes|smes|biele|biela|cervene|cervena|ruzove|suche|polosuche|sladke|polosladke|darcek|darkova|darcekova|balenie|baleni|male|velke|mini|maxi|extra|premium|classic|klasik|original|special|edition|limited|new|novinka|akce|akcia|vzorka|vzorek|ml|kg|pre|pro|pleť|plet|telo|telove|vlasy|vlasov|pletovy|pletova|hydratacny|hydratacni|vyzivny|vyzivujuci|jemny|jemna|cisty|cista|denny|nocny|suchu|suchou|mastnu|mastnou|citlivu|citlivou|svetle|tmave|light|dark|medium|roast|arabica|arabika|robusta|single|origin|honey|washed|natural|lot|farm|finca|estate)$/;
+  const GENERIC = /^(?:produkt\w*|vyrobok|vyrobky|kava|kavy|kavu|coffee|vino|vina|wine|caj|caje|caju|cajov|tea|krem|kremy|serum|sera|olej|oleje|oil|maska|masky|sampon|mydlo|balzam|tonikum|voda|gel|pena|set|sada|sady|bio|natural|naturalny|prirodny|prirodni|rastlina|rostlina|kvetinac|crepnik|zrnkova|zrnkovu|mleta|mletu|espresso|filter|filtr|blend|zmes|smes|biele|biela|cervene|cervena|ruzove|suche|polosuche|sladke|polosladke|darcek|darkova|darcekova|balenie|baleni|male|velke|mini|maxi|extra|premium|classic|klasik|original|special|edition|limited|new|novinka|akce|akcia|vzorka|vzorek|ml|kg|pre|pro|pleť|plet|telo|telove|vlasy|vlasov|pletovy|pletova|hydratacny|hydratacni|vyzivny|vyzivujuci|jemny|jemna|cisty|cista|denny|nocny|suchu|suchou|mastnu|mastnou|citlivu|citlivou|svetle|tmave|light|dark|medium|roast|arabica|arabika|robusta|single|origin|honey|washed|natural|lot|farm|finca|estate)$/;
   // Pack sizes of one product share a core name; a multipack ("2x1kg") is a different product.
   const coreOf = name => norm(name).replace(/\(\s*[^)]*\)/g, ' ').replace(/\b(\d+)\s*x\s*(\d+(?:[.,]\d+)?)\s*(ml|g|kg|l)\b/g, '$1x$2$3').replace(/(^|\s)\d+(?:[.,]\d+)?\s*(?:ml|g|kg|l|ks|cm|mm|kc|eur)\b/g, ' ').replace(/[–—|,]/g, ' ').replace(/\s+/g, ' ').trim();
   /* Words customers use to describe a need; they identify a product only together with a real name. */
@@ -543,7 +543,12 @@
   function accessoryReply(ad, st, main, q) {
     const t = T[ad.lang];
     const list = (ad.accessories ? ad.accessories(main?.p || null, q, st) : []).filter(p => p.available !== false && !st.excluded.has(p.id));
-    if (!list.length) return main ? t.accNone(main.p.name) : t.accNoneGeneric;
+    if (!list.length) {
+      // The shop does sell it, only not now: say so instead of "not in the offer".
+      const gone = !main && ad.accessories ? ad.accessories(null, q, st, {all: true}).filter(p => p.available === false && !st.excluded.has(p.id)) : [];
+      if (gone.length) return (ad.lang === 'cs' ? 'Takový produkt e-shop v nabídce má, momentálně ale není skladem:' : 'Takýto produkt e-shop v ponuke má, momentálne však nie je skladom:') + '\n\n' + gone.slice(0, 2).map(p => line(ad, p, st)).join('\n\n');
+      return main ? t.accNone(main.p.name) : t.accNoneGeneric;
+    }
     const mainPrice = main ? priceOf(main.p, st).amount : 0;
     let pick = list;
     let note = '';
@@ -621,7 +626,7 @@
     const notProduct = !/produkt|odporuc|doporuc|kav[auy]|vin[oa]|krem|caj|rastlin/.test(q.replace(/doprav\w*/g, ''));
     if (DELIVERY.test(q) && notProduct) return termsReply(ad, 'delivery');
     if (PAYMENT.test(q) && !/doprav|postovn|poštovn/.test(q) && notProduct) return termsReply(ad, 'payment');
-    if (ad.shipping && PICKUP.test(q) && !/odporuc|doporuc|\bmate\b.*\bkav/.test(q)) return pickupReply(ad);
+    if (PICKUP.test(q) && notProduct && !/odporuc|doporuc|\bmate\b.*\bkav/.test(q)) return pickupReply(ad);
     if (SHIPPING.test(q) && notProduct) return shippingReply(ad, q);
     // "A do Česka?" right after a shipping answer is the same question for another country.
     const lastBot = [...messages].reverse().find(m => m.role === 'assistant')?.content || '';
