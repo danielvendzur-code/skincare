@@ -1,6 +1,10 @@
 import {catalogueReply} from './catalogue-reply.js';
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
-const MODEL = process.env.CHAT_MODEL || 'claude-haiku-4-5';
+const MODEL = process.env.CHAT_MODEL || 'claude-sonnet-5-5';
+// Claude Sonnet 5.5 and Haiku 5.5 take no temperature; thinking stays off for these two-sentence answers,
+// and Sonnet 5.5 hands a declined request to the fallback model instead of returning nothing.
+const MODEL_OPTIONS = /^claude-sonnet-5-5/.test(MODEL) ? {thinking: {type: 'between_tools'}, output_config: {effort: 'low'}, fallbacks: 'default'} : /^claude-haiku-5-5/.test(MODEL) ? {thinking: {type: 'disabled'}, output_config: {effort: 'low'}} : {temperature: 0};
+const MODEL_HEADERS = /^claude-sonnet-5-5/.test(MODEL) ? {'anthropic-beta': 'server-side-fallback-2026-07-01'} : {};
 
 const DEMOS = {
   dixi:{brand:"DiXi",web:"https://www.dixi.sk/",products:["Žihľava-Kofeín šampón 400 ml","Anti Dandruff šampón 400 ml","Žĺtkovo-pšeničný šampón 400 ml","Pivonkový šampón 400 ml","Color šampón na farbené vlasy 400 ml","Vlasové tonikum ARVIT proti vypadávaniu vlasov 7× 10 ml","Brezová vlasová voda na mastné vlasy 100 ml","Žihľavová maska na vlasy 300 ml","Regeneračný kondicionér s monoi olejom 200 ml"],fallback:{dry:"Na suché a poškodené vlasy je z DiXi dobrý smer Žĺtkovo-pšeničný šampón, pri farbených vlasoch Color šampón, a k nim Žihľavová maska. Výber starostlivosti ešte zohľadní, koľko krokov chcete.",oily:"Keď sa vlasy rýchlo mastia, pomôže Brezová vlasová voda na mastné vlasy priamo na pokožku hlavy. Výber ešte spresní vašu prioritu.",sensitive:"Pri lupinách je určený Anti Dandruff šampón so slezom, pri citlivej pokožke hlavy jemný Pivonkový šampón. Ak ťažkosti trvajú, poraďte sa s dermatológom.",mature:"Pri vypadávaní vlasov je smer Žihľava-Kofeín šampón a vlasové tonikum ARVIT v ampulkách. Pri výraznom vypadávaní sa poraďte s dermatológom.",default:"Ak neviete, kde začať, prejdite Výber starostlivosti. Štyri krátke kroky zúžia ponuku DiXi na konkrétny šampón, tonikum alebo masku."}},
@@ -63,7 +67,7 @@ export default async function handler(req,res){
     `Overené produkty:\n- ${demo.products.join('\n- ')}`
   ].join('\n\n');
   try{
-    const api=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':ANTHROPIC_API_KEY,'anthropic-version':'2023-06-01'},body:JSON.stringify({model:MODEL,max_tokens:160,temperature:0,system,messages})});
+    const api=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':ANTHROPIC_API_KEY,'anthropic-version':'2023-06-01',...MODEL_HEADERS},body:JSON.stringify({model:MODEL,max_tokens:160,...MODEL_OPTIONS,system,messages})});
     if(!api.ok){console.error('cosmetics Anthropic API error',api.status,await api.text());return fallback();}
     const data=await api.json();const reply=Array.isArray(data.content)?data.content.filter(b=>b.type==='text').map(b=>b.text).join('').trim():'';
     const clean=reply.replace(/[\u002a_\u0060#]/g,'').replace(/\s+/g,' ').trim();if(!clean)return fallback();

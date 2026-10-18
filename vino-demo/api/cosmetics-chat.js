@@ -1,5 +1,9 @@
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
-const MODEL = process.env.CHAT_MODEL || 'claude-haiku-4-5';
+const MODEL = process.env.CHAT_MODEL || 'claude-sonnet-5-5';
+// Claude Sonnet 5.5 and Haiku 5.5 take no temperature; thinking stays off for these two-sentence answers,
+// and Sonnet 5.5 hands a declined request to the fallback model instead of returning nothing.
+const MODEL_OPTIONS = /^claude-sonnet-5-5/.test(MODEL) ? {thinking: {type: 'between_tools'}, output_config: {effort: 'low'}, fallbacks: 'default'} : /^claude-haiku-5-5/.test(MODEL) ? {thinking: {type: 'disabled'}, output_config: {effort: 'low'}} : {temperature: 0};
+const MODEL_HEADERS = /^claude-sonnet-5-5/.test(MODEL) ? {'anthropic-beta': 'server-side-fallback-2026-07-01'} : {};
 
 const DEMOS = {
   nechory:{"brand":"Vinařství Nechory","web":"https://eshop.vinarstvinechory.cz/","products":["Sauvignon Blanc 2025, pozdní sběr, suché","Veltlínské zelené 2024, pozdní sběr, suché","Chardonnay 2024, pozdní sběr, suché","Muškát Ottonel 2024, pozdní sběr, polosladké","Pálava 2024, výběr z hroznů, polosladké","Tramín červený 2023, výběr z hroznů, polosladké","Rulandské modré rosé 2024, pozdní sběr, polosuché","Rulandské modré 2023, výběr z hroznů, suché","Cabernet Sauvignon RESERVE 2021, pozdní sběr, suché","Cuvée Catherine OAK 2023, výběr z hroznů, suché","Riesling Select BRUT 2023, klasická metoda","Euphoria Sparkling 2025, perlivé, polosuché"],"fallback":{"white":"K rybe a ľahkým jedlám je z Nechor dobrý smer suchý Sauvignon Blanc 2025 alebo Veltlínské zelené 2024, na leto aj Rulandské modré rosé. Vo Výbere vína nájdem aj ďalšie.","red":"K mäsu a zverine odporúčam Cabernet Sauvignon RESERVE 2021, jemnejšie je Rulandské modré 2023. Výber vína ešte zohľadní vašu chuť.","sweet":"Ak máte radi sladšie, skúste polosladkú Pálavu 2024 alebo Tramín červený 2023 k dezertom.","gift":"Na darček sa hodí Cuvée Catherine OAK 2023 alebo sekt Riesling Select BRUT 2023. Vo Výbere vína zohľadníme, čo má obdarovaný rád.","default":"Ak neviete, kde začať, prejdite Výber vína. Štyri krátke otázky zúžia ponuku Vinařství Nechory na konkrétne víno."}},
@@ -74,7 +78,7 @@ export default async function handler(req,res){
     `Overené vína:\n- ${demo.products.join('\n- ')}`
   ].join('\n\n');
   try{
-    const api=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':ANTHROPIC_API_KEY,'anthropic-version':'2023-06-01'},body:JSON.stringify({model:MODEL,max_tokens:160,temperature:0,system,messages})});
+    const api=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':ANTHROPIC_API_KEY,'anthropic-version':'2023-06-01',...MODEL_HEADERS},body:JSON.stringify({model:MODEL,max_tokens:160,...MODEL_OPTIONS,system,messages})});
     if(!api.ok){console.error('wine Anthropic API error',api.status,await api.text());return fallback();}
     const data=await api.json();const reply=Array.isArray(data.content)?data.content.filter(b=>b.type==='text').map(b=>b.text).join('').trim():'';
     const clean=reply.replace(/[\u002a_\u0060#]/g,'').replace(/\s+/g,' ').trim();if(!clean)return fallback();
