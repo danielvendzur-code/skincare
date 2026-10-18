@@ -1,10 +1,5 @@
 import {catalogueReply} from './catalogue-reply.js';
-const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
-const MODEL = process.env.CHAT_MODEL || 'claude-sonnet-5-5';
-// Claude Sonnet 5.5 and Haiku 5.5 take no temperature; thinking stays off for these two-sentence answers,
-// and Sonnet 5.5 hands a declined request to the fallback model instead of returning nothing.
-const MODEL_OPTIONS = /^claude-sonnet-5-5/.test(MODEL) ? {thinking: {type: 'between_tools'}, output_config: {effort: 'low'}, fallbacks: 'default'} : /^claude-haiku-5-5/.test(MODEL) ? {thinking: {type: 'disabled'}, output_config: {effort: 'low'}} : {temperature: 0};
-const MODEL_HEADERS = /^claude-sonnet-5-5/.test(MODEL) ? {'anthropic-beta': 'server-side-fallback-2026-07-01'} : {};
+import {aiAnswer} from './ai-chat.js';
 
 const DEMOS = {
   dixi:{brand:"DiXi",web:"https://www.dixi.sk/",products:["Žihľava-Kofeín šampón 400 ml","Anti Dandruff šampón 400 ml","Žĺtkovo-pšeničný šampón 400 ml","Pivonkový šampón 400 ml","Color šampón na farbené vlasy 400 ml","Vlasové tonikum ARVIT proti vypadávaniu vlasov 7× 10 ml","Brezová vlasová voda na mastné vlasy 100 ml","Žihľavová maska na vlasy 300 ml","Regeneračný kondicionér s monoi olejom 200 ml"],fallback:{dry:"Na suché a poškodené vlasy je z DiXi dobrý smer Žĺtkovo-pšeničný šampón, pri farbených vlasoch Color šampón, a k nim Žihľavová maska. Výber starostlivosti ešte zohľadní, koľko krokov chcete.",oily:"Keď sa vlasy rýchlo mastia, pomôže Brezová vlasová voda na mastné vlasy priamo na pokožku hlavy. Výber ešte spresní vašu prioritu.",sensitive:"Pri lupinách je určený Anti Dandruff šampón so slezom, pri citlivej pokožke hlavy jemný Pivonkový šampón. Ak ťažkosti trvajú, poraďte sa s dermatológom.",mature:"Pri vypadávaní vlasov je smer Žihľava-Kofeín šampón a vlasové tonikum ARVIT v ampulkách. Pri výraznom vypadávaní sa poraďte s dermatológom.",default:"Ak neviete, kde začať, prejdite Výber starostlivosti. Štyri krátke kroky zúžia ponuku DiXi na konkrétny šampón, tonikum alebo masku."}},
@@ -45,34 +40,12 @@ export default async function handler(req,res){
   while(messages[0]?.role==='assistant')messages.shift();
   while(messages.at(-1)?.role==='assistant')messages.pop();
   const latest=messages.filter(m=>m.role==='user').at(-1)?.content||'';if(!latest)return res.status(400).json({error:'Missing user message'});
-  const grounded=await catalogueReply(String(body.demoId),latest,messages);if(grounded)return res.status(200).json({reply:grounded,fallback:true});
-  const fallback=()=>res.status(200).json({reply:fallbackReply(demo,latest),fallback:true});
-  if(!ANTHROPIC_API_KEY){
-    try {
-      const upstream=await fetch('https://kava-chatbot-backend.vercel.app/api/cosmetics-chat',{
-        method:'POST',headers:{'content-type':'application/json'},
-        body:JSON.stringify({demoId:String(body.demoId),messages}),signal:AbortSignal.timeout(9000)
-      });
-      if(upstream.ok){const result=await upstream.json();if(!result.fallback&&String(result.reply||'').trim())return res.status(200).json({reply:String(result.reply).trim()});}
-    } catch (_) { /* Keep the company-specific offline reply when the provider is unavailable. */ }
-    return fallback();
-  }
-  const system=[
-    `Ste stručný produktový poradca pre e-shop s vlasovou kozmetikou ${demo.brand}.`,
-    'Odpovedajte jednoduchou slovenčinou, maximálne dvoma krátkymi vetami.',
-    'Pomáhate s orientačným výberom vlasovej starostlivosti podľa typu vlasov, pokožky hlavy a preferencií. Nerobte zdravotnú diagnózu, nesľubujte liečbu ani zastavenie vypadávania a nevymýšľajte medicínske tvrdenia.',
-    'Odporučiť môžete iba presný názov produktu zo zoznamu Overené produkty. Nevymýšľajte ceny, zloženie ani účinky, ktoré nie sú uvedené.',
-    'Pri výraznom alebo dlhodobom probléme pokožky hlavy či vypadávaní vlasov odporučte konzultáciu s dermatológom alebo trichológom.',
-    `Oficiálny e-shop: ${demo.web}`,
-    `Overené produkty:\n- ${demo.products.join('\n- ')}`
-  ].join('\n\n');
-  try{
-    const api=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':ANTHROPIC_API_KEY,'anthropic-version':'2023-06-01',...MODEL_HEADERS},body:JSON.stringify({model:MODEL,max_tokens:160,...MODEL_OPTIONS,system,messages})});
-    if(!api.ok){console.error('cosmetics Anthropic API error',api.status,await api.text());return fallback();}
-    const data=await api.json();const reply=Array.isArray(data.content)?data.content.filter(b=>b.type==='text').map(b=>b.text).join('').trim():'';
-    const clean=reply.replace(/[\u002a_\u0060#]/g,'').replace(/\s+/g,' ').trim();if(!clean)return fallback();
-    return res.status(200).json({reply:clean});
-  }catch(error){console.error('cosmetics chat provider error',error);return fallback();}
+  const slug=String(body.demoId||'');
+  // The catalogue rules draft a verified answer; Claude answers the customer in its own words from the same data.
+  const draft=(await catalogueReply(slug,latest,messages))||fallbackReply(demo,latest);
+  const ai=await aiAnswer({family:'hair',brand:demo.brand,web:demo.web,catalogue:globalThis.CX_CATALOGUES?.[slug]||{products:demo.products.map(name=>({name}))},messages,draft});
+  if(ai)return res.status(200).json({reply:ai});
+  return res.status(200).json({reply:draft,fallback:true});
 }
 
 
