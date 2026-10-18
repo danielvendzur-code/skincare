@@ -226,16 +226,20 @@
 
   function messageBody(text) {
     const linkedProducts=brand.catalogue || (slug==='modrapupava'?brand.products:null);
-    if(!linkedProducts)return esc(text);
+    // Lines stay lines; the shop's own pages (shipping, terms) open as links too.
+    const host=(u)=>{try{return new URL(u).hostname.replace(/^www\./,'');}catch(_){return '';}};
+    const shop=host((linkedProducts||[]).find(p=>p.url)?.url||brand.website||brand.url||'');
+    const lines=(value)=>esc(value).replace(/\n/g,'<br>');
     let cursor=0,html='';
     for(const match of text.matchAll(/https?:\/\/[^\s]+/g)) {
       const url=match[0].replace(/[.,;]+$/,'');
-      html+=esc(text.slice(cursor,match.index));
-      const known=linkedProducts.some(p=>p.url===url);
-      html+=known?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">Pozrieť produkt v e-shope ↗</a>${esc(match[0].slice(url.length))}`:esc(match[0]);
+      html+=lines(text.slice(cursor,match.index));
+      const known=(linkedProducts||[]).some(p=>p.url===url);
+      const own=!known&&shop&&host(url).endsWith(shop.split('.').slice(-2).join('.'));
+      html+=known?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">Pozrieť produkt v e-shope ↗</a>${esc(match[0].slice(url.length))}`:own?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">Otvoriť stránku e-shopu ↗</a>${esc(match[0].slice(url.length))}`:esc(match[0]);
       cursor=match.index+match[0].length;
     }
-    return html+esc(text.slice(cursor));
+    return html+lines(text.slice(cursor));
   }
 
   function messageText(message){const text=esc(message.text).replace(/\n/g,'<br>');if(message.role!=='assistant')return text;const urls=new Set((brand.catalogue||brand.products||[]).map(p=>esc(p.url)));for(const url of [brand.website,brand.url])if(url)urls.add(esc(url));return text.replace(/https?:\/\/[^\s<>]+/g,value=>{let url=value;if(!urls.has(url))url=url.replace(/[.,;]+$/,'');return urls.has(url)?'<a href="'+url+'" target="_blank" rel="noopener noreferrer">Pozrieť v e-shope ↗</a>'+value.slice(url.length):value;});}

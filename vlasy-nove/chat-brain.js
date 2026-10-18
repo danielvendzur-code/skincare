@@ -592,6 +592,8 @@
   function pickupReply(ad) {
     const s = ad.shipping || {};
     const clauses = s.pickup?.length ? s.pickup.map(c => c.replace(/[.;,]+$/, '')) : uniq([...(s.lines || []), ...(s.delivery || []), ...(s.payment || [])].flatMap(l => l.split(/(?<=[.;])\s+|,\s+/)).filter(c => /osobn|odber|vyzdvih|predajn|prazia|pražia/i.test(c)).map(c => c.replace(/[.;,]+$/, '').replace(/^\w/, ch => ch.toUpperCase())));
+    // Without the shop's facts in the demo nothing is claimed about its pages.
+    if (!ad.shipping) return (ad.lang === 'cs' ? 'Osobní odběr v ukázce ověřený nemám. Aktuální možnosti jsou v e-shopu: ' : 'Osobný odber v ukážke overený nemám. Aktuálne možnosti sú v e-shope: ') + ad.source;
     if (!clauses.length) return (ad.lang === 'cs' ? 'Osobní odběr ani prodejnu e-shop na svých stránkách neuvádí. Aktuální možnosti jsou v e-shopu: ' : 'Osobný odber ani predajňu e-shop na svojej stránke neuvádza. Aktuálne možnosti sú v e-shope: ') + (s.termsUrl || s.url || ad.source);
     const more = s.pickup?.length ? (ad.lang === 'cs' ? 'Podrobnosti najdete v e-shopu: ' : 'Podrobnosti nájdete v e-shope: ') : (ad.lang === 'cs' ? 'Otevírací dobu a adresu najdete v e-shopu: ' : 'Otváracie hodiny a adresu nájdete v e-shope: ');
     return [(ad.lang === 'cs' ? 'Osobní odběr podle e-shopu' : 'Osobný odber podľa e-shopu') + (s.checkedAt ? ' (' + s.checkedAt + ')' : '') + ':', clauses.join('. ') + '.', more + (s.pickup?.length ? s.url || s.termsUrl || '' : s.termsUrl || s.url || '')].join('\n');
@@ -659,7 +661,9 @@
     // "Koľko stojí?", "Je skladom?" right after one product was shown asks about that product.
     const PRICE_Q = /kolko stoj|kolik stoj|\bcena\b|\bcenu\b|za kolko|za kolik/;
     const lastBotMsg = [...messages].slice(0, -1).reverse().find(m => m.role === 'assistant');
-    const shownLast = !named.length && lastBotMsg ? uniq(shownProducts(ad, [lastBotMsg])) : [];
+    // The products just shown; after a short answer about them ("Stoja rovnako …"), the list before it.
+    const bots = [...messages].slice(0, -1).reverse().filter(m => m.role === 'assistant').slice(0, 2);
+    const shownLast = named.length ? [] : uniq(shownProducts(ad, [bots[0]].filter(Boolean))).length ? uniq(shownProducts(ad, [bots[0]])) : bots[1] && !/https?:\/\//.test(bots[0]?.content || '') ? uniq(shownProducts(ad, [bots[1]])) : [];
     const PRONOUN = /\b(?:ju|ho|tuto|tuhle|tento|tenhle|tu istu|tu kavu|tuto kavu|tato|tata|ta)\b/;
     // "A lacnejšiu?", "Ešte lacnejší": cheaper than everything just shown.
     if (shownLast.length >= 2 && /\bktor\w*|\bktery\w*|\bktera\b|\bktere\b/.test(q) && /lacnejs|levnejs|drahs|draz/.test(q) && !/\d/.test(q)) {
@@ -667,8 +671,12 @@
       if (pair.length >= 2) {
         const cheap = /lacnejs|levnejs/.test(q);
         const best = pair.slice().sort((u, v) => cheap ? u.a - v.a : v.a - u.a);
-        if (best[0].a === best[1].a) return (ad.lang === 'cs' ? 'Stojí stejně, ' : 'Stoja rovnako, ') + money(best[0].a, ad.currency) + '.';
-        return (cheap ? (ad.lang === 'cs' ? 'Levnější je ' : 'Lacnejší je ') : (ad.lang === 'cs' ? 'Dražší je ' : 'Drahší je ')) + line(ad, best[0].x, st);
+        const tied = best.filter(o => o.a === best[0].a);
+        if (tied.length === best.length) return (ad.lang === 'cs' ? 'Stojí stejně, ' : 'Stoja rovnako, ') + money(best[0].a, ad.currency) + '.';
+        // Two of three at the same price: both are named, with what the other one costs.
+        if (tied.length > 1) return tied.map(o => o.x.name).join(ad.lang === 'cs' ? ' a ' : ' a ') + (ad.lang === 'cs' ? ' stojí stejně, ' : ' stoja rovnako, ') + money(best[0].a, ad.currency) + '; ' + best.filter(o => !tied.includes(o)).map(o => o.x.name + (ad.lang === 'cs' ? ' stojí ' : ' stojí ') + money(o.a, ad.currency)).join(', ') + '.';
+        const most = /\bnaj|\bnej/.test(q);
+        return (cheap ? (most ? (ad.lang === 'cs' ? 'Nejnižší cenu má ' : 'Najnižšiu cenu má ') : (ad.lang === 'cs' ? 'Levnější je ' : 'Lacnejší je ')) : (most ? (ad.lang === 'cs' ? 'Nejvyšší cenu má ' : 'Najvyššiu cenu má ') : (ad.lang === 'cs' ? 'Dražší je ' : 'Drahší je '))) + line(ad, best[0].x, st);
       }
     }
     const lastListed = !named.length ? [...messages].slice(0, -1).reverse().filter(m => m.role === 'assistant').slice(0, 3).map(m => uniq(shownProducts(ad, [m]))).find(l => l.length) || [] : [];
