@@ -23,6 +23,9 @@ export function tagsOf(product){
 }
 export function matches(product,answers={}) {
   if(product.available===false)return false;
+  // Keep unpriced informational/custom-order items in the catalogue and chat,
+  // but do not present them as a priced recommendation in the guided choice.
+  if(product.priceUnavailable===true)return false;
   if(answers.kind && product.kind!==answers.kind)return false;
   const tags=tagsOf(product);
   if(answers.required?.some(tag=>!tags.includes(tag)))return false;
@@ -88,7 +91,7 @@ function budgetQuestion(brand,pool){
  return {key:'budget',title:'Do akej sumy vyberáme?',options};
 }
 export function questionsFor(brand,answers={}) {
- const liveKinds=brand.kinds.filter(k=>brand.products.some(p=>p.kind===k&&p.available!==false));
+ const liveKinds=brand.kinds.filter(k=>brand.products.some(p=>p.kind===k&&matches(p)));
  const first={key:'kind',title:'Čo dnes vyberáme?',options:liveKinds.map(k=>({value:k,title:brand.kindLabels?.[k]||(k==='airplants'?'Tillandsie':LABELS[k]),text:tidy(brand.categoryNotes?.[k]||'Z ponuky tohto e-shopu'),image:brand.products.find(p=>p.kind===k&&p.available!==false&&p.photo)?.photo}))};
  const list=liveKinds.length>1?[first]:[];
  const kind=answers.kind||(liveKinds.length>1?null:liveKinds[0]);
@@ -101,7 +104,7 @@ export function questionsFor(brand,answers={}) {
  return list.map((q,i)=>({...q,kicker:String(i+1).padStart(2,'0')+' · '+(names[q.key]||'Výber')}));
 }
 /* Is the selection finished? Later questions may only appear after an answer. */
-export const complete=(brand,answers={})=>questionsFor(brand,answers).every(q=>answers[q.key]!==undefined)&&(brand.kinds.filter(k=>brand.products.some(p=>p.kind===k&&p.available!==false)).length<2||!!answers.kind);
+export const complete=(brand,answers={})=>questionsFor(brand,answers).every(q=>answers[q.key]!==undefined)&&(brand.kinds.filter(k=>brand.products.some(p=>p.kind===k&&matches(p))).length<2||!!answers.kind);
 /* With a budget the closest product under the limit wins; without one the middle of the range.
    The order is fully determined by the catalogue, never shuffled. */
 export function rankProducts(brand,answers={}) {

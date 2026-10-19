@@ -1,0 +1,787 @@
+{
+  "scope": "Exact official product URLs; displayed prices, availability, and available set quantities",
+  "rows": [
+    {
+      "slug": "poniveni",
+      "id": "refresh-a543064d15901f",
+      "url": "https://www.poniveni.sk/odolny-hrantik",
+      "checkedAt": "2026-10-19T07:07:29.259Z",
+      "name": "Odolný hrantík",
+      "price": "11,99 € za dostupnú časť setu",
+      "priceValue": 11.99,
+      "available": true,
+      "package": {
+        "total": 4,
+        "available": 2
+      },
+      "facts": [
+        "Set: 4 ks, aktuálne dostupných 2 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-545aa7cec14eb6",
+      "url": "https://www.poniveni.sk/zivy-tien-zahon",
+      "checkedAt": "2026-10-19T07:07:29.423Z",
+      "name": "Živý tieň",
+      "price": "15,18 € za dostupnú časť setu",
+      "priceValue": 15.18,
+      "available": true,
+      "package": {
+        "total": 5,
+        "available": 3
+      },
+      "facts": [
+        "Set: 5 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-32ebe343253e31",
+      "url": "https://www.poniveni.sk/bezstarostne-leto-1",
+      "checkedAt": "2026-10-19T07:07:29.573Z",
+      "name": "Bezstarostné leto",
+      "price": "10,98 € za dostupnú časť setu",
+      "priceValue": 10.98,
+      "available": true,
+      "package": {
+        "total": 4,
+        "available": 2
+      },
+      "facts": [
+        "Set: 4 ks, aktuálne dostupných 2 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-61148c0b3aa044",
+      "url": "https://www.poniveni.sk/isota-bez-sklamania",
+      "checkedAt": "2026-10-19T07:07:29.725Z",
+      "name": "Istota bez sklamania",
+      "price": "10,98 € za dostupnú časť setu",
+      "priceValue": 10.98,
+      "available": true,
+      "package": {
+        "total": 4,
+        "available": 2
+      },
+      "facts": [
+        "Set: 4 ks, aktuálne dostupných 2 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-01a4eb2393b51e",
+      "url": "https://www.poniveni.sk/zahradka-starej-mamy",
+      "checkedAt": "2026-10-19T07:07:29.914Z",
+      "name": "Záhradka starej mamy",
+      "price": "46,24 € za dostupnú časť setu",
+      "priceValue": 46.24,
+      "available": true,
+      "package": {
+        "total": 11,
+        "available": 6
+      },
+      "facts": [
+        "Set: 11 ks, aktuálne dostupných 6 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-9aefdea8bf22d0",
+      "url": "https://www.poniveni.sk/suchy-tien",
+      "checkedAt": "2026-10-19T07:07:30.088Z",
+      "name": "Suchý tieň",
+      "price": "40,30 € za dostupnú časť setu",
+      "priceValue": 40.3,
+      "available": true,
+      "package": {
+        "total": 10,
+        "available": 7
+      },
+      "facts": [
+        "Set: 10 ks, aktuálne dostupných 7 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-ea73edd56e44cf",
+      "url": "https://www.poniveni.sk/rozkvitnuty-hrob",
+      "checkedAt": "2026-10-19T07:07:30.272Z",
+      "name": "Rozkvitnutý hrob",
+      "price": "15,28 € za dostupnú časť setu",
+      "priceValue": 15.28,
+      "available": true,
+      "package": {
+        "total": 8,
+        "available": 3
+      },
+      "facts": [
+        "Set: 8 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-8dfd54d4b941d6",
+      "url": "https://www.poniveni.sk/severoamericka-preria",
+      "checkedAt": "2026-10-19T07:07:30.468Z",
+      "name": "Severoamerická préria",
+      "price": "37,27 € za dostupnú časť setu",
+      "priceValue": 37.27,
+      "available": true,
+      "package": {
+        "total": 11,
+        "available": 6
+      },
+      "facts": [
+        "Set: 11 ks, aktuálne dostupných 6 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-7149e26354d1cc",
+      "url": "https://www.poniveni.sk/domovina-na-sucho",
+      "checkedAt": "2026-10-19T07:07:30.665Z",
+      "name": "Domovina na sucho",
+      "price": "42,88 € za dostupnú časť setu",
+      "priceValue": 42.88,
+      "available": true,
+      "package": {
+        "total": 13,
+        "available": 5
+      },
+      "facts": [
+        "Set: 13 ks, aktuálne dostupných 5 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-b4e1452f912b0c",
+      "url": "https://www.poniveni.sk/stopcumil",
+      "checkedAt": "2026-10-19T07:07:30.839Z",
+      "name": "StopČumil",
+      "price": "38,44 € za dostupnú časť setu",
+      "priceValue": 38.44,
+      "available": true,
+      "package": {
+        "total": 7,
+        "available": 4
+      },
+      "facts": [
+        "Set: 7 ks, aktuálne dostupných 4 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-f8922909bc0273",
+      "url": "https://www.poniveni.sk/kvitnuci-hrantik-do-prvych-mrazov",
+      "checkedAt": "2026-10-19T07:07:30.999Z",
+      "name": "Kvitnúci hrantík do prvých mrazov",
+      "price": "20,48 € za set",
+      "priceValue": 20.48,
+      "available": true,
+      "package": {
+        "total": 3,
+        "available": 3
+      },
+      "facts": [
+        "Set: 3 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za celý set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-60561e554cac5e",
+      "url": "https://www.poniveni.sk/zamatovy-vanok",
+      "checkedAt": "2026-10-19T07:07:31.157Z",
+      "name": "Zamatový vánok",
+      "price": "10,88 € za dostupnú časť setu",
+      "priceValue": 10.88,
+      "available": true,
+      "package": {
+        "total": 4,
+        "available": 2
+      },
+      "facts": [
+        "Set: 4 ks, aktuálne dostupných 2 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-29d890d0295c1f",
+      "url": "https://www.poniveni.sk/slnecny-svah",
+      "checkedAt": "2026-10-19T07:07:31.335Z",
+      "name": "Slnečný svah",
+      "price": "17,51 € za dostupnú časť setu",
+      "priceValue": 17.51,
+      "available": true,
+      "package": {
+        "total": 10,
+        "available": 3
+      },
+      "facts": [
+        "Set: 10 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-38d7168901d67d",
+      "url": "https://www.poniveni.sk/trvalkove-zahony/zlte-leto-v-crepniku",
+      "checkedAt": "2026-10-19T07:07:31.499Z",
+      "name": "Žlté leto v črepníku",
+      "price": "10,28 € za dostupnú časť setu",
+      "priceValue": 10.28,
+      "available": true,
+      "package": {
+        "total": 3,
+        "available": 2
+      },
+      "facts": [
+        "Set: 3 ks, aktuálne dostupných 2 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-cb53da5aaf9a22",
+      "url": "https://www.poniveni.sk/biely-sen-v-crepniku",
+      "checkedAt": "2026-10-19T07:07:31.658Z",
+      "name": "Biely sen v črepníku",
+      "price": "6,99 € za dostupnú časť setu",
+      "priceValue": 6.99,
+      "available": true,
+      "package": {
+        "total": 4,
+        "available": 1
+      },
+      "facts": [
+        "Set: 4 ks, aktuálne dostupných 1 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-378f07a283db08",
+      "url": "https://www.poniveni.sk/fialova-elegancia-v-crepniku",
+      "checkedAt": "2026-10-19T07:07:31.818Z",
+      "name": "Fialová elegancia v črepníku",
+      "price": "10,98 € za dostupnú časť setu",
+      "priceValue": 10.98,
+      "available": true,
+      "package": {
+        "total": 3,
+        "available": 2
+      },
+      "facts": [
+        "Set: 3 ks, aktuálne dostupných 2 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-530368524cfc37",
+      "url": "https://www.poniveni.sk/farebne-leto-na-terase",
+      "checkedAt": "2026-10-19T07:07:31.988Z",
+      "name": "Farebné leto na terase",
+      "price": "8,59 € za dostupnú časť setu",
+      "priceValue": 8.59,
+      "available": true,
+      "package": {
+        "total": 3,
+        "available": 1
+      },
+      "facts": [
+        "Set: 3 ks, aktuálne dostupných 1 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-410e6cd304978e",
+      "url": "https://www.poniveni.sk/trvalkove-zahony/pastelovy-zahon-v-pohybe",
+      "checkedAt": "2026-10-19T07:07:32.164Z",
+      "name": "Pastelový záhon v pohybe",
+      "price": "22,99 € za dostupnú časť setu",
+      "priceValue": 22.99,
+      "available": true,
+      "package": {
+        "total": 7,
+        "available": 4
+      },
+      "facts": [
+        "Set: 7 ks, aktuálne dostupných 4 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-55e54c1a706b01",
+      "url": "https://www.poniveni.sk/overena-klasika-pri-plote",
+      "checkedAt": "2026-10-19T07:07:32.348Z",
+      "name": "Overená klasika pri plote",
+      "price": "11,18 € za dostupnú časť setu",
+      "priceValue": 11.18,
+      "available": true,
+      "package": {
+        "total": 6,
+        "available": 2
+      },
+      "facts": [
+        "Set: 6 ks, aktuálne dostupných 2 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-127b1e4e3c35ac",
+      "url": "https://www.poniveni.sk/trvalkove-zahony/ruzove-babie-leto",
+      "checkedAt": "2026-10-19T07:07:32.534Z",
+      "name": "Ružové babie leto",
+      "price": "33,79 € za dostupnú časť setu",
+      "priceValue": 33.79,
+      "available": true,
+      "package": {
+        "total": 7,
+        "available": 4
+      },
+      "facts": [
+        "Set: 7 ks, aktuálne dostupných 4 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-462c4215eaf6d7",
+      "url": "https://www.poniveni.sk/ruzova-nalada-v-crepniku",
+      "checkedAt": "2026-10-19T07:07:32.704Z",
+      "name": "Ružová nálada v črepníku",
+      "price": "29,90 € za dostupnú časť setu",
+      "priceValue": 29.9,
+      "available": true,
+      "package": {
+        "total": 3,
+        "available": 1
+      },
+      "facts": [
+        "Set: 3 ks, aktuálne dostupných 1 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-4ab2714875d963",
+      "url": "https://www.poniveni.sk/trvalkove-zahony/bordova-elegancia",
+      "checkedAt": "2026-10-19T07:07:32.864Z",
+      "name": "Bordová elegancia",
+      "price": "13,59 € za dostupnú časť setu",
+      "priceValue": 13.59,
+      "available": true,
+      "package": {
+        "total": 3,
+        "available": 2
+      },
+      "facts": [
+        "Set: 3 ks, aktuálne dostupných 2 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-4c0e249686e14a",
+      "url": "https://www.poniveni.sk/ruze-v-trvalkovom-objati",
+      "checkedAt": "2026-10-19T07:07:33.040Z",
+      "name": "Ruže v trvalkovom objatí",
+      "price": "17,97 € za dostupnú časť setu",
+      "priceValue": 17.97,
+      "available": true,
+      "package": {
+        "total": 5,
+        "available": 3
+      },
+      "facts": [
+        "Set: 5 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-411d474ca374c8",
+      "url": "https://www.poniveni.sk/strieborny-sepot-tiena",
+      "checkedAt": "2026-10-19T07:07:33.208Z",
+      "name": "Strieborný šepot tieňa",
+      "price": "16,40 € za dostupnú časť setu",
+      "priceValue": 16.4,
+      "available": true,
+      "package": {
+        "total": 5,
+        "available": 2
+      },
+      "facts": [
+        "Set: 5 ks, aktuálne dostupných 2 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-e9dd7d4513ae83",
+      "url": "https://www.poniveni.sk/ticho-pod-javorom",
+      "checkedAt": "2026-10-19T07:07:33.362Z",
+      "name": "Ticho pod javorom",
+      "price": "39,99 € za dostupnú časť setu",
+      "priceValue": 39.99,
+      "available": true,
+      "package": {
+        "total": 4,
+        "available": 2
+      },
+      "facts": [
+        "Set: 4 ks, aktuálne dostupných 2 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-deba40ddfcf091",
+      "url": "https://www.poniveni.sk/leto-bez-konca",
+      "checkedAt": "2026-10-19T07:07:33.540Z",
+      "name": "Leto bez konca",
+      "price": "5,59 € za dostupnú časť setu",
+      "priceValue": 5.59,
+      "available": true,
+      "package": {
+        "total": 6,
+        "available": 1
+      },
+      "facts": [
+        "Set: 6 ks, aktuálne dostupných 1 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-a300e94d225e7b",
+      "url": "https://www.poniveni.sk/trvalkove-zahony/suchomilny-balkon",
+      "checkedAt": "2026-10-19T07:07:33.714Z",
+      "name": "Suchomilný balkón",
+      "price": "18,09 € za dostupnú časť setu",
+      "priceValue": 18.09,
+      "available": true,
+      "package": {
+        "total": 5,
+        "available": 3
+      },
+      "facts": [
+        "Set: 5 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-1d9ff73402cab3",
+      "url": "https://www.poniveni.sk/trvalkove-zahony/veterny-balkon",
+      "checkedAt": "2026-10-19T07:07:33.876Z",
+      "name": "Veterný balkón",
+      "price": "16,79 € za dostupnú časť setu",
+      "priceValue": 16.79,
+      "available": true,
+      "package": {
+        "total": 4,
+        "available": 3
+      },
+      "facts": [
+        "Set: 4 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-307ce92726b9b2",
+      "url": "https://www.poniveni.sk/jesenne-striebro",
+      "checkedAt": "2026-10-19T07:07:34.036Z",
+      "name": "Jesenné striebro",
+      "price": "11,89 € za dostupnú časť setu",
+      "priceValue": 11.89,
+      "available": true,
+      "package": {
+        "total": 3,
+        "available": 2
+      },
+      "facts": [
+        "Set: 3 ks, aktuálne dostupných 2 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-17b75261e8647c",
+      "url": "https://www.poniveni.sk/babie-leto",
+      "checkedAt": "2026-10-19T07:07:34.198Z",
+      "name": "Babie leto",
+      "price": "11,28 € za dostupnú časť setu",
+      "priceValue": 11.28,
+      "available": true,
+      "package": {
+        "total": 3,
+        "available": 2
+      },
+      "facts": [
+        "Set: 3 ks, aktuálne dostupných 2 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-b83a53db887853",
+      "url": "https://www.poniveni.sk/jesen-bez-vresov",
+      "checkedAt": "2026-10-19T07:07:34.385Z",
+      "name": "Jeseň bez vresov",
+      "price": "28,68 € za dostupnú časť setu",
+      "priceValue": 28.68,
+      "available": true,
+      "package": {
+        "total": 5,
+        "available": 3
+      },
+      "facts": [
+        "Set: 5 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-0738c7f7d9be7b",
+      "url": "https://www.poniveni.sk/strieborna-jesen-trvalky-do-kvetinaca",
+      "checkedAt": "2026-10-19T07:07:34.553Z",
+      "name": "Strieborná jeseň",
+      "price": "26,09 € za dostupnú časť setu",
+      "priceValue": 26.09,
+      "available": true,
+      "package": {
+        "total": 5,
+        "available": 3
+      },
+      "facts": [
+        "Set: 5 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-59829f6c00e3e5",
+      "url": "https://www.poniveni.sk/tichy-zahon-bez-vciel",
+      "checkedAt": "2026-10-19T07:07:34.741Z",
+      "name": "Tichý záhon bez včiel",
+      "price": "30,44 € za dostupnú časť setu",
+      "priceValue": 30.44,
+      "available": true,
+      "package": {
+        "total": 6,
+        "available": 5
+      },
+      "facts": [
+        "Set: 6 ks, aktuálne dostupných 5 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-d677e6c65e697e",
+      "url": "https://www.poniveni.sk/jesen-so-zimou-v-jednom-crepniku",
+      "checkedAt": "2026-10-19T07:07:34.899Z",
+      "name": "Jeseň so zimou v jednom črepníku",
+      "price": "46,39 € za set",
+      "priceValue": 46.39,
+      "available": true,
+      "package": {
+        "total": 4,
+        "available": 4
+      },
+      "facts": [
+        "Set: 4 ks, aktuálne dostupných 4 ks.",
+        "Uvedená cena je za celý set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-e78741826f1542",
+      "url": "https://www.poniveni.sk/netradicny-jesenny-crepnik",
+      "checkedAt": "2026-10-19T07:07:35.057Z",
+      "name": "Netradičný jesenný črepník",
+      "price": "37,39 € za set",
+      "priceValue": 37.39,
+      "available": true,
+      "package": {
+        "total": 4,
+        "available": 4
+      },
+      "facts": [
+        "Set: 4 ks, aktuálne dostupných 4 ks.",
+        "Uvedená cena je za celý set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-96d2eba0903403",
+      "url": "https://www.poniveni.sk/jesenna-laska-na-prvy-pohlad",
+      "checkedAt": "2026-10-19T07:07:35.229Z",
+      "name": "Jesenná láska na prvý pohľad",
+      "price": "28,67 € za dostupnú časť setu",
+      "priceValue": 28.67,
+      "available": true,
+      "package": {
+        "total": 5,
+        "available": 3
+      },
+      "facts": [
+        "Set: 5 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-1a2f3fb616b960",
+      "url": "https://www.poniveni.sk/hortenzia-trochu-inak",
+      "checkedAt": "2026-10-19T07:07:35.416Z",
+      "name": "Hortenzia trochu inak",
+      "price": "26,77 € za dostupnú časť setu",
+      "priceValue": 26.77,
+      "available": true,
+      "package": {
+        "total": 4,
+        "available": 3
+      },
+      "facts": [
+        "Set: 4 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-7ff6cfcc3ab177",
+      "url": "https://www.poniveni.sk/vonava-a-ruzova-jesen",
+      "checkedAt": "2026-10-19T07:07:35.590Z",
+      "name": "Voňavá a ružová jeseň",
+      "price": "33,34 € za dostupnú časť setu",
+      "priceValue": 33.34,
+      "available": true,
+      "package": {
+        "total": 7,
+        "available": 5
+      },
+      "facts": [
+        "Set: 7 ks, aktuálne dostupných 5 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-5bc2fb92042326",
+      "url": "https://www.poniveni.sk/fialova-jesen-vo-vetre",
+      "checkedAt": "2026-10-19T07:07:35.755Z",
+      "name": "Fialová jeseň vo vetre",
+      "price": "23,78 € za dostupnú časť setu",
+      "priceValue": 23.78,
+      "available": true,
+      "package": {
+        "total": 5,
+        "available": 3
+      },
+      "facts": [
+        "Set: 5 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "poniveni",
+      "id": "refresh-58970410e01f45",
+      "url": "https://www.poniveni.sk/kvitnuca-jesen-v-hrantiku",
+      "checkedAt": "2026-10-19T07:07:35.923Z",
+      "name": "Kvitnúca jeseň v hrantíku",
+      "price": "20,79 € za dostupnú časť setu",
+      "priceValue": 20.79,
+      "available": true,
+      "package": {
+        "total": 5,
+        "available": 3
+      },
+      "facts": [
+        "Set: 5 ks, aktuálne dostupných 3 ks.",
+        "Uvedená cena je za aktuálne dostupnú časť setu, nie za kompletný set."
+      ]
+    },
+    {
+      "slug": "brest",
+      "id": "refresh-beb135dfb6600b",
+      "url": "https://www.brest.sk/Cervienka70-100cm-d774.htm",
+      "checkedAt": "2026-10-19T07:07:27.645Z",
+      "name": "Červienka ‘Red Robin’ (Photinia fraseri ‘Red Robin’)",
+      "price": "11,50 €",
+      "priceValue": 11.5,
+      "available": false
+    },
+    {
+      "slug": "plantizia",
+      "id": "refresh-ea8d09bc563386",
+      "url": "https://plantizia.sk/obchod/nalepka-plantizia/",
+      "checkedAt": "2026-10-19T07:07:28.967Z",
+      "name": "Nálepka Plantizia",
+      "price": "0 €",
+      "priceValue": 0,
+      "available": true
+    },
+    {
+      "slug": "svokrinejazyky",
+      "id": "refresh-47aa9b6dd5a40b",
+      "url": "https://svokrinejazyky.sk/obchod/nausnice-monstera-adansonii-variegata/",
+      "checkedAt": "2026-10-19T07:07:39.442Z",
+      "name": "Náušnice Monstera adansonii Variegata",
+      "price": "Cenu potvrdí e-shop",
+      "priceValue": null,
+      "available": true,
+      "priceUnavailable": true
+    },
+    {
+      "slug": "svokrinejazyky",
+      "id": "refresh-e8774020d408c5",
+      "url": "https://svokrinejazyky.sk/obchod/darcekovy-poukaz/",
+      "checkedAt": "2026-10-19T07:07:42.868Z",
+      "name": "Personalizovaný darčekový poukaz",
+      "price": "Cenu potvrdí e-shop",
+      "priceValue": null,
+      "available": true,
+      "priceUnavailable": true
+    },
+    {
+      "slug": "izbovecky",
+      "id": "refresh-72199d0bcde60c",
+      "url": "https://www.izbovecky.sk/produkt/hildewintera-cleistocactus-coladomononis-opici-chvost",
+      "checkedAt": "2026-10-19",
+      "name": "Hildewintera/Cleistocactus coladomononis- Opičí chvost",
+      "price": "24,9 €",
+      "priceValue": 24.9,
+      "available": false
+    },
+    {
+      "slug": "izbovecky",
+      "id": "refresh-9fe72c11f0ad90",
+      "url": "https://www.izbovecky.sk/produkt/scindapsus-pictus-rubicon",
+      "checkedAt": "2026-10-19",
+      "name": "Scindapsus pictus rubicon",
+      "price": "od 9,90 €",
+      "priceValue": 9.9,
+      "available": true
+    }
+  ]
+}
