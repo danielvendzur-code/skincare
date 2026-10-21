@@ -253,3 +253,18 @@ html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-
 
 /* Preview: the additional neutral row is omitted. */
 html body #cosmetics-root#cosmetics-root#cosmetics-root #cx-widget#cx-widget#cx-widget .cx-advisor-body>.cx-neutral{display:none!important;}
+
+/* Product details and a clear next step without oversized cards. */
+#cx-widget .cx-result-next{margin:18px 0;padding-top:16px;border-top:1px solid #e2e4e2;}
+#cx-widget .cx-result-next h3{font-size:17px;margin:0 0 10px;}
+#cx-widget .cx-result-next p,#cx-widget .cx-why li{font-size:14px;line-height:1.55;}
+#cx-widget .cx-why ul{padding-left:20px;margin:8px 0;}
+#cx-widget .cx-next-product{display:flex;gap:14px;border:1px solid #d5d7d9;border-radius:18px;padding:14px;margin:12px 0;align-items:start;}
+#cx-widget .cx-next-product>img{width:92px;height:116px;object-fit:contain;border-radius:10px;flex:none;background:white;}
+#cx-widget .cx-next-product>div{min-width:0;flex:1;display:grid;gap:7px;}
+#cx-widget .cx-next-product small{font-size:11px;color:#65716a;}
+#cx-widget .cx-next-product b{font-size:15px;overflow-wrap:anywhere;}
+#cx-widget .cx-next-product p{margin:0;}
+#cx-widget .cx-next-product a{color:var(--cx-brand);font-size:13px;font-weight:700;}
+#cx-widget .cx-option:hover{border-color:#d5d7d9!important;transform:none!important;box-shadow:none!important;}
+#cx-widget .cx-option:focus-visible{outline:2px solid var(--cx-brand)!important;outline-offset:-3px!important;}

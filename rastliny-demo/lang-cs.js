@@ -13,6 +13,27 @@
 
   /* Whole text nodes. */
   const exact = {
+"Obsahuje kofeín.":"Obsahuje kofein.",
+"Prirodzene bez kofeínu.":"Přirozeně bez kofeinu.",
+"Porciovaný čaj vo vrecúškach na jednotlivé šálky.":"Porcovaný čaj v sáčcích na jednotlivé šálky.",
+"Sypaný čaj na prípravu v sitku alebo kanvici.":"Sypaný čaj pro přípravu v sítku nebo konvici.",
+"O produkte":"O produktu",
+"Prečo tento výber":"Proč tento výběr",
+"Čo odporúčam ďalej":"Co doporučuji dále",
+"Spĺňa vaše odpovede; z rovnako vhodných možností má najnižšiu cenu.":"Splňuje vaše odpovědi; ze stejně vhodných možností má nejnižší cenu.",
+"Spĺňa vaše odpovede a uvedené podmienky.":"Splňuje vaše odpovědi a uvedené podmínky.",
+"Alternatíva namiesto hlavného výberu":"Alternativa místo hlavního výběru",
+"Pred objednaním si pozrite dodávanú veľkosť a zvoľte miesto podľa uvedených nárokov na svetlo.":"Před objednáním si prohlédněte dodávanou velikost a zvolte místo podle uvedených nároků na světlo.",
+"Zmerajte vnútorný priemer obalu aj pestovateľský črepník; obal má poskytnúť miesto na jeho vloženie.":"Změřte vnitřní průměr obalu i pěstební květináč; obal má poskytnout místo pro jeho vložení.",
+"Vyberte objem balenia podľa veľkosti črepníka a počtu rastlín, ktoré chcete presadiť.":"Vyberte objem balení podle velikosti květináče a počtu rostlin, které chcete přesadit.",
+"Skontrolujte rozmery a variant, ktorý sa hodí k vášmu spôsobu pestovania.":"Zkontrolujte rozměry a variantu, která se hodí k vašemu způsobu pěstování.",
+"Nižšia cena pri zachovaní vašich podmienok.":"Nižší cena při zachování vašich podmínek.",
+"Ďalší produkt spĺňajúci vaše podmienky.":"Další produkt splňující vaše podmínky.",
+"Substrát k rastline":"Substrát k rostlině",
+"Alternatíva namiesto odporúčaného čaju; obe možnosti spĺňajú vaše odpovede.":"Alternativa místo doporučeného čaje; obě možnosti splňují vaše odpovědi.",
+"Jedno vrecúško pripravte podľa času lúhovania a množstva vody na obale.":"Jeden sáček připravte podle času louhování a množství vody na obalu.",
+"Odmerajte dávku podľa obalu a použite sitko alebo kanvicu. Čas lúhovania sa líši podľa konkrétneho čaju.":"Odměřte dávku podle obalu a použijte sítko nebo konvici. Čas louhování se liší podle konkrétního čaje.",
+"Pred prípravou si pozrite dávkovanie a čas lúhovania jednotlivých čajov v balení.":"Před přípravou si prohlédněte dávkování a čas louhování jednotlivých čajů v balení.",
     'Ktorá rastlina sa vám páči?':'Která rostlina se vám líbí?',
     'Ktorý druh kaktusu sa vám páči?':'Který druh kaktusu se vám líbí?',
     'Ovocné rastliny':'Ovocné rostliny',
@@ -321,6 +342,8 @@
 
   /* Sentences with a changing part. */
   const patterns = [
+[/^Balenie: (.+)\.$/, 'Balení: $1.'],
+[/^Spolu za rastlinu a substrát: (.+)$/, 'Celkem za rostlinu a substrát: $1'],
     [/^Ďalšie produkty spĺňajúce výber \((\d+)\)$/, 'Další produkty splňující výběr ($1)'],
     [/^Kávový chatbot pre (.+)$/, 'Kávový chatbot pro $1'], [/^Krok (\d+) zo (\d+)$/, 'Krok $1 ze $2'], [/^(\d+)\. krok$/, '$1. krok'],
     [/^(.+) – kávový poradca$/, '$1 – kávový poradce'], [/^Kávový poradca (.+)$/, 'Kávový poradce $1'], [/^(.+) – produktová prezentácia$/, '$1 – produktová prezentace'],

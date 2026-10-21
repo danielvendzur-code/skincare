@@ -661,6 +661,12 @@ export const CATALOGUE_CORRECTIONS = {
 
 export function applyCatalogueCorrections(brand, slug = brand?.slug) {
   const changes = CATALOGUE_CORRECTIONS[slug];
-  if (!changes) return brand;
-  return {...brand, products:brand.products.map(product => changes[product.id] ? {...product, ...changes[product.id]} : product)};
+  const products=brand.products.map(product=>{
+    let p=changes?.[product.id]?{...product,...changes[product.id]}:product;
+    // These names explicitly describe decorative goods, not living plants.
+    const name=String(p.name).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
+    if(/nausnic|nahrdelnik|naramek|prani\b|blahozelan|pohladnic|kvetinove konfety|lis na kvetiny|ram na suseni/.test(name))p={...p,kind:'accessories',tags:(p.tags||[]).filter(t=>!/^(genus|species):/.test(t))};
+    return p;
+  });
+  return {...brand,kinds:[...new Set([...brand.kinds,...products.map(p=>p.kind)])],products};
 }

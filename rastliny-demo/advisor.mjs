@@ -27,10 +27,11 @@ export function matches(product,answers={}) {
   // but do not present them as a priced recommendation in the guided choice.
   if(product.priceUnavailable===true)return false;
   if(answers.kind && product.kind!==answers.kind)return false;
+  if(answers.product && product.id!==answers.product)return false;
   const tags=tagsOf(product);
   if(answers.required?.some(tag=>!tags.includes(tag)))return false;
   for(const [key,value] of Object.entries(answers)) {
-    if(['kind','budget','required'].includes(key)||!value||value==='any')continue;
+    if(['kind','budget','required','product'].includes(key)||!value||value==='any')continue;
     if(!tags.includes(value))return false;
   }
   if(answers.budget && answers.budget!=='any' && (!Number.isFinite(product.priceValue)||product.priceValue>Number(answers.budget)||(product.sourcePriceFrom&&(!Number.isFinite(product.sourcePriceMax)||product.sourcePriceMax>Number(answers.budget)))))return false;
@@ -57,7 +58,7 @@ function facetQuestions(brand,kind,answers){
  const result=[];let fixed={kind};
  const groups=[...(GROUPS[kind]||LIVING)];
  for(const [key,title,values] of [...groups,...(GROUPS[kind]?[]:[['genus','Ktorá rastlina sa vám páči?',null]])]){
-  if(result.length>=3)break;
+  // Keep every meaningful difference; do not truncate the choice at three facets.
   const pool=candidates(brand,fixed);
   const list=(values||(key==='species'?speciesOf(pool):genera(pool))).map(value=>[value,pool.filter(p=>tagsOf(p).includes(value))]).filter(([,items])=>items.length);
   /* Worth asking only when at least two answers lead to different products. */
@@ -92,7 +93,7 @@ function budgetQuestion(brand,pool){
 }
 export function questionsFor(brand,answers={}) {
  const liveKinds=brand.kinds.filter(k=>brand.products.some(p=>p.kind===k&&matches(p)));
- const first={key:'kind',title:'Čo dnes vyberáme?',options:liveKinds.map(k=>({value:k,title:brand.kindLabels?.[k]||(k==='airplants'?'Tillandsie':LABELS[k]),text:tidy(brand.categoryNotes?.[k]||'Z ponuky tohto e-shopu'),image:brand.products.find(p=>p.kind===k&&p.available!==false&&p.photo)?.photo}))};
+ const first={key:'kind',title:'Čo dnes vyberáme?',options:liveKinds.map(k=>({value:k,title:brand.kindLabels?.[k]||(k==='airplants'?'Tillandsie':LABELS[k]),text:tidy(brand.categoryNotes?.[k]||(LABELS[k]||'Doplnky pre pestovanie')),image:brand.products.find(p=>p.kind===k&&p.available!==false&&p.photo)?.photo}))};
  const list=liveKinds.length>1?[first]:[];
  const kind=answers.kind||(liveKinds.length>1?null:liveKinds[0]);
  if(kind){
@@ -101,7 +102,9 @@ export function questionsFor(brand,answers={}) {
   if(questions.every(q=>answers[q.key]!==undefined)){const budget=budgetQuestion(brand,candidates(brand,fixed));if(budget)list.push(budget);}
  }
  const names={kind:'Čo hľadáte',budget:'Rozpočet',size:'Veľkosť',deliverySize:'Dodávaná veľkosť',colour:'Farba',material:'Materiál',light:'Svetlo',care:'Starostlivosť',genus:'Druh',use:'Použitie',type:'Typ',volume:'Balenie',bonsai:'Bonsaj'};
- return list.map((q,i)=>({...q,kicker:String(i+1).padStart(2,'0')+' · '+(names[q.key]||'Výber')}));
+ // Avoid repeating the same photograph, including options on later pages.
+ const photoKey=src=>String(src||'').split('?')[0].split('#')[0];
+ return list.map((q,i)=>{const used=new Set();return {...q,kicker:String(i+1).padStart(2,'0')+' · '+(names[q.key]||'Výber'),options:q.options.map(o=>{let image=o.image;if(image&&used.has(photoKey(image)))image=null;if(image)used.add(photoKey(image));return {...o,image};})};});
 }
 /* Is the selection finished? Later questions may only appear after an answer. */
 export const complete=(brand,answers={})=>questionsFor(brand,answers).every(q=>answers[q.key]!==undefined)&&(brand.kinds.filter(k=>brand.products.some(p=>p.kind===k&&matches(p))).length<2||!!answers.kind);
@@ -109,9 +112,9 @@ export const complete=(brand,answers={})=>questionsFor(brand,answers).every(q=>a
    The order is fully determined by the catalogue, never shuffled. */
 export function rankProducts(brand,answers={}) {
  const pool=candidates(brand,answers);if(!pool.length)return pool;
- const prices=pool.map(p=>p.priceValue).sort((x,y)=>x-y);
- const target=answers.budget&&answers.budget!=='any'?Number(answers.budget):prices[Math.floor((prices.length-1)/2)];
- return pool.sort((x,y)=>Math.abs(x.priceValue-target)-Math.abs(y.priceValue-target)||x.priceValue-y.priceValue||x.name.localeCompare(y.name,'sk'));
+ // All remaining products satisfy the requested facets. Use the lower price
+ // as a transparent tie-break; a budget is a ceiling, not a spending target.
+ return pool.sort((x,y)=>x.priceValue-y.priceValue||x.name.localeCompare(y.name,'sk'));
 }
 // Shops sometimes list the same plant once with "pot" and once with
 // "květináč". Keep both SKUs in the catalogue, but show a distinct alternative.

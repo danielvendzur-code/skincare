@@ -1,4 +1,5 @@
-import {questionsFor, rankProducts, productIdentity, matchedLabels as labelsFor, catalogueReply, complete, tidy} from './advisor.mjs?v=e94686bb';
+import {questionsFor, rankProducts, productIdentity, matchedLabels as labelsFor, catalogueReply, complete, tidy} from './advisor.mjs?v=aff8db2fe3';
+import {productInfo, followUp, difference} from './result-guide.mjs?v=766fb25b6c';
 (() => {
   'use strict';
 
@@ -322,22 +323,29 @@ import {questionsFor, rankProducts, productIdentity, matchedLabels as labelsFor,
       stage.innerHTML='<section class="cx-empty"><span class="cx-kicker">Upravme výber</span><h2>Presnú zhodu nemám.</h2><p>V overenej ponuke nie je produkt, ktorý spĺňa všetky podmienky. Skúsime iný rozpočet alebo preferenciu?</p><button class="cx-restart" id="cx-restart">Vybrať znova</button></section>';
       stage.querySelector('#cx-restart').addEventListener('click',resetAdvisor);return;
     }
-    const alt=state.alternative;
+    const next=followUp(brand,product,rankProducts(brand,state.answers),state.answers),alt=next.alternative;
+    const info=productInfo(product);
+    const ranked=rankProducts(brand,state.answers);
+    const choiceReason=ranked.length>1?'Spĺňa vaše odpovede; z rovnako vhodných možností má najnižšiu cenu.':'Spĺňa vaše odpovede a uvedené podmienky.';
     stage.innerHTML=`
       <section class="cx-result">
         <header class="cx-progress"><button id="cx-result-back" type="button">${icons.back}<span>Späť</span></button><div>${questions.map(()=>'<i class="is-on"></i>').join('')}</div><b>Výsledok</b></header>
         <div class="cx-result-body">
           <span class="cx-kicker">Váš smer</span>
           <article class="cx-product ${product.photo?'':'cx-product--no-photo'}">${product.photo?`<div class="cx-product-photo"><img src="${esc(product.photo)}" alt="${esc(product.name)}" referrerpolicy="no-referrer" onerror="this.closest('.cx-product-photo')?.setAttribute('data-image-failed','true')"></div>`:``}<div class="cx-product-copy"><small>${esc(brand.name)}</small><h2>${esc(product.name)}</h2>${matchedLabels(product).length?`<div class="cx-product-tags">${matchedLabels(product).map((label)=>`<span>${esc(label)}</span>`).join('')}</div>`:''}<div class="cx-product-price"><strong>${esc(product.price)}</strong><a href="${product.url}" target="_blank" rel="noreferrer">Pozrieť produkt ${icons.arrow}</a></div></div></article>
-          <section class="cx-why"><small>Prečo práve toto</small><p>${esc(tidy(product.reason))}</p></section>
-          ${alt && alt.id!==product.id ? `<article class="cx-alt"><span>${icons.leaf}</span><div><small>Alternatíva</small><b>${esc(alt.name)}</b></div><a href="${alt.url}" target="_blank" rel="noreferrer" aria-label="Pozrieť alternatívu">${icons.arrow}</a></article>`:''}
+          <section class="cx-why"><small>O produkte</small><ul>${info.map(f=>`<li>${esc(f)}</li>`).join('')}</ul></section>
+          <section class="cx-why"><small>Prečo tento výber</small><p>${esc(choiceReason)}</p></section>
+          <section class="cx-result-next"><h3>Čo odporúčam ďalej</h3><p>${esc(next.action)}</p>
+          ${next.complement?`<article class="cx-next-product"><img src="${esc(next.complement.photo)}" alt=""><div><small>Substrát k rastline</small><b>${esc(next.complement.name)}</b><p>${esc(productInfo(next.complement).join(' '))}</p><strong>${esc(next.complement.price)}</strong><a href="${esc(next.complement.url)}" target="_blank" rel="noreferrer">Pozrieť produkt ↗</a></div></article><p class="cx-bundle-total">Spolu za rastlinu a substrát: ${esc(next.total.toLocaleString('sk-SK',{maximumFractionDigits:2}))} ${product.currency==='CZK'?'Kč':'€'}</p>`:''}
+          ${alt?`<article class="cx-next-product"><img src="${esc(alt.photo)}" alt=""><div><small>Alternatíva namiesto hlavného výberu</small><b>${esc(alt.name)}</b><p>${esc(difference(product,alt))}</p><strong>${esc(alt.price)}</strong><a href="${esc(alt.url)}" target="_blank" rel="noreferrer">Pozrieť produkt ↗</a></div></article>`:''}</section>
+
 
           <button class="cx-restart" id="cx-restart" type="button">Vybrať znova</button>
         </div>
       </section>`;
     stage.querySelector('#cx-result-back').addEventListener('click',()=>{state.result=null;state.alternative=null;state.step=questionsFor(brand,state.answers).length-1;renderAdvisor();});
     stage.querySelector('#cx-restart').addEventListener('click',resetAdvisor);
-    const remaining=rankProducts(brand,state.answers).filter(p=>p.id!==product.id);
+    const remaining=rankProducts(brand,state.answers).filter(p=>p.id!==product.id&&p.id!==alt?.id);
     if(remaining.length){const details=document.createElement('details');details.className='cx-more-products';const summary=document.createElement('summary');summary.textContent='Ďalšie produkty spĺňajúce výber ('+remaining.length+')';details.append(summary);const list=document.createElement('div');let shown=0;const append=()=>{for(const p of remaining.slice(shown,shown+24)){const a=document.createElement('a');a.href=p.url;a.target='_blank';a.rel='noopener noreferrer';a.innerHTML=(p.photo?'<img loading="lazy" src="'+esc(p.photo)+'" alt="">':'')+'<span><b>'+esc(p.name)+'</b><small>'+esc(tidy(p.reason))+'</small><strong>'+esc(p.price)+'</strong></span>';list.append(a);}shown+=24;};append();details.append(list);if(remaining.length>shown){const next=document.createElement('button');next.className='cx-restart';next.textContent='Načítať ďalšie';next.addEventListener('click',()=>{append();if(shown>=remaining.length)next.remove();});details.append(next);}stage.querySelector('.cx-result-body').append(details);}
   }
 
