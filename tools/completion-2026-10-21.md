@@ -11,3 +11,6 @@ Rastliny: všetkých 22 značiek má produktové informácie, dôvod výberu, ď
 Kontroly bez plateného AI: aktuálny care renderer 63 značiek / 9 068 výsledkových ciest; rastliny 22 značiek / 6 523 ciest; offline API skin 2 897/2 897, vlasy 543/543, rastliny 1 371/1 371. Mobilné kľúčové priechody všetkých 52 kozmetických a 11 vlasových značiek; rastliny všetkých 22 na mobile aj desktope. Presný stav verejného nasadenia sa eviduje osobitne v pracovnom outputs/qa.
 
 Sonnet, tajomstvá, DNS, hostingové plány a autentifikácia sa nemenia.
+
+
+22. 10.: staršie odoslané Mydlitto sa ďalej nemení. Pri ďalšom nasadení načíta presné produkčné verzie advisor-core.js a catalogue-config.js z ee5d22b cez releases/mydlitto-20261021. Ostatné jeho údaje a štýly sa nemenili. Miestny mobilný priechod aj kontrola hashov prešli. Nové opravy ostatných značiek zostávajú pripravené; produkčné nasadenie samostatných projektov zatiaľ bráni oprávnenie Vercel.
